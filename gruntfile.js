@@ -26,7 +26,7 @@ module.exports = function (grunt) {
             classPrefix: "eos-",
             template: 'templates/css-template.css',
             iconsStyles: false,
-            htmlDemo: true
+            htmlDemo: false
           },
           stylesheets: ['css'],
           customOutputs: [{
