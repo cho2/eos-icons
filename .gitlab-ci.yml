@@ -1,24 +1,9 @@
 stages:
-  - test
-  - deploy
   - publish
 
 image: node:8.4.0
 
 # Start the jobs
-pages:
-  stage: deploy
-  script:
-    - mkdir .public
-    - cp -r dist/* .public
-    - mv .public public
-  environment:
-    name: production
-  artifacts:
-    paths:
-      - public
-  only:
-    - master
 
 npm-publish:
   stage: publish
