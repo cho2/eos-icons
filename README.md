@@ -1,6 +1,6 @@
 # EOS iconic font
 
-Demo: https://suse-uiux.gitlab.io/eos-icons/
+Demo: https://eos-icons.eosdesignsystem.com/
 
 This is the iconic font used in the EOS Design System. The official SUSE Linux Design System, and for all open source projects to use and re-use.
 
@@ -26,7 +26,7 @@ Just like in any other iconic font, you need to add the Fonts and CSS files in y
 <i class="eos-icons"> LIGATURE_OF_THE_ICON</i>
 ```
 
-Where the LIGATURE_OF_THE_ICON is the name of the icon. Use our online tool to see the icon's name: https://suse-uiux.gitlab.io/eos-icons/, or simply run `open dist/index.html` to see it locally.
+Where the LIGATURE_OF_THE_ICON is the name of the icon. Use our online tool to see the icon's name: https://eos-icons.eosdesignsystem.com/.
 
 # Using animated icons
 
@@ -38,7 +38,7 @@ For example:
 <i class="eos-icons eos-icon-loading"></i>
 ```
 
-See the other animated icons classes in our [demo page](https://suse-uiux.gitlab.io/eos-icons/). Click on the icon you want to use to see the code snippet.
+See the other animated icons classes in our [demo page](https://eos-icons.eosdesignsystem.com/). Click on the icon you want to use to see the code snippet.
 
 # EOS extended version with Material Design
 
@@ -135,12 +135,7 @@ grunt
 ```
 This will build the assets under the `dist/` folder.
 
-Open the `index.html` in your browser to easily navigate the iconic font and check the look of the icons in different sizes.
 
-```
-open dist/index.html
-```
-
-We added the recommended sizes MD icons use: 18, 24, 36, and 48 pixels, plus 16px which is our minimum allowed size at EOS Design System.
+We recommended sizes MD icons use: 18, 24, 36, and 48 pixels, plus 16px which is our minimum allowed size at EOS Design System.
 
 **That's it!!.. easy as pie**

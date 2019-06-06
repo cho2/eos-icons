@@ -6,34 +6,6 @@ stages:
 image: node:8.4.0
 
 # Start the jobs
-test_lints_sass:
-  stage: test
-  before_script:
-    - npm install
-  script:
-    - npx grunt sasslint
-
-test_lints_js:
-  stage: test
-  before_script:
-    - npm install
-  script:
-    - npx grunt eslint
-
-deploy_wip:
-  stage: deploy
-  image: ruby:latest
-  environment:
-    name: development
-    url: https://$HEROKU_DEVELOPMENT_NAME.herokuapp.com/
-  script:
-    - apt-get update -qy
-    - apt-get install -y ruby-dev
-    - gem install dpl
-    - dpl --provider=heroku --app=$HEROKU_DEVELOPMENT_NAME --api-key=$HEROKU_DEMO_PAGE_KEY
-  only:
-    - master
-
 pages:
   stage: deploy
   script:

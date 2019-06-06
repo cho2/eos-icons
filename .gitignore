@@ -3,5 +3,6 @@ node_modules
 npm-debug.log
 css-template.css
 css-animated.css
+sass-compiled.css
 material-design-icons
 TODO

@@ -25,12 +25,10 @@ module.exports = function (grunt) {
             baseClass: "eos-icons",
             classPrefix: "eos-",
             template: 'templates/css-template.css',
-            iconsStyles: false
+            iconsStyles: false,
+            htmlDemo: false
           },
           stylesheets: ['css'],
-          destHtml: 'dist/',
-          htmlDemoTemplate: 'templates/index-template.html',
-          htmlDemoFilename: 'index',
           customOutputs: [{
             template: 'templates/glyph-list-template.json',
             dest: 'dist/js/glyph-list.json'
@@ -53,12 +51,10 @@ module.exports = function (grunt) {
             baseClass: "eos-icons",
             classPrefix: "eos-",
             template: 'templates/css-template.css',
-            iconsStyles: false
+            iconsStyles: false,
+            htmlDemo: false
           },
           stylesheets: ['css'],
-          destHtml: 'dist/extended/',
-          htmlDemoTemplate: 'templates/index-template-extended.html',
-          htmlDemoFilename: 'index',
           customOutputs: [{
             template: 'templates/glyph-list-template.json',
             dest: 'dist/extended/js/glyph-list.json'
@@ -67,24 +63,6 @@ module.exports = function (grunt) {
       }
     },
     copy: {
-      logo: {
-        files: [
-          { src: 'templates/logo.png', dest: 'dist/images/', flatten: true, expand:true },
-          { src: 'templates/logo.png', dest: 'dist/extended/images/', flatten: true, expand:true }
-        ]
-      },
-      css: {
-        files: [
-          { src: 'templates/index.css', dest: 'dist/css/', flatten: true, expand:true },
-          { src: 'templates/index.css', dest: 'dist/extended/css/', flatten: true, expand:true }
-        ]
-      },
-      js: {
-        files: [
-          { src: 'js/app.js', dest: 'dist/js/', flatten: true, expand:true },
-          { src: 'js/app.js', dest: 'dist/extended/js/', flatten: true, expand:true }
-        ]
-      },
       material: {
         files: [{
           expand: true,
@@ -100,12 +78,6 @@ module.exports = function (grunt) {
         }]
       }
     },
-    sasslint: {
-      options: {
-        configFile: 'tests/.sass-lint.yml',
-      },
-      target: ['scss/**/*.scss']
-    },
     sass: {
       options: {
         implementation: sass
@@ -115,12 +87,6 @@ module.exports = function (grunt) {
           'templates/sass-compiled.css': 'scss/index.scss'
         }
       }
-    },
-    eslint: {
-      options: {
-        configFile: 'tests/.eslintrc.yml',
-      },
-      target: ['js/app.js']
     },
     concat: {
       dist: {
@@ -167,9 +133,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-text-replace');
-  grunt.loadNpmTasks('grunt-sass-lint');
-  grunt.loadNpmTasks('grunt-eslint');
 
-  grunt.registerTask('default', ['copy:material', 'sasslint', 'sass', 'eslint', 'concat', 'webfont', 'copy:logo', 'copy:css', 'copy:js', 'replace', 'addanimated']);
+  grunt.registerTask('default', ['copy:material', 'sass', 'concat', 'webfont', 'replace', 'addanimated']);
 
 };
