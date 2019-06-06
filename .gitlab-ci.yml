@@ -6,7 +6,6 @@ stages:
 image: node:8.4.0
 
 # Start the jobs
-
 deploy_wip:
   stage: deploy
   image: ruby:latest
