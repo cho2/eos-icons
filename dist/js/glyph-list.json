@@ -35,6 +35,7 @@
     "package_upgrade",
     "package",
     "packages",
+    "patterns",
     "pin",
     "primitive",
     "product_classes",
