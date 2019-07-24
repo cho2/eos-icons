@@ -25,10 +25,12 @@ module.exports = function (grunt) {
             baseClass: "eos-icons",
             classPrefix: "eos-",
             template: 'templates/css-template.css',
-            iconsStyles: false,
-            htmlDemo: false
+            iconsStyles: false
           },
           stylesheets: ['css'],
+          destHtml: 'dist/',
+          htmlDemoTemplate: 'templates/index-template.html',
+          htmlDemoFilename: 'index',
           customOutputs: [{
             template: 'templates/glyph-list-template.json',
             dest: 'dist/js/glyph-list.json'
