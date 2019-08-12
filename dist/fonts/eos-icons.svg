@@ -15,7 +15,7 @@
     bbox="0 -64 512 448"
     underline-thickness="25"
     underline-position="-76"
-    unicode-range="U+005F-F13C"
+    unicode-range="U+005F-F13D"
   />
 <missing-glyph 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -62,6 +62,9 @@ q8 -6 16 -9l4 -25q1 -4 5 -4h39q4 0 5 4l4 25q8 4 16 9l24 -9l1 -1q3 0 5 3zM277 256
     <glyph glyph-name="constraint" unicode="constraint" 
 d="M470 342l-427 -2v43l427 1v-42zM470 256l-427 -1v43l427 1v-43zM278 171l-235 -1v42l235 2v-43zM278 86l-235 -2v43l235 1v-42zM278 0l-235 -1v43l235 1v-43zM448 128q8 -1 14.5 -7t6.5 -14v-86q0 -5 -3 -10t-8 -8t-10 -3h-107q-8 1 -14 7t-7 14v86q1 8 7 14t14 7v32
 q0 22 16 37.5t38 15.5t37.5 -15.5t15.5 -37.5v-32zM427 128v32q0 13 -9.5 22.5t-23 9.5t-22.5 -9.5t-9 -22.5v-32h64z" />
+    <glyph glyph-name="content_lifecycle_management" unicode="content_lifecycle_management" 
+d="M434 405h1q9 0 17 -4.5t12.5 -12.5t4.5 -17v-1v-357q0 -14 -10 -24t-24 -10h-158v-43l-64 64l64 64v-43h150v342h-86v42h93zM85 171v-150h86v-42h-94q-14 0 -24 10t-10 24v1v357q0 9 4.5 17t12.5 12.5t17 4.5h158v43l64 -64l-64 -64v43h-150v-192zM128 256v43h171v-43
+h-171zM128 171v42h256v-42h-256zM128 85v43h64v-43h-64z" />
     <glyph glyph-name="counting" unicode="counting" 
 d="M43 -21v426h42v-426h-42zM43 363h426v-43h-426v43zM427 -21v426h42v-426h-42zM128 341q0 18 12.5 30.5t30 12.5t30 -12.5t12.5 -30t-12.5 -30t-29.5 -12.5q-9 0 -17 3t-13.5 9t-9 14t-3.5 16zM43 235h426v-43h-426v43zM171 213.5q0 17.5 12.5 30t30 12.5t30 -12.5
 t12.5 -30t-12.5 -30t-30 -12.5t-30 12.5t-12.5 30zM299 213.5q0 17.5 12.5 30t30 12.5t30 -12.5t12.5 -30t-12.5 -30t-30 -12.5t-30 12.5t-12.5 30zM43 107h426v-43h-426v43zM0 0h512v-43h-512v43zM128 85q0 18 12.5 30.5t30 12.5t30 -12.5t12.5 -30t-12.5 -30t-29.5 -12.5
