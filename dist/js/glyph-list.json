@@ -33,6 +33,7 @@
     "multistate",
     "network_file_system",
     "organization",
+    "outbound",
     "package_upgrade",
     "package",
     "packages",
