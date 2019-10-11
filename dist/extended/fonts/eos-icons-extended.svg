@@ -14,8 +14,8 @@
     descent="-64"
     bbox="0 -64 512 448.379"
     underline-thickness="25"
-    underline-position="-76"
-    unicode-range="U+0030-F4FC"
+    underline-position="-50"
+    unicode-range="U+0030-F4FD"
   />
 <missing-glyph 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -109,6 +109,8 @@ d="M341 85v-21h128v-43h-128v-21h-170v21h-128v43h128v21h64v86h42v-86h64zM320 171h
     <glyph glyph-name="organization" unicode="organization" 
 d="M427 214h11v-86h-43v43h-117v-43h-43v43h-118v-43h-43v86h12h31h118v42h43v-42h117h32zM203 352q0 22 15.5 37.5t37.5 15.5t38 -15.5t16 -37.5t-16 -38t-38 -16t-37.5 16t-15.5 38zM42 32q0 22 15.5 38t37.5 16t38 -16t16 -38t-16 -37.5t-38 -15.5t-37.5 15.5t-15.5 37.5
 zM203 32q0 22 15.5 38t37.5 16t38 -16t16 -38t-16 -37.5t-38 -15.5t-37.5 15.5t-15.5 37.5zM363 32q0 22 15.5 38t37.5 16t38 -16t16 -38t-16 -37.5t-38 -15.5t-37.5 15.5t-15.5 37.5z" />
+    <glyph glyph-name="outbound" unicode="outbound" 
+d="M427 405q17 0 29.5 -12.5t12.5 -29.5v-192h-42v149l-171 -107l-171 107v-213h171v-43h-171q-17 0 -29.5 12.5t-12.5 30.5v256q0 17 12.5 29.5t29.5 12.5h342zM256 256l171 107h-342zM469 85l-85 -85v64h-85v43h85v64z" />
     <glyph glyph-name="package_upgrade" unicode="package_upgrade" 
 d="M379 144l-144 -144h-107q-18 0 -30.5 12.5t-12.5 30.5v234h-42v43h426v-43h-42v-181zM128 107v-43h107v43h-107zM470 10l-31 -30l-60 60l-60 -60l-31 30l91 90l30 -30z" />
     <glyph glyph-name="package" unicode="package" 
