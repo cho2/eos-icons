@@ -18,7 +18,7 @@ module.exports = function (grunt) {
           syntax: 'bootstrap',
           version: '1.0.0',
           ligatures: true,
-          normalize: false,
+          normalize: true,
           types: 'woff2,woff,ttf,svg,eot',
           metadata: 'something here',
           templateOptions: {
@@ -46,7 +46,7 @@ module.exports = function (grunt) {
           syntax: 'bootstrap',
           version: '1.0.0',
           ligatures: true,
-          normalize: false,
+          normalize: true,
           types: 'woff2,woff,ttf,svg,eot',
           metadata: 'something here',
           templateOptions: {
