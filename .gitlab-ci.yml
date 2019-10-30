@@ -9,7 +9,7 @@ test_icons_name:
   before_script:
     - npm install
   script:
-    - npx grunt checkForDuplicates
+    - npx grunt
 
 # Start the jobs
 
