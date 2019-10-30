@@ -137,8 +137,15 @@ module.exports = function (grunt) {
     const eosRepo = './svg'
 
     checkIcons({ mdRepo, eosRepo }).then(result => {
-      console.log(result)
-      done()
+      const { error, message } = result
+
+      if(error) {
+        console.log(message)
+        process.exit(1)
+      } else {
+        console.log(message)
+        done()
+      }
     })
   })
 

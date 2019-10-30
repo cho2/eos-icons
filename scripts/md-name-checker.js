@@ -77,7 +77,7 @@ const checkIcons = async params => {
     /**
      * We return a warning or success message bases on the result
      */
-    return checkForMatchingIcon.length >= 1 ? new Error(`⚠️  Duplicate name for: ${checkForMatchingIcon}`) : '✅  No duplicates'
+    return checkForMatchingIcon.length >= 1 ? { error: true, message: `⚠️  Duplicate name for: ${checkForMatchingIcon}` } : { error: false, message: `✅  No duplicates`}
 
   } catch (error) {
     console.log('ERROR: checkIcons() => : ', error);
