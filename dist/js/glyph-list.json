@@ -3,6 +3,7 @@
   "repositoryUrl": "https://gitlab.com/SUSE-UIUX/eos-icons",
   "baseClass": "eos-icons",
   "glyphs": [
+    "_image",
     "action_chains",
     "activate_subscriptions",
     "admin",
@@ -26,7 +27,6 @@
     "endpoints",
     "enhancement",
     "file_system",
-    "image",
     "inbound",
     "miscellaneous",
     "modified_date",
