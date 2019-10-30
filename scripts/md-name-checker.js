@@ -60,10 +60,10 @@ const fetchIcons = async mainDir => {
 
 
 const checkIcons = async params => {
-  try {
-    const { mdRepo, eosRepo } = params
+  const { mdRepo, eosRepo } = params
 
-    /* Get the array for md and eos icons */
+  try {
+    /* Get the two arrays with the icons for md and eos */
     const mdIcons = await fetchIcons(mdRepo)
     const eosIcons = await readFiles(eosRepo)
 
@@ -77,7 +77,7 @@ const checkIcons = async params => {
     /**
      * We return a warning or success message bases on the result
      */
-    return checkForMatchingIcon.length >= 1 ? `⚠️  Warning!: Duplicate name for: ${checkForMatchingIcon}` : '✅  No duplicates'
+    return checkForMatchingIcon.length >= 1 ? new Error(`⚠️  Duplicate name for: ${checkForMatchingIcon}`) : '✅  No duplicates'
 
   } catch (error) {
     console.log('ERROR: checkIcons() => : ', error);
