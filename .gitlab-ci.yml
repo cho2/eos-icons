@@ -1,7 +1,15 @@
 stages:
+  - test
   - publish
 
 image: node:8.4.0
+
+test_icons_name:
+  stage: test
+  before_script:
+    - npm install
+  script:
+    - grunt checkForDuplicates
 
 # Start the jobs
 

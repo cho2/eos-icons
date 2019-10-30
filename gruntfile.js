@@ -136,8 +136,8 @@ module.exports = function (grunt) {
     const mdRepo = './node_modules/material-design-icons'
     const eosRepo = './svg'
 
-    checkIcons({ mdRepo, eosRepo }).then(data => {
-      console.log(data)
+    checkIcons({ mdRepo, eosRepo }).then(result => {
+      console.log(result)
       done()
     })
   })
