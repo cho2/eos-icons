@@ -59,7 +59,7 @@ const fetchIcons = async mainDir => {
 }
 
 
-const checkIcons = async params => {
+const compareFolders = async params => {
   const { mdRepo, eosRepo } = params
 
   try {
@@ -82,10 +82,10 @@ const checkIcons = async params => {
       : { error: false, message: `✅  No duplicates`}
 
   } catch (error) {
-    console.log('ERROR: checkIcons() => : ', error);
+    console.log('ERROR: compareFolders() => : ', error);
   }
 }
 
 module.exports = {
-  checkIcons
+  compareFolders
 }

@@ -1,6 +1,6 @@
 module.exports = function (grunt) {
   const sass = require('node-sass');
-  const { checkIcons } = require('./scripts/md-name-checker')
+  const { compareFolders } = require('./scripts/md-name-checker');
 
   //Append path to your svg below
   //EOS-set svg path
@@ -130,13 +130,13 @@ module.exports = function (grunt) {
   });
 
 
-  grunt.registerTask('checkForDuplicates', function() {
+  grunt.registerTask('findDuplicates', function() {
     const done = this.async();
 
     const mdRepo = './node_modules/material-design-icons'
     const eosRepo = './svg'
 
-    checkIcons({ mdRepo, eosRepo }).then(result => {
+    compareFolders({ mdRepo, eosRepo }).then(result => {
       const { error, message } = result
 
       if(error) {
@@ -155,5 +155,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('default', ['copy:material', 'sass', 'concat', 'webfont', 'replace', 'addanimated', 'checkForDuplicates']);
+  grunt.registerTask('default', ['copy:material', 'sass', 'concat', 'webfont', 'replace', 'addanimated', 'findDuplicates']);
 };

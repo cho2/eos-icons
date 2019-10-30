@@ -20,7 +20,11 @@
     "grunt-sass-lint": "^0.2.4",
     "grunt-webfont": "^1.7.2",
     "node-sass": "^4.9.3",
-    "semantic-release": "^15.9.12"
+    "semantic-release": "^15.9.12",
+    "fs-extra": "^8.1.0",
+    "grunt-text-replace": "^0.4.0",
+    "material-design-icons": "^3.0.1",
+    "xcode": "^2.0.0"
   },
   "scripts": {
     "build": "grunt"
@@ -70,11 +74,5 @@
   "bugs": {
     "url": "https://gitlab.com/SUSE-UIUX/eos-icons/issues"
   },
-  "homepage": "https://gitlab.com/SUSE-UIUX/eos-icons#README",
-  "dependencies": {
-    "fs-extra": "^8.1.0",
-    "grunt-text-replace": "^0.4.0",
-    "material-design-icons": "^3.0.1",
-    "xcode": "^2.0.0"
-  }
+  "homepage": "https://gitlab.com/SUSE-UIUX/eos-icons#README"
 }
