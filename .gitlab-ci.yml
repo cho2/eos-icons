@@ -10,7 +10,7 @@ test_icons_name:
     - npm install
     - npm i -g grunt
   script:
-    - grunt
+    - grunt findDuplicates
 
 # Start the jobs
 
