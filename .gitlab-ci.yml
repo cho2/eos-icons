@@ -10,7 +10,7 @@ test_icons_name:
     - npm install
     - npm i -g grunt
   script:
-    - npx grunt
+    - grunt
 
 # Start the jobs
 
