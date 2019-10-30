@@ -19,17 +19,19 @@ module.exports = function (grunt) {
           syntax: 'bootstrap',
           version: '1.0.0',
           ligatures: true,
-          normalize: false,
+          normalize: true,
           types: 'woff2,woff,ttf,svg,eot',
           metadata: 'something here',
           templateOptions: {
             baseClass: "eos-icons",
             classPrefix: "eos-",
             template: 'templates/css-template.css',
-            iconsStyles: false,
-            htmlDemo: false
+            iconsStyles: false
           },
           stylesheets: ['css'],
+          destHtml: 'dist/',
+          htmlDemoTemplate: 'templates/index-template.html',
+          htmlDemoFilename: 'index',
           customOutputs: [{
             template: 'templates/glyph-list-template.json',
             dest: 'dist/js/glyph-list.json'
@@ -45,7 +47,7 @@ module.exports = function (grunt) {
           syntax: 'bootstrap',
           version: '1.0.0',
           ligatures: true,
-          normalize: false,
+          normalize: true,
           types: 'woff2,woff,ttf,svg,eot',
           metadata: 'something here',
           templateOptions: {
@@ -155,5 +157,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('default', ['copy:material', 'sass', 'concat', 'webfont', 'replace', 'addanimated']);
+  grunt.registerTask('default', ['findDuplicates', 'copy:material', 'sass', 'concat', 'webfont', 'replace', 'addanimated']);
 };

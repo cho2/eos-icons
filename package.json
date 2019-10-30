@@ -18,12 +18,12 @@
     "grunt-eslint": "^21.0.0",
     "grunt-sass": "^3.0.1",
     "grunt-sass-lint": "^0.2.4",
+    "grunt-text-replace": "^0.4.0",
     "grunt-webfont": "^1.7.2",
+    "material-design-icons": "^3.0.1",
     "node-sass": "^4.9.3",
     "semantic-release": "^15.9.12",
     "fs-extra": "^8.1.0",
-    "grunt-text-replace": "^0.4.0",
-    "material-design-icons": "^3.0.1",
     "xcode": "^2.0.0"
   },
   "scripts": {
