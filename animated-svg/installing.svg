@@ -1,104 +1,29 @@
-<svg width="48px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  viewBox="0 0 100 100"
-  preserveAspectRatio="xMidYMid">
-
-  <!--1-->
-  <rect x="19" y="64" width="20" height="20" fill="#141823">
-    <animate
-      attributeName="opacity"
-      dur="3s"
-      repeatCount="indefinite"
-      values="1;0;0"
-      keyTimes="0;0.9;1"
-      begin="0.2"/>
-  </rect>
-
-  <!--2-->
-  <rect x="43" y="64" width="20" height="20" fill="#141823">
-    <animate
-      attributeName="opacity"
-      dur="3s"
-      repeatCount="indefinite"
-      values="1;0;0"
-      keyTimes="0;0.9;1"
-      begin="0.4"/>
-  </rect>
-
-  <!--3-->
-  <rect x="67" y="64" width="20" height="20" fill="#141823">
-    <animate
-      attributeName="opacity"
-      dur="3s"
-      repeatCount="indefinite"
-      values="1;0;0"
-      keyTimes="0;0.9;1"
-      begin="0.6"/>
-  </rect>
-
-  <!--4-->
-  <rect x="19" y="40" width="20" height="20" fill="#141823">
-    <animate
-      attributeName="opacity"
-      dur="3s"
-      repeatCount="indefinite"
-      values="1;0;0"
-      keyTimes="0;0.9;1"
-      begin="0.8"/>
-  </rect>
-
-  <!--5-->
-  <rect x="43" y="40" width="20" height="20" fill="#141823">
-    <animate
-      attributeName="opacity"
-      dur="3s"
-      repeatCount="indefinite"
-      values="1;0;0"
-      keyTimes="0;0.9;1"
-      begin="1"/>
-  </rect>
-
-  <!--6-->
-  <rect x="67" y="40" width="20" height="20" fill="#141823">
-    <animate
-      attributeName="opacity"
-      dur="3s"
-      repeatCount="indefinite"
-      values="1;0;0"
-      keyTimes="0;0.9;1"
-      begin="1.2"/>
-  </rect>
-
-
-  <!--7-->
-  <rect x="19" y="16" width="20" height="20" fill="#141823">
-    <animate
-      attributeName="opacity"
-      dur="3s"
-      repeatCount="indefinite"
-      values="1;0;0"
-      keyTimes="0;0.9;1"
-      begin="1.4"/>
-  </rect>
-
-  <!--8-->
-  <rect x="43" y="16" width="20" height="20" fill="#141823">
-    <animate
-      attributeName="opacity"
-      dur="3s"
-      repeatCount="indefinite"
-      values="1;0;0"
-      keyTimes="0;0.9;1"
-      begin="1.6"/>
-  </rect>
-
-  <!--9-->
-  <rect x="67" y="16" width="20" height="20" fill="#141823">
-    <animate
-      attributeName="opacity"
-      dur="3s"
-      repeatCount="indefinite"
-      values="1;0;0"
-      keyTimes="0;0.9;1"
-      begin="1.8"/>
-  </rect>
+<svg width="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+  <path fill="#141823" d="M19 64h20v20H19z">
+    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin=".2"/>
+  </path>
+  <path fill="#141823" d="M43 64h20v20H43z">
+    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin=".4"/>
+  </path>
+  <path fill="#141823" d="M67 64h20v20H67z">
+    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin=".6"/>
+  </path>
+  <path fill="#141823" d="M19 40h20v20H19z">
+    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin=".8"/>
+  </path>
+  <path fill="#141823" d="M43 40h20v20H43z">
+    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin="1"/>
+  </path>
+  <path fill="#141823" d="M67 40h20v20H67z">
+    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin="1.2"/>
+  </path>
+  <path fill="#141823" d="M19 16h20v20H19z">
+    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin="1.4"/>
+  </path>
+  <path fill="#141823" d="M43 16h20v20H43z">
+    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin="1.6"/>
+  </path>
+  <path fill="#141823" d="M67 16h20v20H67z">
+    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin="1.8"/>
+  </path>
 </svg>
