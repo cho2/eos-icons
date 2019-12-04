@@ -179,13 +179,13 @@
 
         <h3>Animated icons</h3>
         <div class="icons__item" data-name="loading">
-          <img src='../animated-svg/loading.svg'>
+          <img class='eos-icons eos-icon-animated' src='../animated-svg/loading.svg'>
           <br/>
           loading
         </div>
 
         <div class="icons__item" data-name="installing">
-          <img src='../animated-svg/installing.svg'>
+          <img class='eos-icons eos-icon-animated' src='../animated-svg/installing.svg'>
           <br>
           installing
         </div>
@@ -271,15 +271,15 @@
 
       var buttonsSizes = document.getElementsByClassName('change-size')
       for (i = 0; i < buttonsSizes.length; i++) {
-          buttonsSizes[i].onclick = function(e) {
-      e = e || window.event;
-      iconSize = e.target.getAttribute('data-size')
-      iconClass = 'md-' + iconSize
-              for (i = 0; i < document.getElementsByClassName('eos-icons').length; i++) {
-        document.getElementsByClassName('eos-icons')[i].style.fontSize = iconSize + 'px';
-      document.getElementById('eos-icon-installing').className = 'eos-icons eos-icon-installing ' + iconClass;
-      }
-          };
+        buttonsSizes[i].onclick = function(e) {
+          e = e || window.event;
+          iconSize = e.target.getAttribute('data-size')
+          iconClass = 'md-' + iconSize
+          for (i = 0; i < document.getElementsByClassName('eos-icons').length; i++) {
+            document.getElementsByClassName('eos-icons')[i].style.fontSize = iconSize + 'px';
+            document.getElementsByClassName('eos-icon-animated')[i].style.width = iconSize + 'px';
+          }
+        }
       }
 
       })();
