@@ -274,9 +274,11 @@
         buttonsSizes[i].onclick = function(e) {
           e = e || window.event;
           iconSize = e.target.getAttribute('data-size')
-          iconClass = 'md-' + iconSize
+
           for (i = 0; i < document.getElementsByClassName('eos-icons').length; i++) {
             document.getElementsByClassName('eos-icons')[i].style.fontSize = iconSize + 'px';
+          }
+          for (i = 0; i < document.getElementsByClassName('eos-icon-animated').length; i++) {
             document.getElementsByClassName('eos-icon-animated')[i].style.width = iconSize + 'px';
           }
         }
