@@ -1,5 +1,4 @@
 module.exports = function (grunt) {
-  const sass = require('node-sass');
   const { compareFolders } = require('./scripts/md-name-checker');
 
   //Append path to your svg below
@@ -60,7 +59,7 @@ module.exports = function (grunt) {
           stylesheets: ['css'],
           customOutputs: [{
             template: 'templates/glyph-list-template.json',
-            dest: 'dist/extended/js/glyph-list.json'
+            dest: 'dist/extended/js/glyph-list-extended.json'
           }]
         }
       }
@@ -81,19 +80,9 @@ module.exports = function (grunt) {
         }]
       }
     },
-    sass: {
-      options: {
-        implementation: sass
-      },
-      dist: {
-        files: {
-          'templates/sass-compiled.css': 'scss/index.scss'
-        }
-      }
-    },
     concat: {
       dist: {
-        src: ['templates/css-webfont.css', 'templates/sass-compiled.css'],
+        src: ['templates/css-webfont.css'],
         dest: 'templates/css-template.css',
       },
     },
@@ -107,28 +96,6 @@ module.exports = function (grunt) {
         }]
       }
     },
-  });
-
-  /**
-  * Add animated icons objects in the exported collection
-  *
-  * Since we only have 2 animated icons, we will manually add the animated icons
-  * to the glyph list json
-  *
-  * This will allow us to consume them in EOS
-  */
-
-  grunt.registerTask('addanimated', function (key, value) {
-    var projectFile = "./dist/js/glyph-list.json";
-    // get file as json object
-    var project = grunt.file.readJSON(projectFile);
-    var animatedIconsArray = ['loading', 'installing'];
-
-    //edit the value of json object
-    project.animatedIcons = animatedIconsArray;
-
-    //serialize it back to file
-    grunt.file.write(projectFile, JSON.stringify(project, null, 2));
   });
 
 
@@ -153,9 +120,8 @@ module.exports = function (grunt) {
 
   grunt.loadNpmTasks('grunt-webfont');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('default', ['findDuplicates', 'copy:material', 'sass', 'concat', 'webfont', 'replace', 'addanimated']);
+  grunt.registerTask('default', ['findDuplicates', 'copy:material', 'concat', 'webfont', 'replace']);
 };
