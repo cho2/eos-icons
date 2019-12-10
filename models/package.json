@@ -1,0 +1,6 @@
+{
+  "name": "package",
+  "do": "<ul><li>To represent a singular package.</li></ul>",
+  "dont": "-",
+  "tags": ["package"]
+}

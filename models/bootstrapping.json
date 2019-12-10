@@ -1,0 +1,6 @@
+{
+  "name": "bootstrapping",
+  "do": "<ul><li>When bootstraping a new element into a system.</li></ul>",
+  "dont": "-",
+  "tags": ["minion"]
+}

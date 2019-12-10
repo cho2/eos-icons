@@ -1,0 +1,6 @@
+{
+  "name": "service",
+  "do": "<ul><li>To represent a service.</li></ul>",
+  "dont": "<ul><li>To represent a service instance.</li></ul>",
+  "tags": ["service"]
+}

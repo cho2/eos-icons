@@ -1,0 +1,6 @@
+{
+  "name": "network_file_system",
+  "do": "<ul><li>To access or share files across servers.</li></ul>",
+  "dont": "-",
+  "tags": ["network", "file system", "servers" , "share files"]
+}

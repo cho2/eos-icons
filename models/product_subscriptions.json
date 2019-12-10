@@ -1,0 +1,6 @@
+{
+  "name": "product_subscriptions",
+  "do": "<ul><li>To show a list of all subscriptions.</li></ul>",
+  "dont": "<ul><li>To activate or remove subscriptions.</li></ul>",
+  "tags": ["product", "product subscription"]
+}
