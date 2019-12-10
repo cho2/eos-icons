@@ -250,6 +250,14 @@
     ]
   },
   {
+    "name": "molecules",
+    "do": "<ul><li> _ </li></ul>",
+    "dont": "<ul><li> _ </li></ul>",
+    "tags": [
+      "atomic"
+    ]
+  },
+  {
     "name": "move",
     "do": "<ul><li>To represent the action of relocating elements.</li></ul>",
     "dont": "<ul><li>To represent directions.</li></ul>",
@@ -276,6 +284,14 @@
       "file system",
       "servers",
       "share files"
+    ]
+  },
+  {
+    "name": "organisms",
+    "do": "<ul><li> _ </li></ul>",
+    "dont": "<ul><li> _ </li></ul>",
+    "tags": [
+      "atomic"
     ]
   },
   {
@@ -328,7 +344,8 @@
     "dont": "-",
     "tags": [
       "primitive",
-      "basic resource"
+      "basic resource",
+      "atomic"
     ]
   },
   {
@@ -507,6 +524,14 @@
     "tags": [
       "system",
       "re registered"
+    ]
+  },
+  {
+    "name": "templates",
+    "do": "<ul><li> _ </li></ul>",
+    "dont": "<ul><li> _ </li></ul>",
+    "tags": [
+      "atomic"
     ]
   },
   {

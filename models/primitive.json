@@ -2,5 +2,5 @@
   "name": "primitive",
   "do": "<ul><li>To perform the most basic task.</li></ul>",
   "dont": "-",
-  "tags": ["primitive", "basic resource"]
+  "tags": ["primitive", "basic resource", "atomic"]
 }

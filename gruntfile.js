@@ -119,9 +119,10 @@ module.exports = function (grunt) {
     })
   })
 
-  grunt.registerTask('iconsModels', function(){
+  grunt.registerTask('iconsModels', async function(){
     const done = this.async();
-    combineIconsModels({ targetDir: './models/', destDir: 'dist/js/eos-icons.json' }).then(done)
+
+    return combineIconsModels({ targetDir: './models/', destDir: './dist/js/eos-icons.json' }).then(done)
   })
 
   grunt.loadNpmTasks('grunt-webfont');
