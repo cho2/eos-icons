@@ -1,0 +1,6 @@
+{
+  "name": "application_instance",
+  "do": "<ul><li>To represent an instance of an aplication.</li></ul>",
+  "dont": "<ul><li>To represent an application or application status.</li></ul>",
+  "tags": ["application", "application status"]
+}

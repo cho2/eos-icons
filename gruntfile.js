@@ -1,5 +1,6 @@
 module.exports = function (grunt) {
   const { compareFolders } = require('./scripts/md-name-checker');
+  const { combineIconsModels } = require('./scripts/combine-eos-icons');
 
   //Append path to your svg below
   //EOS-set svg path
@@ -118,10 +119,16 @@ module.exports = function (grunt) {
     })
   })
 
+  grunt.registerTask('iconsModels', async function(){
+    const done = this.async();
+
+    return combineIconsModels({ targetDir: './models/', destDir: './dist/js/eos-icons.json' }).then(done)
+  })
+
   grunt.loadNpmTasks('grunt-webfont');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('default', ['findDuplicates', 'copy:material', 'concat', 'webfont', 'replace']);
+  grunt.registerTask('default', ['findDuplicates', 'copy:material', 'concat', 'webfont', 'replace', 'iconsModels']);
 };

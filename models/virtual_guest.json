@@ -1,0 +1,6 @@
+{
+  "name": "virtual_guest",
+  "do": "<ul><li>To represent a virtual machine.</li></ul>",
+  "dont": "<ul><li>To represent a system.</li></ul>",
+  "tags": ["virtual machine"]
+}
