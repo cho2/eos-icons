@@ -1,0 +1,6 @@
+{
+  "name": "product_classes",
+  "do": "<ul><li>To represent product classes.</li></ul>",
+  "dont": "-",
+  "tags": ["subscription", "SCC", "collection"]
+}

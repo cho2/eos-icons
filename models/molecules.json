@@ -1,0 +1,6 @@
+{
+  "name": "molecules",
+  "do": "<ul><li> _ </li></ul>",
+  "dont": "<ul><li> _ </li></ul>",
+  "tags": ["atomic"]
+}

@@ -1,5 +1,6 @@
 module.exports = function (grunt) {
-  const sass = require('node-sass');
+  const { compareFolders } = require('./scripts/md-name-checker');
+  const { combineIconsModels } = require('./scripts/combine-eos-icons');
 
   //Append path to your svg below
   //EOS-set svg path
@@ -18,17 +19,19 @@ module.exports = function (grunt) {
           syntax: 'bootstrap',
           version: '1.0.0',
           ligatures: true,
-          normalize: false,
+          normalize: true,
           types: 'woff2,woff,ttf,svg,eot',
           metadata: 'something here',
           templateOptions: {
             baseClass: "eos-icons",
             classPrefix: "eos-",
             template: 'templates/css-template.css',
-            iconsStyles: false,
-            htmlDemo: false
+            iconsStyles: false
           },
           stylesheets: ['css'],
+          destHtml: 'dist/',
+          htmlDemoTemplate: 'templates/index-template.html',
+          htmlDemoFilename: 'index',
           customOutputs: [{
             template: 'templates/glyph-list-template.json',
             dest: 'dist/js/glyph-list.json'
@@ -44,7 +47,7 @@ module.exports = function (grunt) {
           syntax: 'bootstrap',
           version: '1.0.0',
           ligatures: true,
-          normalize: false,
+          normalize: true,
           types: 'woff2,woff,ttf,svg,eot',
           metadata: 'something here',
           templateOptions: {
@@ -57,7 +60,7 @@ module.exports = function (grunt) {
           stylesheets: ['css'],
           customOutputs: [{
             template: 'templates/glyph-list-template.json',
-            dest: 'dist/extended/js/glyph-list.json'
+            dest: 'dist/extended/js/glyph-list-extended.json'
           }]
         }
       }
@@ -78,19 +81,9 @@ module.exports = function (grunt) {
         }]
       }
     },
-    sass: {
-      options: {
-        implementation: sass
-      },
-      dist: {
-        files: {
-          'templates/sass-compiled.css': 'scss/index.scss'
-        }
-      }
-    },
     concat: {
       dist: {
-        src: ['templates/css-webfont.css', 'templates/sass-compiled.css'],
+        src: ['templates/css-webfont.css'],
         dest: 'templates/css-template.css',
       },
     },
@@ -106,34 +99,36 @@ module.exports = function (grunt) {
     },
   });
 
-  /**
-  * Add animated icons objects in the exported collection
-  *
-  * Since we only have 2 animated icons, we will manually add the animated icons
-  * to the glyph list json
-  *
-  * This will allow us to consume them in EOS
-  */
 
-  grunt.registerTask('addanimated', function (key, value) {
-    var projectFile = "./dist/js/glyph-list.json";
-    // get file as json object
-    var project = grunt.file.readJSON(projectFile);
-    var animatedIconsArray = ['loading', 'installing'];
+  grunt.registerTask('findDuplicates', function() {
+    const done = this.async();
 
-    //edit the value of json object
-    project.animatedIcons = animatedIconsArray;
+    const mdRepo = './node_modules/material-design-icons'
+    const eosRepo = './svg'
 
-    //serialize it back to file
-    grunt.file.write(projectFile, JSON.stringify(project, null, 2));
-  });
+    compareFolders({ mdRepo, eosRepo }).then(result => {
+      const { error, message } = result
+
+      if(error) {
+        console.log(message)
+        process.exit(1)
+      } else {
+        console.log(message)
+        done()
+      }
+    })
+  })
+
+  grunt.registerTask('iconsModels', async function(){
+    const done = this.async();
+
+    return combineIconsModels({ targetDir: './models/', destDir: './dist/js/eos-icons.json' }).then(done)
+  })
 
   grunt.loadNpmTasks('grunt-webfont');
   grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('default', ['copy:material', 'sass', 'concat', 'webfont', 'replace', 'addanimated']);
-
+  grunt.registerTask('default', ['findDuplicates', 'copy:material', 'concat', 'webfont', 'replace', 'iconsModels']);
 };
