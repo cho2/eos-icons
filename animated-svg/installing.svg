@@ -1,29 +1,38 @@
-<svg width="48" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
-  <path fill="#141823" d="M19 64h20v20H19z">
-    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin=".2"/>
-  </path>
-  <path fill="#141823" d="M43 64h20v20H43z">
-    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin=".4"/>
-  </path>
-  <path fill="#141823" d="M67 64h20v20H67z">
-    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin=".6"/>
-  </path>
-  <path fill="#141823" d="M19 40h20v20H19z">
-    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin=".8"/>
-  </path>
-  <path fill="#141823" d="M43 40h20v20H43z">
-    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin="1"/>
-  </path>
-  <path fill="#141823" d="M67 40h20v20H67z">
-    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin="1.2"/>
-  </path>
-  <path fill="#141823" d="M19 16h20v20H19z">
-    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin="1.4"/>
-  </path>
-  <path fill="#141823" d="M43 16h20v20H43z">
-    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin="1.6"/>
-  </path>
-  <path fill="#141823" d="M67 16h20v20H67z">
-    <animate attributeName="opacity" dur="3s" repeatCount="indefinite" values="1;0;0" keyTimes="0;0.9;1" begin="1.8"/>
-  </path>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" xml:space="preserve">
+	<path class="st0" d="M4,16h4v4H4V16z">
+		<animate  accumulate="none" additive="replace" attributeName="opacity" begin=".2" calcMode="linear" dur="3s" fill="remove" keyTimes="0;0.9;1" repeatCount="indefinite" restart="always" values="1;0;0">
+		</animate>
+	</path>
+	<path class="st0" d="M10,16h4v4h-4V16z">
+		<animate  accumulate="none" additive="replace" attributeName="opacity" begin=".4" calcMode="linear" dur="3s" fill="remove" keyTimes="0;0.9;1" repeatCount="indefinite" restart="always" values="1;0;0">
+		</animate>
+	</path>
+	<path class="st0" d="M16,16h4v4h-4V16z">
+		<animate  accumulate="none" additive="replace" attributeName="opacity" begin=".6" calcMode="linear" dur="3s" fill="remove" keyTimes="0;0.9;1" repeatCount="indefinite" restart="always" values="1;0;0">
+		</animate>
+	</path>
+	<path class="st0" d="M4,10h4v4H4V10z">
+		<animate  accumulate="none" additive="replace" attributeName="opacity" begin=".8" calcMode="linear" dur="3s" fill="remove" keyTimes="0;0.9;1" repeatCount="indefinite" restart="always" values="1;0;0">
+		</animate>
+	</path>
+	<path class="st0" d="M10,10h4v4h-4V10z">
+		<animate  accumulate="none" additive="replace" attributeName="opacity" begin="1" calcMode="linear" dur="3s" fill="remove" keyTimes="0;0.9;1" repeatCount="indefinite" restart="always" values="1;0;0">
+		</animate>
+	</path>
+	<path class="st0" d="M16,10h4v4h-4V10z">
+		<animate  accumulate="none" additive="replace" attributeName="opacity" begin="1.2" calcMode="linear" dur="3s" fill="remove" keyTimes="0;0.9;1" repeatCount="indefinite" restart="always" values="1;0;0">
+		</animate>
+	</path>
+	<path class="st0" d="M4,4h4v4H4V4z">
+		<animate  accumulate="none" additive="replace" attributeName="opacity" begin="1.4" calcMode="linear" dur="3s" fill="remove" keyTimes="0;0.9;1" repeatCount="indefinite" restart="always" values="1;0;0">
+		</animate>
+	</path>
+	<path class="st0" d="M10,4h4v4h-4V4z">
+		<animate  accumulate="none" additive="replace" attributeName="opacity" begin="1.6" calcMode="linear" dur="3s" fill="remove" keyTimes="0;0.9;1" repeatCount="indefinite" restart="always" values="1;0;0">
+		</animate>
+	</path>
+	<path class="st0" d="M16,4h4v4h-4V4z">
+		<animate  accumulate="none" additive="replace" attributeName="opacity" begin="1.8" calcMode="linear" dur="3s" fill="remove" keyTimes="0;0.9;1" repeatCount="indefinite" restart="always" values="1;0;0">
+		</animate>
+	</path>
 </svg>
