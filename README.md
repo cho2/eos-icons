@@ -31,7 +31,7 @@ Where the LIGATURE_OF_THE_ICON is the name of the icon. Use our online tool to s
 # Using animated icons
 
 
-1- Download animated icon SVG file from https://eos-icons.eosdesignsystem.com/, and add them in your project.
+1- Download the animated icon of your choice from https://eos-icons.eosdesignsystem.com/, and add them in your project.
 
 2- To use them you need to add the `img` tag in your html.
 
