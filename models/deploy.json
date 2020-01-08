@@ -1,0 +1,6 @@
+{
+  "name": "deploy",
+  "do": "<ul><li>For deploying.</li>></ul>",
+  "dont": "<ul><li>For uploading.</li></ul>",
+  "tags": ["deploying", "upcycle" ]
+}

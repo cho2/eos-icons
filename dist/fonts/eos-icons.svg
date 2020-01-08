@@ -15,7 +15,7 @@
     bbox="-0.595506 -64 512 448"
     underline-thickness="25"
     underline-position="-76"
-    unicode-range="U+005F-F144"
+    unicode-range="U+005F-F145"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -76,6 +76,10 @@ l46 46l30 -30l-34 -34q24 -17 39 -43h59zM192 64v43h-43v-43h43zM192 149v128h-43v-1
     <glyph glyph-name="csv_file" unicode="csv_file" horiz-adv-x="448" 
 d="M299 20l42 1v-42h-298q-18 0 -30.5 12.5t-12.5 29.5v342q0 17 12.5 29.5t30.5 12.5h170l43 -42l43 -43l42 -43v-42h-42v21h-107v107h-149v-343h256zM411 64h-32l-37 128h32l21 -73l21 73h32zM171 192q8 0 14.5 -6.5t6.5 -14.5v-22h-32v11h-42v-64h42v11h32v-22
 q0 -8 -6.5 -14.5t-14.5 -6.5h-64q-9 0 -15.5 6.5t-6.5 14.5v86q0 8 6.5 14.5t15.5 6.5h64zM320 160h-75v-16h54q8 0 14.5 -6.5t6.5 -15.5v-37q0 -8 -6.5 -14.5t-14.5 -6.5h-86v32h75v16h-53q-9 0 -15.5 6t-6.5 15v38q0 8 6.5 14.5t15.5 6.5h85v-32z" />
+    <glyph glyph-name="deploy" unicode="deploy" 
+d="M512 21v-42h-512v42h85v22q-17 0 -29.5 12.5t-12.5 29.5v214q0 17 12.5 29.5t29.5 12.5h43v-42h-43v-214h342v214h-43v42h43q17 0 29.5 -12.5t12.5 -29.5v-214q0 -17 -12.5 -29.5t-29.5 -12.5v-22h85zM277 107h-42v42h-43l64 64l64 -64h-43v-42zM171 320q0 35 25 60
+t60 25t60 -25t25 -60t-25 -60t-60 -25t-60 25t-25 60zM222 320h51q9 0 9 -9v-25h8q9 0 14 -8q16 18 16 42q0 17 -11.5 34t-26.5 24q-1 -6 -6 -11t-11 -5h-18v-17q0 -8 -8 -8h-17v-17zM192 320v-1q0 -23 16.5 -41.5t38.5 -21.5v12q-7 0 -12 5t-5 12v9l-37 37q-1 -5 -1 -11z
+" />
     <glyph glyph-name="endpoints_connected" unicode="endpoints_connected" horiz-adv-x="384" 
 d="M384 170h-256v-106h21v-85h-85v85h21v106h-85v43h256v107h-21v85h85v-85h-21v-107h85v-43z" />
     <glyph glyph-name="endpoints_disconnected" unicode="endpoints_disconnected" horiz-adv-x="397" 
