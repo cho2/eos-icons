@@ -1,6 +1,6 @@
 {
   "name": "sandbox",
   "do": "<ul><li>For a special setting in software which uses dummy data to test APIs.</li></ul>",
-  "dont": "-",
+  "dont": "",
   "tags": ["sandbox", "software", "dummy database"]
 }

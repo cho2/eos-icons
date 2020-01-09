@@ -1,6 +1,6 @@
 {
   "name": "background_tasks",
   "do": "<ul><li>To indicate tasks that are running in the background.</li></ul>",
-  "dont": "-",
+  "dont": "",
   "tags": ["pending", "loading" ]
 }

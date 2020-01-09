@@ -1,6 +1,6 @@
 {
   "name": "products",
   "do": "<ul><li>To show a collection of products.</li></ul>",
-  "dont": "-",
+  "dont": "",
   "tags": ["product", "product collection"]
 }

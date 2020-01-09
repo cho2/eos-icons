@@ -1,6 +1,6 @@
 {
   "name": "proxy",
   "do": "<ul><li>To represent a proxy server or state.</li></ul>",
-  "dont": "-",
+  "dont": "",
   "tags": ["proxy"]
 }

@@ -1,6 +1,6 @@
 {
   "name": "action_chains",
   "do": "<ul><li>For chains of actions.</li><li>Also use when multiple steps are required.</li></ul>",
-  "dont": "-",
+  "dont": "",
   "tags": ["chain actions", "multiple actions", "consecuences" ]
 }

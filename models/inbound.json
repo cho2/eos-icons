@@ -1,0 +1,6 @@
+{
+  "name": "inbound",
+  "do": "To illustrate inbound information or data",
+  "dont": "To illustrate email behaivor",
+  "tags": ["information", "flow", "incoming"]
+}
