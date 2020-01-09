@@ -8,21 +8,12 @@ Visit our Iconic font repo: https://gitlab.com/SUSE-UIUX/eos-icons
 
 @font-face {
   font-family: "eos-icons-extended";
-<<<<<<< HEAD
-  src: url("../fonts/eos-icons-extended.eot?57d2dee42cadf2a3878a0d7f7e6d452e");
-  src: url("../fonts/eos-icons-extended.eot?57d2dee42cadf2a3878a0d7f7e6d452e#iefix") format("embedded-opentype"),
-		url("../fonts/eos-icons-extended.woff2?57d2dee42cadf2a3878a0d7f7e6d452e") format("woff2"),
-		url("../fonts/eos-icons-extended.woff?57d2dee42cadf2a3878a0d7f7e6d452e") format("woff"),
-		url("../fonts/eos-icons-extended.ttf?57d2dee42cadf2a3878a0d7f7e6d452e") format("truetype"),
-		url("../fonts/eos-icons-extended.svg?57d2dee42cadf2a3878a0d7f7e6d452e#eos-icons-extended") format("svg");
-=======
-  src: url("../fonts/eos-icons-extended.eot?e971a9aa60df79e1e1d6eea3c800a338");
-  src: url("../fonts/eos-icons-extended.eot?e971a9aa60df79e1e1d6eea3c800a338#iefix") format("embedded-opentype"),
-		url("../fonts/eos-icons-extended.woff2?e971a9aa60df79e1e1d6eea3c800a338") format("woff2"),
-		url("../fonts/eos-icons-extended.woff?e971a9aa60df79e1e1d6eea3c800a338") format("woff"),
-		url("../fonts/eos-icons-extended.ttf?e971a9aa60df79e1e1d6eea3c800a338") format("truetype"),
-		url("../fonts/eos-icons-extended.svg?e971a9aa60df79e1e1d6eea3c800a338#eos-icons-extended") format("svg");
->>>>>>> master
+  src: url("../fonts/eos-icons-extended.eot?14d1ea89ff1edacc533b6f7a3994e0cd");
+  src: url("../fonts/eos-icons-extended.eot?14d1ea89ff1edacc533b6f7a3994e0cd#iefix") format("embedded-opentype"),
+		url("../fonts/eos-icons-extended.woff2?14d1ea89ff1edacc533b6f7a3994e0cd") format("woff2"),
+		url("../fonts/eos-icons-extended.woff?14d1ea89ff1edacc533b6f7a3994e0cd") format("woff"),
+		url("../fonts/eos-icons-extended.ttf?14d1ea89ff1edacc533b6f7a3994e0cd") format("truetype"),
+		url("../fonts/eos-icons-extended.svg?14d1ea89ff1edacc533b6f7a3994e0cd#eos-icons-extended") format("svg");
   font-weight: normal;
   font-style: normal;
 }

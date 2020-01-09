@@ -163,6 +163,16 @@
     ]
   },
   {
+    "name": "deploy",
+    "do": "<ul><li>For deploying code/software to a server, container, etc.</li>></ul>",
+    "dont": "<ul><li>For uploading.</li></ul>",
+    "tags": [
+      "deploying",
+      "release",
+      "distribute"
+    ]
+  },
+  {
     "name": "endpoints",
     "do": "<ul><li>To represent endpoints. E.g.: you have a table of information and you need to differentiate endpoint URIs.</li></ul>",
     "dont": "<ul><li>To represent an endpoints status.</li></ul>",
@@ -221,7 +231,7 @@
   },
   {
     "name": "inbound",
-    "do": "To illustrate incoming information or data",
+    "do": "To illustrate inbound information or data",
     "dont": "To illustrate email behaivor",
     "tags": [
       "information",
@@ -316,7 +326,7 @@
   },
   {
     "name": "outbound",
-    "do": "To illustrate outgoing information",
+    "do": "To illustrate outbound information",
     "dont": "To illustrate email behaivor",
     "tags": [
       "information",
