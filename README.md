@@ -30,12 +30,15 @@ Where the LIGATURE_OF_THE_ICON is the name of the icon. Use our online tool to s
 
 # Using animated icons
 
-The animated EOS icons are built using CSS animations. To implement them you don't need ligatures but classes instead.
+
+1- Download the animated icon of your choice from [https://eos-icons.eosdesignsystem.com/](https://eos-icons.eosdesignsystem.com/) and add them into your project.
+
+2- To use them you need to add the `img` tag in your html.
 
 For example:
 
 ```
-<i class="eos-icons eos-icon-loading"></i>
+<img src="icon.svg" />
 ```
 
 See the other animated icons classes in our [demo page](https://eos-icons.eosdesignsystem.com/). Click on the icon you want to use to see the code snippet.
