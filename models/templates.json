@@ -1,6 +1,6 @@
 {
   "name": "templates",
-  "do": "<ul><li> _ </li></ul>",
-  "dont": "<ul><li> _ </li></ul>",
+  "do": "",
+  "dont": "",
   "tags": ["atomic"]
 }

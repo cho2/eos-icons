@@ -1,6 +1,6 @@
 {
   "name": "multistate",
   "do": "<ul><li>To show multiple states.</li></ul>",
-  "dont": "-",
+  "dont": "",
   "tags": ["multistate", "multistate resources"]
 }

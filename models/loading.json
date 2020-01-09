@@ -1,9 +1,6 @@
 {
   "name": "loading",
-  "animatedClass": "eos-icon-loading",
-  "codeExample": "<i class='eos-icons eos-icon-loading md-48'></i>",
   "do": "<ul><li>The user is waiting for new content to be serverd.</li></ul>",
   "dont": "<ul><li>The action returns invisible results for the user.</li></ul>",
-  "action": "Once the process concludes, the animation should be stopped and removed.",
   "tags": ["loading"]
 }

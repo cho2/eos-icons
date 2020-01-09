@@ -1,0 +1,6 @@
+{
+  "name": "content_lifecycle_management",
+  "do": "To illustrate the planning cycle",
+  "dont": "To represent recycling documents actions",
+  "tags": ["content", "lifecycle"]
+}

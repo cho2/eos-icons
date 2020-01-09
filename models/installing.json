@@ -1,9 +1,6 @@
 {
   "name": "installing",
-  "animatedClass": "eos-icon-installing",
-  "codeExample": "<i class='eos-icons eos-icon-installing md-48'></i>",
   "do": "<ul><li>The user is waiting for an installation process to finalize.</li></ul>",
   "dont": "<ul><li>As feedback for refreshing, reloading or syncing data.</li></ul>",
-  "action": "Once the process concludes, the animation should be stopped and removed.",
   "tags": ["installing"]
 }
