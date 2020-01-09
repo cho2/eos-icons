@@ -2,5 +2,5 @@
   "name": "outbound",
   "do": "<ul><li> To illustrate outbound information </li></ul>",
   "dont": "<ul><li>To illustrate email behaivor</li></ul>",
-  "tags": ["information", "flow"]
+  "tags": ["information", "flow", "outgoing"]
 }

@@ -235,7 +235,8 @@
     "dont": "To illustrate email behaivor",
     "tags": [
       "information",
-      "flow"
+      "flow",
+      "incoming"
     ]
   },
   {
@@ -330,7 +331,8 @@
     "dont": "<ul><li>To illustrate email behaivor</li></ul>",
     "tags": [
       "information",
-      "flow"
+      "flow",
+      "outgoing"
     ]
   },
   {
