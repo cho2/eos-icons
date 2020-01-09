@@ -2,7 +2,7 @@
   {
     "name": "action_chains",
     "do": "<ul><li>For chains of actions.</li><li>Also use when multiple steps are required.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "chain actions",
       "multiple actions",
@@ -66,7 +66,7 @@
   {
     "name": "background_tasks",
     "do": "<ul><li>To indicate tasks that are running in the background.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "pending",
       "loading"
@@ -75,7 +75,7 @@
   {
     "name": "bootstrapping",
     "do": "<ul><li>When bootstraping a new element into a system.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "minion"
     ]
@@ -120,7 +120,7 @@
   {
     "name": "constraint",
     "do": "<ul><li>To define constraints.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "constraint",
       "check",
@@ -128,9 +128,18 @@
     ]
   },
   {
+    "name": "content_lifecycle_management",
+    "do": "To illustrate the planning cycle",
+    "dont": "To represent recycling documents actions",
+    "tags": [
+      "content",
+      "lifecycle"
+    ]
+  },
+  {
     "name": "counting",
     "do": "<ul><li>To display countings of any type, e.g.: subscription counting, system counting, etc.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "suscription",
       "counting"
@@ -192,7 +201,7 @@
   {
     "name": "file_system",
     "do": "<ul><li>To manage files on a server.</li><li>To control how data is stored and retrieved.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "files system",
       "share file",
@@ -211,23 +220,26 @@
     ]
   },
   {
+    "name": "inbound",
+    "do": "To illustrate incoming information or data",
+    "dont": "To illustrate email behaivor",
+    "tags": [
+      "information",
+      "flow"
+    ]
+  },
+  {
     "name": "installing",
-    "animatedClass": "eos-icon-installing",
-    "codeExample": "<i class='eos-icons eos-icon-installing md-48'></i>",
     "do": "<ul><li>The user is waiting for an installation process to finalize.</li></ul>",
     "dont": "<ul><li>As feedback for refreshing, reloading or syncing data.</li></ul>",
-    "action": "Once the process concludes, the animation should be stopped and removed.",
     "tags": [
       "installing"
     ]
   },
   {
     "name": "loading",
-    "animatedClass": "eos-icon-loading",
-    "codeExample": "<i class='eos-icons eos-icon-loading md-48'></i>",
     "do": "<ul><li>The user is waiting for new content to be serverd.</li></ul>",
     "dont": "<ul><li>The action returns invisible results for the user.</li></ul>",
-    "action": "Once the process concludes, the animation should be stopped and removed.",
     "tags": [
       "loading"
     ]
@@ -251,8 +263,8 @@
   },
   {
     "name": "molecules",
-    "do": "<ul><li> _ </li></ul>",
-    "dont": "<ul><li> _ </li></ul>",
+    "do": "",
+    "dont": "",
     "tags": [
       "atomic"
     ]
@@ -269,7 +281,7 @@
   {
     "name": "multistate",
     "do": "<ul><li>To show multiple states.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "multistate",
       "multistate resources"
@@ -278,7 +290,7 @@
   {
     "name": "network_file_system",
     "do": "<ul><li>To access or share files across servers.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "network",
       "file system",
@@ -288,8 +300,8 @@
   },
   {
     "name": "organisms",
-    "do": "<ul><li> _ </li></ul>",
-    "dont": "<ul><li> _ </li></ul>",
+    "do": "",
+    "dont": "",
     "tags": [
       "atomic"
     ]
@@ -297,15 +309,24 @@
   {
     "name": "organization",
     "do": "<ul><li>To represent organizations.</li><li>Organizations are made of groups or teams, not individuals.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "id"
     ]
   },
   {
+    "name": "outbound",
+    "do": "To illustrate outgoing information",
+    "dont": "To illustrate email behaivor",
+    "tags": [
+      "information",
+      "flow"
+    ]
+  },
+  {
     "name": "package",
     "do": "<ul><li>To represent a singular package.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "package"
     ]
@@ -322,12 +343,21 @@
   {
     "name": "packages",
     "do": "<ul><li>To represent a list of packages.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "module",
       "extension",
       "upgrade",
       "install"
+    ]
+  },
+  {
+    "name": "patterns",
+    "do": "<ul> <li> To represent predictable behaivor </li> </ul",
+    "dont": "<ul> <li> To represent routes </li> </ul",
+    "tags": [
+      "patterns",
+      "information"
     ]
   },
   {
@@ -341,7 +371,7 @@
   {
     "name": "primitive",
     "do": "<ul><li>To perform the most basic task.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "primitive",
       "basic resource",
@@ -351,7 +381,7 @@
   {
     "name": "product_classes",
     "do": "<ul><li>To represent product classes.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "subscription",
       "SCC",
@@ -370,7 +400,7 @@
   {
     "name": "products",
     "do": "<ul><li>To show a collection of products.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "product",
       "product collection"
@@ -379,7 +409,7 @@
   {
     "name": "proxy",
     "do": "<ul><li>To represent a proxy server or state.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "proxy"
     ]
@@ -397,7 +427,7 @@
   {
     "name": "repositories",
     "do": "<ul><li>To indicate product repositories.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "products",
       "architecture",
@@ -417,7 +447,7 @@
   {
     "name": "sandbox",
     "do": "<ul><li>For a special setting in software which uses dummy data to test APIs.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "sandbox",
       "software",
@@ -453,7 +483,7 @@
   {
     "name": "smt",
     "do": "<ul><li>To represent SMT/RMT servers with the SMT/RMT server information.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "SMT",
       "RMT servers",
@@ -463,7 +493,7 @@
   {
     "name": "snapshot_rollback",
     "do": "<ul><li>To rollback a snapshot, backup, or data saved, to a previous state.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "snapshot",
       "rollback",
@@ -483,7 +513,7 @@
   {
     "name": "state",
     "do": "<ul><li>To represent states. Normally booleans true/false, on/off.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "state",
       "boolean",
@@ -511,7 +541,7 @@
   {
     "name": "system_group",
     "do": "<ul><li>To represent a group of systems.</li></ul>",
-    "dont": "-",
+    "dont": "",
     "tags": [
       "system",
       "group"
@@ -528,8 +558,8 @@
   },
   {
     "name": "templates",
-    "do": "<ul><li> _ </li></ul>",
-    "dont": "<ul><li> _ </li></ul>",
+    "do": "",
+    "dont": "",
     "tags": [
       "atomic"
     ]
