@@ -1,6 +1,7 @@
 module.exports = function (grunt) {
   const { compareFolders } = require('./scripts/md-name-checker');
   const { combineIconsModels } = require('./scripts/combine-eos-icons');
+  const { checkForMissingModelsOrIcons } = require('./scripts/models-checker')
 
   //Append path to your svg below
   //EOS-set svg path
@@ -99,6 +100,27 @@ module.exports = function (grunt) {
     },
   });
 
+  grunt.registerTask('compareModels', function () {
+    const done = this.async();
+
+    checkForMissingModelsOrIcons({ modelsSrc: './models/', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(data => {
+      const { differenceInModels, differenceInIcons } = data
+
+      if (differenceInModels.length || differenceInIcons.length) {
+        if(differenceInModels.length) {
+          console.log(`⚠️  We found # ${differenceInModels.map(ele => ele)} # model but not the SVG inside ./svg folder. Please add the SVG`)
+        }
+
+        if (differenceInIcons.length) {
+          console.log(`⚠️  We found # ${differenceInIcons.map(ele => ele)} # SVGs but not the model inside ./models folder. Please create it.`)
+        }
+        process.exit(1)
+      } else {
+        console.log('✅  All SVGs have the correspondent models and vice versa.')
+        done()
+      }
+    })
+  })
 
   grunt.registerTask('findDuplicates', function() {
     const done = this.async();
@@ -130,5 +152,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('default', ['findDuplicates', 'copy:material', 'concat', 'webfont', 'replace', 'iconsModels']);
+  grunt.registerTask('default', ['findDuplicates', 'copy:material', 'concat', 'webfont', 'replace', 'iconsModels', 'compareModels']);
 };
