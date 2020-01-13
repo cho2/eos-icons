@@ -108,11 +108,11 @@ module.exports = function (grunt) {
 
       if (differenceInModels.length || differenceInIcons.length) {
         if(differenceInModels.length) {
-          console.log(`⚠️  We found # ${differenceInModels.map(ele => ele)} # model but not the SVG inside ./svg folder. Please add the SVG`)
+          console.log(`⚠️  Model missing: we found # ${differenceInModels.map(ele => ele)} # model but not the SVG inside /svg folder.`)
         }
 
         if (differenceInIcons.length) {
-          console.log(`⚠️  We found # ${differenceInIcons.map(ele => ele)} # SVGs but not the model inside ./models folder. Please create it.`)
+          console.log(`⚠️  SVG missing: we found # ${differenceInIcons.map(ele => ele)} # SVG but not the model inside /models folder.`)
         }
         process.exit(1)
       } else {

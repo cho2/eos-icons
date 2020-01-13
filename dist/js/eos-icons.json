@@ -10,6 +10,16 @@
     ]
   },
   {
+    "name": "action_chains",
+    "do": "<ul><li>For chains of actions.</li><li>Also use when multiple steps are required.</li></ul>",
+    "dont": "",
+    "tags": [
+      "chain actions",
+      "multiple actions",
+      "consecuences"
+    ]
+  },
+  {
     "name": "activate_subscriptions",
     "do": "<ul><li>For subscription activations.</li></ul>",
     "dont": "<ul><li>To show activated subscriptions. Use product_subscriptions instead.</li></ul>",
