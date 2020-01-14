@@ -28,7 +28,7 @@ const readFilesAndCleanNames = async folder => {
     const files = await fs.readdirSync(folder, (err, file) => file)
 
     return files.map(ele => {
-      return ele.includes('.svg') || ele.includes('.json') ? ele.split('.')[0] : ''
+      return ele.includes('.svg') || ele.includes('.json') ? ele.split('.')[0] : null
     })
   } catch (error) {
     console.log('ERROR: readFilesAndCleanNames() => : ', error);
