@@ -11,10 +11,10 @@ const checkForMissingModelsOrIcons = async params => {
     const existentAnimatedIcons = await readFilesAndCleanNames(animatedSrc)
 
     /* Compare one with the other and extract the missing models and icons  */
-    const differenceInModels = compareTwoArraysOfElements(existentModels, [...existentIcons, ...existentAnimatedIcons])
-    const differenceInIcons = compareTwoArraysOfElements([...existentIcons, ...existentAnimatedIcons], existentModels)
+    const SVGsMissingModels = compareTwoArraysOfElements(existentModels, [...existentIcons, ...existentAnimatedIcons])
+    const ModelsMissingSVGs = compareTwoArraysOfElements([...existentIcons, ...existentAnimatedIcons], existentModels)
 
-    return { differenceInModels, differenceInIcons }
+    return { SVGsMissingModels, ModelsMissingSVGs }
   } catch (error) {
     console.log('ERROR: checkForMissingModelsOrIcons() => : ', error);
   }

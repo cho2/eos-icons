@@ -104,15 +104,15 @@ module.exports = function (grunt) {
     const done = this.async();
 
     checkForMissingModelsOrIcons({ modelsSrc: './models', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(data => {
-      const { differenceInModels, differenceInIcons } = data
+      const { SVGsMissingModels, ModelsMissingSVGs } = data
 
-      if (differenceInModels.length || differenceInIcons.length) {
-        if(differenceInModels.length) {
-          console.log(`⚠️  SVG missing: we found models # ${differenceInModels.map(ele => ele)} # but not the SVG inside /svg.`)
+      if (SVGsMissingModels.length || ModelsMissingSVGs.length) {
+        if(SVGsMissingModels.length) {
+          console.log(`⚠️  SVG missing: we found models # ${SVGsMissingModels.map(ele => ele)} # but not the SVG inside /svg.`)
         }
 
-        if (differenceInIcons.length) {
-          console.log(`⚠️  Model missing: we found the SVG # ${differenceInIcons.map(ele => ele)} # but not the model inside /models`)
+        if (ModelsMissingSVGs.length) {
+          console.log(`⚠️  Model missing: we found the SVG # ${ModelsMissingSVGs.map(ele => ele)} # but not the model inside /models`)
         }
         process.exit(1)
       } else {
