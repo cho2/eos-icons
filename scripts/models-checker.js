@@ -25,16 +25,17 @@ const readFilesAndCleanNames = async folder => {
   try {
     const files = await fs.readdirSync(folder, (err, file) => {
       if(err) console.log(err);
-      return file === 'extended' ? file : null
+      return file
     })
 
     /* We filter out the subfolder (or others elements in the future) */
-    const filtered = files.filter(ele => ele !== 'extended')
-
-    return filtered.map(ele => {
-      return ele.includes('.svg') || ele.includes('.json') ? ele.split('.')[0] : null
+    const filterContent = files.filter(ele => {
+      return ele.includes('.svg') || ele.includes('.json')
+      ? ele
+      : null
     })
-
+    console.log('filterContent: ', filterContent);
+    return filterContent.map(ele =>  ele.split('.')[0] )
   } catch (error) {
     console.log('ERROR: readFilesAndCleanNames() => : ', error);
   }
