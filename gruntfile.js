@@ -103,20 +103,20 @@ module.exports = function (grunt) {
   grunt.registerTask('compareModels', function () {
     const done = this.async();
 
-    checkForMissingModelsOrIcons({ modelsSrc: './models/', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(data => {
+    checkForMissingModelsOrIcons({ modelsSrc: './models', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(data => {
       const { differenceInModels, differenceInIcons } = data
 
       if (differenceInModels.length || differenceInIcons.length) {
         if(differenceInModels.length) {
-          console.log(`⚠️  Model missing: we found # ${differenceInModels.map(ele => ele)} # model but not the SVG inside /svg folder.`)
+          console.log(`⚠️  SVG missing: we found models # ${differenceInModels.map(ele => ele)} # but not the SVG inside /svg.`)
         }
 
         if (differenceInIcons.length) {
-          console.log(`⚠️  SVG missing: we found # ${differenceInIcons.map(ele => ele)} # SVG but not the model inside /models folder.`)
+          console.log(`⚠️  Model missing: we found the SVG # ${differenceInIcons.map(ele => ele)} # but not the model inside /models`)
         }
         process.exit(1)
       } else {
-        console.log('✅  All SVGs have the correspondent models and vice versa.')
+        console.log('✅  All SVGs have their corresponding model and vice versa.')
         done()
       }
     })
