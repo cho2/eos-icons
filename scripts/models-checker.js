@@ -23,13 +23,18 @@ const checkForMissingModelsOrIcons = async params => {
 /* Get the files(json or svg) from a folder and removes the.extension from them only leaving the names. */
 const readFilesAndCleanNames = async folder => {
   try {
-    const files = await fs.readdirSync(folder, (err, file) => file)
-
-    return files.map(ele => {
-      if(ele.includes('.svg') || ele.includes('.json') && ele !== '.DS_Store') {
-        return ele.split('.')[0]
-      }
+    const files = await fs.readdirSync(folder, (err, file) => {
+      if(err) console.log(err);
+      return file === 'extended' ? file : null
     })
+
+    /* We filter out the subfolder (or others elements in the future) */
+    const filtered = files.filter(ele => ele !== 'extended')
+
+    return filtered.map(ele => {
+      return ele.includes('.svg') || ele.includes('.json') ? ele.split('.')[0] : null
+    })
+
   } catch (error) {
     console.log('ERROR: readFilesAndCleanNames() => : ', error);
   }
