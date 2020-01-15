@@ -34,7 +34,7 @@ const readFilesAndCleanNames = async folder => {
       ? ele
       : null
     })
-    console.log('filterContent: ', filterContent);
+
     return filterContent.map(ele =>  ele.split('.')[0] )
   } catch (error) {
     console.log('ERROR: readFilesAndCleanNames() => : ', error);
