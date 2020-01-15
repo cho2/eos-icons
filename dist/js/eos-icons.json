@@ -29,6 +29,15 @@
     ]
   },
   {
+    "name": "api",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "api",
+      "data"
+    ]
+  },
+  {
     "name": "application",
     "do": "<ul><li>To represent an application.</li></ul>",
     "dont": "<ul><li>To represent an application instance.</li></ul>",
@@ -216,17 +225,6 @@
       "files system",
       "share file",
       "server"
-    ]
-  },
-  {
-    "name": "image",
-    "do": "<ul><li>To represent disk images, containers or ISOs.</li></ul>",
-    "dont": "<ul><li>For images, such as photos or pictures.</li></ul>",
-    "tags": [
-      "docker",
-      "container",
-      "disk",
-      "iso"
     ]
   },
   {
@@ -419,6 +417,14 @@
     ]
   },
   {
+    "name": "project",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "project"
+    ]
+  },
+  {
     "name": "proxy",
     "do": "<ul><li>To represent a proxy server or state.</li></ul>",
     "dont": "",
@@ -557,6 +563,17 @@
     "tags": [
       "system",
       "group"
+    ]
+  },
+  {
+    "name": "system_image",
+    "do": "<ul><li>To represent disk images, containers or ISOs.</li></ul>",
+    "dont": "<ul><li>For images, such as photos or pictures.</li></ul>",
+    "tags": [
+      "docker",
+      "container",
+      "disk",
+      "iso"
     ]
   },
   {

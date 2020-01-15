@@ -12,6 +12,14 @@ test_icons_name:
   script:
     - grunt findDuplicates
 
+compare_svgs_and_models:
+  stage: test
+  before_script:
+    - npm install
+    - npm i -g grunt
+  script:
+    - grunt compareModels
+
 # Start the jobs
 
 npm-publish:

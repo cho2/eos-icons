@@ -15,7 +15,9 @@ const combineIconsModels = async params => {
     })
 
     files.map(file => {
-      data.push(JSON.parse(fs.readFileSync(`${targetDir}${file}`, 'utf8')))
+      if (file.includes('.json')) {
+        data.push(JSON.parse(fs.readFileSync(`${targetDir}${file}`, 'utf8')))
+      }
     })
 
     return fs.writeFileSync(destDir, JSON.stringify(data, null, 2))
