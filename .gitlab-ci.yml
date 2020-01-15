@@ -1,6 +1,5 @@
 stages:
   - test
-  - compare
   - publish
 
 image: node:10.15.0
@@ -14,7 +13,7 @@ test_icons_name:
     - grunt findDuplicates
 
 compare_svgs_and_models:
-  stage: compare
+  stage: test
   before_script:
     - npm install
     - npm i -g grunt
