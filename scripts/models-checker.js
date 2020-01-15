@@ -10,7 +10,6 @@ const checkForMissingModelsOrIcons = async params => {
     const existentIcons = await readFilesAndCleanNames(iconsSrc)
     const existentAnimatedIcons = await readFilesAndCleanNames(animatedSrc)
 
-
     /* Compare one with the other and extract the missing models and icons  */
     const differenceInModels = compareTwoArraysOfElements(existentModels, [...existentIcons, ...existentAnimatedIcons])
     const differenceInIcons = compareTwoArraysOfElements([...existentIcons, ...existentAnimatedIcons], existentModels)
@@ -21,15 +20,12 @@ const checkForMissingModelsOrIcons = async params => {
   }
 }
 
-
 /* Get the files(json or svg) from a folder and removes the.extension from them only leaving the names. */
 const readFilesAndCleanNames = async folder => {
   try {
     const files = await fs.readdirSync(folder, (err, file) => file)
 
-    return files.map(ele => {
-      return ele.includes('.svg') || ele.includes('.json') ? ele.split('.')[0] : null
-    })
+    return files.map(ele => ele.includes('.svg') || ele.includes('.json') ? ele.split('.')[0] : null)
   } catch (error) {
     console.log('ERROR: readFilesAndCleanNames() => : ', error);
   }

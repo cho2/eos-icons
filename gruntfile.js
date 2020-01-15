@@ -153,6 +153,4 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-text-replace');
 
   grunt.registerTask('default', ['findDuplicates', 'copy:material', 'concat', 'webfont', 'replace', 'iconsModels', 'compareModels']);
-
-  grunt.registerTask('test', 'compareModels')
 };
