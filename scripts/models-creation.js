@@ -44,7 +44,7 @@ const createModel = async params => {
           type: 'rawlist',
           name: 'category',
           message: '🗄  Indicate the category:',
-          choices: ['cloud', 'desktop', 'axure', 'animated']
+          choices: ['cloud', 'kubernetes', 'data']
         },
         {
           type: 'rawlist',
