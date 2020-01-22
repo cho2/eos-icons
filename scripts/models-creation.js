@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
+const fs = require('fs');
 
-const createModel = async params => {
+const inputForModel = async () => {
   try {
     return inquirer
       .prompt([
@@ -54,10 +55,37 @@ const createModel = async params => {
         },
       ])
   } catch (error) {
-    console.log('createModel(): ', error);
+    console.log('inputForModel(): ', error);
+  }
+}
+
+const createNewModel = async ({ ModelsMissingSVGs }) => {
+  try {
+    for (let i = 0; i < ModelsMissingSVGs.length; i++) {
+      console.log('===============================================')
+      console.log(`Add the information of the model for ${ModelsMissingSVGs[i]}.svg:`)
+
+      await inputForModel().then(async response => {
+        const iconModel = [{ name: ModelsMissingSVGs[i], ...response }].reduce((acc, cur) => {
+          acc = {
+            ...cur,
+            tags: [cur.tags],
+            category: [cur.category]
+          }
+
+          return acc
+        }, {})
+
+        fs.writeFileSync(`models/${ModelsMissingSVGs[i]}.json`, JSON.stringify(iconModel, null, 2))
+
+        return console.log(`File saved:  ../models/${ModelsMissingSVGs[i]}.json. Please always check it manually to be sure.`)
+      })
+    }
+  } catch (error) {
+    console.log('ERROR: createNewModel(): ', error);
   }
 }
 
 module.exports = {
-  createModel
+  createNewModel
 }
