@@ -2,6 +2,8 @@ module.exports = function (grunt) {
   const { compareFolders } = require('./scripts/md-name-checker');
   const { combineIconsModels } = require('./scripts/combine-eos-icons');
   const { checkForMissingModelsOrIcons } = require('./scripts/models-checker')
+  const { createModel } = require('./scripts/models-creation')
+  const fs = require('fs');
 
   //Append path to your svg below
   //EOS-set svg path
@@ -100,10 +102,12 @@ module.exports = function (grunt) {
     },
   });
 
+
+  /* Looks into the models and svg folders and finds the differences */
   grunt.registerTask('compareModels', function () {
     const done = this.async();
 
-    checkForMissingModelsOrIcons({ modelsSrc: './models', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(data => {
+    checkForMissingModelsOrIcons({ modelsSrc: './models', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(async data => {
       const { SVGsMissingModels, ModelsMissingSVGs } = data
 
       if (SVGsMissingModels.length || ModelsMissingSVGs.length) {
@@ -112,8 +116,11 @@ module.exports = function (grunt) {
         }
 
         if (ModelsMissingSVGs.length) {
-          console.log(`⚠️  Model missing: we found the SVG # ${ModelsMissingSVGs.map(ele => ele)} # but not the model inside /models`)
+          console.log(`⚠️  Model missing: we found the SVG # ${ModelsMissingSVGs.map(ele => ele)} # but not the model inside /models. Please create one below.`)
+
+          await createNewModel({ ModelsMissingSVGs })
         }
+
         process.exit(1)
       } else {
         console.log('✅  All SVGs have their corresponding model and vice versa.')
@@ -121,6 +128,31 @@ module.exports = function (grunt) {
       }
     })
   })
+
+  /* If a model for a SVG it's not found, will pop an input into the terminal to create it */
+  const createNewModel = async ({ ModelsMissingSVGs }) => {
+
+    for (let i = 0; i < ModelsMissingSVGs.length; i++) {
+      console.log('===============================================')
+      console.log(`Add the information of the model for ${ModelsMissingSVGs[i]}:`)
+      await createModel().then(async response => {
+
+        const iconModel = [{ name: ModelsMissingSVGs[i], ...response }].reduce((acc, cur) => {
+          acc = {
+            ...cur,
+            tags: [cur.tags],
+            category: [cur.category]
+          }
+
+          return acc
+        }, {})
+
+        fs.writeFileSync(`models/${ModelsMissingSVGs[i]}.json`, JSON.stringify(iconModel, null, 2))
+        return console.log(`File saved:  ../models/${ModelsMissingSVGs[i]}.json. Please always check it manually to be sure.`)
+      })
+    }
+  }
+
 
   grunt.registerTask('findDuplicates', function() {
     const done = this.async();

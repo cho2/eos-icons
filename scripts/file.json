@@ -1,11 +1,12 @@
 {
   "name": "test",
-  "do": "asa",
-  "dont": "adas",
+  "do": "do something",
+  "dont": "Do something else",
   "tags": [
-    "1"
+    "12,12,123"
   ],
   "category": [
-    "Desktop"
-  ]
+    "cloud"
+  ],
+  "type": "snimated"
 }
