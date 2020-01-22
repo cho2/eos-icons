@@ -113,15 +113,16 @@ module.exports = function (grunt) {
       if (SVGsMissingModels.length || ModelsMissingSVGs.length) {
         if(SVGsMissingModels.length) {
           console.log(`⚠️  SVG missing: we found models # ${SVGsMissingModels.map(ele => ele)} # but not the SVG inside /svg.`)
+
+          process.exit(1)
         }
 
         if (ModelsMissingSVGs.length) {
           console.log(`⚠️  Model missing: we found the SVG # ${ModelsMissingSVGs.map(ele => ele)} # but not the model inside /models. Please create one below.`)
 
-          await createNewModel({ ModelsMissingSVGs })
+          /* If any model is missing, send it to be created. */
+          await createNewModel({ ModelsMissingSVGs }).then(done)
         }
-
-        process.exit(1)
       } else {
         console.log('✅  All SVGs have their corresponding model and vice versa.')
         done()
