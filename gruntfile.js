@@ -3,7 +3,6 @@ module.exports = function (grunt) {
   const { combineIconsModels } = require('./scripts/combine-eos-icons');
   const { checkForMissingModelsOrIcons } = require('./scripts/models-checker')
   const { createNewModel } = require('./scripts/models-creation')
-  const fs = require('fs');
 
   //Append path to your svg below
   //EOS-set svg path
