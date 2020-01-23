@@ -42,17 +42,10 @@ const inputForModel = async () => {
           }
         },
         {
-          type: 'input',
+          type: 'checkbox',
           name: 'category',
           message: '🗄  Indicate the category separated by comma:',
-          validate: function (input) {
-            const done = this.async();
-
-            input.length
-              ? done(null, true)
-              : done(`Field can't be blank`);
-          }
-          // choices: ['cloud', 'kubernetes', 'data']
+          choices: ['miscellaneous', 'kubernetes', 'communication']
         },
         {
           type: 'rawlist',
