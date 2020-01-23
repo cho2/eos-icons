@@ -8,7 +8,7 @@ const inputForModel = async () => {
         {
           type: 'input',
           name: 'do',
-          message: '✅  Indicate the doing:',
+          message: '✅  Indicate the "do"',
           validate: function(input){
             const done = this.async();
 
@@ -20,7 +20,7 @@ const inputForModel = async () => {
         {
           type: 'input',
           name: 'dont',
-          message: '⚠️  Indicate the donts:',
+          message: `⚠️  Indicate the "don't"`,
           validate: function(input){
             const done = this.async();
 
@@ -42,10 +42,17 @@ const inputForModel = async () => {
           }
         },
         {
-          type: 'rawlist',
+          type: 'input',
           name: 'category',
-          message: '🗄  Indicate the category:',
-          choices: ['cloud', 'kubernetes', 'data']
+          message: '🗄  Indicate the category separated by comma:',
+          validate: function (input) {
+            const done = this.async();
+
+            input.length
+              ? done(null, true)
+              : done(`Field can't be blank`);
+          }
+          // choices: ['cloud', 'kubernetes', 'data']
         },
         {
           type: 'rawlist',
