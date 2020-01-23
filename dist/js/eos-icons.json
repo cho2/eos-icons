@@ -137,16 +137,6 @@
     ]
   },
   {
-    "name": "container",
-    "do": "<ul><li></li></ul>",
-    "dont": "<ul><li></li></ul>",
-    "tags": [
-      "container",
-      "doker",
-      "kubernetes"
-    ]
-  },
-  {
     "name": "content_lifecycle_management",
     "do": "<ul><li>To illustrate the planning cycle</li></ul>",
     "dont": "<ul><li>To represent recycling documents actions</li></ul>",
@@ -315,6 +305,16 @@
       "file system",
       "servers",
       "share files"
+    ]
+  },
+  {
+    "name": "node",
+    "do": "<ul><li></li></ul>",
+    "dont": "",
+    "tags": [
+      "app",
+      "node",
+      ""
     ]
   },
   {
