@@ -76,6 +76,8 @@ const createNewModel = async ({ ModelsMissingSVGs }) => {
         const iconModel = [{ name: ModelsMissingSVGs[i], ...response }].reduce((acc, cur) => {
           acc = {
             ...cur,
+            do: `<ul><li>${[cur.do]}</li></ul>`,
+            dont: `<ul><li>${[cur.dont]}</li></ul>`,
             tags: [cur.tags],
             category: [cur.category]
           }
