@@ -8,7 +8,7 @@ const inputForModel = async () => {
         {
           type: 'input',
           name: 'do',
-          message: '✅  Indicate the "do"',
+          message: '✅  Indicate the "do": ',
           validate: function(input){
             const done = this.async();
 
@@ -20,7 +20,7 @@ const inputForModel = async () => {
         {
           type: 'input',
           name: 'dont',
-          message: `⚠️  Indicate the "don't"`,
+          message: `⚠️  Indicate the "don't": `,
           validate: function(input){
             const done = this.async();
 
@@ -32,7 +32,7 @@ const inputForModel = async () => {
         {
           type: 'input',
           name: 'tags',
-          message: '🏷  Indicate the tags separated by comma (ex: tag1, tag2, tag3):',
+          message: '🏷  Indicate the tags separated by comma (ex: tag1, tag2, tag3): ',
           validate: function(input){
             const done = this.async();
 
@@ -44,7 +44,7 @@ const inputForModel = async () => {
         {
           type: 'list',
           name: 'category',
-          message: '🗄  Indicate the category:',
+          message: '🗄  Indicate the category: ',
           choices: ['miscellaneous', 'kubernetes', 'communication']
         },
         {
@@ -67,11 +67,13 @@ const createNewModel = async ({ ModelsMissingSVGs }) => {
 
       await inputForModel().then(async response => {
         const iconModel = [{ name: ModelsMissingSVGs[i], ...response }].reduce((acc, cur) => {
+          const arrayOftags = cur.tags.split(',')
+
           acc = {
             ...cur,
             do: `<ul><li>${[cur.do]}</li></ul>`,
             dont: `<ul><li>${[cur.dont]}</li></ul>`,
-            tags: [cur.tags]
+            tags: [...arrayOftags]
           }
 
           return acc
