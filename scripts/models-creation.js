@@ -42,9 +42,9 @@ const inputForModel = async () => {
           }
         },
         {
-          type: 'checkbox',
+          type: 'list',
           name: 'category',
-          message: '🗄  Indicate the category separated by comma:',
+          message: '🗄  Indicate the category:',
           choices: ['miscellaneous', 'kubernetes', 'communication']
         },
         {
@@ -71,8 +71,7 @@ const createNewModel = async ({ ModelsMissingSVGs }) => {
             ...cur,
             do: `<ul><li>${[cur.do]}</li></ul>`,
             dont: `<ul><li>${[cur.dont]}</li></ul>`,
-            tags: [cur.tags],
-            category: [cur.category]
+            tags: [cur.tags]
           }
 
           return acc
