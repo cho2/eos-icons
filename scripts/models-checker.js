@@ -14,6 +14,7 @@ const checkForMissingModelsOrIcons = async params => {
     const SVGsMissingModels = compareTwoArraysOfElements(existentModels, [...existentIcons, ...existentAnimatedIcons])
     const ModelsMissingSVGs = compareTwoArraysOfElements([...existentIcons, ...existentAnimatedIcons], existentModels)
 
+    /* Return an object with all the missing SVGs and Models */
     return { SVGsMissingModels, ModelsMissingSVGs }
   } catch (error) {
     console.log('ERROR: checkForMissingModelsOrIcons() => : ', error);
@@ -35,6 +36,7 @@ const readFilesAndCleanNames = async folder => {
       : null
     })
 
+    /* Return the files name without the extension */
     return filterContent.map(ele =>  ele.split('.')[0] )
   } catch (error) {
     console.log('ERROR: readFilesAndCleanNames() => : ', error);
