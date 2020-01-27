@@ -1,6 +1,6 @@
 {
   "name": "workload",
-  "do": "<ul><li></li></ul>",
+  "do": "<ul><li>use in container envieroment</li><li></li></ul>",
   "dont": "",
-  "tags": ["app", "application", "" ]
+  "tags": ["kubernetes", "application", "container", "app", "work" ]
 }
