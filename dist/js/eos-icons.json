@@ -649,12 +649,12 @@
   },
   {
     "name": "volume",
-    "do": "<ul><li></li></ul>",
+    "do": "<ul>use it for unit of storage<li></li>use it for hard disk</ul>",
     "dont": "",
     "tags": [
-      "app",
-      "application",
-      ""
+      "disk",
+      "drive",
+      "Kubernetes"
     ]
   }
 ]
