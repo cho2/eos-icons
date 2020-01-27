@@ -649,12 +649,14 @@
   },
   {
     "name": "workload",
-    "do": "<ul><li></li></ul>",
+    "do": "<ul><li>use in container envieroment</li><li></li></ul>",
     "dont": "",
     "tags": [
-      "app",
+      "kubernetes",
       "application",
-      ""
+      "container",
+      "app",
+      "work"
     ]
   }
 ]
