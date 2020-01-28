@@ -659,7 +659,7 @@
   },
   {
     "name": "workload",
-    "do": "<ul><li>use in container envieroment</li><li></li></ul>",
+    "do": "<ul><li>To represent the amount of work to be done by someone or something.</li><li></li></ul>",
     "dont": "",
     "tags": [
       "kubernetes",
