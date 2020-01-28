@@ -653,9 +653,8 @@
     "dont": "",
     "tags": [
       "kubernetes",
-      "application",
       "container",
-      "app",
+      "workload",
       "work"
     ]
   }
