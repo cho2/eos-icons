@@ -2,5 +2,7 @@
   "name": "primitive",
   "do": "<ul><li>To perform the most basic task.</li></ul>",
   "dont": "",
-  "tags": ["primitive", "basic resource", "atomic"]
+  "tags": ["primitive", "basic resource", "atomic"],
+  "category": "communication",
+  "type": "static"
 }

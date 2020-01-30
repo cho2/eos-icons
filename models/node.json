@@ -1,6 +1,8 @@
 {
   "name": "node",
-  "do": "<ul><li></li></ul>",
+  "do": "",
   "dont": "",
-  "tags": ["app", "node", "" ]
+  "tags": ["app", "node"],
+  "category": "communication",
+  "type": "static"
 }

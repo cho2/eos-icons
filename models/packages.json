@@ -2,5 +2,7 @@
   "name": "packages",
   "do": "<ul><li>To represent a list of packages.</li></ul>",
   "dont": "",
-  "tags": ["module", "extension", "upgrade", "install"]
+  "tags": ["module", "extension", "upgrade", "install"],
+  "category": "communication",
+  "type": "static"
 }

@@ -2,5 +2,7 @@
   "name": "move",
   "do": "<ul><li>To represent the action of relocating elements.</li></ul>",
   "dont": "<ul><li>To represent directions.</li></ul>",
-  "tags": ["move", "relocate"]
+  "tags": ["move", "relocate"],
+  "category": "communication",
+  "type": "static"
 }

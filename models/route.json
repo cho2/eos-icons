@@ -2,5 +2,7 @@
   "name": "route",
   "do": "<ul><li>To represent application routes.</li></ul>",
   "dont": "<ul><li>To represent URL.</li></ul>",
-  "tags": ["routes", "application routes"]
+  "tags": ["routes", "application routes"],
+  "category": "communication",
+  "type": "static"
 }
