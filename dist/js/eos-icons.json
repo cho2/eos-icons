@@ -656,5 +656,16 @@
       "manage",
       "virtual host"
     ]
+  },
+  {
+    "name": "workload",
+    "do": "<ul><li>To represent the amount of work to be done by someone or something.</li><li></li></ul>",
+    "dont": "",
+    "tags": [
+      "kubernetes",
+      "container",
+      "workload",
+      "work"
+    ]
   }
 ]
