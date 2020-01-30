@@ -186,5 +186,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat')
   grunt.loadNpmTasks('grunt-text-replace')
 
-  grunt.registerTask('default', ['findDuplicates', 'np', 'compareModels', 'checkModelsKeys', 'combineAllIconsModels', 'copy:material', 'concat', 'webfont', 'replace'])
+  grunt.registerTask('default', ['findDuplicates', 'checkNameConvetion', 'compareModels', 'checkModelsKeys', 'combineAllIconsModels', 'copy:material', 'concat', 'webfont', 'replace'])
 }
