@@ -162,7 +162,7 @@ module.exports = function (grunt) {
     const done = this.async()
 
     return checkModelKeys().then(result => {
-      return result.length
+      result.length
         ? console.log(`⚠️  Error: model proprieties missing for # ${result.map(ele => ele.name)} #. Please make sure it has: name, do, dont, tags, category and type`)
         : done()
     })
@@ -186,5 +186,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat')
   grunt.loadNpmTasks('grunt-text-replace')
 
-  grunt.registerTask('default', ['findDuplicates', 'compareModels', 'checkModelsKeys', 'combineAllIconsModels', 'copy:material', 'concat', 'webfont', 'replace'])
+  grunt.registerTask('default', ['findDuplicates', 'np', 'compareModels', 'checkModelsKeys', 'combineAllIconsModels', 'copy:material', 'concat', 'webfont', 'replace'])
 }
