@@ -2,7 +2,7 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const { readFilesAndCleanNames } = require("./models-checker")
 
-const reg = /^[a-z]+(_[a-z]+)*$/g
+const namingConventionRegex = /^[a-z]+(_[a-z]+)*$/g
 
 /* Runs every SVG name aginst a regular expression */
 const checkSvgName = async params => {
@@ -12,7 +12,7 @@ const checkSvgName = async params => {
   const existentIcons = await readFilesAndCleanNames(svgDir)
 
   /* Checks that the name match the regex, if not, returns it */
-  return existentIcons.filter(ele => ele.match(reg) === null)
+  return existentIcons.filter(ele => ele.match(namingConventionRegex) === null)
 }
 
 const renameSvgTo = async originalFile => {
@@ -27,7 +27,7 @@ const renameSvgTo = async originalFile => {
 
           !input.length
             ? done(`Field can't be blank`)
-            : !input.match(reg)
+            : !input.match(namingConventionRegex)
             ? done(`Wrong naming convention, please use: filename or file_name`)
             : done(null, true)
         }
