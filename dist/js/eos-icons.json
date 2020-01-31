@@ -137,6 +137,16 @@
     ]
   },
   {
+    "name": "container",
+    "do": "<ul><li>use it for container</li></ul>",
+    "dont": "",
+    "tags": [
+      "container",
+      "doker",
+      "kubernetes"
+    ]
+  },
+  {
     "name": "content_lifecycle_management",
     "do": "<ul><li>To illustrate the planning cycle</li></ul>",
     "dont": "<ul><li>To represent recycling documents actions</li></ul>",
