@@ -1,0 +1,6 @@
+{
+  "name": "Cluster Role",
+  "do": "<ul><li>Indicates a cluster-scoped resources.</li><li>Indicates a non-resource endpoints.</li></ul>",
+  "dont": "",
+  "tags": ["cluster", "role", "kubernetes", "pods", "node", "healthz", "cluster-scoped"]
+}
