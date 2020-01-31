@@ -798,23 +798,21 @@
     "tags": [
       "manage",
       "virtual host"
-<<<<<<< HEAD
     ],
     "category": "communication",
     "type": "static"
-=======
-    ]
   },
   {
     "name": "workload",
-    "do": "<ul><li>To represent the amount of work to be done by someone or something.</li><li></li></ul>",
+    "do": "<ul><li>To represent the amount of work to be done by someone or something.</li></ul>",
     "dont": "",
     "tags": [
       "kubernetes",
       "container",
       "workload",
       "work"
-    ]
->>>>>>> master
+    ],
+    "category": "communication",
+    "type": "static"
   }
 ]
