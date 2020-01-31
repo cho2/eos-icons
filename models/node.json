@@ -1,6 +1,6 @@
 {
   "name": "node",
-  "do": "<ul><li></li></ul>",
+  "do": "<ul><li>To represent a point in a network or diagram at which lines or pathways intersect or branch.</li><li>To represent devices or data points on a large network.</li></ul>",
   "dont": "",
-  "tags": ["app", "node", "" ]
+  "tags": ["kubernetes", "node", "cluster" ]
 }
