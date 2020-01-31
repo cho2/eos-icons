@@ -2,5 +2,5 @@
   "name": "volume",
   "do": "<ul><li>Use it for unit of storage.</li><li>Use it for hard disk.</li></ul>",
   "dont": "",
-  "tags": ["disk", "drive", "Kubernetes"]
+  "tags": ["disk", "drive", "kubernetes"]
 }
