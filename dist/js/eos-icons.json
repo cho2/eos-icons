@@ -704,6 +704,16 @@
     ]
   },
   {
+    "name": "volume",
+    "do": "<ul><li>Use it for unit of storage.</li><li>Use it for hard disk.</li></ul>",
+    "dont": "",
+    "tags": [
+      "disk",
+      "drive",
+      "kubernetes"
+    ]
+  },
+  {
     "name": "workload",
     "do": "<ul><li>To represent the amount of work to be done by someone or something.</li></ul>",
     "dont": "",
