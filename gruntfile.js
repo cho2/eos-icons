@@ -2,12 +2,13 @@ module.exports = function (grunt) {
   const { compareFolders } = require('./scripts/md-name-checker');
   const { combineIconsModels } = require('./scripts/combine-eos-icons');
   const { checkForMissingModelsOrIcons } = require('./scripts/models-checker')
+  const { createNewModel } = require('./scripts/models-creation')
 
   //Append path to your svg below
   //EOS-set svg path
-  const src_eos_set=['svg/*.svg'];
+  const src_eos_set = ['svg/*.svg'];
   //Extended set svg path
-  const src_extended_set=['svg/*.svg', 'svg/extended/*.svg'];
+  const src_extended_set = ['svg/*.svg', 'svg/extended/*.svg'];
 
   grunt.initConfig({
     webfont: {
@@ -100,21 +101,26 @@ module.exports = function (grunt) {
     },
   });
 
+  /* Looks into the models and svg folders and finds the differences */
   grunt.registerTask('compareModels', function () {
     const done = this.async();
 
-    checkForMissingModelsOrIcons({ modelsSrc: './models', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(data => {
+    checkForMissingModelsOrIcons({ modelsSrc: './models', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(async data => {
       const { SVGsMissingModels, ModelsMissingSVGs } = data
 
       if (SVGsMissingModels.length || ModelsMissingSVGs.length) {
-        if(SVGsMissingModels.length) {
+        if (SVGsMissingModels.length) {
           console.log(`⚠️  SVG missing: we found models # ${SVGsMissingModels.map(ele => ele)} # but not the SVG inside /svg.`)
+
+          process.exit(1)
         }
 
         if (ModelsMissingSVGs.length) {
-          console.log(`⚠️  Model missing: we found the SVG # ${ModelsMissingSVGs.map(ele => ele)} # but not the model inside /models`)
+          console.log(`⚠️  Model missing: we found the SVG # ${ModelsMissingSVGs.map(ele => ele)} # but not the model inside /models. Please create one below.`)
+
+          /* If any model is missing, send it to be created. */
+          await createNewModel({ ModelsMissingSVGs }).then(done)
         }
-        process.exit(1)
       } else {
         console.log('✅  All SVGs have their corresponding model and vice versa.')
         done()
@@ -122,7 +128,8 @@ module.exports = function (grunt) {
     })
   })
 
-  grunt.registerTask('findDuplicates', function() {
+  /* Find duplictes name between our icons and MD icon set. */
+  grunt.registerTask('findDuplicates', function () {
     const done = this.async();
 
     const mdRepo = './node_modules/material-design-icons'
@@ -131,7 +138,7 @@ module.exports = function (grunt) {
     compareFolders({ mdRepo, eosRepo }).then(result => {
       const { error, message } = result
 
-      if(error) {
+      if (error) {
         console.log(message)
         process.exit(1)
       } else {
@@ -141,7 +148,7 @@ module.exports = function (grunt) {
     })
   })
 
-  grunt.registerTask('iconsModels', async function(){
+  grunt.registerTask('combineAllIconsModels', async function () {
     const done = this.async();
 
     return combineIconsModels({ targetDir: './models/', destDir: './dist/js/eos-icons.json' }).then(done)
@@ -152,5 +159,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('default', ['findDuplicates', 'copy:material', 'concat', 'webfont', 'replace', 'iconsModels', 'compareModels']);
+  grunt.registerTask('default', ['findDuplicates', 'compareModels', 'combineAllIconsModels', 'copy:material', 'concat', 'webfont', 'replace']);
 };

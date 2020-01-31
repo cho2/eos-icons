@@ -137,6 +137,16 @@
     ]
   },
   {
+    "name": "container",
+    "do": "<ul><li>use it for container</li></ul>",
+    "dont": "",
+    "tags": [
+      "container",
+      "doker",
+      "kubernetes"
+    ]
+  },
+  {
     "name": "content_lifecycle_management",
     "do": "<ul><li>To illustrate the planning cycle</li></ul>",
     "dont": "<ul><li>To represent recycling documents actions</li></ul>",
@@ -161,6 +171,18 @@
     "tags": [
       "bug"
     ]
+  },
+  {
+    "name": "cronjob",
+    "do": "<ul><li>Use for job/script that will run as scheduled.</li></ul>",
+    "dont": "<ul><li>To show the time.</li></ul>",
+    "tags": [
+      "kubernetes",
+      "cronjob",
+      "schedule"
+    ],
+    "category": "kubernetes",
+    "type": "static"
   },
   {
     "name": "csv_file",
@@ -308,6 +330,16 @@
     ]
   },
   {
+    "name": "node",
+    "do": "<ul><li>To represent a point in a network or diagram at which lines or pathways intersect or branch.</li><li>To represent devices or data points on a large network.</li></ul>",
+    "dont": "",
+    "tags": [
+      "kubernetes",
+      "node",
+      "cluster"
+    ]
+  },
+  {
     "name": "organisms",
     "do": "",
     "dont": "",
@@ -440,6 +472,16 @@
       "ptf",
       "program temporary fixes",
       "patch"
+    ]
+  },
+  {
+    "name": "quota",
+    "do": "<ul><li>Use to describe the amount of space for a determined hard drive.</li></ul>",
+    "dont": "",
+    "tags": [
+      "space",
+      "quota",
+      "capacity"
     ]
   },
   {
@@ -649,12 +691,23 @@
   },
   {
     "name": "volume",
-    "do": "<ul>use it for unit of storage<li></li>use it for hard disk</ul>",
+    "do": "<ul><li>Use it for unit of storage.</li><li>Use it for hard disk.</li></ul>",
     "dont": "",
     "tags": [
       "disk",
       "drive",
-      "Kubernetes"
+      "kubernetes"
+    ]
+  },
+  {
+    "name": "workload",
+    "do": "<ul><li>To represent the amount of work to be done by someone or something.</li></ul>",
+    "dont": "",
+    "tags": [
+      "kubernetes",
+      "container",
+      "workload",
+      "work"
     ]
   }
 ]
