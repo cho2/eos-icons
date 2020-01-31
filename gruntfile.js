@@ -169,7 +169,7 @@ module.exports = function (grunt) {
   })
 
   /* Checks for SVGs names returns the one with a wrong naming convention */
-  grunt.registerTask('checkNameConvetion', async function () {
+  grunt.registerTask('checkNameConvention', async function () {
     const done = this.async()
     checkSvgName({ svgDir: "./svg" }).then(async result => {
       for await(icon of result){
@@ -186,5 +186,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat')
   grunt.loadNpmTasks('grunt-text-replace')
 
-  grunt.registerTask('default', ['findDuplicates', 'checkNameConvetion', 'compareModels', 'checkModelsKeys', 'combineAllIconsModels', 'copy:material', 'concat', 'webfont', 'replace'])
+  grunt.registerTask('default', ['findDuplicates', 'checkNameConvention', 'compareModels', 'checkModelsKeys', 'combineAllIconsModels', 'copy:material', 'concat', 'webfont', 'replace'])
 }

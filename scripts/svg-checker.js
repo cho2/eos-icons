@@ -51,4 +51,4 @@ const renameSvgTo = async originalFile => {
 module.exports = {
   checkSvgName,
   renameSvgTo
-};
+}
