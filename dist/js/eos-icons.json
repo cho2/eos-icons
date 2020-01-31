@@ -465,6 +465,16 @@
     ]
   },
   {
+    "name": "quota",
+    "do": "<ul><li>Use to describe the amount of space for a determined hard drive.</li></ul>",
+    "dont": "",
+    "tags": [
+      "space",
+      "quota",
+      "capacity"
+    ]
+  },
+  {
     "name": "repositories",
     "do": "<ul><li>To indicate product repositories.</li></ul>",
     "dont": "",
