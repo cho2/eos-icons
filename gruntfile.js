@@ -3,6 +3,7 @@ module.exports = function (grunt) {
   const { combineIconsModels } = require('./scripts/combine-eos-icons');
   const { checkForMissingModelsOrIcons } = require('./scripts/models-checker')
   const { createNewModel } = require('./scripts/models-creation')
+  const { duplicatedIcons } = require('./scripts/duplicated_icons')
 
   //Append path to your svg below
   //EOS-set svg path
@@ -99,6 +100,13 @@ module.exports = function (grunt) {
         }]
       }
     },
+    clean: {
+      icons: {
+        expand: true,
+        cwd: './svg/extended/',
+        src: duplicatedIcons
+      }
+    }
   });
 
   /* Looks into the models and svg folders and finds the differences */
@@ -157,7 +165,8 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-webfont');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('default', ['findDuplicates', 'compareModels', 'combineAllIconsModels', 'copy:material', 'concat', 'webfont', 'replace']);
+  grunt.registerTask('default', ['findDuplicates', 'compareModels', 'combineAllIconsModels',  'copy:material', 'clean:icons', 'concat', 'webfont', 'replace']);
 };
