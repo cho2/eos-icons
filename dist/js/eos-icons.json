@@ -134,6 +134,20 @@
     "type": "static"
   },
   {
+    "name": "Cluster Role",
+    "do": "<ul><li>Indicates a cluster-scoped resources.</li><li>Indicates a non-resource endpoints.</li></ul>",
+    "dont": "",
+    "tags": [
+      "cluster",
+      "role",
+      "kubernetes",
+      "pods",
+      "node",
+      "healthz",
+      "cluster-scoped"
+    ]
+  },
+  {
     "name": "collocation",
     "do": "<ul><li>For the action of placing or arranging tasks together.</li></ul>",
     "dont": "<ul><li>For location purposes.</li></ul>",
@@ -169,6 +183,16 @@
     "type": "static"
   },
   {
+    "name": "container",
+    "do": "<ul><li>use it for container</li></ul>",
+    "dont": "",
+    "tags": [
+      "container",
+      "doker",
+      "kubernetes"
+    ]
+  },
+  {
     "name": "content_lifecycle_management",
     "do": "<ul><li>To illustrate the planning cycle</li></ul>",
     "dont": "<ul><li>To represent recycling documents actions</li></ul>",
@@ -198,6 +222,18 @@
       "bug"
     ],
     "category": "communication",
+    "type": "static"
+  },
+  {
+    "name": "cronjob",
+    "do": "<ul><li>Use for job/script that will run as scheduled.</li></ul>",
+    "dont": "<ul><li>To show the time.</li></ul>",
+    "tags": [
+      "kubernetes",
+      "cronjob",
+      "schedule"
+    ],
+    "category": "kubernetes",
     "type": "static"
   },
   {
@@ -379,6 +415,7 @@
   },
   {
     "name": "node",
+<<<<<<< HEAD
     "do": "",
     "dont": "",
     "tags": [
@@ -387,6 +424,15 @@
     ],
     "category": "communication",
     "type": "static"
+=======
+    "do": "<ul><li>To represent a point in a network or diagram at which lines or pathways intersect or branch.</li><li>To represent devices or data points on a large network.</li></ul>",
+    "dont": "",
+    "tags": [
+      "kubernetes",
+      "node",
+      "cluster"
+    ]
+>>>>>>> master
   },
   {
     "name": "organisms",
@@ -552,6 +598,16 @@
     ],
     "category": "communication",
     "type": "static"
+  },
+  {
+    "name": "quota",
+    "do": "<ul><li>Use to describe the amount of space for a determined hard drive.</li></ul>",
+    "dont": "",
+    "tags": [
+      "space",
+      "quota",
+      "capacity"
+    ]
   },
   {
     "name": "repositories",
@@ -801,6 +857,16 @@
     ],
     "category": "communication",
     "type": "static"
+  },
+  {
+    "name": "volume",
+    "do": "<ul><li>Use it for unit of storage.</li><li>Use it for hard disk.</li></ul>",
+    "dont": "",
+    "tags": [
+      "disk",
+      "drive",
+      "kubernetes"
+    ]
   },
   {
     "name": "workload",

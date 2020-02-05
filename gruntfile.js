@@ -3,7 +3,11 @@ module.exports = function (grunt) {
   const { combineIconsModels } = require('./scripts/combine-eos-icons')
   const { checkForMissingModelsOrIcons, checkModelKeys } = require('./scripts/models-checker')
   const { createNewModel } = require('./scripts/models-creation')
+<<<<<<< HEAD
   const { checkSvgName, renameSvgTo } = require("./scripts/svg-checker")
+=======
+  const { duplicatedIcons } = require('./scripts/duplicated_icons')
+>>>>>>> master
 
   //Append path to your svg below
   //EOS-set svg path
@@ -100,7 +104,18 @@ module.exports = function (grunt) {
         }]
       }
     },
+<<<<<<< HEAD
   })
+=======
+    clean: {
+      icons: {
+        expand: true,
+        cwd: './svg/extended/',
+        src: duplicatedIcons
+      }
+    }
+  });
+>>>>>>> master
 
   /* Looks into the models and svg folders and finds the differences */
   grunt.registerTask('compareModels', function () {
@@ -181,6 +196,7 @@ module.exports = function (grunt) {
     }).then(done)
   })
 
+<<<<<<< HEAD
   grunt.loadNpmTasks('grunt-webfont')
   grunt.loadNpmTasks('grunt-contrib-copy')
   grunt.loadNpmTasks('grunt-contrib-concat')
@@ -188,3 +204,13 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', ['findDuplicates', 'checkNameConvention', 'compareModels', 'checkModelsKeys', 'combineAllIconsModels', 'copy:material', 'concat', 'webfont', 'replace'])
 }
+=======
+  grunt.loadNpmTasks('grunt-webfont');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-text-replace');
+
+  grunt.registerTask('default', ['findDuplicates', 'compareModels', 'combineAllIconsModels',  'copy:material', 'clean:icons', 'concat', 'webfont', 'replace']);
+};
+>>>>>>> master

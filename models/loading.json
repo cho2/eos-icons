@@ -4,5 +4,5 @@
   "dont": "<ul><li>The action returns invisible results for the user.</li></ul>",
   "tags": ["loading"],
   "category": "communication",
-  "type": "static"
+  "type": "animate"
 }
