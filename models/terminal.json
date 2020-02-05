@@ -1,0 +1,11 @@
+{
+  "name": "terminal",
+  "do": "<ul><li>use this icon for terminal CLI</li></ul>",
+  "dont": "<ul><li>don't use it to represent code or code snippets</li></ul>",
+  "tags": [
+    "terminal",
+    " cli"
+  ],
+  "category": "miscellaneous",
+  "type": "static"
+}
