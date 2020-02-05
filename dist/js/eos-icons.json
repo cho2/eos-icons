@@ -335,7 +335,7 @@
       "installing"
     ],
     "category": "communication",
-    "type": "static"
+    "type": "animated"
   },
   {
     "name": "loading",
@@ -345,7 +345,7 @@
       "loading"
     ],
     "category": "communication",
-    "type": "static"
+    "type": "animate"
   },
   {
     "name": "miscellaneous",
@@ -415,16 +415,6 @@
   },
   {
     "name": "node",
-<<<<<<< HEAD
-    "do": "",
-    "dont": "",
-    "tags": [
-      "app",
-      "node"
-    ],
-    "category": "communication",
-    "type": "static"
-=======
     "do": "<ul><li>To represent a point in a network or diagram at which lines or pathways intersect or branch.</li><li>To represent devices or data points on a large network.</li></ul>",
     "dont": "",
     "tags": [
@@ -432,7 +422,6 @@
       "node",
       "cluster"
     ]
->>>>>>> master
   },
   {
     "name": "organisms",
