@@ -2,5 +2,7 @@
   "name": "patterns",
   "do": "<ul> <li> To represent predictable behaivor </li> </ul",
   "dont": "<ul> <li> To represent routes </li> </ul>",
-  "tags": ["patterns", "information"]
+  "tags": ["patterns", "information"],
+  "category": "communication",
+  "type": "static"
 }

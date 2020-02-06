@@ -2,5 +2,7 @@
   "name": "package_upgrade",
   "do": "<ul><li>To upgrade an existing package.</li></ul>",
   "dont": "<ul><li>To create or install package.</li></ul>",
-  "tags": ["upgrade", "package"]
+  "tags": ["upgrade", "package"],
+  "category": "communication",
+  "type": "static"
 }

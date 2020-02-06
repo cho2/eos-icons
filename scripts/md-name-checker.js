@@ -58,7 +58,6 @@ const fetchIcons = async mainDir => {
  }
 }
 
-
 const compareFolders = async params => {
   const { mdRepo, eosRepo } = params
 

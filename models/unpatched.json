@@ -2,5 +2,7 @@
   "name": "unpatched",
   "do": "<ul><li>To represent that the system is not updated.</li><li>To represent that the patch is not available for this system.</li></ul>",
   "dont": "<ul><li>To represent a system error.</li></ul>",
-  "tags": ["system", "not updated", "patch"]
+  "tags": ["system", "not updated", "patch"],
+  "category": "communication",
+  "type": "static"
 }
