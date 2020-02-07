@@ -2,5 +2,7 @@
   "name": "autoinstallation",
   "do": "<ul><li>To represent an autoinstallation process.</li></ul>",
   "dont": "<ul><li>To represent a downloading processs.</li></ul>",
-  "tags": ["application", "installation"]
+  "tags": ["application", "installation"],
+  "category": "communication",
+  "type": "static"
 }
