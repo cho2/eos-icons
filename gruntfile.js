@@ -195,5 +195,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('default', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'compareModels', 'combineAllIconsModels', 'copy:material', 'clean:icons', 'concat', 'webfont', 'replace']);
+  grunt.registerTask('default', ['combineAllIconsModels', 'copy:material', 'clean:icons', 'concat', 'webfont', 'replace']);
+  grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'compareModels']);
 };

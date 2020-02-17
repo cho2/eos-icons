@@ -4,13 +4,13 @@ stages:
 
 image: node:10.15.0
 
-test_icons_name:
+test_icons:
   stage: test
   before_script:
     - npm install
     - npm i -g grunt
   script:
-    - grunt findDuplicates
+    - grunt test
 
 # Start the jobs
 
