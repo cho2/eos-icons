@@ -826,6 +826,17 @@
     "type": "static"
   },
   {
+    "name": "terminal",
+    "do": "<ul><li>Use this icon for terminal CLI.</li></ul>",
+    "dont": "<ul><li>Don't use it to represent code or code snippets.</li></ul>",
+    "tags": [
+      "terminal",
+      " cli"
+    ],
+    "category": "miscellaneous",
+    "type": "static"
+  },
+  {
     "name": "timeout",
     "do": "<ul><li>When there is a server-side timeout.</li><li>When the time to performn an operation has passed.</li></ul>",
     "dont": "<ul><li>To represent any kind of timing.</li></ul>",
