@@ -2,5 +2,7 @@
   "name": "molecules",
   "do": "",
   "dont": "",
-  "tags": ["atomic"]
+  "tags": ["atomic"],
+  "category": "communication",
+  "type": "static"
 }

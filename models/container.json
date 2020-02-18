@@ -2,5 +2,11 @@
   "name": "container",
   "do": "<ul><li>use it for container</li></ul>",
   "dont": "",
-  "tags": ["container", "doker", "kubernetes"]
+  "tags": [
+    "container",
+    "doker",
+    "kubernetes"
+  ],
+  "category": "communication",
+  "type": "static"
 }

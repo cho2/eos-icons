@@ -1,4 +1,5 @@
 const fs = require('fs')
+const inquirer = require("inquirer");
 
 /* Function that takes an object with the models and icons source dir, ex: checkForMissingModelsOrIcons({ modelsSrc: './models/', iconsSrc: './svg', animatedSrc: './animated-svg' }) */
 const checkForMissingModelsOrIcons = async params => {
@@ -46,6 +47,49 @@ const readFilesAndCleanNames = async folder => {
 /* Compare two arrays and returns the extra elements that are not part of the first array */
 const compareTwoArraysOfElements = (array1, array2) => array1.filter(ele => !array2.includes(ele) && ele !== 'extended' )
 
-module.exports = {
-  checkForMissingModelsOrIcons
+/* ==========================================================================
+  Models proprietes checking
+  ========================================================================== */
+const readModelKeys = async params => {
+  const { modelsFolder } = params
+
+  /* Get all files inside the models golder */
+  const filesName = await fs.readdirSync(modelsFolder, (err, file) => file)
+
+  /* For each file, read and parse the data */
+  return filesName.map(ele => {
+    try {
+      const fileData = fs.readFileSync(`models/${ele}`, (err, data) => data)
+
+      return {
+        fileName: ele,
+        ...JSON.parse(fileData)
+      }
+    } catch (error) {
+      if (error) throw `${ele}: ${error} `
+    }
+  })
 }
+
+/* Maps throught the array of objects checking for  */
+const checkModelKeys = async () => {
+  const models = await readModelKeys({ modelsFolder: './models' })
+
+  return models.map(model => {
+    return checkForKeys(Object.keys(model))
+      ? undefined
+      : model
+  }).filter(item => item !== undefined)
+}
+
+/* Checks an object to see if it matches the given keys in the array */
+const checkForKeys = model => {
+  return ['name', 'do', 'dont', 'tags', 'category', 'type']
+    .every(key => model.includes(key))
+}
+
+module.exports = {
+  checkForMissingModelsOrIcons,
+  checkModelKeys,
+  readFilesAndCleanNames
+};

@@ -2,5 +2,7 @@
   "name": "project",
   "do": "",
   "dont": "",
-  "tags": ["project"]
+  "tags": ["project"],
+  "category": "communication",
+  "type": "static"
 }

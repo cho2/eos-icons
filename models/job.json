@@ -1,0 +1,13 @@
+{
+  "name": "job",
+  "do": "<ul><li>Use this icon for algorithm/script that is run to perform a certain action/job</li></ul>",
+  "dont": "<ul><li>Use it for flochart and logic scheme</li></ul>",
+  "tags": [
+    "script",
+    " job",
+    " algorithm",
+    " action"
+  ],
+  "category": "kubernetes",
+  "type": "static"
+}

@@ -2,5 +2,7 @@
   "name": "service_instance",
   "do": "<ul><li>To represent service instance.</li></ul>",
   "dont": "<ul><li>To represent service.</li></ul>",
-  "tags": ["service", "instance"]
+  "tags": ["service", "instance"],
+  "category": "communication",
+  "type": "static"
 }
