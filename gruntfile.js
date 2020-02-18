@@ -111,7 +111,7 @@ module.exports = function (grunt) {
   });
 
   /* Looks into the models and svg folders and finds the differences */
-  grunt.registerTask('compareModels', function () {
+  grunt.registerTask('checkMissingModelandSVG', function () {
     const done = this.async()
 
     checkForMissingModelsOrIcons({ modelsSrc: './models', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(async data => {
@@ -180,7 +180,7 @@ module.exports = function (grunt) {
   grunt.registerTask('checkNameConvention', async function () {
     const done = this.async()
     checkSvgName({ svgDir: "./svg" }).then(async result => {
-      for await(icon of result){
+      for await (icon of result) {
         console.log(
           `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
         )
@@ -195,5 +195,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('default', ['findDuplicates', 'checkNameConvention', 'compareModels', 'combineAllIconsModels',  'copy:material', 'clean:icons', 'concat', 'webfont', 'replace']);
+  grunt.registerTask('build', ['combineAllIconsModels', 'copy:material', 'clean:icons', 'concat', 'webfont', 'replace']);
+  grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'checkMissingModelandSVG']);
+  grunt.registerTask('default', ['test', 'build']);
 };
