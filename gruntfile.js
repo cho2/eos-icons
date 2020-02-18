@@ -111,7 +111,7 @@ module.exports = function (grunt) {
   });
 
   /* Looks into the models and svg folders and finds the differences */
-  grunt.registerTask('compareModels', function () {
+  grunt.registerTask('checkMissingModelandSVG', function () {
     const done = this.async()
 
     checkForMissingModelsOrIcons({ modelsSrc: './models', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(async data => {
@@ -196,6 +196,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-text-replace');
 
   grunt.registerTask('build', ['combineAllIconsModels', 'copy:material', 'clean:icons', 'concat', 'webfont', 'replace']);
-  grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'compareModels']);
+  grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'checkMissingModelandSVG']);
   grunt.registerTask('default', ['test', 'build']);
 };
