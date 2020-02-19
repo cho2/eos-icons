@@ -199,3 +199,7 @@ module.exports = function (grunt) {
   grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'checkMissingModelandSVG']);
   grunt.registerTask('default', ['test', 'build']);
 };
+
+/* ==========================================================================
+  PLEASE IGNORE THIS :P
+  ========================================================================== */
