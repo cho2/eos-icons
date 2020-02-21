@@ -1,6 +1,16 @@
 {
-  "name": "Cluster Role",
+  "name": "cluster_role",
   "do": "<ul><li>Indicates a cluster-scoped resources.</li><li>Indicates a non-resource endpoints.</li></ul>",
   "dont": "",
-  "tags": ["cluster", "role", "kubernetes", "pods", "node", "healthz", "cluster-scoped"]
+  "tags": [
+    "cluster",
+    "role",
+    "kubernetes",
+    "pods",
+    "node",
+    "healthz",
+    "cluster-scoped"
+  ],
+  "category": "communication",
+  "type": "static"
 }

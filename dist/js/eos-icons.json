@@ -7,7 +7,11 @@
       "chain actions",
       "multiple actions",
       "consecuences"
-    ]
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
   },
   {
     "name": "activate_subscriptions",
@@ -16,7 +20,9 @@
     "tags": [
       "registration codes",
       "reg codes"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "admin",
@@ -26,7 +32,9 @@
       "user admin",
       "user icon",
       "administrator"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "api",
@@ -35,7 +43,9 @@
     "tags": [
       "api",
       "data"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "application",
@@ -43,7 +53,9 @@
     "dont": "<ul><li>To represent an application instance.</li></ul>",
     "tags": [
       "application"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "application_incomplete",
@@ -52,7 +64,9 @@
     "tags": [
       "application",
       "application status"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "application_instance",
@@ -61,7 +75,9 @@
     "tags": [
       "application",
       "application status"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "autoinstallation",
@@ -70,7 +86,9 @@
     "tags": [
       "application",
       "installation"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "background_tasks",
@@ -79,7 +97,9 @@
     "tags": [
       "pending",
       "loading"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "bootstrapping",
@@ -87,7 +107,9 @@
     "dont": "",
     "tags": [
       "minion"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "cleanup",
@@ -96,7 +118,9 @@
     "tags": [
       "clean",
       "cleanup"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "cloud_foundry_space",
@@ -105,10 +129,12 @@
     "tags": [
       "cloudfoundry",
       "spaces"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
-    "name": "Cluster Role",
+    "name": "cluster_role",
     "do": "<ul><li>Indicates a cluster-scoped resources.</li><li>Indicates a non-resource endpoints.</li></ul>",
     "dont": "",
     "tags": [
@@ -119,7 +145,9 @@
       "node",
       "healthz",
       "cluster-scoped"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "collocation",
@@ -128,7 +156,20 @@
     "tags": [
       "collocation",
       "collocation constraint"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
+  },
+  {
+    "name": "config_map",
+    "do": "<ul><li>Use it for configuration map</li></ul>",
+    "dont": "<ul><li>Use it for configuration file.</li></ul>",
+    "tags": [
+      "config_map",
+      "kubernetes"
+    ],
+    "category": "kubernetes",
+    "type": "static"
   },
   {
     "name": "configuration_file",
@@ -138,7 +179,9 @@
       "application",
       "maintenance",
       "files"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "constraint",
@@ -148,7 +191,9 @@
       "constraint",
       "check",
       "restriction"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "container",
@@ -158,7 +203,9 @@
       "container",
       "doker",
       "kubernetes"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "content_lifecycle_management",
@@ -167,7 +214,9 @@
     "tags": [
       "content",
       "lifecycle"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "counting",
@@ -176,7 +225,9 @@
     "tags": [
       "suscription",
       "counting"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "critical_bug",
@@ -184,7 +235,9 @@
     "dont": "<ul><li>To display alerts or errors.</li></ul>",
     "tags": [
       "bug"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "cronjob",
@@ -205,7 +258,9 @@
     "tags": [
       "csv",
       "files"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "deploy",
@@ -215,7 +270,9 @@
       "deploying",
       "release",
       "distribute"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "endpoints",
@@ -224,7 +281,9 @@
     "tags": [
       "endpoints",
       "connection"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "endpoints_connected",
@@ -233,7 +292,9 @@
     "tags": [
       "endpoints",
       "connection"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "endpoints_disconnected",
@@ -242,7 +303,9 @@
     "tags": [
       "endpoints",
       "disconnection"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "enhancement",
@@ -251,7 +314,9 @@
     "tags": [
       "enhancement",
       "improvement"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "file_system",
@@ -261,7 +326,9 @@
       "files system",
       "share file",
       "server"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "inbound",
@@ -271,7 +338,9 @@
       "information",
       "flow",
       "incoming"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "installing",
@@ -279,7 +348,22 @@
     "dont": "<ul><li>As feedback for refreshing, reloading or syncing data.</li></ul>",
     "tags": [
       "installing"
-    ]
+    ],
+    "category": "communication",
+    "type": "animated"
+  },
+  {
+    "name": "job",
+    "do": "<ul><li>Use this icon for algorithm/script that is run to perform a certain action/job</li></ul>",
+    "dont": "<ul><li>Use it for flochart and logic scheme</li></ul>",
+    "tags": [
+      "script",
+      " job",
+      " algorithm",
+      " action"
+    ],
+    "category": "kubernetes",
+    "type": "static"
   },
   {
     "name": "loading",
@@ -287,7 +371,9 @@
     "dont": "<ul><li>The action returns invisible results for the user.</li></ul>",
     "tags": [
       "loading"
-    ]
+    ],
+    "category": "communication",
+    "type": "animate"
   },
   {
     "name": "miscellaneous",
@@ -295,7 +381,9 @@
     "dont": "<ul><li>To indicate elements that are unrelated to the application.</li></ul>",
     "tags": [
       "misc"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "modified_date",
@@ -304,7 +392,9 @@
     "tags": [
       "modified",
       "date"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "molecules",
@@ -312,7 +402,9 @@
     "dont": "",
     "tags": [
       "atomic"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "move",
@@ -321,7 +413,9 @@
     "tags": [
       "move",
       "relocate"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "multistate",
@@ -330,7 +424,9 @@
     "tags": [
       "multistate",
       "multistate resources"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "network_file_system",
@@ -341,7 +437,9 @@
       "file system",
       "servers",
       "share files"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "node",
@@ -351,7 +449,9 @@
       "kubernetes",
       "node",
       "cluster"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "organisms",
@@ -359,7 +459,9 @@
     "dont": "",
     "tags": [
       "atomic"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "organization",
@@ -367,7 +469,9 @@
     "dont": "",
     "tags": [
       "id"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "outbound",
@@ -377,7 +481,9 @@
       "information",
       "flow",
       "outgoing"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "package",
@@ -385,7 +491,9 @@
     "dont": "",
     "tags": [
       "package"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "package_upgrade",
@@ -394,7 +502,9 @@
     "tags": [
       "upgrade",
       "package"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "packages",
@@ -405,7 +515,9 @@
       "extension",
       "upgrade",
       "install"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "patterns",
@@ -414,7 +526,9 @@
     "tags": [
       "patterns",
       "information"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "pin",
@@ -422,7 +536,21 @@
     "dont": "<ul><li>To attache a file.</li></ul>",
     "tags": [
       "pin"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
+  },
+  {
+    "name": "pod",
+    "do": "<ul><li>To represent a group of containers.</li></ul>",
+    "dont": "<ul><li>To represent a single container.</li></ul>",
+    "tags": [
+      "kubernetes",
+      "pod",
+      "containers"
+    ],
+    "category": "kubernetes",
+    "type": "static"
   },
   {
     "name": "primitive",
@@ -432,7 +560,9 @@
       "primitive",
       "basic resource",
       "atomic"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "product_classes",
@@ -442,7 +572,9 @@
       "subscription",
       "SCC",
       "collection"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "product_subscriptions",
@@ -451,7 +583,9 @@
     "tags": [
       "product",
       "product subscription"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "products",
@@ -460,7 +594,9 @@
     "tags": [
       "product",
       "product collection"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "project",
@@ -468,7 +604,9 @@
     "dont": "",
     "tags": [
       "project"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "proxy",
@@ -476,7 +614,9 @@
     "dont": "",
     "tags": [
       "proxy"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "ptf",
@@ -486,7 +626,9 @@
       "ptf",
       "program temporary fixes",
       "patch"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "quota",
@@ -496,7 +638,9 @@
       "space",
       "quota",
       "capacity"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "repositories",
@@ -507,7 +651,9 @@
       "architecture",
       "url",
       "rpm"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "route",
@@ -516,7 +662,9 @@
     "tags": [
       "routes",
       "application routes"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "sandbox",
@@ -526,7 +674,21 @@
       "sandbox",
       "software",
       "dummy database"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
+  },
+  {
+    "name": "secure_data",
+    "do": "<ul><li>Use to store config info in a secure manner.</li></ul>",
+    "dont": "<ul><li>Don't use it for constraint</li></ul>",
+    "tags": [
+      "secure",
+      "secret",
+      "kubernetes"
+    ],
+    "category": "kubernetes",
+    "type": "static"
   },
   {
     "name": "service",
@@ -534,7 +696,9 @@
     "dont": "<ul><li>To represent a service instance.</li></ul>",
     "tags": [
       "service"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "service_instance",
@@ -543,7 +707,9 @@
     "tags": [
       "service",
       "instance"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "service_plan",
@@ -552,7 +718,9 @@
     "tags": [
       "service",
       "plans"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "smt",
@@ -562,7 +730,9 @@
       "SMT",
       "RMT servers",
       "server information"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "snapshot_rollback",
@@ -573,7 +743,9 @@
       "rollback",
       "previous state",
       "backup"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "software",
@@ -582,7 +754,9 @@
     "tags": [
       "channel",
       "list"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "state",
@@ -593,7 +767,9 @@
       "boolean",
       "true",
       "false"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "subscriptions_created",
@@ -602,7 +778,9 @@
     "tags": [
       "subscription",
       "activated"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "symlink",
@@ -610,7 +788,9 @@
     "dont": "<ul><li>To represent an external link, or links of any type other the one described above.</li></ul>",
     "tags": [
       "symlink"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "system_group",
@@ -619,7 +799,9 @@
     "tags": [
       "system",
       "group"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "system_image",
@@ -630,7 +812,9 @@
       "container",
       "disk",
       "iso"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "system_re_registered",
@@ -639,7 +823,9 @@
     "tags": [
       "system",
       "re registered"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "templates",
@@ -647,7 +833,21 @@
     "dont": "",
     "tags": [
       "atomic"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
+  },
+  {
+    "name": "terminal",
+    "do": "<ul><li>Use this icon to let the user interact with the terminal from your application.</li><li>Use this icon to  execute commands or to take the user to your command line interface.</li></ul>",
+    "dont": "<ul><li>Don't use it to represent code or code snippets.</li></ul>",
+    "tags": [
+      "terminal",
+      "command line interface",
+      "cli"
+    ],
+    "category": "miscellaneous",
+    "type": "static"
   },
   {
     "name": "timeout",
@@ -656,7 +856,9 @@
     "tags": [
       "timeout",
       "interruption"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "troubleshooting",
@@ -665,7 +867,9 @@
     "tags": [
       "troubleshooting",
       "analyse"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "trusted_organization",
@@ -674,7 +878,9 @@
     "tags": [
       "organization",
       "trusted"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "unpatched",
@@ -684,7 +890,9 @@
       "system",
       "not updated",
       "patch"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "virtual_guest",
@@ -692,7 +900,9 @@
     "dont": "<ul><li>To represent a system.</li></ul>",
     "tags": [
       "virtual machine"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "virtual_host_manager",
@@ -701,7 +911,9 @@
     "tags": [
       "manage",
       "virtual host"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "volume",
@@ -711,7 +923,9 @@
       "disk",
       "drive",
       "kubernetes"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   },
   {
     "name": "workload",
@@ -722,6 +936,8 @@
       "container",
       "workload",
       "work"
-    ]
+    ],
+    "category": "communication",
+    "type": "static"
   }
 ]

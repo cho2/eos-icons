@@ -2,5 +2,11 @@
   "name": "quota",
   "do": "<ul><li>Use to describe the amount of space for a determined hard drive.</li></ul>",
   "dont": "",
-  "tags": ["space", "quota", "capacity"]
+  "tags": [
+    "space",
+    "quota",
+    "capacity"
+  ],
+  "category": "communication",
+  "type": "static"
 }

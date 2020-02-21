@@ -2,5 +2,7 @@
   "name": "ptf",
   "do": "<ul><li>To represent program temporary fixes.</li><li>To represent hotfixes.</li><li>For a special patch.</li></ul>",
   "dont": "<ul><li>For a regular patch fix.</li></ul>",
-  "tags": ["ptf", "program temporary fixes", "patch"]
+  "tags": ["ptf", "program temporary fixes", "patch"],
+  "category": "communication",
+  "type": "static"
 }

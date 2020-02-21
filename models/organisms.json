@@ -2,5 +2,7 @@
   "name": "organisms",
   "do": "",
   "dont": "",
-  "tags": ["atomic"]
+  "tags": ["atomic"],
+  "category": "communication",
+  "type": "static"
 }

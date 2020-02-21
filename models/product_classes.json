@@ -2,5 +2,7 @@
   "name": "product_classes",
   "do": "<ul><li>To represent product classes.</li></ul>",
   "dont": "",
-  "tags": ["subscription", "SCC", "collection"]
+  "tags": ["subscription", "SCC", "collection"],
+  "category": "communication",
+  "type": "static"
 }

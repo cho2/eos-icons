@@ -1,14 +1,16 @@
 module.exports = function (grunt) {
-  const { compareFolders } = require('./scripts/md-name-checker');
-  const { combineIconsModels } = require('./scripts/combine-eos-icons');
-  const { checkForMissingModelsOrIcons } = require('./scripts/models-checker')
+  const { compareFolders } = require('./scripts/md-name-checker')
+  const { combineIconsModels } = require('./scripts/combine-eos-icons')
+  const { checkForMissingModelsOrIcons, checkModelKeys } = require('./scripts/models-checker')
   const { createNewModel } = require('./scripts/models-creation')
+  const { checkSvgName, renameSvgTo } = require("./scripts/svg-checker")
+  const { duplicatedIcons } = require('./scripts/duplicated_icons')
 
   //Append path to your svg below
   //EOS-set svg path
-  const src_eos_set = ['svg/*.svg'];
+  const src_eos_set = ['svg/*.svg']
   //Extended set svg path
-  const src_extended_set = ['svg/*.svg', 'svg/extended/*.svg'];
+  const src_extended_set = ['svg/*.svg', 'svg/extended/*.svg']
 
   grunt.initConfig({
     webfont: {
@@ -78,7 +80,7 @@ module.exports = function (grunt) {
           flatten: true,
           src: '{,*/}*/svg/production/*{,*/}_24px.svg',
           rename: function (dest, src) {
-            return dest + src.replace('_24px', '').replace('ic_', '');
+            return dest + src.replace('_24px', '').replace('ic_', '')
           }
         }]
       }
@@ -99,11 +101,18 @@ module.exports = function (grunt) {
         }]
       }
     },
+    clean: {
+      icons: {
+        expand: true,
+        cwd: './svg/extended/',
+        src: duplicatedIcons
+      }
+    }
   });
 
   /* Looks into the models and svg folders and finds the differences */
-  grunt.registerTask('compareModels', function () {
-    const done = this.async();
+  grunt.registerTask('checkMissingModelandSVG', function () {
+    const done = this.async()
 
     checkForMissingModelsOrIcons({ modelsSrc: './models', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(async data => {
       const { SVGsMissingModels, ModelsMissingSVGs } = data
@@ -130,7 +139,7 @@ module.exports = function (grunt) {
 
   /* Find duplictes name between our icons and MD icon set. */
   grunt.registerTask('findDuplicates', function () {
-    const done = this.async();
+    const done = this.async()
 
     const mdRepo = './node_modules/material-design-icons'
     const eosRepo = './svg'
@@ -148,16 +157,45 @@ module.exports = function (grunt) {
     })
   })
 
+  /* Combine all the models into a single file */
   grunt.registerTask('combineAllIconsModels', async function () {
-    const done = this.async();
+    const done = this.async()
 
-    return combineIconsModels({ targetDir: './models/', destDir: './dist/js/eos-icons.json' }).then(done)
+    return combineIconsModels({ targetDir: './models/', destDir: './dist/js/eos-icons.json' })
+      .then(done)
+  })
+
+  /* Checks for each models to make sure it has all the properties we expect. */
+  grunt.registerTask('checkModelsKeys', async function () {
+    const done = this.async()
+
+    return checkModelKeys().then(result => {
+      result.length
+        ? console.log(`⚠️  Error: model proprieties missing for # ${result.map(ele => ele.name)} #. Please make sure it has: name, do, dont, tags, category and type`)
+        : done()
+    })
+  })
+
+  /* Checks for SVGs names returns the one with a wrong naming convention */
+  grunt.registerTask('checkNameConvention', async function () {
+    const done = this.async()
+    checkSvgName({ svgDir: "./svg" }).then(async result => {
+      for await (icon of result) {
+        console.log(
+          `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
+        )
+        await renameSvgTo(icon)
+      }
+    }).then(done)
   })
 
   grunt.loadNpmTasks('grunt-webfont');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('default', ['findDuplicates', 'compareModels', 'combineAllIconsModels', 'copy:material', 'concat', 'webfont', 'replace']);
+  grunt.registerTask('build', ['combineAllIconsModels', 'copy:material', 'clean:icons', 'concat', 'webfont', 'replace']);
+  grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'checkMissingModelandSVG']);
+  grunt.registerTask('default', ['test', 'build']);
 };
