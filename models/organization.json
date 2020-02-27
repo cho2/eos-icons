@@ -2,7 +2,9 @@
   "name": "organization",
   "do": "<ul><li>To represent organizations.</li><li>Organizations are made of groups or teams, not individuals.</li></ul>",
   "dont": "",
-  "tags": ["id" ],
-  "category": "communication",
+  "tags": [
+    "id"
+  ],
+  "category": "services",
   "type": "static"
 }

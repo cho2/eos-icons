@@ -2,7 +2,9 @@
   "name": "proxy",
   "do": "<ul><li>To represent a proxy server or state.</li></ul>",
   "dont": "",
-  "tags": ["proxy"],
-  "category": "communication",
+  "tags": [
+    "proxy"
+  ],
+  "category": "virtualization",
   "type": "static"
 }

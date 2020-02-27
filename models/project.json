@@ -1,8 +1,10 @@
 {
   "name": "project",
-  "do": "",
-  "dont": "",
-  "tags": ["project"],
-  "category": "communication",
+  "do": "Use it to represent a project as in a set of tasks or actions to achieve a particular goal.",
+  "dont": "Don't use it for upgrade or enhancement.",
+  "tags": [
+    "project"
+  ],
+  "category": "development",
   "type": "static"
 }

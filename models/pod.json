@@ -7,6 +7,6 @@
     "pod",
     "containers"
   ],
-  "category": "kubernetes",
+  "category": "virtualization",
   "type": "static"
 }

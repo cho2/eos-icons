@@ -2,7 +2,10 @@
   "name": "endpoints_connected",
   "do": "<ul><li>To represent a connection between two or more endpoints.</li></ul>",
   "dont": "<ul><li>To represent routes.</li></ul>",
-  "tags": ["endpoints", "connection"],
-  "category": "communication",
+  "tags": [
+    "endpoints",
+    "connection"
+  ],
+  "category": "development",
   "type": "static"
 }

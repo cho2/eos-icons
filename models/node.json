@@ -7,6 +7,6 @@
     "node",
     "cluster"
   ],
-  "category": "communication",
+  "category": "virtualization",
   "type": "static"
 }

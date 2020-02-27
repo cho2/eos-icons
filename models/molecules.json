@@ -1,8 +1,10 @@
 {
   "name": "molecules",
-  "do": "",
+  "do": "Use it in atomic design to represent components.",
   "dont": "",
-  "tags": ["atomic"],
-  "category": "communication",
+  "tags": [
+    "atomic"
+  ],
+  "category": "design",
   "type": "static"
 }

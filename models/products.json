@@ -2,7 +2,10 @@
   "name": "products",
   "do": "<ul><li>To show a collection of products.</li></ul>",
   "dont": "",
-  "tags": ["product", "product collection"],
-  "category": "communication",
+  "tags": [
+    "product",
+    "product collection"
+  ],
+  "category": "services",
   "type": "static"
 }

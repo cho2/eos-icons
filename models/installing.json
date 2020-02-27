@@ -2,7 +2,9 @@
   "name": "installing",
   "do": "<ul><li>The user is waiting for an installation process to finalize.</li></ul>",
   "dont": "<ul><li>As feedback for refreshing, reloading or syncing data.</li></ul>",
-  "tags": ["installing"],
-  "category": "communication",
+  "tags": [
+    "installing"
+  ],
+  "category": "virtualization",
   "type": "animated"
 }
