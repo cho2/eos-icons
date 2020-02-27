@@ -9,7 +9,7 @@
       "consecuences"
     ],
     "category": [
-      "communication"
+      "development"
     ],
     "type": "static"
   },
@@ -21,7 +21,7 @@
       "registration codes",
       "reg codes"
     ],
-    "category": "communication",
+    "category": "services",
     "type": "static"
   },
   {
@@ -33,7 +33,7 @@
       "user icon",
       "administrator"
     ],
-    "category": "communication",
+    "category": "services",
     "type": "static"
   },
   {
@@ -44,7 +44,7 @@
       "api",
       "data"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -54,7 +54,7 @@
     "tags": [
       "application"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -65,7 +65,7 @@
       "application",
       "application status"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -76,7 +76,7 @@
       "application",
       "application status"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -87,7 +87,7 @@
       "application",
       "installation"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -98,7 +98,7 @@
       "pending",
       "loading"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -108,7 +108,7 @@
     "tags": [
       "minion"
     ],
-    "category": "communication",
+    "category": "action",
     "type": "static"
   },
   {
@@ -119,7 +119,7 @@
       "clean",
       "cleanup"
     ],
-    "category": "communication",
+    "category": "action",
     "type": "static"
   },
   {
@@ -130,7 +130,7 @@
       "cloudfoundry",
       "spaces"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -146,7 +146,7 @@
       "healthz",
       "cluster-scoped"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -157,7 +157,7 @@
       "collocation",
       "collocation constraint"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -168,7 +168,7 @@
       "config_map",
       "kubernetes"
     ],
-    "category": "kubernetes",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -180,7 +180,7 @@
       "maintenance",
       "files"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -192,7 +192,7 @@
       "check",
       "restriction"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -204,7 +204,7 @@
       "doker",
       "kubernetes"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -215,7 +215,7 @@
       "content",
       "lifecycle"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -226,7 +226,7 @@
       "suscription",
       "counting"
     ],
-    "category": "communication",
+    "category": "action",
     "type": "static"
   },
   {
@@ -236,7 +236,7 @@
     "tags": [
       "bug"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -248,7 +248,7 @@
       "cronjob",
       "schedule"
     ],
-    "category": "kubernetes",
+    "category": "development",
     "type": "static"
   },
   {
@@ -259,7 +259,7 @@
       "csv",
       "files"
     ],
-    "category": "communication",
+    "category": "file",
     "type": "static"
   },
   {
@@ -271,7 +271,7 @@
       "release",
       "distribute"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -282,7 +282,7 @@
       "endpoints",
       "connection"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -293,7 +293,7 @@
       "endpoints",
       "connection"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -304,7 +304,7 @@
       "endpoints",
       "disconnection"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -315,7 +315,7 @@
       "enhancement",
       "improvement"
     ],
-    "category": "communication",
+    "category": "action",
     "type": "static"
   },
   {
@@ -327,7 +327,7 @@
       "share file",
       "server"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -349,7 +349,7 @@
     "tags": [
       "installing"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "animated"
   },
   {
@@ -362,7 +362,7 @@
       " algorithm",
       " action"
     ],
-    "category": "kubernetes",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -372,7 +372,7 @@
     "tags": [
       "loading"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "animate"
   },
   {
@@ -382,7 +382,7 @@
     "tags": [
       "misc"
     ],
-    "category": "communication",
+    "category": "design",
     "type": "static"
   },
   {
@@ -393,17 +393,17 @@
       "modified",
       "date"
     ],
-    "category": "communication",
+    "category": "action",
     "type": "static"
   },
   {
     "name": "molecules",
-    "do": "",
+    "do": "Use it in atomic design to represent components.",
     "dont": "",
     "tags": [
       "atomic"
     ],
-    "category": "communication",
+    "category": "design",
     "type": "static"
   },
   {
@@ -414,7 +414,7 @@
       "move",
       "relocate"
     ],
-    "category": "communication",
+    "category": "navigation",
     "type": "static"
   },
   {
@@ -425,7 +425,7 @@
       "multistate",
       "multistate resources"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -438,7 +438,7 @@
       "servers",
       "share files"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -450,7 +450,7 @@
       "node",
       "cluster"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -460,7 +460,7 @@
     "tags": [
       "atomic"
     ],
-    "category": "communication",
+    "category": "design",
     "type": "static"
   },
   {
@@ -470,7 +470,7 @@
     "tags": [
       "id"
     ],
-    "category": "communication",
+    "category": "services",
     "type": "static"
   },
   {
@@ -492,7 +492,7 @@
     "tags": [
       "package"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -503,7 +503,7 @@
       "upgrade",
       "package"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -516,7 +516,7 @@
       "upgrade",
       "install"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -527,7 +527,7 @@
       "patterns",
       "information"
     ],
-    "category": "communication",
+    "category": "design",
     "type": "static"
   },
   {
@@ -537,7 +537,7 @@
     "tags": [
       "pin"
     ],
-    "category": "communication",
+    "category": "action",
     "type": "static"
   },
   {
@@ -549,19 +549,19 @@
       "pod",
       "containers"
     ],
-    "category": "kubernetes",
+    "category": "virtualization",
     "type": "static"
   },
   {
     "name": "primitive",
-    "do": "<ul><li>To perform the most basic task.</li></ul>",
+    "do": "<ul><li>In atomic design, use it to represent atoms or elements</li><li>To perform the most basic task.</li></ul>",
     "dont": "",
     "tags": [
       "primitive",
       "basic resource",
       "atomic"
     ],
-    "category": "communication",
+    "category": "design",
     "type": "static"
   },
   {
@@ -573,7 +573,7 @@
       "SCC",
       "collection"
     ],
-    "category": "communication",
+    "category": "services",
     "type": "static"
   },
   {
@@ -584,7 +584,7 @@
       "product",
       "product subscription"
     ],
-    "category": "communication",
+    "category": "services",
     "type": "static"
   },
   {
@@ -595,17 +595,17 @@
       "product",
       "product collection"
     ],
-    "category": "communication",
+    "category": "services",
     "type": "static"
   },
   {
     "name": "project",
-    "do": "",
-    "dont": "",
+    "do": "Use it to represent a project as in a set of tasks or actions to achieve a particular goal.",
+    "dont": "Don't use it for upgrade or enhancement.",
     "tags": [
       "project"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -615,7 +615,7 @@
     "tags": [
       "proxy"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -627,7 +627,7 @@
       "program temporary fixes",
       "patch"
     ],
-    "category": "communication",
+    "category": "services",
     "type": "static"
   },
   {
@@ -639,7 +639,7 @@
       "quota",
       "capacity"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -652,7 +652,7 @@
       "url",
       "rpm"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -663,7 +663,7 @@
       "routes",
       "application routes"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -675,7 +675,7 @@
       "software",
       "dummy database"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -687,7 +687,7 @@
       "secret",
       "kubernetes"
     ],
-    "category": "kubernetes",
+    "category": "development",
     "type": "static"
   },
   {
@@ -697,7 +697,7 @@
     "tags": [
       "service"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -708,7 +708,7 @@
       "service",
       "instance"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -719,7 +719,7 @@
       "service",
       "plans"
     ],
-    "category": "communication",
+    "category": "services",
     "type": "static"
   },
   {
@@ -731,7 +731,7 @@
       "RMT servers",
       "server information"
     ],
-    "category": "communication",
+    "category": "services",
     "type": "static"
   },
   {
@@ -744,7 +744,7 @@
       "previous state",
       "backup"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -755,7 +755,7 @@
       "channel",
       "list"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -768,7 +768,7 @@
       "true",
       "false"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -779,7 +779,7 @@
       "subscription",
       "activated"
     ],
-    "category": "communication",
+    "category": "services",
     "type": "static"
   },
   {
@@ -789,7 +789,7 @@
     "tags": [
       "symlink"
     ],
-    "category": "communication",
+    "category": "development",
     "type": "static"
   },
   {
@@ -800,7 +800,7 @@
       "system",
       "group"
     ],
-    "category": "communication",
+    "category": "hardware",
     "type": "static"
   },
   {
@@ -813,7 +813,7 @@
       "disk",
       "iso"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -824,17 +824,17 @@
       "system",
       "re registered"
     ],
-    "category": "communication",
+    "category": "services",
     "type": "static"
   },
   {
     "name": "templates",
-    "do": "",
-    "dont": "",
+    "do": "Use it to represent a mockup or template of any type: configuration, web UI, etc.",
+    "dont": "Don't use it for images.",
     "tags": [
       "atomic"
     ],
-    "category": "communication",
+    "category": "design",
     "type": "static"
   },
   {
@@ -846,7 +846,7 @@
       "command line interface",
       "cli"
     ],
-    "category": "miscellaneous",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -857,7 +857,7 @@
       "timeout",
       "interruption"
     ],
-    "category": "communication",
+    "category": "action",
     "type": "static"
   },
   {
@@ -868,7 +868,7 @@
       "troubleshooting",
       "analyse"
     ],
-    "category": "communication",
+    "category": "action",
     "type": "static"
   },
   {
@@ -879,7 +879,7 @@
       "organization",
       "trusted"
     ],
-    "category": "communication",
+    "category": "services",
     "type": "static"
   },
   {
@@ -891,7 +891,7 @@
       "not updated",
       "patch"
     ],
-    "category": "communication",
+    "category": "services",
     "type": "static"
   },
   {
@@ -901,7 +901,7 @@
     "tags": [
       "virtual machine"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -912,7 +912,7 @@
       "manage",
       "virtual host"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   },
   {
@@ -924,7 +924,7 @@
       "drive",
       "kubernetes"
     ],
-    "category": "communication",
+    "category": "hardware",
     "type": "static"
   },
   {
@@ -937,7 +937,7 @@
       "workload",
       "work"
     ],
-    "category": "communication",
+    "category": "virtualization",
     "type": "static"
   }
 ]

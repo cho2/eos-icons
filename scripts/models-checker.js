@@ -26,26 +26,26 @@ const checkForMissingModelsOrIcons = async params => {
 const readFilesAndCleanNames = async folder => {
   try {
     const files = await fs.readdirSync(folder, (err, file) => {
-      if(err) console.log(err);
+      if (err) console.log(err);
       return file
     })
 
     /* We filter out the subfolder (or others elements in the future) */
     const filterContent = files.filter(ele => {
       return ele.includes('.svg') || ele.includes('.json')
-      ? ele
-      : null
+        ? ele
+        : null
     })
 
     /* Return the files name without the extension */
-    return filterContent.map(ele =>  ele.split('.')[0] )
+    return filterContent.map(ele => ele.split('.')[0])
   } catch (error) {
     console.log('ERROR: readFilesAndCleanNames() => : ', error);
   }
 }
 
 /* Compare two arrays and returns the extra elements that are not part of the first array */
-const compareTwoArraysOfElements = (array1, array2) => array1.filter(ele => !array2.includes(ele) && ele !== 'extended' )
+const compareTwoArraysOfElements = (array1, array2) => array1.filter(ele => !array2.includes(ele) && ele !== 'extended')
 
 /* ==========================================================================
   Models proprietes checking
@@ -53,7 +53,7 @@ const compareTwoArraysOfElements = (array1, array2) => array1.filter(ele => !arr
 const readModelKeys = async params => {
   const { modelsFolder } = params
 
-  /* Get all files inside the models golder */
+  /* Get all files inside the models folder */
   const filesName = await fs.readdirSync(modelsFolder, (err, file) => file)
 
   /* For each file, read and parse the data */
