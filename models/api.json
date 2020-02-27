@@ -2,7 +2,10 @@
   "name": "api",
   "do": "",
   "dont": "",
-  "tags": ["api", "data"],
-  "category": "communication",
+  "tags": [
+    "api",
+    "data"
+  ],
+  "category": "development",
   "type": "static"
 }

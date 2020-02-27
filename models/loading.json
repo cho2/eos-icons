@@ -2,7 +2,9 @@
   "name": "loading",
   "do": "<ul><li>The user is waiting for new content to be serverd.</li></ul>",
   "dont": "<ul><li>The action returns invisible results for the user.</li></ul>",
-  "tags": ["loading"],
-  "category": "communication",
+  "tags": [
+    "loading"
+  ],
+  "category": "virtualization",
   "type": "animate"
 }

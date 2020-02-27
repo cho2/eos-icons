@@ -7,6 +7,6 @@
     "doker",
     "kubernetes"
   ],
-  "category": "communication",
+  "category": "virtualization",
   "type": "static"
 }

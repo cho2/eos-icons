@@ -2,7 +2,9 @@
   "name": "miscellaneous",
   "do": "<ul><li>To indicate an additional set of features or actions that might not have been included in other sections.</li></ul>",
   "dont": "<ul><li>To indicate elements that are unrelated to the application.</li></ul>",
-  "tags": ["misc"],
-  "category": "communication",
+  "tags": [
+    "misc"
+  ],
+  "category": "design",
   "type": "static"
 }

@@ -2,7 +2,10 @@
   "name": "trusted_organization",
   "do": "<ul><li>To represent a trusted organization.</li></ul>",
   "dont": "<ul><li>To represent certification.</li></ul>",
-  "tags": ["organization", "trusted"],
-  "category": "communication",
+  "tags": [
+    "organization",
+    "trusted"
+  ],
+  "category": "services",
   "type": "static"
 }

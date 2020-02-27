@@ -1,8 +1,12 @@
 {
   "name": "primitive",
-  "do": "<ul><li>To perform the most basic task.</li></ul>",
+  "do": "<ul><li>In atomic design, use it to represent atoms or elements</li><li>To perform the most basic task.</li></ul>",
   "dont": "",
-  "tags": ["primitive", "basic resource", "atomic"],
-  "category": "communication",
+  "tags": [
+    "primitive",
+    "basic resource",
+    "atomic"
+  ],
+  "category": "design",
   "type": "static"
 }
