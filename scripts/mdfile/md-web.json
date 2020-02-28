@@ -11,87 +11,6 @@
   ],
   "icons": [
     {
-      "name": "call_made",
-      "version": 4,
-      "unsupported_families": [],
-      "categories": [
-        "communication"
-      ],
-      "tags": [
-        "Call",
-        "arrow",
-        "made",
-        "mobile",
-        "device"
-      ],
-      "sizes_px": [
-        24
-      ]
-    },
-    {
-      "name": "camera_roll",
-      "version": 4,
-      "unsupported_families": [],
-      "categories": [
-        "image"
-      ],
-      "tags": [],
-      "sizes_px": [
-        24
-      ]
-    },
-    {
-      "name": "category",
-      "version": 4,
-      "unsupported_families": [],
-      "categories": [
-        "maps"
-      ],
-      "tags": [
-        "square",
-        "product",
-        "cateogories",
-        "collection",
-        "sort",
-        "items",
-        "cirlce",
-        "triangle"
-      ],
-      "sizes_px": [
-        24
-      ]
-    },
-    {
-      "name": "compare_arrows",
-      "version": 6,
-      "unsupported_families": [],
-      "categories": [
-        "action"
-      ],
-      "tags": [
-        "compare",
-        "arrow",
-        "arrows",
-        "facing",
-        "pointing"
-      ],
-      "sizes_px": [
-        24
-      ]
-    },
-    {
-      "name": "people_outline",
-      "version": 4,
-      "unsupported_families": [],
-      "categories": [
-        "social"
-      ],
-      "tags": [],
-      "sizes_px": [
-        24
-      ]
-    },
-    {
       "name": "360",
       "version": 4,
       "unsupported_families": [],
@@ -2830,6 +2749,24 @@
       ]
     },
     {
+      "name": "call_made",
+      "version": 4,
+      "unsupported_families": [],
+      "categories": [
+        "communication"
+      ],
+      "tags": [
+        "Call",
+        "arrow",
+        "made",
+        "mobile",
+        "device"
+      ],
+      "sizes_px": [
+        24
+      ]
+    },
+    {
       "name": "call_merge",
       "version": 4,
       "unsupported_families": [],
@@ -3000,6 +2937,18 @@
     },
     {
       "name": "camera_rear",
+      "version": 4,
+      "unsupported_families": [],
+      "categories": [
+        "image"
+      ],
+      "tags": [],
+      "sizes_px": [
+        24
+      ]
+    },
+    {
+      "name": "camera_roll",
       "version": 4,
       "unsupported_families": [],
       "categories": [
@@ -3187,6 +3136,27 @@
         "hardware"
       ],
       "tags": [],
+      "sizes_px": [
+        24
+      ]
+    },
+    {
+      "name": "category",
+      "version": 4,
+      "unsupported_families": [],
+      "categories": [
+        "maps"
+      ],
+      "tags": [
+        "square",
+        "product",
+        "cateogories",
+        "collection",
+        "sort",
+        "items",
+        "cirlce",
+        "triangle"
+      ],
       "sizes_px": [
         24
       ]
@@ -3731,6 +3701,24 @@
         "image"
       ],
       "tags": [],
+      "sizes_px": [
+        24
+      ]
+    },
+    {
+      "name": "compare_arrows",
+      "version": 6,
+      "unsupported_families": [],
+      "categories": [
+        "action"
+      ],
+      "tags": [
+        "compare",
+        "arrow",
+        "arrows",
+        "facing",
+        "pointing"
+      ],
       "sizes_px": [
         24
       ]
@@ -12044,6 +12032,18 @@
       "tags": [],
       "sizes_px": [
         20,
+        24
+      ]
+    },
+    {
+      "name": "people_outline",
+      "version": 4,
+      "unsupported_families": [],
+      "categories": [
+        "social"
+      ],
+      "tags": [],
+      "sizes_px": [
         24
       ]
     },
