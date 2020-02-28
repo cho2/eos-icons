@@ -3,7 +3,7 @@ const axios = require('axios')
 const path = require('path')
 
 function downlaodFile() {
-  const filePath = path.resolve(__dirname, 'mdfile', 'md-webs.json')
+  const filePath = path.resolve(__dirname, 'mdfile', 'md-web.json')
   
   axios({
     method: "get",
@@ -13,9 +13,9 @@ function downlaodFile() {
     response.data.pipe(fs.createWriteStream(filePath));
   });
 }
+downlaodFile()
 
 const eosMdIconsDifferences = async params => {
- downlaodFile()
   const { targetDirMd } = params 
 
   try {
@@ -24,8 +24,10 @@ const eosMdIconsDifferences = async params => {
 		const webMdIconsCollection = webMdIconsData.icons.map(ele => ele.name);
 
     const missingIconsInEos = iconsDifferences(webMdIconsCollection, mdIcons)
-
+    const missingIconsInMD = iconsDifferences(mdIcons, webMdIconsCollection)
     console.log(missingIconsInEos)
+    console.log("==============")
+    console.log(missingIconsInMD)
 
   } catch (error) {
     console.log(error)
