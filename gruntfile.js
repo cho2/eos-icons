@@ -154,15 +154,7 @@ module.exports = function (grunt) {
       .then(done)
   })
 
-  /* Eos MD Icons Differences */
-  // grunt.registerTask('eosMdIconsDifferencesLog', async function () {
-
-  //   const done = this.async()
-
-  //   return eosMdIconsDifferences({targetDirMd: './svg/extended' })
-  //     .then(done)
-  // })
-
+/* compare MD icons in our repo and MD officical website */
   grunt.registerTask('eosMdIconsDifferencesLog', async function () {
     const done = this.async()
     await downlaodFile().then( () => {

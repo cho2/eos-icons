@@ -4,13 +4,13 @@ const path = require('path')
 
 const downlaodFile = async () => {
   const filePath = path.resolve(__dirname, 'md-web-data.json')
-  console.log("downlaodFile function")
+
     axios({
       method: "get",
       url: "https://fonts.google.com/metadata/icons",
       responseType: "stream"
     }).then(function (response) {
-      return response.data.pipe(fs.createWriteStream(filePath));
+      response.data.pipe(fs.createWriteStream(filePath));
     });
 }
 
@@ -23,10 +23,10 @@ const eosMdIconsDifferences = async params => {
 
     const missingIconsInEos = iconsDifferences(webMdIconsCollection, mdIcons)
     const missingIconsInMD = iconsDifferences(mdIcons, webMdIconsCollection)
+    console.log("======= Missing icons in Eos =======")
     console.log(missingIconsInEos)
-    console.log("==============")
+    console.log("======= Missing icons in MD website =======")
     console.log(missingIconsInMD)
-    return missingIconsInEos
   } catch (error) {
     console.log(error)
   }
