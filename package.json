@@ -74,8 +74,7 @@
   "homepage": "https://gitlab.com/SUSE-UIUX/eos-icons#README",
   "dependencies": {
     "axios": "^0.19.2",
-    "file-saver": "^2.0.2",
     "inquirer": "^7.0.4",
-    "js-file-download": "^0.4.10"
+    "js-file-downloader": "^1.1.5"
   }
 }
