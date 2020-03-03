@@ -263,6 +263,31 @@
     "type": "static"
   },
   {
+    "name": "daemon",
+    "do": "<ul><li>Use this icon to represent a computer program running in the background</li></ul>",
+    "dont": "<ul><li>Dont use it as a face or to request user feedback</li></ul>",
+    "tags": [
+      "process",
+      "background",
+      "demon"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "daemon_set",
+    "do": "<ul><li>Use this icon to represent a group of processes running in the background</li></ul>",
+    "dont": "<ul><li>Don't use it to represent a library or comic</li></ul>",
+    "tags": [
+      "group",
+      "processes",
+      "background",
+      "demons"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "deploy",
     "do": "<ul><li>For deploying code/software to a server, container, etc.</li>></ul>",
     "dont": "<ul><li>For uploading.</li></ul>",
