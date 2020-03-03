@@ -1,0 +1,12 @@
+{
+  "name": "daemon",
+  "do": "<ul><li>Use this icon to represent a computer program running in the background</li></ul>",
+  "dont": "<ul><li>Dont use it as a face or to request user feedback</li></ul>",
+  "tags": [
+    "process",
+    "background",
+    "demon"
+  ],
+  "category": "virtualization",
+  "type": "static"
+}
