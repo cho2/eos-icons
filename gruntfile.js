@@ -209,7 +209,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('build', ['eosMdIconsDifferencesLog','combineAllIconsModels', 'copy:material', 'clean:icons', 'concat', 'webfont', 'replace']);
-  grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'checkMissingModelandSVG']);
+  grunt.registerTask('build', ['combineAllIconsModels', 'copy:material', 'clean:icons', 'concat', 'webfont', 'replace']);
+  grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'checkMissingModelandSVG', 'eosMdIconsDifferencesLog']);
   grunt.registerTask('default', ['test', 'build']);
 };
