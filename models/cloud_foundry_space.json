@@ -4,6 +4,7 @@
   "dont": "<ul><li>To represent an action.</li></ul>",
   "tags": [
     "cloudfoundry",
+    "kubernetes",
     "spaces"
   ],
   "category": "virtualization",
