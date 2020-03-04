@@ -38,10 +38,11 @@
   },
   {
     "name": "api",
-    "do": "",
-    "dont": "",
+    "do": "Use this icon to represent an API.",
+    "dont": "Don't use it for an endpoint, there is an icon for this.",
     "tags": [
       "api",
+      "kubernetes",
       "data"
     ],
     "category": "development",
@@ -128,6 +129,7 @@
     "dont": "<ul><li>To represent an action.</li></ul>",
     "tags": [
       "cloudfoundry",
+      "kubernetes",
       "spaces"
     ],
     "category": "virtualization",
@@ -269,6 +271,7 @@
     "tags": [
       "process",
       "background",
+      "kubernetes",
       "demon"
     ],
     "category": "virtualization",
@@ -281,6 +284,7 @@
     "tags": [
       "group",
       "processes",
+      "kubernetes",
       "background",
       "demons"
     ],
@@ -294,6 +298,7 @@
     "tags": [
       "deploying",
       "release",
+      "kubernetes",
       "distribute"
     ],
     "category": "development",
@@ -383,9 +388,10 @@
     "dont": "<ul><li>Use it for flochart and logic scheme</li></ul>",
     "tags": [
       "script",
-      " job",
-      " algorithm",
-      " action"
+      "job",
+      "algorithm",
+      "kubernetes",
+      "action"
     ],
     "category": "virtualization",
     "type": "static"
@@ -674,6 +680,7 @@
     "tags": [
       "space",
       "quota",
+      "kubernetes",
       "capacity"
     ],
     "category": "virtualization",
@@ -732,7 +739,8 @@
     "do": "<ul><li>To represent a service.</li></ul>",
     "dont": "<ul><li>To represent a service instance.</li></ul>",
     "tags": [
-      "service"
+      "service",
+      "kubernetes"
     ],
     "category": "virtualization",
     "type": "static"
@@ -743,6 +751,7 @@
     "dont": "<ul><li>To represent service.</li></ul>",
     "tags": [
       "service",
+      "kubernetes",
       "instance"
     ],
     "category": "virtualization",
