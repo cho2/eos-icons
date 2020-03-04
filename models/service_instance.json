@@ -4,6 +4,7 @@
   "dont": "<ul><li>To represent service.</li></ul>",
   "tags": [
     "service",
+    "kubernetes",
     "instance"
   ],
   "category": "virtualization",
