@@ -5,6 +5,7 @@ module.exports = function (grunt) {
   const { createNewModel } = require('./scripts/models-creation')
   const { checkSvgName, renameSvgTo } = require("./scripts/svg-checker")
   const { duplicatedIcons } = require('./scripts/duplicated_icons')
+  const { eosMdIconsDifferences, downloadFile } = require('./scripts/eos-md-icons-log-differences')
 
   //Append path to your svg below
   //EOS-set svg path
@@ -85,6 +86,10 @@ module.exports = function (grunt) {
         }]
       }
     },
+    coffee: {
+      files: './scripts/eos-md-icons-log-differences',
+      tasks: ['coffee']
+    },
     clean: {
       icons: {
         expand: true,
@@ -149,6 +154,14 @@ module.exports = function (grunt) {
       .then(done)
   })
 
+/* compare MD icons in our repo and MD officical website */
+  grunt.registerTask('eosMdIconsDifferencesLog', async function () {
+    const done = this.async()
+    await downloadFile().then( () => {
+      eosMdIconsDifferences({targetDirMd: './svg/material' })
+    })
+  })
+
   /* Checks for each models to make sure it has all the properties we expect. */
   grunt.registerTask('checkModelsKeys', async function () {
     const done = this.async()
@@ -172,6 +185,7 @@ module.exports = function (grunt) {
       }
     }).then(done)
   })
+
 
   grunt.loadNpmTasks('grunt-webfont');
   grunt.loadNpmTasks('grunt-contrib-copy');
