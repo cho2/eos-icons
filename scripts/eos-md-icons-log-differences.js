@@ -2,7 +2,7 @@ const fs = require('fs');
 const axios = require('axios')
 const path = require('path')
 
-const downlaodFile = async () => {
+const downloadFile = async () => {
   const filePath = path.resolve(__dirname, 'md-web-data.json')
     axios({
       method: "get",
@@ -29,11 +29,12 @@ const eosMdIconsDifferences = async params => {
     console.dir(missingIconsInMD, {'maxArrayLength': null})
   } catch (error) {
     console.log(error)
+    console.log("Please run 'grunt eosMdIconsDifferencesLog' again to see the result.")
   }
 }
 
 const iconsDifferences = (array1, array2) => array1.filter(val => !array2.includes(val));
 module.exports = {
   eosMdIconsDifferences,
-  downlaodFile
+  downloadFile
 }

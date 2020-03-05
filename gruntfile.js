@@ -5,7 +5,7 @@ module.exports = function (grunt) {
   const { createNewModel } = require('./scripts/models-creation')
   const { checkSvgName, renameSvgTo } = require("./scripts/svg-checker")
   const { duplicatedIcons } = require('./scripts/duplicated_icons')
-  const { eosMdIconsDifferences, downlaodFile } = require('./scripts/eos-md-icons-log-differences')
+  const { eosMdIconsDifferences, downloadFile } = require('./scripts/eos-md-icons-log-differences')
 
   //Append path to your svg below
   //EOS-set svg path
@@ -173,7 +173,7 @@ module.exports = function (grunt) {
 /* compare MD icons in our repo and MD officical website */
   grunt.registerTask('eosMdIconsDifferencesLog', async function () {
     const done = this.async()
-    await downlaodFile().then( () => {
+    await downloadFile().then( () => {
       eosMdIconsDifferences({targetDirMd: './svg/extended' })
     })
   })
@@ -210,6 +210,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-text-replace');
 
   grunt.registerTask('build', ['combineAllIconsModels', 'copy:material', 'clean:icons', 'concat', 'webfont', 'replace']);
-  grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'checkMissingModelandSVG', 'eosMdIconsDifferencesLog']);
+  grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'checkMissingModelandSVG']);
   grunt.registerTask('default', ['test', 'build']);
 };
