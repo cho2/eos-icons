@@ -69,22 +69,6 @@ module.exports = function (grunt) {
         }
       }
     },
-    copy: {
-      material: {
-        files: [{
-          expand: true,
-          dot: true,
-          cwd: 'node_modules/material-design-icons',
-          dest: 'svg/extended/',
-          filter: 'isFile',
-          flatten: true,
-          src: '{,*/}*/svg/production/*{,*/}_24px.svg',
-          rename: function (dest, src) {
-            return dest + src.replace('_24px', '').replace('ic_', '')
-          }
-        }]
-      }
-    },
     concat: {
       dist: {
         src: ['templates/css-webfont.css'],
@@ -195,7 +179,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('build', ['combineAllIconsModels', 'copy:material', 'clean:icons', 'concat', 'webfont', 'replace']);
+  grunt.registerTask('build', ['combineAllIconsModels', 'clean:icons', 'concat', 'webfont', 'replace']);
   grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'checkMissingModelandSVG']);
   grunt.registerTask('default', ['test', 'build']);
 };
