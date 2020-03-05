@@ -20,7 +20,6 @@
     "grunt-eslint": "^21.1.0",
     "grunt-text-replace": "^0.4.0",
     "grunt-webfont": "^1.7.2",
-    "material-design-icons": "^3.0.1",
     "semantic-release": "^15.14.0",
     "xcode": "^2.1.0"
   },
