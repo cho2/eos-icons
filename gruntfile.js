@@ -158,7 +158,7 @@ module.exports = function (grunt) {
   grunt.registerTask('eosMdIconsDifferencesLog', async function () {
     const done = this.async()
     await downloadFile().then( () => {
-      eosMdIconsDifferences({targetDirMd: './svg/extended' })
+      eosMdIconsDifferences({targetDirMd: './svg/material' })
     })
   })
 
