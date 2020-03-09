@@ -1,7 +1,14 @@
 {
+  "name": "beach_access",
+  "do": "",
+  "dont": "",
   "tags": [
     "umbrella",
     "sunshade",
     "parasol"
-  ]
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
 }

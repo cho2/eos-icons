@@ -3,3 +3,16 @@
     "dessert", "food", "sweet", "birthday", "party", "celebration"
   ]
 }
+
+{
+  "name": "",
+  "do": "",
+  "dont": "",
+  "tags": [
+
+  ],
+  "category": [
+    ""
+  ],
+  "type": "static"
+}
