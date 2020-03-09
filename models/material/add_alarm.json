@@ -1,0 +1,12 @@
+{
+  "name": "",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add", "notification", "alert", "alarm", "countdown", "clock", "time", "bell", "plus"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}
