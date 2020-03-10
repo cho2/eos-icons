@@ -1,4 +1,7 @@
 {
+  "name": "free_breakfast",
+  "do": "",
+  "dont": "",
   "tags": [
     "coffee",
     "tee",
@@ -6,5 +9,9 @@
     "cup",
     "brunch",
     "meal"
-  ]
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
 }

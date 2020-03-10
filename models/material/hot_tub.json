@@ -1,7 +1,14 @@
 {
+  "name": "",
+  "do": "",
+  "dont": "",
   "tags": [
     "bath",
     "whirlpool",
     "bubble"
-  ]
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
 }

@@ -1,5 +1,12 @@
 {
+  "name": "grid_on",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "style", "custom", "edit", "network"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

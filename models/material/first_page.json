@@ -1,5 +1,12 @@
 {
+  "name": "first_page",
+  "do": "",
+  "dont": "",
   "tags": [
-     "move", "beginning", "front", "before"
-  ]
+    "move", "beginning", "front", "before"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
 }

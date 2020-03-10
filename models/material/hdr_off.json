@@ -1,5 +1,12 @@
 {
+  "name": "hdr_off",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "style", "custom", "edit"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

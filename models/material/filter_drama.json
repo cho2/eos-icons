@@ -1,5 +1,12 @@
 {
+  "name": "filter_drama",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "style", "custom"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

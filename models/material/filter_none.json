@@ -1,5 +1,12 @@
 {
+  "name": "filter_none",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "style", "custom", "remove"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }
