@@ -1,18 +1,12 @@
 {
-  "tags": [
-    "photography", "photo", "image", "style", "custom", "edit"
-  ]
-}
-{
-  "name": "",
+  "name": "image",
   "do": "",
   "dont": "",
   "tags": [
-    "home",
-    "index"
+    "photography", "photo", "image", "style", "custom", "edit"
   ],
   "category": [
-    "house"
+    "image"
   ],
   "type": "static"
 }

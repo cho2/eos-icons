@@ -1,5 +1,12 @@
 {
+  "name": "image_aspect_ratio",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "style", "custom", "edit", "proportion"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

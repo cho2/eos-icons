@@ -1,5 +1,12 @@
 {
+  "name": "king_bed",
+  "do": "",
+  "dont": "",
   "tags": [
-     "furniture", "bedroom", "sleep", "hotel"
-  ]
+    "furniture", "bedroom", "sleep", "hotel"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
 }

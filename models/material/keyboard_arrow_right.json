@@ -1,5 +1,12 @@
 {
+  "name": "keyboard_arrow_right",
+  "do": "",
+  "dont": "",
   "tags": [
     "writing", "words", "type", "key", "letter", "words"
-  ]
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
 }

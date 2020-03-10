@@ -1,5 +1,12 @@
 {
+  "name": "keyboard",
+  "do": "",
+  "dont": "",
   "tags": [
     "writing", "words", "type", "key", "letter", "words"
-  ]
+  ],
+  "category": [
+    "toggle"
+  ],
+  "type": "static"
 }
