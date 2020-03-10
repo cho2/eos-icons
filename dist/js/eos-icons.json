@@ -397,6 +397,22 @@
     "type": "static"
   },
   {
+    "name": "kubelet",
+    "do": "<ul><li>Use it in features that take care of maintaining one or more PODs</li></ul>",
+    "dont": "<ul><li>Don't use it for configuration of PODs</li></ul>",
+    "tags": [
+      "container",
+      "kubernetes",
+      "vehicle",
+      "vessel",
+      "spacecraft",
+      "maintenance",
+      "care"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "loading",
     "do": "<ul><li>The user is waiting for new content to be serverd.</li></ul>",
     "dont": "<ul><li>The action returns invisible results for the user.</li></ul>",
