@@ -1,7 +1,14 @@
 {
+  "name": "casino",
+  "do": "",
+  "dont": "",
   "tags": [
     "dice",
     "game",
     "die"
-  ]
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
 }

@@ -1,5 +1,12 @@
 {
+  "name": "cast",
+  "do": "",
+  "dont": "",
   "tags": [
     "stream", "deliver", "transmit", "external device", "send", "signal", "connection", "connect"
-  ]
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
 }

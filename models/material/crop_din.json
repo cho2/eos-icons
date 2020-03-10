@@ -1,5 +1,12 @@
 {
+  "name": "crop_din",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "cut", "reduce"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

@@ -1,5 +1,12 @@
 {
+  "name": "close",
+  "do": "",
+  "dont": "",
   "tags": [
     "stop", "terminate", "end"
-  ]
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
 }

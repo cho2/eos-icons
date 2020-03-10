@@ -1,5 +1,12 @@
 {
+  "name": "create_new_folder",
+  "do": "",
+  "dont": "",
   "tags": [
-    "folder", "file", "case", "data", "directory", "documents", "repositiry"
-  ]
+    "folder", "file", "case", "data", "directory", "documents", "repository"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static"
 }

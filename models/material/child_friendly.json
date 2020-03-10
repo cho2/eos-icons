@@ -1,4 +1,7 @@
 {
+  "name": "child_friendly",
+  "do": "",
+  "dont": "",
   "tags": [
     "baby",
     "pram",
@@ -6,5 +9,9 @@
     "stroller",
     "children",
     "cart"
-  ]
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
 }

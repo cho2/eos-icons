@@ -1,5 +1,12 @@
 {
+  "name": "collections_bookmark",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "cam", "camcorder", "shutter", "album"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

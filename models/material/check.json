@@ -1,5 +1,12 @@
 {
+  "name": "check",
+  "do": "",
+  "dont": "",
   "tags": [
     "tick", "checkmark", "checked", "approve"
-  ]
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
 }

@@ -1,18 +1,12 @@
 {
-  "tags": [
-    "dessert", "food", "sweet", "birthday", "party", "celebration"
-  ]
-}
-
-{
-  "name": "",
+  "name": "cake",
   "do": "",
   "dont": "",
   "tags": [
-
+    "dessert", "food", "sweet", "birthday", "party", "celebration"
   ],
   "category": [
-    ""
+    "social"
   ],
   "type": "static"
 }

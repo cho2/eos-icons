@@ -1,5 +1,12 @@
 {
+  "name": "crop_original",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "cut", "reduce"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

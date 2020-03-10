@@ -1,5 +1,12 @@
 {
+  "name": "control_point_duplicate",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "cam", "camcorder", "shutter", "album"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

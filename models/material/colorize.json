@@ -1,5 +1,12 @@
 {
+  "name": "colorize",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "album", "palette", "pallet", "picker"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

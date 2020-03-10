@@ -1,4 +1,12 @@
 {
+  "name": "cloud_done",
+  "do": "",
+  "dont": "",
   "tags": [
-    "cloud", "transfer", "excange", "server", "storage", "remote", "downloaded", "finished", "complete", "ended"  ]
+    "cloud", "transfer", "excange", "server", "storage", "remote", "downloaded", "finished", "complete", "ended"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static"
 }

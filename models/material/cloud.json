@@ -1,4 +1,12 @@
 {
+  "name": "cloud",
+  "do": "",
+  "dont": "",
   "tags": [
-    "cloud", "server", "storage", "remote" ]
+    "cloud", "server", "storage", "remote"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static"
 }
