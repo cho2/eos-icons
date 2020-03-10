@@ -1,5 +1,12 @@
 {
+  "name": "euro",
+  "do": "",
+  "dont": "",
   "tags": [
     "money", "currency", "dollar", "pound"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

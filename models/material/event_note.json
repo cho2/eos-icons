@@ -1,9 +1,16 @@
 {
+  "name": "event_note",
+  "do": "",
+  "dont": "",
   "tags": [
     "calendar",
     "appointment",
     "date",
     "notice",
     "observation"
-  ]
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
 }
