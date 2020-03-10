@@ -1,5 +1,12 @@
 {
+  "name": "deck",
+  "do": "",
+  "dont": "",
   "tags": [
     "chair", "beach", "travel", "relax", "facility", "hotel"
-  ]
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
 }

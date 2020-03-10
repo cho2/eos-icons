@@ -1,5 +1,12 @@
 {
+  "name": "devices_other",
+  "do": "",
+  "dont": "",
   "tags": [
     "watch", "smartwatch", "ipad", "bluetooth", "smarthphone", "iot"
-  ]
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
 }

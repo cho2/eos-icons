@@ -1,5 +1,12 @@
 {
+  "name": "device_hub",
+  "do": "",
+  "dont": "",
   "tags": [
-    "connectio", "core"
-  ]
+    "connection", "core"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
 }
