@@ -152,6 +152,19 @@
     "type": "static"
   },
   {
+    "name": "cluster_role_binding",
+    "do": "<ul><li>Use it to represent a conexion of some type for a cluster role, for example, attaching permissions to the role</li></ul>",
+    "dont": "<ul><li>Dont use it for links</li></ul>",
+    "tags": [
+      "kubernetes",
+      "rolebinding",
+      "attach",
+      "conexion"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "collocation",
     "do": "<ul><li>For the action of placing or arranging tasks together.</li></ul>",
     "dont": "<ul><li>For location purposes.</li></ul>",
