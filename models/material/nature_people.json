@@ -1,5 +1,12 @@
 {
+  "name": "nature_people",
+  "do": "",
+  "dont": "",
   "tags": [
     "image", "portrait", "outdoors"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

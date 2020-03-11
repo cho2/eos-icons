@@ -3,3 +3,15 @@
     "ram", "chip", "rom", "hard drive"
   ]
 }
+{
+  "name": "loupe",
+  "do": "",
+  "dont": "",
+  "tags": [
+
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

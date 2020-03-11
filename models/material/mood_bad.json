@@ -1,5 +1,12 @@
 {
+  "name": "mood_bad",
+  "do": "",
+  "dont": "",
   "tags": [
-     "emoticon", "face", "emotion", "expression", "sad"
-  ]
+    "emoticon", "face", "emotion", "expression", "sad"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

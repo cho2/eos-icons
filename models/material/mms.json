@@ -1,9 +1,16 @@
 {
+  "name": "mms",
+  "do": "",
+  "dont": "",
   "tags": [
     "Multimedia Messaging Service",
     "image",
     "message",
     "media",
     "text"
-  ]
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
 }

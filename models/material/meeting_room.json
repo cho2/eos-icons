@@ -9,3 +9,15 @@
     "portal"
   ]
 }
+{
+  "name": "loupe",
+  "do": "",
+  "dont": "",
+  "tags": [
+
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}
