@@ -613,6 +613,22 @@
     "type": "static"
   },
   {
+    "name": "pod_autoscaler",
+    "do": "<ul><li>Use it to replicate PODs automatically</li></ul>",
+    "dont": "<ul><li>Don't use it for regular PODs</li></ul>",
+    "tags": [
+      "replication",
+      "deployment",
+      "replica",
+      "autoscalling",
+      "scaling",
+      "kubernetes",
+      "containers"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "pod_security",
     "do": "<ul><li>Use to edit the security configuration of a pod, to view the security settings, or to enable/disable it.</li></ul>",
     "dont": "<ul><li>Don't use it for general security settings</li></ul>",

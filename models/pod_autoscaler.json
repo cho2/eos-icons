@@ -1,0 +1,16 @@
+{
+  "name": "pod_autoscaler",
+  "do": "<ul><li>Use it to replicate PODs automatically</li></ul>",
+  "dont": "<ul><li>Don't use it for regular PODs</li></ul>",
+  "tags": [
+    "replication",
+    "deployment",
+    "replica",
+    "autoscalling",
+    "scaling",
+    "kubernetes",
+    "containers"
+  ],
+  "category": "virtualization",
+  "type": "static"
+}
