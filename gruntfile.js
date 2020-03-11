@@ -130,7 +130,7 @@ module.exports = function (grunt) {
   grunt.registerTask('findDuplicates', function () {
     const done = this.async()
 
-    const mdRepo = './node_modules/material-design-icons'
+    const mdRepo = './svg/material'
     const eosRepo = './svg'
 
     compareFolders({ mdRepo, eosRepo }).then(result => {
@@ -154,11 +154,11 @@ module.exports = function (grunt) {
       .then(done)
   })
 
-/* compare MD icons in our repo and MD officical website */
+  /* compare MD icons in our repo and MD officical website */
   grunt.registerTask('eosMdIconsDifferencesLog', async function () {
     const done = this.async()
-    await downloadFile().then( () => {
-      eosMdIconsDifferences({targetDirMd: './svg/material' })
+    await downloadFile().then(() => {
+      eosMdIconsDifferences({ targetDirMd: './svg/material' })
     })
   })
 
