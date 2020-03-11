@@ -1,5 +1,12 @@
 {
+  "name": "priority_high",
+  "do": "",
+  "dont": "",
   "tags": [
-     "alert", "warning", "attention", "important"
-  ]
+    "alert", "warning", "attention", "important"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
 }

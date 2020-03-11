@@ -1,5 +1,12 @@
 {
+  "name": "plus_one",
+  "do": "",
+  "dont": "",
   "tags": [
-     "number", "increment", "add", "like"
-  ]
+    "number", "increment", "add", "like"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
 }

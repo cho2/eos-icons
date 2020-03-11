@@ -1,5 +1,12 @@
 {
+  "name": "people_outline",
+  "do": "",
+  "dont": "",
   "tags": [
-     "group", "team", "business", "users"
-  ]
+    "group", "team", "business", "users"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
 }

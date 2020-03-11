@@ -1,5 +1,12 @@
 {
+  "name": "phone_iphone",
+  "do": "",
+  "dont": "",
   "tags": [
     "apple", "ios", "smarthphone", "telephone", "mobile"
-  ]
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
 }

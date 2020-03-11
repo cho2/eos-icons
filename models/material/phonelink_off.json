@@ -1,5 +1,12 @@
 {
+  "name": "phonelink_off",
+  "do": "",
+  "dont": "",
   "tags": [
     "phone", "telephone", "disable", "not active", "unreachble", "mobile", "deactivated"
-  ]
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
 }

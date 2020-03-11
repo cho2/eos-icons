@@ -1,5 +1,12 @@
 {
+  "name": "outdoor_grill",
+  "do": "",
+  "dont": "",
   "tags": [
-     "camping", "travel", "barbecue", "bbq", "food"
-  ]
+    "camping", "travel", "barbecue", "bbq", "food"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
 }
