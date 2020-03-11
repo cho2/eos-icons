@@ -1,5 +1,12 @@
 {
+  "name": "laptop_chromebook",
+  "do": "",
+  "dont": "",
   "tags": [
     "notebook", "computer", "microcomputer", "portable", "android", "google"
-  ]
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
 }
