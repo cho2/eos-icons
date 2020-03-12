@@ -1,5 +1,12 @@
 {
+  "name": "view_compact",
+  "do": "",
+  "dont": "",
   "tags": [
     "grid", "layout format", "screen", "photography", "dashboard"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

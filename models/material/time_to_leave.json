@@ -1,5 +1,12 @@
 {
+  "name": "time_to_leave",
+  "do": "",
+  "dont": "",
   "tags": [
     "timer", "alarm", "schedule", "exit"
-  ]
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
 }

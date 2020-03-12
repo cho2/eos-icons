@@ -1,5 +1,12 @@
 {
+  "name": "whatshot",
+  "do": "",
+  "dont": "",
   "tags": [
-    "what hot", "new", "trend", "latest", "current"
-  ]
+    "new", "trend", "latest", "current"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
 }

@@ -1,4 +1,7 @@
 {
+  "name": "tablet_android",
+  "do": "",
+  "dont": "",
   "tags": [
     "pad",
     "ipad",
@@ -6,5 +9,9 @@
     "android",
     "google",
     "chrome"
-  ]
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
 }

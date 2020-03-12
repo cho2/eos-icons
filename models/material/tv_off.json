@@ -1,5 +1,12 @@
 {
+  "name": "tv_off",
+  "do": "",
+  "dont": "",
   "tags": [
-     "television", "screen", "monitor", "stop"
-  ]
+    "television", "screen", "monitor", "stop"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
 }
