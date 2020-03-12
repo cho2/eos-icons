@@ -2,7 +2,9 @@
   "name": "critical_bug",
   "do": "<ul><li>To represent a critical bug fix or detection.</li></ul>",
   "dont": "<ul><li>To display alerts or errors.</li></ul>",
-  "tags": ["bug"],
-  "category": "communication",
+  "tags": [
+    "bug"
+  ],
+  "category": "development",
   "type": "static"
 }

@@ -1,0 +1,16 @@
+{
+  "name": "kubelet",
+  "do": "<ul><li>Use it in features that take care of maintaining one or more PODs</li></ul>",
+  "dont": "<ul><li>Don't use it for configuration of PODs</li></ul>",
+  "tags": [
+    "container",
+    "kubernetes",
+    "vehicle",
+    "vessel",
+    "spacecraft",
+    "maintenance",
+    "care"
+  ],
+  "category": "virtualization",
+  "type": "static"
+}

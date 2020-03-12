@@ -4,10 +4,11 @@
   "dont": "<ul><li>Use it for flochart and logic scheme</li></ul>",
   "tags": [
     "script",
-    " job",
-    " algorithm",
-    " action"
+    "job",
+    "algorithm",
+    "kubernetes",
+    "action"
   ],
-  "category": "kubernetes",
+  "category": "virtualization",
   "type": "static"
 }

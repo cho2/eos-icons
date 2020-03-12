@@ -5,6 +5,7 @@ module.exports = function (grunt) {
   const { createNewModel } = require('./scripts/models-creation')
   const { checkSvgName, renameSvgTo } = require("./scripts/svg-checker")
   const { duplicatedIcons } = require('./scripts/duplicated_icons')
+  const { eosMdIconsDifferences, downloadFile } = require('./scripts/eos-md-icons-log-differences')
 
   //Append path to your svg below
   //EOS-set svg path
@@ -69,22 +70,6 @@ module.exports = function (grunt) {
         }
       }
     },
-    copy: {
-      material: {
-        files: [{
-          expand: true,
-          dot: true,
-          cwd: 'node_modules/material-design-icons',
-          dest: 'svg/extended/',
-          filter: 'isFile',
-          flatten: true,
-          src: '{,*/}*/svg/production/*{,*/}_24px.svg',
-          rename: function (dest, src) {
-            return dest + src.replace('_24px', '').replace('ic_', '')
-          }
-        }]
-      }
-    },
     concat: {
       dist: {
         src: ['templates/css-webfont.css'],
@@ -100,6 +85,10 @@ module.exports = function (grunt) {
           to: "<metadata>Created by EOS Design System</metadata>"
         }]
       }
+    },
+    coffee: {
+      files: './scripts/eos-md-icons-log-differences',
+      tasks: ['coffee']
     },
     clean: {
       icons: {
@@ -141,7 +130,7 @@ module.exports = function (grunt) {
   grunt.registerTask('findDuplicates', function () {
     const done = this.async()
 
-    const mdRepo = './node_modules/material-design-icons'
+    const mdRepo = './svg/material'
     const eosRepo = './svg'
 
     compareFolders({ mdRepo, eosRepo }).then(result => {
@@ -163,6 +152,14 @@ module.exports = function (grunt) {
 
     return combineIconsModels({ targetDir: './models/', destDir: './dist/js/eos-icons.json' })
       .then(done)
+  })
+
+  /* compare MD icons in our repo and MD officical website */
+  grunt.registerTask('eosMdIconsDifferencesLog', async function () {
+    const done = this.async()
+    await downloadFile().then(() => {
+      eosMdIconsDifferences({ targetDirMd: './svg/material' })
+    })
   })
 
   /* Checks for each models to make sure it has all the properties we expect. */
@@ -189,13 +186,14 @@ module.exports = function (grunt) {
     }).then(done)
   })
 
+
   grunt.loadNpmTasks('grunt-webfont');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('build', ['combineAllIconsModels', 'copy:material', 'clean:icons', 'concat', 'webfont', 'replace']);
+  grunt.registerTask('build', ['combineAllIconsModels', 'clean:icons', 'concat', 'webfont', 'replace']);
   grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'checkMissingModelandSVG']);
   grunt.registerTask('default', ['test', 'build']);
 };

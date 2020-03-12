@@ -2,7 +2,12 @@
   "name": "repositories",
   "do": "<ul><li>To indicate product repositories.</li></ul>",
   "dont": "",
-  "tags": ["products", "architecture", "url", "rpm"],
-  "category": "communication",
+  "tags": [
+    "products",
+    "architecture",
+    "url",
+    "rpm"
+  ],
+  "category": "development",
   "type": "static"
 }

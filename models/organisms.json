@@ -2,7 +2,9 @@
   "name": "organisms",
   "do": "",
   "dont": "",
-  "tags": ["atomic"],
-  "category": "communication",
+  "tags": [
+    "atomic"
+  ],
+  "category": "design",
   "type": "static"
 }

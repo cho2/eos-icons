@@ -1,8 +1,12 @@
 {
   "name": "api",
-  "do": "",
-  "dont": "",
-  "tags": ["api", "data"],
-  "category": "communication",
+  "do": "Use this icon to represent an API.",
+  "dont": "Don't use it for an endpoint, there is an icon for this.",
+  "tags": [
+    "api",
+    "kubernetes",
+    "data"
+  ],
+  "category": "development",
   "type": "static"
 }

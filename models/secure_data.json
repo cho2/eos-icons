@@ -7,6 +7,6 @@
     "secret",
     "kubernetes"
   ],
-  "category": "kubernetes",
+  "category": "development",
   "type": "static"
 }

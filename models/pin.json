@@ -2,7 +2,9 @@
   "name": "pin",
   "do": "<ul><li>For actions that will let the user pin certain information to a list, table, or another type of accumulative data form.</li></ul>",
   "dont": "<ul><li>To attache a file.</li></ul>",
-  "tags": ["pin"],
-  "category": "communication",
+  "tags": [
+    "pin"
+  ],
+  "category": "action",
   "type": "static"
 }

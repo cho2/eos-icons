@@ -2,7 +2,11 @@
   "name": "constraint",
   "do": "<ul><li>To define constraints.</li></ul>",
   "dont": "",
-  "tags": ["constraint", "check" , "restriction"],
-  "category": "communication",
+  "tags": [
+    "constraint",
+    "check",
+    "restriction"
+  ],
+  "category": "virtualization",
   "type": "static"
 }

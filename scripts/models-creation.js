@@ -9,7 +9,7 @@ const inputForModel = async () => {
           type: 'input',
           name: 'do',
           message: '✅  Indicate the "do": ',
-          validate: function(input){
+          validate: function (input) {
             const done = this.async();
 
             input.length
@@ -21,7 +21,7 @@ const inputForModel = async () => {
           type: 'input',
           name: 'dont',
           message: `⚠️  Indicate the "don't": `,
-          validate: function(input){
+          validate: function (input) {
             const done = this.async();
 
             input.length
@@ -33,7 +33,7 @@ const inputForModel = async () => {
           type: 'input',
           name: 'tags',
           message: '🏷  Indicate the tags separated by comma (ex: tag1, tag2, tag3): ',
-          validate: function(input){
+          validate: function (input) {
             const done = this.async();
 
             input.length
@@ -45,7 +45,28 @@ const inputForModel = async () => {
           type: 'list',
           name: 'category',
           message: '🗄  Indicate the category: ',
-          choices: ['miscellaneous', 'kubernetes', 'communication']
+          choices: [
+            'action',
+            'alert',
+            'av',
+            'communication',
+            'content',
+            'device',
+            'editor',
+            'file',
+            'hardware',
+            'image',
+            'maps',
+            'navigation',
+            'notification',
+            'places',
+            'social',
+            'toggle',
+            'development',
+            'design',
+            'services',
+            'virtualization'
+          ]
         },
         {
           type: 'rawlist',

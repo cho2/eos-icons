@@ -2,7 +2,10 @@
   "name": "system_re_registered",
   "do": "<ul><li>To represent re-registered systems or the action of re-registering a system.</li></ul>",
   "dont": "<ul><li>To represent a new system.</li></ul>",
-  "tags": ["system", "re registered"],
-  "category": "communication",
+  "tags": [
+    "system",
+    "re registered"
+  ],
+  "category": "services",
   "type": "static"
 }
