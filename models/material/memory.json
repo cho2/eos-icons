@@ -1,17 +1,12 @@
 {
-  "tags": [
-    "ram", "chip", "rom", "hard drive"
-  ]
-}
-{
-  "name": "loupe",
+  "name": "memory",
   "do": "",
   "dont": "",
   "tags": [
-
+    "ram", "chip", "rom", "hard drive"
   ],
   "category": [
-    "image"
+    "hardware"
   ],
   "type": "static"
 }

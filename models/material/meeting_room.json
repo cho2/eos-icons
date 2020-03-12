@@ -1,4 +1,7 @@
 {
+  "name": "meeting_room",
+  "do": "",
+  "dont": "",
   "tags": [
     "door",
     "entrance",
@@ -7,17 +10,9 @@
     "gate",
     "entry",
     "portal"
-  ]
-}
-{
-  "name": "loupe",
-  "do": "",
-  "dont": "",
-  "tags": [
-
   ],
   "category": [
-    "image"
+    "places"
   ],
   "type": "static"
 }
