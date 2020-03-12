@@ -1,7 +1,7 @@
 {
   "name": "eos-icons",
   "version": "3.1.0",
-  "description": "The iconic font made for EOS Design System to work together with Material Icons. Extends the library for SUSE and open SUSE product specific usage.",
+  "description": "The iconic and open source font made for EOS Design System.",
   "devDependencies": {
     "@semantic-release/git": "^5.0.0",
     "@semantic-release/gitlab": "^2.1.4",
@@ -20,7 +20,6 @@
     "grunt-eslint": "^21.1.0",
     "grunt-text-replace": "^0.4.0",
     "grunt-webfont": "^1.7.2",
-    "material-design-icons": "^3.0.1",
     "semantic-release": "^15.14.0",
     "xcode": "^2.1.0"
   },
@@ -74,6 +73,7 @@
   },
   "homepage": "https://gitlab.com/SUSE-UIUX/eos-icons#README",
   "dependencies": {
+    "axios": "^0.19.2",
     "inquirer": "^7.0.4"
   }
 }

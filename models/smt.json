@@ -2,7 +2,11 @@
   "name": "smt",
   "do": "<ul><li>To represent SMT/RMT servers with the SMT/RMT server information.</li></ul>",
   "dont": "",
-  "tags": ["SMT", "RMT servers", "server information"],
-  "category": "communication",
+  "tags": [
+    "SMT",
+    "RMT servers",
+    "server information"
+  ],
+  "category": "services",
   "type": "static"
 }

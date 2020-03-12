@@ -6,6 +6,6 @@
     "config_map",
     "kubernetes"
   ],
-  "category": "kubernetes",
+  "category": "virtualization",
   "type": "static"
 }
