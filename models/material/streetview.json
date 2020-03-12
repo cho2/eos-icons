@@ -1,8 +1,15 @@
 {
+  "name": "streetview",
+  "do": "",
+  "dont": "",
   "tags": [
     "maps",
     "google maps",
     "ar",
     "road"
-  ]
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
 }

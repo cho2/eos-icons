@@ -1,5 +1,12 @@
 {
+  "name": "sync",
+  "do": "",
+  "dont": "",
   "tags": [
     "refresh", "reload", "update"
-  ]
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
 }

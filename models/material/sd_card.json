@@ -1,5 +1,12 @@
 {
+  "name": "sd_card",
+  "do": "",
+  "dont": "",
   "tags": [
-     "information", "data", "memory", "usb", "drive", "storage"
-  ]
+    "information", "data", "memory", "usb", "drive", "storage"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
 }

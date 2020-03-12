@@ -1,8 +1,15 @@
 {
+  "name": "smoking_rooms",
+  "do": "",
+  "dont": "",
   "tags": [
     "smoke",
     "cigarette",
     "tobacco",
     "cigar"
-  ]
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
 }

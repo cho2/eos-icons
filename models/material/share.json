@@ -1,5 +1,12 @@
 {
+  "name": "share",
+  "do": "",
+  "dont": "",
   "tags": [
     "network", "social", "connection"
-  ]
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
 }

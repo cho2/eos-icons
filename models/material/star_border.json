@@ -1,4 +1,7 @@
 {
+  "name": "star_border",
+  "do": "",
+  "dont": "",
   "tags": [
     "empty",
     "rating",
@@ -6,5 +9,9 @@
     "valuation",
     "appraisal",
     "rank"
-  ]
+  ],
+  "category": [
+    "toggle"
+  ],
+  "type": "static"
 }

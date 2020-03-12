@@ -1,6 +1,13 @@
 {
+  "name": "scanner",
+  "do": "",
+  "dont": "",
   "tags": [
     "ocr",
     "digitalize"
-  ]
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
 }

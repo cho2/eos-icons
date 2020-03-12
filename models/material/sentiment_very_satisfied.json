@@ -1,5 +1,12 @@
 {
+  "name": "sentiment_very_satisfied",
+  "do": "",
+  "dont": "",
   "tags": [
     "very happy", "emoji", "feedback", "smiley"
-  ]
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
 }
