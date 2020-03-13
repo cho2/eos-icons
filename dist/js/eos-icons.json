@@ -1,0 +1,1047 @@
+[
+  {
+    "name": "action_chains",
+    "do": "<ul><li>For chains of actions.</li><li>Also use when multiple steps are required.</li></ul>",
+    "dont": "",
+    "tags": [
+      "chain actions",
+      "multiple actions",
+      "consecuences"
+    ],
+    "category": [
+      "development"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "activate_subscriptions",
+    "do": "<ul><li>For subscription activations.</li></ul>",
+    "dont": "<ul><li>To show activated subscriptions. Use product_subscriptions instead.</li></ul>",
+    "tags": [
+      "registration codes",
+      "reg codes"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "admin",
+    "do": "<ul><li>When a user or admin role needs to be distinguished in a list of users.</li></ul>",
+    "dont": "<ul><li>For a regular user profile.</li></ul>",
+    "tags": [
+      "user admin",
+      "user icon",
+      "administrator"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "api",
+    "do": "Use this icon to represent an API.",
+    "dont": "Don't use it for an endpoint, there is an icon for this.",
+    "tags": [
+      "api",
+      "kubernetes",
+      "data"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "application",
+    "do": "<ul><li>To represent an application.</li></ul>",
+    "dont": "<ul><li>To represent an application instance.</li></ul>",
+    "tags": [
+      "application"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "application_incomplete",
+    "do": "<ul><li>When the status of an applications is incomplete.</li><li>When an application is missing configuration to work properly.</li></ul>",
+    "dont": "<ul><li>To represent an application or application instance.</li></ul>",
+    "tags": [
+      "application",
+      "application status"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "application_instance",
+    "do": "<ul><li>To represent an instance of an aplication.</li></ul>",
+    "dont": "<ul><li>To represent an application or application status.</li></ul>",
+    "tags": [
+      "application",
+      "application status"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "autoinstallation",
+    "do": "<ul><li>To represent an autoinstallation process.</li></ul>",
+    "dont": "<ul><li>To represent a downloading processs.</li></ul>",
+    "tags": [
+      "application",
+      "installation"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "background_tasks",
+    "do": "<ul><li>To indicate tasks that are running in the background.</li></ul>",
+    "dont": "",
+    "tags": [
+      "pending",
+      "loading"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "bootstrapping",
+    "do": "<ul><li>When bootstraping a new element into a system.</li></ul>",
+    "dont": "",
+    "tags": [
+      "minion"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "cleanup",
+    "do": "<ul><li>To represent a cleanup process or action.</li></ul>",
+    "dont": "<ul><li>For remove or delete actions.</li></ul>",
+    "tags": [
+      "clean",
+      "cleanup"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "cloud_foundry_space",
+    "do": "<ul><li>To represent a Cloudfoundry space.</li></ul>",
+    "dont": "<ul><li>To represent an action.</li></ul>",
+    "tags": [
+      "cloudfoundry",
+      "kubernetes",
+      "spaces"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "cluster_role",
+    "do": "<ul><li>Indicates a cluster-scoped resources.</li><li>Indicates a non-resource endpoints.</li></ul>",
+    "dont": "",
+    "tags": [
+      "cluster",
+      "role",
+      "kubernetes",
+      "pods",
+      "node",
+      "healthz",
+      "cluster-scoped"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "cluster_role_binding",
+    "do": "<ul><li>Use it to represent a conexion of some type for a cluster role, for example, attaching permissions to the role</li></ul>",
+    "dont": "<ul><li>Dont use it for links</li></ul>",
+    "tags": [
+      "kubernetes",
+      "rolebinding",
+      "attach",
+      "conexion"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "collocation",
+    "do": "<ul><li>For the action of placing or arranging tasks together.</li></ul>",
+    "dont": "<ul><li>For location purposes.</li></ul>",
+    "tags": [
+      "collocation",
+      "collocation constraint"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "config_map",
+    "do": "<ul><li>Use it for configuration map</li></ul>",
+    "dont": "<ul><li>Use it for configuration file.</li></ul>",
+    "tags": [
+      "config_map",
+      "kubernetes"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "configuration_file",
+    "do": "<ul><li>To represent a configuration file.</li></ul>",
+    "dont": "<ul><li>To represent any other files or extensions.</li><li>To edit files. For this action use the edit icon from Material Design.</li></ul>",
+    "tags": [
+      "application",
+      "maintenance",
+      "files"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "constraint",
+    "do": "<ul><li>To define constraints.</li></ul>",
+    "dont": "",
+    "tags": [
+      "constraint",
+      "check",
+      "restriction"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "container",
+    "do": "<ul><li>use it for container</li></ul>",
+    "dont": "",
+    "tags": [
+      "container",
+      "doker",
+      "kubernetes"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "content_lifecycle_management",
+    "do": "<ul><li>To illustrate the planning cycle</li></ul>",
+    "dont": "<ul><li>To represent recycling documents actions</li></ul>",
+    "tags": [
+      "content",
+      "lifecycle"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "counting",
+    "do": "<ul><li>To display countings of any type, e.g.: subscription counting, system counting, etc.</li></ul>",
+    "dont": "",
+    "tags": [
+      "suscription",
+      "counting"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "critical_bug",
+    "do": "<ul><li>To represent a critical bug fix or detection.</li></ul>",
+    "dont": "<ul><li>To display alerts or errors.</li></ul>",
+    "tags": [
+      "bug"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "cronjob",
+    "do": "<ul><li>Use for job/script that will run as scheduled.</li></ul>",
+    "dont": "<ul><li>To show the time.</li></ul>",
+    "tags": [
+      "kubernetes",
+      "cronjob",
+      "schedule"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "csv_file",
+    "do": "<ul><li>To represent a csv file.</li></ul>",
+    "dont": "<ul><li>To represent anything not file related.</li></ul>",
+    "tags": [
+      "csv",
+      "files"
+    ],
+    "category": "file",
+    "type": "static"
+  },
+  {
+    "name": "daemon",
+    "do": "<ul><li>Use this icon to represent a computer program running in the background</li></ul>",
+    "dont": "<ul><li>Dont use it as a face or to request user feedback</li></ul>",
+    "tags": [
+      "process",
+      "background",
+      "kubernetes",
+      "demon"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "daemon_set",
+    "do": "<ul><li>Use this icon to represent a group of processes running in the background</li></ul>",
+    "dont": "<ul><li>Don't use it to represent a library or comic</li></ul>",
+    "tags": [
+      "group",
+      "processes",
+      "kubernetes",
+      "background",
+      "demons"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "deploy",
+    "do": "<ul><li>For deploying code/software to a server, container, etc.</li>></ul>",
+    "dont": "<ul><li>For uploading.</li></ul>",
+    "tags": [
+      "deploying",
+      "release",
+      "kubernetes",
+      "distribute"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "endpoints",
+    "do": "<ul><li>To represent endpoints. E.g.: you have a table of information and you need to differentiate endpoint URIs.</li></ul>",
+    "dont": "<ul><li>To represent an endpoints status.</li></ul>",
+    "tags": [
+      "endpoints",
+      "connection"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "endpoints_connected",
+    "do": "<ul><li>To represent a connection between two or more endpoints.</li></ul>",
+    "dont": "<ul><li>To represent routes.</li></ul>",
+    "tags": [
+      "endpoints",
+      "connection"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "endpoints_disconnected",
+    "do": "<ul><li>To represent a disconnection between two or more endpoints.</li></ul>",
+    "dont": "<ul><li>To represent routes.</li></ul>",
+    "tags": [
+      "endpoints",
+      "disconnection"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "enhancement",
+    "do": "<ul><li>To represent an improvement.</li><li>To represent packages/patches that only deliver enhancements/improvements to the system.</li></ul>",
+    "dont": "<ul><li>To represent statistics.</li></ul>",
+    "tags": [
+      "enhancement",
+      "improvement"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "file_system",
+    "do": "<ul><li>To manage files on a server.</li><li>To control how data is stored and retrieved.</li></ul>",
+    "dont": "",
+    "tags": [
+      "files system",
+      "share file",
+      "server"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "inbound",
+    "do": "To illustrate inbound information or data",
+    "dont": "To illustrate email behaivor",
+    "tags": [
+      "information",
+      "flow",
+      "incoming"
+    ],
+    "category": "communication",
+    "type": "static"
+  },
+  {
+    "name": "installing",
+    "do": "<ul><li>The user is waiting for an installation process to finalize.</li></ul>",
+    "dont": "<ul><li>As feedback for refreshing, reloading or syncing data.</li></ul>",
+    "tags": [
+      "installing"
+    ],
+    "category": "virtualization",
+    "type": "animated"
+  },
+  {
+    "name": "job",
+    "do": "<ul><li>Use this icon for algorithm/script that is run to perform a certain action/job</li></ul>",
+    "dont": "<ul><li>Use it for flochart and logic scheme</li></ul>",
+    "tags": [
+      "script",
+      "job",
+      "algorithm",
+      "kubernetes",
+      "action"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "kubelet",
+    "do": "<ul><li>Use it in features that take care of maintaining one or more PODs</li></ul>",
+    "dont": "<ul><li>Don't use it for configuration of PODs</li></ul>",
+    "tags": [
+      "container",
+      "kubernetes",
+      "vehicle",
+      "vessel",
+      "spacecraft",
+      "maintenance",
+      "care"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "loading",
+    "do": "<ul><li>The user is waiting for new content to be serverd.</li></ul>",
+    "dont": "<ul><li>The action returns invisible results for the user.</li></ul>",
+    "tags": [
+      "loading"
+    ],
+    "category": "virtualization",
+    "type": "animate"
+  },
+  {
+    "name": "miscellaneous",
+    "do": "<ul><li>To indicate an additional set of features or actions that might not have been included in other sections.</li></ul>",
+    "dont": "<ul><li>To indicate elements that are unrelated to the application.</li></ul>",
+    "tags": [
+      "misc"
+    ],
+    "category": "design",
+    "type": "static"
+  },
+  {
+    "name": "modified_date",
+    "do": "<ul><li>To represent a date that has been modified.</li></ul>",
+    "dont": "<ul><li>To represent any other type of editing that is not date.</li></ul>",
+    "tags": [
+      "modified",
+      "date"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "molecules",
+    "do": "Use it in atomic design to represent components.",
+    "dont": "",
+    "tags": [
+      "atomic"
+    ],
+    "category": "design",
+    "type": "static"
+  },
+  {
+    "name": "move",
+    "do": "<ul><li>To represent the action of relocating elements.</li></ul>",
+    "dont": "<ul><li>To represent directions.</li></ul>",
+    "tags": [
+      "move",
+      "relocate"
+    ],
+    "category": "navigation",
+    "type": "static"
+  },
+  {
+    "name": "multistate",
+    "do": "<ul><li>To show multiple states.</li></ul>",
+    "dont": "",
+    "tags": [
+      "multistate",
+      "multistate resources"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "namespace",
+    "do": "<ul><li>Use it for namespaces or to specify a unique identifier among a group of elements</li></ul>",
+    "dont": "<ul><li>Don't use it for menu or options</li></ul>",
+    "tags": [
+      "kubernetes",
+      "group",
+      "uniquename",
+      "identifier"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "network_file_system",
+    "do": "<ul><li>To access or share files across servers.</li></ul>",
+    "dont": "",
+    "tags": [
+      "network",
+      "file system",
+      "servers",
+      "share files"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "node",
+    "do": "<ul><li>To represent a point in a network or diagram at which lines or pathways intersect or branch.</li><li>To represent devices or data points on a large network.</li></ul>",
+    "dont": "",
+    "tags": [
+      "kubernetes",
+      "node",
+      "cluster"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "organisms",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "atomic"
+    ],
+    "category": "design",
+    "type": "static"
+  },
+  {
+    "name": "organization",
+    "do": "<ul><li>To represent organizations.</li><li>Organizations are made of groups or teams, not individuals.</li></ul>",
+    "dont": "",
+    "tags": [
+      "id"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "outbound",
+    "do": "<ul><li> To illustrate outbound information </li></ul>",
+    "dont": "<ul><li>To illustrate email behaivor</li></ul>",
+    "tags": [
+      "information",
+      "flow",
+      "outgoing"
+    ],
+    "category": "communication",
+    "type": "static"
+  },
+  {
+    "name": "package",
+    "do": "<ul><li>To represent a singular package.</li></ul>",
+    "dont": "",
+    "tags": [
+      "package"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "package_upgrade",
+    "do": "<ul><li>To upgrade an existing package.</li></ul>",
+    "dont": "<ul><li>To create or install package.</li></ul>",
+    "tags": [
+      "upgrade",
+      "package"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "packages",
+    "do": "<ul><li>To represent a list of packages.</li></ul>",
+    "dont": "",
+    "tags": [
+      "module",
+      "extension",
+      "upgrade",
+      "install"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "patterns",
+    "do": "<ul> <li> To represent predictable behaivor </li> </ul",
+    "dont": "<ul> <li> To represent routes </li> </ul>",
+    "tags": [
+      "patterns",
+      "information"
+    ],
+    "category": "design",
+    "type": "static"
+  },
+  {
+    "name": "pin",
+    "do": "<ul><li>For actions that will let the user pin certain information to a list, table, or another type of accumulative data form.</li></ul>",
+    "dont": "<ul><li>To attache a file.</li></ul>",
+    "tags": [
+      "pin"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "pod",
+    "do": "<ul><li>To represent a group of containers.</li></ul>",
+    "dont": "<ul><li>To represent a single container.</li></ul>",
+    "tags": [
+      "kubernetes",
+      "pod",
+      "containers"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "pod_autoscaler",
+    "do": "<ul><li>Use it to replicate PODs automatically</li></ul>",
+    "dont": "<ul><li>Don't use it for regular PODs</li></ul>",
+    "tags": [
+      "replication",
+      "deployment",
+      "replica",
+      "autoscalling",
+      "scaling",
+      "kubernetes",
+      "containers"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "pod_security",
+    "do": "<ul><li>Use to edit the security configuration of a pod, to view the security settings, or to enable/disable it.</li></ul>",
+    "dont": "<ul><li>Don't use it for general security settings</li></ul>",
+    "tags": [
+      "kubernetes",
+      "containers",
+      "safety"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "primitive",
+    "do": "<ul><li>In atomic design, use it to represent atoms or elements</li><li>To perform the most basic task.</li></ul>",
+    "dont": "",
+    "tags": [
+      "primitive",
+      "basic resource",
+      "atomic"
+    ],
+    "category": "design",
+    "type": "static"
+  },
+  {
+    "name": "product_classes",
+    "do": "<ul><li>To represent product classes.</li></ul>",
+    "dont": "",
+    "tags": [
+      "subscription",
+      "SCC",
+      "collection"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "product_subscriptions",
+    "do": "<ul><li>To show a list of all subscriptions.</li></ul>",
+    "dont": "<ul><li>To activate or remove subscriptions.</li></ul>",
+    "tags": [
+      "product",
+      "product subscription"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "products",
+    "do": "<ul><li>To show a collection of products.</li></ul>",
+    "dont": "",
+    "tags": [
+      "product",
+      "product collection"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "project",
+    "do": "Use it to represent a project as in a set of tasks or actions to achieve a particular goal.",
+    "dont": "Don't use it for upgrade or enhancement.",
+    "tags": [
+      "project"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "proxy",
+    "do": "<ul><li>To represent a proxy server or state.</li></ul>",
+    "dont": "",
+    "tags": [
+      "proxy"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "ptf",
+    "do": "<ul><li>To represent program temporary fixes.</li><li>To represent hotfixes.</li><li>For a special patch.</li></ul>",
+    "dont": "<ul><li>For a regular patch fix.</li></ul>",
+    "tags": [
+      "ptf",
+      "program temporary fixes",
+      "patch"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "quota",
+    "do": "<ul><li>Use to describe the amount of space for a determined hard drive.</li></ul>",
+    "dont": "",
+    "tags": [
+      "space",
+      "quota",
+      "kubernetes",
+      "capacity"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "repositories",
+    "do": "<ul><li>To indicate product repositories.</li></ul>",
+    "dont": "",
+    "tags": [
+      "products",
+      "architecture",
+      "url",
+      "rpm"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "route",
+    "do": "<ul><li>To represent application routes.</li></ul>",
+    "dont": "<ul><li>To represent URL.</li></ul>",
+    "tags": [
+      "routes",
+      "application routes"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "sandbox",
+    "do": "<ul><li>For a special setting in software which uses dummy data to test APIs.</li></ul>",
+    "dont": "",
+    "tags": [
+      "sandbox",
+      "software",
+      "dummy database"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "secure_data",
+    "do": "<ul><li>Use to store config info in a secure manner.</li></ul>",
+    "dont": "<ul><li>Don't use it for constraint</li></ul>",
+    "tags": [
+      "secure",
+      "secret",
+      "kubernetes"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "service",
+    "do": "<ul><li>To represent a service.</li></ul>",
+    "dont": "<ul><li>To represent a service instance.</li></ul>",
+    "tags": [
+      "service",
+      "kubernetes"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "service_instance",
+    "do": "<ul><li>To represent service instance.</li></ul>",
+    "dont": "<ul><li>To represent service.</li></ul>",
+    "tags": [
+      "service",
+      "kubernetes",
+      "instance"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "service_plan",
+    "do": "<ul><li>To represent a service or product plan, where plan is the detail of benefits the user subscribed/paid for.</li></ul>",
+    "dont": "<ul><li>To represent service or service instance.</li><li>To represent a singular product.</li></ul>",
+    "tags": [
+      "service",
+      "plans"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "smt",
+    "do": "<ul><li>To represent SMT/RMT servers with the SMT/RMT server information.</li></ul>",
+    "dont": "",
+    "tags": [
+      "SMT",
+      "RMT servers",
+      "server information"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "snapshot_rollback",
+    "do": "<ul><li>To rollback a snapshot, backup, or data saved, to a previous state.</li></ul>",
+    "dont": "",
+    "tags": [
+      "snapshot",
+      "rollback",
+      "previous state",
+      "backup"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "software",
+    "do": "<ul><li>To represent software.</li></ul>",
+    "dont": "<ul><li>For software download. Use the material icon file_download instead.</li></ul>",
+    "tags": [
+      "channel",
+      "list"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "state",
+    "do": "<ul><li>To represent states. Normally booleans true/false, on/off.</li></ul>",
+    "dont": "",
+    "tags": [
+      "state",
+      "boolean",
+      "true",
+      "false"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "subscriptions_created",
+    "do": "<ul><li>To represent a successfully activated subscription.</li></ul>",
+    "dont": "<ul><li>To create a subscription.</li></ul>",
+    "tags": [
+      "subscription",
+      "activated"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "symlink",
+    "do": "<ul><li>To represent a file that contains a reference to another file or directory.</li></ul>",
+    "dont": "<ul><li>To represent an external link, or links of any type other the one described above.</li></ul>",
+    "tags": [
+      "symlink"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "system_group",
+    "do": "<ul><li>To represent a group of systems.</li></ul>",
+    "dont": "",
+    "tags": [
+      "system",
+      "group"
+    ],
+    "category": "hardware",
+    "type": "static"
+  },
+  {
+    "name": "system_image",
+    "do": "<ul><li>To represent disk images, containers or ISOs.</li></ul>",
+    "dont": "<ul><li>For images, such as photos or pictures.</li></ul>",
+    "tags": [
+      "docker",
+      "container",
+      "disk",
+      "iso"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "system_re_registered",
+    "do": "<ul><li>To represent re-registered systems or the action of re-registering a system.</li></ul>",
+    "dont": "<ul><li>To represent a new system.</li></ul>",
+    "tags": [
+      "system",
+      "re registered"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "templates",
+    "do": "Use it to represent a mockup or template of any type: configuration, web UI, etc.",
+    "dont": "Don't use it for images.",
+    "tags": [
+      "atomic"
+    ],
+    "category": "design",
+    "type": "static"
+  },
+  {
+    "name": "terminal",
+    "do": "<ul><li>Use this icon to let the user interact with the terminal from your application.</li><li>Use this icon to  execute commands or to take the user to your command line interface.</li></ul>",
+    "dont": "<ul><li>Don't use it to represent code or code snippets.</li></ul>",
+    "tags": [
+      "terminal",
+      "command line interface",
+      "cli"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "timeout",
+    "do": "<ul><li>When there is a server-side timeout.</li><li>When the time to performn an operation has passed.</li></ul>",
+    "dont": "<ul><li>To represent any kind of timing.</li></ul>",
+    "tags": [
+      "timeout",
+      "interruption"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "troubleshooting",
+    "do": "<ul><li>To identify and resolve a problem.</li></ul>",
+    "dont": "<ul><li>For settings.</li></ul>",
+    "tags": [
+      "troubleshooting",
+      "analyse"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "trusted_organization",
+    "do": "<ul><li>To represent a trusted organization.</li></ul>",
+    "dont": "<ul><li>To represent certification.</li></ul>",
+    "tags": [
+      "organization",
+      "trusted"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "unpatched",
+    "do": "<ul><li>To represent that the system is not updated.</li><li>To represent that the patch is not available for this system.</li></ul>",
+    "dont": "<ul><li>To represent a system error.</li></ul>",
+    "tags": [
+      "system",
+      "not updated",
+      "patch"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "virtual_guest",
+    "do": "<ul><li>To represent a virtual machine.</li></ul>",
+    "dont": "<ul><li>To represent a system.</li></ul>",
+    "tags": [
+      "virtual machine"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "virtual_host_manager",
+    "do": "<ul><li>To manage the virtual hosts on a server.</li></ul>",
+    "dont": "<ul><li>To represent network server.</li></ul>",
+    "tags": [
+      "manage",
+      "virtual host"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "volume",
+    "do": "<ul><li>Use it for unit of storage.</li><li>Use it for hard disk.</li></ul>",
+    "dont": "",
+    "tags": [
+      "disk",
+      "drive",
+      "kubernetes"
+    ],
+    "category": "hardware",
+    "type": "static"
+  },
+  {
+    "name": "workload",
+    "do": "<ul><li>To represent the amount of work to be done by someone or something.</li></ul>",
+    "dont": "",
+    "tags": [
+      "kubernetes",
+      "container",
+      "workload",
+      "work"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  }
+]
