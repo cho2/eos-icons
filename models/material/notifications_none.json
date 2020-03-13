@@ -1,0 +1,12 @@
+{
+  "name": "notifications_none",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bell", "alert", "notification", "alarm", "ring"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

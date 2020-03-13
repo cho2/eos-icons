@@ -1,0 +1,12 @@
+{
+  "name": "cloud_upload",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "cloud", "transfer", "excange", "send", "server", "storage", "remote"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static"
+}

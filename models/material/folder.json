@@ -1,0 +1,14 @@
+{
+  "name": "folder",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "portfolio",
+    "case",
+    "wrapper"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static"
+}

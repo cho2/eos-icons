@@ -1,0 +1,12 @@
+{
+  "name": "texture",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "camera", "pattern", "background", "setting", "photo"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

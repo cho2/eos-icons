@@ -1,0 +1,12 @@
+{
+  "name": "arrow_drop_down_circle",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "direction", "down", "downward", "caret", "circle"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
+}

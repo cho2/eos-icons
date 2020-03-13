@@ -1,0 +1,12 @@
+{
+  "name": "crop_landscape",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "photography", "photo", "image", "cut", "reduce"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

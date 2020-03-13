@@ -1,0 +1,12 @@
+{
+  "name": "cloud_queue",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "cloud", "server", "storage", "remote", "queue", "line", "progression", "sequence", "awaiting"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static"
+}

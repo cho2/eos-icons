@@ -1,0 +1,12 @@
+{
+  "name": "assistant",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "aide", "help"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

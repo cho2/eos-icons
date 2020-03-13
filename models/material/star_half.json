@@ -1,0 +1,17 @@
+{
+  "name": "star_half",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "review",
+    "rating",
+    "valuation",
+    "appraisal",
+    "rank",
+    "fifty percent"
+  ],
+  "category": [
+    "toggle"
+  ],
+  "type": "static"
+}

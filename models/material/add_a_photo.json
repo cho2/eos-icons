@@ -1,0 +1,12 @@
+{
+  "name": "add_a_photo",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "image", "picture", "snapshot", "add", "photo", "photography"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

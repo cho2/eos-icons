@@ -1,0 +1,12 @@
+{
+  "name": "panorama",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "image", "perspective", "ratio", "photography", "photo"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

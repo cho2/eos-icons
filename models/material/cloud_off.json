@@ -1,0 +1,12 @@
+{
+  "name": "cloud_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "cloud", "server", "storage", "remote", "off", "abort", "omit", "remove"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static"
+}

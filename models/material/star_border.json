@@ -1,0 +1,17 @@
+{
+  "name": "star_border",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "empty",
+    "rating",
+    "review",
+    "valuation",
+    "appraisal",
+    "rank"
+  ],
+  "category": [
+    "toggle"
+  ],
+  "type": "static"
+}

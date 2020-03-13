@@ -1,0 +1,12 @@
+{
+  "name": "group_add",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "team", "people", "users", "plus", "new"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
+}
