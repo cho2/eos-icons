@@ -8,10 +8,8 @@ module.exports = function (grunt) {
   const { eosMdIconsDifferences, downloadFile } = require('./scripts/eos-md-icons-log-differences')
 
   //Append path to your svg below
-  //EOS-set svg path
-  const src_eos_set = ['svg/*.svg']
-  //Extended set svg path
-  const src_extended_set = ['svg/*.svg', 'svg/extended/*.svg']
+  //EOS-set and MD svg path
+  const src_eos_set = ['svg/*.svg', 'svg/material/*.svg']
 
   grunt.initConfig({
     webfont: {
@@ -42,32 +40,6 @@ module.exports = function (grunt) {
             dest: 'dist/js/glyph-list.json'
           }]
         }
-      },
-      iconsExtended: {
-        src: src_extended_set,
-        dest: 'dist/extended/fonts',
-        destCss: 'dist/extended/css',
-        options: {
-          font: 'eos-icons-extended',
-          syntax: 'bootstrap',
-          version: '1.0.0',
-          ligatures: true,
-          normalize: true,
-          types: 'woff2,woff,ttf,svg,eot',
-          metadata: 'something here',
-          templateOptions: {
-            baseClass: "eos-icons",
-            classPrefix: "eos-",
-            template: 'templates/css-template.css',
-            iconsStyles: false,
-            htmlDemo: false
-          },
-          stylesheets: ['css'],
-          customOutputs: [{
-            template: 'templates/glyph-list-template.json',
-            dest: 'dist/extended/js/glyph-list-extended.json'
-          }]
-        }
       }
     },
     concat: {
@@ -78,7 +50,7 @@ module.exports = function (grunt) {
     },
     replace: {
       replace_metadata: {
-        src: ['dist/fonts/eos-icons.svg', 'dist/extended/fonts/eos-icons-extended.svg'],
+        src: ['dist/fonts/eos-icons.svg'],
         overwrite: true,
         replacements: [{
           from: /<metadata>(.|\n)*?<\/metadata>/,
@@ -93,7 +65,7 @@ module.exports = function (grunt) {
     clean: {
       icons: {
         expand: true,
-        cwd: './svg/extended/',
+        cwd: './svg/material/',
         src: duplicatedIcons
       },
       dist: {
@@ -109,13 +81,12 @@ module.exports = function (grunt) {
   grunt.registerTask('checkMissingModelandSVG', function () {
     const done = this.async()
 
-    checkForMissingModelsOrIcons({ modelsSrc: './models', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(async data => {
+    checkForMissingModelsOrIcons({ modelsSrc: './models', mdModelsSrc: './models/material', mdIconsSrc: './svg/material', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(async data => {
       const { SVGsMissingModels, ModelsMissingSVGs } = data
 
       if (SVGsMissingModels.length || ModelsMissingSVGs.length) {
         if (SVGsMissingModels.length) {
           console.log(`⚠️  SVG missing: we found models # ${SVGsMissingModels.map(ele => ele)} # but not the SVG inside /svg.`)
-
           process.exit(1)
         }
 
@@ -156,15 +127,15 @@ module.exports = function (grunt) {
   grunt.registerTask('combineAllIconsModels', async function () {
     const done = this.async()
 
-    return combineIconsModels({ targetDir: './models/', destDir: './dist/js/eos-icons.json' })
+    return combineIconsModels({ targetDirEos: './models/', targetDirMd: './models/material/', destDir: './dist/js/eos-icons.json' })
       .then(done)
   })
 
-  /* compare MD icons in our repo and MD officical website */
+/* compare MD icons in our repo and MD officical website */
   grunt.registerTask('eosMdIconsDifferencesLog', async function () {
     const done = this.async()
-    await downloadFile().then(() => {
-      eosMdIconsDifferences({ targetDirMd: './svg/material' })
+    await downloadFile().then( () => {
+      eosMdIconsDifferences({targetDirMd: './svg/material' })
     })
   })
 
@@ -174,7 +145,7 @@ module.exports = function (grunt) {
 
     return checkModelKeys().then(result => {
       result.length
-        ? console.log(`⚠️  Error: model proprieties missing for # ${result.map(ele => ele.name)} #. Please make sure it has: name, do, dont, tags, category and type`)
+        ? console.log(`⚠️  Error: model proprieties missing for # ${result.map(ele => ele.fileName)} #. Please make sure it has: name, do, dont, tags, category and type`)
         : done()
     })
   })
@@ -182,16 +153,38 @@ module.exports = function (grunt) {
   /* Checks for SVGs names returns the one with a wrong naming convention */
   grunt.registerTask('checkNameConvention', async function () {
     const done = this.async()
-    checkSvgName({ svgDir: "./svg" }).then(async result => {
-      for await (icon of result) {
-        console.log(
-          `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
-        )
-        await renameSvgTo(icon)
-      }
-    }).then(done)
-  })
+    
+    const mdDir = './svg/material'
+    const eosDir = './svg'
 
+    checkSvgName({ mdDir, eosDir }).then(async result => {
+      const {eosIconsNew, mdIconsMdNew} = result
+      
+      if (eosIconsNew.length || mdIconsMdNew.length) {
+        if (eosIconsNew.length) {
+          for await (icon of eosIconsNew) {
+            console.log(
+            `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
+            )
+            await renameSvgTo(icon, eosDir)
+          }
+          process.exit(1)
+        }
+
+        if (mdIconsMdNew.length) {
+          for await (icon of mdIconsMdNew) {
+            console.log(
+            `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
+            )
+            await renameSvgTo(icon, mdDir).then(done)
+          }
+        }
+      } else {
+        console.log('✅  All SVGs have correct naming convention.')
+        done()
+      }
+    })
+  })
 
   grunt.loadNpmTasks('grunt-webfont');
   grunt.loadNpmTasks('grunt-contrib-copy');
