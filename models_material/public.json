@@ -1,0 +1,12 @@
+{
+  "name": "public",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "transportation", "global", "web", "network", "online", "connection"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

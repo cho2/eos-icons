@@ -1,0 +1,12 @@
+{
+  "name": "location_city",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "map", "location", "navigation", "places"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

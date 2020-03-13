@@ -489,6 +489,19 @@
     "type": "static"
   },
   {
+    "name": "namespace",
+    "do": "<ul><li>Use it for namespaces or to specify a unique identifier among a group of elements</li></ul>",
+    "dont": "<ul><li>Don't use it for menu or options</li></ul>",
+    "tags": [
+      "kubernetes",
+      "group",
+      "uniquename",
+      "identifier"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
     "name": "network_file_system",
     "do": "<ul><li>To access or share files across servers.</li></ul>",
     "dont": "",
@@ -613,6 +626,22 @@
     "type": "static"
   },
   {
+    "name": "pod_autoscaler",
+    "do": "<ul><li>Use it to replicate PODs automatically</li></ul>",
+    "dont": "<ul><li>Don't use it for regular PODs</li></ul>",
+    "tags": [
+      "replication",
+      "deployment",
+      "replica",
+      "autoscalling",
+      "scaling",
+      "kubernetes",
+      "containers"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "pod_security",
     "do": "<ul><li>Use to edit the security configuration of a pod, to view the security settings, or to enable/disable it.</li></ul>",
     "dont": "<ul><li>Don't use it for general security settings</li></ul>",
@@ -726,6 +755,17 @@
       "rpm"
     ],
     "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "role_binding",
+    "do": "<ul><li>Use it in features that grant special role permissions to a user or group of users</li></ul>",
+    "dont": "<ul><li>Don't use it for user account, admin, or similar</li></ul>",
+    "tags": [
+      "grantaccess",
+      "grantpermission"
+    ],
+    "category": "virtualization",
     "type": "static"
   },
   {

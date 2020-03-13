@@ -1,0 +1,12 @@
+{
+  "name": "attachment",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "link","stapler", "add", "clip", "link"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static"
+}

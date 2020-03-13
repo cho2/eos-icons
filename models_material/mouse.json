@@ -1,0 +1,12 @@
+{
+  "name": "mouse",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "click", "point"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
+}

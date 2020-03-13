@@ -1,0 +1,18 @@
+{
+  "name": "meeting_room",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "door",
+    "entrance",
+    "access",
+    "doorway",
+    "gate",
+    "entry",
+    "portal"
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

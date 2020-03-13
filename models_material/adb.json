@@ -1,0 +1,12 @@
+{
+  "name": "adb",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Android Debug Bridge"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
+}

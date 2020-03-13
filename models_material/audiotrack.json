@@ -1,0 +1,12 @@
+{
+  "name": "audiotrack",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "audio", "music", "note"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

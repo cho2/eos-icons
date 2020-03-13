@@ -1,0 +1,12 @@
+{
+  "name": "portrait",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "camera", "setting", "image", "photo", "photography", "profile"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

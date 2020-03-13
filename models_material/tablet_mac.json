@@ -1,0 +1,16 @@
+{
+  "name": "tablet_mac",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "pad",
+    "ipad",
+    "memo",
+    "apple",
+    "ios"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
+}

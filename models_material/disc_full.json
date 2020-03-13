@@ -1,0 +1,15 @@
+{
+  "name": "disc_full",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "space",
+    "disk",
+    "hard drive",
+    "storage"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
+}
