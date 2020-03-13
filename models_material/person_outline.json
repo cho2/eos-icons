@@ -1,0 +1,12 @@
+{
+  "name": "person_outline",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "user", "avatar", "person", "profile"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "live_tv",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "telly",
+    "video",
+    "television",
+    "screen",
+    "real time"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
+}

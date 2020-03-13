@@ -1,0 +1,12 @@
+{
+  "name": "party_mode",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "celebration", "birthday", "decoration", "camera", "photo", "picture"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "fullscreen",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "entire", "frame", "image", "big screen"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
+}

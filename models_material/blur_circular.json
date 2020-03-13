@@ -1,0 +1,12 @@
+{
+  "name": "blur_circular",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "photography", "bokeh", "photo"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

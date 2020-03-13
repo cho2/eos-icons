@@ -1,0 +1,12 @@
+{
+  "name": "cloud_circle",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "cloud", "server", "storage", "remote", "circle", "round"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static"
+}

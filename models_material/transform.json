@@ -1,0 +1,12 @@
+{
+  "name": "transform",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "tool", "design", "scale", "shape"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

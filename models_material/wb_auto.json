@@ -1,0 +1,12 @@
+{
+  "name": "wb_auto",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "photo", "image", "settings", "camera"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

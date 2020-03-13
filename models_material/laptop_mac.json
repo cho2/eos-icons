@@ -1,0 +1,12 @@
+{
+  "name": "laptop_mac",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "notebook", "computer", "microcomputer", "portable", "apple", "ios", "macbook"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "radio_button_unchecked",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "unconfirmed",
+    "unselected",
+    "unmarked",
+    "clean",
+    "option",
+    "blank"
+  ],
+  "category": [
+    "toggle"
+  ],
+  "type": "static"
+}

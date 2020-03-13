@@ -489,6 +489,19 @@
     "type": "static"
   },
   {
+    "name": "namespace",
+    "do": "<ul><li>Use it for namespaces or to specify a unique identifier among a group of elements</li></ul>",
+    "dont": "<ul><li>Don't use it for menu or options</li></ul>",
+    "tags": [
+      "kubernetes",
+      "group",
+      "uniquename",
+      "identifier"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
     "name": "network_file_system",
     "do": "<ul><li>To access or share files across servers.</li></ul>",
     "dont": "",

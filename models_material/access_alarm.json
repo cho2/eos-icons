@@ -1,0 +1,19 @@
+{
+  "name": "access_alarm",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "access",
+    "notification",
+    "alert",
+    "alarm",
+    "countdown",
+    "clock",
+    "time",
+    "bell"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

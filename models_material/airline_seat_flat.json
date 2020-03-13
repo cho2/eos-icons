@@ -1,0 +1,16 @@
+{
+  "name": "airline_seat_flat",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "plane",
+    "airplane",
+    "horizontal",
+    "bed",
+    "sleep"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
+}

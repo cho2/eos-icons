@@ -1,0 +1,12 @@
+{
+  "name": "group",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "team", "people", "users"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
+}
