@@ -1,5 +1,12 @@
 {
+  "name": "filter_2",
+  "do": "",
+  "dont": "",
   "tags": [
-    "photography", "photo", "image", "one", "edit"
-  ]
+    "photography", "photo", "image", "edit", "two"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

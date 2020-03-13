@@ -1,5 +1,12 @@
 {
+  "name": "power_input",
+  "do": "",
+  "dont": "",
   "tags": [
     "energy", "industry", "plug"
-  ]
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
 }

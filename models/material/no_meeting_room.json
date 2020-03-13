@@ -1,4 +1,7 @@
 {
+  "name": "no_meeting_room",
+  "do": "",
+  "dont": "",
   "tags": [
     "door",
     "entrance",
@@ -7,5 +10,9 @@
     "gate",
     "entry",
     "portal"
-  ]
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
 }

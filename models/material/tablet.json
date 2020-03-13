@@ -1,5 +1,12 @@
 {
+  "name": "tablet",
+  "do": "",
+  "dont": "",
   "tags": [
     "pad", "ipad",  "memo"
-  ]
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
 }

@@ -1,5 +1,12 @@
 {
+  "name": "menu_open",
+  "do": "",
+  "dont": "",
   "tags": [
-     "menu", "list", "navigate", "expanded", "unravel"
-  ]
+    "menu", "list", "navigate", "expanded", "unravel"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
 }

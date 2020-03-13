@@ -1,5 +1,12 @@
 {
+  "name": "photo",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "image", "cam", "camera"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

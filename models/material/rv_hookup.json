@@ -1,4 +1,7 @@
 {
+  "name": "rv_hookup",
+  "do": "",
+  "dont": "",
   "tags": [
     "recreational vehicle",
     "trailer",
@@ -8,5 +11,9 @@
     "caravan",
     "camper trailer",
     "connection"
-  ]
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
 }

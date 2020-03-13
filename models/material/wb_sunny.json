@@ -1,5 +1,12 @@
 {
+  "name": "wb_sunny",
+  "do": "",
+  "dont": "",
   "tags": [
-     "sun", "weather", "summer", "filter", "camera", "setting", "photo"
-  ]
+    "sun", "weather", "summer", "filter", "camera", "setting", "photo"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

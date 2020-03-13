@@ -1,5 +1,12 @@
 {
+  "name": "loupe",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "glass", "magnifier", "magnify"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

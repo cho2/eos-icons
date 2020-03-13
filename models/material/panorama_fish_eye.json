@@ -1,5 +1,12 @@
 {
+  "name": "panorama_fish_eye",
+  "do": "",
+  "dont": "",
   "tags": [
-    "image", "perspective", "ratio", "photography", "photo", "lens"
-  ]
+    "image", "perspective", "ratio", "photography", "photo"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

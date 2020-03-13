@@ -1,5 +1,12 @@
 {
+  "name": "phone_locked",
+  "do": "",
+  "dont": "",
   "tags": [
-     "mobile", "smartphone", "call", "communication", "secure", "protection"
-  ]
+    "mobile", "smartphone", "call", "communication"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
 }

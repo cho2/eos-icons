@@ -1,5 +1,12 @@
 {
+  "name": "sports_esports",
+  "do": "",
+  "dont": "",
   "tags": [
     "sport", "electronic sports", "video game", "gamer", "activity"
-  ]
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
 }

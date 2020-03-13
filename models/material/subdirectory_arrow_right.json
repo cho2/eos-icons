@@ -1,4 +1,12 @@
 {
+  "name": "subdirectory_arrow_right",
+  "do": "",
+  "dont": "",
   "tags": [
-     "subdirectory", "down", "below", "right", "arrow"  ]
+    "subdirectory", "down", "below", "right", "arrow"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
 }

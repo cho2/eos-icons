@@ -1,4 +1,7 @@
 {
+  "name": "no_encryption",
+  "do": "",
+  "dont": "",
   "tags": [
     "unsafe",
     "unlocked",
@@ -6,5 +9,9 @@
     "no security",
     "decrypt",
     "decipher"
-  ]
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
 }

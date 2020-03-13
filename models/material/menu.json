@@ -1,5 +1,12 @@
 {
+  "name": "menu",
+  "do": "",
+  "dont": "",
   "tags": [
-     "menu", "list", "navigate", "index", "panel"
-  ]
+    "list", "navigate", "index", "panel"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
 }

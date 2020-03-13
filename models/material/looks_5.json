@@ -1,5 +1,12 @@
 {
+  "name": "looks_5",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "style", "custom", "glance"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

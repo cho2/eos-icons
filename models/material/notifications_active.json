@@ -1,5 +1,12 @@
 {
+  "name": "notifications_active",
+  "do": "",
+  "dont": "",
   "tags": [
-     "active", "alert", "notification", "alarm", "ring", "attention"
-  ]
+    "alert", "notification", "alarm", "ring", "attention"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
 }

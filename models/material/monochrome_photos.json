@@ -1,5 +1,12 @@
 {
+  "name": "monochrome_photos",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "style", "black & white", "magnify"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

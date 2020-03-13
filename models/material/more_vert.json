@@ -1,5 +1,12 @@
 {
+  "name": "more_vert",
+  "do": "",
+  "dont": "",
   "tags": [
-     "more", "vertical ellipsis", "navigation"
-  ]
+    "more", "vertical ellipsis", "navigation"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
 }

@@ -1,5 +1,12 @@
 {
+  "name": "rotate_right",
+  "do": "",
+  "dont": "",
   "tags": [
     "arrow", "direction", "next", "arrows"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

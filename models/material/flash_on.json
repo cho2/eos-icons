@@ -1,5 +1,12 @@
 {
+  "name": "flash_on",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "style", "custom", "glare", "glow", "automatic"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

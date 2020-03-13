@@ -1,5 +1,12 @@
 {
+  "name": "refresh",
+  "do": "",
+  "dont": "",
   "tags": [
-     "restore", "renew", "regenerate"
-  ]
+    "restore", "renew", "regenerate"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
 }

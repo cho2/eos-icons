@@ -1,5 +1,12 @@
 {
+  "name": "shutter_speed",
+  "do": "",
+  "dont": "",
   "tags": [
     "camera", "setting", "speedometer", "performance ", "fast", "photo shoot"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

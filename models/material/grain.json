@@ -1,5 +1,12 @@
 {
+  "name": "grain",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "style", "custom", "edit", "fragment", "particle"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

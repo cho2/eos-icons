@@ -1,5 +1,12 @@
 {
+  "name": "slideshow",
+  "do": "",
+  "dont": "",
   "tags": [
     "camera", "setting", "presentation", "slide", "play"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }

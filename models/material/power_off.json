@@ -1,5 +1,12 @@
 {
+  "name": "power_off",
+  "do": "",
+  "dont": "",
   "tags": [
-     "energy", "switch", "electricity", "shutdown", "disabled"
-  ]
+    "energy", "switch", "electricity", "shutdown", "disabled"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
 }

@@ -1,5 +1,12 @@
 {
+  "name": "speaker_group",
+  "do": "",
+  "dont": "",
   "tags": [
     "volume", "sound", "audio", "hi-fi", "stereo", "satelite", "dolby", "bose"
-  ]
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
 }
