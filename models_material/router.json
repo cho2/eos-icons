@@ -1,0 +1,12 @@
+{
+  "name": "router",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "internet", "modem", "hub", "lan"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "bathtub",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "wash"
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

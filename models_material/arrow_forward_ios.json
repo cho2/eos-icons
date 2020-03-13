@@ -1,0 +1,12 @@
+{
+  "name": "arrow_forward_ios",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "direction", "right", "indicator", "forward", "ahead", "onward", "ios"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
+}

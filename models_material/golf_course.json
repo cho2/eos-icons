@@ -1,0 +1,15 @@
+{
+  "name": "golf_course",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "sport",
+    "game",
+    "fun",
+    "play"
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

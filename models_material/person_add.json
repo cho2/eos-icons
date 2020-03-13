@@ -1,0 +1,12 @@
+{
+  "name": "person_add",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "user", "avatar", "person", "profile"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

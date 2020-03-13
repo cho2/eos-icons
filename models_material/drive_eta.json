@@ -1,0 +1,16 @@
+{
+  "name": "drive_eta",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "car",
+    "estimated time of arrival",
+    "auto",
+    "automobile",
+    "ride"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
+}

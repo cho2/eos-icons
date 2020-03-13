@@ -1,0 +1,12 @@
+{
+  "name": "headset",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "audio", "music", "sound", "conference", "listen", "input"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
+}

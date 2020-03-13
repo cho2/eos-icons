@@ -1,0 +1,17 @@
+{
+  "name": "smoke_free",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "no smoking",
+    "forbidden",
+    "banned",
+    "cigarette",
+    "tobacco",
+    "cigar"
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

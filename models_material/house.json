@@ -1,0 +1,13 @@
+{
+  "name": "house",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "home",
+    "index"
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}
