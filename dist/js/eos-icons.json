@@ -758,6 +758,17 @@
     "type": "static"
   },
   {
+    "name": "role_binding",
+    "do": "<ul><li>Use it in features that grant special role permissions to a user or group of users</li></ul>",
+    "dont": "<ul><li>Don't use it for user account, admin, or similar</li></ul>",
+    "tags": [
+      "grantaccess",
+      "grantpermission"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "route",
     "do": "<ul><li>To represent application routes.</li></ul>",
     "dont": "<ul><li>To represent URL.</li></ul>",
