@@ -1,0 +1,12 @@
+{
+  "name": "edit",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "pen", "change", "modify", "publish"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "dock",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "connection", "rack", "communication", "plug", "charge", "charging"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
+}

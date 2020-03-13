@@ -1,0 +1,18 @@
+{
+  "name": "check_box",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "selected",
+    "marked",
+    "confirmed",
+    "chosen",
+    "picked",
+    "option",
+    "checked"
+  ],
+  "category": [
+    "toggle"
+  ],
+  "type": "static"
+}
