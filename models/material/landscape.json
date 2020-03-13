@@ -1,5 +1,12 @@
 {
+  "name": "landscape",
+  "do": "",
+  "dont": "",
   "tags": [
     "photography", "photo", "image", "style", "custom", "edit", "perspective", "ratio"
-  ]
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
 }
