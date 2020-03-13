@@ -56,10 +56,16 @@ const readModelKeys = async params => {
   /* Get all files inside the models folder */
   const filesName = await fs.readdirSync(modelsFolder, (err, file) => file)
 
+  const filterfiles = filesName.filter(ele => {
+      return ele.includes('.json')
+        ? ele
+        : null
+    })
+
   /* For each file, read and parse the data */
-  return filesName.map(ele => {
+  return filterfiles.map(ele => {
     try {
-      const fileData = fs.readFileSync(`models/${ele}`, (err, data) => data)
+      const fileData = fs.readFileSync(`${modelsFolder}/${ele}`, (err, data) => data)
 
       return {
         fileName: ele,
@@ -73,9 +79,12 @@ const readModelKeys = async params => {
 
 /* Maps throught the array of objects checking for  */
 const checkModelKeys = async () => {
-  const models = await readModelKeys({ modelsFolder: './models' })
+  const modelsEos = await readModelKeys({ modelsFolder: './models' })
+  const modelsMd = await readModelKeys({ modelsFolder: './models/material' })
 
-  return models.map(model => {
+  const modelsAll = [...modelsEos, ...modelsMd]
+
+  return modelsAll.map(model => {
     return checkForKeys(Object.keys(model))
       ? undefined
       : model
