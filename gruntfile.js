@@ -95,6 +95,9 @@ module.exports = function (grunt) {
         expand: true,
         cwd: './svg/extended/',
         src: duplicatedIcons
+      },
+      dist: {
+        src: './dist/',
       }
     }
   });
@@ -193,7 +196,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('build', ['combineAllIconsModels', 'clean:icons', 'concat', 'webfont', 'replace']);
+  grunt.registerTask('build', ['clean:dist', 'clean:icons', 'concat', 'webfont', 'replace', 'combineAllIconsModels']);
   grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'checkMissingModelandSVG']);
   grunt.registerTask('default', ['test', 'build']);
 };
