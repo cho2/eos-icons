@@ -1,0 +1,7573 @@
+[
+  {
+    "name": "action_chains",
+    "do": "<ul><li>For chains of actions.</li><li>Also use when multiple steps are required.</li></ul>",
+    "dont": "",
+    "tags": [
+      "chain actions",
+      "multiple actions",
+      "consecuences"
+    ],
+    "category": [
+      "development"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "activate_subscriptions",
+    "do": "<ul><li>For subscription activations.</li></ul>",
+    "dont": "<ul><li>To show activated subscriptions. Use product_subscriptions instead.</li></ul>",
+    "tags": [
+      "registration codes",
+      "reg codes"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "admin",
+    "do": "<ul><li>When a user or admin role needs to be distinguished in a list of users.</li></ul>",
+    "dont": "<ul><li>For a regular user profile.</li></ul>",
+    "tags": [
+      "user admin",
+      "user icon",
+      "administrator"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "api",
+    "do": "Use this icon to represent an API.",
+    "dont": "Don't use it for an endpoint, there is an icon for this.",
+    "tags": [
+      "api",
+      "kubernetes",
+      "data"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "application",
+    "do": "<ul><li>To represent an application.</li></ul>",
+    "dont": "<ul><li>To represent an application instance.</li></ul>",
+    "tags": [
+      "application"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "application_incomplete",
+    "do": "<ul><li>When the status of an applications is incomplete.</li><li>When an application is missing configuration to work properly.</li></ul>",
+    "dont": "<ul><li>To represent an application or application instance.</li></ul>",
+    "tags": [
+      "application",
+      "application status"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "application_instance",
+    "do": "<ul><li>To represent an instance of an aplication.</li></ul>",
+    "dont": "<ul><li>To represent an application or application status.</li></ul>",
+    "tags": [
+      "application",
+      "application status"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "autoinstallation",
+    "do": "<ul><li>To represent an autoinstallation process.</li></ul>",
+    "dont": "<ul><li>To represent a downloading processs.</li></ul>",
+    "tags": [
+      "application",
+      "installation"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "background_tasks",
+    "do": "<ul><li>To indicate tasks that are running in the background.</li></ul>",
+    "dont": "",
+    "tags": [
+      "pending",
+      "loading"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "bootstrapping",
+    "do": "<ul><li>When bootstraping a new element into a system.</li></ul>",
+    "dont": "",
+    "tags": [
+      "minion"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "cleanup",
+    "do": "<ul><li>To represent a cleanup process or action.</li></ul>",
+    "dont": "<ul><li>For remove or delete actions.</li></ul>",
+    "tags": [
+      "clean",
+      "cleanup"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "cloud_foundry_space",
+    "do": "<ul><li>To represent a Cloudfoundry space.</li></ul>",
+    "dont": "<ul><li>To represent an action.</li></ul>",
+    "tags": [
+      "cloudfoundry",
+      "kubernetes",
+      "spaces"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "cluster_role",
+    "do": "<ul><li>Indicates a cluster-scoped resources.</li><li>Indicates a non-resource endpoints.</li></ul>",
+    "dont": "",
+    "tags": [
+      "cluster",
+      "role",
+      "kubernetes",
+      "pods",
+      "node",
+      "healthz",
+      "cluster-scoped"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "cluster_role_binding",
+    "do": "<ul><li>Use it to represent a conexion of some type for a cluster role, for example, attaching permissions to the role</li></ul>",
+    "dont": "<ul><li>Dont use it for links</li></ul>",
+    "tags": [
+      "kubernetes",
+      "rolebinding",
+      "attach",
+      "conexion"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "collocation",
+    "do": "<ul><li>For the action of placing or arranging tasks together.</li></ul>",
+    "dont": "<ul><li>For location purposes.</li></ul>",
+    "tags": [
+      "collocation",
+      "collocation constraint"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "config_map",
+    "do": "<ul><li>Use it for configuration map</li></ul>",
+    "dont": "<ul><li>Use it for configuration file.</li></ul>",
+    "tags": [
+      "config_map",
+      "kubernetes"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "configuration_file",
+    "do": "<ul><li>To represent a configuration file.</li></ul>",
+    "dont": "<ul><li>To represent any other files or extensions.</li><li>To edit files. For this action use the edit icon from Material Design.</li></ul>",
+    "tags": [
+      "application",
+      "maintenance",
+      "files"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "constraint",
+    "do": "<ul><li>To define constraints.</li></ul>",
+    "dont": "",
+    "tags": [
+      "constraint",
+      "check",
+      "restriction"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "container",
+    "do": "<ul><li>use it for container</li></ul>",
+    "dont": "",
+    "tags": [
+      "container",
+      "doker",
+      "kubernetes"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "content_lifecycle_management",
+    "do": "<ul><li>To illustrate the planning cycle</li></ul>",
+    "dont": "<ul><li>To represent recycling documents actions</li></ul>",
+    "tags": [
+      "content",
+      "lifecycle"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "counting",
+    "do": "<ul><li>To display countings of any type, e.g.: subscription counting, system counting, etc.</li></ul>",
+    "dont": "",
+    "tags": [
+      "suscription",
+      "counting"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "critical_bug",
+    "do": "<ul><li>To represent a critical bug fix or detection.</li></ul>",
+    "dont": "<ul><li>To display alerts or errors.</li></ul>",
+    "tags": [
+      "bug"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "cronjob",
+    "do": "<ul><li>Use for job/script that will run as scheduled.</li></ul>",
+    "dont": "<ul><li>To show the time.</li></ul>",
+    "tags": [
+      "kubernetes",
+      "cronjob",
+      "schedule"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "csv_file",
+    "do": "<ul><li>To represent a csv file.</li></ul>",
+    "dont": "<ul><li>To represent anything not file related.</li></ul>",
+    "tags": [
+      "csv",
+      "files"
+    ],
+    "category": "file",
+    "type": "static"
+  },
+  {
+    "name": "daemon",
+    "do": "<ul><li>Use this icon to represent a computer program running in the background</li></ul>",
+    "dont": "<ul><li>Dont use it as a face or to request user feedback</li></ul>",
+    "tags": [
+      "process",
+      "background",
+      "kubernetes",
+      "demon"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "daemon_set",
+    "do": "<ul><li>Use this icon to represent a group of processes running in the background</li></ul>",
+    "dont": "<ul><li>Don't use it to represent a library or comic</li></ul>",
+    "tags": [
+      "group",
+      "processes",
+      "kubernetes",
+      "background",
+      "demons"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "deploy",
+    "do": "<ul><li>For deploying code/software to a server, container, etc.</li>></ul>",
+    "dont": "<ul><li>For uploading.</li></ul>",
+    "tags": [
+      "deploying",
+      "release",
+      "kubernetes",
+      "distribute"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "endpoints",
+    "do": "<ul><li>To represent endpoints. E.g.: you have a table of information and you need to differentiate endpoint URIs.</li></ul>",
+    "dont": "<ul><li>To represent an endpoints status.</li></ul>",
+    "tags": [
+      "endpoints",
+      "connection"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "endpoints_connected",
+    "do": "<ul><li>To represent a connection between two or more endpoints.</li></ul>",
+    "dont": "<ul><li>To represent routes.</li></ul>",
+    "tags": [
+      "endpoints",
+      "connection"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "endpoints_disconnected",
+    "do": "<ul><li>To represent a disconnection between two or more endpoints.</li></ul>",
+    "dont": "<ul><li>To represent routes.</li></ul>",
+    "tags": [
+      "endpoints",
+      "disconnection"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "enhancement",
+    "do": "<ul><li>To represent an improvement.</li><li>To represent packages/patches that only deliver enhancements/improvements to the system.</li></ul>",
+    "dont": "<ul><li>To represent statistics.</li></ul>",
+    "tags": [
+      "enhancement",
+      "improvement"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "file_system",
+    "do": "<ul><li>To manage files on a server.</li><li>To control how data is stored and retrieved.</li></ul>",
+    "dont": "",
+    "tags": [
+      "files system",
+      "share file",
+      "server"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "inbound",
+    "do": "To illustrate inbound information or data",
+    "dont": "To illustrate email behaivor",
+    "tags": [
+      "information",
+      "flow",
+      "incoming"
+    ],
+    "category": "communication",
+    "type": "static"
+  },
+  {
+    "name": "installing",
+    "do": "<ul><li>The user is waiting for an installation process to finalize.</li></ul>",
+    "dont": "<ul><li>As feedback for refreshing, reloading or syncing data.</li></ul>",
+    "tags": [
+      "installing"
+    ],
+    "category": "virtualization",
+    "type": "animated"
+  },
+  {
+    "name": "job",
+    "do": "<ul><li>Use this icon for algorithm/script that is run to perform a certain action/job</li></ul>",
+    "dont": "<ul><li>Use it for flochart and logic scheme</li></ul>",
+    "tags": [
+      "script",
+      "job",
+      "algorithm",
+      "kubernetes",
+      "action"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "kubelet",
+    "do": "<ul><li>Use it in features that take care of maintaining one or more PODs</li></ul>",
+    "dont": "<ul><li>Don't use it for configuration of PODs</li></ul>",
+    "tags": [
+      "container",
+      "kubernetes",
+      "vehicle",
+      "vessel",
+      "spacecraft",
+      "maintenance",
+      "care"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "loading",
+    "do": "<ul><li>The user is waiting for new content to be serverd.</li></ul>",
+    "dont": "<ul><li>The action returns invisible results for the user.</li></ul>",
+    "tags": [
+      "loading"
+    ],
+    "category": "virtualization",
+    "type": "animate"
+  },
+  {
+    "name": "miscellaneous",
+    "do": "<ul><li>To indicate an additional set of features or actions that might not have been included in other sections.</li></ul>",
+    "dont": "<ul><li>To indicate elements that are unrelated to the application.</li></ul>",
+    "tags": [
+      "misc"
+    ],
+    "category": "design",
+    "type": "static"
+  },
+  {
+    "name": "modified_date",
+    "do": "<ul><li>To represent a date that has been modified.</li></ul>",
+    "dont": "<ul><li>To represent any other type of editing that is not date.</li></ul>",
+    "tags": [
+      "modified",
+      "date"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "molecules",
+    "do": "Use it in atomic design to represent components.",
+    "dont": "",
+    "tags": [
+      "atomic"
+    ],
+    "category": "design",
+    "type": "static"
+  },
+  {
+    "name": "move",
+    "do": "<ul><li>To represent the action of relocating elements.</li></ul>",
+    "dont": "<ul><li>To represent directions.</li></ul>",
+    "tags": [
+      "move",
+      "relocate"
+    ],
+    "category": "navigation",
+    "type": "static"
+  },
+  {
+    "name": "multistate",
+    "do": "<ul><li>To show multiple states.</li></ul>",
+    "dont": "",
+    "tags": [
+      "multistate",
+      "multistate resources"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "namespace",
+    "do": "<ul><li>Use it for namespaces or to specify a unique identifier among a group of elements</li></ul>",
+    "dont": "<ul><li>Don't use it for menu or options</li></ul>",
+    "tags": [
+      "kubernetes",
+      "group",
+      "uniquename",
+      "identifier"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "network_file_system",
+    "do": "<ul><li>To access or share files across servers.</li></ul>",
+    "dont": "",
+    "tags": [
+      "network",
+      "file system",
+      "servers",
+      "share files"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "node",
+    "do": "<ul><li>To represent a point in a network or diagram at which lines or pathways intersect or branch.</li><li>To represent devices or data points on a large network.</li></ul>",
+    "dont": "",
+    "tags": [
+      "kubernetes",
+      "node",
+      "cluster"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "organisms",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "atomic"
+    ],
+    "category": "design",
+    "type": "static"
+  },
+  {
+    "name": "organization",
+    "do": "<ul><li>To represent organizations.</li><li>Organizations are made of groups or teams, not individuals.</li></ul>",
+    "dont": "",
+    "tags": [
+      "id"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "outbound",
+    "do": "<ul><li> To illustrate outbound information </li></ul>",
+    "dont": "<ul><li>To illustrate email behaivor</li></ul>",
+    "tags": [
+      "information",
+      "flow",
+      "outgoing"
+    ],
+    "category": "communication",
+    "type": "static"
+  },
+  {
+    "name": "package",
+    "do": "<ul><li>To represent a singular package.</li></ul>",
+    "dont": "",
+    "tags": [
+      "package"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "package_upgrade",
+    "do": "<ul><li>To upgrade an existing package.</li></ul>",
+    "dont": "<ul><li>To create or install package.</li></ul>",
+    "tags": [
+      "upgrade",
+      "package"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "packages",
+    "do": "<ul><li>To represent a list of packages.</li></ul>",
+    "dont": "",
+    "tags": [
+      "module",
+      "extension",
+      "upgrade",
+      "install"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "patterns",
+    "do": "<ul> <li> To represent predictable behaivor </li> </ul",
+    "dont": "<ul> <li> To represent routes </li> </ul>",
+    "tags": [
+      "patterns",
+      "information"
+    ],
+    "category": "design",
+    "type": "static"
+  },
+  {
+    "name": "pin",
+    "do": "<ul><li>For actions that will let the user pin certain information to a list, table, or another type of accumulative data form.</li></ul>",
+    "dont": "<ul><li>To attache a file.</li></ul>",
+    "tags": [
+      "pin"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "pod",
+    "do": "<ul><li>To represent a group of containers.</li></ul>",
+    "dont": "<ul><li>To represent a single container.</li></ul>",
+    "tags": [
+      "kubernetes",
+      "pod",
+      "containers"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "pod_autoscaler",
+    "do": "<ul><li>Use it to replicate PODs automatically</li></ul>",
+    "dont": "<ul><li>Don't use it for regular PODs</li></ul>",
+    "tags": [
+      "replication",
+      "deployment",
+      "replica",
+      "autoscalling",
+      "scaling",
+      "kubernetes",
+      "containers"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "pod_security",
+    "do": "<ul><li>Use to edit the security configuration of a pod, to view the security settings, or to enable/disable it.</li></ul>",
+    "dont": "<ul><li>Don't use it for general security settings</li></ul>",
+    "tags": [
+      "kubernetes",
+      "containers",
+      "safety"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "primitive",
+    "do": "<ul><li>In atomic design, use it to represent atoms or elements</li><li>To perform the most basic task.</li></ul>",
+    "dont": "",
+    "tags": [
+      "primitive",
+      "basic resource",
+      "atomic"
+    ],
+    "category": "design",
+    "type": "static"
+  },
+  {
+    "name": "product_classes",
+    "do": "<ul><li>To represent product classes.</li></ul>",
+    "dont": "",
+    "tags": [
+      "subscription",
+      "SCC",
+      "collection"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "product_subscriptions",
+    "do": "<ul><li>To show a list of all subscriptions.</li></ul>",
+    "dont": "<ul><li>To activate or remove subscriptions.</li></ul>",
+    "tags": [
+      "product",
+      "product subscription"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "products",
+    "do": "<ul><li>To show a collection of products.</li></ul>",
+    "dont": "",
+    "tags": [
+      "product",
+      "product collection"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "project",
+    "do": "Use it to represent a project as in a set of tasks or actions to achieve a particular goal.",
+    "dont": "Don't use it for upgrade or enhancement.",
+    "tags": [
+      "project"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "proxy",
+    "do": "<ul><li>To represent a proxy server or state.</li></ul>",
+    "dont": "",
+    "tags": [
+      "proxy"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "ptf",
+    "do": "<ul><li>To represent program temporary fixes.</li><li>To represent hotfixes.</li><li>For a special patch.</li></ul>",
+    "dont": "<ul><li>For a regular patch fix.</li></ul>",
+    "tags": [
+      "ptf",
+      "program temporary fixes",
+      "patch"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "quota",
+    "do": "<ul><li>Use to describe the amount of space for a determined hard drive.</li></ul>",
+    "dont": "",
+    "tags": [
+      "space",
+      "quota",
+      "kubernetes",
+      "capacity"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "repositories",
+    "do": "<ul><li>To indicate product repositories.</li></ul>",
+    "dont": "",
+    "tags": [
+      "products",
+      "architecture",
+      "url",
+      "rpm"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "role_binding",
+    "do": "<ul><li>Use it in features that grant special role permissions to a user or group of users</li></ul>",
+    "dont": "<ul><li>Don't use it for user account, admin, or similar</li></ul>",
+    "tags": [
+      "grantaccess",
+      "grantpermission"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "route",
+    "do": "<ul><li>To represent application routes.</li></ul>",
+    "dont": "<ul><li>To represent URL.</li></ul>",
+    "tags": [
+      "routes",
+      "application routes"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "sandbox",
+    "do": "<ul><li>For a special setting in software which uses dummy data to test APIs.</li></ul>",
+    "dont": "",
+    "tags": [
+      "sandbox",
+      "software",
+      "dummy database"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "secure_data",
+    "do": "<ul><li>Use to store config info in a secure manner.</li></ul>",
+    "dont": "<ul><li>Don't use it for constraint</li></ul>",
+    "tags": [
+      "secure",
+      "secret",
+      "kubernetes"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "service",
+    "do": "<ul><li>To represent a service.</li></ul>",
+    "dont": "<ul><li>To represent a service instance.</li></ul>",
+    "tags": [
+      "service",
+      "kubernetes"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "service_instance",
+    "do": "<ul><li>To represent service instance.</li></ul>",
+    "dont": "<ul><li>To represent service.</li></ul>",
+    "tags": [
+      "service",
+      "kubernetes",
+      "instance"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "service_plan",
+    "do": "<ul><li>To represent a service or product plan, where plan is the detail of benefits the user subscribed/paid for.</li></ul>",
+    "dont": "<ul><li>To represent service or service instance.</li><li>To represent a singular product.</li></ul>",
+    "tags": [
+      "service",
+      "plans"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "smt",
+    "do": "<ul><li>To represent SMT/RMT servers with the SMT/RMT server information.</li></ul>",
+    "dont": "",
+    "tags": [
+      "SMT",
+      "RMT servers",
+      "server information"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "snapshot_rollback",
+    "do": "<ul><li>To rollback a snapshot, backup, or data saved, to a previous state.</li></ul>",
+    "dont": "",
+    "tags": [
+      "snapshot",
+      "rollback",
+      "previous state",
+      "backup"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "software",
+    "do": "<ul><li>To represent software.</li></ul>",
+    "dont": "<ul><li>For software download. Use the material icon file_download instead.</li></ul>",
+    "tags": [
+      "channel",
+      "list"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "state",
+    "do": "<ul><li>To represent states. Normally booleans true/false, on/off.</li></ul>",
+    "dont": "",
+    "tags": [
+      "state",
+      "boolean",
+      "true",
+      "false"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "subscriptions_created",
+    "do": "<ul><li>To represent a successfully activated subscription.</li></ul>",
+    "dont": "<ul><li>To create a subscription.</li></ul>",
+    "tags": [
+      "subscription",
+      "activated"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "symlink",
+    "do": "<ul><li>To represent a file that contains a reference to another file or directory.</li></ul>",
+    "dont": "<ul><li>To represent an external link, or links of any type other the one described above.</li></ul>",
+    "tags": [
+      "symlink"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "system_group",
+    "do": "<ul><li>To represent a group of systems.</li></ul>",
+    "dont": "",
+    "tags": [
+      "system",
+      "group"
+    ],
+    "category": "hardware",
+    "type": "static"
+  },
+  {
+    "name": "system_image",
+    "do": "<ul><li>To represent disk images, containers or ISOs.</li></ul>",
+    "dont": "<ul><li>For images, such as photos or pictures.</li></ul>",
+    "tags": [
+      "docker",
+      "container",
+      "disk",
+      "iso"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "system_re_registered",
+    "do": "<ul><li>To represent re-registered systems or the action of re-registering a system.</li></ul>",
+    "dont": "<ul><li>To represent a new system.</li></ul>",
+    "tags": [
+      "system",
+      "re registered"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "templates",
+    "do": "Use it to represent a mockup or template of any type: configuration, web UI, etc.",
+    "dont": "Don't use it for images.",
+    "tags": [
+      "atomic"
+    ],
+    "category": "design",
+    "type": "static"
+  },
+  {
+    "name": "terminal",
+    "do": "<ul><li>Use this icon to let the user interact with the terminal from your application.</li><li>Use this icon to  execute commands or to take the user to your command line interface.</li></ul>",
+    "dont": "<ul><li>Don't use it to represent code or code snippets.</li></ul>",
+    "tags": [
+      "terminal",
+      "command line interface",
+      "cli"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "timeout",
+    "do": "<ul><li>When there is a server-side timeout.</li><li>When the time to performn an operation has passed.</li></ul>",
+    "dont": "<ul><li>To represent any kind of timing.</li></ul>",
+    "tags": [
+      "timeout",
+      "interruption"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "troubleshooting",
+    "do": "<ul><li>To identify and resolve a problem.</li></ul>",
+    "dont": "<ul><li>For settings.</li></ul>",
+    "tags": [
+      "troubleshooting",
+      "analyse"
+    ],
+    "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "trusted_organization",
+    "do": "<ul><li>To represent a trusted organization.</li></ul>",
+    "dont": "<ul><li>To represent certification.</li></ul>",
+    "tags": [
+      "organization",
+      "trusted"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "unpatched",
+    "do": "<ul><li>To represent that the system is not updated.</li><li>To represent that the patch is not available for this system.</li></ul>",
+    "dont": "<ul><li>To represent a system error.</li></ul>",
+    "tags": [
+      "system",
+      "not updated",
+      "patch"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "virtual_guest",
+    "do": "<ul><li>To represent a virtual machine.</li></ul>",
+    "dont": "<ul><li>To represent a system.</li></ul>",
+    "tags": [
+      "virtual machine"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "virtual_host_manager",
+    "do": "<ul><li>To manage the virtual hosts on a server.</li></ul>",
+    "dont": "<ul><li>To represent network server.</li></ul>",
+    "tags": [
+      "manage",
+      "virtual host"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "volume",
+    "do": "<ul><li>Use it for unit of storage.</li><li>Use it for hard disk.</li></ul>",
+    "dont": "",
+    "tags": [
+      "disk",
+      "drive",
+      "kubernetes"
+    ],
+    "category": "hardware",
+    "type": "static"
+  },
+  {
+    "name": "volume_binding",
+    "do": "<ul><li>Use it when connecting a volume to a system, container or others</li></ul>",
+    "dont": "<ul><li>Don't use it for general links or hyperlink to the volume page</li></ul>",
+    "tags": [
+      "volume",
+      "disk",
+      "storage",
+      "link",
+      "binding",
+      "connection",
+      "kubernetes",
+      "containers"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "workload",
+    "do": "<ul><li>To represent the amount of work to be done by someone or something.</li></ul>",
+    "dont": "",
+    "tags": [
+      "kubernetes",
+      "container",
+      "workload",
+      "work"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "ac_unit",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "air conditioner",
+      "cool",
+      "cold",
+      "chill",
+      "snow",
+      "congelation",
+      "snowflake"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "access_alarm",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "access",
+      "notification",
+      "alert",
+      "alarm",
+      "countdown",
+      "clock",
+      "time",
+      "bell"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "access_time",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "time",
+      "access",
+      "clock",
+      "interval",
+      "hour"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "account_tree",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "hierarchy",
+      "structure"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "adb",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android Debug Bridge"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_a_photo",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "picture",
+      "snapshot",
+      "add",
+      "photo",
+      "photography"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_alarm",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "notification",
+      "alert",
+      "alarm",
+      "countdown",
+      "clock",
+      "time",
+      "bell",
+      "plus"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_photo_alternate",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "picture",
+      "snapshot",
+      "add",
+      "photo",
+      "photography"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_to_photos",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "picture",
+      "snapshot",
+      "add",
+      "photo",
+      "photography"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "adjust",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accommodate",
+      "accustom",
+      "adapt",
+      "alter",
+      "conform",
+      "fine-tune",
+      "fix",
+      "modify"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "airline_seat_flat",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "plane",
+      "airplane",
+      "horizontal",
+      "bed",
+      "sleep"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "airline_seat_flat_angled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "plane",
+      "airplane",
+      "inclined",
+      "bed",
+      "sleep"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "airline_seat_individual_suite",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "room",
+      "bed",
+      "sleep",
+      "plane",
+      "airplane"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "airline_seat_legroom_extra",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "plane",
+      "airplane",
+      "chair",
+      "big",
+      "large"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "airline_seat_legroom_normal",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "plane",
+      "airplane",
+      "chair",
+      "standard",
+      "basic"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "airline_seat_legroom_reduced",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "plane",
+      "airplane",
+      "chair",
+      "small"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "airline_seat_recline_extra",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "plane",
+      "airplane",
+      "chair"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "airline_seat_recline_normal",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "plane",
+      "airplane",
+      "chair"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "airport_shuttle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "transport",
+      "bus"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "all_inclusive",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "infinity",
+      "infinite",
+      "eternity",
+      "continuity"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "apartment",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "flat",
+      "building",
+      "condo",
+      "residence",
+      "suite"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "apps",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "applications",
+      "function",
+      "program"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_back",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "left",
+      "indicator",
+      "backward"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_back_ios",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "left",
+      "indicator",
+      "backward",
+      "ios"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_downward",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "down",
+      "downwards",
+      "dash"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_drop_down",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "down",
+      "downward",
+      "caret"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_drop_down_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "down",
+      "downward",
+      "caret",
+      "circle"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_drop_up",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "up",
+      "upward",
+      "caret"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_forward",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "right",
+      "indicator",
+      "ahead",
+      "onward"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_forward_ios",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "right",
+      "indicator",
+      "forward",
+      "ahead",
+      "onward",
+      "ios"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_left",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "right",
+      "indicator",
+      "previous",
+      "caret"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_right",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "right",
+      "indicator",
+      "next",
+      "forward",
+      "caret"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_upward",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "up",
+      "above",
+      "greater"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "assistant",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "aide",
+      "help"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "assistant_photo",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "aide",
+      "help"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "attachment",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "link",
+      "stapler",
+      "add",
+      "clip",
+      "link"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "audiotrack",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "audio",
+      "music",
+      "note"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "bathtub",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wash"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "beach_access",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "umbrella",
+      "sunshade",
+      "parasol"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "blur_circular",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "bokeh",
+      "photo"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "blur_linear",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "bokeh"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "blur_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "bokeh"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "blur_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "bokeh"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "brightness_1",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "brilliance",
+      "illumination",
+      "luminosity",
+      "shine",
+      "luster",
+      "gloss",
+      "glaze",
+      "light"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "brightness_2",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "brilliance",
+      "illumination",
+      "luminosity",
+      "shine",
+      "luster",
+      "gloss",
+      "glaze",
+      "light"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "brightness_3",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "brilliance",
+      "illumination",
+      "luminosity",
+      "shine",
+      "luster",
+      "gloss",
+      "glaze",
+      "light"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "brightness_4",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "brilliance",
+      "illumination",
+      "luminosity",
+      "shine",
+      "luster",
+      "gloss",
+      "glaze",
+      "light"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "broken_image",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "missing",
+      "defective"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "brush",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pencil",
+      "paintbrush",
+      "watercolor"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "burst_mode",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "camera"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "business_center",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "portfolio",
+      "briefcase",
+      "bag",
+      "folder"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cake",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "dessert",
+      "food",
+      "sweet",
+      "birthday",
+      "party",
+      "celebration"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "camera",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cam",
+      "camcorder",
+      "shutter",
+      "album"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "camera_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cam",
+      "camcorder",
+      "shutter",
+      "album"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "camera_front",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cam",
+      "camcorder",
+      "shutter",
+      "album"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "camera_rear",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cam",
+      "camcorder",
+      "shutter",
+      "album"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "camera_roll",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cam",
+      "camcorder",
+      "shutter",
+      "album"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cancel",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "remove",
+      "circle",
+      "abort",
+      "omit",
+      "eliminate"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "casino",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "dice",
+      "game",
+      "die"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cast",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "stream",
+      "deliver",
+      "transmit",
+      "external device",
+      "send",
+      "signal",
+      "connection",
+      "connect"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cast_connected",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "stream",
+      "deliver",
+      "transmit",
+      "external device",
+      "send",
+      "signal",
+      "connection",
+      "connect"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "center_focus_strong",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cam",
+      "camcorder",
+      "shutter",
+      "album"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "center_focus_weak",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cam",
+      "camcorder",
+      "shutter",
+      "album"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "check",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "tick",
+      "checkmark",
+      "checked",
+      "approve"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "check_box",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "selected",
+      "marked",
+      "confirmed",
+      "chosen",
+      "picked",
+      "option",
+      "checked"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "check_box_outline_blank",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "unconfirmed",
+      "unselected",
+      "unmarked",
+      "clean",
+      "option",
+      "unchecked"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "child_care",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "children",
+      "baby",
+      "face",
+      "babysit"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "child_friendly",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "baby",
+      "pram",
+      "baby carriage",
+      "stroller",
+      "children",
+      "cart"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "close",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "stop",
+      "terminate",
+      "end"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cloud",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cloud",
+      "server",
+      "storage",
+      "remote"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cloud_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cloud",
+      "server",
+      "storage",
+      "remote",
+      "circle",
+      "round"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cloud_done",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cloud",
+      "transfer",
+      "excange",
+      "server",
+      "storage",
+      "remote",
+      "downloaded",
+      "finished",
+      "complete",
+      "ended"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cloud_download",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cloud",
+      "transfer",
+      "excange",
+      "server",
+      "storage",
+      "remote",
+      "download"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cloud_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cloud",
+      "server",
+      "storage",
+      "remote",
+      "off",
+      "abort",
+      "omit",
+      "remove"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cloud_queue",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cloud",
+      "server",
+      "storage",
+      "remote",
+      "queue",
+      "line",
+      "progression",
+      "sequence",
+      "awaiting"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cloud_upload",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cloud",
+      "transfer",
+      "excange",
+      "send",
+      "server",
+      "storage",
+      "remote"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "collections",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cam",
+      "camcorder",
+      "shutter",
+      "album"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "collections_bookmark",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cam",
+      "camcorder",
+      "shutter",
+      "album"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "color_lens",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cam",
+      "camcorder",
+      "shutter",
+      "album",
+      "glass",
+      "palette",
+      "pallet"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "colorize",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "album",
+      "palette",
+      "pallet",
+      "picker"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "compare",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "analyze",
+      "analyise",
+      "contrast",
+      "match"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "computer",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pc",
+      "laptop",
+      "desktop",
+      "microsoft",
+      "apple",
+      "macbook"
+    ],
+    "category": [
+      "computer"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "confirmation_number",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "ticket",
+      "card",
+      "coupon"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "control_point",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cam",
+      "camcorder",
+      "shutter",
+      "album"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "control_point_duplicate",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cam",
+      "camcorder",
+      "shutter",
+      "album"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "create_new_folder",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "folder",
+      "file",
+      "case",
+      "data",
+      "directory",
+      "documents",
+      "repository"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "crop",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cut",
+      "reduce"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "crop_16_9",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cut",
+      "reduce"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "crop_3_2",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cut",
+      "reduce"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "crop_5_4",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cut",
+      "reduce"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "crop_7_5",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cut",
+      "reduce"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "crop_din",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cut",
+      "reduce"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "crop_free",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cut",
+      "reduce"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "crop_landscape",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cut",
+      "reduce"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "crop_original",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cut",
+      "reduce"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "crop_portrait",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cut",
+      "reduce"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "crop_rotate",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cut",
+      "reduce"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "crop_square",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cut",
+      "reduce"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "data_usage",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "data",
+      "management",
+      "results",
+      "reports",
+      "usage"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "deck",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chair",
+      "beach",
+      "travel",
+      "relax",
+      "facility",
+      "hotel"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "dehaze",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "clarity",
+      "clear",
+      "clearness"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "desktop_mac",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "apple",
+      "laptop",
+      "mac",
+      "macbook"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "desktop_windows",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pc",
+      "laptop",
+      "microsoft"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "details",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "specifics"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "developer_board",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "dashboard",
+      "home",
+      "mosaic"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "device_hub",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "connection",
+      "core"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "device_unknown",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "question mark",
+      "unsure",
+      "unaware"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "devices_other",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "watch",
+      "smartwatch",
+      "ipad",
+      "bluetooth",
+      "smarthphone",
+      "iot"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "disc_full",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "space",
+      "disk",
+      "hard drive",
+      "storage"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "dock",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "connection",
+      "rack",
+      "communication",
+      "plug",
+      "charge",
+      "charging"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "domain",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "web",
+      "website",
+      "internet",
+      "www"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "double_arrow",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "right",
+      "arrow",
+      "direction",
+      "forward",
+      "double"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "drive_eta",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "car",
+      "estimated time of arrival",
+      "auto",
+      "automobile",
+      "ride"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "edit",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pen",
+      "change",
+      "modify",
+      "publish"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_emotions",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "face",
+      "emoticon",
+      "emotion",
+      "smiley",
+      "expression",
+      "happy"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_events",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "schedule",
+      "award",
+      "winner",
+      "prize",
+      "cup"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_flags",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "country",
+      "national",
+      "finish",
+      "start",
+      "goal",
+      "milestone"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_food_beverage",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "drink",
+      "cooking",
+      "restaurant",
+      "hot",
+      "coffee",
+      "tea"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_nature",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "plant",
+      "ecology",
+      "tree",
+      "flower",
+      "care"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_objects",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "tool",
+      "equipment",
+      "idea",
+      "light"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_people",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "emoticon",
+      "avatar",
+      "person",
+      "user"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_symbols",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "emoticon",
+      "expression",
+      "input symbols",
+      "keyboard",
+      "software"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_transportation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "transport",
+      "vehicle",
+      "car"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "enhanced_encryption",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "decrypt",
+      "decipher",
+      "add",
+      "include",
+      "increase"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "euro",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "money",
+      "currency",
+      "dollar",
+      "pound"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "event_available",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "appointment",
+      "date",
+      "free",
+      "vacant"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "event_busy",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "appointment",
+      "date",
+      "unavailable",
+      "occupied"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "event_note",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "appointment",
+      "date",
+      "notice",
+      "observation"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "exposure",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "expose",
+      "lens",
+      "light"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "exposure_neg_1",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "expose",
+      "lens",
+      "light",
+      "negative"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "exposure_neg_2",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "expose",
+      "lens",
+      "light",
+      "negative"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "exposure_plus_1",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "expose",
+      "lens",
+      "light",
+      "positive"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "exposure_plus_2",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "expose",
+      "lens",
+      "light",
+      "positive"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "exposure_zero",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "expose",
+      "lens",
+      "light",
+      "neutral"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_1",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "edit",
+      "two"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_2",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "edit",
+      "two"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_3",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "edit",
+      "three"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_4",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "edit",
+      "four"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_5",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "edit",
+      "five"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_6",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "edit",
+      "six"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_7",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "edit",
+      "seven"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_8",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "edit",
+      "eight"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_9",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "edit",
+      "nine"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_9_plus",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "edit",
+      "nine"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_b_and_w",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "black",
+      "white",
+      "b&w",
+      "black & white"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_center_focus",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "centered",
+      "focused",
+      "alignment"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_drama",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_frames",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_hdr",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_none",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "remove"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_tilt_shift",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "lens"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_vintage",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "old",
+      "classic"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fireplace",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "fire",
+      "winter",
+      "warm",
+      "chimney",
+      "interior"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "first_page",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "move",
+      "beginning",
+      "front",
+      "before"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fitness_center",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "health",
+      "weight",
+      "strengh",
+      "dumbbell",
+      "barbbell"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "flare",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "burst",
+      "glow"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "flash_auto",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "glare",
+      "glow",
+      "automatic"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "flash_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "glare",
+      "glow"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "flash_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "glare",
+      "glow",
+      "automatic"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "flip",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit",
+      "spin"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "flip_camera_android",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit",
+      "spin"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "flip_camera_ios",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit",
+      "spin"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "folder",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "portfolio",
+      "case",
+      "wrapper"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "folder_copy",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "new",
+      "plus",
+      "create",
+      "folder",
+      "file",
+      "case",
+      "data",
+      "directory",
+      "documents",
+      "repository"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "folder_open",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "folder",
+      "file",
+      "open"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "folder_shared",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "folder",
+      "open",
+      "file",
+      "accessed",
+      "common",
+      "public"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "folder_special",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "portfolio",
+      "star",
+      "exclusive",
+      "primary",
+      "main"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "free_breakfast",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "coffee",
+      "tee",
+      "mug",
+      "cup",
+      "brunch",
+      "meal"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fullscreen",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "entire",
+      "frame",
+      "image",
+      "big screen"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fullscreen_exit",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "entire",
+      "frame",
+      "image",
+      "big screen",
+      "exit",
+      "stop",
+      "disable"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "gamepad",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "toy",
+      "videogame",
+      "joystick",
+      "stick",
+      "button"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "golf_course",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "game",
+      "fun",
+      "play"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "gradient",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit",
+      "angle"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "grain",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit",
+      "fragment",
+      "particle"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "grid_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit",
+      "network"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "grid_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit",
+      "network"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "group",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "team",
+      "people",
+      "users"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "group_add",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "team",
+      "people",
+      "users",
+      "plus",
+      "new"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "hdr_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "hdr_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "hdr_strong",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "hdr_weak",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "headset",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "audio",
+      "music",
+      "sound",
+      "conference",
+      "listen",
+      "input"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "headset_mic",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "audio",
+      "music",
+      "sound",
+      "conference",
+      "listen",
+      "input"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "healing",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit",
+      "retouch",
+      "repaint"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "home_work",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "place",
+      "residence",
+      "house",
+      "office",
+      "station",
+      "job"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "hot_tub",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bath",
+      "whirlpool",
+      "bubble"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "house",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "home",
+      "index"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "image",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "image_aspect_ratio",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit",
+      "proportion"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "image_search",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "locate",
+      "edit",
+      "find"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "indeterminate_check_box",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "undetermined",
+      "undefined",
+      "unspecified"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "iso",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "quality",
+      "format"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "keyboard",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "writing",
+      "words",
+      "type",
+      "key",
+      "letter",
+      "words"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "keyboard_arrow_down",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "writing",
+      "words",
+      "type",
+      "key",
+      "letter",
+      "words"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "keyboard_arrow_left",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "writing",
+      "words",
+      "type",
+      "key",
+      "letter",
+      "words"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "keyboard_arrow_right",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "writing",
+      "words",
+      "type",
+      "key",
+      "letter",
+      "words"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "keyboard_arrow_up",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "writing",
+      "words",
+      "type",
+      "key",
+      "letter",
+      "words"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "keyboard_arrow_backspace",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "writing",
+      "words",
+      "type",
+      "key",
+      "letter",
+      "words"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "keyboard_arrow_capslock",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "writing",
+      "words",
+      "type",
+      "key",
+      "letter",
+      "words",
+      "lock",
+      "capital",
+      "block"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "keyboard_hide",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "writing",
+      "words",
+      "type",
+      "key",
+      "letter",
+      "words",
+      "disable",
+      "disappear"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "keyboard_return",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "writing",
+      "words",
+      "type",
+      "key",
+      "letter",
+      "words",
+      "enter"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "keyboard_tab",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "writing",
+      "words",
+      "type",
+      "key",
+      "letter",
+      "words"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "keyboard_voice",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "writing",
+      "words",
+      "type",
+      "key",
+      "letter",
+      "words",
+      "sound",
+      "tone"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "king_bed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "furniture",
+      "bedroom",
+      "sleep",
+      "hotel"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "kitchen",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "fridge",
+      "refrigerator",
+      "freezer",
+      "cooler"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "landscape",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit",
+      "perspective",
+      "ratio"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "laptop",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "notebook",
+      "computer",
+      "microcomputer",
+      "portable"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "laptop_chromebook",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "notebook",
+      "computer",
+      "microcomputer",
+      "portable",
+      "android",
+      "google"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "laptop_mac",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "notebook",
+      "computer",
+      "microcomputer",
+      "portable",
+      "apple",
+      "ios",
+      "macbook"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "laptop_windows",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "notebook",
+      "computer",
+      "microcomputer",
+      "portable",
+      "microsoft"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "last_page",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "end",
+      "finale",
+      "move",
+      "later"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "leak_add",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "leak_remove",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "lens",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "glass"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "linked_camera",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "cam",
+      "custom",
+      "connected",
+      "paired"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "live_tv",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "telly",
+      "video",
+      "television",
+      "screen",
+      "real time"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_movies",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "teather",
+      "cinema",
+      "movie",
+      "film",
+      "hollywood",
+      "ticket"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_play",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "teather",
+      "cinema",
+      "movie",
+      "film",
+      "recital",
+      "ticket"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_printshop",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "composer",
+      "pressroom",
+      "printer",
+      "pressroom",
+      "ink"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "location_city",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "map",
+      "location",
+      "navigation",
+      "places"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "looks",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "glance"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "looks_3",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "glance"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "looks_4",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "glance"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "looks_5",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "glance"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "looks_6",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "glance"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "looks_one",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "glance"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "looks_two",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "glance"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "loupe",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "glass",
+      "magnifier",
+      "magnify"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mail_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "communication",
+      "letter",
+      "package",
+      "parcel",
+      "post",
+      "postcard",
+      "mail"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "meeting_room",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "door",
+      "entrance",
+      "access",
+      "doorway",
+      "gate",
+      "entry",
+      "portal"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "memory",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "ram",
+      "chip",
+      "rom",
+      "hard drive"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "menu",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "list",
+      "navigate",
+      "index",
+      "panel"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "menu_open",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "menu",
+      "list",
+      "navigate",
+      "expanded",
+      "unravel"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mms",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Multimedia Messaging Service",
+      "image",
+      "message",
+      "media",
+      "text"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "monochrome_photos",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "black & white",
+      "magnify"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mood",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "emoticon",
+      "face",
+      "emotion",
+      "expression",
+      "sad",
+      "happy"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mood_bad",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "emoticon",
+      "face",
+      "emotion",
+      "expression",
+      "sad"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "more",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "label",
+      "tag",
+      "horizontal ellipsis"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "more_horiz",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "more",
+      "horizontal ellipsis",
+      "navigation"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "more_vert",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "more",
+      "vertical ellipsis",
+      "navigation"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mouse",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "click",
+      "point"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "movie_creation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "video",
+      "photo",
+      "image",
+      "camera",
+      "film"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "movie_filter",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "video",
+      "photo",
+      "image",
+      "camera",
+      "film"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "music_note",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "musical",
+      "tune",
+      "song"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "music_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "musical",
+      "tune",
+      "song"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "nature",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "portrait",
+      "outdoors"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "nature_people",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "portrait",
+      "outdoors"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "network_check",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "speed test",
+      "speedcheck",
+      "odometer",
+      "odograph"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "network_locked",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "closed",
+      "wifi",
+      "signal"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "nights_stay",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sleep",
+      "hotel",
+      "travel",
+      "service"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "no_encryption",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "unsafe",
+      "unlocked",
+      "unsecured",
+      "no security",
+      "decrypt",
+      "decipher"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "no_meeting_room",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "door",
+      "entrance",
+      "forbidden",
+      "doorway",
+      "gate",
+      "entry",
+      "portal"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "notifications",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alert",
+      "notification",
+      "alarm",
+      "ring",
+      "attention"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "notifications_active",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alert",
+      "notification",
+      "alarm",
+      "ring",
+      "attention"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "notifications_none",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bell",
+      "alert",
+      "notification",
+      "alarm",
+      "ring"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "notifications_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bell",
+      "alert",
+      "notification",
+      "alarm",
+      "ring",
+      "sleep mode"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "notifications_paused",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bell",
+      "alert",
+      "notification",
+      "alarm",
+      "ring"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "ondemand_video",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "video",
+      "stream",
+      "play"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "outdoor_grill",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camping",
+      "travel",
+      "barbecue",
+      "bbq",
+      "food"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pages",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "documents",
+      "files",
+      "document"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "palette",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "image",
+      "style",
+      "custom",
+      "edit",
+      "colors",
+      "colours"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "panorama",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "perspective",
+      "ratio",
+      "photography",
+      "photo"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "panorama_fish_eye",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "perspective",
+      "ratio",
+      "photography",
+      "photo"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "panorama_horizontal",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "perspective",
+      "ratio",
+      "photography",
+      "photo"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "panorama_vertical",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "perspective",
+      "ratio",
+      "photography",
+      "photo"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "panorama_wide_angle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "perspective",
+      "ratio",
+      "photography",
+      "photo"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "party_mode",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "celebration",
+      "birthday",
+      "decoration",
+      "camera",
+      "photo",
+      "picture"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "people",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "group",
+      "team",
+      "business",
+      "users"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "people_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "group",
+      "team",
+      "business",
+      "users"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "people_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "group",
+      "team",
+      "business",
+      "users"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "person",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "user",
+      "avatar",
+      "person",
+      "profile"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "person_add",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "user",
+      "avatar",
+      "person",
+      "profile"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "person_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "user",
+      "avatar",
+      "person",
+      "profile"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "personal_video",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "screen",
+      "display",
+      "monitor"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phone_android",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "google",
+      "smarthphone",
+      "telephone",
+      "mobile"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phone_bluetooth_speaker",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "call",
+      "accessory",
+      "audio",
+      "volume",
+      "connectivity"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phone_callback",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "call",
+      "communication",
+      "incoming"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phone_forwarded",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "call",
+      "communication"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phone_in_talk",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "call",
+      "communication"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phone_iphone",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "apple",
+      "ios",
+      "smarthphone",
+      "telephone",
+      "mobile"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phone_locked",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "call",
+      "communication"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phone_missed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "call",
+      "communication"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phone_paused",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mobile",
+      "smartphone",
+      "call",
+      "communication"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phonelink",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "phone",
+      "link"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phonelink_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "phone",
+      "telephone",
+      "disable",
+      "not active",
+      "unreachble",
+      "mobile",
+      "deactivated"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "photo",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "image",
+      "cam",
+      "camera"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "photo_album",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "image",
+      "cam",
+      "camera"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "photo_filter",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "image",
+      "edit",
+      "custom"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "photo_library",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "image",
+      "collection"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "photo_size_select_actual",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "image",
+      "custom",
+      "resize",
+      "edit"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "photo_size_select_large",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "image",
+      "custom",
+      "resize",
+      "edit"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "photo_size_select_small",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "image",
+      "custom",
+      "resize",
+      "edit"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "picture_as_pdf",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photo",
+      "image",
+      "camera",
+      "file",
+      "format"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "plus_one",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "number",
+      "increment",
+      "add",
+      "like"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "poll",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "vote",
+      "election",
+      "survey",
+      "voting",
+      "graph",
+      "bar"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pool",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "swim",
+      "float",
+      "bath"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "portrait",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camera",
+      "setting",
+      "image",
+      "photo",
+      "photography",
+      "profile"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "power",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "energy",
+      "switch",
+      "electricity",
+      "on",
+      "connector",
+      "plug"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "power_input",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "energy",
+      "industry",
+      "plug"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "power_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "energy",
+      "switch",
+      "electricity",
+      "shutdown",
+      "disabled"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "priority_high",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alert",
+      "warning",
+      "attention",
+      "important"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "public",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "transportation",
+      "global",
+      "web",
+      "network",
+      "online",
+      "connection"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "radio_button_checked",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "selected",
+      "marked",
+      "confirmed",
+      "chosen",
+      "picked",
+      "option"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "radio_button_unchecked",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "unconfirmed",
+      "unselected",
+      "unmarked",
+      "clean",
+      "option",
+      "blank"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "refresh",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "restore",
+      "renew",
+      "regenerate"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "remove_red_eye",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "delete",
+      "view",
+      "vision"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "room_service",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "maid service",
+      "housekeeping",
+      "food",
+      "serve"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "rotate_90_degrees_ccw",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camera",
+      "setting",
+      "image"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "rotate_left",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "direction",
+      "back",
+      "arrows"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "rotate_right",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "direction",
+      "next",
+      "arrows"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "router",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "internet",
+      "modem",
+      "hub",
+      "lan"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "rv_hookup",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "recreational vehicle",
+      "trailer",
+      "motor vehicle",
+      "motorhome",
+      "campervan",
+      "caravan",
+      "camper trailer",
+      "connection"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "scanner",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "ocr",
+      "digitalize"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "school",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "education",
+      "study",
+      "learning",
+      "student"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sd_card",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "information",
+      "data",
+      "memory",
+      "usb",
+      "drive",
+      "storage"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "security",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "lock",
+      "safe",
+      "precoution",
+      "guard"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sentiment_dissatisfied",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "unhappy",
+      "emoji",
+      "feedback",
+      "angry",
+      "sad"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sentiment_satisfied",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "happy",
+      "emoji",
+      "feedback",
+      "smiley"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sentiment_very_dissatisfied",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "unhappy",
+      "emoji",
+      "feedback",
+      "angry",
+      "disappointed"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sentiment_very_satisfied",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "very happy",
+      "emoji",
+      "feedback",
+      "smiley"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "share",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "network",
+      "social",
+      "connection"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "shutter_speed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camera",
+      "setting",
+      "speedometer",
+      "performance ",
+      "fast",
+      "photo shoot"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sim_card",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "telephone",
+      "communication"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "single_bed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sleep",
+      "single room",
+      "hotel",
+      "furniture"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "slideshow",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camera",
+      "setting",
+      "presentation",
+      "slide",
+      "play"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "smartphone",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "android",
+      "phone",
+      "iphone",
+      "ios",
+      "telephone",
+      "apple"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "smoke_free",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "no smoking",
+      "forbidden",
+      "banned",
+      "cigarette",
+      "tobacco",
+      "cigar"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "smoking_rooms",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "smoke",
+      "cigarette",
+      "tobacco",
+      "cigar"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sms",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "message",
+      "chat",
+      "text",
+      "communication"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sms_failed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "message",
+      "chat",
+      "text",
+      "communication",
+      "error"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "spa",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "health",
+      "lotus",
+      "flower",
+      "Nymphaea nelumbo"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "speaker",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "volume",
+      "sound",
+      "audio",
+      "hi-fi",
+      "stereo"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "speaker_group",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "volume",
+      "sound",
+      "audio",
+      "hi-fi",
+      "stereo",
+      "satelite",
+      "dolby",
+      "bose"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "game",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_baseball",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activities",
+      "game",
+      "tennis"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_basketball",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "game",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_cricket",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "game",
+      "bat ball",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_esports",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "electronic sports",
+      "video game",
+      "gamer",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_football",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "goal",
+      "game",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_golf",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "game",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_handball",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "olympics",
+      "game",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_hockey",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "ice",
+      "hockey stick",
+      "game",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_kabaddi",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "ground",
+      "game",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_mma",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "fight",
+      "fighter",
+      "martial arts",
+      "wrestling",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_motorsports",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "bike",
+      "motorcycle",
+      "wheel",
+      "game",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_rugby",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "ball",
+      "game",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_soccer",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "football",
+      "goal",
+      "game",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_tennis",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sport",
+      "game",
+      "activity"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_volleyball",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activities",
+      "game",
+      "beach ball"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "star",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "review",
+      "rating",
+      "valuation",
+      "appraisal",
+      "rank"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "star_border",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "empty",
+      "rating",
+      "review",
+      "valuation",
+      "appraisal",
+      "rank"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "star_half",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "review",
+      "rating",
+      "valuation",
+      "appraisal",
+      "rank",
+      "fifty percent"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "storefront",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "shop",
+      "drugstore",
+      "shopping",
+      "market",
+      "grocery"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "straighten",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camera",
+      "setting",
+      "image",
+      "photo"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "streetview",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "maps",
+      "google maps",
+      "ar",
+      "road"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "style",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camera",
+      "setting",
+      "pattern"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "subdirectory_arrow_left",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "subdirectory",
+      "down",
+      "below",
+      "left",
+      "arrow"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "subdirectory_arrow_right",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "subdirectory",
+      "down",
+      "below",
+      "right",
+      "arrow"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "switch_camera",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camera",
+      "setting",
+      "image",
+      "photo",
+      "photography"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "switch_video",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camera",
+      "setting",
+      "movie",
+      "media",
+      "mode",
+      "play"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sync",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "refresh",
+      "reload",
+      "update"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sync_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "refresh",
+      "reload",
+      "update",
+      "off"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sync_problem",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "refresh",
+      "update",
+      "reload",
+      "error"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "system_update",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "refresh",
+      "sync"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tablet",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pad",
+      "ipad",
+      "memo"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tablet_android",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pad",
+      "ipad",
+      "memo",
+      "android",
+      "google",
+      "chrome"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tablet_mac",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pad",
+      "ipad",
+      "memo",
+      "apple",
+      "ios"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tag_faces",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camera",
+      "setting",
+      "photo",
+      "face recognition",
+      "detection"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tap_and_play",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "hold",
+      "game",
+      "press",
+      "click",
+      "control"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "texture",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camera",
+      "pattern",
+      "background",
+      "setting",
+      "photo"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "thumb_down_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disapproval",
+      "bad",
+      "dislike",
+      "no"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "thumb_up_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "approval",
+      "good",
+      "like",
+      "done",
+      "yes"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "time_to_leave",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "timer",
+      "alarm",
+      "schedule",
+      "exit"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "timelapse",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camera",
+      "time",
+      "video",
+      "sport",
+      "setting"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "timer",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "time",
+      "timeout",
+      "setting",
+      "stopwatch",
+      "photo",
+      "camera"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "timer_10",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "time",
+      "timeout",
+      "setting",
+      "stopwatch",
+      "photo",
+      "camera"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "timer_3",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "time",
+      "timeout",
+      "setting",
+      "stopwatch",
+      "photo",
+      "camera"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "timer_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "time",
+      "clock",
+      "alarm",
+      "timeout",
+      "setting",
+      "photo",
+      "camera"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "toggle_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "switch",
+      "power",
+      "off",
+      "knob"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "toggle_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "switch",
+      "power",
+      "on",
+      "knob"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tonality",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "tool",
+      "tone",
+      "setting",
+      "design",
+      "graphic"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "toys",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "game",
+      "play"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "transform",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "tool",
+      "design",
+      "scale",
+      "shape"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tune",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "music",
+      "sound",
+      "control",
+      "settings",
+      "options"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tv",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "television",
+      "watch",
+      "tube",
+      "screen"
+    ],
+    "category": [
+      ""
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tv_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "television",
+      "screen",
+      "monitor",
+      "stop"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "unfold_less",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "lower",
+      "lessen",
+      "shrink"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "unfold_more",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "spread",
+      "expand",
+      "extend",
+      "unreveal"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "vibration",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "phone",
+      "mobile",
+      "communication",
+      "vibrate"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "videogame_asset",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "device",
+      "game"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "view_comfy",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "grid",
+      "ratio",
+      "layout format",
+      "screen",
+      "zoom"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "view_compact",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "grid",
+      "layout format",
+      "screen",
+      "photography",
+      "dashboard"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "vignette",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "camera",
+      "image",
+      "lightmode",
+      "settings"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "voice_chat",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "message",
+      "communication",
+      "talk",
+      "conversation"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "vpn_lock",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "security",
+      "secure",
+      "protection",
+      "key",
+      "private"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "watch",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "device",
+      "time",
+      "clock"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wb_auto",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photo",
+      "image",
+      "settings",
+      "camera"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wb_incandescent",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photo",
+      "image",
+      "settings",
+      "effects",
+      "camera"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wb_iridescent",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photo",
+      "image",
+      "settings",
+      "camera"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wb_sunny",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sun",
+      "weather",
+      "summer",
+      "filter",
+      "camera",
+      "setting",
+      "photo"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wc",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "toilet",
+      "bathroom",
+      "restroom",
+      "bath"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "whatshot",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "new",
+      "trend",
+      "latest",
+      "current"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wifi",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "internet",
+      "wireless",
+      "network",
+      "signal",
+      "communication"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wifi_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "internet",
+      "wireless",
+      "network",
+      "communication"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  }
+]
