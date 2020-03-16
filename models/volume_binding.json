@@ -1,0 +1,17 @@
+{
+  "name": "volume_binding",
+  "do": "<ul><li>Use it when connecting a volume to a system, container or others</li></ul>",
+  "dont": "<ul><li>Don't use it for general links or hyperlink to the volume page</li></ul>",
+  "tags": [
+    "volume",
+    "disk",
+    "storage",
+    "link",
+    "binding",
+    "connection",
+    "kubernetes",
+    "containers"
+  ],
+  "category": "virtualization",
+  "type": "static"
+}
