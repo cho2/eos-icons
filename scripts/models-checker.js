@@ -7,7 +7,7 @@ const checkForMissingModelsOrIcons = async params => {
 
   try {
     /* Read both models and icons files names. */
-     const existentModels = await readFilesAndCleanNames(modelsSrc)
+    const existentModels = await readFilesAndCleanNames(modelsSrc)
     const existentIcons = await readFilesAndCleanNames(iconsSrc)
     const existentAnimatedIcons = await readFilesAndCleanNames(animatedSrc)
     const existentMdModels = await readFilesAndCleanNames(mdModelsSrc)
@@ -59,10 +59,10 @@ const readModelKeys = async params => {
   const filesName = await fs.readdirSync(modelsFolder, (err, file) => file)
 
   const filterfiles = filesName.filter(ele => {
-      return ele.includes('.json')
-        ? ele
-        : null
-    })
+    return ele.includes('.json')
+      ? ele
+      : null
+  })
 
   /* For each file, read and parse the data */
   return filterfiles.map(ele => {
