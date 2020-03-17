@@ -436,6 +436,19 @@
     "type": "animate"
   },
   {
+    "name": "master",
+    "do": "<ul><li>Use it to designate a main or principal volume, container, repository, etc</li></ul>",
+    "dont": "<ul><li>Don't use it for admin icon </li></ul>",
+    "tags": [
+      "main",
+      "principal",
+      "git",
+      "kubernetes"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
     "name": "miscellaneous",
     "do": "<ul><li>To indicate an additional set of features or actions that might not have been included in other sections.</li></ul>",
     "dont": "<ul><li>To indicate elements that are unrelated to the application.</li></ul>",
