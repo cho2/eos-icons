@@ -1,0 +1,21 @@
+{
+  "name": "call_to_action",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "call",
+    "CTA",
+    "notification",
+    "bar",
+    "alert",
+    "action",
+    "information",
+    "to",
+    "message",
+    "info"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

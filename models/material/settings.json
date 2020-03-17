@@ -1,0 +1,19 @@
+{
+  "name": "settings",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "settings",
+    "application",
+    "service",
+    "save",
+    "details",
+    "information",
+    "personal",
+    "info"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

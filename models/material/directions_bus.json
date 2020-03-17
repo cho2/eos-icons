@@ -1,0 +1,19 @@
+{
+  "name": "directions_bus",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "automobile",
+    "bus",
+    "cars",
+    "maps",
+    "public",
+    "car",
+    "transportation",
+    "vehicle"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

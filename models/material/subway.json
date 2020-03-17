@@ -1,0 +1,25 @@
+{
+  "name": "subway",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "maps",
+    "rail",
+    "bike",
+    "transportation",
+    "vehicle",
+    "automobile",
+    "cars",
+    "subway",
+    "car",
+    "underground",
+    "vespa",
+    "scooter",
+    "tunnel",
+    "train"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

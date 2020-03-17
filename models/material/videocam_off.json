@@ -1,0 +1,21 @@
+{
+  "name": "videocam_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "conference",
+    "Video",
+    "chat",
+    "screen",
+    "disabled",
+    "slash",
+    "camera",
+    "enabled",
+    "off",
+    "on"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

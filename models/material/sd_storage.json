@@ -1,0 +1,19 @@
+{
+  "name": "sd_storage",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "digital",
+    "sd",
+    "memory",
+    "data",
+    "storage",
+    "camera",
+    "secure",
+    "card"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

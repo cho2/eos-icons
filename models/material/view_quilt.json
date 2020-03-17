@@ -1,0 +1,21 @@
+{
+  "name": "view_quilt",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "square",
+    "quilt",
+    "view",
+    "stacked",
+    "grid",
+    "format",
+    "squares",
+    "reorder",
+    "title",
+    "order"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

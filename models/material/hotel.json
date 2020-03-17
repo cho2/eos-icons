@@ -1,0 +1,20 @@
+{
+  "name": "hotel",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "sleep",
+    "trip",
+    "person",
+    "hotel",
+    "body",
+    "travel",
+    "human",
+    "people",
+    "stay"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

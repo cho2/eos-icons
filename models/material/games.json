@@ -1,0 +1,21 @@
+{
+  "name": "games",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "controller",
+    "move",
+    "arrow",
+    "left",
+    "adjust",
+    "Games",
+    "arrows",
+    "control",
+    "right",
+    "direction"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

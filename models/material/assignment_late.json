@@ -1,0 +1,24 @@
+{
+  "name": "assignment_late",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "!",
+    "symbol",
+    "assignment",
+    "exclamation",
+    "danger",
+    "error",
+    "clipboard",
+    "notification",
+    "alert",
+    "attention",
+    "warning",
+    "caution",
+    "mark"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

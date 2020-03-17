@@ -1,0 +1,23 @@
+{
+  "name": "phonelink_ring",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "call",
+    "tablet",
+    "OS",
+    "phone",
+    "ring",
+    "chat",
+    "mobile",
+    "text",
+    "iOS",
+    "device",
+    "Android",
+    "hardware"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

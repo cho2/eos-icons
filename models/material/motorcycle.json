@@ -1,0 +1,23 @@
+{
+  "name": "motorcycle",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "automobile",
+    "motorcycle",
+    "cars",
+    "maps",
+    "public",
+    "car",
+    "scooter",
+    "sport",
+    "bike",
+    "direction",
+    "transportation",
+    "vehicle"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

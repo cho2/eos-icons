@@ -1,0 +1,17 @@
+{
+  "name": "local_see",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "see",
+    "attraction",
+    "shop",
+    "explore",
+    "store",
+    "local"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

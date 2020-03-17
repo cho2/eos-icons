@@ -1,0 +1,20 @@
+{
+  "name": "invert_colors",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "drop",
+    "color",
+    "droplet",
+    "invert",
+    "tone",
+    "hue",
+    "palette",
+    "inverted",
+    "water"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

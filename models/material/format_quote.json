@@ -1,0 +1,22 @@
+{
+  "name": "format_quote",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "editor",
+    "quote",
+    "edit",
+    "writing",
+    "doc",
+    "sheet",
+    "text",
+    "type",
+    "quotation",
+    "editing",
+    "speadsheet"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

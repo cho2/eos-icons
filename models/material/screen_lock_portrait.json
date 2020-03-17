@@ -1,0 +1,23 @@
+{
+  "name": "screen_lock_portrait",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "rotate",
+    "tablet",
+    "OS",
+    "phone",
+    "mobile",
+    "lock",
+    "screen",
+    "iOS",
+    "portrait",
+    "device",
+    "Android",
+    "hardware"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "account_circle",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "face",
+    "thumbnail",
+    "person",
+    "profile",
+    "circle",
+    "human",
+    "people",
+    "user",
+    "account"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

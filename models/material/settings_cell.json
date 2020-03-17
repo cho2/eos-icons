@@ -1,0 +1,20 @@
+{
+  "name": "settings_cell",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "settings",
+    "tablet",
+    "OS",
+    "phone",
+    "mobile",
+    "iOS",
+    "device",
+    "Android",
+    "hardware"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

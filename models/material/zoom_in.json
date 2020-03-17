@@ -1,0 +1,22 @@
+{
+  "name": "zoom_in",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "big",
+    "glass",
+    "grow",
+    "size",
+    "in",
+    "bigger",
+    "scale",
+    "zoom",
+    "magnify",
+    "magnifying",
+    "plus"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

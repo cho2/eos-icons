@@ -1,0 +1,24 @@
+{
+  "name": "directions_bike",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bicycle",
+    "maps",
+    "bike",
+    "transportation",
+    "vehicle",
+    "automobile",
+    "cars",
+    "route",
+    "public",
+    "car",
+    "person",
+    "human",
+    "direction"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

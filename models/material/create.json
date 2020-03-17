@@ -1,0 +1,19 @@
+{
+  "name": "create",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Add",
+    "input",
+    "new",
+    "compose",
+    "edit",
+    "create",
+    "pencil",
+    "editing"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}

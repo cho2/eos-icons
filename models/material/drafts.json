@@ -1,0 +1,19 @@
+{
+  "name": "drafts",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "file",
+    "read",
+    "mail",
+    "document",
+    "draft",
+    "letter",
+    "drafts",
+    "email"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}

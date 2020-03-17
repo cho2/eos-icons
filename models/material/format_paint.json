@@ -1,0 +1,24 @@
+{
+  "name": "format_paint",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "editor",
+    "color",
+    "edit",
+    "paint",
+    "fill",
+    "type",
+    "editing",
+    "writing",
+    "doc",
+    "sheet",
+    "style",
+    "text",
+    "speadsheet"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

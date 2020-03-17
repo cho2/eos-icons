@@ -1,0 +1,25 @@
+{
+  "name": "show_chart",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "data",
+    "line",
+    "infograpic",
+    "tracking",
+    "bars",
+    "graph",
+    "analytics",
+    "diagram",
+    "presentation",
+    "bar",
+    "measure",
+    "metrics",
+    "statstics",
+    "chart"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

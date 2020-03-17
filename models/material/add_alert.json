@@ -1,0 +1,16 @@
+{
+  "name": "add_alert",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "notification",
+    "alert",
+    "bell",
+    "plus"
+  ],
+  "category": [
+    "alert"
+  ],
+  "type": "static"
+}

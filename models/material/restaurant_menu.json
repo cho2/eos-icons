@@ -1,0 +1,22 @@
+{
+  "name": "restaurant_menu",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "meal",
+    "fork",
+    "knife",
+    "restuarant",
+    "dining",
+    "book",
+    "spoon",
+    "eat",
+    "menu",
+    "food",
+    "local"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "call",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Call",
+    "phone",
+    "mobile",
+    "talk",
+    "device"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

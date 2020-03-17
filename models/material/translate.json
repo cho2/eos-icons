@@ -1,0 +1,17 @@
+{
+  "name": "translate",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "speaking",
+    "speech",
+    "translator",
+    "words",
+    "language",
+    "translate"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

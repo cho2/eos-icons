@@ -1,0 +1,22 @@
+{
+  "name": "thumb_up",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "hands",
+    "like",
+    "rate",
+    "dislike",
+    "rating",
+    "up",
+    "fingers",
+    "down",
+    "favorite",
+    "gesture",
+    "hand"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

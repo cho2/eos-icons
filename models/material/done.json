@@ -1,0 +1,16 @@
+{
+  "name": "done",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "finished",
+    "check",
+    "complete",
+    "done",
+    "mark"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

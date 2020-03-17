@@ -1,0 +1,17 @@
+{
+  "name": "local_activity",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "activity",
+    "star",
+    "ticket",
+    "things",
+    "event",
+    "local"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

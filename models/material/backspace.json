@@ -1,0 +1,19 @@
+{
+  "name": "backspace",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "cancel",
+    "erase",
+    "backspace",
+    "correct",
+    "arrow",
+    "clear",
+    "back",
+    "delete"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}

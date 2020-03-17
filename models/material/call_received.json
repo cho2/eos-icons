@@ -1,0 +1,16 @@
+{
+  "name": "call_received",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Call",
+    "arrow",
+    "mobile",
+    "received",
+    "device"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

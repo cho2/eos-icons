@@ -1,0 +1,21 @@
+{
+  "name": "description",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "file",
+    "notes",
+    "document",
+    "writing",
+    "description",
+    "doc",
+    "information",
+    "text",
+    "article",
+    "content"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "recent_actors",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Recent",
+    "actors",
+    "cards",
+    "profile",
+    "carousel",
+    "human",
+    "user",
+    "card"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "alarm_on",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "alart",
+    "notification",
+    "checkmark on",
+    "ready",
+    "alarm",
+    "countdown",
+    "start",
+    "check",
+    "clock",
+    "time",
+    "bell"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

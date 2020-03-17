@@ -1,0 +1,20 @@
+{
+  "name": "date_range",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "calendar",
+    "date",
+    "remember",
+    "week",
+    "month",
+    "reminder",
+    "today",
+    "event",
+    "day"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

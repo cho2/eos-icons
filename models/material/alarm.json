@@ -1,0 +1,18 @@
+{
+  "name": "alarm",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "alart",
+    "notification",
+    "alarm",
+    "countdown",
+    "clock",
+    "time",
+    "bell"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

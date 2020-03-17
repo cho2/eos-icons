@@ -1,0 +1,16 @@
+{
+  "name": "call_missed",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Call",
+    "arrow",
+    "missed",
+    "mobile",
+    "device"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

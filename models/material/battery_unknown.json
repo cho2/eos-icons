@@ -1,0 +1,19 @@
+{
+  "name": "battery_unknown",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "charge",
+    "question",
+    "Battery",
+    "mobile",
+    "power",
+    "cell",
+    "plus",
+    "unknown"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "trending_down",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "trending",
+    "data",
+    "arrow",
+    "metric",
+    "rate",
+    "change",
+    "track",
+    "down",
+    "movement",
+    "tracking"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

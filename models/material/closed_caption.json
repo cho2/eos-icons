@@ -1,0 +1,26 @@
+{
+  "name": "closed_caption",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "cc",
+    "accessible",
+    "subtitles",
+    "symbol",
+    "launguage",
+    "caption",
+    "alphabet",
+    "decoder",
+    "type",
+    "character",
+    "Closed",
+    "letter",
+    "subtitle",
+    "text",
+    "font"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

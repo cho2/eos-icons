@@ -1,0 +1,16 @@
+{
+  "name": "assignment_returned",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrow",
+    "assignment",
+    "clipboard",
+    "down",
+    "point"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "library_music",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "song",
+    "music",
+    "Library",
+    "collection"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "tab_unselected",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "website",
+    "folder",
+    "unselect",
+    "tab",
+    "documents",
+    "web",
+    "browser",
+    "document",
+    "tabs",
+    "unselected",
+    "window",
+    "windows"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

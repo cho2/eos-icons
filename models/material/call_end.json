@@ -1,0 +1,17 @@
+{
+  "name": "call_end",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Call",
+    "phone",
+    "mobile",
+    "end",
+    "talk",
+    "device"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "error_outline",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "!",
+    "notification",
+    "symbol",
+    "alert",
+    "attention",
+    "warning",
+    "exclamation",
+    "circle",
+    "danger",
+    "error",
+    "caution",
+    "mark"
+  ],
+  "category": [
+    "alert"
+  ],
+  "type": "static"
+}

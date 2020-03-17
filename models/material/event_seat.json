@@ -1,0 +1,20 @@
+{
+  "name": "event_seat",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "seat",
+    "chair",
+    "reservation",
+    "assigned",
+    "section",
+    "row",
+    "event",
+    "assign",
+    "sit"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}
