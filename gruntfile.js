@@ -80,12 +80,12 @@ module.exports = function (grunt) {
 
       if (SVGsMissingModels.length || ModelsMissingSVGs.length) {
         if (SVGsMissingModels.length) {
-          console.log(`⚠️  SVG missing: we found models # ${SVGsMissingModels.map(ele => ele)} # but not the SVG inside /svg.`)
+          console.log(`⚠️ ${SVGsMissingModels.length} SVG missing: we found models # ${SVGsMissingModels.map(ele => ele)} # but not the SVG inside /svg.`)
           process.exit(1)
         }
 
         if (ModelsMissingSVGs.length) {
-          console.log(`⚠️  Model missing: we found the SVG # ${ModelsMissingSVGs.map(ele => ele)} # but not the model inside /models. Please create one below.`)
+          console.log(`⚠️ ${ModelsMissingSVGs.length} Model missing: we found the SVG # ${ModelsMissingSVGs.map(ele => ele)} # but not the model inside /models. Please create one below.`)
 
           /* If any model is missing, send it to be created. */
           await createNewModel({ ModelsMissingSVGs }).then(done)
@@ -125,11 +125,11 @@ module.exports = function (grunt) {
       .then(done)
   })
 
-/* compare MD icons in our repo and MD officical website */
+  /* compare MD icons in our repo and MD officical website */
   grunt.registerTask('eosMdIconsDifferencesLog', async function () {
     const done = this.async()
-    await downloadFile().then( () => {
-      eosMdIconsDifferences({targetDirMd: './svg/material' })
+    await downloadFile().then(() => {
+      eosMdIconsDifferences({ targetDirMd: './svg/material' })
     })
   })
 
@@ -147,18 +147,18 @@ module.exports = function (grunt) {
   /* Checks for SVGs names returns the one with a wrong naming convention */
   grunt.registerTask('checkNameConvention', async function () {
     const done = this.async()
-    
+
     const mdDir = './svg/material'
     const eosDir = './svg'
 
     checkSvgName({ mdDir, eosDir }).then(async result => {
-      const {eosIconsNew, mdIconsMdNew} = result
-      
+      const { eosIconsNew, mdIconsMdNew } = result
+
       if (eosIconsNew.length || mdIconsMdNew.length) {
         if (eosIconsNew.length) {
           for await (icon of eosIconsNew) {
             console.log(
-            `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
+              `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
             )
             await renameSvgTo(icon, eosDir)
           }
@@ -168,7 +168,7 @@ module.exports = function (grunt) {
         if (mdIconsMdNew.length) {
           for await (icon of mdIconsMdNew) {
             console.log(
-            `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
+              `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
             )
             await renameSvgTo(icon, mdDir).then(done)
           }
