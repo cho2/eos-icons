@@ -1,0 +1,20 @@
+{
+  "name": "add_location",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "maps",
+    "pin",
+    "stop",
+    "destination",
+    "location",
+    "place",
+    "plus",
+    "direction"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

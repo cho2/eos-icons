@@ -1,0 +1,19 @@
+{
+  "name": "fingerprint",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "finger",
+    "print",
+    "identification",
+    "identity",
+    "reader",
+    "fingerprint",
+    "thumbprint",
+    "id"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

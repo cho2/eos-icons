@@ -1,0 +1,15 @@
+{
+  "name": "book",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bookmark",
+    "read",
+    "book",
+    "reading"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

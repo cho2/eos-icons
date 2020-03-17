@@ -1,0 +1,20 @@
+{
+  "name": "no_sim",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "eject",
+    "memory",
+    "phone",
+    "Sim",
+    "insert",
+    "storage",
+    "camera",
+    "device",
+    "card"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

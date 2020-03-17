@@ -1,0 +1,18 @@
+{
+  "name": "attach_file",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "file",
+    "mail",
+    "link",
+    "attach",
+    "media",
+    "clip"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "assignment_turned_in",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "assignment",
+    "finished",
+    "check",
+    "complete",
+    "clipboard",
+    "done"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

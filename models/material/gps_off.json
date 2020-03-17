@@ -1,0 +1,25 @@
+{
+  "name": "gps_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "pointer",
+    "maps",
+    "destination",
+    "tracking",
+    "enabled",
+    "off",
+    "pin",
+    "stop",
+    "disabled",
+    "location",
+    "slash",
+    "place",
+    "direction",
+    "on"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "queue",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "music",
+    "playlist",
+    "stream",
+    "collection",
+    "video",
+    "list",
+    "Queue"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "subtitles",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Cc",
+    "Subtitle",
+    "accessible",
+    "subtitles",
+    "accessibility",
+    "caption",
+    "language",
+    "translate"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "today",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "calendar",
+    "date",
+    "remember",
+    "week",
+    "month",
+    "reminder",
+    "today",
+    "range",
+    "event",
+    "day",
+    "mark"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

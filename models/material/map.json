@@ -1,0 +1,19 @@
+{
+  "name": "map",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "route",
+    "maps",
+    "pin",
+    "stop",
+    "destination",
+    "location",
+    "place",
+    "direction"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

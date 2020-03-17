@@ -1,0 +1,21 @@
+{
+  "name": "directions_railway",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "automobile",
+    "cars",
+    "maps",
+    "public",
+    "car",
+    "rail",
+    "direction",
+    "train",
+    "transportation",
+    "vehicle"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

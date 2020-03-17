@@ -1,0 +1,21 @@
+{
+  "name": "reply_all",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "all",
+    "mail",
+    "arrow",
+    "left",
+    "backward",
+    "share",
+    "message",
+    "reply",
+    "send",
+    "group"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}

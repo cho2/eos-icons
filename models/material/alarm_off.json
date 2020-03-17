@@ -1,0 +1,24 @@
+{
+  "name": "alarm_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "countdown",
+    "clock",
+    "bell",
+    "enabled",
+    "off",
+    "alart",
+    "notification",
+    "stop",
+    "alarm",
+    "disabled",
+    "slash",
+    "time",
+    "on"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "textsms",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bubble",
+    "dots",
+    "speech",
+    "chat",
+    "sms",
+    "Text",
+    "talk",
+    "message"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "live_help",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "help",
+    "symbol",
+    "question",
+    "information",
+    "support",
+    "mark",
+    "?",
+    "announcement",
+    "info"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "web_asset",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "image",
+    "download",
+    "website",
+    "Web",
+    "www",
+    "browser",
+    "screen",
+    "video",
+    "asset",
+    "internet"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

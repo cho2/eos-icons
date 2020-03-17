@@ -1,0 +1,21 @@
+{
+  "name": "perm_contact_calendar",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "calendar",
+    "face",
+    "person",
+    "contact",
+    "profile",
+    "information",
+    "human",
+    "people",
+    "user",
+    "account"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

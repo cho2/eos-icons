@@ -1,0 +1,21 @@
+{
+  "name": "dns",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "lookup",
+    "server",
+    "address",
+    "domain",
+    "ip",
+    "dns",
+    "name",
+    "information",
+    "list",
+    "bars"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

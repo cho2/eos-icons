@@ -1,0 +1,20 @@
+{
+  "name": "location_searching",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "pointer",
+    "maps",
+    "pin",
+    "stop",
+    "destination",
+    "location",
+    "place",
+    "tracking",
+    "direction"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

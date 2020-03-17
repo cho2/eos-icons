@@ -1,0 +1,24 @@
+{
+  "name": "announcement",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "!",
+    "symbol",
+    "exclamation",
+    "danger",
+    "error",
+    "notification",
+    "alert",
+    "bubble",
+    "speech",
+    "attention",
+    "warning",
+    "caution",
+    "mark"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

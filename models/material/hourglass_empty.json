@@ -1,0 +1,20 @@
+{
+  "name": "hourglass_empty",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "wait",
+    "waiting",
+    "minutes",
+    "hourglass",
+    "countdown",
+    "time",
+    "loading",
+    "empty",
+    "minute"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

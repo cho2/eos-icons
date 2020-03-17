@@ -1,0 +1,19 @@
+{
+  "name": "local_bar",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "alcohol",
+    "bar",
+    "cocktail",
+    "bottle",
+    "liquor",
+    "drink",
+    "food",
+    "wine"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

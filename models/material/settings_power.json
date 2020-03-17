@@ -1,0 +1,19 @@
+{
+  "name": "settings_power",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "settings",
+    "save",
+    "information",
+    "power",
+    "off",
+    "shutdown",
+    "info",
+    "on"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

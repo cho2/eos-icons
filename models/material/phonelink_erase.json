@@ -1,0 +1,23 @@
+{
+  "name": "phonelink_erase",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "call",
+    "tablet",
+    "erase",
+    "OS",
+    "phone",
+    "chat",
+    "mobile",
+    "text",
+    "iOS",
+    "device",
+    "Android",
+    "hardware"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

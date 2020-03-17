@@ -13,6 +13,14 @@ const checkForMissingModelsOrIcons = async params => {
     const existentMdModels = await readFilesAndCleanNames(mdModelsSrc)
     const existentMdIcons = await readFilesAndCleanNames(mdIconsSrc)
 
+    fs.writeFile(`./models/material/new/existentMdIcons.json`, existentMdIcons, function (err) {
+      if (err) {
+        console.log(err)
+      } else {
+        console.log('File written!');
+      }
+    });
+
     /* Compare one with the other and extract the missing models and icons  */
     const SVGsMissingModels = compareTwoArraysOfElements([...existentModels, ...existentMdModels], [...existentIcons, ...existentMdIcons, ...existentAnimatedIcons])
     const ModelsMissingSVGs = compareTwoArraysOfElements([...existentMdIcons, ...existentIcons, ...existentAnimatedIcons], [...existentModels, ...existentMdModels])

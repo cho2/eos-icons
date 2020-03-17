@@ -1,0 +1,23 @@
+{
+  "name": "screen_rotation",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "rotate",
+    "tablet",
+    "OS",
+    "arrow",
+    "phone",
+    "mobile",
+    "lock",
+    "screen",
+    "iOS",
+    "device",
+    "Android",
+    "hardware"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

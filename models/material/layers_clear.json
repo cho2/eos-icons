@@ -1,0 +1,24 @@
+{
+  "name": "layers_clear",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "maps",
+    "overlay",
+    "clear",
+    "delete",
+    "enabled",
+    "off",
+    "pages",
+    "arrange",
+    "interaction",
+    "layers",
+    "disabled",
+    "slash",
+    "on"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

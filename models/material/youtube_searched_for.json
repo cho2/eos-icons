@@ -1,0 +1,21 @@
+{
+  "name": "youtube_searched_for",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "searched",
+    "youtube",
+    "rotate",
+    "search",
+    "restore",
+    "arrow",
+    "back",
+    "refresh",
+    "reverse",
+    "backwards"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

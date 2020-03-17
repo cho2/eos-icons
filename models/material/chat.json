@@ -1,0 +1,17 @@
+{
+  "name": "chat",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bubble",
+    "speech",
+    "Chat",
+    "talk",
+    "text",
+    "message"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "mic_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "voice",
+    "Mic",
+    "sound",
+    "enabled",
+    "off",
+    "record",
+    "noise",
+    "hearing",
+    "disabled",
+    "slash",
+    "microphone",
+    "hear",
+    "on"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

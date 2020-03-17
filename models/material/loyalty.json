@@ -1,0 +1,22 @@
+{
+  "name": "loyalty",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "trip",
+    "loyalty",
+    "membership",
+    "program",
+    "tag",
+    "credit",
+    "travel",
+    "card",
+    "heart",
+    "miles",
+    "points"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

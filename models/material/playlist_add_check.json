@@ -1,0 +1,19 @@
+{
+  "name": "playlist_add_check",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "play",
+    "Playlist",
+    "music",
+    "checkmark",
+    "check",
+    "collection",
+    "list"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

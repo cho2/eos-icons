@@ -1,0 +1,19 @@
+{
+  "name": "directions_car",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "automobile",
+    "cars",
+    "maps",
+    "public",
+    "car",
+    "direction",
+    "transportation",
+    "vehicle"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

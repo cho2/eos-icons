@@ -1,0 +1,19 @@
+{
+  "name": "power_settings_new",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "settings",
+    "save",
+    "information",
+    "power",
+    "off",
+    "shutdown",
+    "info",
+    "on"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "important_devices",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "OS",
+    "star",
+    "mobile",
+    "monitor",
+    "iOS",
+    "Android",
+    "important",
+    "tablet",
+    "desktop",
+    "phone",
+    "web",
+    "device",
+    "hardware"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

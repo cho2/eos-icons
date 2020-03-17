@@ -1,0 +1,18 @@
+{
+  "name": "playlist_add",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "play",
+    "Playlist",
+    "music",
+    "collection",
+    "list",
+    "plus"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

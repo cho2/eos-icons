@@ -1,0 +1,21 @@
+{
+  "name": "trending_flat",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "trending",
+    "data",
+    "arrow",
+    "metric",
+    "rate",
+    "flat",
+    "change",
+    "track",
+    "movement",
+    "tracking"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

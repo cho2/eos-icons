@@ -1,0 +1,22 @@
+{
+  "name": "zoom_out",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "small",
+    "minus",
+    "glass",
+    "negative",
+    "smaller",
+    "size",
+    "scale",
+    "zoom",
+    "magnify",
+    "magnifying",
+    "out"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

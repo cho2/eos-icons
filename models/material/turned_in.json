@@ -1,0 +1,16 @@
+{
+  "name": "turned_in",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "remember",
+    "bookmark",
+    "turned",
+    "in",
+    "save"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

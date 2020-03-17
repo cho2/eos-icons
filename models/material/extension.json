@@ -1,0 +1,17 @@
+{
+  "name": "extension",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "extension",
+    "shape",
+    "piece",
+    "puzzle",
+    "jigsaw",
+    "extended"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

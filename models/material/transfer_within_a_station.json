@@ -1,0 +1,27 @@
+{
+  "name": "transfer_within_a_station",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrow",
+    "right",
+    "body",
+    "people",
+    "transportation",
+    "vehicle",
+    "route",
+    "transfer",
+    "public",
+    "stop",
+    "left",
+    "person",
+    "station",
+    "human",
+    "walk",
+    "direction"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

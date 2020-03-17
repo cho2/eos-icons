@@ -1,0 +1,32 @@
+{
+  "name": "format_clear",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "editor",
+    "symbol",
+    "edit",
+    "clear",
+    "alphabet",
+    "type",
+    "enabled",
+    "off",
+    "editing",
+    "character",
+    "letter",
+    "writing",
+    "doc",
+    "disabled",
+    "sheet",
+    "slash",
+    "style",
+    "text",
+    "font",
+    "on",
+    "speadsheet"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}
