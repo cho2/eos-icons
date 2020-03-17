@@ -1073,6 +1073,34 @@
     "type": "static"
   },
   {
+    "name": "3d_rotation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "D",
+      "arrow",
+      "rotation",
+      "arrows",
+      "alphabet",
+      "type",
+      "3d",
+      "number",
+      "character",
+      "av",
+      "letter",
+      "text",
+      "camera",
+      "vr",
+      "digit",
+      "font"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "ac_unit",
     "do": "",
     "dont": "",
@@ -1126,15 +1154,130 @@
     "type": "static"
   },
   {
-    "name": "account_tree",
+    "name": "accessibility",
     "do": "",
     "dont": "",
     "tags": [
-      "hierarchy",
-      "structure"
+      "accessible",
+      "help",
+      "accessibility",
+      "handicap",
+      "person",
+      "body",
+      "human"
     ],
     "category": [
-      "notification"
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "accessible",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accessible",
+      "help",
+      "accessibility",
+      "handicap",
+      "person",
+      "body",
+      "human"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "account_balance",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bill",
+      "pay",
+      "dollars",
+      "commerce",
+      "bank",
+      "balance",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "cash",
+      "account",
+      "card",
+      "coin"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "account_balance_wallet",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bill",
+      "pay",
+      "dollars",
+      "commerce",
+      "bank",
+      "balance",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "cash",
+      "account",
+      "card",
+      "coin"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "account_box",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "square",
+      "face",
+      "thumbnail",
+      "person",
+      "profile",
+      "human",
+      "people",
+      "user",
+      "account"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "account_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "face",
+      "thumbnail",
+      "person",
+      "profile",
+      "circle",
+      "human",
+      "people",
+      "user",
+      "account"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -1147,6 +1290,22 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "new",
+      "create",
+      "+",
+      "plus"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },
@@ -1188,19 +1347,119 @@
     "type": "static"
   },
   {
-    "name": "add_photo_alternate",
+    "name": "add_alert",
     "do": "",
     "dont": "",
     "tags": [
-      "image",
-      "picture",
-      "snapshot",
       "add",
-      "photo",
-      "photography"
+      "notification",
+      "alert",
+      "bell",
+      "plus"
     ],
     "category": [
-      "image"
+      "alert"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_box",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "new",
+      "square",
+      "create",
+      "box",
+      "+",
+      "plus"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "new",
+      "create",
+      "box",
+      "+",
+      "circle",
+      "plus"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_circle_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "new",
+      "create",
+      "box",
+      "+",
+      "circle",
+      "plus"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_location",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "maps",
+      "pin",
+      "stop",
+      "destination",
+      "location",
+      "place",
+      "plus",
+      "direction"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_shopping_cart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "pay",
+      "dollars",
+      "commerce",
+      "cart",
+      "plus",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "cash",
+      "checkout",
+      "card",
+      "coin",
+      "shopping"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -1218,6 +1477,25 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_to_queue",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "backlog",
+      "desktop",
+      "watch",
+      "display",
+      "lineup",
+      "monitor plus",
+      "queue"
+    ],
+    "category": [
+      "av"
     ],
     "type": "static"
   },
@@ -1364,6 +1642,61 @@
     "type": "static"
   },
   {
+    "name": "airplanemode_active",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mode",
+      "airplanemode",
+      "flight",
+      "airplane",
+      "active",
+      "signal",
+      "on"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "airplanemode_inactive",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mode",
+      "airplanemode",
+      "flight",
+      "inactive",
+      "airplane",
+      "disabled",
+      "signal",
+      "off"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "airplay",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Airplay",
+      "arrow",
+      "screen",
+      "control",
+      "device",
+      "signal",
+      "connect"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
     "name": "airport_shuttle",
     "do": "",
     "dont": "",
@@ -1373,6 +1706,88 @@
     ],
     "category": [
       "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "alarm",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alart",
+      "notification",
+      "alarm",
+      "countdown",
+      "clock",
+      "time",
+      "bell"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "alarm_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "countdown",
+      "clock",
+      "bell",
+      "enabled",
+      "off",
+      "alart",
+      "notification",
+      "stop",
+      "alarm",
+      "disabled",
+      "slash",
+      "time",
+      "on"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "alarm_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alart",
+      "notification",
+      "checkmark on",
+      "ready",
+      "alarm",
+      "countdown",
+      "start",
+      "check",
+      "clock",
+      "time",
+      "bell"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "album",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "play",
+      "cd",
+      "music",
+      "artist",
+      "record",
+      "Album",
+      "track"
+    ],
+    "category": [
+      "av"
     ],
     "type": "static"
   },
@@ -1392,18 +1807,57 @@
     "type": "static"
   },
   {
-    "name": "apartment",
+    "name": "all_out",
     "do": "",
     "dont": "",
     "tags": [
-      "flat",
-      "building",
-      "condo",
-      "residence",
-      "suite"
+      "all",
+      "shape",
+      "circle",
+      "out"
     ],
     "category": [
-      "places"
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "android",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "character",
+      "mascot",
+      "android",
+      "logo",
+      "toy"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "announcement",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "symbol",
+      "exclamation",
+      "danger",
+      "error",
+      "notification",
+      "alert",
+      "bubble",
+      "speech",
+      "attention",
+      "warning",
+      "caution",
+      "mark"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -1422,6 +1876,21 @@
     "type": "static"
   },
   {
+    "name": "archive",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mail",
+      "archive",
+      "store",
+      "inbox"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
     "name": "arrow_back",
     "do": "",
     "dont": "",
@@ -1430,22 +1899,6 @@
       "left",
       "indicator",
       "backward"
-    ],
-    "category": [
-      "navigation"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "arrow_back_ios",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "direction",
-      "left",
-      "indicator",
-      "backward",
-      "ios"
     ],
     "category": [
       "navigation"
@@ -1530,57 +1983,6 @@
     "type": "static"
   },
   {
-    "name": "arrow_forward_ios",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "direction",
-      "right",
-      "indicator",
-      "forward",
-      "ahead",
-      "onward",
-      "ios"
-    ],
-    "category": [
-      "navigation"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "arrow_left",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "direction",
-      "right",
-      "indicator",
-      "previous",
-      "caret"
-    ],
-    "category": [
-      "navigation"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "arrow_right",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "direction",
-      "right",
-      "indicator",
-      "next",
-      "forward",
-      "caret"
-    ],
-    "category": [
-      "navigation"
-    ],
-    "type": "static"
-  },
-  {
     "name": "arrow_upward",
     "do": "",
     "dont": "",
@@ -1592,6 +1994,170 @@
     ],
     "category": [
       "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "art_track",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Art",
+      "display",
+      "format",
+      "insert",
+      "track"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "aspect_ratio",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "square",
+      "expand",
+      "size",
+      "aspect",
+      "scale",
+      "ratio"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "assessment",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "assessment",
+      "bar",
+      "measure",
+      "metrics",
+      "tracking",
+      "bars",
+      "graph"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "assignment",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "assignment",
+      "document",
+      "writing",
+      "doc",
+      "text",
+      "clipboard",
+      "article"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "assignment_ind",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "face",
+      "assignment",
+      "person",
+      "profile",
+      "clipboard",
+      "human",
+      "people",
+      "user",
+      "account"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "assignment_late",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "symbol",
+      "assignment",
+      "exclamation",
+      "danger",
+      "error",
+      "clipboard",
+      "notification",
+      "alert",
+      "attention",
+      "warning",
+      "caution",
+      "mark"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "assignment_return",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "left",
+      "assignment",
+      "clipboard",
+      "point"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "assignment_returned",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "assignment",
+      "clipboard",
+      "down",
+      "point"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "assignment_turned_in",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "assignment",
+      "finished",
+      "check",
+      "complete",
+      "clipboard",
+      "done"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -1618,6 +2184,49 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "attach_file",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "file",
+      "mail",
+      "link",
+      "attach",
+      "media",
+      "clip"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "attach_money",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "link",
+      "pay",
+      "media",
+      "commerce",
+      "file",
+      "money",
+      "online",
+      "e-commerce",
+      "payment",
+      "attach",
+      "credit",
+      "card",
+      "clip"
+    ],
+    "category": [
+      "editor"
     ],
     "type": "static"
   },
@@ -1652,14 +2261,130 @@
     "type": "static"
   },
   {
-    "name": "bathtub",
+    "name": "autorenew",
     "do": "",
     "dont": "",
     "tags": [
-      "wash"
+      "rotate",
+      "cache",
+      "arrow",
+      "cached",
+      "inprogress",
+      "renew"
     ],
     "category": [
-      "places"
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "av_timer",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "timer",
+      "seconds",
+      "AV",
+      "watch",
+      "minutes",
+      "countdown",
+      "clock",
+      "time"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "backspace",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cancel",
+      "erase",
+      "backspace",
+      "correct",
+      "arrow",
+      "clear",
+      "back",
+      "delete"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "backup",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cloud",
+      "backup",
+      "arrow",
+      "upload",
+      "up",
+      "point"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "battery_alert",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "charge",
+      "alert",
+      "Battery",
+      "mobile",
+      "exclamation",
+      "power",
+      "cell",
+      "error"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "battery_full",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "charge",
+      "Battery",
+      "mobile",
+      "power",
+      "cell",
+      "full"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "battery_unknown",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "charge",
+      "question",
+      "Battery",
+      "mobile",
+      "power",
+      "cell",
+      "plus",
+      "unknown"
+    ],
+    "category": [
+      "device"
     ],
     "type": "static"
   },
@@ -1674,6 +2399,114 @@
     ],
     "category": [
       "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "beenhere",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "here",
+      "verified",
+      "certified",
+      "location",
+      "check",
+      "guide",
+      "local",
+      "mark",
+      "direction"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "block",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "entry",
+      "no",
+      "stop",
+      "prohibited",
+      "block",
+      "avoid"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "bluetooth",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "bluetooth",
+      "connection",
+      "paring",
+      "device"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "bluetooth_connected",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "bluetooth",
+      "connection",
+      "paring",
+      "device"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "bluetooth_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "bluetooth",
+      "connection",
+      "disabled",
+      "paring",
+      "slash",
+      "device",
+      "enabled",
+      "off",
+      "on"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "bluetooth_searching",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "search",
+      "bluetooth",
+      "searching",
+      "connection",
+      "paring",
+      "device"
+    ],
+    "category": [
+      "device"
     ],
     "type": "static"
   },
@@ -1730,6 +2563,315 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "book",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bookmark",
+      "read",
+      "book",
+      "reading"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "bookmark",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bookmarks",
+      "remember",
+      "bookmark",
+      "save"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "bookmark_border",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bookmarks",
+      "remember",
+      "bookmark",
+      "outline",
+      "save"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "border_all",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "border",
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "type",
+      "stroke",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "border_bottom",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "border",
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "type",
+      "stroke",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "border_clear",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "border",
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "type",
+      "stroke",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "border_horizontal",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "border",
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "type",
+      "stroke",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "border_inner",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "border",
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "type",
+      "stroke",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "border_left",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "border",
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "type",
+      "stroke",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "border_outer",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "border",
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "type",
+      "stroke",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "border_right",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "border",
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "type",
+      "stroke",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "border_style",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "border",
+      "editor",
+      "color",
+      "edit",
+      "type",
+      "stroke",
+      "editing",
+      "writing",
+      "doc",
+      "sheet",
+      "style",
+      "text",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "border_top",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "border",
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "type",
+      "stroke",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "border_vertical",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "border",
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "type",
+      "stroke",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "branding_watermark",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "copyright",
+      "identity",
+      "format",
+      "warermark",
+      "logo",
+      "stamp",
+      "Brandig",
+      "emblem"
+    ],
+    "category": [
+      "av"
     ],
     "type": "static"
   },
@@ -1810,6 +2952,79 @@
     "type": "static"
   },
   {
+    "name": "brightness_auto",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "auto",
+      "brightness",
+      "phone",
+      "mobile",
+      "control",
+      "monitor",
+      "sun"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "brightness_high",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "auto",
+      "high",
+      "brightness",
+      "phone",
+      "mobile",
+      "control",
+      "monitor"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "brightness_low",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "auto",
+      "brightness",
+      "low",
+      "phone",
+      "mobile",
+      "control",
+      "monitor"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "brightness_medium",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "auto",
+      "brightness",
+      "phone",
+      "mobile",
+      "control",
+      "monitor",
+      "medium"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
     "name": "broken_image",
     "do": "",
     "dont": "",
@@ -1837,6 +3052,61 @@
     "type": "static"
   },
   {
+    "name": "bubble_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "data",
+      "infograpic",
+      "tracking",
+      "bars",
+      "graph",
+      "analytics",
+      "diagram",
+      "bar",
+      "measure",
+      "bubble",
+      "metrics",
+      "statstics",
+      "circle",
+      "chart"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "bug_report",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "file",
+      "bug",
+      "insect",
+      "report",
+      "animal"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "build",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "build",
+      "tool",
+      "wrench"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "burst_mode",
     "do": "",
     "dont": "",
@@ -1846,6 +3116,22 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "business",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "address",
+      "company",
+      "building",
+      "structure",
+      "Business"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -1865,6 +3151,23 @@
     "type": "static"
   },
   {
+    "name": "cached",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rotate",
+      "cache",
+      "arrow",
+      "cached",
+      "inprogress",
+      "renew"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "cake",
     "do": "",
     "dont": "",
@@ -1878,6 +3181,157 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "call",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Call",
+      "phone",
+      "mobile",
+      "talk",
+      "device"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "call_end",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Call",
+      "phone",
+      "mobile",
+      "end",
+      "talk",
+      "device"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "call_made",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Call",
+      "arrow",
+      "made",
+      "mobile",
+      "device"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "call_merge",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Call",
+      "arrow",
+      "merge",
+      "mobile",
+      "device"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "call_missed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Call",
+      "arrow",
+      "missed",
+      "mobile",
+      "device"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "call_missed_outgoing",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Call",
+      "outgoing",
+      "arrow",
+      "missed",
+      "mobile",
+      "device"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "call_received",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Call",
+      "arrow",
+      "mobile",
+      "received",
+      "device"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "call_split",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Call",
+      "split",
+      "arrow",
+      "mobile",
+      "device"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "call_to_action",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "call",
+      "CTA",
+      "notification",
+      "bar",
+      "alert",
+      "action",
+      "information",
+      "to",
+      "message",
+      "info"
+    ],
+    "category": [
+      "av"
     ],
     "type": "static"
   },
@@ -1914,6 +3368,23 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "camera_enhance",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photo",
+      "camera",
+      "lens",
+      "picture",
+      "enhance",
+      "quality"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -1984,6 +3455,94 @@
     ],
     "category": [
       "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "card_giftcard",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "gift",
+      "giftcard",
+      "certificate",
+      "bill",
+      "pay",
+      "dollars",
+      "commerce",
+      "cart",
+      "balance",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "present",
+      "cash",
+      "account",
+      "card",
+      "coin",
+      "shopping"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "card_membership",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "certificate",
+      "bill",
+      "pay",
+      "dollars",
+      "membership",
+      "subscription",
+      "commerce",
+      "cart",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "cash",
+      "card",
+      "coin",
+      "shopping"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "card_travel",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bill",
+      "pay",
+      "dollars",
+      "membership",
+      "commerce",
+      "cart",
+      "miles",
+      "trip",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "travel",
+      "cash",
+      "card",
+      "coin",
+      "shopping"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -2076,6 +3635,72 @@
     "type": "static"
   },
   {
+    "name": "change_history",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "shape",
+      "change",
+      "history",
+      "triangle"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "chat",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bubble",
+      "speech",
+      "Chat",
+      "talk",
+      "text",
+      "message"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "chat_bubble",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bubble",
+      "speech",
+      "Chat",
+      "talk",
+      "text",
+      "message"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "chat_bubble_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bubble",
+      "speech",
+      "Chat",
+      "talk",
+      "text",
+      "message"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "check",
     "do": "",
     "dont": "",
@@ -2126,6 +3751,22 @@
     "type": "static"
   },
   {
+    "name": "check_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "finished",
+      "check",
+      "circle",
+      "complete",
+      "done"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "child_care",
     "do": "",
     "dont": "",
@@ -2158,6 +3799,55 @@
     "type": "static"
   },
   {
+    "name": "chrome_reader_mode",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mode",
+      "read",
+      "chrome",
+      "reader",
+      "text"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "class",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bookmark",
+      "read",
+      "book",
+      "reading",
+      "class"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "clear_all",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "all",
+      "document",
+      "format",
+      "doc",
+      "list",
+      "Clear"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "close",
     "do": "",
     "dont": "",
@@ -2168,6 +3858,32 @@
     ],
     "category": [
       "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "closed_caption",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cc",
+      "accessible",
+      "subtitles",
+      "symbol",
+      "launguage",
+      "caption",
+      "alphabet",
+      "decoder",
+      "type",
+      "character",
+      "Closed",
+      "letter",
+      "subtitle",
+      "text",
+      "font"
+    ],
+    "category": [
+      "av"
     ],
     "type": "static"
   },
@@ -2300,6 +4016,26 @@
     "type": "static"
   },
   {
+    "name": "code",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "css",
+      "code",
+      "developer",
+      "html",
+      "develop",
+      "engineering",
+      "engineer",
+      "platform",
+      "brackets"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "collections",
     "do": "",
     "dont": "",
@@ -2375,6 +4111,22 @@
     "type": "static"
   },
   {
+    "name": "comment",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Comment",
+      "note",
+      "bubble",
+      "document",
+      "doc"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "compare",
     "do": "",
     "dont": "",
@@ -2389,6 +4141,22 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "compare_arrows",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "compare",
+      "arrow",
+      "arrows",
+      "facing",
+      "pointing"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -2420,6 +4188,76 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "contact_mail",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "face",
+      "address",
+      "mail",
+      "person",
+      "profile",
+      "information",
+      "human",
+      "people",
+      "user",
+      "account",
+      "Contact",
+      "info"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "contact_phone",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "number",
+      "face",
+      "phone",
+      "person",
+      "profile",
+      "information",
+      "human",
+      "people",
+      "user",
+      "account",
+      "Contact",
+      "info"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "contacts",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "address",
+      "profile",
+      "people",
+      "Contact",
+      "number",
+      "face",
+      "phone",
+      "person",
+      "information",
+      "human",
+      "user",
+      "account",
+      "info"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -2460,6 +4298,46 @@
     "type": "static"
   },
   {
+    "name": "copyright",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "character",
+      "copyright",
+      "C",
+      "letter",
+      "alphabet",
+      "text",
+      "type",
+      "emblem",
+      "font"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "create",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Add",
+      "input",
+      "new",
+      "compose",
+      "edit",
+      "create",
+      "pencil",
+      "editing"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
     "name": "create_new_folder",
     "do": "",
     "dont": "",
@@ -2474,6 +4352,25 @@
     ],
     "category": [
       "file"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "credit_card",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "charge",
+      "money",
+      "pay",
+      "information",
+      "payment",
+      "credit",
+      "card",
+      "info"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -2670,6 +4567,22 @@
     "type": "static"
   },
   {
+    "name": "dashboard",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "square",
+      "cards",
+      "shapes",
+      "rectangle",
+      "dashboard"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "data_usage",
     "do": "",
     "dont": "",
@@ -2686,19 +4599,22 @@
     "type": "static"
   },
   {
-    "name": "deck",
+    "name": "date_range",
     "do": "",
     "dont": "",
     "tags": [
-      "chair",
-      "beach",
-      "travel",
-      "relax",
-      "facility",
-      "hotel"
+      "calendar",
+      "date",
+      "remember",
+      "week",
+      "month",
+      "reminder",
+      "today",
+      "event",
+      "day"
     ],
     "category": [
-      "social"
+      "action"
     ],
     "type": "static"
   },
@@ -2716,6 +4632,77 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "delete",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "can",
+      "bin",
+      "garbage",
+      "delete",
+      "remove",
+      "trash"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "delete_forever",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "can",
+      "bin",
+      "x",
+      "garbage",
+      "delete",
+      "remove",
+      "trash"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "delete_sweep",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "can",
+      "delete",
+      "remove",
+      "trash"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "description",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "file",
+      "notes",
+      "document",
+      "writing",
+      "description",
+      "doc",
+      "information",
+      "text",
+      "article",
+      "content"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -2778,6 +4765,30 @@
     "type": "static"
   },
   {
+    "name": "developer_mode",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "development",
+      "code",
+      "OS",
+      "mobile",
+      "iOS",
+      "engineer",
+      "Android",
+      "tablet",
+      "phone",
+      "bracket",
+      "developer",
+      "device",
+      "hardware"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
     "name": "device_hub",
     "do": "",
     "dont": "",
@@ -2791,16 +4802,28 @@
     "type": "static"
   },
   {
-    "name": "device_unknown",
+    "name": "devices",
     "do": "",
     "dont": "",
     "tags": [
-      "question mark",
-      "unsure",
-      "unaware"
+      "wearable",
+      "OS",
+      "mobile",
+      "monitor",
+      "iOS",
+      "laptop",
+      "Android",
+      "tablet",
+      "computer",
+      "desktop",
+      "phone",
+      "watch",
+      "web",
+      "device",
+      "hardware"
     ],
     "category": [
-      "hardware"
+      "device"
     ],
     "type": "static"
   },
@@ -2822,6 +4845,258 @@
     "type": "static"
   },
   {
+    "name": "dialer_sip",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "over",
+      "voice",
+      "symbol",
+      "Dialer",
+      "session",
+      "alphabet",
+      "type",
+      "call",
+      "routing",
+      "character",
+      "protocol",
+      "initiation",
+      "phone",
+      "letter",
+      "sip",
+      "text",
+      "internet",
+      "font"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "dialpad",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Dial",
+      "call",
+      "number",
+      "pad",
+      "numbers",
+      "device"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "directions",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "route",
+      "maps",
+      "arrow",
+      "sign",
+      "right",
+      "direction",
+      "traffic"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "directions_bike",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bicycle",
+      "maps",
+      "bike",
+      "transportation",
+      "vehicle",
+      "automobile",
+      "cars",
+      "route",
+      "public",
+      "car",
+      "person",
+      "human",
+      "direction"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "directions_boat",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "cars",
+      "maps",
+      "public",
+      "car",
+      "ferry",
+      "boat",
+      "direction",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "directions_bus",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "bus",
+      "cars",
+      "maps",
+      "public",
+      "car",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "directions_car",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "cars",
+      "maps",
+      "public",
+      "car",
+      "direction",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "directions_railway",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "cars",
+      "maps",
+      "public",
+      "car",
+      "rail",
+      "direction",
+      "train",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "directions_run",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "route",
+      "person",
+      "jogging",
+      "run",
+      "body",
+      "human",
+      "people",
+      "walk",
+      "direction"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "directions_subway",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "cars",
+      "subway",
+      "maps",
+      "public",
+      "car",
+      "rail",
+      "direction",
+      "train",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "directions_transit",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "cars",
+      "subway",
+      "maps",
+      "public",
+      "car",
+      "rail",
+      "direction",
+      "train",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "directions_walk",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "route",
+      "person",
+      "jogging",
+      "run",
+      "body",
+      "human",
+      "people",
+      "walk",
+      "direction"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "disc_full",
     "do": "",
     "dont": "",
@@ -2833,6 +5108,27 @@
     ],
     "category": [
       "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "dns",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "lookup",
+      "server",
+      "address",
+      "domain",
+      "ip",
+      "dns",
+      "name",
+      "information",
+      "list",
+      "bars"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -2869,18 +5165,100 @@
     "type": "static"
   },
   {
-    "name": "double_arrow",
+    "name": "done",
     "do": "",
     "dont": "",
     "tags": [
-      "right",
-      "arrow",
-      "direction",
-      "forward",
-      "double"
+      "finished",
+      "check",
+      "complete",
+      "done",
+      "mark"
     ],
     "category": [
-      "navigation"
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "done_all",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "multiple",
+      "finished",
+      "check",
+      "complete",
+      "done",
+      "mark"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "donut_large",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "donut",
+      "inprogress",
+      "complete",
+      "graph"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "donut_small",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "donut",
+      "inprogress",
+      "complete",
+      "graph"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "drafts",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "file",
+      "read",
+      "mail",
+      "document",
+      "draft",
+      "letter",
+      "drafts",
+      "email"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "drag_handle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "move",
+      "ui",
+      "handle",
+      "drag",
+      "menu"
+    ],
+    "category": [
+      "editor"
     ],
     "type": "static"
   },
@@ -2901,6 +5279,26 @@
     "type": "static"
   },
   {
+    "name": "dvr",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "digital",
+      "dvr",
+      "computer",
+      "recorder",
+      "tv",
+      "vidio",
+      "electronic",
+      "audio",
+      "device"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
     "name": "edit",
     "do": "",
     "dont": "",
@@ -2916,146 +5314,57 @@
     "type": "static"
   },
   {
-    "name": "emoji_emotions",
+    "name": "edit_location",
     "do": "",
     "dont": "",
     "tags": [
-      "face",
-      "emoticon",
-      "emotion",
-      "smiley",
-      "expression",
-      "happy"
+      "maps",
+      "pin",
+      "stop",
+      "edit",
+      "destination",
+      "pen",
+      "location",
+      "place",
+      "pencil",
+      "direction"
     ],
     "category": [
-      "social"
+      "maps"
     ],
     "type": "static"
   },
   {
-    "name": "emoji_events",
+    "name": "eject",
     "do": "",
     "dont": "",
     "tags": [
-      "calendar",
-      "schedule",
-      "award",
-      "winner",
-      "prize",
-      "cup"
+      "eject",
+      "remove",
+      "triangle",
+      "player"
     ],
     "category": [
-      "social"
+      "action"
     ],
     "type": "static"
   },
   {
-    "name": "emoji_flags",
+    "name": "email",
     "do": "",
     "dont": "",
     "tags": [
-      "country",
-      "national",
-      "finish",
-      "start",
-      "goal",
-      "milestone"
+      "note",
+      "receive",
+      "Email",
+      "mail",
+      "post",
+      "message",
+      "send",
+      "write"
     ],
     "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "emoji_food_beverage",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "drink",
-      "cooking",
-      "restaurant",
-      "hot",
-      "coffee",
-      "tea"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "emoji_nature",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "plant",
-      "ecology",
-      "tree",
-      "flower",
-      "care"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "emoji_objects",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "tool",
-      "equipment",
-      "idea",
-      "light"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "emoji_people",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "emoticon",
-      "avatar",
-      "person",
-      "user"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "emoji_symbols",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "emoticon",
-      "expression",
-      "input symbols",
-      "keyboard",
-      "software"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "emoji_transportation",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "transport",
-      "vehicle",
-      "car"
-    ],
-    "category": [
-      "social"
+      "communication"
     ],
     "type": "static"
   },
@@ -3076,17 +5385,126 @@
     "type": "static"
   },
   {
-    "name": "euro",
+    "name": "equalizer",
     "do": "",
     "dont": "",
     "tags": [
-      "money",
-      "currency",
-      "dollar",
-      "pound"
+      "volume",
+      "music",
+      "static",
+      "sound",
+      "noise",
+      "adjustment",
+      "Equalizer"
     ],
     "category": [
-      "image"
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "error",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "notification",
+      "symbol",
+      "alert",
+      "attention",
+      "warning",
+      "exclamation",
+      "circle",
+      "danger",
+      "error",
+      "caution",
+      "mark"
+    ],
+    "category": [
+      "alert"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "error_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "notification",
+      "symbol",
+      "alert",
+      "attention",
+      "warning",
+      "exclamation",
+      "circle",
+      "danger",
+      "error",
+      "caution",
+      "mark"
+    ],
+    "category": [
+      "alert"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "euro_symbol",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "euro",
+      "money",
+      "currency",
+      "dollar"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "ev_station",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "cars",
+      "ev",
+      "maps",
+      "car",
+      "electric",
+      "charging",
+      "station",
+      "electricity",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "event",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "date",
+      "remember",
+      "week",
+      "month",
+      "reminder",
+      "today",
+      "range",
+      "event",
+      "day",
+      "mark"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -3135,6 +5553,84 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "event_seat",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "seat",
+      "chair",
+      "reservation",
+      "assigned",
+      "section",
+      "row",
+      "event",
+      "assign",
+      "sit"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "exit_to_app",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "exit",
+      "arrow",
+      "leave",
+      "back",
+      "pointing",
+      "right"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "explicit",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "character",
+      "e",
+      "letter",
+      "lanuage",
+      "Explicit",
+      "alphabet",
+      "text",
+      "adult",
+      "type",
+      "content",
+      "font"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "explore",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "explore",
+      "compass",
+      "destination",
+      "location",
+      "needle",
+      "travel",
+      "map"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -3239,6 +5735,295 @@
       "lens",
       "light",
       "neutral"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "extension",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "extension",
+      "shape",
+      "piece",
+      "puzzle",
+      "jigsaw",
+      "extended"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "face",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "thumbnail",
+      "unlock",
+      "emoji",
+      "profile",
+      "recognition",
+      "login",
+      "eyes",
+      "people",
+      "face",
+      "logout",
+      "security",
+      "person",
+      "lock",
+      "human",
+      "user",
+      "account"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fast_forward",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "music",
+      "forward",
+      "control",
+      "time",
+      "video",
+      "Fast",
+      "speed"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fast_rewind",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "music",
+      "rewind",
+      "control",
+      "time",
+      "video",
+      "Fast",
+      "speed"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "favorite",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "love",
+      "remember",
+      "shape",
+      "like",
+      "save",
+      "favorite",
+      "heart"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "favorite_border",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "love",
+      "remember",
+      "outline",
+      "shape",
+      "like",
+      "save",
+      "favorite",
+      "heart"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "featured_play_list",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "play",
+      "music",
+      "playlist",
+      "highlighted",
+      "Featured",
+      "collection",
+      "recommended"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "featured_video",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "watch",
+      "advertised",
+      "highlighted",
+      "Featured",
+      "video",
+      "recommended"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "feedback",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "feedback",
+      "alert",
+      "bubble",
+      "speech",
+      "comment",
+      "exclamation",
+      "announcement"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fiber_dvr",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "digital",
+      "dvr",
+      "symbol",
+      "electronics",
+      "recorder",
+      "tv",
+      "Fiber",
+      "alphabet",
+      "video",
+      "type",
+      "network",
+      "character",
+      "letter",
+      "text",
+      "font"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fiber_manual_record",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "play",
+      "watch",
+      "Fiber",
+      "record",
+      "dot",
+      "circle",
+      "manual"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fiber_new",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "new",
+      "symbol",
+      "character",
+      "Fiber",
+      "letter",
+      "alphabet",
+      "text",
+      "type",
+      "font",
+      "network"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fiber_pin",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "character",
+      "pin",
+      "Fiber",
+      "letter",
+      "alphabet",
+      "text",
+      "type",
+      "font",
+      "network"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fiber_smart_record",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "play",
+      "watch",
+      "Fiber",
+      "record",
+      "smart"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "filter",
+      "images",
+      "mountain",
+      "photo",
+      "collection",
+      "media"
     ],
     "category": [
       "image"
@@ -3489,6 +6274,22 @@
     "type": "static"
   },
   {
+    "name": "filter_list",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "filter",
+      "organize",
+      "find",
+      "sort",
+      "list"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
     "name": "filter_none",
     "do": "",
     "dont": "",
@@ -3541,18 +6342,63 @@
     "type": "static"
   },
   {
-    "name": "fireplace",
+    "name": "find_in_page",
     "do": "",
     "dont": "",
     "tags": [
-      "fire",
-      "winter",
-      "warm",
-      "chimney",
-      "interior"
+      "search",
+      "see",
+      "paper",
+      "find",
+      "document",
+      "doc",
+      "magnifying glass",
+      "page",
+      "look"
     ],
     "category": [
-      "social"
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "find_replace",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rotate",
+      "search",
+      "see",
+      "arrow",
+      "find",
+      "arrows",
+      "replace",
+      "inprogress",
+      "refresh",
+      "magnifying glass",
+      "look"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fingerprint",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "finger",
+      "print",
+      "identification",
+      "identity",
+      "reader",
+      "fingerprint",
+      "thumbprint",
+      "id"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -3585,6 +6431,24 @@
     ],
     "category": [
       "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "flag",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "country",
+      "flag",
+      "goal",
+      "nation",
+      "report",
+      "start",
+      "mark"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },
@@ -3663,6 +6527,46 @@
     "type": "static"
   },
   {
+    "name": "flight_land",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "plane",
+      "flight",
+      "fly",
+      "landing",
+      "arrival",
+      "land",
+      "arriving",
+      "travel",
+      "transportation"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "flight_takeoff",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "departing",
+      "plane",
+      "flight",
+      "fly",
+      "landing",
+      "departed",
+      "land",
+      "travel",
+      "transportation"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "flip",
     "do": "",
     "dont": "",
@@ -3681,38 +6585,40 @@
     "type": "static"
   },
   {
-    "name": "flip_camera_android",
+    "name": "flip_to_back",
     "do": "",
     "dont": "",
     "tags": [
-      "photography",
-      "photo",
-      "image",
-      "style",
-      "custom",
-      "edit",
-      "spin"
+      "arrangement",
+      "move",
+      "arrange",
+      "back",
+      "front",
+      "sort",
+      "flip",
+      "order"
     ],
     "category": [
-      "image"
+      "action"
     ],
     "type": "static"
   },
   {
-    "name": "flip_camera_ios",
+    "name": "flip_to_front",
     "do": "",
     "dont": "",
     "tags": [
-      "photography",
-      "photo",
-      "image",
-      "style",
-      "custom",
-      "edit",
-      "spin"
+      "arrangement",
+      "move",
+      "arrange",
+      "back",
+      "front",
+      "sort",
+      "flip",
+      "order"
     ],
     "category": [
-      "image"
+      "action"
     ],
     "type": "static"
   },
@@ -3722,26 +6628,6 @@
     "dont": "",
     "tags": [
       "portfolio",
-      "case",
-      "wrapper"
-    ],
-    "category": [
-      "file"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "folder_copy",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "add",
-      "new",
-      "plus",
-      "create",
-      "folder",
-      "file",
-      "case",
       "data",
       "directory",
       "documents",
@@ -3800,6 +6686,667 @@
     "type": "static"
   },
   {
+    "name": "font_download",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "square",
+      "symbol",
+      "character",
+      "download",
+      "letter",
+      "save",
+      "alphabet",
+      "text",
+      "type",
+      "font"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_align_center",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "align",
+      "alignment",
+      "type",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_align_justify",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "align",
+      "alignment",
+      "type",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_align_left",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "align",
+      "alignment",
+      "type",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_align_right",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "align",
+      "alignment",
+      "type",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_bold",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "symbol",
+      "edit",
+      "alphabet",
+      "type",
+      "editing",
+      "character",
+      "letter",
+      "writing",
+      "doc",
+      "sheet",
+      "styles",
+      "text",
+      "font",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_clear",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "symbol",
+      "edit",
+      "clear",
+      "alphabet",
+      "type",
+      "enabled",
+      "off",
+      "editing",
+      "character",
+      "letter",
+      "writing",
+      "doc",
+      "disabled",
+      "sheet",
+      "slash",
+      "style",
+      "text",
+      "font",
+      "on",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_color_reset",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "color",
+      "edit",
+      "clear",
+      "paint",
+      "fill",
+      "type",
+      "enabled",
+      "off",
+      "editing",
+      "writing",
+      "doc",
+      "reset",
+      "disabled",
+      "sheet",
+      "slash",
+      "style",
+      "text",
+      "on",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_indent_decrease",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "paragraph",
+      "edit",
+      "indent",
+      "align",
+      "type",
+      "editing",
+      "indentation",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "alignment",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_indent_increase",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "paragraph",
+      "edit",
+      "indent",
+      "align",
+      "type",
+      "editing",
+      "indentation",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "alignment",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_italic",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "symbol",
+      "edit",
+      "alphabet",
+      "type",
+      "editing",
+      "character",
+      "letter",
+      "writing",
+      "doc",
+      "sheet",
+      "style",
+      "text",
+      "font",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_line_spacing",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "align",
+      "alignment",
+      "type",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_list_bulleted",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "edit",
+      "align",
+      "list",
+      "type",
+      "editing",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "alignment",
+      "bullet",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_list_numbered",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "symbol",
+      "edit",
+      "align",
+      "list",
+      "type",
+      "editing",
+      "number",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "alignment",
+      "digit",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_paint",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "color",
+      "edit",
+      "paint",
+      "fill",
+      "type",
+      "editing",
+      "writing",
+      "doc",
+      "sheet",
+      "style",
+      "text",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_quote",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "quote",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "type",
+      "quotation",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_shapes",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "symbol",
+      "color",
+      "edit",
+      "format",
+      "paint",
+      "alphabet",
+      "fill",
+      "type",
+      "editing",
+      "character",
+      "letter",
+      "writing",
+      "doc",
+      "sheet",
+      "style",
+      "text",
+      "font",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_size",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "symbol",
+      "color",
+      "edit",
+      "format",
+      "paint",
+      "alphabet",
+      "fill",
+      "type",
+      "editing",
+      "character",
+      "letter",
+      "writing",
+      "doc",
+      "sheet",
+      "style",
+      "text",
+      "font",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_strikethrough",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "symbol",
+      "edit",
+      "format",
+      "alphabet",
+      "type",
+      "editing",
+      "character",
+      "size",
+      "letter",
+      "writing",
+      "doc",
+      "sheet",
+      "style",
+      "strikethrough",
+      "text",
+      "font",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_textdirection_l_to_r",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "align",
+      "alignment",
+      "type",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_textdirection_r_to_l",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "align",
+      "alignment",
+      "type",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_underlined",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "symbol",
+      "edit",
+      "line",
+      "alphabet",
+      "type",
+      "editing",
+      "character",
+      "letter",
+      "writing",
+      "doc",
+      "sheet",
+      "style",
+      "text",
+      "under",
+      "font",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "forum",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "hub",
+      "bubble",
+      "speech",
+      "talk",
+      "community",
+      "conversation",
+      "Forum"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "forward",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mail",
+      "arrow",
+      "forward",
+      "playback",
+      "right",
+      "message",
+      "sent"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "forward_10",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "number",
+      "symbol",
+      "controls",
+      "music",
+      "arrow",
+      "forward",
+      "arrows",
+      "control",
+      "video",
+      "Fast",
+      "10",
+      "digit"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "forward_30",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "controls",
+      "arrow",
+      "forward",
+      "arrows",
+      "control",
+      "video",
+      "number",
+      "music",
+      "30",
+      "Fast",
+      "10",
+      "digit"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "forward_5",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "controls",
+      "arrow",
+      "forward",
+      "arrows",
+      "control",
+      "video",
+      "number",
+      "music",
+      "5",
+      "Fast",
+      "10",
+      "digit"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
     "name": "free_breakfast",
     "do": "",
     "dont": "",
@@ -3850,6 +7397,53 @@
     "type": "static"
   },
   {
+    "name": "functions",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "average",
+      "editor",
+      "edit",
+      "count",
+      "sum",
+      "type",
+      "editing",
+      "writing",
+      "doc",
+      "sheet",
+      "style",
+      "calculate",
+      "math",
+      "text",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "g_translate",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "speaking",
+      "speech",
+      "translator",
+      "words",
+      "logo",
+      "google",
+      "language",
+      "emblem",
+      "mark",
+      "translate"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "gamepad",
     "do": "",
     "dont": "",
@@ -3866,6 +7460,106 @@
     "type": "static"
   },
   {
+    "name": "games",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "controller",
+      "move",
+      "arrow",
+      "left",
+      "adjust",
+      "Games",
+      "arrows",
+      "control",
+      "right",
+      "direction"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "gavel",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "government",
+      "law",
+      "police",
+      "document",
+      "official",
+      "rule",
+      "gavel",
+      "mallet",
+      "rules",
+      "judge",
+      "court"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "gesture",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "finger",
+      "motion",
+      "Gesture",
+      "drawing",
+      "gestures",
+      "hand"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "get_app",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "download",
+      "arrow",
+      "get",
+      "retrieve",
+      "pointing",
+      "down"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "gif",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "character",
+      "gif",
+      "bitmap",
+      "letter",
+      "animated",
+      "graphics interchange format",
+      "alphabet",
+      "text",
+      "type",
+      "animation",
+      "font"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "golf_course",
     "do": "",
     "dont": "",
@@ -3877,6 +7571,90 @@
     ],
     "category": [
       "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "gps_fixed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pointer",
+      "maps",
+      "pin",
+      "stop",
+      "destination",
+      "location",
+      "place",
+      "tracking",
+      "direction"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "gps_not_fixed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pointer",
+      "maps",
+      "pin",
+      "stop",
+      "destination",
+      "location",
+      "place",
+      "tracking",
+      "direction"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "gps_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pointer",
+      "maps",
+      "destination",
+      "tracking",
+      "enabled",
+      "off",
+      "pin",
+      "stop",
+      "disabled",
+      "location",
+      "slash",
+      "place",
+      "direction",
+      "on"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "grade",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rated",
+      "shape",
+      "star",
+      "rate",
+      "grade",
+      "rating",
+      "favorite",
+      "likes"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -3914,6 +7692,24 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "graphic_eq",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "voice",
+      "music",
+      "equalizer",
+      "sound",
+      "recording",
+      "audio",
+      "graphic"
+    ],
+    "category": [
+      "device"
     ],
     "type": "static"
   },
@@ -3980,6 +7776,49 @@
     ],
     "category": [
       "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "group_work",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "partnership",
+      "alliance",
+      "teamwork",
+      "collaboration",
+      "work",
+      "together",
+      "group"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "hd",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "tv",
+      "movie",
+      "alphabet",
+      "type",
+      "resolution",
+      "movies",
+      "character",
+      "high",
+      "letter",
+      "definition",
+      "text",
+      "Hd",
+      "font"
+    ],
+    "category": [
+      "av"
     ],
     "type": "static"
   },
@@ -4105,19 +7944,175 @@
     "type": "static"
   },
   {
-    "name": "home_work",
+    "name": "hearing",
     "do": "",
     "dont": "",
     "tags": [
+      "accessible",
+      "help",
+      "Hearing",
+      "impaired",
+      "accessibility",
+      "handicap",
+      "sound",
+      "hearing",
+      "aid",
+      "listen"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "help",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "help",
+      "symbol",
+      "alert",
+      "information",
+      "question mark",
+      "support",
+      "?",
+      "announcement",
+      "info"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "help_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "help",
+      "symbol",
+      "outline",
+      "alert",
+      "information",
+      "question mark",
+      "support",
+      "?",
+      "announcement",
+      "info"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "high_quality",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "tv",
+      "movie",
+      "Hq",
+      "alphabet",
+      "type",
+      "resolution",
+      "quality",
+      "movies",
+      "character",
+      "letter",
+      "definition",
+      "text",
+      "font"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "highlight",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "color",
+      "edit",
+      "format",
+      "paint",
+      "fill",
+      "type",
+      "editing",
+      "highlight",
+      "writing",
+      "doc",
+      "sheet",
+      "style",
+      "text",
+      "emphasize",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "highlight_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "highlight",
+      "stop",
+      "x",
+      "focus",
+      "circle",
+      "click",
+      "close",
+      "off",
+      "target"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "history",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rotate",
+      "arrow",
+      "back",
+      "refresh",
+      "clock",
+      "history",
+      "time",
+      "reverse",
+      "backwards"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "home",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "unit",
+      "address",
       "place",
       "residence",
       "house",
-      "office",
-      "station",
-      "job"
+      "building",
+      "structure",
+      "home"
     ],
     "category": [
-      "navigation"
+      "action"
     ],
     "type": "static"
   },
@@ -4136,15 +8131,101 @@
     "type": "static"
   },
   {
-    "name": "house",
+    "name": "hotel",
     "do": "",
     "dont": "",
     "tags": [
-      "home",
-      "index"
+      "sleep",
+      "trip",
+      "person",
+      "hotel",
+      "body",
+      "travel",
+      "human",
+      "people",
+      "stay"
     ],
     "category": [
-      "places"
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "hourglass_empty",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wait",
+      "waiting",
+      "minutes",
+      "hourglass",
+      "countdown",
+      "time",
+      "loading",
+      "empty",
+      "minute"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "hourglass_full",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wait",
+      "waiting",
+      "minutes",
+      "hourglass",
+      "countdown",
+      "time",
+      "loading",
+      "full",
+      "minute"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "http",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "character",
+      "website",
+      "transfer",
+      "letter",
+      "http",
+      "alphabet",
+      "text",
+      "type",
+      "url",
+      "font"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "https",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "lock",
+      "connection",
+      "https",
+      "locked",
+      "secure",
+      "key"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -4184,19 +8265,80 @@
     "type": "static"
   },
   {
-    "name": "image_search",
+    "name": "import_contacts",
     "do": "",
     "dont": "",
     "tags": [
-      "photography",
-      "photo",
-      "image",
-      "locate",
-      "edit",
-      "find"
+      "Import",
+      "address",
+      "book",
+      "information",
+      "contacts",
+      "friends",
+      "open",
+      "info"
     ],
     "category": [
-      "image"
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "import_export",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Import",
+      "arrow",
+      "explort",
+      "arrows",
+      "up",
+      "down",
+      "direction"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "important_devices",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "OS",
+      "star",
+      "mobile",
+      "monitor",
+      "iOS",
+      "Android",
+      "important",
+      "tablet",
+      "desktop",
+      "phone",
+      "web",
+      "device",
+      "hardware"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "inbox",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "incoming",
+      "mail",
+      "archive",
+      "message",
+      "inbox",
+      "email"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },
@@ -4211,6 +8353,223 @@
     ],
     "category": [
       "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "info",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alert",
+      "bubble",
+      "i",
+      "information",
+      "announcement",
+      "info"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "input",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "input",
+      "arrow",
+      "box",
+      "right"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "insert_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "data",
+      "infograpic",
+      "tracking",
+      "bars",
+      "graph",
+      "analytics",
+      "diagram",
+      "bar",
+      "measure",
+      "metrics",
+      "statstics",
+      "chart"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "insert_comment",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "feedback",
+      "bubble",
+      "chat",
+      "comment",
+      "message"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "insert_drive_file",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "file",
+      "slide",
+      "format",
+      "doc",
+      "insert",
+      "sheet",
+      "drive"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "insert_emoticon",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sentiment",
+      "face",
+      "emoji",
+      "person",
+      "happy",
+      "profile",
+      "emoticon",
+      "human",
+      "people",
+      "user",
+      "account",
+      "smile"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "insert_invitation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "date",
+      "remember",
+      "week",
+      "month",
+      "reminder",
+      "today",
+      "range",
+      "event",
+      "day",
+      "mark"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "insert_link",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "file",
+      "mail",
+      "link",
+      "attach",
+      "media",
+      "clip"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "insert_photo",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "images",
+      "mountain",
+      "collection",
+      "media",
+      "photos",
+      "photography"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "invert_colors",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "drop",
+      "color",
+      "droplet",
+      "invert",
+      "tone",
+      "hue",
+      "palette",
+      "inverted",
+      "water"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "invert_colors_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "drop",
+      "Invert",
+      "color",
+      "droplet",
+      "tone",
+      "water",
+      "enabled",
+      "off",
+      "hue",
+      "disabled",
+      "palette",
+      "slash",
+      "inverted",
+      "opacity",
+      "on"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -4427,21 +8786,6 @@
     "type": "static"
   },
   {
-    "name": "king_bed",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "furniture",
-      "bedroom",
-      "sleep",
-      "hotel"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
     "name": "kitchen",
     "do": "",
     "dont": "",
@@ -4453,6 +8797,22 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "label",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "indent",
+      "sticker",
+      "stamp",
+      "label",
+      "tag"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -4472,6 +8832,23 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "language",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "website",
+      "globe",
+      "world",
+      "planet",
+      "www",
+      "language"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -4557,6 +8934,69 @@
     "type": "static"
   },
   {
+    "name": "launch",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "new",
+      "arrow",
+      "box",
+      "launch",
+      "window",
+      "open"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "layers",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pages",
+      "maps",
+      "overlay",
+      "arrange",
+      "interaction",
+      "layers",
+      "disabled",
+      "slash",
+      "enabled",
+      "off",
+      "on"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "layers_clear",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "maps",
+      "overlay",
+      "clear",
+      "delete",
+      "enabled",
+      "off",
+      "pages",
+      "arrange",
+      "interaction",
+      "layers",
+      "disabled",
+      "slash",
+      "on"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "leak_add",
     "do": "",
     "dont": "",
@@ -4608,6 +9048,126 @@
     "type": "static"
   },
   {
+    "name": "library_add",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "music",
+      "Library",
+      "collection",
+      "video",
+      "plus"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "library_books",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "books",
+      "book",
+      "Library",
+      "audio",
+      "collection"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "library_music",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "song",
+      "music",
+      "Library",
+      "collection"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "line_style",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "spacing",
+      "line",
+      "rule",
+      "style",
+      "dash",
+      "dotted"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "line_weight",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "spacing",
+      "thickness",
+      "line",
+      "weight",
+      "style",
+      "height"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "linear_scale",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "slider",
+      "linear",
+      "measure",
+      "Ui",
+      "scale",
+      "menu"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "link",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chain",
+      "multimedia",
+      "link",
+      "connection",
+      "links",
+      "clip",
+      "url",
+      "linked"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
     "name": "linked_camera",
     "do": "",
     "dont": "",
@@ -4622,6 +9182,42 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "list",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "file",
+      "format",
+      "index",
+      "list",
+      "menu"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "live_help",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "help",
+      "symbol",
+      "question",
+      "information",
+      "support",
+      "mark",
+      "?",
+      "announcement",
+      "info"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -4642,6 +9238,307 @@
     "type": "static"
   },
   {
+    "name": "local_activity",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "star",
+      "ticket",
+      "things",
+      "event",
+      "local"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_atm",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "bill",
+      "pay",
+      "dollars",
+      "commerce",
+      "cart",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "atm",
+      "credit",
+      "cash",
+      "card",
+      "coin",
+      "shopping"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_bar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alcohol",
+      "bar",
+      "cocktail",
+      "bottle",
+      "liquor",
+      "drink",
+      "food",
+      "wine"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_cafe",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "tea",
+      "cafe",
+      "coffee",
+      "restaurant",
+      "bottle",
+      "drink",
+      "food",
+      "cup"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_car_wash",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "auto",
+      "car",
+      "wash",
+      "local",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_convenience_store",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "24",
+      "shop",
+      "business",
+      "buy",
+      "bill",
+      "pay",
+      "convenience",
+      "dollars",
+      "store",
+      "commerce",
+      "building",
+      "cart",
+      "local",
+      "market",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "cash",
+      "storefront",
+      "card",
+      "coin",
+      "shopping"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_dining",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "meal",
+      "fork",
+      "knife",
+      "restuarant",
+      "dining",
+      "spoon",
+      "eat",
+      "food",
+      "local"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_drink",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "tree",
+      "air",
+      "attr",
+      "fresh",
+      "park"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_florist",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "shop",
+      "florist",
+      "local",
+      "flower"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_gas_station",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "auto",
+      "oil",
+      "car",
+      "gas",
+      "station",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_grocery_store",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "market",
+      "shop",
+      "grocery",
+      "store"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_hospital",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cross",
+      "911",
+      "emergency",
+      "medicine",
+      "hospital",
+      "aid",
+      "first"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_laundry_service",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cleaning",
+      "washer",
+      "laundry",
+      "service",
+      "hotel",
+      "dry",
+      "dryer"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_library",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "library",
+      "read",
+      "book",
+      "community",
+      "local"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_mall",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "shop",
+      "business",
+      "buy",
+      "mall",
+      "bill",
+      "pay",
+      "dollars",
+      "store",
+      "commerce",
+      "building",
+      "cart",
+      "handbag",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "cash",
+      "storefront",
+      "card",
+      "coin",
+      "shopping"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "local_movies",
     "do": "",
     "dont": "",
@@ -4652,6 +9549,98 @@
       "film",
       "hollywood",
       "ticket"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_offer",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "offer",
+      "deal",
+      "shop",
+      "price",
+      "discount",
+      "store.",
+      "tag",
+      "shopping"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_parking",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "parking",
+      "symbol",
+      "auto",
+      "character",
+      "car",
+      "letter",
+      "alphabet",
+      "text",
+      "type",
+      "park",
+      "font",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_pharmacy",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cross",
+      "911",
+      "emergency",
+      "medicine",
+      "hospital",
+      "aid",
+      "first"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_phone",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "call",
+      "phone",
+      "communication",
+      "telecommunication",
+      "booth"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_pizza",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "meal",
+      "pizza",
+      "drink",
+      "fastfood",
+      "food"
     ],
     "category": [
       "maps"
@@ -4676,6 +9665,28 @@
     "type": "static"
   },
   {
+    "name": "local_post_office",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "parcel",
+      "package",
+      "mail",
+      "post",
+      "deliverey",
+      "letter",
+      "stamp",
+      "office",
+      "postal",
+      "send",
+      "shpping"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "local_printshop",
     "do": "",
     "dont": "",
@@ -4685,6 +9696,77 @@
       "printer",
       "pressroom",
       "ink"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_see",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "see",
+      "attraction",
+      "shop",
+      "explore",
+      "store",
+      "local"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_shipping",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "parcel",
+      "package",
+      "mail",
+      "maps",
+      "stamp",
+      "office",
+      "shpping",
+      "transportation",
+      "vehicle",
+      "automobile",
+      "cars",
+      "post",
+      "car",
+      "deliverey",
+      "letter",
+      "postal",
+      "send",
+      "shopping"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_taxi",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "maps",
+      "cab",
+      "taxi",
+      "yellow",
+      "lyft",
+      "uber",
+      "transportation",
+      "vehicle",
+      "automobile",
+      "call",
+      "cars",
+      "public",
+      "car",
+      "direction"
     ],
     "category": [
       "maps"
@@ -4703,6 +9785,134 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "location_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pointer",
+      "maps",
+      "destination",
+      "tracking",
+      "enabled",
+      "off",
+      "pin",
+      "stop",
+      "disabled",
+      "location",
+      "slash",
+      "place",
+      "direction",
+      "on"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "location_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "maps",
+      "pin",
+      "stop",
+      "destination",
+      "disabled",
+      "location",
+      "slash",
+      "place",
+      "enabled",
+      "off",
+      "direction",
+      "on"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "location_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "maps",
+      "pin",
+      "stop",
+      "destination",
+      "disabled",
+      "location",
+      "slash",
+      "place",
+      "enabled",
+      "off",
+      "direction",
+      "on"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "location_searching",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pointer",
+      "maps",
+      "pin",
+      "stop",
+      "destination",
+      "location",
+      "place",
+      "tracking",
+      "direction"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "lock",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "private",
+      "safe",
+      "lock",
+      "privacy",
+      "connection",
+      "locked",
+      "secure",
+      "key"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "lock_open",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "lock",
+      "connection",
+      "locked",
+      "secure",
+      "key",
+      "open",
+      "unlocked"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -4826,6 +10036,23 @@
     "type": "static"
   },
   {
+    "name": "loop",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Loop",
+      "rotate",
+      "music",
+      "arrow",
+      "repeat",
+      "arrows"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
     "name": "loupe",
     "do": "",
     "dont": "",
@@ -4839,6 +10066,46 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "low_priority",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrange",
+      "arrow",
+      "low",
+      "bottom",
+      "priority",
+      "move backward",
+      "order"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "loyalty",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "trip",
+      "loyalty",
+      "membership",
+      "program",
+      "tag",
+      "credit",
+      "travel",
+      "card",
+      "heart",
+      "miles",
+      "points"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -4861,20 +10128,43 @@
     "type": "static"
   },
   {
-    "name": "meeting_room",
+    "name": "map",
     "do": "",
     "dont": "",
     "tags": [
-      "door",
-      "entrance",
-      "access",
-      "doorway",
-      "gate",
-      "entry",
-      "portal"
+      "route",
+      "maps",
+      "pin",
+      "stop",
+      "destination",
+      "location",
+      "place",
+      "direction"
     ],
     "category": [
-      "places"
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "markunread_mailbox",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "receive",
+      "mailbox",
+      "mail",
+      "post",
+      "postbox",
+      "unread",
+      "letter",
+      "deliver",
+      "postal",
+      "envelop",
+      "send"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -4909,18 +10199,98 @@
     "type": "static"
   },
   {
-    "name": "menu_open",
+    "name": "merge_type",
     "do": "",
     "dont": "",
     "tags": [
-      "menu",
-      "list",
-      "navigate",
-      "expanded",
-      "unravel"
+      "margin",
+      "arrow",
+      "format",
+      "text",
+      "type",
+      "combine"
     ],
     "category": [
-      "navigation"
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "message",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Message",
+      "bubble",
+      "speech",
+      "chat",
+      "talk",
+      "text"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mic",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "voice",
+      "Mic",
+      "record",
+      "sound",
+      "noise",
+      "hearing",
+      "microphone",
+      "hear"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mic_none",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "voice",
+      "Mic",
+      "record",
+      "sound",
+      "noise",
+      "hearing",
+      "microphone",
+      "hear"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mic_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "voice",
+      "Mic",
+      "sound",
+      "enabled",
+      "off",
+      "record",
+      "noise",
+      "hearing",
+      "disabled",
+      "slash",
+      "microphone",
+      "hear",
+      "on"
+    ],
+    "category": [
+      "av"
     ],
     "type": "static"
   },
@@ -4937,6 +10307,79 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mode_comment",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bubble",
+      "speech",
+      "chat",
+      "comment"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "monetization_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "bill",
+      "pay",
+      "dollars",
+      "commerce",
+      "cart",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "circle",
+      "credit",
+      "cash",
+      "card",
+      "coin",
+      "shopping"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "money_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "bill",
+      "pay",
+      "dollars",
+      "commerce",
+      "cart",
+      "enabled",
+      "off",
+      "money",
+      "online",
+      "currency",
+      "disabled",
+      "payment",
+      "slash",
+      "credit",
+      "cash",
+      "card",
+      "coin",
+      "on",
+      "shopping"
+    ],
+    "category": [
+      "editor"
     ],
     "type": "static"
   },
@@ -5033,6 +10476,29 @@
     "type": "static"
   },
   {
+    "name": "motorcycle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "motorcycle",
+      "cars",
+      "maps",
+      "public",
+      "car",
+      "scooter",
+      "sport",
+      "bike",
+      "direction",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "mouse",
     "do": "",
     "dont": "",
@@ -5042,6 +10508,41 @@
     ],
     "category": [
       "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "move_to_inbox",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "incoming",
+      "mail",
+      "arrow",
+      "archive",
+      "message",
+      "inbox",
+      "email"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "movie",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Movie",
+      "cinema",
+      "film",
+      "media",
+      "video",
+      "slate"
+    ],
+    "category": [
+      "av"
     ],
     "type": "static"
   },
@@ -5078,6 +10579,30 @@
     "type": "static"
   },
   {
+    "name": "multiline_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "data",
+      "infograpic",
+      "multiple",
+      "tracking",
+      "bars",
+      "graph",
+      "analytics",
+      "diagram",
+      "bar",
+      "measure",
+      "metrics",
+      "statstics",
+      "chart"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
     "name": "music_note",
     "do": "",
     "dont": "",
@@ -5092,16 +10617,40 @@
     "type": "static"
   },
   {
-    "name": "music_off",
+    "name": "music_video",
     "do": "",
     "dont": "",
     "tags": [
-      "musical",
-      "tune",
-      "song"
+      "tv",
+      "watch",
+      "Music",
+      "recording",
+      "screen",
+      "band",
+      "video"
     ],
     "category": [
-      "image"
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "my_location",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "navigation",
+      "maps",
+      "pin",
+      "stop",
+      "destination",
+      "location",
+      "place",
+      "point",
+      "direction"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
@@ -5130,6 +10679,46 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "navigation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "navigation",
+      "maps",
+      "pin",
+      "stop",
+      "destination",
+      "location",
+      "place",
+      "point",
+      "direction"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "near_me",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "navigation",
+      "maps",
+      "pin",
+      "stop",
+      "destination",
+      "location",
+      "place",
+      "point",
+      "direction"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
@@ -5163,17 +10752,58 @@
     "type": "static"
   },
   {
-    "name": "nights_stay",
+    "name": "new_releases",
     "do": "",
     "dont": "",
     "tags": [
-      "sleep",
-      "hotel",
-      "travel",
-      "service"
+      "!",
+      "New",
+      "star",
+      "alert",
+      "release",
+      "attention",
+      "exclamation",
+      "burst",
+      "announcement",
+      "releases"
     ],
     "category": [
-      "social"
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "next_week",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "next",
+      "schedule",
+      "week",
+      "arrow",
+      "briefcase",
+      "work"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "nfc",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "data",
+      "field",
+      "mobile",
+      "wireless",
+      "near",
+      "communication"
+    ],
+    "category": [
+      "device"
     ],
     "type": "static"
   },
@@ -5195,20 +10825,74 @@
     "type": "static"
   },
   {
-    "name": "no_meeting_room",
+    "name": "no_sim",
     "do": "",
     "dont": "",
     "tags": [
-      "door",
-      "entrance",
-      "forbidden",
-      "doorway",
-      "gate",
-      "entry",
-      "portal"
+      "eject",
+      "memory",
+      "phone",
+      "Sim",
+      "insert",
+      "storage",
+      "camera",
+      "device",
+      "card"
     ],
     "category": [
-      "places"
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "not_interested",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "no",
+      "dislike",
+      "x",
+      "circle",
+      "Not interested",
+      "off"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "note",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bookmark",
+      "paper",
+      "Note",
+      "message",
+      "mark"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "note_add",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "new",
+      "note",
+      "file",
+      "documentation",
+      "doc",
+      "comment",
+      "plus"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -5294,6 +10978,21 @@
     "type": "static"
   },
   {
+    "name": "offline_pin",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "offline",
+      "pin",
+      "checkmark",
+      "circle"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "ondemand_video",
     "do": "",
     "dont": "",
@@ -5308,18 +11007,73 @@
     "type": "static"
   },
   {
-    "name": "outdoor_grill",
+    "name": "opacity",
     "do": "",
     "dont": "",
     "tags": [
-      "camping",
-      "travel",
-      "barbecue",
-      "bbq",
-      "food"
+      "drop",
+      "color",
+      "droplet",
+      "invert",
+      "tone",
+      "hue",
+      "palette",
+      "inverted",
+      "opacity",
+      "water"
     ],
     "category": [
-      "social"
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "open_in_browser",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "new",
+      "arrow",
+      "browser",
+      "box",
+      "window",
+      "open"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "open_in_new",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "new",
+      "arrow",
+      "box",
+      "window",
+      "open"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "open_with",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "expand",
+      "move",
+      "arrow",
+      "arrows",
+      "open",
+      "direction"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -5334,6 +11088,24 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pageview",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "search",
+      "paper",
+      "find",
+      "document",
+      "doc",
+      "magnifying glass",
+      "page"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -5353,6 +11125,27 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pan_tool",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "move",
+      "hands",
+      "stop",
+      "scan",
+      "fingers",
+      "pan",
+      "human",
+      "tool",
+      "gesture",
+      "hand"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -5454,22 +11247,74 @@
     "type": "static"
   },
   {
-    "name": "people",
+    "name": "pause",
     "do": "",
     "dont": "",
     "tags": [
-      "group",
-      "team",
-      "business",
-      "users"
+      "Pause",
+      "controls",
+      "music",
+      "control",
+      "video"
     ],
     "category": [
-      "social"
+      "av"
     ],
     "type": "static"
   },
   {
-    "name": "people_alt",
+    "name": "pause_circle_filled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Pause",
+      "controls",
+      "music",
+      "control",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pause_circle_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Pause",
+      "controls",
+      "music",
+      "control",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "payment",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "charge",
+      "money",
+      "pay",
+      "information",
+      "payment",
+      "credit",
+      "card",
+      "info"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "people",
     "do": "",
     "dont": "",
     "tags": [
@@ -5495,6 +11340,141 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "perm_camera_mic",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mic",
+      "speaker",
+      "photo",
+      "camera",
+      "microphone"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "perm_contact_calendar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "face",
+      "person",
+      "contact",
+      "profile",
+      "information",
+      "human",
+      "people",
+      "user",
+      "account"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "perm_data_setting",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "settings",
+      "data",
+      "information",
+      "gear",
+      "info"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "perm_device_information",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "OS",
+      "mobile",
+      "i",
+      "iOS",
+      "Android",
+      "important",
+      "tablet",
+      "alert",
+      "phone",
+      "information",
+      "device",
+      "announcement",
+      "hardware",
+      "info"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "perm_media",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "images",
+      "mountain",
+      "folder",
+      "folders",
+      "save",
+      "collection",
+      "media"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "perm_phone_msg",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "voice",
+      "bubble",
+      "phone",
+      "speech",
+      "chat",
+      "save",
+      "recording",
+      "message"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "perm_scan_wifi",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wifi",
+      "alert",
+      "service",
+      "scan",
+      "information",
+      "internet",
+      "announcement",
+      "info",
+      "network"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -5544,6 +11524,56 @@
     "type": "static"
   },
   {
+    "name": "person_pin",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "maps",
+      "profile",
+      "destination",
+      "people",
+      "face",
+      "pin",
+      "stop",
+      "person",
+      "location",
+      "place",
+      "human",
+      "user",
+      "account",
+      "direction"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "person_pin_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "maps",
+      "profile",
+      "destination",
+      "people",
+      "face",
+      "pin",
+      "stop",
+      "person",
+      "location",
+      "place",
+      "human",
+      "user",
+      "account",
+      "direction"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "personal_video",
     "do": "",
     "dont": "",
@@ -5554,6 +11584,39 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pets",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "paw",
+      "animal",
+      "dog",
+      "pet",
+      "hand"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phone",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "call",
+      "Phone",
+      "chat",
+      "mobile",
+      "text",
+      "device"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -5584,22 +11647,6 @@
       "audio",
       "volume",
       "connectivity"
-    ],
-    "category": [
-      "notification"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "phone_callback",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "mobile",
-      "smartphone",
-      "call",
-      "communication",
-      "incoming"
     ],
     "category": [
       "notification"
@@ -5711,6 +11758,52 @@
     "type": "static"
   },
   {
+    "name": "phonelink_erase",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "call",
+      "tablet",
+      "erase",
+      "OS",
+      "phone",
+      "chat",
+      "mobile",
+      "text",
+      "iOS",
+      "device",
+      "Android",
+      "hardware"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phonelink_lock",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "call",
+      "tablet",
+      "OS",
+      "phone",
+      "chat",
+      "mobile",
+      "lock",
+      "text",
+      "iOS",
+      "device",
+      "Android",
+      "hardware"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "phonelink_off",
     "do": "",
     "dont": "",
@@ -5725,6 +11818,53 @@
     ],
     "category": [
       "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phonelink_ring",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "call",
+      "tablet",
+      "OS",
+      "phone",
+      "ring",
+      "chat",
+      "mobile",
+      "text",
+      "iOS",
+      "device",
+      "Android",
+      "hardware"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phonelink_setup",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "setup. settings",
+      "OS",
+      "mobile",
+      "iOS",
+      "Android",
+      "call",
+      "tablet",
+      "phone",
+      "chat",
+      "text",
+      "device",
+      "hardware",
+      "info"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -5852,6 +11992,226 @@
     "type": "static"
   },
   {
+    "name": "picture_in_picture",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "overlap",
+      "shape",
+      "photo",
+      "cropped",
+      "crop",
+      "picture"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "picture_in_picture_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "overlap",
+      "shape",
+      "photo",
+      "cropped",
+      "crop",
+      "picture"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pie_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "data",
+      "infograpic",
+      "pie",
+      "tracking",
+      "bars",
+      "graph",
+      "analytics",
+      "diagram",
+      "bar",
+      "measure",
+      "metrics",
+      "statstics",
+      "chart"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pin_drop",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "navigation",
+      "maps",
+      "pin",
+      "stop",
+      "destination",
+      "location",
+      "place",
+      "point",
+      "direction"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "place",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "navigation",
+      "maps",
+      "pin",
+      "stop",
+      "destination",
+      "location",
+      "place",
+      "point",
+      "direction"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "play_arrow",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Play",
+      "controls",
+      "music",
+      "arrow",
+      "control",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "play_circle_filled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Play",
+      "controls",
+      "music",
+      "arrow",
+      "control",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "play_circle_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Play",
+      "controls",
+      "music",
+      "arrow",
+      "control",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "play_for_work",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "play",
+      "half",
+      "arrow",
+      "work",
+      "google",
+      "circle",
+      "down"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "playlist_add",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "play",
+      "Playlist",
+      "music",
+      "collection",
+      "list",
+      "plus"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "playlist_add_check",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "play",
+      "Playlist",
+      "music",
+      "checkmark",
+      "check",
+      "collection",
+      "list"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "playlist_play",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "play",
+      "Playlist",
+      "music",
+      "collection",
+      "list"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
     "name": "plus_one",
     "do": "",
     "dont": "",
@@ -5884,6 +12244,21 @@
     "type": "static"
   },
   {
+    "name": "polymer",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "polymer",
+      "logo",
+      "emblem",
+      "mark"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "pool",
     "do": "",
     "dont": "",
@@ -5894,6 +12269,30 @@
     ],
     "category": [
       "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "portable_wifi_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "usage",
+      "portable",
+      "enabled",
+      "off",
+      "connected",
+      "service",
+      "connection",
+      "disabled",
+      "slash",
+      "Wifi",
+      "device",
+      "internet",
+      "on"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -5946,18 +12345,79 @@
     "type": "static"
   },
   {
-    "name": "power_off",
+    "name": "power_settings_new",
     "do": "",
     "dont": "",
     "tags": [
-      "energy",
-      "switch",
-      "electricity",
+      "settings",
+      "save",
+      "information",
+      "power",
+      "off",
       "shutdown",
-      "disabled"
+      "info",
+      "on"
     ],
     "category": [
-      "notification"
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pregnant_woman",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "woman",
+      "birth",
+      "mom",
+      "body",
+      "people",
+      "mother",
+      "maternity",
+      "person",
+      "baby",
+      "lady",
+      "female",
+      "human",
+      "pregnant"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "present_to_all",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow\nall",
+      "screen",
+      "share",
+      "Presentation",
+      "present",
+      "device"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "print",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "print",
+      "paper",
+      "draft",
+      "ink",
+      "printer",
+      "send"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -5990,6 +12450,141 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "publish",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cloud",
+      "file",
+      "import",
+      "arrow",
+      "upload",
+      "publish",
+      "up"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "query_builder",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "hour",
+      "query",
+      "builder",
+      "save",
+      "clock",
+      "time",
+      "minute"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "question_answer",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "answer",
+      "question",
+      "bubble",
+      "speech",
+      "converse",
+      "talk",
+      "conversation"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "queue",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "music",
+      "playlist",
+      "stream",
+      "collection",
+      "video",
+      "list",
+      "Queue"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "queue_music",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "music",
+      "playlist",
+      "stream",
+      "collection",
+      "list",
+      "Queue"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "queue_play_next",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "next",
+      "play",
+      "arrow",
+      "screen",
+      "monitor",
+      "collection",
+      "video",
+      "list",
+      "plus",
+      "desktop",
+      "music",
+      "playlist",
+      "Queue",
+      "device"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "radio",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "antenna",
+      "music",
+      "Radio",
+      "device",
+      "listen",
+      "tune",
+      "player"
+    ],
+    "category": [
+      "av"
     ],
     "type": "static"
   },
@@ -6028,6 +12623,135 @@
     "type": "static"
   },
   {
+    "name": "rate_review",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "feedback",
+      "rate",
+      "review",
+      "pen",
+      "comment",
+      "stars",
+      "pencil",
+      "write"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "receipt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sale",
+      "paper",
+      "bill",
+      "payment",
+      "receipt",
+      "invoice",
+      "credit"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "recent_actors",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Recent",
+      "actors",
+      "cards",
+      "profile",
+      "carousel",
+      "human",
+      "user",
+      "card"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "record_voice_over",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "voice",
+      "profile",
+      "recording",
+      "people",
+      "face",
+      "speaking",
+      "transcript",
+      "speech",
+      "person",
+      "speak",
+      "human",
+      "user",
+      "account"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "redeem",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "gift",
+      "giftcard",
+      "certificate",
+      "bill",
+      "pay",
+      "dollars",
+      "commerce",
+      "cart",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "redeem",
+      "credit",
+      "present",
+      "cash",
+      "card",
+      "coin",
+      "shopping"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "redo",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "next",
+      "rotate",
+      "undo",
+      "arrow",
+      "forward",
+      "repeat",
+      "backward",
+      "redo"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
     "name": "refresh",
     "do": "",
     "dont": "",
@@ -6042,6 +12766,82 @@
     "type": "static"
   },
   {
+    "name": "remove",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "can",
+      "minus",
+      "negative",
+      "delete",
+      "remove",
+      "substract",
+      "trash"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "remove_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "can",
+      "minus",
+      "negative",
+      "block",
+      "circle",
+      "delete",
+      "remove",
+      "substract",
+      "trash"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "remove_circle_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "can",
+      "minus",
+      "negative",
+      "block",
+      "circle",
+      "delete",
+      "remove",
+      "substract",
+      "trash"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "remove_from_queue",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "screen",
+      "monitor",
+      "collection",
+      "list",
+      "Queue",
+      "device",
+      "remove"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
     "name": "remove_red_eye",
     "do": "",
     "dont": "",
@@ -6052,6 +12852,377 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "remove_shopping_cart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disabled",
+      "slash",
+      "checkout",
+      "cart",
+      "enabled",
+      "off",
+      "remove",
+      "on",
+      "shopping"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "reorder",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "stacked",
+      "format",
+      "reorder",
+      "lines",
+      "list",
+      "order"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "repeat",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "controls",
+      "music",
+      "arrow",
+      "arrows",
+      "Repeat",
+      "control",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "repeat_one",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "1",
+      "number",
+      "symbol",
+      "controls",
+      "music",
+      "arrow",
+      "arrows",
+      "Repeat",
+      "control",
+      "video",
+      "digit"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "replay",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "controls",
+      "music",
+      "arrow",
+      "Replay",
+      "repeat",
+      "arrows",
+      "control",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "replay_10",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "number",
+      "symbol",
+      "controls",
+      "music",
+      "arrow",
+      "Replay",
+      "repeat",
+      "arrows",
+      "control",
+      "video",
+      "10",
+      "digit"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "replay_30",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "number",
+      "symbol",
+      "controls",
+      "music",
+      "arrow",
+      "Replay",
+      "repeat",
+      "arrows",
+      "control",
+      "video",
+      "30",
+      "digit"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "replay_5",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "number",
+      "symbol",
+      "controls",
+      "music",
+      "5",
+      "arrow",
+      "Replay",
+      "repeat",
+      "arrows",
+      "control",
+      "video",
+      "digit"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "reply",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mail",
+      "arrow",
+      "left",
+      "backward",
+      "share",
+      "message",
+      "reply",
+      "send"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "reply_all",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "all",
+      "mail",
+      "arrow",
+      "left",
+      "backward",
+      "share",
+      "message",
+      "reply",
+      "send",
+      "group"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "report",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "notification",
+      "symbol",
+      "alert",
+      "octagon",
+      "attention",
+      "warning",
+      "exclamation",
+      "danger",
+      "error",
+      "caution",
+      "mark"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "report_problem",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "symbol",
+      "exclamation",
+      "danger",
+      "error",
+      "triangle",
+      "feedback",
+      "notification",
+      "problem",
+      "alert",
+      "report",
+      "attention",
+      "warning",
+      "caution",
+      "mark"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "restaurant",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "meal",
+      "fork",
+      "knife",
+      "restuarant",
+      "dining",
+      "spoon",
+      "eat",
+      "food",
+      "local"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "restaurant_menu",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "meal",
+      "fork",
+      "knife",
+      "restuarant",
+      "dining",
+      "book",
+      "spoon",
+      "eat",
+      "menu",
+      "food",
+      "local"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "restore",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rotate",
+      "restore",
+      "arrow",
+      "back",
+      "refresh",
+      "clock",
+      "history",
+      "time",
+      "reverse",
+      "backwards"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "restore_page",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rotate",
+      "paper",
+      "restore",
+      "arrow",
+      "refresh",
+      "page"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "ring_volume",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "call",
+      "volume",
+      "ring",
+      "Phone",
+      "sound",
+      "mobile",
+      "device",
+      "ringer"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "room",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pin",
+      "marker",
+      "spot",
+      "place",
+      "map",
+      "mark",
+      "room"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -6115,6 +13286,22 @@
     "type": "static"
   },
   {
+    "name": "rounded_corner",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "square",
+      "transform",
+      "corner",
+      "shape",
+      "rounded"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "router",
     "do": "",
     "dont": "",
@@ -6126,6 +13313,43 @@
     ],
     "category": [
       "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "rowing",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "rowing",
+      "canoe",
+      "person",
+      "body",
+      "human",
+      "people",
+      "sport",
+      "water",
+      "boat"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "rss_feed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "feed",
+      "website",
+      "Rss",
+      "application",
+      "blog"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -6149,6 +13373,39 @@
     "type": "static"
   },
   {
+    "name": "satellite",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "images",
+      "mountain",
+      "maps",
+      "location",
+      "satellite"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "save",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disk",
+      "multimedia",
+      "file",
+      "floppy",
+      "document",
+      "save"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
     "name": "scanner",
     "do": "",
     "dont": "",
@@ -6158,6 +13415,24 @@
     ],
     "category": [
       "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "schedule",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "date",
+      "schedule",
+      "save",
+      "clock",
+      "time",
+      "mark"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -6173,6 +13448,122 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "screen_lock_landscape",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rotate",
+      "tablet",
+      "OS",
+      "phone",
+      "mobile",
+      "lock",
+      "screen",
+      "iOS",
+      "device",
+      "landscape",
+      "Android",
+      "hardware"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "screen_lock_portrait",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rotate",
+      "tablet",
+      "OS",
+      "phone",
+      "mobile",
+      "lock",
+      "screen",
+      "iOS",
+      "portrait",
+      "device",
+      "Android",
+      "hardware"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "screen_lock_rotation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rotate",
+      "tablet",
+      "OS",
+      "arrow",
+      "phone",
+      "mobile",
+      "lock",
+      "screen",
+      "iOS",
+      "device",
+      "Android",
+      "hardware"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "screen_rotation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rotate",
+      "tablet",
+      "OS",
+      "arrow",
+      "phone",
+      "mobile",
+      "lock",
+      "screen",
+      "iOS",
+      "device",
+      "Android",
+      "hardware"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "screen_share",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mirror",
+      "OS",
+      "arrow",
+      "screen",
+      "monitor",
+      "iOS",
+      "laptop",
+      "Android",
+      "desktop",
+      "web",
+      "share",
+      "device",
+      "hardware"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -6194,6 +13585,42 @@
     "type": "static"
   },
   {
+    "name": "sd_storage",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "digital",
+      "sd",
+      "memory",
+      "data",
+      "storage",
+      "camera",
+      "secure",
+      "card"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "search",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "filter",
+      "cearch",
+      "look up",
+      "magnifying glass",
+      "look",
+      "magnify"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "security",
     "do": "",
     "dont": "",
@@ -6205,6 +13632,41 @@
     ],
     "category": [
       "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "select_all",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "all",
+      "square",
+      "select",
+      "selection",
+      "tool"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "send",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "plane",
+      "mail",
+      "paper",
+      "airplane",
+      "right",
+      "message",
+      "reply",
+      "send"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },
@@ -6271,6 +13733,310 @@
     "type": "static"
   },
   {
+    "name": "settings",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "settings",
+      "application",
+      "service",
+      "save",
+      "details",
+      "information",
+      "personal",
+      "info"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_applications",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "settings",
+      "application",
+      "service",
+      "save",
+      "details",
+      "information",
+      "personal",
+      "info"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_backup_restore",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rotate",
+      "settings",
+      "backup",
+      "restore",
+      "arrow",
+      "back",
+      "refresh",
+      "reverse",
+      "backwards"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_bluetooth",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "settings",
+      "wifi",
+      "bluetooth",
+      "connectivity",
+      "connection",
+      "connect"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_brightness",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mode",
+      "settings",
+      "brightness",
+      "light",
+      "dark"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_cell",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "settings",
+      "tablet",
+      "OS",
+      "phone",
+      "mobile",
+      "iOS",
+      "device",
+      "Android",
+      "hardware"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_ethernet",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "ethernet",
+      "settings",
+      "wifi",
+      "connectivity",
+      "dots",
+      "arrows",
+      "connection",
+      "connect"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_input_antenna",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "antenna",
+      "input",
+      "settings",
+      "connectivity",
+      "connection",
+      "connect"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_input_component",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "input",
+      "settings",
+      "component",
+      "connectivity",
+      "connection",
+      "plug",
+      "points"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_input_hdmi",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "input",
+      "settings",
+      "connectivity",
+      "plugin",
+      "hdmi",
+      "connection",
+      "plug",
+      "points"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_input_svideo",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "input",
+      "settings",
+      "connectivity",
+      "plugin",
+      "svideo",
+      "connection",
+      "plug",
+      "points"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_overscan",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "settings",
+      "expand",
+      "arrows",
+      "scan",
+      "photo",
+      "picture"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_phone",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "settings",
+      "phone",
+      "mobile",
+      "cell",
+      "device"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_power",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "settings",
+      "save",
+      "information",
+      "power",
+      "off",
+      "shutdown",
+      "info",
+      "on"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_remote",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "settings",
+      "wifi",
+      "bluetooth",
+      "remote"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_system_daydream",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cloud",
+      "system",
+      "daydream",
+      "setting"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "settings_voice",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "voice",
+      "settings",
+      "recorder",
+      "mic",
+      "record",
+      "speaker",
+      "microphone"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "share",
     "do": "",
     "dont": "",
@@ -6285,19 +14051,297 @@
     "type": "static"
   },
   {
-    "name": "shutter_speed",
+    "name": "shop",
     "do": "",
     "dont": "",
     "tags": [
-      "camera",
-      "setting",
-      "speedometer",
-      "performance ",
-      "fast",
-      "photo shoot"
+      "add",
+      "play",
+      "shop",
+      "buy",
+      "bill",
+      "pay",
+      "dollars",
+      "google",
+      "commerce",
+      "cart",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "cash",
+      "card",
+      "coin",
+      "shopping"
     ],
     "category": [
-      "image"
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "shop_two",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "play",
+      "shop",
+      "arrow",
+      "buy",
+      "purchase",
+      "google",
+      "cart",
+      "shopping"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "shopping_basket",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "buy",
+      "bill",
+      "pay",
+      "dollars",
+      "commerce",
+      "cart",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "cash",
+      "checkout",
+      "card",
+      "coin",
+      "shopping"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "shopping_cart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "buy",
+      "bill",
+      "pay",
+      "dollars",
+      "commerce",
+      "cart",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "cash",
+      "checkout",
+      "card",
+      "coin",
+      "shopping"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "short_text",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "brief",
+      "note",
+      "document",
+      "doc",
+      "short",
+      "comment",
+      "text"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "show_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "data",
+      "line",
+      "infograpic",
+      "tracking",
+      "bars",
+      "graph",
+      "analytics",
+      "diagram",
+      "presentation",
+      "bar",
+      "measure",
+      "metrics",
+      "statstics",
+      "chart"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "shuffle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "controls",
+      "music",
+      "Shuffle",
+      "arrow",
+      "arrows",
+      "control",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "signal_cellular_no_sim",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wifi",
+      "celluar",
+      "data",
+      "mobile",
+      "cell",
+      "enabled",
+      "off",
+      "speed",
+      "network",
+      "phone",
+      "sim",
+      "disabled",
+      "slash",
+      "wireless",
+      "signal",
+      "internet",
+      "on"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "signal_cellular_null",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wifi",
+      "celluar",
+      "data",
+      "null",
+      "phone",
+      "mobile",
+      "wireless",
+      "cell",
+      "signal",
+      "internet",
+      "speed",
+      "network"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "signal_cellular_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wifi",
+      "celluar",
+      "data",
+      "mobile",
+      "cell",
+      "enabled",
+      "off",
+      "speed",
+      "network",
+      "phone",
+      "disabled",
+      "slash",
+      "wireless",
+      "signal",
+      "internet",
+      "on"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "signal_wifi_4_bar_lock",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wifi",
+      "celluar",
+      "data",
+      "phone",
+      "mobile",
+      "lock",
+      "wireless",
+      "cell",
+      "signal",
+      "internet",
+      "speed",
+      "network"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "signal_wifi_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wifi",
+      "celluar",
+      "data",
+      "mobile",
+      "cell",
+      "enabled",
+      "off",
+      "speed",
+      "network",
+      "phone",
+      "disabled",
+      "slash",
+      "wireless",
+      "signal",
+      "internet",
+      "on"
+    ],
+    "category": [
+      "device"
     ],
     "type": "static"
   },
@@ -6315,17 +14359,42 @@
     "type": "static"
   },
   {
-    "name": "single_bed",
+    "name": "skip_next",
     "do": "",
     "dont": "",
     "tags": [
-      "sleep",
-      "single room",
-      "hotel",
-      "furniture"
+      "next",
+      "play",
+      "controls",
+      "music",
+      "previous",
+      "arrow",
+      "Skip",
+      "control",
+      "video"
     ],
     "category": [
-      "social"
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "skip_previous",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "next",
+      "play",
+      "controls",
+      "music",
+      "previous",
+      "arrow",
+      "Skip",
+      "control",
+      "video"
+    ],
+    "category": [
+      "av"
     ],
     "type": "static"
   },
@@ -6342,6 +14411,25 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "slow_motion_video",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "play",
+      "controls",
+      "music",
+      "motion",
+      "arrow",
+      "Slow",
+      "control",
+      "video"
+    ],
+    "category": [
+      "av"
     ],
     "type": "static"
   },
@@ -6426,6 +14514,64 @@
     "type": "static"
   },
   {
+    "name": "snooze",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "timer",
+      "Snooze",
+      "set",
+      "alarm",
+      "z",
+      "clock",
+      "time"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sort",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "filter",
+      "organize",
+      "find",
+      "sort",
+      "list"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sort_by_alpha",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "alphabetize",
+      "alphabet",
+      "list",
+      "type",
+      "character",
+      "organize",
+      "letter",
+      "Sort",
+      "az",
+      "text",
+      "font",
+      "order"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
     "name": "spa",
     "do": "",
     "dont": "",
@@ -6437,6 +14583,21 @@
     ],
     "category": [
       "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "space_bar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "keyboard",
+      "bar",
+      "line",
+      "space"
+    ],
+    "category": [
+      "editor"
     ],
     "type": "static"
   },
@@ -6476,243 +14637,95 @@
     "type": "static"
   },
   {
-    "name": "sports",
+    "name": "speaker_notes",
     "do": "",
     "dont": "",
     "tags": [
-      "sport",
-      "game",
-      "activity"
+      "note",
+      "cards",
+      "notes",
+      "bubble",
+      "speech",
+      "speaker",
+      "format",
+      "comment",
+      "list"
     ],
     "category": [
-      "social"
+      "action"
     ],
     "type": "static"
   },
   {
-    "name": "sports_baseball",
+    "name": "speaker_notes_off",
     "do": "",
     "dont": "",
     "tags": [
-      "activities",
-      "game",
-      "tennis"
+      "note",
+      "cards",
+      "notes",
+      "format",
+      "list",
+      "enabled",
+      "off",
+      "bubble",
+      "speech",
+      "speaker",
+      "comment",
+      "disabled",
+      "slash",
+      "on"
     ],
     "category": [
-      "social"
+      "action"
     ],
     "type": "static"
   },
   {
-    "name": "sports_basketball",
+    "name": "speaker_phone",
     "do": "",
     "dont": "",
     "tags": [
-      "sport",
-      "game",
-      "activity"
+      "volume",
+      "tablet",
+      "OS",
+      "phone",
+      "sound",
+      "mobile",
+      "iOS",
+      "device",
+      "Android",
+      "Speaker",
+      "hardware"
     ],
     "category": [
-      "social"
+      "communication"
     ],
     "type": "static"
   },
   {
-    "name": "sports_cricket",
+    "name": "spellcheck",
     "do": "",
     "dont": "",
     "tags": [
-      "sport",
-      "game",
-      "bat ball",
-      "activity"
+      "a",
+      "spell",
+      "symbol",
+      "edit",
+      "alphabet",
+      "check",
+      "type",
+      "processor",
+      "character",
+      "letter",
+      "checkmark",
+      "text",
+      "word",
+      "write",
+      "font"
     ],
     "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "sports_esports",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "sport",
-      "electronic sports",
-      "video game",
-      "gamer",
-      "activity"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "sports_football",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "sport",
-      "goal",
-      "game",
-      "activity"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "sports_golf",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "sport",
-      "game",
-      "activity"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "sports_handball",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "sport",
-      "olympics",
-      "game",
-      "activity"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "sports_hockey",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "sport",
-      "ice",
-      "hockey stick",
-      "game",
-      "activity"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "sports_kabaddi",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "sport",
-      "ground",
-      "game",
-      "activity"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "sports_mma",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "sport",
-      "fight",
-      "fighter",
-      "martial arts",
-      "wrestling",
-      "activity"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "sports_motorsports",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "sport",
-      "bike",
-      "motorcycle",
-      "wheel",
-      "game",
-      "activity"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "sports_rugby",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "sport",
-      "ball",
-      "game",
-      "activity"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "sports_soccer",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "sport",
-      "football",
-      "goal",
-      "game",
-      "activity"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "sports_tennis",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "sport",
-      "game",
-      "activity"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "sports_volleyball",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "activities",
-      "game",
-      "beach ball"
-    ],
-    "category": [
-      "social"
+      "action"
     ],
     "type": "static"
   },
@@ -6767,18 +14780,176 @@
     "type": "static"
   },
   {
-    "name": "storefront",
+    "name": "stars",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "love",
+      "star",
+      "like",
+      "rate",
+      "rating",
+      "circle",
+      "favorite"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "stay_current_landscape",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "tablet",
+      "current",
+      "Landscape",
+      "OS",
+      "phone",
+      "mobile",
+      "iOS",
+      "device",
+      "Android",
+      "hardware",
+      "stay"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "stay_current_portrait",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "tablet",
+      "current",
+      "OS",
+      "phone",
+      "mobile",
+      "Portrait",
+      "iOS",
+      "device",
+      "Android",
+      "hardware",
+      "stay"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "stop",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "play",
+      "controls",
+      "music",
+      "vide",
+      "Stop",
+      "arrow",
+      "control"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "stop_screen_share",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mirror",
+      "OS",
+      "arrow",
+      "screen",
+      "monitor",
+      "iOS",
+      "laptop",
+      "enabled",
+      "off",
+      "Android",
+      "desktop",
+      "web",
+      "disabled",
+      "share",
+      "slash",
+      "device",
+      "hardware",
+      "on"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "storage",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "computer",
+      "memory",
+      "data",
+      "storage",
+      "drive"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "store",
     "do": "",
     "dont": "",
     "tags": [
       "shop",
-      "drugstore",
-      "shopping",
-      "market",
-      "grocery"
+      "business",
+      "buy",
+      "bill",
+      "pay",
+      "dollars",
+      "store",
+      "commerce",
+      "building",
+      "cart",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "cash",
+      "storefront",
+      "card",
+      "coin",
+      "shopping"
     ],
     "category": [
-      "places"
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "store_mall_directory",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "shop",
+      "mall",
+      "front",
+      "place",
+      "store",
+      "directory",
+      "shopping"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
@@ -6809,6 +14980,34 @@
     ],
     "category": [
       "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "strikethrough_s",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "symbol",
+      "edit",
+      "cross",
+      "alphabet",
+      "type",
+      "editing",
+      "out",
+      "character",
+      "letter",
+      "writing",
+      "doc",
+      "sheet",
+      "styles",
+      "text",
+      "font",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
     ],
     "type": "static"
   },
@@ -6855,6 +15054,200 @@
     ],
     "category": [
       "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "subject",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "note",
+      "justify",
+      "subject",
+      "document",
+      "writing",
+      "doc",
+      "text",
+      "alignment",
+      "list",
+      "email",
+      "full"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "subscriptions",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "subscriptions",
+      "subscribe",
+      "enroll",
+      "Subscription",
+      "signup",
+      "order"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "subtitles",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Cc",
+      "Subtitle",
+      "accessible",
+      "subtitles",
+      "accessibility",
+      "caption",
+      "language",
+      "translate"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "subway",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "maps",
+      "rail",
+      "bike",
+      "transportation",
+      "vehicle",
+      "automobile",
+      "cars",
+      "subway",
+      "car",
+      "underground",
+      "vespa",
+      "scooter",
+      "tunnel",
+      "train"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "supervisor_account",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "profile",
+      "control",
+      "avatar",
+      "people",
+      "face",
+      "supervised",
+      "person",
+      "human",
+      "parental control",
+      "user",
+      "account",
+      "parental",
+      "supervisor",
+      "parents"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "surround_sound",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "system",
+      "speaker",
+      "volumn",
+      "Sound",
+      "circle",
+      "surround"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "swap_calls",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "call",
+      "Swap",
+      "arrow",
+      "calls",
+      "arrows",
+      "mobile",
+      "share",
+      "device",
+      "direction"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "swap_horiz",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "horizontal",
+      "arrow",
+      "arrows",
+      "back",
+      "direction"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "swap_vert",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "back",
+      "vertical",
+      "direction"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "swap_vertical_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "back",
+      "vertical",
+      "circle",
+      "direction"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -6949,6 +15342,73 @@
     "type": "static"
   },
   {
+    "name": "system_update_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "instal",
+      "system",
+      "load",
+      "system update",
+      "web",
+      "installation",
+      "mobile",
+      "cellphone",
+      "update",
+      "dowload",
+      "cell",
+      "device"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tab",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "website",
+      "folder",
+      "tab",
+      "documents",
+      "web",
+      "browser",
+      "document",
+      "tabs",
+      "window",
+      "windows"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tab_unselected",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "website",
+      "folder",
+      "unselect",
+      "tab",
+      "documents",
+      "web",
+      "browser",
+      "document",
+      "tabs",
+      "unselected",
+      "window",
+      "windows"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "tablet",
     "do": "",
     "dont": "",
@@ -7028,6 +15488,83 @@
     "type": "static"
   },
   {
+    "name": "terrain",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mountain",
+      "geography",
+      "terrain",
+      "landscape"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_fields",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "input",
+      "symbol",
+      "character",
+      "T",
+      "field",
+      "letter",
+      "alphabet",
+      "text",
+      "type",
+      "font"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_format",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "character",
+      "square A",
+      "letter",
+      "format",
+      "style",
+      "alphabet",
+      "text",
+      "type",
+      "font"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "textsms",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bubble",
+      "dots",
+      "speech",
+      "chat",
+      "sms",
+      "Text",
+      "talk",
+      "message"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "texture",
     "do": "",
     "dont": "",
@@ -7044,33 +15581,87 @@
     "type": "static"
   },
   {
-    "name": "thumb_down_alt",
+    "name": "theaters",
     "do": "",
     "dont": "",
     "tags": [
-      "disapproval",
-      "bad",
-      "dislike",
-      "no"
+      "movies",
+      "movie",
+      "theaters",
+      "watch",
+      "theater",
+      "show",
+      "showtimes",
+      "film"
     ],
     "category": [
-      "social"
+      "action"
     ],
     "type": "static"
   },
   {
-    "name": "thumb_up_alt",
+    "name": "thumb_down",
     "do": "",
     "dont": "",
     "tags": [
-      "approval",
-      "good",
+      "hands",
       "like",
-      "done",
-      "yes"
+      "rate",
+      "dislike",
+      "rating",
+      "up",
+      "fingers",
+      "down",
+      "favorite",
+      "gesture",
+      "hand"
     ],
     "category": [
-      "social"
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "thumb_up",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "hands",
+      "like",
+      "rate",
+      "dislike",
+      "rating",
+      "up",
+      "fingers",
+      "down",
+      "favorite",
+      "gesture",
+      "hand"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "thumbs_up_down",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "hands",
+      "like",
+      "rate",
+      "dislike",
+      "rating",
+      "up",
+      "fingers",
+      "down",
+      "favorite",
+      "gesture",
+      "hand"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -7102,6 +15693,27 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "timeline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "trending",
+      "data",
+      "line",
+      "timeline",
+      "history",
+      "movement",
+      "tracking",
+      "point",
+      "points",
+      "zigzag"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -7175,32 +15787,95 @@
     "type": "static"
   },
   {
-    "name": "toggle_off",
+    "name": "title",
     "do": "",
     "dont": "",
     "tags": [
-      "switch",
-      "power",
-      "off",
-      "knob"
+      "symbol",
+      "character",
+      "t",
+      "subject",
+      "letter",
+      "header",
+      "alphabet",
+      "text",
+      "title",
+      "type",
+      "font"
     ],
     "category": [
-      "toggle"
+      "editor"
     ],
     "type": "static"
   },
   {
-    "name": "toggle_on",
+    "name": "toc",
     "do": "",
     "dont": "",
     "tags": [
-      "switch",
-      "power",
-      "on",
-      "knob"
+      "stacked",
+      "format",
+      "reorder",
+      "titles",
+      "lines",
+      "list",
+      "title",
+      "content",
+      "table",
+      "order"
     ],
     "category": [
-      "toggle"
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "today",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "date",
+      "remember",
+      "week",
+      "month",
+      "reminder",
+      "today",
+      "range",
+      "event",
+      "day",
+      "mark"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "toll",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "ticket",
+      "bill",
+      "pay",
+      "dollars",
+      "commerce",
+      "toll",
+      "booth",
+      "money",
+      "car",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "highway",
+      "cash",
+      "card",
+      "coin"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -7221,6 +15896,25 @@
     "type": "static"
   },
   {
+    "name": "touch_app",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "hands",
+      "arrow",
+      "swipe",
+      "touch",
+      "fingers",
+      "apps",
+      "gesture",
+      "hand"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "toys",
     "do": "",
     "dont": "",
@@ -7230,6 +15924,115 @@
     ],
     "category": [
       "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "track_changes",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "evolve",
+      "rotate",
+      "shift",
+      "changes",
+      "circle",
+      "lines",
+      "track",
+      "movement",
+      "bullseye",
+      "target"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "traffic",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "light",
+      "street",
+      "map",
+      "signal",
+      "direction",
+      "traffic"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "train",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "cars",
+      "subway",
+      "maps",
+      "public",
+      "car",
+      "rail",
+      "direction",
+      "train",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tram",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "cars",
+      "subway",
+      "maps",
+      "public",
+      "car",
+      "rail",
+      "direction",
+      "train",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "transfer_within_a_station",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "right",
+      "body",
+      "people",
+      "transportation",
+      "vehicle",
+      "route",
+      "transfer",
+      "public",
+      "stop",
+      "left",
+      "person",
+      "station",
+      "human",
+      "walk",
+      "direction"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
@@ -7245,6 +16048,86 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "translate",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "speaking",
+      "speech",
+      "translator",
+      "words",
+      "language",
+      "translate"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "trending_down",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "trending",
+      "data",
+      "arrow",
+      "metric",
+      "rate",
+      "change",
+      "track",
+      "down",
+      "movement",
+      "tracking"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "trending_flat",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "trending",
+      "data",
+      "arrow",
+      "metric",
+      "rate",
+      "flat",
+      "change",
+      "track",
+      "movement",
+      "tracking"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "trending_up",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "trending",
+      "data",
+      "arrow",
+      "metric",
+      "rate",
+      "change",
+      "up",
+      "track",
+      "movement",
+      "tracking"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -7265,6 +16148,40 @@
     "type": "static"
   },
   {
+    "name": "turned_in",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "remember",
+      "bookmark",
+      "turned",
+      "in",
+      "save"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "turned_in_not",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "remember",
+      "bookmark",
+      "not",
+      "outline",
+      "turned",
+      "in",
+      "save"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "tv",
     "do": "",
     "dont": "",
@@ -7280,17 +16197,38 @@
     "type": "static"
   },
   {
-    "name": "tv_off",
+    "name": "unarchive",
     "do": "",
     "dont": "",
     "tags": [
-      "television",
-      "screen",
-      "monitor",
-      "stop"
+      "undo",
+      "mail",
+      "arrow",
+      "archive",
+      "store",
+      "up",
+      "inbox"
     ],
     "category": [
-      "notification"
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "undo",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rotate",
+      "undo",
+      "previous",
+      "arrow",
+      "repeat",
+      "backward",
+      "redo"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },
@@ -7324,6 +16262,138 @@
     "type": "static"
   },
   {
+    "name": "update",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rotate",
+      "arrow",
+      "back",
+      "refresh",
+      "update",
+      "clock",
+      "history",
+      "time",
+      "reverse",
+      "backwards"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "usb",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wire",
+      "usb",
+      "connection",
+      "cable",
+      "device"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "verified_user",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "shield",
+      "security",
+      "audit",
+      "checkmark",
+      "verified",
+      "certified",
+      "check",
+      "user"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "vertical_align_bottom",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "arrow",
+      "edit",
+      "bottom",
+      "align",
+      "type",
+      "down",
+      "editing",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "alignment",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "vertical_align_center",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "arrow",
+      "edit",
+      "center",
+      "align",
+      "type",
+      "down",
+      "editing",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "up",
+      "alignment",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "vertical_align_top",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "arrow",
+      "edit",
+      "align",
+      "type",
+      "editing",
+      "top",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "up",
+      "alignment",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
     "name": "vibration",
     "do": "",
     "dont": "",
@@ -7339,6 +16409,92 @@
     "type": "static"
   },
   {
+    "name": "video_call",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "call",
+      "conference",
+      "Video",
+      "chat",
+      "screen",
+      "camera",
+      "plus"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "video_label",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Video",
+      "screen",
+      "label",
+      "device"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "video_library",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "play",
+      "libary",
+      "Video",
+      "collection",
+      "camera"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "videocam",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "conference",
+      "Video",
+      "chat",
+      "screen",
+      "camera"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "videocam_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "conference",
+      "Video",
+      "chat",
+      "screen",
+      "disabled",
+      "slash",
+      "camera",
+      "enabled",
+      "off",
+      "on"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
     "name": "videogame_asset",
     "do": "",
     "dont": "",
@@ -7348,6 +16504,72 @@
     ],
     "category": [
       "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "view_agenda",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "view",
+      "website",
+      "cards",
+      "stacked",
+      "format",
+      "agenda"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "view_array",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "view",
+      "website",
+      "array",
+      "format"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "view_carousel",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "images",
+      "view",
+      "cards",
+      "format",
+      "banner",
+      "carousel"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "view_column",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "view",
+      "website",
+      "grid",
+      "column",
+      "format",
+      "vertical"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -7384,6 +16606,139 @@
     "type": "static"
   },
   {
+    "name": "view_day",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "view",
+      "cards",
+      "week",
+      "format",
+      "carousel",
+      "day"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "view_headline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "paragraph",
+      "view",
+      "website",
+      "format",
+      "text",
+      "headline"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "view_list",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "view",
+      "stacked",
+      "format",
+      "reorder",
+      "lines",
+      "list",
+      "title",
+      "order"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "view_module",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "square",
+      "view",
+      "stacked",
+      "grid",
+      "module",
+      "format",
+      "squares",
+      "reorder",
+      "title",
+      "order"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "view_quilt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "square",
+      "quilt",
+      "view",
+      "stacked",
+      "grid",
+      "format",
+      "squares",
+      "reorder",
+      "title",
+      "order"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "view_stream",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "view",
+      "stacked",
+      "stream",
+      "format",
+      "reorder",
+      "lines",
+      "list",
+      "title",
+      "order"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "view_week",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "view",
+      "week",
+      "columns",
+      "format",
+      "day",
+      "bars"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "vignette",
     "do": "",
     "dont": "",
@@ -7401,6 +16756,46 @@
     "type": "static"
   },
   {
+    "name": "visibility",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "eye",
+      "see",
+      "view",
+      "reveal",
+      "show",
+      "visability",
+      "on"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "visibility_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "eye",
+      "see",
+      "view",
+      "reveal",
+      "show",
+      "disabled",
+      "slash",
+      "enabled",
+      "off",
+      "visability",
+      "on"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "voice_chat",
     "do": "",
     "dont": "",
@@ -7412,6 +16807,120 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "voicemail",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "call",
+      "voice",
+      "phone",
+      "missed",
+      "mobile",
+      "Voicemail",
+      "recording",
+      "message",
+      "device"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "volume_down",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "tv",
+      "music",
+      "Volume",
+      "sound",
+      "control",
+      "audio",
+      "down"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "volume_mute",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "tv",
+      "music",
+      "Volume",
+      "sound",
+      "control",
+      "mute",
+      "audio"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "volume_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "tv",
+      "music",
+      "Volume",
+      "sound",
+      "control",
+      "disabled",
+      "slash",
+      "audio",
+      "enabled",
+      "off",
+      "on"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "volume_up",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "tv",
+      "music",
+      "Volume",
+      "sound",
+      "control",
+      "audio",
+      "up"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "vpn_key",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "password",
+      "code",
+      "unlock",
+      "Vpn",
+      "lock",
+      "key",
+      "passcode"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -7432,6 +16941,41 @@
     "type": "static"
   },
   {
+    "name": "wallpaper",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "wallpaper",
+      "background",
+      "landscape"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "warning",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "important",
+      "notification",
+      "attention",
+      "warning",
+      "exclamation",
+      "danger",
+      "caution",
+      "mark",
+      "triangle"
+    ],
+    "category": [
+      "alert"
+    ],
+    "type": "static"
+  },
+  {
     "name": "watch",
     "do": "",
     "dont": "",
@@ -7442,6 +16986,22 @@
     ],
     "category": [
       "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "watch_later",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "hour",
+      "watch",
+      "clock",
+      "time",
+      "minute"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -7525,6 +17085,68 @@
     "type": "static"
   },
   {
+    "name": "web",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "site",
+      "website",
+      "Web",
+      "www",
+      "browser",
+      "screen",
+      "page",
+      "internet"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "web_asset",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "download",
+      "website",
+      "Web",
+      "www",
+      "browser",
+      "screen",
+      "video",
+      "asset",
+      "internet"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "weekend",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "next",
+      "schedule",
+      "living",
+      "week",
+      "lounge",
+      "furniture",
+      "chair",
+      "weekend",
+      "couch",
+      "room"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
     "name": "whatshot",
     "do": "",
     "dont": "",
@@ -7536,6 +17158,24 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "widgets",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "app",
+      "square",
+      "ui",
+      "box",
+      "menu",
+      "widgets",
+      "setting"
+    ],
+    "category": [
+      "device"
     ],
     "type": "static"
   },
@@ -7556,17 +17196,170 @@
     "type": "static"
   },
   {
-    "name": "wifi_off",
+    "name": "wifi_lock",
     "do": "",
     "dont": "",
     "tags": [
-      "internet",
+      "wifi",
+      "celluar",
+      "data",
+      "phone",
+      "mobile",
+      "lock",
       "wireless",
-      "network",
-      "communication"
+      "cell",
+      "internet",
+      "speed",
+      "network"
     ],
     "category": [
-      "notification"
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wifi_tethering",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wifi",
+      "celluar",
+      "data",
+      "phone",
+      "mobile",
+      "thethering",
+      "wireless",
+      "cell",
+      "internet",
+      "speed",
+      "network"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "work",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "suitcase",
+      "briefcase",
+      "work",
+      "suit",
+      "job"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wrap_text",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "type",
+      "wrap",
+      "editing",
+      "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "youtube_searched_for",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "searched",
+      "youtube",
+      "rotate",
+      "search",
+      "restore",
+      "arrow",
+      "back",
+      "refresh",
+      "reverse",
+      "backwards"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "zoom_in",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "big",
+      "glass",
+      "grow",
+      "size",
+      "in",
+      "bigger",
+      "scale",
+      "zoom",
+      "magnify",
+      "magnifying",
+      "plus"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "zoom_out",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "small",
+      "minus",
+      "glass",
+      "negative",
+      "smaller",
+      "size",
+      "scale",
+      "zoom",
+      "magnify",
+      "magnifying",
+      "out"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "zoom_out_map",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "move",
+      "maps",
+      "pin",
+      "stop",
+      "arrow",
+      "in",
+      "destination",
+      "location",
+      "zoom",
+      "place",
+      "out"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   }
