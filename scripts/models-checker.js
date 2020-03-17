@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 
 /* Function that takes an object with the models and icons source dir, ex: checkForMissingModelsOrIcons({ modelsSrc: './models/', iconsSrc: './svg', animatedSrc: './animated-svg' }) */
 const checkForMissingModelsOrIcons = async params => {
-  const {  modelsSrc, mdModelsSrc, mdIconsSrc, iconsSrc, animatedSrc } = params
+  const { modelsSrc, mdModelsSrc, mdIconsSrc, iconsSrc, animatedSrc } = params
 
   try {
     /* Read both models and icons files names. */
