@@ -515,6 +515,21 @@
     "type": "static"
   },
   {
+    "name": "network",
+    "do": "<ul><li>To represent interconnectivity between cloud based applications or services</li></ul>",
+    "dont": "<ul><li>To represent location or language</li></ul>",
+    "tags": [
+      "network",
+      "servers",
+      "cloud",
+      "share",
+      "kubernetes",
+      "containers"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "network_file_system",
     "do": "<ul><li>To access or share files across servers.</li></ul>",
     "dont": "",
@@ -523,6 +538,22 @@
       "file system",
       "servers",
       "share files"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "network_policy",
+    "do": "<ul><li>To represent the specification of how groups of pods or endpoints are allowed to communicate with each other</li></ul>",
+    "dont": "<ul><li>To represent location</li></ul>",
+    "tags": [
+      "network",
+      "servers",
+      "cloud",
+      "share",
+      "endpoints",
+      "kubernetes",
+      "containers"
     ],
     "category": "virtualization",
     "type": "static"
