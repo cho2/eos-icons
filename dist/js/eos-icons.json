@@ -436,6 +436,19 @@
     "type": "animate"
   },
   {
+    "name": "master",
+    "do": "<ul><li>Use it to designate a main or principal volume, container, repository, etc</li></ul>",
+    "dont": "<ul><li>Don't use it for admin icon </li></ul>",
+    "tags": [
+      "main",
+      "principal",
+      "git",
+      "kubernetes"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
     "name": "miscellaneous",
     "do": "<ul><li>To indicate an additional set of features or actions that might not have been included in other sections.</li></ul>",
     "dont": "<ul><li>To indicate elements that are unrelated to the application.</li></ul>",
@@ -486,6 +499,19 @@
       "multistate resources"
     ],
     "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "namespace",
+    "do": "<ul><li>Use it for namespaces or to specify a unique identifier among a group of elements</li></ul>",
+    "dont": "<ul><li>Don't use it for menu or options</li></ul>",
+    "tags": [
+      "kubernetes",
+      "group",
+      "uniquename",
+      "identifier"
+    ],
+    "category": "development",
     "type": "static"
   },
   {
@@ -776,6 +802,17 @@
     "type": "static"
   },
   {
+    "name": "role_binding",
+    "do": "<ul><li>Use it in features that grant special role permissions to a user or group of users</li></ul>",
+    "dont": "<ul><li>Don't use it for user account, admin, or similar</li></ul>",
+    "tags": [
+      "grantaccess",
+      "grantpermission"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "route",
     "do": "<ul><li>To represent application routes.</li></ul>",
     "dont": "<ul><li>To represent URL.</li></ul>",
@@ -1047,6 +1084,23 @@
       "kubernetes"
     ],
     "category": "hardware",
+    "type": "static"
+  },
+  {
+    "name": "volume_binding",
+    "do": "<ul><li>Use it when connecting a volume to a system, container or others</li></ul>",
+    "dont": "<ul><li>Don't use it for general links or hyperlink to the volume page</li></ul>",
+    "tags": [
+      "volume",
+      "disk",
+      "storage",
+      "link",
+      "binding",
+      "connection",
+      "kubernetes",
+      "containers"
+    ],
+    "category": "virtualization",
     "type": "static"
   },
   {

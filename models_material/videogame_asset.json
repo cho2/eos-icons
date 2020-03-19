@@ -1,0 +1,12 @@
+{
+  "name": "videogame_asset",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "device", "game"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
+}

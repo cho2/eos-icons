@@ -1,0 +1,14 @@
+{
+  "name": "sports_baseball",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "activities",
+    "game",
+    "tennis"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

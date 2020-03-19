@@ -1,0 +1,12 @@
+{
+  "name": "local_movies",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "teather", "cinema", "movie", "film", "hollywood", "ticket"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "folder_shared",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "folder", "open", "file", "accessed", "common", "public"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "developer_board",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "dashboard", "home", "mosaic"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
+}

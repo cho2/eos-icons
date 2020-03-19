@@ -1,0 +1,13 @@
+{
+  "name": "account_tree",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "hierarchy",
+    "structure"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
+}

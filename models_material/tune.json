@@ -1,0 +1,12 @@
+{
+  "name": "tune",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "music", "sound", "control", "settings", "options"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "mood",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "emoticon", "face", "emotion", "expression", "sad", "happy"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

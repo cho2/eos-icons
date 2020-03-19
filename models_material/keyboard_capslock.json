@@ -1,0 +1,12 @@
+{
+  "name": "keyboard_arrow_capslock",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "writing", "words", "type", "key", "letter", "words", "lock", "capital", "block"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
+}

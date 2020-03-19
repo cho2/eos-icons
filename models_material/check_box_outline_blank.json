@@ -1,0 +1,17 @@
+{
+  "name": "check_box_outline_blank",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "unconfirmed",
+    "unselected",
+    "unmarked",
+    "clean",
+    "option",
+    "unchecked"
+  ],
+  "category": [
+    "toggle"
+  ],
+  "type": "static"
+}
