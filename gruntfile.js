@@ -100,7 +100,7 @@ module.exports = function (grunt) {
         src: './dist/',
       },
       hidden: {
-        src: ['./**/.DS_Store']
+        src: ['./**/.DS_Store', '!./node_modules/']
       }
     }
   });
