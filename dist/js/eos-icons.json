@@ -2451,6 +2451,21 @@
     "type": "static"
   },
   {
+    "name": "battery_charging_20",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "charge",
+      "mobile",
+      "power",
+      "cell"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
     "name": "battery_full",
     "do": "",
     "dont": "",
@@ -2725,7 +2740,7 @@
       "type",
       "stroke",
       "editing",
-      "speadsheet"
+      "spreadsheet"
     ],
     "category": [
       "editor"
@@ -2770,6 +2785,28 @@
       "stroke",
       "editing",
       "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "border_color",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "border",
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "type",
+      "stroke",
+      "editing",
+      "spreadsheet"
     ],
     "category": [
       "editor"
@@ -4360,6 +4397,48 @@
     "type": "static"
   },
   {
+    "name": "content_copy",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "text",
+      "edit",
+      "editor"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "content_cut",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "text",
+      "edit",
+      "editor"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "content_paste",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "text",
+      "edit",
+      "editor"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
     "name": "control_point",
     "do": "",
     "dont": "",
@@ -5224,6 +5303,62 @@
       "information",
       "list",
       "bars"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "do_not_disturb",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "stop",
+      "agitate",
+      "distract"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "do_not_disturb_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "stop",
+      "agitate",
+      "distract"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "do_not_disturb_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "stop",
+      "agitate",
+      "distract"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "do_not_disturb_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "stop",
+      "agitate",
+      "distract"
     ],
     "category": [
       "action"
@@ -6112,6 +6247,32 @@
     "type": "static"
   },
   {
+    "name": "file_download",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "get",
+      "load"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "file_upload",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "store",
+      "load"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
     "name": "filter",
     "do": "",
     "dont": "",
@@ -6820,7 +6981,7 @@
       "alignment",
       "type",
       "editing",
-      "speadsheet"
+      "spreadsheet"
     ],
     "category": [
       "editor"
@@ -6952,6 +7113,27 @@
     "type": "static"
   },
   {
+    "name": "format_color_fill",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "align",
+      "alignment",
+      "type",
+      "editing"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
     "name": "format_color_reset",
     "do": "",
     "dont": "",
@@ -6976,6 +7158,27 @@
       "text",
       "on",
       "speadsheet"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "format_color_text",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "edit",
+      "writing",
+      "doc",
+      "sheet",
+      "text",
+      "align",
+      "alignment",
+      "type",
+      "editing"
     ],
     "category": [
       "editor"
@@ -8472,6 +8675,23 @@
     "type": "static"
   },
   {
+    "name": "info_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alert",
+      "bubble",
+      "i",
+      "information",
+      "announcement",
+      "info"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "input",
     "do": "",
     "dont": "",
@@ -8915,6 +9135,22 @@
     "type": "static"
   },
   {
+    "name": "label_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "indent",
+      "sticker",
+      "stamp",
+      "label",
+      "tag"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "landscape",
     "do": "",
     "dont": "",
@@ -9192,6 +9428,19 @@
     ],
     "category": [
       "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "lightbulb_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "light",
+      "idea"
+    ],
+    "category": [
+      "hardware"
     ],
     "type": "static"
   },
@@ -10015,6 +10264,25 @@
     "type": "static"
   },
   {
+    "name": "lock_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "private",
+      "safe",
+      "lock",
+      "privacy",
+      "connection",
+      "locked",
+      "secure",
+      "key"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "looks",
     "do": "",
     "dont": "",
@@ -10410,6 +10678,21 @@
   },
   {
     "name": "mode_comment",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bubble",
+      "speech",
+      "chat",
+      "comment"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mode_edit",
     "do": "",
     "dont": "",
     "tags": [
@@ -10821,6 +11104,20 @@
     "type": "static"
   },
   {
+    "name": "network_cell",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chain",
+      "grid",
+      "net"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
     "name": "network_check",
     "do": "",
     "dont": "",
@@ -10843,6 +11140,20 @@
       "closed",
       "wifi",
       "signal"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "network_wifi",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chain",
+      "grid",
+      "net"
     ],
     "category": [
       "notification"
@@ -12129,7 +12440,7 @@
     "dont": "",
     "tags": [
       "data",
-      "infograpic",
+      "infographic",
       "pie",
       "tracking",
       "bars",
@@ -12139,7 +12450,31 @@
       "bar",
       "measure",
       "metrics",
-      "statstics",
+      "statistics",
+      "chart"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pie_chart_outlined",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "data",
+      "infographic",
+      "pie",
+      "tracking",
+      "bars",
+      "graph",
+      "analytics",
+      "diagram",
+      "bar",
+      "measure",
+      "metrics",
+      "statistics",
       "chart"
     ],
     "category": [
@@ -13785,6 +14120,22 @@
     "type": "static"
   },
   {
+    "name": "sentiment_neutral",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "happy",
+      "sad",
+      "emoji",
+      "feedback",
+      "smiley"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
     "name": "sentiment_satisfied",
     "do": "",
     "dont": "",
@@ -14394,6 +14745,121 @@
     "type": "static"
   },
   {
+    "name": "signal_wifi_1_bar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wifi",
+      "celluar",
+      "data",
+      "phone",
+      "mobile",
+      "lock",
+      "wireless",
+      "cell",
+      "signal",
+      "internet",
+      "speed",
+      "network"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "signal_wifi_1_bar_lock",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wifi",
+      "celluar",
+      "data",
+      "phone",
+      "mobile",
+      "lock",
+      "wireless",
+      "cell",
+      "signal",
+      "internet",
+      "speed",
+      "network"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "signal_wifi_2_bar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wifi",
+      "celluar",
+      "data",
+      "phone",
+      "mobile",
+      "lock",
+      "wireless",
+      "cell",
+      "signal",
+      "internet",
+      "speed",
+      "network"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "signal_wifi_2_bar_lock",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wifi",
+      "celluar",
+      "data",
+      "phone",
+      "mobile",
+      "lock",
+      "wireless",
+      "cell",
+      "signal",
+      "internet",
+      "speed",
+      "network"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "signal_wifi_3_bar_lock",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wifi",
+      "celluar",
+      "data",
+      "phone",
+      "mobile",
+      "lock",
+      "wireless",
+      "cell",
+      "signal",
+      "internet",
+      "speed",
+      "network"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
     "name": "signal_wifi_4_bar_lock",
     "do": "",
     "dont": "",
@@ -14445,6 +14911,19 @@
   },
   {
     "name": "sim_card",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "telephone",
+      "communication"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sim_card_alert",
     "do": "",
     "dont": "",
     "tags": [

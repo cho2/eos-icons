@@ -1,0 +1,12 @@
+{
+  "name": "sim_card_alert",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "telephone", "communication"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static"
+}

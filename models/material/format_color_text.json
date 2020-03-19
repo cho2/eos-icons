@@ -1,5 +1,5 @@
 {
-  "name": "format_align_center",
+  "name": "format_color_text",
   "do": "",
   "dont": "",
   "tags": [
@@ -12,8 +12,7 @@
     "align",
     "alignment",
     "type",
-    "editing",
-    "spreadsheet"
+    "editing"
   ],
   "category": [
     "editor"

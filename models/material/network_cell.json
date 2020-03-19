@@ -1,0 +1,14 @@
+{
+  "name": "network_cell",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "chain",
+    "grid",
+    "net"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
+}

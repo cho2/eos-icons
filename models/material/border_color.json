@@ -1,17 +1,17 @@
 {
-  "name": "format_align_center",
+  "name": "border_color",
   "do": "",
   "dont": "",
   "tags": [
+    "border",
     "editor",
     "edit",
     "writing",
     "doc",
     "sheet",
     "text",
-    "align",
-    "alignment",
     "type",
+    "stroke",
     "editing",
     "spreadsheet"
   ],
