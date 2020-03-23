@@ -957,6 +957,20 @@
     "type": "static"
   },
   {
+    "name": "stateful_set",
+    "do": "<ul><li>Use this icon when deploying or executing services, containers, or others in a sequence.</li></ul>",
+    "dont": "<ul><li>Dont use it for copy, duplicate, or similar.</li></ul>",
+    "tags": [
+      "sequence",
+      "sequential",
+      "ordinal",
+      "index",
+      "kubernetes"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "storage_class",
     "do": "<ul><li>Use it when defining a profile or label that can be applied to storage to assign predefined options.</li></ul>",
     "dont": "<ul><li>Dont use it for tags or labels in general</li></ul>",
