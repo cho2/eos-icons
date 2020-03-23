@@ -1,0 +1,16 @@
+{
+  "name": "network_policy",
+  "do": "<ul><li>To represent the specification of how groups of pods or endpoints are allowed to communicate with each other</li></ul>",
+  "dont": "<ul><li>To represent location</li></ul>",
+  "tags": [
+    "network",
+    "servers",
+    "cloud",
+    "share",
+    "endpoints",
+    "kubernetes",
+    "containers"
+  ],
+  "category": "virtualization",
+  "type": "static"
+}
