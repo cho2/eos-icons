@@ -957,6 +957,20 @@
     "type": "static"
   },
   {
+    "name": "storage_class",
+    "do": "<ul><li>Use it when defining a profile or label that can be applied to storage to assign predefined options.</li></ul>",
+    "dont": "<ul><li>Dont use it for tags or labels in general</li></ul>",
+    "tags": [
+      "tag",
+      "label",
+      "profile",
+      "kubernetes",
+      "data"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "subscriptions_created",
     "do": "<ul><li>To represent a successfully activated subscription.</li></ul>",
     "dont": "<ul><li>To create a subscription.</li></ul>",
