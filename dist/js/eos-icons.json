@@ -386,6 +386,19 @@
     "type": "static"
   },
   {
+    "name": "ingress",
+    "do": "<ul><li>Use it for when allowing a resource entering and exiting access, for example, exposing HTTP routes to a service.</li></ul>",
+    "dont": "<ul><li>Dont use it for login or logout</li></ul>",
+    "tags": [
+      "enter",
+      "exit",
+      "route",
+      "kubernetes"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "installing",
     "do": "<ul><li>The user is waiting for an installation process to finalize.</li></ul>",
     "dont": "<ul><li>As feedback for refreshing, reloading or syncing data.</li></ul>",
@@ -939,6 +952,34 @@
       "boolean",
       "true",
       "false"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "stateful_set",
+    "do": "<ul><li>Use this icon when deploying or executing services, containers, or others in a sequence.</li></ul>",
+    "dont": "<ul><li>Dont use it for copy, duplicate, or similar.</li></ul>",
+    "tags": [
+      "sequence",
+      "sequential",
+      "ordinal",
+      "index",
+      "kubernetes"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "storage_class",
+    "do": "<ul><li>Use it when defining a profile or label that can be applied to storage to assign predefined options.</li></ul>",
+    "dont": "<ul><li>Dont use it for tags or labels in general</li></ul>",
+    "tags": [
+      "tag",
+      "label",
+      "profile",
+      "kubernetes",
+      "data"
     ],
     "category": "virtualization",
     "type": "static"
