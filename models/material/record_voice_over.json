@@ -1,0 +1,24 @@
+{
+  "name": "record_voice_over",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "voice",
+    "profile",
+    "recording",
+    "people",
+    "face",
+    "speaking",
+    "transcript",
+    "speech",
+    "person",
+    "speak",
+    "human",
+    "user",
+    "account"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

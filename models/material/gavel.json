@@ -1,0 +1,22 @@
+{
+  "name": "gavel",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "government",
+    "law",
+    "police",
+    "document",
+    "official",
+    "rule",
+    "gavel",
+    "mallet",
+    "rules",
+    "judge",
+    "court"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

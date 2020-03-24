@@ -2,20 +2,24 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const { readFilesAndCleanNames } = require("./models-checker")
 
-const namingConventionRegex = /^[a-z]+(_[a-z]+)*$/g
+const namingConventionRegex = /^[a-z0-9]+(_[a-z0-9]+)*$/g
 
 /* Runs every SVG name aginst a regular expression */
 const checkSvgName = async params => {
-  const { svgDir } = params
+  const { mdDir, eosDir } = params
 
   /* Reads all the svg files and remove the .svg from the name */
-  const existentIcons = await readFilesAndCleanNames(svgDir)
+  const eosIcons = await readFilesAndCleanNames(eosDir)
+  const eosIconsNew = eosIcons.filter(ele => ele.match(namingConventionRegex) === null)
+  
+  const mdIconsMd = await readFilesAndCleanNames(mdDir)
+  const mdIconsMdNew = mdIconsMd.filter(ele => ele.match(namingConventionRegex) === null)
 
   /* Checks that the name match the regex, if not, returns it */
-  return existentIcons.filter(ele => ele.match(namingConventionRegex) === null)
+  return {eosIconsNew, mdIconsMdNew}
 }
 
-const renameSvgTo = async originalFile => {
+const renameSvgTo = async (originalFile, filePath) => {
   try {
     return inquirer.prompt([
       {
@@ -34,8 +38,8 @@ const renameSvgTo = async originalFile => {
       }
     ]).then(data => {
       return fs.rename(
-        `./svg/${originalFile}.svg`,
-        `./svg/${data.name}.svg`,
+        `${filePath}/${originalFile}.svg`,
+        `${filePath}/${data.name}.svg`,
         function(err) {
           if (err) console.log("ERROR: " + err);
           console.log(`File was renamed from ${originalFile}.svg to ${data.name}.svg`);

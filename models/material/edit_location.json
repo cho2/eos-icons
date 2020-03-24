@@ -1,0 +1,21 @@
+{
+  "name": "edit_location",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "maps",
+    "pin",
+    "stop",
+    "edit",
+    "destination",
+    "pen",
+    "location",
+    "place",
+    "pencil",
+    "direction"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

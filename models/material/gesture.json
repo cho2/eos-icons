@@ -1,0 +1,17 @@
+{
+  "name": "gesture",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "finger",
+    "motion",
+    "Gesture",
+    "drawing",
+    "gestures",
+    "hand"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}

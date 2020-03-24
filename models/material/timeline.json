@@ -1,0 +1,21 @@
+{
+  "name": "timeline",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "trending",
+    "data",
+    "line",
+    "timeline",
+    "history",
+    "movement",
+    "tracking",
+    "point",
+    "points",
+    "zigzag"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

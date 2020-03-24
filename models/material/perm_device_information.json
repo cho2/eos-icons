@@ -1,0 +1,25 @@
+{
+  "name": "perm_device_information",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "OS",
+    "mobile",
+    "i",
+    "iOS",
+    "Android",
+    "important",
+    "tablet",
+    "alert",
+    "phone",
+    "information",
+    "device",
+    "announcement",
+    "hardware",
+    "info"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

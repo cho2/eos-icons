@@ -1,0 +1,24 @@
+{
+  "name": "contacts",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "address",
+    "profile",
+    "people",
+    "Contact",
+    "number",
+    "face",
+    "phone",
+    "person",
+    "information",
+    "human",
+    "user",
+    "account",
+    "info"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

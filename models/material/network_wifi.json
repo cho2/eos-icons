@@ -1,0 +1,14 @@
+{
+  "name": "network_wifi",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "chain",
+    "grid",
+    "net"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
+}

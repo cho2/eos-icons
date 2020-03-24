@@ -1,0 +1,25 @@
+{
+  "name": "format_indent_increase",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "editor",
+    "paragraph",
+    "edit",
+    "indent",
+    "align",
+    "type",
+    "editing",
+    "indentation",
+    "writing",
+    "doc",
+    "sheet",
+    "text",
+    "alignment",
+    "speadsheet"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "email",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "note",
+    "receive",
+    "Email",
+    "mail",
+    "post",
+    "message",
+    "send",
+    "write"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

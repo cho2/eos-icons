@@ -1,0 +1,25 @@
+{
+  "name": "person_pin_circle",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "maps",
+    "profile",
+    "destination",
+    "people",
+    "face",
+    "pin",
+    "stop",
+    "person",
+    "location",
+    "place",
+    "human",
+    "user",
+    "account",
+    "direction"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

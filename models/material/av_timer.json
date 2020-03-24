@@ -1,0 +1,19 @@
+{
+  "name": "av_timer",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "timer",
+    "seconds",
+    "AV",
+    "watch",
+    "minutes",
+    "countdown",
+    "clock",
+    "time"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

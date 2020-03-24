@@ -1,0 +1,19 @@
+{
+  "name": "settings_ethernet",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "ethernet",
+    "settings",
+    "wifi",
+    "connectivity",
+    "dots",
+    "arrows",
+    "connection",
+    "connect"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

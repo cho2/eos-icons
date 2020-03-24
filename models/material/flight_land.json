@@ -1,0 +1,20 @@
+{
+  "name": "flight_land",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "plane",
+    "flight",
+    "fly",
+    "landing",
+    "arrival",
+    "land",
+    "arriving",
+    "travel",
+    "transportation"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

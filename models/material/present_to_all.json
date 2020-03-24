@@ -1,0 +1,17 @@
+{
+  "name": "present_to_all",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrow\nall",
+    "screen",
+    "share",
+    "Presentation",
+    "present",
+    "device"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

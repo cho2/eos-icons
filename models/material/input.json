@@ -1,0 +1,15 @@
+{
+  "name": "input",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "input",
+    "arrow",
+    "box",
+    "right"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

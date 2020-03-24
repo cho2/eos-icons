@@ -1,0 +1,21 @@
+{
+  "name": "format_color_text",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "editor",
+    "edit",
+    "writing",
+    "doc",
+    "sheet",
+    "text",
+    "align",
+    "alignment",
+    "type",
+    "editing"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

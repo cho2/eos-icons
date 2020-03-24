@@ -1,0 +1,22 @@
+{
+  "name": "directions_subway",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "automobile",
+    "cars",
+    "subway",
+    "maps",
+    "public",
+    "car",
+    "rail",
+    "direction",
+    "train",
+    "transportation",
+    "vehicle"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

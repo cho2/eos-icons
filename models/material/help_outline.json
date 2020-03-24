@@ -1,0 +1,21 @@
+{
+  "name": "help_outline",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "help",
+    "symbol",
+    "outline",
+    "alert",
+    "information",
+    "question mark",
+    "support",
+    "?",
+    "announcement",
+    "info"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "signal_wifi_1_bar_lock",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "wifi",
+    "celluar",
+    "data",
+    "phone",
+    "mobile",
+    "lock",
+    "wireless",
+    "cell",
+    "signal",
+    "internet",
+    "speed",
+    "network"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

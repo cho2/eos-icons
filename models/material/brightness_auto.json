@@ -1,0 +1,19 @@
+{
+  "name": "brightness_auto",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "A",
+    "auto",
+    "brightness",
+    "phone",
+    "mobile",
+    "control",
+    "monitor",
+    "sun"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

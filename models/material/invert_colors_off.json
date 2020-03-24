@@ -1,0 +1,26 @@
+{
+  "name": "invert_colors_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "drop",
+    "Invert",
+    "color",
+    "droplet",
+    "tone",
+    "water",
+    "enabled",
+    "off",
+    "hue",
+    "disabled",
+    "palette",
+    "slash",
+    "inverted",
+    "opacity",
+    "on"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

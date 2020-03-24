@@ -1,0 +1,22 @@
+{
+  "name": "wifi_tethering",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "wifi",
+    "celluar",
+    "data",
+    "phone",
+    "mobile",
+    "thethering",
+    "wireless",
+    "cell",
+    "internet",
+    "speed",
+    "network"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

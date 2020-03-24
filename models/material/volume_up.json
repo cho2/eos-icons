@@ -1,0 +1,18 @@
+{
+  "name": "volume_up",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "tv",
+    "music",
+    "Volume",
+    "sound",
+    "control",
+    "audio",
+    "up"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

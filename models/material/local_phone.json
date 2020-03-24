@@ -1,0 +1,16 @@
+{
+  "name": "local_phone",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "call",
+    "phone",
+    "communication",
+    "telecommunication",
+    "booth"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "update",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "rotate",
+    "arrow",
+    "back",
+    "refresh",
+    "update",
+    "clock",
+    "history",
+    "time",
+    "reverse",
+    "backwards"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

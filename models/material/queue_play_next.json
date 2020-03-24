@@ -1,0 +1,26 @@
+{
+  "name": "queue_play_next",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "next",
+    "play",
+    "arrow",
+    "screen",
+    "monitor",
+    "collection",
+    "video",
+    "list",
+    "plus",
+    "desktop",
+    "music",
+    "playlist",
+    "Queue",
+    "device"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

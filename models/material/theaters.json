@@ -1,0 +1,19 @@
+{
+  "name": "theaters",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "movies",
+    "movie",
+    "theaters",
+    "watch",
+    "theater",
+    "show",
+    "showtimes",
+    "film"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

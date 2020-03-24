@@ -1,0 +1,19 @@
+{
+  "name": "grade",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "rated",
+    "shape",
+    "star",
+    "rate",
+    "grade",
+    "rating",
+    "favorite",
+    "likes"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ring_volume",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "call",
+    "volume",
+    "ring",
+    "Phone",
+    "sound",
+    "mobile",
+    "device",
+    "ringer"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

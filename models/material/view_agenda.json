@@ -1,0 +1,17 @@
+{
+  "name": "view_agenda",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "view",
+    "website",
+    "cards",
+    "stacked",
+    "format",
+    "agenda"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

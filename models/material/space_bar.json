@@ -1,0 +1,15 @@
+{
+  "name": "space_bar",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "keyboard",
+    "bar",
+    "line",
+    "space"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

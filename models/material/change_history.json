@@ -1,0 +1,15 @@
+{
+  "name": "change_history",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "shape",
+    "change",
+    "history",
+    "triangle"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

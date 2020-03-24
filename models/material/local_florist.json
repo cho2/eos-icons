@@ -1,0 +1,15 @@
+{
+  "name": "local_florist",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "shop",
+    "florist",
+    "local",
+    "flower"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "settings_bluetooth",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "settings",
+    "wifi",
+    "bluetooth",
+    "connectivity",
+    "connection",
+    "connect"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

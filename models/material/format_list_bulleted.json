@@ -1,0 +1,24 @@
+{
+  "name": "format_list_bulleted",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "editor",
+    "edit",
+    "align",
+    "list",
+    "type",
+    "editing",
+    "writing",
+    "doc",
+    "sheet",
+    "text",
+    "alignment",
+    "bullet",
+    "speadsheet"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

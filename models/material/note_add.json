@@ -1,0 +1,19 @@
+{
+  "name": "note_add",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "new",
+    "note",
+    "file",
+    "documentation",
+    "doc",
+    "comment",
+    "plus"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

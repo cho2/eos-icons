@@ -1,0 +1,15 @@
+{
+  "name": "donut_small",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "donut",
+    "inprogress",
+    "complete",
+    "graph"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

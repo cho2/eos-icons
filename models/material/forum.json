@@ -1,0 +1,18 @@
+{
+  "name": "forum",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "hub",
+    "bubble",
+    "speech",
+    "talk",
+    "community",
+    "conversation",
+    "Forum"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

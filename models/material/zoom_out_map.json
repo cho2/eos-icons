@@ -1,0 +1,22 @@
+{
+  "name": "zoom_out_map",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "move",
+    "maps",
+    "pin",
+    "stop",
+    "arrow",
+    "in",
+    "destination",
+    "location",
+    "zoom",
+    "place",
+    "out"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

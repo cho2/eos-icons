@@ -1,0 +1,18 @@
+{
+  "name": "settings_overscan",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "image",
+    "settings",
+    "expand",
+    "arrows",
+    "scan",
+    "photo",
+    "picture"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

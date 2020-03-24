@@ -1,0 +1,22 @@
+{
+  "name": "markunread_mailbox",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "receive",
+    "mailbox",
+    "mail",
+    "post",
+    "postbox",
+    "unread",
+    "letter",
+    "deliver",
+    "postal",
+    "envelop",
+    "send"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

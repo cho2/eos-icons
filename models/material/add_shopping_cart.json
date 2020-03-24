@@ -1,0 +1,27 @@
+{
+  "name": "add_shopping_cart",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "pay",
+    "dollars",
+    "commerce",
+    "cart",
+    "plus",
+    "money",
+    "online",
+    "currency",
+    "payment",
+    "credit",
+    "cash",
+    "checkout",
+    "card",
+    "coin",
+    "shopping"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "assessment",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "analytics",
+    "assessment",
+    "bar",
+    "measure",
+    "metrics",
+    "tracking",
+    "bars",
+    "graph"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

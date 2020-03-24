@@ -1,0 +1,21 @@
+{
+  "name": "view_module",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "square",
+    "view",
+    "stacked",
+    "grid",
+    "module",
+    "format",
+    "squares",
+    "reorder",
+    "title",
+    "order"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

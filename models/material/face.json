@@ -1,0 +1,27 @@
+{
+  "name": "face",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "thumbnail",
+    "unlock",
+    "emoji",
+    "profile",
+    "recognition",
+    "login",
+    "eyes",
+    "people",
+    "face",
+    "logout",
+    "security",
+    "person",
+    "lock",
+    "human",
+    "user",
+    "account"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

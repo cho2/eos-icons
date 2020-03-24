@@ -1,0 +1,19 @@
+{
+  "name": "reply",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "mail",
+    "arrow",
+    "left",
+    "backward",
+    "share",
+    "message",
+    "reply",
+    "send"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}

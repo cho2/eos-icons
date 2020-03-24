@@ -1,0 +1,19 @@
+{
+  "name": "send",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "plane",
+    "mail",
+    "paper",
+    "airplane",
+    "right",
+    "message",
+    "reply",
+    "send"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}

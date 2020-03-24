@@ -1,0 +1,21 @@
+{
+  "name": "new_releases",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "!",
+    "New",
+    "star",
+    "alert",
+    "release",
+    "attention",
+    "exclamation",
+    "burst",
+    "announcement",
+    "releases"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "report_problem",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "!",
+    "symbol",
+    "exclamation",
+    "danger",
+    "error",
+    "triangle",
+    "feedback",
+    "notification",
+    "problem",
+    "alert",
+    "report",
+    "attention",
+    "warning",
+    "caution",
+    "mark"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "volume_mute",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "tv",
+    "music",
+    "Volume",
+    "sound",
+    "control",
+    "mute",
+    "audio"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "visibility_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "eye",
+    "see",
+    "view",
+    "reveal",
+    "show",
+    "disabled",
+    "slash",
+    "enabled",
+    "off",
+    "visability",
+    "on"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

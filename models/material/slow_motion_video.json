@@ -1,0 +1,19 @@
+{
+  "name": "slow_motion_video",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "play",
+    "controls",
+    "music",
+    "motion",
+    "arrow",
+    "Slow",
+    "control",
+    "video"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

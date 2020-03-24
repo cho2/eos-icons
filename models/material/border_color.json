@@ -1,0 +1,22 @@
+{
+  "name": "border_color",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "border",
+    "editor",
+    "edit",
+    "writing",
+    "doc",
+    "sheet",
+    "text",
+    "type",
+    "stroke",
+    "editing",
+    "spreadsheet"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}
