@@ -124,18 +124,6 @@
     "type": "static"
   },
   {
-    "name": "cloud_foundry_space",
-    "do": "<ul><li>To represent a Cloudfoundry space.</li></ul>",
-    "dont": "<ul><li>To represent an action.</li></ul>",
-    "tags": [
-      "cloudfoundry",
-      "kubernetes",
-      "spaces"
-    ],
-    "category": "virtualization",
-    "type": "static"
-  },
-  {
     "name": "cluster_role",
     "do": "<ul><li>Indicates a cluster-scoped resources.</li><li>Indicates a non-resource endpoints.</li></ul>",
     "dont": "",
@@ -650,6 +638,18 @@
     "type": "static"
   },
   {
+    "name": "patch_fixes",
+    "do": "<ul><li>To represent program temporary fixes.</li><li>To represent hotfixes.</li><li>For a special patch.</li></ul>",
+    "dont": "<ul><li>For a regular patch fix.</li></ul>",
+    "tags": [
+      "ptf",
+      "program temporary fixes",
+      "patch"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
     "name": "patterns",
     "do": "<ul> <li> To represent predictable behaivor </li> </ul",
     "dont": "<ul> <li> To represent routes </li> </ul>",
@@ -790,18 +790,6 @@
     "type": "static"
   },
   {
-    "name": "ptf",
-    "do": "<ul><li>To represent program temporary fixes.</li><li>To represent hotfixes.</li><li>For a special patch.</li></ul>",
-    "dont": "<ul><li>For a regular patch fix.</li></ul>",
-    "tags": [
-      "ptf",
-      "program temporary fixes",
-      "patch"
-    ],
-    "category": "services",
-    "type": "static"
-  },
-  {
     "name": "quota",
     "do": "<ul><li>Use to describe the amount of space for a determined hard drive.</li></ul>",
     "dont": "",
@@ -908,18 +896,6 @@
     "type": "static"
   },
   {
-    "name": "smt",
-    "do": "<ul><li>To represent SMT/RMT servers with the SMT/RMT server information.</li></ul>",
-    "dont": "",
-    "tags": [
-      "SMT",
-      "RMT servers",
-      "server information"
-    ],
-    "category": "services",
-    "type": "static"
-  },
-  {
     "name": "snapshot_rollback",
     "do": "<ul><li>To rollback a snapshot, backup, or data saved, to a previous state.</li></ul>",
     "dont": "",
@@ -985,6 +961,18 @@
     "type": "static"
   },
   {
+    "name": "subscription_management",
+    "do": "<ul><li>To represent SMT/RMT servers with the SMT/RMT server information.</li></ul>",
+    "dont": "",
+    "tags": [
+      "SMT",
+      "RMT servers",
+      "server information"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
     "name": "subscriptions_created",
     "do": "<ul><li>To represent a successfully activated subscription.</li></ul>",
     "dont": "<ul><li>To create a subscription.</li></ul>",
@@ -1036,6 +1024,18 @@
     "tags": [
       "system",
       "re registered"
+    ],
+    "category": "services",
+    "type": "static"
+  },
+  {
+    "name": "system_unpatched",
+    "do": "<ul><li>To represent that the system is not updated.</li><li>To represent that the patch is not available for this system.</li></ul>",
+    "dont": "<ul><li>To represent a system error.</li></ul>",
+    "tags": [
+      "system",
+      "not updated",
+      "patch"
     ],
     "category": "services",
     "type": "static"
@@ -1096,18 +1096,6 @@
     "type": "static"
   },
   {
-    "name": "unpatched",
-    "do": "<ul><li>To represent that the system is not updated.</li><li>To represent that the patch is not available for this system.</li></ul>",
-    "dont": "<ul><li>To represent a system error.</li></ul>",
-    "tags": [
-      "system",
-      "not updated",
-      "patch"
-    ],
-    "category": "services",
-    "type": "static"
-  },
-  {
     "name": "virtual_guest",
     "do": "<ul><li>To represent a virtual machine.</li></ul>",
     "dont": "<ul><li>To represent a system.</li></ul>",
@@ -1124,6 +1112,18 @@
     "tags": [
       "manage",
       "virtual host"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "virtual_space",
+    "do": "<ul><li>To represent a Cloudfoundry space.</li></ul>",
+    "dont": "<ul><li>To represent an action.</li></ul>",
+    "tags": [
+      "cloudfoundry",
+      "kubernetes",
+      "spaces"
     ],
     "category": "virtualization",
     "type": "static"

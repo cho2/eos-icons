@@ -1,5 +1,5 @@
 {
-  "name": "cloud_foundry_space",
+  "name": "virtual_space",
   "do": "<ul><li>To represent a Cloudfoundry space.</li></ul>",
   "dont": "<ul><li>To represent an action.</li></ul>",
   "tags": [
