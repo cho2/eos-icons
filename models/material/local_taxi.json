@@ -1,0 +1,25 @@
+{
+  "name": "local_taxi",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "maps",
+    "cab",
+    "taxi",
+    "yellow",
+    "lyft",
+    "uber",
+    "transportation",
+    "vehicle",
+    "automobile",
+    "call",
+    "cars",
+    "public",
+    "car",
+    "direction"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

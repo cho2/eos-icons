@@ -1,0 +1,26 @@
+{
+  "name": "spellcheck",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "a",
+    "spell",
+    "symbol",
+    "edit",
+    "alphabet",
+    "check",
+    "type",
+    "processor",
+    "character",
+    "letter",
+    "checkmark",
+    "text",
+    "word",
+    "write",
+    "font"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

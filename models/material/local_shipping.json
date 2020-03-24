@@ -1,0 +1,29 @@
+{
+  "name": "local_shipping",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "parcel",
+    "package",
+    "mail",
+    "maps",
+    "stamp",
+    "office",
+    "shpping",
+    "transportation",
+    "vehicle",
+    "automobile",
+    "cars",
+    "post",
+    "car",
+    "deliverey",
+    "letter",
+    "postal",
+    "send",
+    "shopping"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "call_split",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Call",
+    "split",
+    "arrow",
+    "mobile",
+    "device"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

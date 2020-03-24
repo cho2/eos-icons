@@ -1,0 +1,21 @@
+{
+  "name": "rowing",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "activity",
+    "rowing",
+    "canoe",
+    "person",
+    "body",
+    "human",
+    "people",
+    "sport",
+    "water",
+    "boat"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "format_line_spacing",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "editor",
+    "edit",
+    "writing",
+    "doc",
+    "sheet",
+    "text",
+    "align",
+    "alignment",
+    "type",
+    "editing",
+    "speadsheet"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

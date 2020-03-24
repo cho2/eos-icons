@@ -1,0 +1,19 @@
+{
+  "name": "home",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "unit",
+    "address",
+    "place",
+    "residence",
+    "house",
+    "building",
+    "structure",
+    "home"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

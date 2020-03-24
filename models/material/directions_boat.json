@@ -1,0 +1,21 @@
+{
+  "name": "directions_boat",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "automobile",
+    "cars",
+    "maps",
+    "public",
+    "car",
+    "ferry",
+    "boat",
+    "direction",
+    "transportation",
+    "vehicle"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

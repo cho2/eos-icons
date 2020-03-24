@@ -1,0 +1,19 @@
+{
+  "name": "settings_input_hdmi",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "input",
+    "settings",
+    "connectivity",
+    "plugin",
+    "hdmi",
+    "connection",
+    "plug",
+    "points"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

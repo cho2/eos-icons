@@ -1,0 +1,19 @@
+{
+  "name": "import_contacts",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Import",
+    "address",
+    "book",
+    "information",
+    "contacts",
+    "friends",
+    "open",
+    "info"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

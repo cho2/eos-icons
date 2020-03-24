@@ -1,0 +1,20 @@
+{
+  "name": "highlight_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "highlight",
+    "stop",
+    "x",
+    "focus",
+    "circle",
+    "click",
+    "close",
+    "off",
+    "target"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "flight_takeoff",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "departing",
+    "plane",
+    "flight",
+    "fly",
+    "landing",
+    "departed",
+    "land",
+    "travel",
+    "transportation"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "info_outline",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "alert",
+    "bubble",
+    "i",
+    "information",
+    "announcement",
+    "info"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

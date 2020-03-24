@@ -1,0 +1,22 @@
+{
+  "name": "format_align_center",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "editor",
+    "edit",
+    "writing",
+    "doc",
+    "sheet",
+    "text",
+    "align",
+    "alignment",
+    "type",
+    "editing",
+    "spreadsheet"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

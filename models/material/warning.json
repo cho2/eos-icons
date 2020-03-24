@@ -1,0 +1,20 @@
+{
+  "name": "warning",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "important",
+    "notification",
+    "attention",
+    "warning",
+    "exclamation",
+    "danger",
+    "caution",
+    "mark",
+    "triangle"
+  ],
+  "category": [
+    "alert"
+  ],
+  "type": "static"
+}

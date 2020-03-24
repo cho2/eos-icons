@@ -1,0 +1,19 @@
+{
+  "name": "flip_to_front",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrangement",
+    "move",
+    "arrange",
+    "back",
+    "front",
+    "sort",
+    "flip",
+    "order"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "delete_forever",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "can",
+    "bin",
+    "x",
+    "garbage",
+    "delete",
+    "remove",
+    "trash"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "volume_down",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "tv",
+    "music",
+    "Volume",
+    "sound",
+    "control",
+    "audio",
+    "down"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

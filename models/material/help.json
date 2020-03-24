@@ -1,0 +1,20 @@
+{
+  "name": "help",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "help",
+    "symbol",
+    "alert",
+    "information",
+    "question mark",
+    "support",
+    "?",
+    "announcement",
+    "info"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

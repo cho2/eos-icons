@@ -4,13 +4,13 @@ const path = require('path')
 
 const downloadFile = async () => {
   const filePath = path.resolve(__dirname, 'md-web-data.json')
-    axios({
-      method: "get",
-      url: "https://fonts.google.com/metadata/icons",
-      responseType: "stream"
-    }).then(function (response) {
-      response.data.pipe(fs.createWriteStream(filePath))
-    });
+  axios({
+    method: "get",
+    url: "https://fonts.google.com/metadata/icons",
+    responseType: "stream"
+  }).then(function (response) {
+    response.data.pipe(fs.createWriteStream(filePath))
+  });
 }
 
 const eosMdIconsDifferences = async params => {
@@ -22,11 +22,11 @@ const eosMdIconsDifferences = async params => {
 
     const missingIconsInEos = iconsDifferences(webMdIconsCollection, mdIcons)
     const missingIconsInMD = iconsDifferences(mdIcons, webMdIconsCollection)
-    
-    console.log("======= Missing icons in Eos =======")
-    console.dir(missingIconsInEos, {'maxArrayLength': null})
-    console.log("======= Missing icons in MD website =======")
-    console.dir(missingIconsInMD, {'maxArrayLength': null})
+
+    console.log(`======= ${missingIconsInEos.length} New icons MD has that EOS doesn't =======`)
+    console.dir(missingIconsInEos, { 'maxArrayLength': null })
+    console.log(`======= ${missingIconsInMD.length} Old Md icons they have removed and EOS still has =======`)
+    console.dir(missingIconsInMD, { 'maxArrayLength': null })
   } catch (error) {
     console.log(error)
     console.log("Please run 'grunt eosMdIconsDifferencesLog' again to see the result.")

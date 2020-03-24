@@ -1,0 +1,19 @@
+{
+  "name": "redo",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "next",
+    "rotate",
+    "undo",
+    "arrow",
+    "forward",
+    "repeat",
+    "backward",
+    "redo"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mic",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "voice",
+    "Mic",
+    "record",
+    "sound",
+    "noise",
+    "hearing",
+    "microphone",
+    "hear"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

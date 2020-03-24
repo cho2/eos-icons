@@ -1,0 +1,22 @@
+{
+  "name": "format_align_right",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "editor",
+    "edit",
+    "writing",
+    "doc",
+    "sheet",
+    "text",
+    "align",
+    "alignment",
+    "type",
+    "editing",
+    "speadsheet"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

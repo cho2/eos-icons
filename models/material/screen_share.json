@@ -1,0 +1,24 @@
+{
+  "name": "screen_share",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "mirror",
+    "OS",
+    "arrow",
+    "screen",
+    "monitor",
+    "iOS",
+    "laptop",
+    "Android",
+    "desktop",
+    "web",
+    "share",
+    "device",
+    "hardware"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

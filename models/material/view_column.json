@@ -1,0 +1,17 @@
+{
+  "name": "view_column",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "view",
+    "website",
+    "grid",
+    "column",
+    "format",
+    "vertical"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

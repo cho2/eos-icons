@@ -3,17 +3,19 @@ const inquirer = require("inquirer");
 
 /* Function that takes an object with the models and icons source dir, ex: checkForMissingModelsOrIcons({ modelsSrc: './models/', iconsSrc: './svg', animatedSrc: './animated-svg' }) */
 const checkForMissingModelsOrIcons = async params => {
-  const { modelsSrc, iconsSrc, animatedSrc } = params
+  const { modelsSrc, mdModelsSrc, mdIconsSrc, iconsSrc, animatedSrc } = params
 
   try {
     /* Read both models and icons files names. */
     const existentModels = await readFilesAndCleanNames(modelsSrc)
     const existentIcons = await readFilesAndCleanNames(iconsSrc)
     const existentAnimatedIcons = await readFilesAndCleanNames(animatedSrc)
+    const existentMdModels = await readFilesAndCleanNames(mdModelsSrc)
+    const existentMdIcons = await readFilesAndCleanNames(mdIconsSrc)
 
     /* Compare one with the other and extract the missing models and icons  */
-    const SVGsMissingModels = compareTwoArraysOfElements(existentModels, [...existentIcons, ...existentAnimatedIcons])
-    const ModelsMissingSVGs = compareTwoArraysOfElements([...existentIcons, ...existentAnimatedIcons], existentModels)
+    const SVGsMissingModels = compareTwoArraysOfElements([...existentModels, ...existentMdModels], [...existentIcons, ...existentMdIcons, ...existentAnimatedIcons])
+    const ModelsMissingSVGs = compareTwoArraysOfElements([...existentMdIcons, ...existentIcons, ...existentAnimatedIcons], [...existentModels, ...existentMdModels])
 
     /* Return an object with all the missing SVGs and Models */
     return { SVGsMissingModels, ModelsMissingSVGs }
@@ -56,10 +58,16 @@ const readModelKeys = async params => {
   /* Get all files inside the models folder */
   const filesName = await fs.readdirSync(modelsFolder, (err, file) => file)
 
+  const filterfiles = filesName.filter(ele => {
+    return ele.includes('.json')
+      ? ele
+      : null
+  })
+
   /* For each file, read and parse the data */
-  return filesName.map(ele => {
+  return filterfiles.map(ele => {
     try {
-      const fileData = fs.readFileSync(`models/${ele}`, (err, data) => data)
+      const fileData = fs.readFileSync(`${modelsFolder}/${ele}`, (err, data) => data)
 
       return {
         fileName: ele,
@@ -73,9 +81,12 @@ const readModelKeys = async params => {
 
 /* Maps throught the array of objects checking for  */
 const checkModelKeys = async () => {
-  const models = await readModelKeys({ modelsFolder: './models' })
+  const modelsEos = await readModelKeys({ modelsFolder: './models' })
+  const modelsMd = await readModelKeys({ modelsFolder: './models/material' })
 
-  return models.map(model => {
+  const modelsAll = [...modelsEos, ...modelsMd]
+
+  return modelsAll.map(model => {
     return checkForKeys(Object.keys(model))
       ? undefined
       : model

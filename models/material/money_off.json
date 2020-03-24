@@ -1,0 +1,31 @@
+{
+  "name": "money_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "symbol",
+    "bill",
+    "pay",
+    "dollars",
+    "commerce",
+    "cart",
+    "enabled",
+    "off",
+    "money",
+    "online",
+    "currency",
+    "disabled",
+    "payment",
+    "slash",
+    "credit",
+    "cash",
+    "card",
+    "coin",
+    "on",
+    "shopping"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

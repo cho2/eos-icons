@@ -1,0 +1,19 @@
+{
+  "name": "airplanemode_inactive",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "mode",
+    "airplanemode",
+    "flight",
+    "inactive",
+    "airplane",
+    "disabled",
+    "signal",
+    "off"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

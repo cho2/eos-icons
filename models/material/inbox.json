@@ -1,0 +1,17 @@
+{
+  "name": "inbox",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "incoming",
+    "mail",
+    "archive",
+    "message",
+    "inbox",
+    "email"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}

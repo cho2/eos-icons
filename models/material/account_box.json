@@ -1,0 +1,20 @@
+{
+  "name": "account_box",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "square",
+    "face",
+    "thumbnail",
+    "person",
+    "profile",
+    "human",
+    "people",
+    "user",
+    "account"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

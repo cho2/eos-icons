@@ -1,0 +1,15 @@
+{
+  "name": "all_out",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "all",
+    "shape",
+    "circle",
+    "out"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

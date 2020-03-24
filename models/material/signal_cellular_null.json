@@ -1,0 +1,23 @@
+{
+  "name": "signal_cellular_null",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "wifi",
+    "celluar",
+    "data",
+    "null",
+    "phone",
+    "mobile",
+    "wireless",
+    "cell",
+    "signal",
+    "internet",
+    "speed",
+    "network"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

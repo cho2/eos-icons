@@ -1,0 +1,19 @@
+{
+  "name": "perm_phone_msg",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "voice",
+    "bubble",
+    "phone",
+    "speech",
+    "chat",
+    "save",
+    "recording",
+    "message"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "redeem",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "gift",
+    "giftcard",
+    "certificate",
+    "bill",
+    "pay",
+    "dollars",
+    "commerce",
+    "cart",
+    "money",
+    "online",
+    "currency",
+    "payment",
+    "redeem",
+    "credit",
+    "present",
+    "cash",
+    "card",
+    "coin",
+    "shopping"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

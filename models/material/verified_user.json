@@ -1,0 +1,19 @@
+{
+  "name": "verified_user",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "shield",
+    "security",
+    "audit",
+    "checkmark",
+    "verified",
+    "certified",
+    "check",
+    "user"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

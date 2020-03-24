@@ -1,0 +1,23 @@
+{
+  "name": "location_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "maps",
+    "pin",
+    "stop",
+    "destination",
+    "disabled",
+    "location",
+    "slash",
+    "place",
+    "enabled",
+    "off",
+    "direction",
+    "on"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

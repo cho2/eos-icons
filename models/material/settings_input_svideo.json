@@ -1,0 +1,19 @@
+{
+  "name": "settings_input_svideo",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "input",
+    "settings",
+    "connectivity",
+    "plugin",
+    "svideo",
+    "connection",
+    "plug",
+    "points"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

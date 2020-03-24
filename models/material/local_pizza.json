@@ -1,0 +1,16 @@
+{
+  "name": "local_pizza",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "meal",
+    "pizza",
+    "drink",
+    "fastfood",
+    "food"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

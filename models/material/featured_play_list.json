@@ -1,0 +1,18 @@
+{
+  "name": "featured_play_list",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "play",
+    "music",
+    "playlist",
+    "highlighted",
+    "Featured",
+    "collection",
+    "recommended"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

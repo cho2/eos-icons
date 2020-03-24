@@ -1,0 +1,17 @@
+{
+  "name": "featured_video",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "watch",
+    "advertised",
+    "highlighted",
+    "Featured",
+    "video",
+    "recommended"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

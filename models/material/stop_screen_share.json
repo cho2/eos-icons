@@ -1,0 +1,29 @@
+{
+  "name": "stop_screen_share",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "mirror",
+    "OS",
+    "arrow",
+    "screen",
+    "monitor",
+    "iOS",
+    "laptop",
+    "enabled",
+    "off",
+    "Android",
+    "desktop",
+    "web",
+    "disabled",
+    "share",
+    "slash",
+    "device",
+    "hardware",
+    "on"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

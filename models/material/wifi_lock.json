@@ -1,0 +1,22 @@
+{
+  "name": "wifi_lock",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "wifi",
+    "celluar",
+    "data",
+    "phone",
+    "mobile",
+    "lock",
+    "wireless",
+    "cell",
+    "internet",
+    "speed",
+    "network"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

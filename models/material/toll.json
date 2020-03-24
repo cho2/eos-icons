@@ -1,0 +1,28 @@
+{
+  "name": "toll",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "ticket",
+    "bill",
+    "pay",
+    "dollars",
+    "commerce",
+    "toll",
+    "booth",
+    "money",
+    "car",
+    "online",
+    "currency",
+    "payment",
+    "credit",
+    "highway",
+    "cash",
+    "card",
+    "coin"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

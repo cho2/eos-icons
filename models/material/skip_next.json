@@ -1,0 +1,20 @@
+{
+  "name": "skip_next",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "next",
+    "play",
+    "controls",
+    "music",
+    "previous",
+    "arrow",
+    "Skip",
+    "control",
+    "video"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

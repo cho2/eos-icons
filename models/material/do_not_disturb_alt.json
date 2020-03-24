@@ -1,0 +1,14 @@
+{
+  "name": "do_not_disturb_alt",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "stop",
+    "agitate",
+    "distract"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

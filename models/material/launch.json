@@ -1,0 +1,17 @@
+{
+  "name": "launch",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "new",
+    "arrow",
+    "box",
+    "launch",
+    "window",
+    "open"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

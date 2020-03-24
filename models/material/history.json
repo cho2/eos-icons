@@ -1,0 +1,20 @@
+{
+  "name": "history",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "rotate",
+    "arrow",
+    "back",
+    "refresh",
+    "clock",
+    "history",
+    "time",
+    "reverse",
+    "backwards"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}
