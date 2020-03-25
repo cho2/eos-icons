@@ -835,6 +835,31 @@
     "type": "static"
   },
   {
+    "name": "replica",
+    "do": "<ul><li>Use it for creating or distinguishing an exact copy of something.</li></ul>",
+    "dont": "<ul><li>Dont use it for the action of Copying something, you should use the Copy icon instead.</li></ul>",
+    "tags": [
+      "duplicate",
+      "exactcopy",
+      "copysmallerscale"
+    ],
+    "category": "file",
+    "type": "static"
+  },
+  {
+    "name": "replica_set",
+    "do": "<ul><li>Use it when more than one replicas of the same item are present in a set.</li></ul>",
+    "dont": "<ul><li>Don't use it for copy.</li></ul>",
+    "tags": [
+      "duplication",
+      "duplicate",
+      "exactcopies",
+      "copies"
+    ],
+    "category": "file",
+    "type": "static"
+  },
+  {
     "name": "repositories",
     "do": "<ul><li>To indicate product repositories.</li></ul>",
     "dont": "",
