@@ -13,6 +13,7 @@ const duplicatedIcons = [
   'battery_charging_90.svg',
   'battery_charging_full.svg',
   'clear.svg',
+  'dns.svg',
   'expand_more.svg',
   'expand_less.svg',
   'navigate_before.svg',
