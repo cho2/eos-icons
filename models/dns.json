@@ -1,7 +1,7 @@
 {
   "name": "dns",
-  "do": "",
-  "dont": "",
+  "do": "<ul><li>Use it when listing or remarking a Domain Name System.</li></ul>",
+  "dont": "<ul><li>Don't use it for routes or network.</li></ul>",
   "tags": [
     "lookup",
     "server",
@@ -14,8 +14,6 @@
     "list",
     "bars"
   ],
-  "category": [
-    "action"
-  ],
+  "category": "virtualization",
   "type": "static"
 }
