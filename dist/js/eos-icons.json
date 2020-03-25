@@ -8266,17 +8266,14 @@
     "do": "",
     "dont": "",
     "tags": [
-      "photography",
-      "photo",
-      "image",
-      "style",
-      "custom",
       "edit",
-      "retouch",
-      "repaint"
+      "repair",
+      "patch",
+      "fix",
+      "bugfix"
     ],
     "category": [
-      "image"
+      "development"
     ],
     "type": "static"
   },
