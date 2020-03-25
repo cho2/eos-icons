@@ -397,6 +397,19 @@
     "type": "animated"
   },
   {
+    "name": "ip",
+    "do": "<ul><li>Use it when listing or remarking an Internet Protocol address.</li></ul>",
+    "dont": "<ul><li>Don't use it for network, route, http, or others.</li></ul>",
+    "tags": [
+      "internet",
+      "protocol",
+      "address",
+      "numericallabel"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "job",
     "do": "<ul><li>Use this icon for algorithm/script that is run to perform a certain action/job</li></ul>",
     "dont": "<ul><li>Use it for flochart and logic scheme</li></ul>",
