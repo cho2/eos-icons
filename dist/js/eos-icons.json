@@ -8263,20 +8263,17 @@
   },
   {
     "name": "healing",
-    "do": "",
-    "dont": "",
+    "do": "<ul><li>Use it for fixes or patches.</li></ul>",
+    "dont": "<ul><li>Don't use it for help.</li></ul>",
     "tags": [
-      "photography",
-      "photo",
-      "image",
-      "style",
-      "custom",
       "edit",
-      "retouch",
-      "repaint"
+      "repair",
+      "patch",
+      "fix",
+      "bugfix"
     ],
     "category": [
-      "image"
+      "development"
     ],
     "type": "static"
   },
