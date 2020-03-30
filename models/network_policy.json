@@ -1,7 +1,7 @@
 {
   "name": "network_policy",
-  "do": "<ul><li>To represent the specification of how groups of pods or endpoints are allowed to communicate with each other</li></ul>",
-  "dont": "<ul><li>To represent location</li></ul>",
+  "do": "<ul><li>To represent principle of action adopted or proposed by an organization or individual applied to a network.</li></ul>",
+  "dont": "<ul><li>To represent location or language.</li></ul>",
   "tags": [
     "network",
     "servers",
