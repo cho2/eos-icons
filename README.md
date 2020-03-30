@@ -1,6 +1,6 @@
 # EOS iconic font
 
-Demo: https://eos-icons.eosdesignsystem.com/
+Demo: https://icons.eosdesignsystem.com/
 
 This is the iconic font used in the EOS Design System. The official SUSE Linux Design System, and for all open source projects to use and re-use.
 
@@ -26,12 +26,12 @@ Just like in any other iconic font, you need to add the Fonts and CSS files in y
 <i class="eos-icons"> LIGATURE_OF_THE_ICON</i>
 ```
 
-Where the LIGATURE_OF_THE_ICON is the name of the icon. Use our online tool to see the icon's name: https://eos-icons.eosdesignsystem.com/.
+Where the LIGATURE_OF_THE_ICON is the name of the icon. Use our online tool to see the icon's name: https://icons.eosdesignsystem.com/.
 
 # Using animated icons
 
 
-1- Download the animated icon of your choice from [https://eos-icons.eosdesignsystem.com/](https://eos-icons.eosdesignsystem.com/) and add them into your project.
+1- Download the animated icon of your choice from [https://icons.eosdesignsystem.com/](https://icons.eosdesignsystem.com/) and add them into your project.
 
 2- To use them you need to add the `img` tag in your html.
 
@@ -41,7 +41,7 @@ For example:
 <img src="icon.svg" />
 ```
 
-See the other animated icons classes in our [demo page](https://eos-icons.eosdesignsystem.com/). Click on the icon you want to use to see the code snippet.
+See the other animated icons classes in our [demo page](https://icons.eosdesignsystem.com/). Click on the icon you want to use to see the code snippet.
 
 # EOS extended version with Material Design
 
