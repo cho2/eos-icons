@@ -1096,7 +1096,7 @@
       "system",
       "re registered"
     ],
-    "category": "services",
+    "category": "hardware",
     "type": "static"
   },
   {
@@ -1108,7 +1108,7 @@
       "not updated",
       "patch"
     ],
-    "category": "services",
+    "category": "hardware",
     "type": "static"
   },
   {
