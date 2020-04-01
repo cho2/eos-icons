@@ -549,7 +549,7 @@
   },
   {
     "name": "network",
-    "do": "<ul><li>To represent interconnectivity between cloud based applications or services</li></ul>",
+    "do": "<ul><li>To represent a group or system of interconnected people or things.</li></ul>",
     "dont": "<ul><li>To represent location or language</li></ul>",
     "tags": [
       "network",
@@ -577,8 +577,8 @@
   },
   {
     "name": "network_policy",
-    "do": "<ul><li>To represent the specification of how groups of pods or endpoints are allowed to communicate with each other</li></ul>",
-    "dont": "<ul><li>To represent location</li></ul>",
+    "do": "<ul><li>To represent principle of action adopted or proposed by an organization or individual applied to a network.</li></ul>",
+    "dont": "<ul><li>To represent location or language.</li></ul>",
     "tags": [
       "network",
       "servers",
@@ -695,7 +695,7 @@
   {
     "name": "persistent_volume",
     "do": "<ul><li>To represent perservation of data over an prolonged period of time.</li></ul>",
-    "dont": "<ul><li>To represent infinit storage capacity </li></ul>",
+    "dont": "<ul><li>To represent infinit storage capacity.</li></ul>",
     "tags": [
       "network",
       "servers",
