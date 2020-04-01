@@ -1,6 +1,6 @@
 {
   "name": "network",
-  "do": "<ul><li>To represent interconnectivity between cloud based applications or services</li></ul>",
+  "do": "<ul><li>To represent a group or system of interconnected people or things.</li></ul>",
   "dont": "<ul><li>To represent location or language</li></ul>",
   "tags": [
     "network",

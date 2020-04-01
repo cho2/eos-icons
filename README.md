@@ -1,6 +1,6 @@
 # EOS iconic font
 
-Demo: https://eos-icons.eosdesignsystem.com/
+Demo: https://icons.eosdesignsystem.com/
 
 This is the iconic font used in the EOS Design System. The official SUSE Linux Design System, and for all open source projects to use and re-use.
 
@@ -26,12 +26,12 @@ Just like in any other iconic font, you need to add the Fonts and CSS files in y
 <i class="eos-icons"> LIGATURE_OF_THE_ICON</i>
 ```
 
-Where the LIGATURE_OF_THE_ICON is the name of the icon. Use our online tool to see the icon's name: https://eos-icons.eosdesignsystem.com/.
+Where the LIGATURE_OF_THE_ICON is the name of the icon. Use our online tool to see the icon's name: https://icons.eosdesignsystem.com/.
 
 # Using animated icons
 
 
-1- Download the animated icon of your choice from [https://eos-icons.eosdesignsystem.com/](https://eos-icons.eosdesignsystem.com/) and add them into your project.
+1- Download the animated icon of your choice from [https://icons.eosdesignsystem.com/](https://icons.eosdesignsystem.com/) and add them into your project.
 
 2- To use them you need to add the `img` tag in your html.
 
@@ -41,7 +41,7 @@ For example:
 <img src="icon.svg" />
 ```
 
-See the other animated icons classes in our [demo page](https://eos-icons.eosdesignsystem.com/). Click on the icon you want to use to see the code snippet.
+See the other animated icons classes in our [demo page](https://icons.eosdesignsystem.com/). Click on the icon you want to use to see the code snippet.
 
 # EOS extended version with Material Design
 
@@ -129,6 +129,8 @@ sudo apt-get install fontforge ttfautohint
 
 Add your icons into the `svg/` folder. All our icons have been designed with Illustrator, but designing with any tool like Inkscape will work just fine, just make sure the exported SVG code is as clean as possible.
 
+Please have a look at [our guidelines](https://gitlab.com/SUSE-UIUX/eos-icons/-/wikis/home#designing-new-icons-for-eos-icons) on how to design icons.
+
 SVG file names with more than one word in it should not have a minus character separating the words (e.g.: some-name.svg), instead, use an underscore (e.g.: some_name.svg). The use of spaces in the filename also creates conflicts in the resulting iconic font.
 
 Then all you need to do, is run
@@ -142,3 +144,10 @@ This will build the assets under the `dist/` folder.
 We recommended sizes MD icons use: 18, 24, 36, and 48 pixels, plus 16px which is our minimum allowed size at EOS Design System.
 
 **That's it!!.. easy as pie**
+
+# Our "thank you" section
+
+### Tested for every browser in every device
+
+Thanks to [browserstack](https://www.browserstack.com) and their continuous contribution to open source projects, we continuously test the EOS to make sure all our features and components work perfectly fine in all browsers.
+Browserstack helps us make sure our Design System also delivers a peace of mind to all developers and designers making use of our components and layout in their products.

@@ -1,0 +1,15 @@
+{
+  "name": "cloud_controller_manager",
+  "do": "<ul><li>Use this icon to configure or control any type of cloud integration.</li></ul>",
+  "dont": "<ul><li>Don't use it for other type of configuration.</li></ul>",
+  "tags": [
+    "kubernetes",
+    "control",
+    "configuration",
+    "integration",
+    "cloudcomputing",
+    "datacenter"
+  ],
+  "category": "virtualization",
+  "type": "static"
+}

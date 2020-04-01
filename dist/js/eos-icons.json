@@ -124,6 +124,21 @@
     "type": "static"
   },
   {
+    "name": "cloud_controller_manager",
+    "do": "<ul><li>Use this icon to configure or control any type of cloud integration.</li></ul>",
+    "dont": "<ul><li>Don't use it for other type of configuration.</li></ul>",
+    "tags": [
+      "kubernetes",
+      "control",
+      "configuration",
+      "integration",
+      "cloudcomputing",
+      "datacenter"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "cluster_role",
     "do": "<ul><li>Indicates a cluster-scoped resources.</li><li>Indicates a non-resource endpoints.</li></ul>",
     "dont": "",
@@ -549,7 +564,7 @@
   },
   {
     "name": "network",
-    "do": "<ul><li>To represent interconnectivity between cloud based applications or services</li></ul>",
+    "do": "<ul><li>To represent a group or system of interconnected people or things.</li></ul>",
     "dont": "<ul><li>To represent location or language</li></ul>",
     "tags": [
       "network",
@@ -577,8 +592,8 @@
   },
   {
     "name": "network_policy",
-    "do": "<ul><li>To represent the specification of how groups of pods or endpoints are allowed to communicate with each other</li></ul>",
-    "dont": "<ul><li>To represent location</li></ul>",
+    "do": "<ul><li>To represent principle of action adopted or proposed by an organization or individual applied to a network.</li></ul>",
+    "dont": "<ul><li>To represent location or language.</li></ul>",
     "tags": [
       "network",
       "servers",
@@ -695,7 +710,7 @@
   {
     "name": "persistent_volume",
     "do": "<ul><li>To represent perservation of data over an prolonged period of time.</li></ul>",
-    "dont": "<ul><li>To represent infinit storage capacity </li></ul>",
+    "dont": "<ul><li>To represent infinit storage capacity.</li></ul>",
     "tags": [
       "network",
       "servers",
@@ -1075,6 +1090,20 @@
     "type": "static"
   },
   {
+    "name": "system_ok",
+    "do": "<ul><li>Use it to show the state of a system as correct, patched, fixed, or others.</li></ul>",
+    "dont": "<ul><li>Don't use it for general success in an action. In that case, you should use \"check\".</li></ul>",
+    "tags": [
+      "patched",
+      "systemfixed",
+      "fixed",
+      "correct",
+      "verified"
+    ],
+    "category": "hardware",
+    "type": "static"
+  },
+  {
     "name": "system_re_registered",
     "do": "<ul><li>To represent re-registered systems or the action of re-registering a system.</li></ul>",
     "dont": "<ul><li>To represent a new system.</li></ul>",
@@ -1082,7 +1111,7 @@
       "system",
       "re registered"
     ],
-    "category": "services",
+    "category": "hardware",
     "type": "static"
   },
   {
@@ -1094,7 +1123,7 @@
       "not updated",
       "patch"
     ],
-    "category": "services",
+    "category": "hardware",
     "type": "static"
   },
   {
@@ -8263,20 +8292,17 @@
   },
   {
     "name": "healing",
-    "do": "",
-    "dont": "",
+    "do": "<ul><li>Use it for fixes or patches.</li></ul>",
+    "dont": "<ul><li>Don't use it for help.</li></ul>",
     "tags": [
-      "photography",
-      "photo",
-      "image",
-      "style",
-      "custom",
       "edit",
-      "retouch",
-      "repaint"
+      "repair",
+      "patch",
+      "fix",
+      "bugfix"
     ],
     "category": [
-      "image"
+      "development"
     ],
     "type": "static"
   },
