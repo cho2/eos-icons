@@ -15,7 +15,7 @@
     bbox="-0.595506 -64 512 448.379"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F4F2"
+    unicode-range="U+0030-F4F3"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -49,6 +49,9 @@ d="M7 -64v43h384v-43h-384zM199 192q52 0 91 -10.5t59.5 -27.5t32.5 -37.5t14 -41t1.
 v-43h256z" />
     <glyph glyph-name="cleanup" unicode="cleanup" 
 d="M384 128v-43h-341v43h106q0 18 12.5 30.5t30.5 12.5l88 234l37 -13l-82 -221q17 0 29.5 -12.5t12.5 -30.5h107zM384 64l43 -85h-43h-341h-43l43 85h341z" />
+    <glyph glyph-name="cloud_controller_manager" unicode="cloud_controller_manager" horiz-adv-x="512" 
+d="M192 235h171v-43h-171v43zM512 235v-43h-64v-43h-43v128h43v-42h64zM192 21h171v-42h-171v42zM512 21v-42h-64v-43h-43v128h43v-43h64zM512 85h-171v43h171v-43zM192 85v43h64v43h43v-128h-43v42h-64zM149 299v-192h-21q-53 0 -90.5 37.5t-37.5 90.5q0 47 33.5 84.5
+t80.5 42.5q19 35 60.5 60.5t81.5 25.5q54 0 100 -38t57 -91q30 -2 55 -20h-319z" />
     <glyph glyph-name="cluster_role_binding" unicode="cluster_role_binding" horiz-adv-x="448" 
 d="M320 213q0 -9 -6.5 -15t-15 -6t-15 6t-6.5 15t6.5 15t15 6t15 -6t6.5 -15zM235 234q8 0 14.5 -6t6.5 -15t-6.5 -15t-15 -6t-15 6t-6.5 15q0 6 3 11t8 7.5t11 2.5zM171 234v-42h-107v42h107zM256 61v3h86v-44h-86v41zM371.5 127.5q4.5 -0.5 8.5 -1.5l8 -2t8 -3t7.5 -4
 l7 -4t6.5 -4.5t6 -5.5t5.5 -6t5 -6.5t4.5 -7t3.5 -7.5t2.5 -8l2 -8t1.5 -8.5t0.5 -9t-0.5 -8.5t-1.5 -8.5t-2 -8.5t-2.5 -8t-3.5 -7.5t-4.5 -7t-5 -6.5t-5.5 -6t-6 -5.5t-6.5 -5t-7 -4.5t-7.5 -3.5t-8 -2.5q-8 -3 -16 -4h-9h-43v43h43h4t4.5 0.5t4.5 1t3.5 1.5t3.5 2t3.5 2
