@@ -1,5 +1,47 @@
 [
   {
+    "name": "abstract",
+    "do": "<ul><li>Use this icon to represent an abstract resource or tool.</li></ul>",
+    "dont": "<ul><li>n/a.</li></ul>",
+    "tags": [
+      "resource",
+      "conceptual",
+      "non-representational",
+      "symbolic",
+      "non-realistic"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "abstract_incomplete",
+    "do": "<ul><li>Use this icon to represent an incomplete abstract resource or tool.</li></ul>",
+    "dont": "<ul><li>n/a.</li></ul>",
+    "tags": [
+      "resource",
+      "conceptual",
+      "non-representational",
+      "symbolic",
+      "non-realistic"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "abstract_instance",
+    "do": "<ul><li>Use this icon to represent the instance of an abstract resource or tool.</li></ul>",
+    "dont": "<ul><li>n/a.</li></ul>",
+    "tags": [
+      "resource",
+      "conceptual",
+      "non-representational",
+      "symbolic",
+      "non-realistic"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "action_chains",
     "do": "<ul><li>For chains of actions.</li><li>Also use when multiple steps are required.</li></ul>",
     "dont": "",
@@ -81,6 +123,19 @@
     "type": "static"
   },
   {
+    "name": "application_window",
+    "do": "<ul><li>Use this icon to represent an application window, like a browser or GUI.</li></ul>",
+    "dont": "<ul><li>Don't use it for terminal, for this you should use the terminal icon.</li></ul>",
+    "tags": [
+      "browserwindow",
+      "GUI",
+      "interface",
+      "graphicaluserinterface"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "autoinstallation",
     "do": "<ul><li>To represent an autoinstallation process.</li></ul>",
     "dont": "<ul><li>To represent a downloading processs.</li></ul>",
@@ -121,6 +176,21 @@
       "cleanup"
     ],
     "category": "action",
+    "type": "static"
+  },
+  {
+    "name": "cloud_controller_manager",
+    "do": "<ul><li>Use this icon to configure or control any type of cloud integration.</li></ul>",
+    "dont": "<ul><li>Don't use it for other type of configuration.</li></ul>",
+    "tags": [
+      "kubernetes",
+      "control",
+      "configuration",
+      "integration",
+      "cloudcomputing",
+      "datacenter"
+    ],
+    "category": "virtualization",
     "type": "static"
   },
   {
