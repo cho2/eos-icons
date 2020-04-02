@@ -1,5 +1,47 @@
 [
   {
+    "name": "abstract",
+    "do": "<ul><li>Use this icon to represent an abstract resource or tool.</li></ul>",
+    "dont": "<ul><li>n/a.</li></ul>",
+    "tags": [
+      "resource",
+      "conceptual",
+      "non-representational",
+      "symbolic",
+      "non-realistic"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "abstract_incomplete",
+    "do": "<ul><li>Use this icon to represent an incomplete abstract resource or tool.</li></ul>",
+    "dont": "<ul><li>n/a.</li></ul>",
+    "tags": [
+      "resource",
+      "conceptual",
+      "non-representational",
+      "symbolic",
+      "non-realistic"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "abstract_instance",
+    "do": "<ul><li>Use this icon to represent the instance of an abstract resource or tool.</li></ul>",
+    "dont": "<ul><li>n/a.</li></ul>",
+    "tags": [
+      "resource",
+      "conceptual",
+      "non-representational",
+      "symbolic",
+      "non-realistic"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "action_chains",
     "do": "<ul><li>For chains of actions.</li><li>Also use when multiple steps are required.</li></ul>",
     "dont": "",
@@ -44,38 +86,6 @@
       "api",
       "kubernetes",
       "data"
-    ],
-    "category": "development",
-    "type": "static"
-  },
-  {
-    "name": "application",
-    "do": "<ul><li>To represent an application.</li></ul>",
-    "dont": "<ul><li>To represent an application instance.</li></ul>",
-    "tags": [
-      "application"
-    ],
-    "category": "development",
-    "type": "static"
-  },
-  {
-    "name": "application_incomplete",
-    "do": "<ul><li>When the status of an applications is incomplete.</li><li>When an application is missing configuration to work properly.</li></ul>",
-    "dont": "<ul><li>To represent an application or application instance.</li></ul>",
-    "tags": [
-      "application",
-      "application status"
-    ],
-    "category": "virtualization",
-    "type": "static"
-  },
-  {
-    "name": "application_instance",
-    "do": "<ul><li>To represent an instance of an aplication.</li></ul>",
-    "dont": "<ul><li>To represent an application or application status.</li></ul>",
-    "tags": [
-      "application",
-      "application status"
     ],
     "category": "development",
     "type": "static"
