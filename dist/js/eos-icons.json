@@ -91,6 +91,51 @@
     "type": "static"
   },
   {
+    "name": "application",
+    "do": "<ul><li>To represent an application.</li></ul>",
+    "dont": "<ul><li>To represent an application instance.</li></ul>",
+    "tags": [
+      "application"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "application_incomplete",
+    "do": "<ul><li>When the status of an applications is incomplete.</li><li>When an application is missing configuration to work properly.</li></ul>",
+    "dont": "<ul><li>To represent an application or application instance.</li></ul>",
+    "tags": [
+      "application",
+      "application status"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "application_instance",
+    "do": "<ul><li>To represent an instance of an aplication.</li></ul>",
+    "dont": "<ul><li>To represent an application or application status.</li></ul>",
+    "tags": [
+      "application",
+      "application status"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "application_window",
+    "do": "<ul><li>Use this icon to represent an application window, like a browser or GUI.</li></ul>",
+    "dont": "<ul><li>Don't use it for terminal, for this you should use the terminal icon.</li></ul>",
+    "tags": [
+      "browserwindow",
+      "GUI",
+      "interface",
+      "graphicaluserinterface"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "autoinstallation",
     "do": "<ul><li>To represent an autoinstallation process.</li></ul>",
     "dont": "<ul><li>To represent a downloading processs.</li></ul>",

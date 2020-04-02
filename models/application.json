@@ -1,0 +1,10 @@
+{
+  "name": "application",
+  "do": "<ul><li>To represent an application.</li></ul>",
+  "dont": "<ul><li>To represent an application instance.</li></ul>",
+  "tags": [
+    "application"
+  ],
+  "category": "development",
+  "type": "static"
+}
