@@ -1,24 +1,33 @@
-# EOS iconic font
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://icons.eosdesignsystem.com)
 
-Demo: https://icons.eosdesignsystem.com/
+![EOS icons](https://res.cloudinary.com/eosdesignsystem/image/upload/v1586442663/npm/eos-icons/banner.png)
 
-This is the iconic font used in the EOS Design System. The official SUSE Linux Design System, and for all open source projects to use and re-use.
+# EOS icons
 
-To view the EOS Design System project check gitlab https://gitlab.com/SUSE-UIUX/eos
+Visit the [EOS icons website](https://icons.eosdesignsystem.com)
 
-# Installing with npm
+### An iconic font created for hi-tech open source software.
+
+From version 4.0.0, EOS icons also includes all of Material Icons (\*) in a unified font.
+We made this desicion based on the several issues encountered in the repository that for the last 3 years has not been maintained. EOS icons v4 solves dozens of conflicting and duplicated icons from MD. If you find any issue let us know by [opening an issue.](https://gitlab.com/SUSE-UIUX/eos-icons/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=)
+
+(\*) https://github.com/google/material-design-icons
+
+# Installation guide
 
 `npm install eos-icons --save`
 
-# Using EOS icons in your projects
+## Using EOS icons in your projects
 
-Just like in any other iconic font, you need to add the Fonts and CSS files in your project:
+Add the Fonts and CSS file in your project as follows:
 
-1- Add the `eos-icons.css` file available under the `dist/css` folder into your projects `<head>`:
+1- Add into your projects `<head>` the file `eos-icons.css` which is available inside the folder `dist/css`:
 
 `<link rel="stylesheet" href="assets/eos-icons.css">`
 
-2- Make sure the font files available in the `dist/fonts` folder are placed under your `assets/fonts` folder so the .css file can read them correctly.
+2- The file mentioned above will look for the font files which you can find inside the folder `dist/fonts` and should move to your `assets/fonts` folder.
 
 3- Use the icons in your html as follows:
 
@@ -28,8 +37,7 @@ Just like in any other iconic font, you need to add the Fonts and CSS files in y
 
 Where the LIGATURE_OF_THE_ICON is the name of the icon. Use our online tool to see the icon's name: https://icons.eosdesignsystem.com/.
 
-# Using animated icons
-
+## Using animated icons
 
 1- Download the animated icon of your choice from [https://icons.eosdesignsystem.com/](https://icons.eosdesignsystem.com/) and add them into your project.
 
@@ -43,30 +51,9 @@ For example:
 
 See the other animated icons classes in our [demo page](https://icons.eosdesignsystem.com/). Click on the icon you want to use to see the code snippet.
 
-# EOS extended version with Material Design
+# Development of EOS icons
 
-Since EOS icons are designed following the [Material Design guidelines](https://material.io/design/iconography/system-icons.html) and made to work together with Material Icons, we decided to include an extended version of EOS icons for easy implementation.
-
-With the extended version you only need to use 1 class for all icons (EOS and Material Design). To implement it, you need to grab the `css/` and `font/` folders available at `dist/extended`, then add the `eos-icons-extended.css` under the `<head>` of your project accordingly.
-
-For more information about Material Design Icons, please refer to the [original MD icons repository](https://github.com/google/material-design-icons) where you can find the corresponding licensing and documentation.
-
-#### Example of usage of the EOS extended
-
-```
-<!-- This is an EOS icon -->
-<i class="eos-icons">action_chains</i>
-
-<!-- This is a Material Design icon -->
-<i class="eos-icons">bluetooth_disabled</i>
-
-```
-
-# Adding your icons to the iconic font
-
-If you want to create your own icons and add them to this library, follow the next steps:
-
-### What do you need to build the fonts locally?
+### Main dependencies
 
 This project uses Webfont for Grunt to build. More info about the project: https://www.npmjs.com/package/grunt-webfont
 
@@ -101,9 +88,9 @@ npm install -g grunt-cli
 npm install
 ```
 
-Install the dependencies:
+Install Fontforge:
 
-- OSX
+On OSX
 
 ```
 brew install ttfautohint fontforge --with-python
@@ -119,27 +106,27 @@ And then download the latest version from:
 
 https://developer.apple.com/xcode/
 
-- Linux
+- On Linux
 
 ```
 sudo apt-get install fontforge ttfautohint
 ```
 
-### Design and add your SVG icons
+## Design and add your SVG icons
 
-Add your icons into the `svg/` folder. All our icons have been designed with Illustrator, but designing with any tool like Inkscape will work just fine, just make sure the exported SVG code is as clean as possible.
+Add your icons into the `svg/` folder. All our icons have been designed with Illustrator, but designing with any tool like Inkscape will work just fine, just make sure to export the SVG code is as clean as possible.
 
-Please have a look at [our guidelines](https://gitlab.com/SUSE-UIUX/eos-icons/-/wikis/home#designing-new-icons-for-eos-icons) on how to design icons.
+Have a look at [our guidelines](https://gitlab.com/SUSE-UIUX/eos-icons/-/wikis/home#designing-new-icons-for-eos-icons) on how to design icons.
 
 SVG file names with more than one word in it should not have a minus character separating the words (e.g.: some-name.svg), instead, use an underscore (e.g.: some_name.svg). The use of spaces in the filename also creates conflicts in the resulting iconic font.
 
-Then all you need to do, is run
+Once you have the svg ready sinde the `svg/` folder, all you need to do, is run
 
 ```
 grunt
 ```
-This will build the assets under the `dist/` folder.
 
+This will build the assets under the `dist/` folder. Open the demo file in `dist/demo.html` to see the results.
 
 We recommended sizes MD icons use: 18, 24, 36, and 48 pixels, plus 16px which is our minimum allowed size at EOS Design System.
 
