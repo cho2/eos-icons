@@ -120,7 +120,7 @@ Have a look at [our guidelines](https://gitlab.com/SUSE-UIUX/eos-icons/-/wikis/h
 
 SVG file names with more than one word in it should not have a minus character separating the words (e.g.: some-name.svg), instead, use an underscore (e.g.: some_name.svg). The use of spaces in the filename also creates conflicts in the resulting iconic font.
 
-Once you have the svg ready sinde the `svg/` folder, all you need to do, is run
+Once you have the svg ready inside the `svg/` folder, all you need to do, is run
 
 ```
 grunt
