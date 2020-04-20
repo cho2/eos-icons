@@ -15,7 +15,7 @@
     bbox="-0.595506 -64 512 448.379"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F4F7"
+    unicode-range="U+0030-F4F1"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -2247,22 +2247,6 @@ d="M354 341l1 -249l-242 242l50 50h149q9 0 16.5 -3.5t13.5 -9t9 -13.5t3 -17zM27 36
 d="M384 302l-281 -281h281v281zM427 405v-426h-427z" />
     <glyph glyph-name="signal_cellular_off" unicode="signal_cellular_off" horiz-adv-x="448" 
 d="M427 427v-367l-184 183zM80 352l368 -368l-27 -27l-43 43h-378l189 189l-136 136z" />
-    <glyph glyph-name="signal_wifi_1_bar_lock" unicode="signal_wifi_&#x31;_bar_lock" horiz-adv-x="503" 
-d="M482 107q8 0 14.5 -7t6.5 -15v-85q0 -8 -6.5 -14.5t-14.5 -6.5h-107q-8 0 -14.5 6.5t-6.5 14.5v85q0 6 3 11t8 8t10 3v32q0 22 15.5 37.5t38 15.5t38 -15.5t15.5 -37.5v-32zM461 107v32q0 12 -9.5 22t-22.5 10t-22.5 -10t-9.5 -22v-32h64zM322 139v-58l-75 -92l-247 310
-q114 85 247.5 85t247.5 -85l-45 -56q-6 2 -21 2q-45 0 -76 -31t-31 -75zM134 130q5 5 17 13t40 18t56 10q43 0 77 -20q-2 -4 -2 -14v-56l-75 -92z" />
-    <glyph glyph-name="signal_wifi_1_bar" unicode="signal_wifi_&#x31;_bar" horiz-adv-x="497" 
-d="M249 -10l-1 -1v1l-248 309q113 85 248.5 85t248.5 -85zM135 131q51 40 113 40q61 0 114 -40l-113 -141l-1 -1v1z" />
-    <glyph glyph-name="signal_wifi_2_bar_lock" unicode="signal_wifi_&#x32;_bar_lock" horiz-adv-x="503" 
-d="M482 107q8 0 14.5 -7t6.5 -15v-85q0 -8 -6.5 -14.5t-14.5 -6.5h-107q-8 0 -14.5 6.5t-6.5 14.5v85q0 6 3 11t8 8t10 3v32q0 22 15.5 37.5t38 15.5t38 -15.5t15.5 -37.5v-32zM461 107v32q0 12 -9.5 22t-22.5 10t-22.5 -10t-9.5 -22v-32h64zM322 139v-58l-75 -92l-247 310
-q114 85 247.5 85t247.5 -85l-45 -56q-6 2 -21 2q-45 0 -76 -31t-31 -75zM94 181q71 54 153 54q54 0 105 -24q-30 -30 -30 -72v-56l-75 -94z" />
-    <glyph glyph-name="signal_wifi_2_bar" unicode="signal_wifi_&#x32;_bar" horiz-adv-x="497" 
-d="M249 -10l-1 -1v1l-248 309q113 85 248.5 85t248.5 -85zM95 181q69 54 153 54q83 0 154 -54l-153 -191l-1 -1z" />
-    <glyph glyph-name="signal_wifi_3_bar_lock" unicode="signal_wifi_&#x33;_bar_lock" horiz-adv-x="503" 
-d="M247.5 384q133.5 0 247.5 -85l-45 -58q-6 2 -21 2q-13 0 -19 -2q-5 0 -17 -4q-21 -8 -37 -22.5t-25 -35t-9 -42.5v-56l-75 -92l-179 226l-68 84q114 85 247.5 85zM482 107q8 0 14.5 -7t6.5 -15v-85q0 -8 -6.5 -14.5t-14.5 -6.5h-107q-8 0 -14.5 6.5t-6.5 14.5v85
-q0 6 3 11t8 8t10 3v32q0 22 15.5 37.5t38 15.5t38 -15.5t15.5 -37.5v-32zM461 107v32q0 12 -9.5 22t-22.5 10t-22.5 -10t-9.5 -22v-32h64zM247 -11l75 92v56q0 34 19.5 61t51.5 39q-68 40 -146 40q-20 0 -41 -3t-38 -8t-31.5 -11t-27 -12.5t-20.5 -11.5t-15 -10t-8 -6z" />
-    <glyph glyph-name="signal_wifi_4_bar_lock" unicode="signal_wifi_&#x34;_bar_lock" horiz-adv-x="503" 
-d="M482 107q8 0 14.5 -7t6.5 -15v-85q0 -8 -6.5 -14.5t-14.5 -6.5h-107q-8 0 -14.5 6.5t-6.5 14.5v85q0 6 3 11t8 8t10 3v32q0 22 15.5 37.5t38 15.5t38 -15.5t15.5 -37.5v-32zM461 107v32q0 12 -9.5 22t-22.5 10t-22.5 -10t-9.5 -22v-32h64zM322 139v-56l-75 -94l-247 310
-q114 85 247.5 85t247.5 -85l-45 -56q-6 2 -21 2q-45 0 -76 -31t-31 -75z" />
     <glyph glyph-name="signal_wifi_off" unicode="signal_wifi_off" horiz-adv-x="497" 
 d="M497 299l-117 -145l-220 220q44 10 88 10q136 0 249 -85zM356 123l74 -74l-27 -27l-71 71l-83 -103l-1 -1v1l-248 309q35 27 79 47l-44 44l27 27z" />
     <glyph glyph-name="sim_card_alert" unicode="sim_card_alert" horiz-adv-x="341" 

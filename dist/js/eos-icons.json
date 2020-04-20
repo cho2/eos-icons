@@ -1170,7 +1170,7 @@
     "type": "static"
   },
   {
-    "name": "system_unpatched",
+    "name": "system_warning",
     "do": "<ul><li>To represent that the system is not updated.</li><li>To represent that the patch is not available for this system.</li></ul>",
     "dont": "<ul><li>To represent a system error.</li></ul>",
     "tags": [
@@ -9111,7 +9111,7 @@
     "type": "static"
   },
   {
-    "name": "keyboard_arrow_backspace",
+    "name": "keyboard_backspace",
     "do": "",
     "dont": "",
     "tags": [
@@ -9128,7 +9128,7 @@
     "type": "static"
   },
   {
-    "name": "keyboard_arrow_capslock",
+    "name": "keyboard_capslock",
     "do": "",
     "dont": "",
     "tags": [
@@ -14855,144 +14855,6 @@
       "signal",
       "internet",
       "on"
-    ],
-    "category": [
-      "device"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "signal_wifi_1_bar",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "wifi",
-      "celluar",
-      "data",
-      "phone",
-      "mobile",
-      "lock",
-      "wireless",
-      "cell",
-      "signal",
-      "internet",
-      "speed",
-      "network"
-    ],
-    "category": [
-      "device"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "signal_wifi_1_bar_lock",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "wifi",
-      "celluar",
-      "data",
-      "phone",
-      "mobile",
-      "lock",
-      "wireless",
-      "cell",
-      "signal",
-      "internet",
-      "speed",
-      "network"
-    ],
-    "category": [
-      "device"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "signal_wifi_2_bar",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "wifi",
-      "celluar",
-      "data",
-      "phone",
-      "mobile",
-      "lock",
-      "wireless",
-      "cell",
-      "signal",
-      "internet",
-      "speed",
-      "network"
-    ],
-    "category": [
-      "device"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "signal_wifi_2_bar_lock",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "wifi",
-      "celluar",
-      "data",
-      "phone",
-      "mobile",
-      "lock",
-      "wireless",
-      "cell",
-      "signal",
-      "internet",
-      "speed",
-      "network"
-    ],
-    "category": [
-      "device"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "signal_wifi_3_bar_lock",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "wifi",
-      "celluar",
-      "data",
-      "phone",
-      "mobile",
-      "lock",
-      "wireless",
-      "cell",
-      "signal",
-      "internet",
-      "speed",
-      "network"
-    ],
-    "category": [
-      "device"
-    ],
-    "type": "static"
-  },
-  {
-    "name": "signal_wifi_4_bar_lock",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "wifi",
-      "celluar",
-      "data",
-      "phone",
-      "mobile",
-      "lock",
-      "wireless",
-      "cell",
-      "signal",
-      "internet",
-      "speed",
-      "network"
     ],
     "category": [
       "device"
