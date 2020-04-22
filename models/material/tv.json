@@ -2,11 +2,7 @@
   "name": "tv",
   "do": "",
   "dont": "",
-  "tags": [
-    "television", "watch", "tube", "screen"
-  ],
-  "category": [
-    ""
-  ],
+  "tags": ["television", "watch", "tube", "screen"],
+  "category": ["device"],
   "type": "static"
 }
