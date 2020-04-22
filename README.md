@@ -2,7 +2,7 @@
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://icons.eosdesignsystem.com)
 
-![EOS icons](https://res.cloudinary.com/eosdesignsystem/image/upload/v1586443161/npm/eos-icons/banner.png)
+![EOS icons](https://res.cloudinary.com/eosdesignsystem/image/upload/v1587551678/npm/eos-icons/banner.png)
 
 # EOS icons
 
