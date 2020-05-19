@@ -73,5 +73,6 @@
   "bugs": {
     "url": "https://gitlab.com/SUSE-UIUX/eos-icons/issues"
   },
-  "homepage": "https://gitlab.com/SUSE-UIUX/eos-icons#README"
+  "homepage": "https://gitlab.com/SUSE-UIUX/eos-icons#README",
+  "dependencies": {}
 }
