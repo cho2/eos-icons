@@ -14,8 +14,8 @@
     descent="-64"
     bbox="-0.595506 -64 512 448.379"
     underline-thickness="25"
-    underline-position="-76"
-    unicode-range="U+0030-F4F2"
+    underline-position="-50"
+    unicode-range="U+0030-F4F3"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -235,6 +235,8 @@ q0 -18 12.5 -30.5t30 -12.5t30 12.5t12.5 30.5q0 8 -3 16t-9 14t-14 9t-16.5 3t-16.5
 " />
     <glyph glyph-name="pin" unicode="pin" horiz-adv-x="404" 
 d="M347 239l30 -30l-75 -76l102 -101l-30 -31l-102 102l-76 -75l-30 30v60l-121 121l-15 -15l-30 30l151 151l30 -30l-15 -15l121 -121h60z" />
+    <glyph glyph-name="pipeline" unicode="pipeline" horiz-adv-x="469" 
+d="M171 256h42v-107h-42v22h-107q-18 0 -30.5 12.5t-12.5 29.5v150h-21v42h107v-42h-22v-128h86v21zM448 21h21v-42h-106v42h21v150h-85v-22h-43v107h43v-21h106q18 0 30.5 -12.5t12.5 -30.5v-171z" />
     <glyph glyph-name="pod_autoscaler" unicode="pod_autoscaler" horiz-adv-x="512" 
 d="M128 48v16h256v-21q0 -18 -12.5 -30.5t-30.5 -12.5h-170q-18 0 -30.5 12.5t-12.5 30.5v5zM320 363v-22h-128v22q0 4 2 8q5 13 19 13h86q9 0 15 -6t6 -15zM347 261l26 -58l27 -59l27 -59h-342l27 59l27 59l26 58l27 59h128zM273 174q11 4 18.5 15.5t7.5 23.5
 q0 18 -12.5 30.5t-30.5 12.5t-30.5 -12.5t-12.5 -30t12.5 -30.5t30.5 -13q9 0 17 4zM437 157v14h-32v42h32v54l19 -19l19 -19l18 -18l19 -19l-19 -19l-18 -18l-19 -19l-19 -19v40zM75 171v-54l-19 19l-19 19l-18 18l-19 19l19 19l18 18l19 19l19 19v-54h32v-42h-32z" />
