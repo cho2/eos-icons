@@ -583,6 +583,19 @@
     "type": "static"
   },
   {
+    "name": "monitor",
+    "do": "<ul><li>use for monitoring activity</li></ul>",
+    "dont": "<ul><li>hearth beat </li></ul>",
+    "tags": [
+      "monitor",
+      "sceen",
+      "controlling",
+      "hearthbeat"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "move",
     "do": "<ul><li>To represent the action of relocating elements.</li></ul>",
     "dont": "<ul><li>To represent directions.</li></ul>",
