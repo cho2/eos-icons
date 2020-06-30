@@ -11,7 +11,8 @@
     "consolidate",
     "fuse",
     "join",
-    "unite"
+    "unite",
+    "git"
   ],
   "category": "development",
   "type": "static"

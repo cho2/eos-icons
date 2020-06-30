@@ -8,7 +8,8 @@
     "correlate",
     "match",
     "examine",
-    "case"
+    "case",
+    "git"
   ],
   "category": "development",
   "type": "static"
