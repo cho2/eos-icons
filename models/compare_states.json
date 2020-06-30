@@ -1,0 +1,16 @@
+{
+  "name": "compare_states",
+  "do": "<ul><li>Use it to compare two or more branches, files, or similar.</li></ul>",
+  "dont": "<ul><li>Don't use it to refresh content.</li></ul>",
+  "tags": [
+    "analyze",
+    "contrast",
+    "correlate",
+    "match",
+    "examine",
+    "case",
+    "git"
+  ],
+  "category": "development",
+  "type": "static"
+}

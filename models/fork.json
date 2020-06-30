@@ -1,0 +1,18 @@
+{
+  "name": "fork",
+  "do": "<ul><li>Use it to represent a diversion in a product, project, or idea, a copy of source code from one software package that starts an independent development.</li></ul>",
+  "dont": "<ul><li>Don't use it to show hierarchy, endpoints, organization, or file system. All of them have an icon.</li></ul>",
+  "tags": [
+    "angle",
+    "bifurcate",
+    "divaricate",
+    "diverge",
+    "divide",
+    "part",
+    "split",
+    "branchoff",
+    "git"
+  ],
+  "category": "development",
+  "type": "static"
+}
