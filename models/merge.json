@@ -1,7 +1,7 @@
 {
   "name": "merge",
-  "do": "<ul><li>Use when 2 sources or states are combined into one.</li></ul>",
-  "dont": "<ul><li>Don't use it to represent fork, branch, or other splitting releated ideas.</li></ul>",
+  "do": "<ul><li>Use it when two sources or states combine into one.</li></ul>",
+  "dont": "<ul><li>Don't use it to represent fork, branch, or other splitting related ideas.</li></ul>",
   "tags": [
     "absorb",
     "combine",
