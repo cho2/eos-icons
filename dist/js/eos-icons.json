@@ -170,13 +170,14 @@
   {
     "name": "branch",
     "do": "<ul><li>Use it to identify a division or subdivision of an application, code, repository, etc.</li></ul>",
-    "dont": "<ul><li>Don't use it to show hierarchy, endpoints, organization, or file system. All of them have their own icon.</li></ul>",
+    "dont": "<ul><li>Don't use it to show hierarchy, endpoints, organization, or file system. All of them have an icon.</li></ul>",
     "tags": [
       "branch",
       "division",
       "subdivision",
       "copie",
-      "version"
+      "version",
+      "git"
     ],
     "category": "development",
     "type": "static"
@@ -261,7 +262,7 @@
   },
   {
     "name": "compare_states",
-    "do": "<ul><li>Use it to compare 2 or more branches, files, or others.</li></ul>",
+    "do": "<ul><li>Use it to compare two or more branches, files, or similar.</li></ul>",
     "dont": "<ul><li>Don't use it to refresh content.</li></ul>",
     "tags": [
       "analyze",
@@ -269,7 +270,8 @@
       "correlate",
       "match",
       "examine",
-      "case"
+      "case",
+      "git"
     ],
     "category": "development",
     "type": "static"
@@ -493,8 +495,8 @@
   },
   {
     "name": "fork",
-    "do": "<ul><li>Use it to represent a diversion in a product, project, or idea. A copy of source code from one software package that starts an independent development.</li></ul>",
-    "dont": "<ul><li>Don't use it to show hierarchy, endpoints, organization, or file system. All of them have their own icon.</li></ul>",
+    "do": "<ul><li>Use it to represent a diversion in a product, project, or idea, a copy of source code from one software package that starts an independent development.</li></ul>",
+    "dont": "<ul><li>Don't use it to show hierarchy, endpoints, organization, or file system. All of them have an icon.</li></ul>",
     "tags": [
       "angle",
       "bifurcate",
@@ -503,7 +505,8 @@
       "divide",
       "part",
       "split",
-      "branchoff"
+      "branchoff",
+      "git"
     ],
     "category": "development",
     "type": "static"
@@ -611,8 +614,8 @@
   },
   {
     "name": "merge",
-    "do": "<ul><li>Use when 2 sources or states are combined into one.</li></ul>",
-    "dont": "<ul><li>Don't use it to represent fork, branch, or other splitting releated ideas.</li></ul>",
+    "do": "<ul><li>Use it when two sources or states combine into one.</li></ul>",
+    "dont": "<ul><li>Don't use it to represent fork, branch, or other splitting related ideas.</li></ul>",
     "tags": [
       "absorb",
       "combine",
@@ -622,7 +625,8 @@
       "consolidate",
       "fuse",
       "join",
-      "unite"
+      "unite",
+      "git"
     ],
     "category": "development",
     "type": "static"
@@ -998,7 +1002,8 @@
       "incorporate",
       "absorb",
       "consolidate",
-      "fuse"
+      "fuse",
+      "git"
     ],
     "category": "development",
     "type": "static"
