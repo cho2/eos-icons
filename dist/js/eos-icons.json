@@ -663,6 +663,26 @@
     "type": "static"
   },
   {
+    "name": "monitor",
+    "do": "<ul><li>Use it to observe and check the progress or quality of (something) over a period of time.</li></ul>",
+    "dont": "<ul><li>Don't use it as a chart.</li></ul>",
+    "tags": [
+      "monitor",
+      "screen",
+      "audit",
+      "hearthbeat",
+      "rhythm strip",
+      "cardiograph",
+      "check",
+      "control",
+      "observe",
+      "scan",
+      "track"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "move",
     "do": "<ul><li>To represent the action of relocating elements.</li></ul>",
     "dont": "<ul><li>To represent directions.</li></ul>",
