@@ -168,6 +168,21 @@
     "type": "static"
   },
   {
+    "name": "branch",
+    "do": "<ul><li>Use it to identify a division or subdivision of an application, code, repository, etc.</li></ul>",
+    "dont": "<ul><li>Don't use it to show hierarchy, endpoints, organization, or file system. All of them have an icon.</li></ul>",
+    "tags": [
+      "branch",
+      "division",
+      "subdivision",
+      "copie",
+      "version",
+      "git"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
     "name": "cleanup",
     "do": "<ul><li>To represent a cleanup process or action.</li></ul>",
     "dont": "<ul><li>For remove or delete actions.</li></ul>",
@@ -231,6 +246,34 @@
       "collocation constraint"
     ],
     "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "commit",
+    "do": "<ul><li>Use it to represent a record of a permanent change added to an application or codebase.</li></ul>",
+    "dont": "<ul><li>Don't use it to represent a node. There is an icon for it already.</li></ul>",
+    "tags": [
+      "record",
+      "change",
+      "git"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "compare_states",
+    "do": "<ul><li>Use it to compare two or more branches, files, or similar.</li></ul>",
+    "dont": "<ul><li>Don't use it to refresh content.</li></ul>",
+    "tags": [
+      "analyze",
+      "contrast",
+      "correlate",
+      "match",
+      "examine",
+      "case",
+      "git"
+    ],
+    "category": "development",
     "type": "static"
   },
   {
@@ -451,6 +494,24 @@
     "type": "static"
   },
   {
+    "name": "fork",
+    "do": "<ul><li>Use it to represent a diversion in a product, project, or idea, a copy of source code from one software package that starts an independent development.</li></ul>",
+    "dont": "<ul><li>Don't use it to show hierarchy, endpoints, organization, or file system. All of them have an icon.</li></ul>",
+    "tags": [
+      "angle",
+      "bifurcate",
+      "divaricate",
+      "diverge",
+      "divide",
+      "part",
+      "split",
+      "branchoff",
+      "git"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
     "name": "inbound",
     "do": "To illustrate inbound information or data",
     "dont": "To illustrate email behaivor",
@@ -547,6 +608,25 @@
       "principal",
       "git",
       "kubernetes"
+    ],
+    "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "merge",
+    "do": "<ul><li>Use it when two sources or states combine into one.</li></ul>",
+    "dont": "<ul><li>Don't use it to represent fork, branch, or other splitting related ideas.</li></ul>",
+    "tags": [
+      "absorb",
+      "combine",
+      "unite",
+      "incorporate",
+      "blend",
+      "consolidate",
+      "fuse",
+      "join",
+      "unite",
+      "git"
     ],
     "category": "development",
     "type": "static"
@@ -917,6 +997,28 @@
       "proxy"
     ],
     "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "pull_request",
+    "do": "<ul><li>Use it to represent the act of requesting the consolidation of two branches, states, into one.</li></ul>",
+    "dont": "<ul><li>Don't use to represent directions.</li></ul>",
+    "tags": [
+      "petition",
+      "solicit",
+      "review",
+      "check",
+      "merge",
+      "blend",
+      "unite",
+      "meld",
+      "incorporate",
+      "absorb",
+      "consolidate",
+      "fuse",
+      "git"
+    ],
+    "category": "development",
     "type": "static"
   },
   {

@@ -1,0 +1,19 @@
+{
+  "name": "merge",
+  "do": "<ul><li>Use it when two sources or states combine into one.</li></ul>",
+  "dont": "<ul><li>Don't use it to represent fork, branch, or other splitting related ideas.</li></ul>",
+  "tags": [
+    "absorb",
+    "combine",
+    "unite",
+    "incorporate",
+    "blend",
+    "consolidate",
+    "fuse",
+    "join",
+    "unite",
+    "git"
+  ],
+  "category": "development",
+  "type": "static"
+}
