@@ -48,6 +48,8 @@ const inputForModel = async () => {
           choices: [
             'action',
             'alert',
+            'artificial intelligence',
+            'augmented reality',
             'av',
             'communication',
             'content',
@@ -56,6 +58,7 @@ const inputForModel = async () => {
             'file',
             'hardware',
             'image',
+            'machine learning',
             'maps',
             'navigation',
             'notification',
