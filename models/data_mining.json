@@ -1,0 +1,13 @@
+{
+  "name": "data_mining",
+  "do": "<ul><li>Use it to represent a data mining process.</li></ul>",
+  "dont": "<ul><li>Don't use it to represent settings or other actions.</li></ul>",
+  "tags": [
+    "science",
+    "process",
+    "extraction",
+    "database"
+  ],
+  "category": "machine learning",
+  "type": "static"
+}
