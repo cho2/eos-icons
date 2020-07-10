@@ -863,6 +863,18 @@
     "type": "static"
   },
   {
+    "name": "performance",
+    "do": "<ul><li>to be added</li></ul>",
+    "dont": "<ul><li>to be added</li></ul>",
+    "tags": [
+      "efficiency",
+      "effectiveness",
+      "execution"
+    ],
+    "category": "hardware",
+    "type": "static"
+  },
+  {
     "name": "persistent_volume",
     "do": "<ul><li>To represent perservation of data over an prolonged period of time.</li></ul>",
     "dont": "<ul><li>To represent infinit storage capacity.</li></ul>",
