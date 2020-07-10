@@ -406,6 +406,19 @@
     "type": "static"
   },
   {
+    "name": "data_mining",
+    "do": "<ul><li>Use it to represent a data mining action</li></ul>",
+    "dont": "<ul><li>Don't use it to </li></ul>",
+    "tags": [
+      "datascience",
+      "process",
+      "dataextraction",
+      "database"
+    ],
+    "category": "machine learning",
+    "type": "static"
+  },
+  {
     "name": "deploy",
     "do": "<ul><li>For deploying code/software to a server, container, etc.</li>></ul>",
     "dont": "<ul><li>For uploading.</li></ul>",
@@ -860,6 +873,18 @@
       "information"
     ],
     "category": "design",
+    "type": "static"
+  },
+  {
+    "name": "performance",
+    "do": "<ul><li>Use it to represent the performance of a system.</li></ul>",
+    "dont": "<ul><li>Don't use it to represent time.</li></ul>",
+    "tags": [
+      "efficiency",
+      "effectiveness",
+      "execution"
+    ],
+    "category": "hardware",
     "type": "static"
   },
   {
