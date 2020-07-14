@@ -1,5 +1,5 @@
 {
-  "name": "monitor",
+  "name": "monitoring",
   "do": "<ul><li>Use it to observe and check the progress or quality of (something) over a period of time.</li></ul>",
   "dont": "<ul><li>Don't use it as a chart.</li></ul>",
   "tags": [
