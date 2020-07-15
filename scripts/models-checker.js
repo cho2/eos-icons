@@ -87,6 +87,12 @@ const checkModelKeys = async () => {
   const modelsAll = [...modelsEos, ...modelsMd]
 
   return modelsAll.map(model => {
+    /* Make sure that the filename is eql to the models name */
+    if (model.name !== model.fileName.split('.json')[0]) {
+      console.error(`⚠️  ${model.fileName} file name does not match models name property. Found: ${model.name} instead of ${model.fileName.split('.json')[0]}`)
+      return process.exit(1)
+    }
+
     return checkForKeys(Object.keys(model))
       ? undefined
       : model
