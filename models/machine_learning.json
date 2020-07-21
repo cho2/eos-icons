@@ -1,0 +1,15 @@
+{
+  "name": "machine_learning",
+  "do": "<ul><li>Use it as a subset of artificial intelligence. Machine learning is the study of computer algorithms that improve automatically through experience.</li></ul>",
+  "dont": "<ul><li>Use it for AI as there is an icon for it.</li></ul>",
+  "tags": [
+    "ml",
+    "robotics",
+    "ai",
+    "artificialintelligence",
+    "deeplearning",
+    "computationalstatistics"
+  ],
+  "category": "artificial intelligence",
+  "type": "static"
+}
