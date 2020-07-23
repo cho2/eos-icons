@@ -6,7 +6,13 @@
     "module",
     "extension",
     "upgrade",
-    "install"
+    "install",
+    "bundle",
+    "collection",
+    "pack",
+    "parcel",
+    "box",
+    "wrap"
   ],
   "category": "development",
   "type": "static"

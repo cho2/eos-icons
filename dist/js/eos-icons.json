@@ -79,6 +79,18 @@
     "type": "static"
   },
   {
+    "name": "ai",
+    "do": "<ul><li>Use this icon to  indicate or perform AI actions/tasks.</li></ul>",
+    "dont": "<ul><li>Don't use it as a circuit or computer memory. Don't use it for machine learning since it has its own icon.</li></ul>",
+    "tags": [
+      "artificial intelligence",
+      "deep learning",
+      "machine intelligence"
+    ],
+    "category": "artificial intelligence",
+    "type": "static"
+  },
+  {
     "name": "ai_operator",
     "do": "<ul><li>Use this icon to represent a role associated to AI operations.</li></ul>",
     "dont": "<ul><li>Don't use it for a regular user rule.</li></ul>",
@@ -86,8 +98,8 @@
       "devops",
       "operations",
       "development",
-      "artificialinteligence",
-      "machinelearning",
+      "artificial intelligence",
+      "machine learning",
       "role",
       "engineer",
       "operative"
@@ -144,10 +156,10 @@
     "do": "<ul><li>Use this icon to represent an application window, like a browser or GUI.</li></ul>",
     "dont": "<ul><li>Don't use it for terminal, for this you should use the terminal icon.</li></ul>",
     "tags": [
-      "browserwindow",
+      "browser window",
       "GUI",
       "interface",
-      "graphicaluserinterface"
+      "graphical user interface"
     ],
     "category": "virtualization",
     "type": "static"
@@ -179,7 +191,10 @@
     "do": "<ul><li>When bootstraping a new element into a system.</li></ul>",
     "dont": "",
     "tags": [
-      "minion"
+      "minion",
+      "boot",
+      "startup",
+      "booting"
     ],
     "category": "action",
     "type": "static"
@@ -236,7 +251,7 @@
       "pods",
       "node",
       "healthz",
-      "cluster-scoped"
+      "cluster scoped"
     ],
     "category": "virtualization",
     "type": "static"
@@ -298,8 +313,9 @@
     "do": "<ul><li>Use it for configuration map</li></ul>",
     "dont": "<ul><li>Use it for configuration file.</li></ul>",
     "tags": [
-      "config_map",
-      "kubernetes"
+      "configuration",
+      "kubernetes",
+      "data"
     ],
     "category": "virtualization",
     "type": "static"
@@ -367,7 +383,12 @@
     "do": "<ul><li>To represent a critical bug fix or detection.</li></ul>",
     "dont": "<ul><li>To display alerts or errors.</li></ul>",
     "tags": [
-      "bug"
+      "bug",
+      "error",
+      "fault",
+      "flaw",
+      "glitch",
+      "defect"
     ],
     "category": "development",
     "type": "static"
@@ -473,7 +494,8 @@
     "dont": "<ul><li>To represent an endpoints status.</li></ul>",
     "tags": [
       "endpoints",
-      "connection"
+      "connection",
+      "api"
     ],
     "category": "development",
     "type": "static"
@@ -484,7 +506,8 @@
     "dont": "<ul><li>To represent routes.</li></ul>",
     "tags": [
       "endpoints",
-      "connection"
+      "connection",
+      "api"
     ],
     "category": "development",
     "type": "static"
@@ -495,7 +518,8 @@
     "dont": "<ul><li>To represent routes.</li></ul>",
     "tags": [
       "endpoints",
-      "disconnection"
+      "disconnection",
+      "api"
     ],
     "category": "development",
     "type": "static"
@@ -548,7 +572,8 @@
     "tags": [
       "information",
       "flow",
-      "incoming"
+      "incoming",
+      "email"
     ],
     "category": "communication",
     "type": "static"
@@ -571,7 +596,10 @@
     "do": "<ul><li>The user is waiting for an installation process to finalize.</li></ul>",
     "dont": "<ul><li>As feedback for refreshing, reloading or syncing data.</li></ul>",
     "tags": [
-      "installing"
+      "installation",
+      "fit",
+      "fitting",
+      "install"
     ],
     "category": "virtualization",
     "type": "animated"
@@ -584,7 +612,7 @@
       "internet",
       "protocol",
       "address",
-      "numericallabel"
+      "numerical label"
     ],
     "category": "virtualization",
     "type": "static"
@@ -624,7 +652,9 @@
     "do": "<ul><li>The user is waiting for new content to be serverd.</li></ul>",
     "dont": "<ul><li>The action returns invisible results for the user.</li></ul>",
     "tags": [
-      "loading"
+      "load",
+      "fill",
+      "charge"
     ],
     "category": "virtualization",
     "type": "animated"
@@ -637,9 +667,9 @@
       "ml",
       "robotics",
       "ai",
-      "artificialintelligence",
+      "artificial intelligence",
       "deeplearning",
-      "computationalstatistics"
+      "computational statistics"
     ],
     "category": "artificial intelligence",
     "type": "static"
@@ -681,7 +711,13 @@
     "do": "<ul><li>To indicate an additional set of features or actions that might not have been included in other sections.</li></ul>",
     "dont": "<ul><li>To indicate elements that are unrelated to the application.</li></ul>",
     "tags": [
-      "misc"
+      "misc",
+      "various",
+      "varied",
+      "mix",
+      "assorted",
+      "mixed",
+      "diverse"
     ],
     "category": "design",
     "type": "static"
@@ -691,8 +727,14 @@
     "do": "<ul><li>To represent a date that has been modified.</li></ul>",
     "dont": "<ul><li>To represent any other type of editing that is not date.</li></ul>",
     "tags": [
-      "modified",
-      "date"
+      "altered",
+      "changed",
+      "ammended",
+      "day",
+      "year",
+      "month",
+      "date",
+      "appointment"
     ],
     "category": "action",
     "type": "static"
@@ -702,7 +744,12 @@
     "do": "Use it in atomic design to represent components.",
     "dont": "",
     "tags": [
-      "atomic"
+      "atomic",
+      "mote",
+      "atom",
+      "speck",
+      "corpuscle",
+      "particle"
     ],
     "category": "design",
     "type": "static"
@@ -732,8 +779,10 @@
     "do": "<ul><li>To represent the action of relocating elements.</li></ul>",
     "dont": "<ul><li>To represent directions.</li></ul>",
     "tags": [
-      "move",
-      "relocate"
+      "change",
+      "relocate",
+      "relocate",
+      "transfer"
     ],
     "category": "navigation",
     "type": "static"
@@ -743,8 +792,11 @@
     "do": "<ul><li>To show multiple states.</li></ul>",
     "dont": "",
     "tags": [
-      "multistate",
-      "multistate resources"
+      "various",
+      "several",
+      "resources",
+      "many",
+      "multiple"
     ],
     "category": "virtualization",
     "type": "static"
@@ -836,10 +888,15 @@
   },
   {
     "name": "organisms",
-    "do": "",
+    "do": "to represent a system or organization consisting of interdependent parts.",
     "dont": "",
     "tags": [
-      "atomic"
+      "atomic",
+      "module",
+      "system",
+      "organization",
+      "entity",
+      "structure"
     ],
     "category": "design",
     "type": "static"
@@ -849,7 +906,14 @@
     "do": "<ul><li>To represent organizations.</li><li>Organizations are made of groups or teams, not individuals.</li></ul>",
     "dont": "",
     "tags": [
-      "id"
+      "id",
+      "group",
+      "company",
+      "firm",
+      "corporation",
+      "institution",
+      "establishment",
+      "conglomerate"
     ],
     "category": "services",
     "type": "static"
@@ -861,7 +925,9 @@
     "tags": [
       "information",
       "flow",
-      "outgoing"
+      "outgoing",
+      "mail",
+      "email"
     ],
     "category": "communication",
     "type": "static"
@@ -871,7 +937,14 @@
     "do": "<ul><li>To represent a singular package.</li></ul>",
     "dont": "",
     "tags": [
-      "package"
+      "bundle",
+      "collection",
+      "pack",
+      "parcel",
+      "box",
+      "wrap",
+      "module",
+      "extension"
     ],
     "category": "development",
     "type": "static"
@@ -882,7 +955,18 @@
     "dont": "<ul><li>To create or install package.</li></ul>",
     "tags": [
       "upgrade",
-      "package"
+      "bundle",
+      "collection",
+      "pack",
+      "parcel",
+      "box",
+      "wrap",
+      "boost",
+      "promote",
+      "revamp",
+      "enhance",
+      "module",
+      "extension"
     ],
     "category": "development",
     "type": "static"
@@ -895,7 +979,13 @@
       "module",
       "extension",
       "upgrade",
-      "install"
+      "install",
+      "bundle",
+      "collection",
+      "pack",
+      "parcel",
+      "box",
+      "wrap"
     ],
     "category": "development",
     "type": "static"
@@ -907,7 +997,11 @@
     "tags": [
       "ptf",
       "program temporary fixes",
-      "patch"
+      "patch",
+      "solution",
+      "repair",
+      "mend",
+      "remedy"
     ],
     "category": "services",
     "type": "static"
@@ -917,8 +1011,21 @@
     "do": "<ul> <li> To represent predictable behaivor </li> </ul",
     "dont": "<ul> <li> To represent routes </li> </ul>",
     "tags": [
-      "patterns",
-      "information"
+      "design",
+      "information",
+      "motif",
+      "marking",
+      "model",
+      "norm",
+      "guide",
+      "blueprint",
+      "matrix",
+      "method",
+      "sequence",
+      "structure",
+      "scheme",
+      "plan",
+      "framework"
     ],
     "category": "design",
     "type": "static"
@@ -953,7 +1060,9 @@
     "do": "<ul><li>For actions that will let the user pin certain information to a list, table, or another type of accumulative data form.</li></ul>",
     "dont": "<ul><li>To attache a file.</li></ul>",
     "tags": [
-      "pin"
+      "nail",
+      "badge",
+      "brooch"
     ],
     "category": "action",
     "type": "static"
@@ -1032,7 +1141,11 @@
     "tags": [
       "subscription",
       "SCC",
-      "collection"
+      "category",
+      "collection",
+      "classification",
+      "group",
+      "set"
     ],
     "category": "services",
     "type": "static"
@@ -1042,7 +1155,6 @@
     "do": "<ul><li>To show a list of all subscriptions.</li></ul>",
     "dont": "<ul><li>To activate or remove subscriptions.</li></ul>",
     "tags": [
-      "product",
       "product subscription"
     ],
     "category": "services",
@@ -1054,7 +1166,7 @@
     "dont": "",
     "tags": [
       "product",
-      "product collection"
+      "collection"
     ],
     "category": "services",
     "type": "static"
@@ -1064,7 +1176,14 @@
     "do": "Use it to represent a project as in a set of tasks or actions to achieve a particular goal.",
     "dont": "Don't use it for upgrade or enhancement.",
     "tags": [
-      "project"
+      "project",
+      "forecast",
+      "predict",
+      "calculate",
+      "plan",
+      "business",
+      "enterprise",
+      "strategy"
     ],
     "category": "development",
     "type": "static"
@@ -1074,7 +1193,9 @@
     "do": "<ul><li>To represent a proxy server or state.</li></ul>",
     "dont": "",
     "tags": [
-      "proxy"
+      "intermediary",
+      "surrogate",
+      "stand-in"
     ],
     "category": "virtualization",
     "type": "static"
@@ -1157,8 +1278,8 @@
     "do": "<ul><li>Use it in features that grant special role permissions to a user or group of users</li></ul>",
     "dont": "<ul><li>Don't use it for user account, admin, or similar</li></ul>",
     "tags": [
-      "grantaccess",
-      "grantpermission"
+      "grant access",
+      "grant permission"
     ],
     "category": "virtualization",
     "type": "static"
@@ -1168,7 +1289,7 @@
     "do": "<ul><li>To represent application routes.</li></ul>",
     "dont": "<ul><li>To represent URL.</li></ul>",
     "tags": [
-      "routes",
+      "way",
       "application routes"
     ],
     "category": "development",
@@ -1179,7 +1300,7 @@
     "do": "<ul><li>For a special setting in software which uses dummy data to test APIs.</li></ul>",
     "dont": "",
     "tags": [
-      "sandbox",
+      "playground",
       "software",
       "dummy database"
     ],
@@ -1204,7 +1325,7 @@
     "do": "<ul><li>Use to store config info in a secure manner.</li></ul>",
     "dont": "<ul><li>Don't use it for constraint</li></ul>",
     "tags": [
-      "secure",
+      "safe",
       "secret",
       "kubernetes"
     ],
@@ -1216,8 +1337,9 @@
     "do": "<ul><li>To represent a service.</li></ul>",
     "dont": "<ul><li>To represent a service instance.</li></ul>",
     "tags": [
-      "service",
-      "kubernetes"
+      "kubernetes",
+      "supply",
+      "serve"
     ],
     "category": "virtualization",
     "type": "static"
@@ -1229,7 +1351,9 @@
     "tags": [
       "service",
       "kubernetes",
-      "instance"
+      "instance",
+      "supply",
+      "serve"
     ],
     "category": "virtualization",
     "type": "static"
@@ -1240,7 +1364,9 @@
     "dont": "<ul><li>To represent service or service instance.</li><li>To represent a singular product.</li></ul>",
     "tags": [
       "service",
-      "plans"
+      "plans",
+      "supply",
+      "serve"
     ],
     "category": "services",
     "type": "static"
@@ -1264,7 +1390,8 @@
     "dont": "<ul><li>For software download. Use the material icon file_download instead.</li></ul>",
     "tags": [
       "channel",
-      "list"
+      "list",
+      "program"
     ],
     "category": "development",
     "type": "static"
@@ -1338,7 +1465,9 @@
     "do": "<ul><li>To represent a file that contains a reference to another file or directory.</li></ul>",
     "dont": "<ul><li>To represent an external link, or links of any type other the one described above.</li></ul>",
     "tags": [
-      "symlink"
+      "link",
+      "symbolic",
+      "reference"
     ],
     "category": "development",
     "type": "static"
@@ -1349,7 +1478,9 @@
     "dont": "",
     "tags": [
       "system",
-      "group"
+      "group",
+      "class",
+      "organization"
     ],
     "category": "hardware",
     "type": "static"
@@ -1387,7 +1518,7 @@
     "dont": "<ul><li>To represent a new system.</li></ul>",
     "tags": [
       "system",
-      "re registered"
+      "enrolled"
     ],
     "category": "hardware",
     "type": "static"
@@ -1399,7 +1530,8 @@
     "tags": [
       "system",
       "not updated",
-      "patch"
+      "patch",
+      "outdated"
     ],
     "category": "hardware",
     "type": "static"
@@ -1409,7 +1541,10 @@
     "do": "Use it to represent a mockup or template of any type: configuration, web UI, etc.",
     "dont": "Don't use it for images.",
     "tags": [
-      "atomic"
+      "atomic",
+      "arrangement",
+      "guide",
+      "diagram"
     ],
     "category": "design",
     "type": "static"
@@ -1432,7 +1567,8 @@
     "dont": "<ul><li>To represent any kind of timing.</li></ul>",
     "tags": [
       "timeout",
-      "interruption"
+      "interruption",
+      "intermission"
     ],
     "category": "action",
     "type": "static"
@@ -1442,8 +1578,11 @@
     "do": "<ul><li>To identify and resolve a problem.</li></ul>",
     "dont": "<ul><li>For settings.</li></ul>",
     "tags": [
-      "troubleshooting",
-      "analyse"
+      "problem",
+      "analyse",
+      "solving",
+      "correction",
+      "disaster control"
     ],
     "category": "action",
     "type": "static"
@@ -1453,8 +1592,9 @@
     "do": "<ul><li>To represent a trusted organization.</li></ul>",
     "dont": "<ul><li>To represent certification.</li></ul>",
     "tags": [
-      "organization",
-      "trusted"
+      "honorable",
+      "credible",
+      "reliable"
     ],
     "category": "services",
     "type": "static"
@@ -1464,7 +1604,9 @@
     "do": "<ul><li>To represent a virtual machine.</li></ul>",
     "dont": "<ul><li>To represent a system.</li></ul>",
     "tags": [
-      "virtual machine"
+      "virtual machine",
+      "visitor",
+      "visitant"
     ],
     "category": "virtualization",
     "type": "static"
@@ -1485,7 +1627,9 @@
     "do": "<ul><li>use it to represent virtual reality applications in an interface. To deploy or play a VR game.</li></ul>",
     "dont": "<ul><li>don't use it for user account, general glasses, or to represent augmented reality applications/games.</li></ul>",
     "tags": [
-      "virtual_reality"
+      "virtual reality",
+      "vr",
+      "simulation"
     ],
     "category": "virtualization",
     "type": "static"
@@ -1497,7 +1641,8 @@
     "tags": [
       "cloudfoundry",
       "kubernetes",
-      "spaces"
+      "spaces",
+      "simulation"
     ],
     "category": "virtualization",
     "type": "static"

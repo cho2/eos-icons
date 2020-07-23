@@ -3,7 +3,14 @@
   "do": "<ul><li>To represent a singular package.</li></ul>",
   "dont": "",
   "tags": [
-    "package"
+    "bundle",
+    "collection",
+    "pack",
+    "parcel",
+    "box",
+    "wrap",
+    "module",
+    "extension"
   ],
   "category": "development",
   "type": "static"

@@ -2,10 +2,7 @@
   "name": "troubleshooting",
   "do": "<ul><li>To identify and resolve a problem.</li></ul>",
   "dont": "<ul><li>For settings.</li></ul>",
-  "tags": [
-    "troubleshooting",
-    "analyse"
-  ],
+  "tags": ["problem", "analyse", "solving", "correction", "disaster control"],
   "category": "action",
   "type": "static"
 }

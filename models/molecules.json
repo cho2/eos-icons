@@ -2,9 +2,7 @@
   "name": "molecules",
   "do": "Use it in atomic design to represent components.",
   "dont": "",
-  "tags": [
-    "atomic"
-  ],
+  "tags": ["atomic", "mote", "atom", "speck", "corpuscle", "particle"],
   "category": "design",
   "type": "static"
 }
