@@ -79,6 +79,23 @@
     "type": "static"
   },
   {
+    "name": "ai_operator",
+    "do": "<ul><li>Use this icon to represent a role associated to AI operations.</li></ul>",
+    "dont": "<ul><li>Don't use it for a regular user rule.</li></ul>",
+    "tags": [
+      "devops",
+      "operations",
+      "development",
+      "artificialinteligence",
+      "machinelearning",
+      "role",
+      "engineer",
+      "operative"
+    ],
+    "category": "artificial intelligence",
+    "type": "static"
+  },
+  {
     "name": "api",
     "do": "Use this icon to represent an API.",
     "dont": "Don't use it for an endpoint, there is an icon for this.",
