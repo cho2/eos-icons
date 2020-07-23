@@ -1,10 +1,8 @@
 {
   "name": "organisms",
-  "do": "",
+  "do": "to represent a system or organization consisting of interdependent parts.",
   "dont": "",
-  "tags": [
-    "atomic"
-  ],
+  "tags": ["atomic", "module", "system", "organization", "entity", "structure"],
   "category": "design",
   "type": "static"
 }

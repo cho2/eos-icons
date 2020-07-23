@@ -3,8 +3,21 @@
   "do": "<ul> <li> To represent predictable behaivor </li> </ul",
   "dont": "<ul> <li> To represent routes </li> </ul>",
   "tags": [
-    "patterns",
-    "information"
+    "design",
+    "information",
+    "motif",
+    "marking",
+    "model",
+    "norm",
+    "guide",
+    "blueprint",
+    "matrix",
+    "method",
+    "sequence",
+    "structure",
+    "scheme",
+    "plan",
+    "framework"
   ],
   "category": "design",
   "type": "static"

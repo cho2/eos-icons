@@ -3,7 +3,14 @@
   "do": "<ul><li>To represent organizations.</li><li>Organizations are made of groups or teams, not individuals.</li></ul>",
   "dont": "",
   "tags": [
-    "id"
+    "id",
+    "group",
+    "company",
+    "firm",
+    "corporation",
+    "institution",
+    "establishment",
+    "conglomerate"
   ],
   "category": "services",
   "type": "static"

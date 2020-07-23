@@ -9,7 +9,7 @@
     "pods",
     "node",
     "healthz",
-    "cluster-scoped"
+    "cluster scoped"
   ],
   "category": "virtualization",
   "type": "static"

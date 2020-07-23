@@ -2,10 +2,7 @@
   "name": "multistate",
   "do": "<ul><li>To show multiple states.</li></ul>",
   "dont": "",
-  "tags": [
-    "multistate",
-    "multistate resources"
-  ],
+  "tags": ["various", "several", "resources", "many", "multiple"],
   "category": "virtualization",
   "type": "static"
 }

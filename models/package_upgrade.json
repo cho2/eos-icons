@@ -4,7 +4,18 @@
   "dont": "<ul><li>To create or install package.</li></ul>",
   "tags": [
     "upgrade",
-    "package"
+    "bundle",
+    "collection",
+    "pack",
+    "parcel",
+    "box",
+    "wrap",
+    "boost",
+    "promote",
+    "revamp",
+    "enhance",
+    "module",
+    "extension"
   ],
   "category": "development",
   "type": "static"

@@ -3,8 +3,14 @@
   "do": "<ul><li>To represent a date that has been modified.</li></ul>",
   "dont": "<ul><li>To represent any other type of editing that is not date.</li></ul>",
   "tags": [
-    "modified",
-    "date"
+    "altered",
+    "changed",
+    "ammended",
+    "day",
+    "year",
+    "month",
+    "date",
+    "appointment"
   ],
   "category": "action",
   "type": "static"
