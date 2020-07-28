@@ -357,6 +357,20 @@
     "type": "static"
   },
   {
+    "name": "content_deleted",
+    "do": "<ul><li>Use to display that a file has been deleted.</li></ul>",
+    "dont": "<ul><li>Don't use to display cancelling an action.</li></ul>",
+    "tags": [
+      "delete",
+      "remove",
+      "less",
+      "composition",
+      "file"
+    ],
+    "category": "editor",
+    "type": "static"
+  },
+  {
     "name": "content_lifecycle_management",
     "do": "<ul><li>To illustrate the planning cycle</li></ul>",
     "dont": "<ul><li>To represent recycling documents actions</li></ul>",
@@ -383,7 +397,7 @@
   },
   {
     "name": "content_new",
-    "do": "<ul><li>Use it to tell the user that a new file has been added.</li></ul>",
+    "do": "<ul><li>Use it to display that a new file has been added.</li></ul>",
     "dont": "<ul><li>Don't use it to display an operation.</li></ul>",
     "tags": [
       "add",
@@ -499,6 +513,20 @@
     "type": "static"
   },
   {
+    "name": "diff_deleted_outlined",
+    "do": "<ul><li>Use it to display when a diff has been deleted.</li></ul>",
+    "dont": "<ul><li>Don't use it to display an operation.</li></ul>",
+    "tags": [
+      "change",
+      "divergence",
+      "removed",
+      "old",
+      "cleared"
+    ],
+    "category": "editor",
+    "type": "static"
+  },
+  {
     "name": "diff_modified",
     "do": "<ul><li>Use it to display when a diff has been modified.</li></ul>",
     "dont": "<ul><li>Don't use it to represent a circle.</li></ul>",
@@ -527,7 +555,11 @@
     "do": "<ul><li>Use it to display when a diff has been created.</li></ul>",
     "dont": "<ul><li>Don't use it to display an operation.</li></ul>",
     "tags": [
-      "tag"
+      "change",
+      "divergence",
+      "added",
+      "fresh",
+      "more"
     ],
     "category": "editor",
     "type": "static"

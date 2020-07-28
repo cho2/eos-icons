@@ -1,6 +1,6 @@
 {
   "name": "content_new",
-  "do": "<ul><li>Use it to tell the user that a new file has been added.</li></ul>",
+  "do": "<ul><li>Use it to display that a new file has been added.</li></ul>",
   "dont": "<ul><li>Don't use it to display an operation.</li></ul>",
   "tags": [
     "add",
