@@ -358,10 +358,14 @@
   },
   {
     "name": "content_deleted",
-    "do": "<ul><li>Use to display content that has been deleted.</li></ul>",
-    "dont": "<ul><li>Dont not clear yet</li></ul>",
+    "do": "<ul><li>Use to display that a file has been deleted.</li></ul>",
+    "dont": "<ul><li>Don't use to display cancelling an action.</li></ul>",
     "tags": [
-      "content"
+      "delete",
+      "remove",
+      "less",
+      "composition",
+      "file"
     ],
     "category": "editor",
     "type": "static"
@@ -375,6 +379,35 @@
       "lifecycle"
     ],
     "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "content_modified",
+    "do": "<ul><li>Use it to indicate the user that a specific file has been modified.</li></ul>",
+    "dont": "<ul><li>Don't use it to display writing.</li></ul>",
+    "tags": [
+      "changed",
+      "altered",
+      "modified",
+      "composition",
+      "file"
+    ],
+    "category": "editor",
+    "type": "static"
+  },
+  {
+    "name": "content_new",
+    "do": "<ul><li>Use it to display that a new file has been added.</li></ul>",
+    "dont": "<ul><li>Don't use it to display an operation.</li></ul>",
+    "tags": [
+      "add",
+      "added",
+      "more",
+      "fresh",
+      "composition",
+      "file"
+    ],
+    "category": "editor",
     "type": "static"
   },
   {
@@ -481,10 +514,52 @@
   },
   {
     "name": "diff_deleted_outlined",
-    "do": "<ul><li>same as the other</li></ul>",
-    "dont": "<ul><li>same</li></ul>",
+    "do": "<ul><li>Use it to display when a diff has been deleted.</li></ul>",
+    "dont": "<ul><li>Don't use it to display an operation.</li></ul>",
     "tags": [
-      "same"
+      "change",
+      "divergence",
+      "removed",
+      "old",
+      "cleared"
+    ],
+    "category": "editor",
+    "type": "static"
+  },
+  {
+    "name": "diff_modified",
+    "do": "<ul><li>Use it to display when a diff has been modified.</li></ul>",
+    "dont": "<ul><li>Don't use it to represent a circle.</li></ul>",
+    "tags": [
+      "change",
+      "divergence",
+      "altered"
+    ],
+    "category": "editor",
+    "type": "static"
+  },
+  {
+    "name": "diff_modified_outlined",
+    "do": "<ul><li>Use it to display when a diff has been modified.</li></ul>",
+    "dont": "<ul><li>Don't use it to represent a circle.</li></ul>",
+    "tags": [
+      "change",
+      "divergence",
+      "altered"
+    ],
+    "category": "editor",
+    "type": "static"
+  },
+  {
+    "name": "diff_new_outlined",
+    "do": "<ul><li>Use it to display when a diff has been created.</li></ul>",
+    "dont": "<ul><li>Don't use it to display an operation.</li></ul>",
+    "tags": [
+      "change",
+      "divergence",
+      "added",
+      "fresh",
+      "more"
     ],
     "category": "editor",
     "type": "static"
@@ -1432,7 +1507,7 @@
   {
     "name": "stateful_set",
     "do": "<ul><li>Use this icon when deploying or executing services, containers, or others in a sequence.</li></ul>",
-    "dont": "<ul><li>Dont use it for copy, duplicate, or similar.</li></ul>",
+    "dont": "<ul><li>Don't use it for copy, duplicate, or similar.</li></ul>",
     "tags": [
       "sequence",
       "sequential",
@@ -1446,7 +1521,7 @@
   {
     "name": "storage_class",
     "do": "<ul><li>Use it when defining a profile or label that can be applied to storage to assign predefined options.</li></ul>",
-    "dont": "<ul><li>Dont use it for tags or labels in general</li></ul>",
+    "dont": "<ul><li>Don't use it for tags or labels in general</li></ul>",
     "tags": [
       "tag",
       "label",
