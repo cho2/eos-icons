@@ -1,0 +1,10 @@
+{
+  "name": "content_deleted",
+  "do": "<ul><li>Use to display content that has been deleted.</li></ul>",
+  "dont": "<ul><li>Don't use to cancel an action.</li></ul>",
+  "tags": [
+    "content"
+  ],
+  "category": "editor",
+  "type": "static"
+}

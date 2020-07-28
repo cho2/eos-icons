@@ -357,6 +357,16 @@
     "type": "static"
   },
   {
+    "name": "content_deleted",
+    "do": "<ul><li>Use to display content that has been deleted.</li></ul>",
+    "dont": "<ul><li>Dont not clear yet</li></ul>",
+    "tags": [
+      "content"
+    ],
+    "category": "editor",
+    "type": "static"
+  },
+  {
     "name": "content_lifecycle_management",
     "do": "<ul><li>To illustrate the planning cycle</li></ul>",
     "dont": "<ul><li>To represent recycling documents actions</li></ul>",
@@ -467,6 +477,16 @@
       "distribute"
     ],
     "category": "development",
+    "type": "static"
+  },
+  {
+    "name": "diff_deleted_outlined",
+    "do": "<ul><li>same as the other</li></ul>",
+    "dont": "<ul><li>same</li></ul>",
+    "tags": [
+      "same"
+    ],
+    "category": "editor",
     "type": "static"
   },
   {

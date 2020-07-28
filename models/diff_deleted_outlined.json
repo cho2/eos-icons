@@ -1,0 +1,10 @@
+{
+  "name": "diff_deleted_outlined",
+  "do": "<ul><li>same as the other</li></ul>",
+  "dont": "<ul><li>same</li></ul>",
+  "tags": [
+    "same"
+  ],
+  "category": "editor",
+  "type": "static"
+}
