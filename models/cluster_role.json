@@ -11,6 +11,6 @@
     "healthz",
     "cluster scoped"
   ],
-  "category": "virtualization",
+  "category": "roles",
   "type": "static"
 }

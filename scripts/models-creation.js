@@ -58,7 +58,7 @@ const inputForModel = async () => {
             'file',
             'hardware',
             'image',
-            'machine learning',
+            'roles',
             'maps',
             'navigation',
             'notification',
