@@ -457,6 +457,20 @@
     "type": "static"
   },
   {
+    "name": "data_scientist",
+    "do": "<ul><li>Use it to represent a data scientist role</li></ul>",
+    "dont": "<ul><li>Don't use it to represent any other role.</li></ul>",
+    "tags": [
+      "lab",
+      "science",
+      "chemist",
+      "research",
+      "beaker"
+    ],
+    "category": "social",
+    "type": "static"
+  },
+  {
     "name": "deploy",
     "do": "<ul><li>For deploying code/software to a server, container, etc.</li>></ul>",
     "dont": "<ul><li>For uploading.</li></ul>",
@@ -545,6 +559,20 @@
       "server"
     ],
     "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "flask",
+    "do": "<ul><li>Use it to represent an experiment or test.</li></ul>",
+    "dont": "<ul><li>Don't use it to represent a scientist role.</li></ul>",
+    "tags": [
+      "lab",
+      "science",
+      "chemist",
+      "research",
+      "beaker"
+    ],
+    "category": "social",
     "type": "static"
   },
   {
@@ -1559,6 +1587,20 @@
       "cli"
     ],
     "category": "virtualization",
+    "type": "static"
+  },
+  {
+    "name": "test_tube",
+    "do": "<ul><li>Use it to represent an experiment or test.</li></ul>",
+    "dont": "<ul><li>Don't use it to represent a scientist role.</li></ul>",
+    "tags": [
+      "lab",
+      "science",
+      "chemist",
+      "research",
+      "beaker"
+    ],
+    "category": "social",
     "type": "static"
   },
   {
