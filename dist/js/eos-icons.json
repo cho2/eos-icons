@@ -75,7 +75,7 @@
       "user icon",
       "administrator"
     ],
-    "category": "services",
+    "category": "roles",
     "type": "static"
   },
   {
@@ -253,7 +253,7 @@
       "healthz",
       "cluster scoped"
     ],
-    "category": "virtualization",
+    "category": "roles",
     "type": "static"
   },
   {
@@ -266,7 +266,7 @@
       "attach",
       "conexion"
     ],
-    "category": "virtualization",
+    "category": "roles",
     "type": "static"
   },
   {
@@ -496,7 +496,7 @@
       "extraction",
       "database"
     ],
-    "category": "machine learning",
+    "category": "artificial intelligence",
     "type": "static"
   },
   {
@@ -1404,7 +1404,7 @@
       "grant access",
       "grant permission"
     ],
-    "category": "virtualization",
+    "category": "roles",
     "type": "static"
   },
   {
@@ -2011,7 +2011,7 @@
       "account"
     ],
     "category": [
-      "action"
+      "roles"
     ],
     "type": "static"
   },
@@ -2031,7 +2031,7 @@
       "account"
     ],
     "category": [
-      "action"
+      "roles"
     ],
     "type": "static"
   },
@@ -2838,7 +2838,7 @@
       "account"
     ],
     "category": [
-      "action"
+      "roles"
     ],
     "type": "static"
   },
