@@ -7,6 +7,8 @@ module.exports = function (grunt) {
   const { duplicatedIcons } = require('./scripts/duplicated_icons')
   const { duplicatedIconsModels } = require('./scripts/duplicated_icons_models')
   const { eosMdIconsDifferences, downloadFile } = require('./scripts/eos-md-icons-log-differences')
+  const { downloadSVGFile, createSVGModels } = require('./scripts/download-svg')
+
 
   //Append path to your svg below
   //EOS-set and MD svg path
@@ -142,6 +144,22 @@ module.exports = function (grunt) {
     const done = this.async()
     await downloadFile().then(() => {
       eosMdIconsDifferences({ targetDirMd: './svg/material' })
+    })
+  })
+
+  /* Download MD svgs and create models */
+  grunt.registerTask('downloadMdSvgFile', async function () {
+    const done = this.async()
+    const iconList = [
+  'access_alarms',
+  'accessibility_new',
+  'accessible_forward',
+  'account_tree',
+  'ad_units',
+  'add_business']
+
+    await downloadSVGFile(iconList).then(() => {
+      createSVGModels(iconList)
     })
   })
 
