@@ -165,6 +165,32 @@
     "type": "static"
   },
   {
+    "name": "arrow_rotate",
+    "do": "<ul><li>Use it to represent content refreshing</li></ul>",
+    "dont": "<ul><li>Don't use it for loading or installing</li></ul>",
+    "tags": [
+      "refresh",
+      "restore",
+      "recharge",
+      "replenish"
+    ],
+    "category": "virtualization",
+    "type": "animated"
+  },
+  {
+    "name": "atom_electron",
+    "do": "<ul><li>Use it to represent running experiments.</li></ul>",
+    "dont": "<ul><li>n/a</li></ul>",
+    "tags": [
+      "experiment",
+      "science",
+      "unit",
+      "atom"
+    ],
+    "category": "development",
+    "type": "animated"
+  },
+  {
     "name": "autoinstallation",
     "do": "<ul><li>To represent an autoinstallation process.</li></ul>",
     "dont": "<ul><li>To represent a downloading processs.</li></ul>",
@@ -213,6 +239,18 @@
     ],
     "category": "development",
     "type": "static"
+  },
+  {
+    "name": "bubble_loading",
+    "do": "<ul><li>Use it when the user is waiting for new content to be served.</li></ul>",
+    "dont": "<ul><li>Don't use it if no content will be retrieved, or if the user will be redirected to another page.</li></ul>",
+    "tags": [
+      "loading",
+      "fill",
+      "charge"
+    ],
+    "category": "virtualization",
+    "type": "animated"
   },
   {
     "name": "cleanup",
@@ -772,7 +810,7 @@
   },
   {
     "name": "loading",
-    "do": "<ul><li>The user is waiting for new content to be serverd.</li></ul>",
+    "do": "<ul><li>The user is waiting for new content to be served.</li></ul>",
     "dont": "<ul><li>The action returns invisible results for the user.</li></ul>",
     "tags": [
       "load",
@@ -1406,6 +1444,18 @@
     ],
     "category": "roles",
     "type": "static"
+  },
+  {
+    "name": "rotating_gear",
+    "do": "<ul><li>Use it when the process of applying configuration is undergoing.</li></ul>",
+    "dont": "<ul><li>Don't use it for loading or installing.</li></ul>",
+    "tags": [
+      "configure",
+      "settings",
+      "applying"
+    ],
+    "category": "virtualization",
+    "type": "animated"
   },
   {
     "name": "route",
