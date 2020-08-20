@@ -1,0 +1,10 @@
+{
+  "name": "access_alarms",
+  "do": "",
+  "dont": "",
+  "tags": [],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

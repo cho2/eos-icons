@@ -1,0 +1,19 @@
+{
+  "name": "auto_delete",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "auto",
+    "can",
+    "clock",
+    "delete",
+    "garbage",
+    "removal bin",
+    "time",
+    "trash"
+  ],
+  "category": [
+    "alert"
+  ],
+  "type": "static"
+}

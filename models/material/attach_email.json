@@ -1,0 +1,25 @@
+{
+  "name": "attach_email",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Email",
+    "attach",
+    "attachment",
+    "clip",
+    "compose",
+    "file",
+    "image",
+    "mail",
+    "message",
+    "note",
+    "post",
+    "receive",
+    "send",
+    "write"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "app_blocking",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Android",
+    "OS",
+    "app",
+    "applications",
+    "cancel",
+    "cell",
+    "device",
+    "hardware",
+    "iOS",
+    "mobile",
+    "phone",
+    "stop",
+    "tablet"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

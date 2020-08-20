@@ -2,7 +2,7 @@ const fs = require('fs');
 const axios = require('axios')
 const path = require('path')
 
-const downloadSVGFile = async (iconList) => { 
+const downloadSvgFile = async (iconList) => { 
   const webMdIconsData = JSON.parse(fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", ''))
   const mdSvgCollection = webMdIconsData.icons.filter(icon => iconList.includes(icon.name))
 
@@ -24,7 +24,7 @@ const downloadSVGFile = async (iconList) => {
   downloadFiles(mdSvgCollection)
 }
 
-const createSVGModels = async (iconList) => {
+const createSvgModels = async (iconList) => {
 
   const webMdIconsData = JSON.parse(fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", ''))
   const mdSvgModelCollection = webMdIconsData.icons.filter(icon => iconList.includes(icon.name))
@@ -49,8 +49,8 @@ const createSVGModels = async (iconList) => {
 }
 
 module.exports = {
-  downloadSVGFile,
-  createSVGModels
+  downloadSvgFile,
+  createSvgModels
 }
 
 

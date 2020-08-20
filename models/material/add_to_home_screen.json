@@ -1,0 +1,23 @@
+{
+  "name": "add_to_home_screen",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Android",
+    "OS",
+    "add",
+    "arrow",
+    "device",
+    "hardware",
+    "homescreen",
+    "iOS",
+    "mobile",
+    "phone",
+    "tablet",
+    "up"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

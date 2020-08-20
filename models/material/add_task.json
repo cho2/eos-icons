@@ -1,0 +1,10 @@
+{
+  "name": "add_task",
+  "do": "",
+  "dont": "",
+  "tags": [],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

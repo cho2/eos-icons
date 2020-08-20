@@ -1,0 +1,24 @@
+{
+  "name": "admin_panel_settings",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "account",
+    "admin",
+    "certified",
+    "face",
+    "human",
+    "panel",
+    "people",
+    "person",
+    "profile",
+    "security",
+    "settings",
+    "shield",
+    "user"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}
