@@ -7,7 +7,7 @@ module.exports = function (grunt) {
   const { duplicatedIcons } = require('./scripts/duplicated_icons')
   const { duplicatedIconsModels } = require('./scripts/duplicated_icons_models')
   const { eosMdIconsDifferences, downloadFile } = require('./scripts/eos-md-icons-log-differences')
-  const { downloadSVGFile, createSVGModels } = require('./scripts/download-svg')
+  const { downloadSvgFile, createSvgModels } = require('./scripts/download-svg')
 
 
   //Append path to your svg below
@@ -151,15 +151,53 @@ module.exports = function (grunt) {
   grunt.registerTask('downloadMdSvgFile', async function () {
     const done = this.async()
     const iconList = [
-  'access_alarms',
-  'accessibility_new',
-  'accessible_forward',
-  'account_tree',
-  'ad_units',
-  'add_business']
+      '360',
+      '4k',
+      '5g',
+      '6_ft_apart',
+      'access_alarms',
+      'accessibility_new',
+      'accessible_forward',
+      'account_tree',
+      'ad_units',
+      'add_business',
+      'add_comment',
+      'add_ic_call',
+      'add_location_alt',
+      'add_photo_alternate',
+      'add_road',
+      'add_task',
+      'add_to_home_screen',
+      'addchart',
+      'admin_panel_settings',
+      'agriculture',
+      'alarm_add',
+      'all_inbox',
+      'alt_route',
+      'alternate_email',
+      'amp_stories',
+      'analytics',
+      'anchor',
+      'apartment',
+      'api',
+      'app_blocking',
+      'app_settings_alt',
+      'architecture',
+      'arrow_back_ios',
+      'arrow_circle_down',
+      'arrow_circle_up',
+      'arrow_forward_ios',
+      'arrow_left',
+      'arrow_right',
+      'arrow_right_alt',
+      'article',
+      'atm',
+      'attach_email',
+      'auto_delete'
+    ]
 
-    await downloadSVGFile(iconList).then(() => {
-      createSVGModels(iconList)
+    await downloadSvgFile(iconList).then(() => {
+      createSvgModels(iconList)
     })
   })
 

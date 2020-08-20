@@ -1,0 +1,19 @@
+{
+  "name": "all_inbox",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Inbox",
+    "all",
+    "delivery",
+    "email",
+    "letter",
+    "mail",
+    "post",
+    "send"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

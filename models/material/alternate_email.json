@@ -1,0 +1,16 @@
+{
+  "name": "alternate_email",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "@",
+    "Email",
+    "address",
+    "alternate",
+    "contact"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

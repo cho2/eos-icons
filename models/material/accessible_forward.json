@@ -1,0 +1,18 @@
+{
+  "name": "accessible_forward",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "accessibility",
+    "accessible",
+    "body",
+    "handicap",
+    "help",
+    "human",
+    "person"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

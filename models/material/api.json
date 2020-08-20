@@ -1,0 +1,10 @@
+{
+  "name": "api",
+  "do": "",
+  "dont": "",
+  "tags": [],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

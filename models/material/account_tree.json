@@ -1,0 +1,17 @@
+{
+  "name": "account_tree",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "account",
+    "connect",
+    "process",
+    "square",
+    "structure",
+    "tree"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
+}
