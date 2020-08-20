@@ -104,7 +104,7 @@
       "engineer",
       "operative"
     ],
-    "category": "artificial intelligence",
+    "category": "roles",
     "type": "static"
   },
   {
@@ -548,7 +548,7 @@
       "research",
       "beaker"
     ],
-    "category": "social",
+    "category": "roles",
     "type": "static"
   },
   {
@@ -1490,7 +1490,7 @@
       "lab",
       "science"
     ],
-    "category": "social",
+    "category": "roles",
     "type": "static"
   },
   {
@@ -1877,12 +1877,29 @@
     "type": "static"
   },
   {
+    "name": "360",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "360",
+      "arrow",
+      "av",
+      "camera",
+      "rotation",
+      "vr"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "3d_rotation",
     "do": "",
     "dont": "",
     "tags": [
       "symbol",
-      "D",
+      "3D",
       "arrow",
       "rotation",
       "arrows",
@@ -1901,6 +1918,53 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "4k",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "4000",
+      "4K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "5g",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "6_ft_apart",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "social"
     ],
     "type": "static"
   },
@@ -1976,6 +2040,24 @@
     "type": "static"
   },
   {
+    "name": "accessibility_new",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accessibility",
+      "accessible",
+      "body",
+      "handicap",
+      "help",
+      "human",
+      "person"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "accessible",
     "do": "",
     "dont": "",
@@ -1987,6 +2069,24 @@
       "person",
       "body",
       "human"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "accessible_forward",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accessibility",
+      "accessible",
+      "body",
+      "handicap",
+      "help",
+      "human",
+      "person"
     ],
     "category": [
       "action"
@@ -2082,6 +2182,49 @@
     ],
     "category": [
       "roles"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "account_tree",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "connect",
+      "process",
+      "square",
+      "structure",
+      "tree"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "ad_units",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "ad",
+      "banner",
+      "cell",
+      "device",
+      "hardware",
+      "iOS",
+      "mobile",
+      "notification",
+      "notifications",
+      "phone",
+      "tablet",
+      "top",
+      "units"
+    ],
+    "category": [
+      "device"
     ],
     "type": "static"
   },
@@ -2185,6 +2328,27 @@
     "type": "static"
   },
   {
+    "name": "add_business",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "add",
+      "business",
+      "market",
+      "plus",
+      "retail",
+      "shop",
+      "shopping",
+      "store",
+      "storefront"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "add_circle",
     "do": "",
     "dont": "",
@@ -2221,6 +2385,43 @@
     "type": "static"
   },
   {
+    "name": "add_comment",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "add",
+      "bubble",
+      "chat",
+      "comment",
+      "feedback",
+      "message",
+      "plus"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_ic_call",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "call",
+      "contact",
+      "device",
+      "mobile",
+      "phone",
+      "plus"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "add_location",
     "do": "",
     "dont": "",
@@ -2234,6 +2435,65 @@
       "place",
       "plus",
       "direction"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_location_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "destination",
+      "direction",
+      "location",
+      "maps",
+      "pin",
+      "place",
+      "plus",
+      "stop"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_photo_alternate",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "image",
+      "landscape",
+      "mountain",
+      "mountains",
+      "photo",
+      "photography",
+      "picture",
+      "plus"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_road",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "destination",
+      "direction",
+      "highway",
+      "plus",
+      "road",
+      "stop",
+      "street"
     ],
     "category": [
       "maps"
@@ -2264,6 +2524,39 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_task",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "add_to_home_screen",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "add",
+      "arrow",
+      "device",
+      "hardware",
+      "homescreen",
+      "iOS",
+      "mobile",
+      "phone",
+      "tablet",
+      "up"
+    ],
+    "category": [
+      "device"
     ],
     "type": "static"
   },
@@ -2304,6 +2597,31 @@
     "type": "static"
   },
   {
+    "name": "addchart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "plus",
+      "statistics",
+      "tracking"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "adjust",
     "do": "",
     "dont": "",
@@ -2319,6 +2637,52 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "admin_panel_settings",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "admin",
+      "certified",
+      "face",
+      "human",
+      "panel",
+      "people",
+      "person",
+      "profile",
+      "security",
+      "settings",
+      "shield",
+      "user"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "agriculture",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Farm",
+      "automobile",
+      "car",
+      "cars",
+      "cultivation",
+      "harvest",
+      "maps",
+      "tractor",
+      "transport",
+      "truck",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
@@ -2596,6 +2960,25 @@
     "type": "static"
   },
   {
+    "name": "all_inbox",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Inbox",
+      "all",
+      "delivery",
+      "email",
+      "letter",
+      "mail",
+      "post",
+      "send"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "all_inclusive",
     "do": "",
     "dont": "",
@@ -2620,6 +3003,83 @@
       "circle",
       "out"
     ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "alt_route",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "alternate_email",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "@",
+      "Email",
+      "address",
+      "alternate",
+      "contact"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "amp_stories",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "amp",
+      "flow",
+      "gallery",
+      "stories",
+      "view"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "analytics",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Analytics",
+      "analytics",
+      "assessment",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "statistics",
+      "tracking"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "anchor",
+    "do": "",
+    "dont": "",
+    "tags": [],
     "category": [
       "action"
     ],
@@ -2666,6 +3126,94 @@
     "type": "static"
   },
   {
+    "name": "apartment",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accommodation",
+      "apartment",
+      "architecture",
+      "building",
+      "city",
+      "company",
+      "estate",
+      "flat",
+      "home",
+      "house",
+      "office",
+      "place",
+      "real",
+      "residence",
+      "residential",
+      "shelter",
+      "units",
+      "workplace"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "api",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "app_blocking",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "app",
+      "applications",
+      "cancel",
+      "cell",
+      "device",
+      "hardware",
+      "iOS",
+      "mobile",
+      "phone",
+      "stop",
+      "tablet"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "app_settings_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "app",
+      "applications",
+      "cell",
+      "device",
+      "gear",
+      "hardware",
+      "iOS",
+      "mobile",
+      "phone",
+      "setting",
+      "settings",
+      "tablet"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
     "name": "apps",
     "do": "",
     "dont": "",
@@ -2676,6 +3224,26 @@
     ],
     "category": [
       "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "architecture",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "architecture",
+      "art",
+      "compass",
+      "design",
+      "draw",
+      "drawing",
+      "engineering",
+      "geometric",
+      "tool"
+    ],
+    "category": [
+      "social"
     ],
     "type": "static"
   },
@@ -2706,6 +3274,45 @@
     ],
     "category": [
       "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_back_ios",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "back",
+      "chevron",
+      "direction",
+      "ios",
+      "left",
+      "previous"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_circle_down",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_circle_up",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -2787,6 +3394,70 @@
     "type": "static"
   },
   {
+    "name": "arrow_forward_ios",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "chevron",
+      "direction",
+      "forward",
+      "ios",
+      "next",
+      "right"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_left",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "direction",
+      "left"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_right",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "direction",
+      "right"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "arrow_right_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "pointing",
+      "right",
+      "shape"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "arrow_upward",
     "do": "",
     "dont": "",
@@ -2814,6 +3485,22 @@
     ],
     "category": [
       "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "article",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "article",
+      "doc",
+      "document",
+      "text",
+      "writing"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -2974,7 +3661,7 @@
       "help"
     ],
     "category": [
-      "image"
+      "roles"
     ],
     "type": "static"
   },
@@ -2988,6 +3675,68 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "atm",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "atm",
+      "automated",
+      "bill",
+      "card",
+      "cart",
+      "cash",
+      "character",
+      "circle",
+      "coin",
+      "commerce",
+      "credit",
+      "currency",
+      "dollars",
+      "font",
+      "letter",
+      "machine",
+      "money",
+      "online",
+      "pay",
+      "payment",
+      "shopping",
+      "symbol",
+      "teller",
+      "text",
+      "type"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "attach_email",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Email",
+      "attach",
+      "attachment",
+      "clip",
+      "compose",
+      "file",
+      "image",
+      "mail",
+      "message",
+      "note",
+      "post",
+      "receive",
+      "send",
+      "write"
+    ],
+    "category": [
+      "file"
     ],
     "type": "static"
   },
@@ -3061,6 +3810,25 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "auto_delete",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "auto",
+      "can",
+      "clock",
+      "delete",
+      "garbage",
+      "removal bin",
+      "time",
+      "trash"
+    ],
+    "category": [
+      "alert"
     ],
     "type": "static"
   },
@@ -8745,7 +9513,7 @@
       "users"
     ],
     "category": [
-      "navigation"
+      "roles"
     ],
     "type": "static"
   },
@@ -8761,7 +9529,7 @@
       "new"
     ],
     "category": [
-      "navigation"
+      "roles"
     ],
     "type": "static"
   },
@@ -12415,7 +13183,7 @@
       "users"
     ],
     "category": [
-      "social"
+      "roles"
     ],
     "type": "static"
   },
@@ -12430,7 +13198,7 @@
       "users"
     ],
     "category": [
-      "social"
+      "roles"
     ],
     "type": "static"
   },
@@ -12580,7 +13348,7 @@
       "profile"
     ],
     "category": [
-      "social"
+      "roles"
     ],
     "type": "static"
   },
@@ -12595,7 +13363,7 @@
       "profile"
     ],
     "category": [
-      "social"
+      "roles"
     ],
     "type": "static"
   },
@@ -12610,7 +13378,7 @@
       "profile"
     ],
     "category": [
-      "social"
+      "roles"
     ],
     "type": "static"
   },
@@ -13498,7 +14266,7 @@
       "pregnant"
     ],
     "category": [
-      "action"
+      "roles"
     ],
     "type": "static"
   },
@@ -13789,7 +14557,7 @@
       "card"
     ],
     "category": [
-      "av"
+      "roles"
     ],
     "type": "static"
   },
@@ -16282,7 +17050,7 @@
       "parents"
     ],
     "category": [
-      "action"
+      "roles"
     ],
     "type": "static"
   },
