@@ -2,7 +2,7 @@
   "name": "alt_route",
   "do": "",
   "dont": "",
-  "tags": [],
+  "tags": ["map", "location", "navigation", "direction", "pin"],
   "category": [
     "maps"
   ],
