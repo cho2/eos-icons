@@ -2,7 +2,7 @@
   "name": "arrow_circle_down",
   "do": "",
   "dont": "",
-  "tags": [],
+  "tags": ["direction", "down", "right", "arrows"],
   "category": [
     "action"
   ],

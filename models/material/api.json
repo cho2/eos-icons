@@ -2,7 +2,7 @@
   "name": "api",
   "do": "",
   "dont": "",
-  "tags": [],
+  "tags": ["development", "programming", "interface", "application"],
   "category": [
     "action"
   ],

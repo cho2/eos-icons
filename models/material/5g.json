@@ -2,7 +2,12 @@
   "name": "5g",
   "do": "",
   "dont": "",
-  "tags": [],
+  "tags": [
+  	"network",
+  	"internet",
+  	"connection",
+  	"speed"
+  ],
   "category": [
     "av"
   ],

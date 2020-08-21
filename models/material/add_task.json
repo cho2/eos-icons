@@ -2,7 +2,7 @@
   "name": "add_task",
   "do": "",
   "dont": "",
-  "tags": [],
+  "tags": ["plus", "new", "file", "document"],
   "category": [
     "action"
   ],
