@@ -1,0 +1,10 @@
+{
+  "name": "arrow_circle_down",
+  "do": "",
+  "dont": "",
+  "tags": ["direction", "down", "right", "arrows"],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

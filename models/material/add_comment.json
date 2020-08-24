@@ -1,0 +1,18 @@
+{
+  "name": "add_comment",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "bubble",
+    "chat",
+    "comment",
+    "feedback",
+    "message",
+    "plus"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

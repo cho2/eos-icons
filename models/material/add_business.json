@@ -1,0 +1,20 @@
+{
+  "name": "add_business",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "business",
+    "market",
+    "plus",
+    "retail",
+    "shop",
+    "shopping",
+    "store",
+    "storefront"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

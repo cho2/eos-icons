@@ -1,0 +1,25 @@
+{
+  "name": "addchart",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "analytics",
+    "bar",
+    "bars",
+    "chart",
+    "data",
+    "diagram",
+    "graph",
+    "infographic",
+    "measure",
+    "metrics",
+    "plus",
+    "statistics",
+    "tracking"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

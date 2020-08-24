@@ -1,0 +1,22 @@
+  {
+  "name": "agriculture",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Farm",
+    "automobile",
+    "car",
+    "cars",
+    "cultivation",
+    "harvest",
+    "maps",
+    "tractor",
+    "transport",
+    "truck",
+    "vehicle"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

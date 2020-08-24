@@ -1,0 +1,25 @@
+{
+  "name": "app_settings_alt",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Android",
+    "OS",
+    "app",
+    "applications",
+    "cell",
+    "device",
+    "gear",
+    "hardware",
+    "iOS",
+    "mobile",
+    "phone",
+    "setting",
+    "settings",
+    "tablet"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "ad_units",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Android",
+    "OS",
+    "ad",
+    "banner",
+    "cell",
+    "device",
+    "hardware",
+    "iOS",
+    "mobile",
+    "notification",
+    "notifications",
+    "phone",
+    "tablet",
+    "top",
+    "units"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

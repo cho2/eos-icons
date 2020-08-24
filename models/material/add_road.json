@@ -1,0 +1,19 @@
+{
+  "name": "add_road",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "destination",
+    "direction",
+    "highway",
+    "plus",
+    "road",
+    "stop",
+    "street"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}
