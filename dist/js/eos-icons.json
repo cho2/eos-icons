@@ -1952,7 +1952,12 @@
     "name": "5g",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "network",
+      "internet",
+      "connection",
+      "speed"
+    ],
     "category": [
       "av"
     ],
@@ -1962,7 +1967,10 @@
     "name": "6_ft_apart",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "distance",
+      "location"
+    ],
     "category": [
       "social"
     ],
@@ -2332,7 +2340,6 @@
     "do": "",
     "dont": "",
     "tags": [
-      "+",
       "add",
       "business",
       "market",
@@ -2389,7 +2396,6 @@
     "do": "",
     "dont": "",
     "tags": [
-      "+",
       "add",
       "bubble",
       "chat",
@@ -2531,7 +2537,12 @@
     "name": "add_task",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "plus",
+      "new",
+      "file",
+      "document"
+    ],
     "category": [
       "action"
     ],
@@ -3012,7 +3023,13 @@
     "name": "alt_route",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "map",
+      "location",
+      "navigation",
+      "direction",
+      "pin"
+    ],
     "category": [
       "maps"
     ],
@@ -3023,7 +3040,6 @@
     "do": "",
     "dont": "",
     "tags": [
-      "@",
       "Email",
       "address",
       "alternate",
@@ -3079,7 +3095,12 @@
     "name": "anchor",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "ship",
+      "sea",
+      "boat",
+      "marine"
+    ],
     "category": [
       "action"
     ],
@@ -3158,7 +3179,12 @@
     "name": "api",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "development",
+      "programming",
+      "interface",
+      "application"
+    ],
     "category": [
       "action"
     ],
@@ -3300,7 +3326,12 @@
     "name": "arrow_circle_down",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "direction",
+      "down",
+      "right",
+      "arrows"
+    ],
     "category": [
       "action"
     ],
@@ -3310,7 +3341,12 @@
     "name": "arrow_circle_up",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "direction",
+      "up",
+      "right",
+      "arrows"
+    ],
     "category": [
       "action"
     ],
