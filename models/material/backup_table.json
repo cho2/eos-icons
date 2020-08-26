@@ -1,0 +1,15 @@
+{
+  "name": "backup_table",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "backup",
+    "cloud",
+    "stack",
+    "table"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}
