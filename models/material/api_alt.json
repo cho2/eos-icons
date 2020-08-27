@@ -1,10 +1,8 @@
 {
-  "name": "api",
+  "name": "api_alt",
   "do": "",
   "dont": "",
   "tags": ["development", "programming", "interface", "application"],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }
