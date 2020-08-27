@@ -3260,7 +3260,7 @@
     "type": "static"
   },
   {
-    "name": "api",
+    "name": "api_alt",
     "do": "",
     "dont": "",
     "tags": [
