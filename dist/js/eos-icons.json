@@ -2971,6 +2971,90 @@
     "type": "static"
   },
   {
+    "name": "align_horizontal_center",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "line up",
+      "position",
+      "place"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "align_horizontal_left",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "line up",
+      "position",
+      "place"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "align_horizontal_right",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "line up",
+      "position",
+      "place"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "align_vertical_bottom",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "line up",
+      "position",
+      "place"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "align_vertical_center",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "line up",
+      "position",
+      "place"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "align_vertical_top",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "line up",
+      "position",
+      "place"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
     "name": "all_inbox",
     "do": "",
     "dont": "",
@@ -3905,6 +3989,37 @@
     "type": "static"
   },
   {
+    "name": "baby_changing_station",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "changing table",
+      "infant",
+      "child",
+      "newborn"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "backpack",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rucksack",
+      "knapsack",
+      "pack",
+      "bag",
+      "hike"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "backspace",
     "do": "",
     "dont": "",
@@ -3937,6 +4052,89 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "backup_table",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "backup",
+      "cloud",
+      "stack",
+      "table"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "ballot",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "ballot",
+      "election",
+      "poll",
+      "vote"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "bar_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "diagram",
+      "bar",
+      "measure",
+      "data",
+      "infograpic",
+      "metrics",
+      "statstics",
+      "chart",
+      "tracking",
+      "bars",
+      "graph"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "batch_prediction",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "forecast",
+      "projection",
+      "prognosis",
+      "prognostic"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "bathtub",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "tub",
+      "bath",
+      "hot tub",
+      "sauna"
+    ],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
@@ -4026,6 +4224,21 @@
     "type": "static"
   },
   {
+    "name": "bedtime",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "snoozle",
+      "sleep",
+      "slumbertime",
+      "night"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
     "name": "beenhere",
     "do": "",
     "dont": "",
@@ -4042,6 +4255,58 @@
     ],
     "category": [
       "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "bento",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "food",
+      "take out",
+      "home packed"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "bike_scooter",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "bike",
+      "car",
+      "cars",
+      "maps",
+      "scooter",
+      "transportation",
+      "vehicle",
+      "vespa"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "biotech",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "biotech",
+      "chemistry",
+      "laboratory",
+      "microscope",
+      "research",
+      "science",
+      "technology"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },
@@ -4205,6 +4470,21 @@
     "type": "static"
   },
   {
+    "name": "book_online",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "reservation",
+      "reserve",
+      "booking",
+      "appointment"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "bookmark",
     "do": "",
     "dont": "",
@@ -4228,6 +4508,22 @@
       "remember",
       "bookmark",
       "outline",
+      "save"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "bookmarks",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bookmarks",
+      "remember",
+      "bookmark",
+      "stack",
       "save"
     ],
     "category": [
@@ -4683,6 +4979,18 @@
     "type": "static"
   },
   {
+    "name": "browser_not_supported",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "unsupported"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
     "name": "brush",
     "do": "",
     "dont": "",
@@ -4745,6 +5053,20 @@
       "build",
       "tool",
       "wrench"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "build_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wrench",
+      "settings",
+      "configure"
     ],
     "category": [
       "action"

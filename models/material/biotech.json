@@ -1,0 +1,18 @@
+{
+  "name": "biotech",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "biotech",
+    "chemistry",
+    "laboratory",
+    "microscope",
+    "research",
+    "science",
+    "technology"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}

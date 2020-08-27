@@ -1,0 +1,16 @@
+{
+  "name": "bookmarks",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bookmarks",
+    "remember",
+    "bookmark",
+    "stack",
+    "save"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

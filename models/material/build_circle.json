@@ -1,0 +1,8 @@
+{
+  "name": "build_circle",
+  "do": "",
+  "dont": "",
+  "tags": ["wrench", "settings", "configure"],
+  "category": ["action"],
+  "type": "static"
+}
