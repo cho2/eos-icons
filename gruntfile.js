@@ -1,18 +1,28 @@
 module.exports = function (grunt) {
-  const { compareFolders } = require('./scripts/md-name-checker')
-  const { combineIconsModels } = require('./scripts/combine-eos-icons')
-  const { checkForMissingModelsOrIcons, checkModelKeys } = require('./scripts/models-checker')
-  const { createNewModel } = require('./scripts/models-creation')
-  const { checkSvgName, renameSvgTo } = require("./scripts/svg-checker")
-  const { duplicatedIcons } = require('./scripts/duplicated_icons')
-  const { duplicatedIconsModels } = require('./scripts/duplicated_icons_models')
-  const { eosMdIconsDifferences, downloadFile } = require('./scripts/eos-md-icons-log-differences')
-  const { downloadSvgFile, createSvgModels } = require('./scripts/download-svg')
-
+  const { compareFolders } = require('./scripts/md-name-checker');
+  const { combineIconsModels } = require('./scripts/combine-eos-icons');
+  const {
+    checkForMissingModelsOrIcons,
+    checkModelKeys,
+  } = require('./scripts/models-checker');
+  const { createNewModel } = require('./scripts/models-creation');
+  const { checkSvgName, renameSvgTo } = require('./scripts/svg-checker');
+  const { duplicatedIcons } = require('./scripts/duplicated_icons');
+  const {
+    duplicatedIconsModels,
+  } = require('./scripts/duplicated_icons_models');
+  const {
+    eosMdIconsDifferences,
+    downloadFile,
+  } = require('./scripts/eos-md-icons-log-differences');
+  const {
+    downloadSvgFile,
+    createSvgModels,
+  } = require('./scripts/download-svg');
 
   //Append path to your svg below
   //EOS-set and MD svg path
-  const src_eos_set = ['svg/*.svg', 'svg/material/*.svg']
+  const src_eos_set = ['svg/*.svg', 'svg/material/*.svg'];
 
   grunt.initConfig({
     webfont: {
@@ -20,6 +30,8 @@ module.exports = function (grunt) {
         src: src_eos_set,
         dest: 'dist/fonts',
         destCss: 'dist/css',
+        destScss: 'dist/css',
+        destLess: 'dist/css',
         options: {
           font: 'eos-icons',
           syntax: 'bootstrap',
@@ -29,21 +41,23 @@ module.exports = function (grunt) {
           types: 'woff2,woff,ttf,svg,eot',
           metadata: 'something here',
           templateOptions: {
-            baseClass: "eos-icons",
-            classPrefix: "eos-",
+            baseClass: 'eos-icons',
+            classPrefix: 'eos-',
             template: 'templates/css-template.css',
-            iconsStyles: false
+            iconsStyles: false,
           },
-          stylesheets: ['css'],
+          stylesheets: ['less', 'scss', 'css'],
           destHtml: 'dist/',
           htmlDemoTemplate: 'templates/index-template.html',
           htmlDemoFilename: 'index',
-          customOutputs: [{
-            template: 'templates/glyph-list-template.json',
-            dest: 'dist/js/glyph-list.json'
-          }]
-        }
-      }
+          customOutputs: [
+            {
+              template: 'templates/glyph-list-template.json',
+              dest: 'dist/js/glyph-list.json',
+            },
+          ],
+        },
+      },
     },
     concat: {
       dist: {
@@ -55,157 +69,184 @@ module.exports = function (grunt) {
       replace_metadata: {
         src: ['dist/fonts/eos-icons.svg'],
         overwrite: true,
-        replacements: [{
-          from: /<metadata>(.|\n)*?<\/metadata>/,
-          to: "<metadata>Created by EOS Design System</metadata>"
-        }]
-      }
+        replacements: [
+          {
+            from: /<metadata>(.|\n)*?<\/metadata>/,
+            to: '<metadata>Created by EOS Design System</metadata>',
+          },
+        ],
+      },
     },
     coffee: {
       files: './scripts/eos-md-icons-log-differences',
-      tasks: ['coffee']
+      tasks: ['coffee'],
     },
     clean: {
       icons: {
         expand: true,
         cwd: './svg/material/',
-        src: duplicatedIcons
+        src: duplicatedIcons,
       },
       models: {
         expand: true,
         cwd: './models/material/',
-        src: duplicatedIconsModels
+        src: duplicatedIconsModels,
       },
       dist: {
         src: './dist/',
       },
       hidden: {
-        src: ['./svg/**/.DS_Store', './models/**/.DS_Store']
-      }
-    }
+        src: ['./svg/**/.DS_Store', './models/**/.DS_Store'],
+      },
+    },
   });
 
   /* Looks into the models and svg folders and finds the differences */
   grunt.registerTask('checkMissingModelandSVG', function () {
-    const done = this.async()
+    const done = this.async();
 
-    checkForMissingModelsOrIcons({ modelsSrc: './models', mdModelsSrc: './models/material', mdIconsSrc: './svg/material', iconsSrc: './svg', animatedSrc: './animated-svg' }).then(async data => {
-      const { SVGsMissingModels, ModelsMissingSVGs } = data
+    checkForMissingModelsOrIcons({
+      modelsSrc: './models',
+      mdModelsSrc: './models/material',
+      mdIconsSrc: './svg/material',
+      iconsSrc: './svg',
+      animatedSrc: './animated-svg',
+    }).then(async (data) => {
+      const { SVGsMissingModels, ModelsMissingSVGs } = data;
 
       if (SVGsMissingModels.length || ModelsMissingSVGs.length) {
         if (SVGsMissingModels.length) {
-          console.log(`⚠️ ${SVGsMissingModels.length} SVG missing: we found models # ${SVGsMissingModels.map(ele => ele)} # but not the SVG inside /svg.`)
-          process.exit(1)
+          console.log(
+            `⚠️ ${
+              SVGsMissingModels.length
+            } SVG missing: we found models # ${SVGsMissingModels.map(
+              (ele) => ele
+            )} # but not the SVG inside /svg.`
+          );
+          process.exit(1);
         }
 
         if (ModelsMissingSVGs.length) {
-          console.log(`⚠️ ${ModelsMissingSVGs.length} Model missing: we found the SVG # ${ModelsMissingSVGs.map(ele => ele)} # but not the model inside /models. Please create one below.`)
+          console.log(
+            `⚠️ ${
+              ModelsMissingSVGs.length
+            } Model missing: we found the SVG # ${ModelsMissingSVGs.map(
+              (ele) => ele
+            )} # but not the model inside /models. Please create one below.`
+          );
 
           /* If any model is missing, send it to be created. */
-          await createNewModel({ ModelsMissingSVGs }).then(done)
+          await createNewModel({ ModelsMissingSVGs }).then(done);
         }
       } else {
-        console.log('✅  All SVGs have their corresponding model and vice versa.')
-        done()
+        console.log(
+          '✅  All SVGs have their corresponding model and vice versa.'
+        );
+        done();
       }
-    })
-  })
+    });
+  });
 
   /* Find duplictes name between our icons and MD icon set. */
   grunt.registerTask('findDuplicates', function () {
-    const done = this.async()
+    const done = this.async();
 
-    const mdRepo = './svg/material'
-    const eosRepo = './svg'
+    const mdRepo = './svg/material';
+    const eosRepo = './svg';
 
-    compareFolders({ mdRepo, eosRepo }).then(result => {
-      const { error, message } = result
+    compareFolders({ mdRepo, eosRepo }).then((result) => {
+      const { error, message } = result;
 
       if (error) {
-        console.log(message)
-        process.exit(1)
+        console.log(message);
+        process.exit(1);
       } else {
-        console.log(message)
-        done()
+        console.log(message);
+        done();
       }
-    })
-  })
+    });
+  });
 
   /* Combine all the models into a single file */
   grunt.registerTask('combineAllIconsModels', async function () {
-    const done = this.async()
+    const done = this.async();
 
-    return combineIconsModels({ targetDirEos: './models/', targetDirMd: './models/material/', destDir: './dist/js/eos-icons.json' })
-      .then(done)
-  })
+    return combineIconsModels({
+      targetDirEos: './models/',
+      targetDirMd: './models/material/',
+      destDir: './dist/js/eos-icons.json',
+    }).then(done);
+  });
 
   /* compare MD icons in our repo and MD officical website */
   grunt.registerTask('eosMdIconsDifferencesLog', async function () {
-    const done = this.async()
+    const done = this.async();
     await downloadFile().then(() => {
-      eosMdIconsDifferences({ targetDirMd: './svg/material' })
-    })
-  })
+      eosMdIconsDifferences({ targetDirMd: './svg/material' });
+    });
+  });
 
   /* Download MD svgs and create models */
   grunt.registerTask('downloadMdSvgFile', async function () {
-    const done = this.async()
+    const done = this.async();
     /* Add icons list here */
-    const iconList = [
-    
-    ]
+    const iconList = [];
 
     await downloadSvgFile(iconList).then(() => {
-      createSvgModels(iconList)
-    })
-  })
+      createSvgModels(iconList);
+    });
+  });
 
   /* Checks for each models to make sure it has all the properties we expect. */
   grunt.registerTask('checkModelsKeys', async function () {
-    const done = this.async()
+    const done = this.async();
 
-    return checkModelKeys().then(result => {
+    return checkModelKeys().then((result) => {
       result.length
-        ? console.log(`⚠️  Error: model proprieties missing for # ${result.map(ele => ele.fileName)} #. Please make sure it has: name, do, dont, tags, category and type`)
-        : done()
-    })
-  })
+        ? console.log(
+            `⚠️  Error: model proprieties missing for # ${result.map(
+              (ele) => ele.fileName
+            )} #. Please make sure it has: name, do, dont, tags, category and type`
+          )
+        : done();
+    });
+  });
 
   /* Checks for SVGs names returns the one with a wrong naming convention */
   grunt.registerTask('checkNameConvention', async function () {
-    const done = this.async()
+    const done = this.async();
 
-    const mdDir = './svg/material'
-    const eosDir = './svg'
+    const mdDir = './svg/material';
+    const eosDir = './svg';
 
-    checkSvgName({ mdDir, eosDir }).then(async result => {
-      const { eosIconsNew, mdIconsMdNew } = result
+    checkSvgName({ mdDir, eosDir }).then(async (result) => {
+      const { eosIconsNew, mdIconsMdNew } = result;
 
       if (eosIconsNew.length || mdIconsMdNew.length) {
         if (eosIconsNew.length) {
           for await (icon of eosIconsNew) {
             console.log(
               `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
-            )
-            await renameSvgTo(icon, eosDir)
+            );
+            await renameSvgTo(icon, eosDir);
           }
-          process.exit(1)
+          process.exit(1);
         }
 
         if (mdIconsMdNew.length) {
           for await (icon of mdIconsMdNew) {
             console.log(
               `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
-            )
-            await renameSvgTo(icon, mdDir).then(done)
+            );
+            await renameSvgTo(icon, mdDir).then(done);
           }
         }
       } else {
-        console.log('✅  All SVGs have correct naming convention.')
-        done()
+        console.log('✅  All SVGs have correct naming convention.');
+        done();
       }
-    })
-  })
+    });
+  });
 
   grunt.loadNpmTasks('grunt-webfont');
   grunt.loadNpmTasks('grunt-contrib-copy');
@@ -213,8 +254,24 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-text-replace');
 
-  grunt.registerTask('clean:all', ['clean:hidden','clean:dist', 'clean:icons', 'clean:models']);
-  grunt.registerTask('build', ['clean:all', 'concat', 'webfont', 'replace', 'combineAllIconsModels']);
-  grunt.registerTask('test', ['findDuplicates', 'checkNameConvention', 'checkModelsKeys', 'checkMissingModelandSVG']);
+  grunt.registerTask('clean:all', [
+    'clean:hidden',
+    'clean:dist',
+    'clean:icons',
+    'clean:models',
+  ]);
+  grunt.registerTask('build', [
+    'clean:all',
+    'concat',
+    'webfont',
+    'replace',
+    'combineAllIconsModels',
+  ]);
+  grunt.registerTask('test', [
+    'findDuplicates',
+    'checkNameConvention',
+    'checkModelsKeys',
+    'checkMissingModelandSVG',
+  ]);
   grunt.registerTask('default', ['test', 'build']);
 };
