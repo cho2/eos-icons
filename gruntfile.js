@@ -190,7 +190,39 @@ module.exports = function (grunt) {
   grunt.registerTask('downloadMdSvgFile', async function () {
     const done = this.async();
     /* Add icons list here */
-    const iconList = [];
+    const iconList = [
+      'calculate',
+      'calendar_today',
+      'calendar_view_day',
+      'campaign',
+      'cancel_presentation',
+      'cancel_schedule_send',
+      'carpenter',
+      'cast_for_education',
+      'category',
+      'charging_station',
+      'check_circle_outline',
+      'checkroom',
+      'chevron_left',
+      'chevron_right',
+      'clean_hands',
+      'cleaning_services',
+      'clear',
+      'close_fullscreen',
+      'closed_caption_disabled',
+      'comment_bank',
+      'commute',
+      'compass_calibration',
+      'connect_without_contact',
+      'construction',
+      'contact_page',
+      'contact_support',
+      'contactless',
+      'control_camera',
+      'coronavirus',
+      'corporate_fare',
+      'countertops',
+    ];
 
     await downloadSvgFile(iconList).then(() => {
       createSvgModels(iconList);

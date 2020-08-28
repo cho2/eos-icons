@@ -1,0 +1,19 @@
+{
+  "name": "category",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "categories",
+    "circle",
+    "collection",
+    "items",
+    "product",
+    "sort",
+    "square",
+    "triangle"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

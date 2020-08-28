@@ -1,0 +1,19 @@
+{
+  "name": "cancel_presentation",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Presentation",
+    "cancel",
+    "close",
+    "device",
+    "present",
+    "screen",
+    "share",
+    "x"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

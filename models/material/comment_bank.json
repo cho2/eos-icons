@@ -1,0 +1,19 @@
+{
+  "name": "comment_bank",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "archive",
+    "bank",
+    "bookmark",
+    "bubble",
+    "comment",
+    "doc",
+    "document",
+    "note"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -5152,6 +5152,65 @@
     "type": "static"
   },
   {
+    "name": "calculate",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "-",
+      "=",
+      "account",
+      "calculate",
+      "count",
+      "fiance",
+      "math"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "calendar_today",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "date",
+      "day",
+      "event",
+      "month",
+      "remember",
+      "reminder",
+      "today",
+      "week"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "calendar_view_day",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "date",
+      "day",
+      "event",
+      "month",
+      "remember",
+      "reminder",
+      "today",
+      "week"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "call",
     "do": "",
     "dont": "",
@@ -5410,6 +5469,24 @@
     "type": "static"
   },
   {
+    "name": "campaign",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "announcement",
+      "campaign",
+      "loud",
+      "megaphone",
+      "microphone",
+      "notification",
+      "speaker"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
     "name": "cancel",
     "do": "",
     "dont": "",
@@ -5422,6 +5499,40 @@
     ],
     "category": [
       "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cancel_presentation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Presentation",
+      "cancel",
+      "close",
+      "device",
+      "present",
+      "screen",
+      "share",
+      "x"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cancel_schedule_send",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cancel",
+      "mail",
+      "schedule",
+      "send"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -5514,6 +5625,16 @@
     "type": "static"
   },
   {
+    "name": "carpenter",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "casino",
     "do": "",
     "dont": "",
@@ -5566,6 +5687,57 @@
     "type": "static"
   },
   {
+    "name": "cast_for_education",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "airplay",
+      "cap",
+      "cast",
+      "chrome",
+      "classroom",
+      "connect",
+      "desktop",
+      "device",
+      "education",
+      "for",
+      "graduation",
+      "hardware",
+      "hat",
+      "learning",
+      "monitor",
+      "school",
+      "screencast",
+      "stream",
+      "television",
+      "tv",
+      "wireless"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "category",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "categories",
+      "circle",
+      "collection",
+      "items",
+      "product",
+      "sort",
+      "square",
+      "triangle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "center_focus_strong",
     "do": "",
     "dont": "",
@@ -5613,6 +5785,16 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "charging_station",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
@@ -5734,6 +5916,33 @@
     "type": "static"
   },
   {
+    "name": "check_circle_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "check",
+      "circle",
+      "complete",
+      "done",
+      "finished",
+      "outline"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "checkroom",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "child_care",
     "do": "",
     "dont": "",
@@ -5798,6 +6007,26 @@
     "type": "static"
   },
   {
+    "name": "clean_hands",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "cleaning_services",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "clear_all",
     "do": "",
     "dont": "",
@@ -5829,6 +6058,16 @@
     "type": "static"
   },
   {
+    "name": "close_fullscreen",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "closed_caption",
     "do": "",
     "dont": "",
@@ -5849,6 +6088,16 @@
       "text",
       "font"
     ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "closed_caption_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [],
     "category": [
       "av"
     ],
@@ -6094,6 +6343,48 @@
     "type": "static"
   },
   {
+    "name": "comment_bank",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "archive",
+      "bank",
+      "bookmark",
+      "bubble",
+      "comment",
+      "doc",
+      "document",
+      "note"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "commute",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "car",
+      "cars",
+      "commute",
+      "direction",
+      "maps",
+      "public",
+      "train",
+      "transportation",
+      "trip",
+      "vehicle",
+      "work"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "compare",
     "do": "",
     "dont": "",
@@ -6124,6 +6415,21 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "compass_calibration",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calibration",
+      "compass",
+      "location",
+      "refresh"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
@@ -6159,6 +6465,38 @@
     "type": "static"
   },
   {
+    "name": "connect_without_contact",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "construction",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "build",
+      "construction",
+      "equipment",
+      "fix",
+      "hammer",
+      "improvement",
+      "industrial",
+      "industry",
+      "repair",
+      "tools",
+      "wrench"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
     "name": "contact_mail",
     "do": "",
     "dont": "",
@@ -6182,6 +6520,16 @@
     "type": "static"
   },
   {
+    "name": "contact_page",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "contact_phone",
     "do": "",
     "dont": "",
@@ -6201,6 +6549,45 @@
     ],
     "category": [
       "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "contact_support",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alert",
+      "announcement",
+      "bubble",
+      "help",
+      "info",
+      "information",
+      "question mark",
+      "speech",
+      "support"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "contactless",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cash",
+      "contact",
+      "contactless",
+      "credit",
+      "payment",
+      "signal",
+      "transaction",
+      "wifi"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -6271,6 +6658,26 @@
     "type": "static"
   },
   {
+    "name": "control_camera",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Control",
+      "adjust",
+      "arrow",
+      "arrows",
+      "camera",
+      "direction",
+      "left",
+      "move",
+      "right"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
     "name": "control_point",
     "do": "",
     "dont": "",
@@ -6324,6 +6731,36 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "coronavirus",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "corporate_fare",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "countertops",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
