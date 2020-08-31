@@ -1,0 +1,10 @@
+{
+  "name": "charging_station",
+  "do": "",
+  "dont": "",
+  "tags": [],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

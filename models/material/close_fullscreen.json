@@ -1,0 +1,10 @@
+{
+  "name": "close_fullscreen",
+  "do": "",
+  "dont": "",
+  "tags": [],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

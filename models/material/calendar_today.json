@@ -1,0 +1,20 @@
+{
+  "name": "calendar_today",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "calendar",
+    "date",
+    "day",
+    "event",
+    "month",
+    "remember",
+    "reminder",
+    "today",
+    "week"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

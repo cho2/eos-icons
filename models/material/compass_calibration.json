@@ -1,0 +1,15 @@
+{
+  "name": "compass_calibration",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "calibration",
+    "compass",
+    "location",
+    "refresh"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

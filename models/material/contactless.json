@@ -1,0 +1,19 @@
+{
+  "name": "contactless",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "cash",
+    "contact",
+    "contactless",
+    "credit",
+    "payment",
+    "signal",
+    "transaction",
+    "wifi"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}
