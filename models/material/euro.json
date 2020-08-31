@@ -1,0 +1,26 @@
+{
+  "name": "euro",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bill",
+    "card",
+    "cash",
+    "coin",
+    "commerce",
+    "credit",
+    "currency",
+    "dollars",
+    "euro",
+    "euros",
+    "money",
+    "online",
+    "pay",
+    "payment",
+    "symbol"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

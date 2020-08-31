@@ -1,0 +1,18 @@
+{
+  "name": "domain_verification",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Domain",
+    "building",
+    "disabled",
+    "internet",
+    "off",
+    "web",
+    "website"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

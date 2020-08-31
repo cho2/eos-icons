@@ -1,0 +1,10 @@
+{
+  "name": "dry",
+  "do": "",
+  "dont": "",
+  "tags": ["blow", "towel", "wipe"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

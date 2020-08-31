@@ -1,0 +1,23 @@
+{
+  "name": "explore_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "compass",
+    "destination",
+    "disabled",
+    "enabled",
+    "explore",
+    "location",
+    "map",
+    "needle",
+    "off",
+    "on",
+    "slash",
+    "travel"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

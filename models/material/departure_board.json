@@ -1,0 +1,22 @@
+{
+  "name": "departure_board",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "automobile",
+    "bus",
+    "car",
+    "cars",
+    "clock",
+    "maps",
+    "public",
+    "schedule",
+    "time",
+    "transportation",
+    "vehicle"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

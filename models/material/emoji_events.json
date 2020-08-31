@@ -1,0 +1,24 @@
+{
+  "name": "emoji_events",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "achievement",
+    "award",
+    "chalice",
+    "champion",
+    "cup",
+    "emoji",
+    "events",
+    "first",
+    "prize",
+    "reward",
+    "sport",
+    "trophy",
+    "winner"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

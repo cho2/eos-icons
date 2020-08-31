@@ -1,0 +1,10 @@
+{
+  "name": "do_not_touch",
+  "do": "",
+  "dont": "",
+  "tags": ["stop", "forbidden", "prohibited", "banned", "pick up", "pat", "poke"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

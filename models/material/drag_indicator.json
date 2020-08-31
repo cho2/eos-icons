@@ -1,0 +1,19 @@
+{
+  "name": "drag_indicator",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "circle",
+    "dots",
+    "drag",
+    "drop",
+    "indicator",
+    "move",
+    "shape",
+    "shift"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

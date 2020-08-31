@@ -1,0 +1,21 @@
+{
+  "name": "domain_disabled",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Domain",
+    "building",
+    "disabled",
+    "enabled",
+    "internet",
+    "off",
+    "on",
+    "slash",
+    "web",
+    "website"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "emoji_emotions",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "emoji",
+    "emotions",
+    "expressions",
+    "face",
+    "feelings",
+    "glad",
+    "happiness",
+    "happy",
+    "like",
+    "mood",
+    "person",
+    "pleased",
+    "smile",
+    "smiling",
+    "social",
+    "survey"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

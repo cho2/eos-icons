@@ -1,0 +1,10 @@
+{
+  "name": "escalator_warning",
+  "do": "",
+  "dont": "",
+  "tags": ["caution", "staircase", "stairway"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "desktop_access_disabled",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Desktop",
+    "access",
+    "device",
+    "disabled",
+    "enabled",
+    "monitor",
+    "off",
+    "on",
+    "screen",
+    "slash"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

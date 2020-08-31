@@ -1,0 +1,10 @@
+{
+  "name": "dynamic_form",
+  "do": "",
+  "dont": "",
+  "tags": ["application", "questionnaire", "sheet", "changing"],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}
