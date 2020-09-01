@@ -189,7 +189,7 @@ module.exports = function (grunt) {
     
     /* Add icons list here */
     const iconList = [
-   'api']
+   ]
 
     for await (const icon of iconList) {
       await downloadSvgFile(icon).then();
