@@ -1,0 +1,10 @@
+{
+  "name": "directions_off",
+  "do": "",
+  "dont": "",
+  "tags": ["turn", "arrow", "steer", "canceled"],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
+}

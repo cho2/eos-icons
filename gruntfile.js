@@ -186,15 +186,14 @@ module.exports = function (grunt) {
   /* Download MD svgs and create models */
   grunt.registerTask('downloadMdSvgFile', async function () {
     const done = this.async();
-    
+
     /* Add icons list here */
-    const iconList = [
-   ]
+    const iconList = []
 
     for await (const icon of iconList) {
       await downloadSvgFile(icon).then();
     }
-    
+
   });
 
   /* Checks for each models to make sure it has all the properties we expect. */

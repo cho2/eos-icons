@@ -6,7 +6,7 @@ const path = require('path')
 let nameIcon
 const eosIconsList = './svg';
 const mdIconsList = './svg/material';
-  
+
 const eosIcons = fs.readdirSync(eosIconsList).map(ele => ele.split('.')[0])
 const mdIcons = fs.readdirSync(mdIconsList).map(ele => ele.split('.')[0])
 const svgCollection = [...eosIcons, ...mdIcons]
@@ -18,7 +18,7 @@ const inputForName = async () => {
         {
           type: 'input',
           name: 'name',
-          message: '✅  Enter new SVG name: ',
+          message: '✅  Enter the new icon name: ',
           validate: function (input) {
             const done = this.async();
 
@@ -43,7 +43,7 @@ const downloadSvgFile = async (mdIcon) => {
     console.log(`An existing icon with the same name was found: ${mdSvg[0].name}.svg` )
     await inputForName().then(async response => {
       nameIcon = response.name
-    }) 
+    })
   } else {
     nameIcon = mdSvg[0].name
   }
@@ -86,5 +86,3 @@ const createSvgModels = async (mdSvg, nameIcon) => {
 module.exports = {
   downloadSvgFile
 }
-
-

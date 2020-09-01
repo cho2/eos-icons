@@ -56,6 +56,7 @@ const duplicatedIcons = [
   'local_airport.svg',
   'flight.svg',
   'photo_camera.svg',
+  'east.svg',
 ]
 
 module.exports = {

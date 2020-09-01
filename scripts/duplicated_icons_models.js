@@ -59,6 +59,7 @@ const duplicatedIconsModels = [
   'local_airport.json',
   'flight.json',
   'photo_camera.json',
+  'east.json',
 ]
 
 module.exports = {

@@ -1,0 +1,10 @@
+{
+  "name": "elevator",
+  "do": "",
+  "dont": "",
+  "tags": ["lift"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

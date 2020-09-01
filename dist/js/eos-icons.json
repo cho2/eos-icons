@@ -7065,6 +7065,28 @@
     "type": "static"
   },
   {
+    "name": "deck",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chairs",
+      "deck",
+      "home",
+      "house",
+      "outdoors",
+      "outside",
+      "patio",
+      "social",
+      "terrace",
+      "umbrella",
+      "yard"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
     "name": "dehaze",
     "do": "",
     "dont": "",
@@ -7117,6 +7139,23 @@
     "type": "static"
   },
   {
+    "name": "delete_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bin",
+      "can",
+      "delete",
+      "garbage",
+      "remove",
+      "trash"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "delete_sweep",
     "do": "",
     "dont": "",
@@ -7128,6 +7167,28 @@
     ],
     "category": [
       "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "departure_board",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "bus",
+      "car",
+      "cars",
+      "clock",
+      "maps",
+      "public",
+      "schedule",
+      "time",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
@@ -7149,6 +7210,41 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "design_services",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "graphic",
+      "drawing",
+      "sketch"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "desktop_access_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Desktop",
+      "access",
+      "device",
+      "disabled",
+      "enabled",
+      "monitor",
+      "off",
+      "on",
+      "screen",
+      "slash"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -7241,6 +7337,36 @@
     "tags": [
       "connection",
       "core"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "device_unknown",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "?",
+      "Android",
+      "OS",
+      "cell",
+      "device",
+      "error",
+      "hardware",
+      "help",
+      "iOS",
+      "information",
+      "mark",
+      "mobile",
+      "phone",
+      "question",
+      "support",
+      "symbol",
+      "tablet",
+      "unknown",
+      "unrecognized"
     ],
     "category": [
       "hardware"
@@ -7438,6 +7564,21 @@
     "type": "static"
   },
   {
+    "name": "directions_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "turn",
+      "arrow",
+      "steer",
+      "canceled"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
     "name": "directions_railway",
     "do": "",
     "dont": "",
@@ -7543,6 +7684,19 @@
     "type": "static"
   },
   {
+    "name": "disabled_by_default",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "off",
+      "unavailable"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "disc_full",
     "do": "",
     "dont": "",
@@ -7614,6 +7768,41 @@
     "type": "static"
   },
   {
+    "name": "do_not_step",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "stop",
+      "forbidden",
+      "prohibited",
+      "banned",
+      "footstep",
+      "walk"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "do_not_touch",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "stop",
+      "forbidden",
+      "prohibited",
+      "banned",
+      "pick up",
+      "pat",
+      "poke"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "dock",
     "do": "",
     "dont": "",
@@ -7642,6 +7831,45 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "domain_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Domain",
+      "building",
+      "disabled",
+      "enabled",
+      "internet",
+      "off",
+      "on",
+      "slash",
+      "web",
+      "website"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "domain_verification",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Domain",
+      "building",
+      "disabled",
+      "internet",
+      "off",
+      "web",
+      "website"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -7679,6 +7907,23 @@
     "type": "static"
   },
   {
+    "name": "done_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "check",
+      "complete",
+      "done",
+      "finished",
+      "mark",
+      "outline"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "donut_large",
     "do": "",
     "dont": "",
@@ -7705,6 +7950,23 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "double_arrow",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "direction",
+      "double",
+      "multiple",
+      "right"
+    ],
+    "category": [
+      "navigation"
     ],
     "type": "static"
   },
@@ -7744,6 +8006,25 @@
     "type": "static"
   },
   {
+    "name": "drag_indicator",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "circle",
+      "dots",
+      "drag",
+      "drop",
+      "indicator",
+      "move",
+      "shape",
+      "shift"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "drive_eta",
     "do": "",
     "dont": "",
@@ -7756,6 +8037,37 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "dry",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "blow",
+      "towel",
+      "wipe"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "duo",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Duo",
+      "call",
+      "chat",
+      "conference",
+      "device",
+      "video"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -7780,6 +8092,52 @@
     "type": "static"
   },
   {
+    "name": "dynamic_feed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "dynamic",
+      "feed",
+      "multiple",
+      "post"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "dynamic_form",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "application",
+      "questionnaire",
+      "sheet",
+      "changing"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "eco",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "eco",
+      "economical",
+      "green",
+      "leaf",
+      "nature"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "edit",
     "do": "",
     "dont": "",
@@ -7791,6 +8149,21 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "edit_attributes",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "attribution",
+      "check",
+      "edit",
+      "change"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
@@ -7816,6 +8189,24 @@
     "type": "static"
   },
   {
+    "name": "edit_road",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "edit",
+      "location",
+      "pen",
+      "pencil",
+      "road",
+      "street",
+      "change"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "eject",
     "do": "",
     "dont": "",
@@ -7827,6 +8218,125 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "elderly",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "old",
+      "retired",
+      "aging"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "electric_bike",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "bike",
+      "car",
+      "cars",
+      "maps",
+      "scooter",
+      "transportation",
+      "vehicle",
+      "vespa"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "electric_car",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "car",
+      "cars",
+      "electric",
+      "electricity",
+      "maps",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "electric_moped",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "bike",
+      "car",
+      "cars",
+      "maps",
+      "scooter",
+      "transportation",
+      "vehicle",
+      "vespa"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "electric_scooter",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "bike",
+      "car",
+      "cars",
+      "maps",
+      "scooter",
+      "transportation",
+      "vehicle",
+      "vespa"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "electrical_services",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "charging",
+      "plug",
+      "electricity"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "elevator",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "lift"
+    ],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
@@ -7846,6 +8356,240 @@
     ],
     "category": [
       "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_emotions",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "emoji",
+      "emotions",
+      "expressions",
+      "face",
+      "feelings",
+      "glad",
+      "happiness",
+      "happy",
+      "like",
+      "mood",
+      "person",
+      "pleased",
+      "smile",
+      "smiling",
+      "social",
+      "survey"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_events",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "achievement",
+      "award",
+      "chalice",
+      "champion",
+      "cup",
+      "emoji",
+      "events",
+      "first",
+      "prize",
+      "reward",
+      "sport",
+      "trophy",
+      "winner"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_flags",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "country",
+      "destination",
+      "emoji",
+      "flags",
+      "landmark",
+      "location",
+      "mark",
+      "milepost",
+      "milestone",
+      "nation",
+      "place",
+      "pole",
+      "save",
+      "social",
+      "world"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_food_beverage",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "beverage",
+      "coffee",
+      "cup",
+      "drink",
+      "emoji",
+      "mug",
+      "plate",
+      "set",
+      "tea"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_nature",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "animal",
+      "bee",
+      "bug",
+      "daisy",
+      "emoji",
+      "flower",
+      "insect",
+      "ladybug",
+      "nature",
+      "petals",
+      "spring",
+      "summer"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_objects",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bulb",
+      "creative",
+      "emoji",
+      "idea",
+      "light",
+      "objects",
+      "solution",
+      "thinking"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_people",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arm",
+      "body",
+      "emoji",
+      "greeting",
+      "human",
+      "people",
+      "person",
+      "social",
+      "waving"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_symbols",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "ampersand",
+      "character",
+      "emoji",
+      "hieroglyph",
+      "music",
+      "note",
+      "percent",
+      "sign",
+      "symbols"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "emoji_transportation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "architecture",
+      "automobile",
+      "building",
+      "car",
+      "cars",
+      "direction",
+      "emoji",
+      "estate",
+      "maps",
+      "place",
+      "public",
+      "real",
+      "residence",
+      "residential",
+      "shelter",
+      "transportation",
+      "travel",
+      "vehicle"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "engineering",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "body",
+      "cogs",
+      "cogwheel",
+      "construction",
+      "engineering",
+      "fixing",
+      "gears",
+      "hat",
+      "helmet",
+      "human",
+      "maintenance",
+      "people",
+      "person",
+      "setting",
+      "worker"
+    ],
+    "category": [
+      "social"
     ],
     "type": "static"
   },
@@ -7926,6 +8670,59 @@
     ],
     "category": [
       "alert"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "escalator",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "moving stairway",
+      "moving staircase"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "escalator_warning",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "caution",
+      "staircase",
+      "stairway"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "euro",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bill",
+      "card",
+      "cash",
+      "coin",
+      "commerce",
+      "credit",
+      "currency",
+      "dollars",
+      "euro",
+      "euros",
+      "money",
+      "online",
+      "pay",
+      "payment",
+      "symbol"
+    ],
+    "category": [
+      "image"
     ],
     "type": "static"
   },
@@ -8109,6 +8906,29 @@
       "needle",
       "travel",
       "map"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "explore_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "compass",
+      "destination",
+      "disabled",
+      "enabled",
+      "explore",
+      "location",
+      "map",
+      "needle",
+      "off",
+      "on",
+      "slash",
+      "travel"
     ],
     "category": [
       "action"

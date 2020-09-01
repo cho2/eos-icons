@@ -1,0 +1,20 @@
+{
+  "name": "emoji_food_beverage",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "beverage",
+    "coffee",
+    "cup",
+    "drink",
+    "emoji",
+    "mug",
+    "plate",
+    "set",
+    "tea"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

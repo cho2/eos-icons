@@ -1,0 +1,22 @@
+{
+  "name": "deck",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "chairs",
+    "deck",
+    "home",
+    "house",
+    "outdoors",
+    "outside",
+    "patio",
+    "social",
+    "terrace",
+    "umbrella",
+    "yard"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "electrical_services",
+  "do": "",
+  "dont": "",
+  "tags": ["charging", "plug", "electricity"],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

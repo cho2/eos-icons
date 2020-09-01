@@ -1,0 +1,20 @@
+{
+  "name": "emoji_symbols",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "ampersand",
+    "character",
+    "emoji",
+    "hieroglyph",
+    "music",
+    "note",
+    "percent",
+    "sign",
+    "symbols"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

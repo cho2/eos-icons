@@ -1,0 +1,20 @@
+{
+  "name": "emoji_people",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arm",
+    "body",
+    "emoji",
+    "greeting",
+    "human",
+    "people",
+    "person",
+    "social",
+    "waving"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}
