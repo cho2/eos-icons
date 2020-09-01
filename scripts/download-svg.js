@@ -18,7 +18,7 @@ const inputForName = async () => {
         {
           type: 'input',
           name: 'name',
-          message: '✅  Enetr new SVG name: ',
+          message: '✅  Enter new SVG name: ',
           validate: function (input) {
             const done = this.async();
 
@@ -40,7 +40,7 @@ const downloadSvgFile = async (mdIcon) => {
   const mdSvg = webMdIconsData.icons.filter(icon => mdIcon === icon.name)
 
   if(svgCollection.includes(mdSvg[0].name)) {
-    console.log(`Found same name SVG in EOS icons : ${mdSvg[0].name}.svg` )
+    console.log(`An existing icon with the same name was found: ${mdSvg[0].name}.svg` )
     await inputForName().then(async response => {
       nameIcon = response.name
     }) 
