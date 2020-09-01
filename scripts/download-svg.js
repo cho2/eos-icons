@@ -1,56 +1,88 @@
 const fs = require('fs');
 const axios = require('axios')
+const inquirer = require('inquirer');
 const path = require('path')
 
-const downloadSvgFile = async (iconList) => { 
-  const webMdIconsData = JSON.parse(fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", ''))
-  const mdSvgCollection = webMdIconsData.icons.filter(icon => iconList.includes(icon.name))
+let nameIcon
+const eosIconsList = './svg';
+const mdIconsList = './svg/material';
 
-  const downloadFiles = async (mdSvgCollection) => {
-    for (const mdSvg of mdSvgCollection) {
-      let filePath = path.resolve(__dirname, `../svg/material/${mdSvg.name}.svg`)
-      let name = mdSvg.name + '.svg'
-      let url = `https://fonts.gstatic.com/s/i/materialicons/${mdSvg.name}/v${mdSvg.version}/24px.svg`
-      let file = fs.createWriteStream(filePath)
-      const response = await axios({
-        url,
-        method: 'GET',
-        responseType: 'stream'
-      })
-      response.data.pipe(file)
-    }
+const eosIcons = fs.readdirSync(eosIconsList).map(ele => ele.split('.')[0])
+const mdIcons = fs.readdirSync(mdIconsList).map(ele => ele.split('.')[0])
+const svgCollection = [...eosIcons, ...mdIcons]
+
+const inputForName = async () => {
+  try {
+    return inquirer
+      .prompt([
+        {
+          type: 'input',
+          name: 'name',
+          message: '✅  Enter the new icon name: ',
+          validate: function (input) {
+            const done = this.async();
+
+            if(svgCollection.includes(input)) {
+              done(`Already exists`);
+            } else {
+              done(null, true)
+            }
+          }
+        },
+      ])
+  } catch (error) {
+    console.log(error);
   }
-
-  downloadFiles(mdSvgCollection)
 }
 
-const createSvgModels = async (iconList) => {
-
+const downloadSvgFile = async (mdIcon) => {
   const webMdIconsData = JSON.parse(fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", ''))
-  const mdSvgModelCollection = webMdIconsData.icons.filter(icon => iconList.includes(icon.name))
-  
-  mdSvgModelCollection.forEach(icon => {
-    console.log(icon.name)
-    const newObject = {
-      "name": icon.name,
-      "do": "",
-      "dont": "",
-      "tags": icon.tags,
-      "category": icon.categories,
-      "type": "static"
-    }
+  const mdSvg = webMdIconsData.icons.filter(icon => mdIcon === icon.name)
 
-    fs.writeFileSync(`./models/material/${icon.name}.json`, JSON.stringify(newObject, null, 2), function (err) {
-      if (err) {
-        console.log(err)
-      }
-    });
+  if(svgCollection.includes(mdSvg[0].name)) {
+    console.log(`An existing icon with the same name was found: ${mdSvg[0].name}.svg` )
+    await inputForName().then(async response => {
+      nameIcon = response.name
+    })
+  } else {
+    nameIcon = mdSvg[0].name
+  }
+
+  const downloadFiles = async (mdSvg) => {
+    let filePath = path.resolve(__dirname, `../svg/material/${nameIcon}.svg`)
+    let url = `https://fonts.gstatic.com/s/i/materialicons/${mdSvg[0].name}/v${mdSvg[0].version}/24px.svg`
+    let file = fs.createWriteStream(filePath)
+
+    const response = await axios({
+      url,
+      method: 'GET',
+      responseType: 'stream'
+    })
+    response.data.pipe(file)
+  }
+
+  await downloadFiles(mdSvg).then(() => {
+      createSvgModels(mdSvg, nameIcon)
   })
 }
 
-module.exports = {
-  downloadSvgFile,
-  createSvgModels
+const createSvgModels = async (mdSvg, nameIcon) => {
+  const newObject = {
+    "name": nameIcon,
+    "do": "",
+    "dont": "",
+    "tags": mdSvg[0].tags,
+    "category": mdSvg[0].categories,
+    "type": "static"
+  }
+
+  fs.writeFileSync(`./models/material/${nameIcon}.json`, JSON.stringify(newObject, null, 2), function (err) {
+    if (err) {
+      console.log(err)
+    }
+  });
 }
 
-
+module.exports = {
+  downloadSvgFile
+}

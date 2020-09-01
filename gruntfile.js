@@ -15,10 +15,7 @@ module.exports = function (grunt) {
     eosMdIconsDifferences,
     downloadFile,
   } = require('./scripts/eos-md-icons-log-differences');
-  const {
-    downloadSvgFile,
-    createSvgModels,
-  } = require('./scripts/download-svg');
+  const { downloadSvgFile } = require('./scripts/download-svg');
 
   //Append path to your svg below
   //EOS-set and MD svg path
@@ -189,60 +186,14 @@ module.exports = function (grunt) {
   /* Download MD svgs and create models */
   grunt.registerTask('downloadMdSvgFile', async function () {
     const done = this.async();
-    /* Add icons list here */
-    const iconList = [
-      'deck',
-      'delete_outline',
-      'departure_board',
-      'design_services',
-      'desktop_access_disabled',
-      'device_unknown',
-      'directions_off',
-      'disabled_by_default',
-      'dns',
-      'do_not_step',
-      'do_not_touch',
-      'domain_disabled',
-      'domain_verification',
-      'done_outline',
-      'double_arrow',
-      'drag_indicator',
-      'dry',
-      'duo',
-      'dynamic_feed',
-      'dynamic_form',
-      'east',
-      'eco',
-      'edit_attributes',
-      'edit_road',
-      'elderly',
-      'electric_bike',
-      'electric_car',
-      'electric_moped',
-      'electric_scooter',
-      'electrical_services',
-      'elevator',
-      'emoji_emotions',
-      'emoji_events',
-      'emoji_flags',
-      'emoji_food_beverage',
-      'emoji_nature',
-      'emoji_objects',
-      'emoji_people',
-      'emoji_symbols',
-      'emoji_transportation',
-      'engineering',
-      'escalator',
-      'escalator_warning',
-      'euro',
-      'expand_less',
-      'expand_more',
-      'explore_off',
-    ];
 
-    await downloadSvgFile(iconList).then(() => {
-      createSvgModels(iconList);
-    });
+    /* Add icons list here */
+    const iconList = []
+
+    for await (const icon of iconList) {
+      await downloadSvgFile(icon).then();
+    }
+
   });
 
   /* Checks for each models to make sure it has all the properties we expect. */
