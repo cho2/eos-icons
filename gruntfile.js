@@ -15,10 +15,7 @@ module.exports = function (grunt) {
     eosMdIconsDifferences,
     downloadFile,
   } = require('./scripts/eos-md-icons-log-differences');
-  const {
-    downloadSvgFile,
-    createSvgModels,
-  } = require('./scripts/download-svg');
+  const { downloadSvgFile } = require('./scripts/download-svg');
 
   //Append path to your svg below
   //EOS-set and MD svg path
@@ -189,44 +186,15 @@ module.exports = function (grunt) {
   /* Download MD svgs and create models */
   grunt.registerTask('downloadMdSvgFile', async function () {
     const done = this.async();
+    
     /* Add icons list here */
     const iconList = [
-      'calculate',
-      'calendar_today',
-      'calendar_view_day',
-      'campaign',
-      'cancel_presentation',
-      'cancel_schedule_send',
-      'carpenter',
-      'cast_for_education',
-      'category',
-      'charging_station',
-      'check_circle_outline',
-      'checkroom',
-      'chevron_left',
-      'chevron_right',
-      'clean_hands',
-      'cleaning_services',
-      'clear',
-      'close_fullscreen',
-      'closed_caption_disabled',
-      'comment_bank',
-      'commute',
-      'compass_calibration',
-      'connect_without_contact',
-      'construction',
-      'contact_page',
-      'contact_support',
-      'contactless',
-      'control_camera',
-      'coronavirus',
-      'corporate_fare',
-      'countertops',
-    ];
+   'api']
 
-    await downloadSvgFile(iconList).then(() => {
-      createSvgModels(iconList);
-    });
+    for await (const icon of iconList) {
+      await downloadSvgFile(icon).then();
+    }
+    
   });
 
   /* Checks for each models to make sure it has all the properties we expect. */
