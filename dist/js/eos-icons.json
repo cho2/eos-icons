@@ -347,6 +347,18 @@
     "type": "static"
   },
   {
+    "name": "compass",
+    "do": "<ul><li>Use it to indicate navigation or orientation.</li></ul>",
+    "dont": "<ul><li>N/a</li></ul>",
+    "tags": [
+      "navigation",
+      "orientation",
+      "map"
+    ],
+    "category": "maps",
+    "type": "animated"
+  },
+  {
     "name": "config_map",
     "do": "<ul><li>Use it for configuration map</li></ul>",
     "dont": "<ul><li>Use it for configuration file.</li></ul>",
@@ -725,6 +737,19 @@
     ],
     "category": "development",
     "type": "static"
+  },
+  {
+    "name": "hourglass",
+    "do": "<ul><li>Use it to indicate a process that is awaiting a response or action.</li></ul>",
+    "dont": "<ul><li>Don't use it for loading as this icon may frustrate users who need the page to load quickly.</li></ul>",
+    "tags": [
+      "wait",
+      "time",
+      "sand",
+      "clock"
+    ],
+    "category": "action",
+    "type": "animated"
   },
   {
     "name": "inbound",
@@ -1749,6 +1774,17 @@
     "type": "static"
   },
   {
+    "name": "three_dots_loading",
+    "do": "<ul><li>Use it for loading</li></ul>",
+    "dont": "<ul><li>n/a</li></ul>",
+    "tags": [
+      "loading",
+      "dots"
+    ],
+    "category": "action",
+    "type": "animated"
+  },
+  {
     "name": "timeout",
     "do": "<ul><li>When there is a server-side timeout.</li><li>When the time to performn an operation has passed.</li></ul>",
     "dont": "<ul><li>To represent any kind of timing.</li></ul>",
@@ -1785,6 +1821,22 @@
     ],
     "category": "services",
     "type": "static"
+  },
+  {
+    "name": "typing",
+    "do": "<ul><li>Use it to indicate that a user of any role is typing.</li></ul>",
+    "dont": "<ul><li>n/a</li></ul>",
+    "tags": [
+      "comment",
+      "typing",
+      "writing",
+      "message",
+      "msg",
+      "chat",
+      "conversation"
+    ],
+    "category": "communication",
+    "type": "animated"
   },
   {
     "name": "virtual_guest",
