@@ -14,7 +14,8 @@ const downloadFile = async () => {
 }
 
 const eosMdIconsDifferences = async params => {
-  const { targetDirMd } = params
+  const { targetDirMd, icons } = params
+  
   try {
     const mdIcons = await fs.readdirSync(targetDirMd, (err, filenames) => filenames).map(ele => ele.replace(/\.[^/.]+$/, ""))
     const webMdIconsData = JSON.parse(fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", ''))
@@ -22,9 +23,10 @@ const eosMdIconsDifferences = async params => {
 
     const missingIconsInEos = iconsDifferences(webMdIconsCollection, mdIcons)
     const missingIconsInMD = iconsDifferences(mdIcons, webMdIconsCollection)
+    const allMissingIconsInEos = iconsDifferences(missingIconsInEos, icons)
 
-    console.log(`======= ${missingIconsInEos.length} New icons MD has that EOS doesn't =======`)
-    console.dir(missingIconsInEos, { 'maxArrayLength': null })
+    console.log(`======= ${allMissingIconsInEos.length} New icons MD has that EOS doesn't =======`)
+    console.dir(allMissingIconsInEos, { 'maxArrayLength': null })
     console.log(`======= ${missingIconsInMD.length} Old Md icons they have removed and EOS still has =======`)
     console.dir(missingIconsInMD, { 'maxArrayLength': null })
   } catch (error) {
@@ -34,6 +36,7 @@ const eosMdIconsDifferences = async params => {
 }
 
 const iconsDifferences = (array1, array2) => array1.filter(val => !array2.includes(val));
+
 module.exports = {
   eosMdIconsDifferences,
   downloadFile

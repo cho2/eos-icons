@@ -9,18 +9,17 @@ module.exports = function (grunt) {
   const { checkSvgName, renameSvgTo } = require('./scripts/svg-checker');
   const { duplicatedIcons } = require('./scripts/duplicated_icons');
   const {
-    duplicatedIconsModels,
-  } = require('./scripts/duplicated_icons_models');
-  const {
     eosMdIconsDifferences,
     downloadFile,
   } = require('./scripts/eos-md-icons-log-differences');
-  const { downloadSvgFile } = require('./scripts/download-svg');
+  const {
+    downloadSvgFile,
+    createSvgModels,
+  } = require('./scripts/download-svg');
 
   //Append path to your svg below
   //EOS-set and MD svg path
   const src_eos_set = ['svg/*.svg', 'svg/material/*.svg'];
-
   grunt.initConfig({
     webfont: {
       icons: {
@@ -82,12 +81,12 @@ module.exports = function (grunt) {
       icons: {
         expand: true,
         cwd: './svg/material/',
-        src: duplicatedIcons,
+        src: duplicatedIcons.map(ele => `${ele}.svg`),
       },
       models: {
         expand: true,
         cwd: './models/material/',
-        src: duplicatedIconsModels,
+        src: duplicatedIcons.map(ele => `${ele}.json`),
       },
       dist: {
         src: './dist/',
@@ -179,21 +178,21 @@ module.exports = function (grunt) {
   grunt.registerTask('eosMdIconsDifferencesLog', async function () {
     const done = this.async();
     await downloadFile().then(() => {
-      eosMdIconsDifferences({ targetDirMd: './svg/material' });
+      eosMdIconsDifferences({ targetDirMd: './svg/material', icons: duplicatedIcons });
     });
   });
 
   /* Download MD svgs and create models */
   grunt.registerTask('downloadMdSvgFile', async function () {
     const done = this.async();
-
+    
     /* Add icons list here */
     const iconList = []
 
     for await (const icon of iconList) {
       await downloadSvgFile(icon).then();
     }
-
+    
   });
 
   /* Checks for each models to make sure it has all the properties we expect. */
