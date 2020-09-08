@@ -201,9 +201,9 @@ module.exports = function (grunt) {
     return checkModelKeys().then((result) => {
       result.length
         ? console.log(
-            `⚠️  Error: model proprieties missing for # ${result.map(
-              (ele) => ele.fileName
-            )} #. Please make sure it has: name, do, dont, tags, category and type`
+            `🚫 The following errors need fixing: \n\n  ${result.map(
+              (ele) => ele
+            )}`
           )
         : done();
     });
@@ -223,7 +223,7 @@ module.exports = function (grunt) {
         if (eosIconsNew.length) {
           for await (icon of eosIconsNew) {
             console.log(
-              `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
+              `⚠️  ${icon}.svg is not matching our naming convention, please rename it below:`
             );
             await renameSvgTo(icon, eosDir);
           }
@@ -233,7 +233,7 @@ module.exports = function (grunt) {
         if (mdIconsMdNew.length) {
           for await (icon of mdIconsMdNew) {
             console.log(
-              `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
+              `⚠️  ${icon}.svg is not matching our naming convention, please rename it below:`
             );
             await renameSvgTo(icon, mdDir).then(done);
           }

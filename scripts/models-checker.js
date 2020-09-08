@@ -92,44 +92,39 @@ const checkModelKeys = async () => {
   const modelsAll = [...modelsEos, ...modelsMd];
   let errors = [];
 
-  modelsAll
-    .map((model) => {
-      /* Make sure that the filename is eql to the models name */
-      if (model.name !== model.fileName.split('.json')[0]) {
-        errors.push(
-          `⚠️  ${
-            model.fileName
-          } file name does not match models name property. Found: ${
-            model.name
-          } instead of ${model.fileName.split('.json')[0]}`
-        );
-      }
+  modelsAll.forEach((model) => {
+    /* Make sure that the filename is eql to the models name */
+    if (model.name !== model.fileName.split('.json')[0]) {
+      errors.push(
+        `\n⛔️  ${
+          model.fileName
+        } file name does not match models name property. Found: ${
+          model.name
+        } instead of ${model.fileName.split('.json')[0]}`
+      );
+    }
 
-      /* Make sure there are tags in all models */
-      if (model.tags.length < 1) {
-        errors.push(`⚠️ Tags missing in: ${model.fileName}.`);
-      }
+    /* Make sure there are tags in all models */
+    if (model.tags.length < 1) {
+      errors.push(`\n⛔️ Tags missing in: ${model.fileName}.`);
+    }
 
-      return checkForKeys(Object.keys(model)) ? undefined : model;
-    })
-    .filter((item) => item !== undefined);
+    /* If a key is missing, add the error to the array */
+    if (!checkForKeys(Object.keys(model))) {
+      errors.push(
+        `\n⛔️ Properties missing in: ${model.fileName}. Make sure it has: name, do, dont, tags, category, and type`
+      );
+    }
+  });
 
-  if (errors.length > 0) {
-    console.error(`The following errors need fixing: \n\n`, errors);
-    return process.exit(1);
-  } else {
-    return;
-  }
+  return errors;
 };
 
 /* Checks an object to see if it matches the given keys in the array */
 const checkForKeys = (model) => {
-  console.log(
-    ['name', 'do', 'dont', 'tags', 'category', 'type'].every((key) =>
-      model.includes(key)
-    )
+  return ['name', 'do', 'dont', 'tags', 'category', 'type'].every((key) =>
+    model.includes(key)
   );
-  return;
 };
 
 module.exports = {
