@@ -12,10 +12,7 @@ module.exports = function (grunt) {
     eosMdIconsDifferences,
     downloadFile,
   } = require('./scripts/eos-md-icons-log-differences');
-  const {
-    downloadSvgFile,
-    createSvgModels,
-  } = require('./scripts/download-svg');
+  const { downloadSvgFile } = require('./scripts/download-svg');
 
   //Append path to your svg below
   //EOS-set and MD svg path
@@ -81,12 +78,12 @@ module.exports = function (grunt) {
       icons: {
         expand: true,
         cwd: './svg/material/',
-        src: duplicatedIcons.map(ele => `${ele}.svg`),
+        src: duplicatedIcons.map((ele) => `${ele}.svg`),
       },
       models: {
         expand: true,
         cwd: './models/material/',
-        src: duplicatedIcons.map(ele => `${ele}.json`),
+        src: duplicatedIcons.map((ele) => `${ele}.json`),
       },
       dist: {
         src: './dist/',
@@ -178,25 +175,27 @@ module.exports = function (grunt) {
   grunt.registerTask('eosMdIconsDifferencesLog', async function () {
     const done = this.async();
     await downloadFile().then(() => {
-      eosMdIconsDifferences({ targetDirMd: './svg/material', icons: duplicatedIcons });
+      eosMdIconsDifferences({
+        targetDirMd: './svg/material',
+        icons: duplicatedIcons,
+      });
     });
   });
 
   /* Download MD svgs and create models */
   grunt.registerTask('downloadMdSvgFile', async function () {
     const done = this.async();
-    
+
     /* Add icons list here */
-    const iconList = []
+    const iconList = [];
 
     for await (const icon of iconList) {
       await downloadSvgFile(icon).then();
     }
-    
   });
 
   /* Checks for each models to make sure it has all the properties we expect. */
-  grunt.registerTask('checkModelsKeys', async function () {
+  grunt.registerTask('checkModelKeysTask', async function () {
     const done = this.async();
 
     return checkModelKeys().then((result) => {
@@ -268,7 +267,7 @@ module.exports = function (grunt) {
   grunt.registerTask('test', [
     'findDuplicates',
     'checkNameConvention',
-    'checkModelsKeys',
+    'checkModelKeysTask',
     'checkMissingModelandSVG',
   ]);
   grunt.registerTask('default', ['test', 'build']);
