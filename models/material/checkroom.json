@@ -2,9 +2,7 @@
   "name": "checkroom",
   "do": "",
   "dont": "",
-  "tags": [],
-  "category": [
-    "places"
-  ],
+  "tags": ["hanger", "changeroom", "changing room"],
+  "category": ["places"],
   "type": "static"
 }

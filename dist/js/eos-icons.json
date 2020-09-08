@@ -5680,7 +5680,11 @@
     "name": "carpenter",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "woodworker",
+      "wood",
+      "saw"
+    ],
     "category": [
       "places"
     ],
@@ -5844,7 +5848,11 @@
     "name": "charging_station",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "charge",
+      "electricity",
+      "power"
+    ],
     "category": [
       "places"
     ],
@@ -5988,7 +5996,11 @@
     "name": "checkroom",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "hanger",
+      "changeroom",
+      "changing room"
+    ],
     "category": [
       "places"
     ],
@@ -6062,7 +6074,12 @@
     "name": "clean_hands",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "sanitizer",
+      "cleaner",
+      "soap",
+      "wash hands"
+    ],
     "category": [
       "social"
     ],
@@ -6072,7 +6089,10 @@
     "name": "cleaning_services",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "broom",
+      "mop"
+    ],
     "category": [
       "maps"
     ],
@@ -6113,7 +6133,9 @@
     "name": "close_fullscreen",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "minimize"
+    ],
     "category": [
       "action"
     ],
@@ -6149,7 +6171,11 @@
     "name": "closed_caption_disabled",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "subs",
+      "subtitles",
+      "off"
+    ],
     "category": [
       "av"
     ],
@@ -6520,7 +6546,9 @@
     "name": "connect_without_contact",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "contactless"
+    ],
     "category": [
       "social"
     ],
@@ -6575,7 +6603,11 @@
     "name": "contact_page",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "approach",
+      "connect",
+      "reach"
+    ],
     "category": [
       "action"
     ],
@@ -6790,7 +6822,10 @@
     "name": "coronavirus",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "microorganism",
+      "germ"
+    ],
     "category": [
       "social"
     ],
@@ -6800,7 +6835,11 @@
     "name": "corporate_fare",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "price",
+      "tariff",
+      "ticket"
+    ],
     "category": [
       "places"
     ],
@@ -6810,7 +6849,10 @@
     "name": "countertops",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "surface",
+      "worktable"
+    ],
     "category": [
       "places"
     ],
