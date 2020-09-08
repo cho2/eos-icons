@@ -124,9 +124,12 @@ const checkModelKeys = async () => {
 
 /* Checks an object to see if it matches the given keys in the array */
 const checkForKeys = (model) => {
-  return ['name', 'do', 'dont', 'tags', 'category', 'type'].every((key) =>
-    model.includes(key)
+  console.log(
+    ['name', 'do', 'dont', 'tags', 'category', 'type'].every((key) =>
+      model.includes(key)
+    )
   );
+  return;
 };
 
 module.exports = {
