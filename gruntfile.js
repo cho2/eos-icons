@@ -9,9 +9,6 @@ module.exports = function (grunt) {
   const { checkSvgName, renameSvgTo } = require('./scripts/svg-checker');
   const { duplicatedIcons } = require('./scripts/duplicated_icons');
   const {
-    duplicatedIconsModels,
-  } = require('./scripts/duplicated_icons_models');
-  const {
     eosMdIconsDifferences,
     downloadFile,
   } = require('./scripts/eos-md-icons-log-differences');
@@ -20,7 +17,6 @@ module.exports = function (grunt) {
   //Append path to your svg below
   //EOS-set and MD svg path
   const src_eos_set = ['svg/*.svg', 'svg/material/*.svg'];
-
   grunt.initConfig({
     webfont: {
       icons: {
@@ -82,12 +78,12 @@ module.exports = function (grunt) {
       icons: {
         expand: true,
         cwd: './svg/material/',
-        src: duplicatedIcons,
+        src: duplicatedIcons.map((ele) => `${ele}.svg`),
       },
       models: {
         expand: true,
         cwd: './models/material/',
-        src: duplicatedIconsModels,
+        src: duplicatedIcons.map((ele) => `${ele}.json`),
       },
       dist: {
         src: './dist/',
@@ -179,7 +175,10 @@ module.exports = function (grunt) {
   grunt.registerTask('eosMdIconsDifferencesLog', async function () {
     const done = this.async();
     await downloadFile().then(() => {
-      eosMdIconsDifferences({ targetDirMd: './svg/material' });
+      eosMdIconsDifferences({
+        targetDirMd: './svg/material',
+        icons: duplicatedIcons,
+      });
     });
   });
 
@@ -188,24 +187,23 @@ module.exports = function (grunt) {
     const done = this.async();
 
     /* Add icons list here */
-    const iconList = []
+    const iconList = [];
 
     for await (const icon of iconList) {
       await downloadSvgFile(icon).then();
     }
-
   });
 
   /* Checks for each models to make sure it has all the properties we expect. */
-  grunt.registerTask('checkModelsKeys', async function () {
+  grunt.registerTask('checkModelKeysTask', async function () {
     const done = this.async();
 
     return checkModelKeys().then((result) => {
       result.length
         ? console.log(
-            `⚠️  Error: model proprieties missing for # ${result.map(
-              (ele) => ele.fileName
-            )} #. Please make sure it has: name, do, dont, tags, category and type`
+            `🚫 The following errors need fixing: \n\n  ${result.map(
+              (ele) => ele
+            )}`
           )
         : done();
     });
@@ -225,7 +223,7 @@ module.exports = function (grunt) {
         if (eosIconsNew.length) {
           for await (icon of eosIconsNew) {
             console.log(
-              `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
+              `⚠️  ${icon}.svg is not matching our naming convention, please rename it below:`
             );
             await renameSvgTo(icon, eosDir);
           }
@@ -235,7 +233,7 @@ module.exports = function (grunt) {
         if (mdIconsMdNew.length) {
           for await (icon of mdIconsMdNew) {
             console.log(
-              `⚠️  ${icon}.svg is not matching our naming convetion, please rename it below:`
+              `⚠️  ${icon}.svg is not matching our naming convention, please rename it below:`
             );
             await renameSvgTo(icon, mdDir).then(done);
           }
@@ -269,7 +267,7 @@ module.exports = function (grunt) {
   grunt.registerTask('test', [
     'findDuplicates',
     'checkNameConvention',
-    'checkModelsKeys',
+    'checkModelKeysTask',
     'checkMissingModelandSVG',
   ]);
   grunt.registerTask('default', ['test', 'build']);

@@ -2,9 +2,7 @@
   "name": "closed_caption_disabled",
   "do": "",
   "dont": "",
-  "tags": [],
-  "category": [
-    "av"
-  ],
+  "tags": ["subs", "subtitles", "off"],
+  "category": ["av"],
   "type": "static"
 }
