@@ -778,6 +778,19 @@
     "type": "static"
   },
   {
+    "name": "init_container",
+    "do": "<ul><li>Use it to initialize a container by providing some configuration.</li></ul>",
+    "dont": "<ul><li>n/a</li></ul>",
+    "tags": [
+      "kubernetes",
+      "docker",
+      "setup",
+      "deploy"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "installing",
     "do": "<ul><li>The user is waiting for an installation process to finalize.</li></ul>",
     "dont": "<ul><li>As feedback for refreshing, reloading or syncing data.</li></ul>",
@@ -1514,6 +1527,21 @@
       "researcher",
       "lab",
       "science"
+    ],
+    "category": "roles",
+    "type": "static"
+  },
+  {
+    "name": "secret",
+    "do": "<ul><li>Use it in processes where privacy is fully preserved. </li></ul>",
+    "dont": "<ul><li>Don't use it for user role.</li></ul>",
+    "tags": [
+      "privacy",
+      "confidential",
+      "classified",
+      "anonymous",
+      "incognito",
+      "private"
     ],
     "category": "roles",
     "type": "static"
@@ -5680,7 +5708,11 @@
     "name": "carpenter",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "woodworker",
+      "wood",
+      "saw"
+    ],
     "category": [
       "places"
     ],
@@ -5844,7 +5876,11 @@
     "name": "charging_station",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "charge",
+      "electricity",
+      "power"
+    ],
     "category": [
       "places"
     ],
@@ -5988,7 +6024,11 @@
     "name": "checkroom",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "hanger",
+      "changeroom",
+      "changing room"
+    ],
     "category": [
       "places"
     ],
@@ -6062,7 +6102,12 @@
     "name": "clean_hands",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "sanitizer",
+      "cleaner",
+      "soap",
+      "wash hands"
+    ],
     "category": [
       "social"
     ],
@@ -6072,7 +6117,10 @@
     "name": "cleaning_services",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "broom",
+      "mop"
+    ],
     "category": [
       "maps"
     ],
@@ -6113,7 +6161,9 @@
     "name": "close_fullscreen",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "minimize"
+    ],
     "category": [
       "action"
     ],
@@ -6149,7 +6199,11 @@
     "name": "closed_caption_disabled",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "subs",
+      "subtitles",
+      "off"
+    ],
     "category": [
       "av"
     ],
@@ -6520,7 +6574,9 @@
     "name": "connect_without_contact",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "contactless"
+    ],
     "category": [
       "social"
     ],
@@ -6575,7 +6631,11 @@
     "name": "contact_page",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "approach",
+      "connect",
+      "reach"
+    ],
     "category": [
       "action"
     ],
@@ -6790,7 +6850,10 @@
     "name": "coronavirus",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "microorganism",
+      "germ"
+    ],
     "category": [
       "social"
     ],
@@ -6800,7 +6863,11 @@
     "name": "corporate_fare",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "price",
+      "tariff",
+      "ticket"
+    ],
     "category": [
       "places"
     ],
@@ -6810,7 +6877,10 @@
     "name": "countertops",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "surface",
+      "worktable"
+    ],
     "category": [
       "places"
     ],

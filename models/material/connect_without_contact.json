@@ -2,9 +2,7 @@
   "name": "connect_without_contact",
   "do": "",
   "dont": "",
-  "tags": [],
-  "category": [
-    "social"
-  ],
+  "tags": ["contactless"],
+  "category": ["social"],
   "type": "static"
 }
