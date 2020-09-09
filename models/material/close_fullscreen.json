@@ -2,9 +2,7 @@
   "name": "close_fullscreen",
   "do": "",
   "dont": "",
-  "tags": [],
-  "category": [
-    "action"
-  ],
+  "tags": ["minimize"],
+  "category": ["action"],
   "type": "static"
 }

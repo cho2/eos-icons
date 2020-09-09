@@ -2,9 +2,7 @@
   "name": "clean_hands",
   "do": "",
   "dont": "",
-  "tags": [],
-  "category": [
-    "social"
-  ],
+  "tags": ["sanitizer", "cleaner", "soap", "wash hands"],
+  "category": ["social"],
   "type": "static"
 }

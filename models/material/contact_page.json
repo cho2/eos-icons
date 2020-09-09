@@ -2,9 +2,7 @@
   "name": "contact_page",
   "do": "",
   "dont": "",
-  "tags": [],
-  "category": [
-    "action"
-  ],
+  "tags": ["approach", "connect", "reach"],
+  "category": ["action"],
   "type": "static"
 }
