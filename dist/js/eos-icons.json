@@ -778,6 +778,19 @@
     "type": "static"
   },
   {
+    "name": "init_container",
+    "do": "<ul><li>Use it to initialize a container by providing some configuration.</li></ul>",
+    "dont": "<ul><li>n/a</li></ul>",
+    "tags": [
+      "kubernetes",
+      "docker",
+      "setup",
+      "deploy"
+    ],
+    "category": "virtualization",
+    "type": "static"
+  },
+  {
     "name": "installing",
     "do": "<ul><li>The user is waiting for an installation process to finalize.</li></ul>",
     "dont": "<ul><li>As feedback for refreshing, reloading or syncing data.</li></ul>",
