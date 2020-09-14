@@ -1,4 +1,5 @@
 const duplicatedIcons = [
+  'facebook', // This icon is not a duplicate, but a logo icon that goes against EOS icons rules of NO LOGOS included in the set.
   'battery_20',
   'battery_30',
   'battery_50',
@@ -56,7 +57,7 @@ const duplicatedIcons = [
   'local_airport',
   'flight',
   'photo_camera',
-  'east',
+  'east'
 ]
 
 module.exports = {
