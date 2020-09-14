@@ -1,0 +1,15 @@
+{
+  "name": "filter_alt",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "filter",
+    "funnel",
+    "refine",
+    "sift"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

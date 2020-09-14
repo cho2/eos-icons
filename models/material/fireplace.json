@@ -1,0 +1,23 @@
+{
+  "name": "fireplace",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "chimney",
+    "fire",
+    "fireplace",
+    "flame",
+    "home",
+    "house",
+    "living",
+    "pit",
+    "place",
+    "room",
+    "warm",
+    "winter"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "format_list_numbered_rtl",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "align",
+    "alignment",
+    "digit",
+    "doc",
+    "edit",
+    "editing",
+    "editor",
+    "list",
+    "number",
+    "rtl",
+    "sheet",
+    "spreadsheet",
+    "symbol",
+    "text",
+    "type",
+    "writing"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

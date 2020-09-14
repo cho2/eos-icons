@@ -9209,6 +9209,36 @@
     "type": "static"
   },
   {
+    "name": "fact_check",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "list",
+      "verify",
+      "inspect",
+      "scrutinize",
+      "survey"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "family_restroom",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wc",
+      "toilet",
+      "washroom"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "fast_forward",
     "do": "",
     "dont": "",
@@ -9241,6 +9271,22 @@
     ],
     "category": [
       "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fastfood",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "drink",
+      "fastfood",
+      "food",
+      "hamburger",
+      "meal"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
@@ -9331,6 +9377,19 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fence",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rail",
+      "net"
+    ],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
@@ -9433,6 +9492,26 @@
     ],
     "category": [
       "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "file_copy",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "content",
+      "copy",
+      "cut",
+      "doc",
+      "document",
+      "duplicate",
+      "file",
+      "multiple",
+      "past"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },
@@ -9636,6 +9715,21 @@
     ],
     "category": [
       "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "filter_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "filter",
+      "funnel",
+      "refine",
+      "sift"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -9852,6 +9946,41 @@
     "type": "static"
   },
   {
+    "name": "fire_extinguisher",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "extinguish"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "fireplace",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chimney",
+      "fire",
+      "fireplace",
+      "flame",
+      "home",
+      "house",
+      "living",
+      "pit",
+      "place",
+      "room",
+      "warm",
+      "winter"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
     "name": "first_page",
     "do": "",
     "dont": "",
@@ -9898,6 +10027,20 @@
     ],
     "category": [
       "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "flaky",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cracking",
+      "yes no",
+      "on off"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -10034,6 +10177,48 @@
     "type": "static"
   },
   {
+    "name": "flip_camera_android",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "android",
+      "camera",
+      "edit",
+      "editing",
+      "flip",
+      "image",
+      "mobile",
+      "orientation",
+      "rotate",
+      "turn"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "flip_camera_ios",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "android",
+      "camera",
+      "edit",
+      "editing",
+      "flip",
+      "image",
+      "mobile",
+      "orientation",
+      "rotate",
+      "turn"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
     "name": "flip_to_back",
     "do": "",
     "dont": "",
@@ -10135,6 +10320,19 @@
     "type": "static"
   },
   {
+    "name": "follow_the_signs",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "directions"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
     "name": "font_download",
     "do": "",
     "dont": "",
@@ -10153,6 +10351,19 @@
     ],
     "category": [
       "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "food_bank",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "hunger",
+      "charity"
+    ],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
@@ -10524,6 +10735,33 @@
     "type": "static"
   },
   {
+    "name": "format_list_numbered_rtl",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "align",
+      "alignment",
+      "digit",
+      "doc",
+      "edit",
+      "editing",
+      "editor",
+      "list",
+      "number",
+      "rtl",
+      "sheet",
+      "spreadsheet",
+      "symbol",
+      "text",
+      "type",
+      "writing"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
     "name": "format_paint",
     "do": "",
     "dont": "",
@@ -10834,6 +11072,35 @@
     ],
     "category": [
       "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "forward_to_inbox",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "email",
+      "send to"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "foundation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "structure",
+      "understructure",
+      "basis",
+      "base",
+      "premise"
+    ],
+    "category": [
+      "places"
     ],
     "type": "static"
   },

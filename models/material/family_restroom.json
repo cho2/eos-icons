@@ -1,0 +1,8 @@
+{
+  "name": "family_restroom",
+  "do": "",
+  "dont": "",
+  "tags": ["wc", "toilet", "washroom"],
+  "category": ["places"],
+  "type": "static"
+}

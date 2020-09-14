@@ -1,0 +1,20 @@
+{
+  "name": "file_copy",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "content",
+    "copy",
+    "cut",
+    "doc",
+    "document",
+    "duplicate",
+    "file",
+    "multiple",
+    "past"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}
