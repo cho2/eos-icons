@@ -1,0 +1,18 @@
+{
+  "name": "grading",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "approved",
+    "document",
+    "feedback",
+    "grade",
+    "grading",
+    "review",
+    "reviewed"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}
