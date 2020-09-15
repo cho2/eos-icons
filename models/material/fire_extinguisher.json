@@ -1,0 +1,8 @@
+{
+  "name": "fire_extinguisher",
+  "do": "",
+  "dont": "",
+  "tags": ["extinguish"],
+  "category": ["places"],
+  "type": "static"
+}

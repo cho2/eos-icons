@@ -1,0 +1,21 @@
+{
+  "name": "flip_camera_android",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "android",
+    "camera",
+    "edit",
+    "editing",
+    "flip",
+    "image",
+    "mobile",
+    "orientation",
+    "rotate",
+    "turn"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

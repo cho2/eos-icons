@@ -1,0 +1,8 @@
+{
+  "name": "flaky",
+  "do": "",
+  "dont": "",
+  "tags": ["cracking", "yes no", "on off"],
+  "category": ["action"],
+  "type": "static"
+}

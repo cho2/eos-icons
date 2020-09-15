@@ -1,0 +1,8 @@
+{
+  "name": "fence",
+  "do": "",
+  "dont": "",
+  "tags": ["rail", "net"],
+  "category": ["places"],
+  "type": "static"
+}
