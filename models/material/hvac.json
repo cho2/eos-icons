@@ -2,9 +2,7 @@
   "name": "hvac",
   "do": "",
   "dont": "",
-  "tags": [],
-  "category": [
-    "maps"
-  ],
+  "tags": ["Heating", "Ventilation", "Air Conditioning", "fan", "ac"],
+  "category": ["maps"],
   "type": "static"
 }

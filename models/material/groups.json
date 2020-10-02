@@ -2,9 +2,7 @@
   "name": "groups",
   "do": "",
   "dont": "",
-  "tags": [],
-  "category": [
-    "social"
-  ],
+  "tags": ["team", "people", "users"],
+  "category": ["social"],
   "type": "static"
 }

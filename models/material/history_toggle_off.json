@@ -2,9 +2,7 @@
   "name": "history_toggle_off",
   "do": "",
   "dont": "",
-  "tags": [],
-  "category": [
-    "action"
-  ],
+  "tags": ["disabled", "log", "story", "document"],
+  "category": ["action"],
   "type": "static"
 }

@@ -2,9 +2,7 @@
   "name": "grass",
   "do": "",
   "dont": "",
-  "tags": [],
-  "category": [
-    "places"
-  ],
+  "tags": ["green", "turf", "lawn", "greenery"],
+  "category": ["places"],
   "type": "static"
 }

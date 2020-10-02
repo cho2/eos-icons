@@ -2,9 +2,7 @@
   "name": "hearing_disabled",
   "do": "",
   "dont": "",
-  "tags": [],
-  "category": [
-    "av"
-  ],
+  "tags": ["audition", "ear", "off"],
+  "category": ["av"],
   "type": "static"
 }

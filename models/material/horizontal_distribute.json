@@ -2,9 +2,7 @@
   "name": "horizontal_distribute",
   "do": "",
   "dont": "",
-  "tags": [],
-  "category": [
-    "editor"
-  ],
+  "tags": ["spread", "allot", "allocate"],
+  "category": ["editor"],
   "type": "static"
 }

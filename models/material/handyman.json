@@ -2,9 +2,7 @@
   "name": "handyman",
   "do": "",
   "dont": "",
-  "tags": [],
-  "category": [
-    "maps"
-  ],
+  "tags": ["helper", "man-of-all-work"],
+  "category": ["maps"],
   "type": "static"
 }
