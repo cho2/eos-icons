@@ -1,0 +1,24 @@
+{
+  "name": "insert_chart_outlined",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "analytics",
+    "bar",
+    "bars",
+    "chart",
+    "data",
+    "diagram",
+    "graph",
+    "infographic",
+    "measure",
+    "metrics",
+    "statistics",
+    "tracking"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

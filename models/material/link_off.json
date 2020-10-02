@@ -1,0 +1,24 @@
+{
+  "name": "link_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "chain",
+    "clip",
+    "connection",
+    "disabled",
+    "enabled",
+    "link",
+    "linked",
+    "links",
+    "multimedia",
+    "off",
+    "on",
+    "slash",
+    "url"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}
