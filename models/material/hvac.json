@@ -1,0 +1,8 @@
+{
+  "name": "hvac",
+  "do": "",
+  "dont": "",
+  "tags": ["Heating", "Ventilation", "Air Conditioning", "fan", "ac"],
+  "category": ["maps"],
+  "type": "static"
+}

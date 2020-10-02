@@ -1,0 +1,8 @@
+{
+  "name": "horizontal_rule",
+  "do": "",
+  "dont": "",
+  "tags": ["guide", "line"],
+  "category": ["editor"],
+  "type": "static"
+}

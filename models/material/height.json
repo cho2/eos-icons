@@ -1,0 +1,25 @@
+{
+  "name": "height",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "color",
+    "doc",
+    "edit",
+    "editing",
+    "editor",
+    "fill",
+    "format",
+    "paint",
+    "sheet",
+    "spreadsheet",
+    "style",
+    "text",
+    "type",
+    "writing"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}

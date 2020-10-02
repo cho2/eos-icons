@@ -1,0 +1,19 @@
+{
+  "name": "highlight_alt",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrow",
+    "box",
+    "click",
+    "draw",
+    "focus",
+    "highlight",
+    "pointer",
+    "target"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

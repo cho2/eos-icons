@@ -1,0 +1,8 @@
+{
+  "name": "history_toggle_off",
+  "do": "",
+  "dont": "",
+  "tags": ["disabled", "log", "story", "document"],
+  "category": ["action"],
+  "type": "static"
+}
