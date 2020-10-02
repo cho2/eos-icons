@@ -190,29 +190,25 @@ module.exports = function (grunt) {
 
     /* Add icons list here */
     const iconList = [
-      'grading',
-      'grass',
-      'groups',
-      'handyman',
-      'hearing_disabled',
-      'height',
-      'help_center',
-      'highlight_alt',
-      'history_edu',
-      'history_toggle_off',
-      'home_repair_service',
-      'home_work',
-      'horizontal_distribute',
-      'horizontal_rule',
-      'horizontal_split',
-      'hourglass_bottom',
-      'hourglass_disabled',
-      'hourglass_top',
-      'house',
-      'house_siding',
-      'how_to_reg',
-      'how_to_vote',
-      'hvac'
+      'image_not_supported',
+      'image_search',
+      'insert_chart_outlined',
+      'insights',
+      'integration_instructions',
+      'king_bed',
+      'label_important',
+      'label_off',
+      'leaderboard',
+      'legend_toggle',
+      'library_add_check',
+      'link_off',
+      'list_alt',
+      'local_airport',
+      'local_fire_department',
+      'local_hotel',
+      'local_police',
+      'login',
+      'luggage'
     ]
 
     for await (const icon of iconList) {

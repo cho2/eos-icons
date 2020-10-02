@@ -14,6 +14,7 @@ const duplicatedIcons = [
   'battery_charging_90',
   'battery_charging_full',
   'clear',
+  'create',
   'dns',
   'expand_more',
   'expand_less',

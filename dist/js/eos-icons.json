@@ -6887,25 +6887,6 @@
     "type": "static"
   },
   {
-    "name": "create",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "Add",
-      "input",
-      "new",
-      "compose",
-      "edit",
-      "create",
-      "pencil",
-      "editing"
-    ],
-    "category": [
-      "content"
-    ],
-    "type": "static"
-  },
-  {
     "name": "create_new_folder",
     "do": "",
     "dont": "",

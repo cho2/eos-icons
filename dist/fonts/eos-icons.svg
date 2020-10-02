@@ -15,7 +15,7 @@
     bbox="-0.595506 -64 512 448.379"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F5B9"
+    unicode-range="U+0030-F5B8"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -1183,8 +1183,6 @@ d="M213 299h214v-299h-427v384h213v-85zM171 43v42h-128v-42h128zM171 128v43h-128v-
 d="M341 235h86v-43h-43v-171h-341v171h-43v43h85q-17 0 -29.5 12.5t-12.5 29.5v86h128v-86q0 -17 -12.5 -29.5t-30.5 -12.5h171v64q0 8 -6.5 14.5t-15 6.5t-15 -6.5t-6.5 -14.5h-43q0 26 19 45t45.5 19t45 -19t18.5 -45v-64zM235 64v128h-43v-128h43z" />
     <glyph glyph-name="create_new_folder" unicode="create_new_folder" 
 d="M384 320q18 0 30.5 -12.5t12.5 -30.5v-213q0 -18 -12.5 -30.5t-30.5 -12.5h-341q-18 0 -30.5 12.5t-12.5 30.5v256q0 18 12.5 30.5t30.5 12.5h128l42 -43h171zM363 149v43h-64v64h-43v-64h-64v-43h64v-64h43v64h64z" />
-    <glyph glyph-name="create" unicode="create" horiz-adv-x="384" 
-d="M0 80l236 236l80 -80l-236 -236h-80v80zM378 298l-39 -39l-80 80l39 39q6 6 15 6t15 -6l50 -50q6 -6 6 -15t-6 -15z" />
     <glyph glyph-name="credit_card" unicode="credit_card" 
 d="M384 363q18 0 30.5 -12.5t12.5 -30.5v-256q0 -18 -12.5 -30.5t-30.5 -12.5h-341q-18 0 -30.5 12.5t-12.5 30.5v256q0 18 12.5 30.5t30.5 12.5h341zM384 64v128h-341v-128h341zM384 277v43h-341v-43h341z" />
     <glyph glyph-name="crop_16_9" unicode="crop_&#x31;&#x36;_&#x39;" horiz-adv-x="384" 
