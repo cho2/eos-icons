@@ -1,0 +1,23 @@
+{
+  "name": "house",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "architecture",
+    "building",
+    "estate",
+    "fmaily",
+    "home",
+    "homepage",
+    "house",
+    "place",
+    "real",
+    "residence",
+    "residential",
+    "shelter"
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

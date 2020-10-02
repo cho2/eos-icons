@@ -1,0 +1,10 @@
+{
+  "name": "history_toggle_off",
+  "do": "",
+  "dont": "",
+  "tags": [],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

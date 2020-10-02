@@ -11490,6 +11490,16 @@
     "type": "static"
   },
   {
+    "name": "grass",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "grid_off",
     "do": "",
     "dont": "",
@@ -11570,6 +11580,26 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "groups",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "handyman",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
@@ -11738,6 +11768,41 @@
     "type": "static"
   },
   {
+    "name": "hearing_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "height",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "color",
+      "doc",
+      "edit",
+      "editing",
+      "editor",
+      "fill",
+      "format",
+      "paint",
+      "sheet",
+      "spreadsheet",
+      "style",
+      "text",
+      "type",
+      "writing"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
     "name": "help",
     "do": "",
     "dont": "",
@@ -11752,6 +11817,16 @@
       "announcement",
       "info"
     ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "help_center",
+    "do": "",
+    "dont": "",
+    "tags": [],
     "category": [
       "action"
     ],
@@ -11831,6 +11906,25 @@
     "type": "static"
   },
   {
+    "name": "highlight_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "box",
+      "click",
+      "draw",
+      "focus",
+      "highlight",
+      "pointer",
+      "target"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "highlight_off",
     "do": "",
     "dont": "",
@@ -11871,6 +11965,39 @@
     "type": "static"
   },
   {
+    "name": "history_edu",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "document",
+      "edu",
+      "feather",
+      "history",
+      "letter",
+      "paper",
+      "pen",
+      "quill",
+      "story",
+      "tools",
+      "write",
+      "writing"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "history_toggle_off",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "home",
     "do": "",
     "dont": "",
@@ -11883,6 +12010,72 @@
       "building",
       "structure",
       "home"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "home_repair_service",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "home_work",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "architecture",
+      "building",
+      "estate",
+      "home",
+      "place",
+      "real",
+      "residence",
+      "residential",
+      "shelter",
+      "work"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "horizontal_distribute",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "horizontal_rule",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "horizontal_split",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bars",
+      "horizontal",
+      "split",
+      "stacked"
     ],
     "category": [
       "action"
@@ -11920,6 +12113,37 @@
     ],
     "category": [
       "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "hourglass_bottom",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Hourglass",
+      "bottom",
+      "countdown",
+      "half",
+      "loading",
+      "minute",
+      "minutes",
+      "time",
+      "wait",
+      "waiting"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "hourglass_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -11964,6 +12188,100 @@
     "type": "static"
   },
   {
+    "name": "hourglass_top",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Hourglass",
+      "countdown",
+      "half",
+      "loading",
+      "minute",
+      "minutes",
+      "time",
+      "top",
+      "wait",
+      "waiting"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "house",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "architecture",
+      "building",
+      "estate",
+      "fmaily",
+      "home",
+      "homepage",
+      "house",
+      "place",
+      "real",
+      "residence",
+      "residential",
+      "shelter"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "house_siding",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "how_to_reg",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "ballot",
+      "check",
+      "election",
+      "face",
+      "human",
+      "people",
+      "person",
+      "poll",
+      "profile",
+      "register",
+      "registration",
+      "user",
+      "vote"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "how_to_vote",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "ballot",
+      "election",
+      "poll",
+      "vote"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
     "name": "http",
     "do": "",
     "dont": "",
@@ -11999,6 +12317,16 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "hvac",
+    "do": "",
+    "dont": "",
+    "tags": [],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
