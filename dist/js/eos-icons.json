@@ -11493,7 +11493,12 @@
     "name": "grass",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "green",
+      "turf",
+      "lawn",
+      "greenery"
+    ],
     "category": [
       "places"
     ],
@@ -11587,7 +11592,11 @@
     "name": "groups",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "team",
+      "people",
+      "users"
+    ],
     "category": [
       "social"
     ],
@@ -11597,7 +11606,10 @@
     "name": "handyman",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "helper",
+      "man-of-all-work"
+    ],
     "category": [
       "maps"
     ],
@@ -11771,7 +11783,11 @@
     "name": "hearing_disabled",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "audition",
+      "ear",
+      "off"
+    ],
     "category": [
       "av"
     ],
@@ -11826,7 +11842,10 @@
     "name": "help_center",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "assistance",
+      "support"
+    ],
     "category": [
       "action"
     ],
@@ -11991,7 +12010,12 @@
     "name": "history_toggle_off",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "disabled",
+      "log",
+      "story",
+      "document"
+    ],
     "category": [
       "action"
     ],
@@ -12020,7 +12044,11 @@
     "name": "home_repair_service",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "tool",
+      "kit",
+      "porfolio"
+    ],
     "category": [
       "maps"
     ],
@@ -12051,7 +12079,11 @@
     "name": "horizontal_distribute",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "spread",
+      "allot",
+      "allocate"
+    ],
     "category": [
       "editor"
     ],
@@ -12061,7 +12093,10 @@
     "name": "horizontal_rule",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "guide",
+      "line"
+    ],
     "category": [
       "editor"
     ],
@@ -12141,7 +12176,14 @@
     "name": "hourglass_disabled",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "off",
+      "time",
+      "countdown",
+      "loading",
+      "waiting",
+      "minutes"
+    ],
     "category": [
       "action"
     ],
@@ -12235,7 +12277,10 @@
     "name": "house_siding",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "covering",
+      "cladding"
+    ],
     "category": [
       "places"
     ],
@@ -12324,7 +12369,13 @@
     "name": "hvac",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "Heating",
+      "Ventilation",
+      "Air Conditioning",
+      "fan",
+      "ac"
+    ],
     "category": [
       "maps"
     ],
