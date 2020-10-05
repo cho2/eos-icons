@@ -1,0 +1,17 @@
+{
+  "name": "local_police",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "911",
+    "badge",
+    "law",
+    "officer",
+    "police",
+    "security"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

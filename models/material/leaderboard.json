@@ -1,0 +1,8 @@
+{
+  "name": "leaderboard",
+  "do": "",
+  "dont": "",
+  "tags": ["chart", "bar", "rank", "scoreboard"],
+  "category": ["action"],
+  "type": "static"
+}

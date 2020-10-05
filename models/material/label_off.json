@@ -1,0 +1,21 @@
+{
+  "name": "label_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "disabled",
+    "enabled",
+    "indent",
+    "label",
+    "off",
+    "on",
+    "slash",
+    "stamp",
+    "sticker",
+    "tag"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

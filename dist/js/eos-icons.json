@@ -6887,25 +6887,6 @@
     "type": "static"
   },
   {
-    "name": "create",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "Add",
-      "input",
-      "new",
-      "compose",
-      "edit",
-      "create",
-      "pencil",
-      "editing"
-    ],
-    "category": [
-      "content"
-    ],
-    "type": "static"
-  },
-  {
     "name": "create_new_folder",
     "do": "",
     "dont": "",
@@ -12417,6 +12398,42 @@
     "type": "static"
   },
   {
+    "name": "image_not_supported",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "no image",
+      "unsupported",
+      "invalid"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "image_search",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "find",
+      "glass",
+      "image",
+      "landscape",
+      "magnifying",
+      "mountain",
+      "mountains",
+      "photo",
+      "photography",
+      "picture",
+      "search"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
     "name": "import_contacts",
     "do": "",
     "dont": "",
@@ -12582,6 +12599,30 @@
     "type": "static"
   },
   {
+    "name": "insert_chart_outlined",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "statistics",
+      "tracking"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
     "name": "insert_comment",
     "do": "",
     "dont": "",
@@ -12693,6 +12734,41 @@
     ],
     "category": [
       "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "insights",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "understanding",
+      "awareness"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "integration_instructions",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "brackets",
+      "clipboard",
+      "code",
+      "develop",
+      "developer",
+      "doc",
+      "document",
+      "engineer",
+      "engineering",
+      "instructions",
+      "integration"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -12955,6 +13031,33 @@
     "type": "static"
   },
   {
+    "name": "king_bed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bed",
+      "bedroom",
+      "double",
+      "full",
+      "furniture",
+      "home",
+      "hotel",
+      "house",
+      "king",
+      "night",
+      "pillows",
+      "queen",
+      "rest",
+      "room",
+      "size",
+      "sleep"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
     "name": "kitchen",
     "do": "",
     "dont": "",
@@ -12978,6 +13081,46 @@
       "sticker",
       "stamp",
       "label",
+      "tag"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "label_important",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "important",
+      "indent",
+      "label",
+      "mail",
+      "stamp",
+      "sticker",
+      "tag",
+      "wing"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "label_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disabled",
+      "enabled",
+      "indent",
+      "label",
+      "off",
+      "on",
+      "slash",
+      "stamp",
+      "sticker",
       "tag"
     ],
     "category": [
@@ -13182,6 +13325,21 @@
     "type": "static"
   },
   {
+    "name": "leaderboard",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chart",
+      "bar",
+      "rank",
+      "scoreboard"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "leak_add",
     "do": "",
     "dont": "",
@@ -13216,6 +13374,19 @@
     "type": "static"
   },
   {
+    "name": "legend_toggle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "caption",
+      "subtitle"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
     "name": "lens",
     "do": "",
     "dont": "",
@@ -13243,6 +13414,25 @@
       "collection",
       "video",
       "plus"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "library_add_check",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Library",
+      "add",
+      "check",
+      "checkmark",
+      "collection",
+      "music",
+      "plus",
+      "video"
     ],
     "category": [
       "av"
@@ -13366,6 +13556,30 @@
     "type": "static"
   },
   {
+    "name": "link_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chain",
+      "clip",
+      "connection",
+      "disabled",
+      "enabled",
+      "link",
+      "linked",
+      "links",
+      "multimedia",
+      "off",
+      "on",
+      "slash",
+      "url"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
     "name": "linked_camera",
     "do": "",
     "dont": "",
@@ -13396,6 +13610,26 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "list_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "List",
+      "box",
+      "contained",
+      "format",
+      "lines",
+      "order",
+      "reorder",
+      "stacked",
+      "title"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -13598,6 +13832,23 @@
       "attr",
       "fresh",
       "park"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_fire_department",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "911",
+      "department",
+      "fire",
+      "firefighter",
+      "flame",
+      "hot"
     ],
     "category": [
       "maps"
@@ -13856,6 +14107,23 @@
       "film",
       "recital",
       "ticket"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "local_police",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "911",
+      "badge",
+      "law",
+      "officer",
+      "police",
+      "security"
     ],
     "category": [
       "maps"
@@ -14134,6 +14402,24 @@
     "type": "static"
   },
   {
+    "name": "login",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "access",
+      "arrow",
+      "enter",
+      "input",
+      "left",
+      "login",
+      "sign in"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "looks",
     "do": "",
     "dont": "",
@@ -14323,6 +14609,19 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "luggage",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "baggage",
+      "bag"
+    ],
+    "category": [
+      "social"
     ],
     "type": "static"
   },

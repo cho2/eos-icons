@@ -1,0 +1,19 @@
+{
+  "name": "label_important",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "important",
+    "indent",
+    "label",
+    "mail",
+    "stamp",
+    "sticker",
+    "tag",
+    "wing"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}
