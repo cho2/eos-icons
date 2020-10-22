@@ -12,8 +12,6 @@ test_icons:
   script:
     - grunt test
 
-# Start the jobs
-
 npm_publish:
   stage: publish
   script:
@@ -23,10 +21,9 @@ npm_publish:
   only:
     - master
 
-update-ruby-gem:
+update:rubygem:
   stage: test
-  needs:
-    - job: test_icons
+  needs: [test_icons]
   script:
     - echo "JOB STARTED"
   # trigger:
