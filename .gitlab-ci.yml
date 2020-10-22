@@ -25,8 +25,6 @@ npm_publish:
 update:rubygem:
   stage: publish_external
   needs: ['npm_publish']
-  script:
-    - echo "Publishing Ruby Gem"
   trigger:
     project: SUSE-UIUX/eos-icons-rails
     strategy: depend
@@ -36,8 +34,6 @@ update:rubygem:
 update:iconspage:
   stage: publish_external
   needs: ['npm_publish']
-  script:
-    - echo "Updating npm dependencies in EOS icons page"
   trigger:
     project: SUSE-UIUX/eos-icons-landing
     strategy: depend
@@ -47,8 +43,6 @@ update:iconspage:
 update:iconpicker:
   stage: publish_external
   needs: ['npm_publish']
-  script:
-    - echo "Updating npm dependencies in EOS icons picker"
   trigger:
     project: SUSE-UIUX/eos-icon-picker
     strategy: depend
