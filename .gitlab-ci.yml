@@ -27,7 +27,8 @@ update-ruby-gem:
   stage: test
   needs:
     - job: test_icons
-  script: 'echo "JOB STARTED" '
+  script:
+    - echo "JOB STARTED"
   # trigger:
   #   project: SUSE-UIUX/eos-icons-rails
   #   strategy: depend
