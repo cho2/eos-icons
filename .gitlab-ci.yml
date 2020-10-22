@@ -14,7 +14,7 @@ test_icons:
 
 # Start the jobs
 
-npm-publish:
+npm_publish:
   stage: publish
   script:
     - npm install
@@ -22,3 +22,12 @@ npm-publish:
   when: manual
   only:
     - master
+
+update-ruby-gem:
+  stage: test
+  needs:
+    - job: test_icons
+  script: 'echo "JOB STARTED" '
+  # trigger:
+  #   project: SUSE-UIUX/eos-icons-rails
+  #   strategy: depend
