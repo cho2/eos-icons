@@ -1,6 +1,7 @@
 stages:
   - test
   - publish
+  - publish_external
 
 image: node:10.15.0
 
@@ -22,7 +23,7 @@ npm_publish:
     - master
 
 update:rubygem:
-  stage: test
+  stage: publish_external
   needs: [test_icons]
   script:
     - echo "JOB STARTED"
