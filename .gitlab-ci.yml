@@ -13,6 +13,12 @@ test_icons:
   script:
     - grunt test
 
+update:test:
+  stage: test
+  script:
+    - echo "1- This is triggered manually"
+  when: manual
+
 npm_publish:
   stage: publish
   script:
@@ -24,9 +30,11 @@ npm_publish:
 
 update:rubygem:
   stage: publish_external
-  needs: [test_icons]
+  needs: [update:test]
   script:
-    - echo "JOB STARTED"
+    - echo "2- JOB STARTED"
   # trigger:
   #   project: SUSE-UIUX/eos-icons-rails
   #   strategy: depend
+  # only:
+  #   - master
