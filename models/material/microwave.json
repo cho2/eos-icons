@@ -1,0 +1,10 @@
+{
+  "name": "microwave",
+  "do": "",
+  "dont": "",
+  "tags": ["food", "heating"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

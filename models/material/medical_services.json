@@ -1,0 +1,10 @@
+{
+  "name": "medical_services",
+  "do": "",
+  "dont": "",
+  "tags": ["docto", "health", "emergency"],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

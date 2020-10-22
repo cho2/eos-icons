@@ -1,0 +1,14 @@
+{
+  "name": "minimize",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "line",
+    "minimize",
+    "shape"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

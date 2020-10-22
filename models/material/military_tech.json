@@ -1,0 +1,31 @@
+{
+  "name": "military_tech",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "army",
+    "award",
+    "badge",
+    "honor",
+    "medal",
+    "merit",
+    "military",
+    "order",
+    "privilege",
+    "prize",
+    "rank",
+    "reward",
+    "ribbon",
+    "soldier",
+    "star",
+    "status",
+    "tech",
+    "trophy",
+    "win",
+    "winner"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

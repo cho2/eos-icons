@@ -1,0 +1,16 @@
+{
+  "name": "missed_video_call",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Missed",
+    "arrow",
+    "call",
+    "record",
+    "video"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static"
+}

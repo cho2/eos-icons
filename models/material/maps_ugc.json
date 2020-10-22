@@ -1,0 +1,23 @@
+{
+  "name": "maps_ugc",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "bubble",
+    "chat",
+    "destination",
+    "direction",
+    "location",
+    "maps",
+    "pin",
+    "place",
+    "plus",
+    "route",
+    "stop"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

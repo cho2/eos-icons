@@ -1,0 +1,10 @@
+{
+  "name": "model_training",
+  "do": "",
+  "dont": "",
+  "tags": ["lightbulb", "cycle"],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "mobile_screen_share",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Mobile",
+    "arrow",
+    "device",
+    "mirror",
+    "monitor",
+    "phone",
+    "screen",
+    "share",
+    "tv"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

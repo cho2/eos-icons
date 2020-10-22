@@ -1,0 +1,23 @@
+{
+  "name": "music_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "audio",
+    "audiotrack",
+    "disabled",
+    "enabled",
+    "key",
+    "music",
+    "note",
+    "off",
+    "on",
+    "slash",
+    "sound",
+    "track"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

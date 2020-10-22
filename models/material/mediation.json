@@ -1,0 +1,17 @@
+{
+  "name": "mediation",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "alternative",
+    "compromise",
+    "mediation",
+    "negotiation",
+    "party",
+    "structure"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}
