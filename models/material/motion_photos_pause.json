@@ -1,0 +1,20 @@
+{
+  "name": "motion_photos_pause",
+  "do": "",
+  "dont": "",
+  "tags": ["animation",
+    "circle",
+    "disabled",
+    "enabled",
+    "motion",
+    "off",
+    "on",
+    "photos",
+    "play",
+    "slash",
+    "video"],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}

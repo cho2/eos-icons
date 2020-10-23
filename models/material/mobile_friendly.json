@@ -1,0 +1,15 @@
+{
+  "name": "mobile_friendly",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "check",
+    "device",
+    "friendly",
+    "mobile"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

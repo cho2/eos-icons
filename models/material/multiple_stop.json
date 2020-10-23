@@ -1,0 +1,10 @@
+{
+  "name": "multiple_stop",
+  "do": "",
+  "dont": "",
+  "tags": ["various", "halt"],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

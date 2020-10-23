@@ -14663,6 +14663,85 @@
     "type": "static"
   },
   {
+    "name": "maps_ugc",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "bubble",
+      "chat",
+      "destination",
+      "direction",
+      "location",
+      "maps",
+      "pin",
+      "place",
+      "plus",
+      "route",
+      "stop"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mark_chat_read",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chat",
+      "conversation",
+      "on"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mark_chat_unread",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "conversation",
+      "chat",
+      "waiting"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mark_email_read",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "viewed",
+      "email",
+      "message"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mark_email_unread",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "message",
+      "not seen",
+      "unseen"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "markunread_mailbox",
     "do": "",
     "dont": "",
@@ -14681,6 +14760,86 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "masks",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "covid",
+      "virus",
+      "face mask",
+      "facemask",
+      "chinstrap"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "maximize",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "line",
+      "maximize",
+      "shape"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mediation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alternative",
+      "compromise",
+      "mediation",
+      "negotiation",
+      "party",
+      "structure"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "medical_services",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "docto",
+      "health",
+      "emergency"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "meeting_room",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "door",
+      "doorway",
+      "entrance",
+      "interior",
+      "meeting",
+      "open",
+      "place",
+      "room"
+    ],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
@@ -14708,6 +14867,43 @@
       "navigate",
       "index",
       "panel"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "menu_book",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "book",
+      "dining",
+      "food",
+      "meal",
+      "menu",
+      "restaurant"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "menu_open",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "direction",
+      "hamburger",
+      "left",
+      "line",
+      "lines",
+      "menu",
+      "open"
     ],
     "category": [
       "navigation"
@@ -14811,6 +15007,93 @@
     "type": "static"
   },
   {
+    "name": "microwave",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "food",
+      "heating"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "military_tech",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "army",
+      "award",
+      "badge",
+      "honor",
+      "medal",
+      "merit",
+      "military",
+      "order",
+      "privilege",
+      "prize",
+      "rank",
+      "reward",
+      "ribbon",
+      "soldier",
+      "star",
+      "status",
+      "tech",
+      "trophy",
+      "win",
+      "winner"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "minimize",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "line",
+      "minimize",
+      "shape"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "miscellaneous_services",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "setting",
+      "configuration"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "missed_video_call",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Missed",
+      "arrow",
+      "call",
+      "record",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
     "name": "mms",
     "do": "",
     "dont": "",
@@ -14823,6 +15106,62 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mobile_friendly",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "check",
+      "device",
+      "friendly",
+      "mobile"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mobile_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "allowed",
+      "device",
+      "disabled",
+      "enabled",
+      "mobile",
+      "not",
+      "off",
+      "on",
+      "silence",
+      "slash"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "mobile_screen_share",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Mobile",
+      "arrow",
+      "device",
+      "mirror",
+      "monitor",
+      "phone",
+      "screen",
+      "share",
+      "tv"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -14857,6 +15196,19 @@
     "type": "static"
   },
   {
+    "name": "model_training",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "lightbulb",
+      "cycle"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "monetization_on",
     "do": "",
     "dont": "",
@@ -14880,6 +15232,34 @@
     ],
     "category": [
       "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "money",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bill",
+      "card",
+      "cart",
+      "cash",
+      "coin",
+      "commerce",
+      "credit",
+      "currency",
+      "digit",
+      "dollars",
+      "money",
+      "number",
+      "online",
+      "pay",
+      "payment",
+      "shopping",
+      "symbol"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
@@ -14965,6 +15345,29 @@
     "type": "static"
   },
   {
+    "name": "moped",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "car",
+      "cars",
+      "direction",
+      "maps",
+      "moped",
+      "motorized",
+      "public",
+      "scooter",
+      "transportation",
+      "vehicle",
+      "vespa"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "more",
     "do": "",
     "dont": "",
@@ -14993,6 +15396,20 @@
     "type": "static"
   },
   {
+    "name": "more_time",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "More",
+      "time",
+      "extension"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "more_vert",
     "do": "",
     "dont": "",
@@ -15003,6 +15420,68 @@
     ],
     "category": [
       "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "motion_photos_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "animation",
+      "circle",
+      "disabled",
+      "enabled",
+      "motion",
+      "off",
+      "on",
+      "photos",
+      "play",
+      "slash",
+      "video"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "motion_photos_pause",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "animation",
+      "circle",
+      "disabled",
+      "enabled",
+      "motion",
+      "off",
+      "on",
+      "photos",
+      "play",
+      "slash",
+      "video"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "motion_photos_paused",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "animation",
+      "circle",
+      "motion",
+      "pause",
+      "paused",
+      "photos",
+      "video"
+    ],
+    "category": [
+      "image"
     ],
     "type": "static"
   },
@@ -15134,6 +15613,40 @@
     "type": "static"
   },
   {
+    "name": "multiple_stop",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "various",
+      "halt"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "museum",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "attraction",
+      "event",
+      "exhibition",
+      "explore",
+      "local",
+      "museum",
+      "see",
+      "shop",
+      "store",
+      "tour"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "music_note",
     "do": "",
     "dont": "",
@@ -15141,6 +15654,29 @@
       "musical",
       "tune",
       "song"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "music_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "audio",
+      "audiotrack",
+      "disabled",
+      "enabled",
+      "key",
+      "music",
+      "note",
+      "off",
+      "on",
+      "slash",
+      "sound",
+      "track"
     ],
     "category": [
       "image"

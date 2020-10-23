@@ -1,0 +1,21 @@
+{
+  "name": "mobile_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "allowed",
+    "device",
+    "disabled",
+    "enabled",
+    "mobile",
+    "not",
+    "off",
+    "on",
+    "silence",
+    "slash"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

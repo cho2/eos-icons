@@ -1,0 +1,20 @@
+{
+  "name": "menu_open",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrow",
+    "arrows",
+    "direction",
+    "hamburger",
+    "left",
+    "line",
+    "lines",
+    "menu",
+    "open"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
+}

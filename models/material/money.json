@@ -1,0 +1,28 @@
+{
+  "name": "money",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bill",
+    "card",
+    "cart",
+    "cash",
+    "coin",
+    "commerce",
+    "credit",
+    "currency",
+    "digit",
+    "dollars",
+    "money",
+    "number",
+    "online",
+    "pay",
+    "payment",
+    "shopping",
+    "symbol"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}
