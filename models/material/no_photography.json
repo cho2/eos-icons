@@ -1,0 +1,10 @@
+{
+  "name": "no_photography",
+  "do": "",
+  "dont": "",
+  "tags": ["photo", "camera", "selfie", "picture", "forbidden"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

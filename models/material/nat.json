@@ -1,0 +1,10 @@
+{
+  "name": "nat",
+  "do": "",
+  "dont": "",
+  "tags": ["network", "address", "translation"],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

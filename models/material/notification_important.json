@@ -1,0 +1,29 @@
+{
+  "name": "notification_important",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "!",
+    "alarm",
+    "alert",
+    "attention",
+    "bell",
+    "caution",
+    "danger",
+    "error",
+    "exclamation",
+    "important",
+    "mark",
+    "notification",
+    "notifications",
+    "notify",
+    "reminder",
+    "sound",
+    "symbol",
+    "warning"
+  ],
+  "category": [
+    "alert"
+  ],
+  "type": "static"
+}

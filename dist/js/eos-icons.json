@@ -15722,6 +15722,20 @@
     "type": "static"
   },
   {
+    "name": "nat",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "network",
+      "address",
+      "translation"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "nature",
     "do": "",
     "dont": "",
@@ -15783,6 +15797,19 @@
       "place",
       "point",
       "direction"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "near_me_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "map",
+      "location"
     ],
     "category": [
       "maps"
@@ -15868,6 +15895,19 @@
     "type": "static"
   },
   {
+    "name": "next_plan",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "following"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "next_week",
     "do": "",
     "dont": "",
@@ -15903,6 +15943,88 @@
     "type": "static"
   },
   {
+    "name": "night_shelter",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "asylum",
+      "apartment",
+      "shed",
+      "hut",
+      "lodging",
+      "refuge",
+      "safety",
+      "house"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "nights_stay",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cloud",
+      "crescent",
+      "dark",
+      "mode",
+      "moon",
+      "nights",
+      "phases",
+      "silence",
+      "silent",
+      "sky",
+      "stay",
+      "time",
+      "weather"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "no_backpack",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rucksack"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "no_cell",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mobile",
+      "cellphone",
+      "phone"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "no_drinks",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "beberage",
+      "liquids"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "no_encryption",
     "do": "",
     "dont": "",
@@ -15916,6 +16038,109 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "no_flash",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "light"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "no_food",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "meal",
+      "dinner",
+      "breakfast",
+      "lunch",
+      "snack",
+      "disabled",
+      "forbidden"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "no_luggage",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bag",
+      "baggage",
+      "belongings"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "no_meals",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "food",
+      "dinner",
+      "breakfast",
+      "lunch",
+      "snack",
+      "disabled",
+      "forbidden"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "no_meeting_room",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disabled",
+      "door",
+      "doorway",
+      "enabled",
+      "entrance",
+      "interior",
+      "meeting",
+      "off",
+      "on",
+      "open",
+      "place",
+      "room",
+      "slash",
+      "unavailable"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "no_photography",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photo",
+      "camera",
+      "selfie",
+      "picture",
+      "forbidden"
+    ],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
@@ -15940,6 +16165,90 @@
     "type": "static"
   },
   {
+    "name": "no_stroller",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "buggie",
+      "no buggies",
+      "pushchair"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "no_transfer",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "van",
+      "commute",
+      "transport",
+      "disabled",
+      "not available",
+      "unavailable"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "north",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "up"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "north_east",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "diagonal",
+      "corner",
+      "up right"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "north_west",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "up left",
+      "diagonal",
+      "corner"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "not_accessible",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "inaccessible",
+      "dissabled"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "not_interested",
     "do": "",
     "dont": "",
@@ -15953,6 +16262,43 @@
     ],
     "category": [
       "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "not_listed_location",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "?",
+      "destination",
+      "help",
+      "info",
+      "information",
+      "location",
+      "maps",
+      "pin",
+      "place",
+      "question mark",
+      "stop",
+      "support",
+      "symbol"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "not_started",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "paused",
+      "stopped"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -15988,6 +16334,51 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "notes",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "comment",
+      "doc",
+      "document",
+      "note",
+      "text"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "notification_important",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "alarm",
+      "alert",
+      "attention",
+      "bell",
+      "caution",
+      "danger",
+      "error",
+      "exclamation",
+      "important",
+      "mark",
+      "notification",
+      "notifications",
+      "notify",
+      "reminder",
+      "sound",
+      "symbol",
+      "warning"
+    ],
+    "category": [
+      "alert"
     ],
     "type": "static"
   },

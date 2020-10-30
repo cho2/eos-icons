@@ -1,0 +1,10 @@
+{
+  "name": "north_east",
+  "do": "",
+  "dont": "",
+  "tags": ["diagonal", "corner", "up right"],
+  "category": [
+    "navigation"
+  ],
+  "type": "static"
+}

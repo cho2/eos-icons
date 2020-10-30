@@ -1,0 +1,10 @@
+{
+  "name": "no_cell",
+  "do": "",
+  "dont": "",
+  "tags": ["mobile", "cellphone", "phone"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

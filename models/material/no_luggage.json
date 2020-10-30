@@ -1,0 +1,10 @@
+{
+  "name": "no_luggage",
+  "do": "",
+  "dont": "",
+  "tags": ["bag", "baggage", "belongings"],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}
