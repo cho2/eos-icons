@@ -1,0 +1,10 @@
+{
+  "name": "next_plan",
+  "do": "",
+  "dont": "",
+  "tags": ["arrow", "following"],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

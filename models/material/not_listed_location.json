@@ -1,0 +1,24 @@
+{
+  "name": "not_listed_location",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "?",
+    "destination",
+    "help",
+    "info",
+    "information",
+    "location",
+    "maps",
+    "pin",
+    "place",
+    "question mark",
+    "stop",
+    "support",
+    "symbol"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

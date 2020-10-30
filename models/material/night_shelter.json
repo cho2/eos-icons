@@ -1,0 +1,10 @@
+{
+  "name": "night_shelter",
+  "do": "",
+  "dont": "",
+  "tags": ["asylum", "apartment", "shed", "hut", "lodging", "refuge", "safety", "house"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

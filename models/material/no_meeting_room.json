@@ -1,0 +1,25 @@
+{
+  "name": "no_meeting_room",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "disabled",
+    "door",
+    "doorway",
+    "enabled",
+    "entrance",
+    "interior",
+    "meeting",
+    "off",
+    "on",
+    "open",
+    "place",
+    "room",
+    "slash",
+    "unavailable"
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}
