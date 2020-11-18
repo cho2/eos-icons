@@ -1,0 +1,10 @@
+{
+  "name": "outbound",
+  "do": "",
+  "dont": "",
+  "tags": ["outward", "arrow"],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

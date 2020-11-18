@@ -1,0 +1,23 @@
+{
+  "name": "phone_enabled",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Android",
+    "OS",
+    "call",
+    "chat",
+    "device",
+    "enabled",
+    "hardware",
+    "iOS",
+    "mobile",
+    "phone",
+    "tablet",
+    "text"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

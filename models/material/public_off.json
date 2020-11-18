@@ -1,0 +1,10 @@
+{
+  "name": "public_off",
+  "do": "",
+  "dont": "",
+  "tags": ["open", "published", "transportation", "global", "web", "network", "online", "connection"],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

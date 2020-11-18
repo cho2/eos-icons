@@ -1,0 +1,20 @@
+{
+  "name": "print_disabled",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Print",
+    "disabled",
+    "enabled",
+    "feed",
+    "off",
+    "on",
+    "paper",
+    "printer",
+    "slash"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

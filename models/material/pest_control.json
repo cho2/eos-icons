@@ -1,0 +1,10 @@
+{
+  "name": "pest_control",
+  "do": "",
+  "dont": "",
+  "tags": ["menace", "animals", "bugs", "manage"],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

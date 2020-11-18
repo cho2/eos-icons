@@ -1,0 +1,17 @@
+{
+  "name": "pause_presentation",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Presentation",
+    "device",
+    "pause",
+    "present",
+    "screen",
+    "share"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

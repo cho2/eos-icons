@@ -1,0 +1,22 @@
+{
+  "name": "phone_callback",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrow",
+    "arrows",
+    "back",
+    "call",
+    "cell",
+    "contact",
+    "device",
+    "down",
+    "hardware",
+    "phone",
+    "telephone"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
+}

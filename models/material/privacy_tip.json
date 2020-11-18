@@ -1,0 +1,10 @@
+{
+  "name": "privacy_tip",
+  "do": "",
+  "dont": "",
+  "tags": ["clue", "suggest", "caution", "advise", "warn", "hint"],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

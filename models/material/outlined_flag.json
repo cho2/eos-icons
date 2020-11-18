@@ -1,0 +1,18 @@
+{
+  "name": "outlined_flag",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "country",
+    "flag",
+    "goal",
+    "mark",
+    "nation",
+    "report",
+    "start"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}
