@@ -1,0 +1,10 @@
+{
+  "name": "rule_folder",
+  "do": "",
+  "dont": "",
+  "tags": [],
+  "category": [
+    "file"
+  ],
+  "type": "static"
+}

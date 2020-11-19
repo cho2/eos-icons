@@ -1,0 +1,29 @@
+{
+  "name": "report_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "!",
+    "alert",
+    "attention",
+    "caution",
+    "danger",
+    "disabled",
+    "enabled",
+    "error",
+    "exclamation",
+    "important",
+    "mark",
+    "notification",
+    "octagon",
+    "off",
+    "on",
+    "slash",
+    "symbol",
+    "warning"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}

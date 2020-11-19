@@ -1,0 +1,21 @@
+{
+  "name": "receipt_long",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bill",
+    "check",
+    "document",
+    "list",
+    "paper",
+    "paperwork",
+    "receipt",
+    "record",
+    "store",
+    "transaction"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static"
+}
