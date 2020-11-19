@@ -2,7 +2,7 @@
   "name": "rice_bowl",
   "do": "",
   "dont": "",
-  "tags": [],
+  "tags": ["food", "bowl", "box", "meal"],
   "category": [
     "places"
   ],

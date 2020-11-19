@@ -2,7 +2,7 @@
   "name": "room_preferences",
   "do": "",
   "dont": "",
-  "tags": [],
+  "tags": ["setting", "cog", "gear", "door", "room", "entrance", "entry", "exit"],
   "category": [
     "places"
   ],

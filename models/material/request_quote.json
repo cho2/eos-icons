@@ -2,7 +2,7 @@
   "name": "request_quote",
   "do": "",
   "dont": "",
-  "tags": [],
+  "tags": ["$", "money", "cash"],
   "category": [
     "file"
   ],

@@ -63,6 +63,7 @@ const duplicatedIcons = [
   'stay_primary_portrait',
   'wb_cloudy',
   'qr_code_2',
+  'request_page',
 ]
 
 module.exports = {

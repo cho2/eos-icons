@@ -18633,7 +18633,11 @@
     "name": "qr_code",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "code",
+      "qr",
+      "barcode"
+    ],
     "category": [
       "communication"
     ],
@@ -18643,7 +18647,12 @@
     "name": "qr_code_scanner",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "scan",
+      "reader",
+      "verify",
+      "barcode"
+    ],
     "category": [
       "communication"
     ],
@@ -18752,7 +18761,18 @@
     "name": "quickreply",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "comment",
+      "ray",
+      "lightning",
+      "bubble",
+      "conversation",
+      "communication",
+      "response",
+      "fast",
+      "flash",
+      "speed"
+    ],
     "category": [
       "action"
     ],
@@ -18833,7 +18853,15 @@
     "name": "read_more",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "arrow",
+      "right",
+      "list",
+      "more",
+      "information",
+      "expand",
+      "elaborate"
+    ],
     "category": [
       "communication"
     ],
@@ -18974,7 +19002,20 @@
     "name": "reduce_capacity",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "less",
+      "lower",
+      "lessen",
+      "decrease",
+      "people",
+      "groups",
+      "attendance",
+      "customers",
+      "clients",
+      "minimize",
+      "narrow",
+      "shrink"
+    ],
     "category": [
       "social"
     ],
@@ -19368,20 +19409,14 @@
     "type": "static"
   },
   {
-    "name": "request_page",
-    "do": "",
-    "dont": "",
-    "tags": [],
-    "category": [
-      "action"
-    ],
-    "type": "static"
-  },
-  {
     "name": "request_quote",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "$",
+      "money",
+      "cash"
+    ],
     "category": [
       "file"
     ],
@@ -19490,7 +19525,12 @@
     "name": "rice_bowl",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "food",
+      "bowl",
+      "box",
+      "meal"
+    ],
     "category": [
       "places"
     ],
@@ -19519,7 +19559,13 @@
     "name": "roofing",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "house",
+      "ceiling",
+      "home",
+      "shelter",
+      "housing"
+    ],
     "category": [
       "places"
     ],
@@ -19547,7 +19593,16 @@
     "name": "room_preferences",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "setting",
+      "cog",
+      "gear",
+      "door",
+      "room",
+      "entrance",
+      "entry",
+      "exit"
+    ],
     "category": [
       "places"
     ],
@@ -19684,7 +19739,18 @@
     "name": "rule",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "false",
+      "true",
+      "check",
+      "x",
+      "close",
+      "cancel",
+      "list",
+      "options",
+      "regulation",
+      "directive"
+    ],
     "category": [
       "action"
     ],
@@ -19694,7 +19760,18 @@
     "name": "rule_folder",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "false",
+      "true",
+      "check",
+      "x",
+      "close",
+      "cancel",
+      "file",
+      "regulation",
+      "directive",
+      "portfolio"
+    ],
     "category": [
       "file"
     ],
@@ -19704,7 +19781,16 @@
     "name": "run_circle",
     "do": "",
     "dont": "",
-    "tags": [],
+    "tags": [
+      "man",
+      "user",
+      "woman",
+      "running",
+      "sprint",
+      "race",
+      "rush",
+      "exit"
+    ],
     "category": [
       "maps"
     ],
