@@ -1,0 +1,10 @@
+{
+  "name": "online_prediction",
+  "do": "",
+  "dont": "",
+  "tags": ["lamp", "bulb", "signal", "idea", "forecast", "prognostic", "projection", "estimation"],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

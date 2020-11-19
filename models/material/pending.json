@@ -1,0 +1,10 @@
+{
+  "name": "pending",
+  "do": "",
+  "dont": "",
+  "tags": ["waiting", "paused", "awaiting", "dots", "loading", "charging"],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

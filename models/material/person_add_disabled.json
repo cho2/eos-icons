@@ -1,0 +1,24 @@
+{
+  "name": "person_add_disabled",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "account",
+    "add",
+    "disabled",
+    "enabled",
+    "face",
+    "human",
+    "off",
+    "on",
+    "people",
+    "person",
+    "profile",
+    "slash",
+    "user"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

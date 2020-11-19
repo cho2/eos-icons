@@ -1,0 +1,22 @@
+{
+  "name": "person_remove",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "account",
+    "delete",
+    "face",
+    "human",
+    "minus",
+    "people",
+    "person",
+    "profile",
+    "remove",
+    "unfriend",
+    "user"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

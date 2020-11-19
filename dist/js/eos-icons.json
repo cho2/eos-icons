@@ -16464,6 +16464,24 @@
     "type": "static"
   },
   {
+    "name": "offline_bolt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bolt",
+      "circle",
+      "flash",
+      "lightning",
+      "spark",
+      "ray",
+      "electric"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "offline_pin",
     "do": "",
     "dont": "",
@@ -16489,6 +16507,25 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "online_prediction",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "lamp",
+      "bulb",
+      "signal",
+      "idea",
+      "forecast",
+      "prognostic",
+      "projection",
+      "estimation"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -16531,6 +16568,20 @@
     "type": "static"
   },
   {
+    "name": "open_in_full",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "full screen",
+      "full size",
+      "resize"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "open_in_new",
     "do": "",
     "dont": "",
@@ -16560,6 +16611,71 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "outbound",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "outward",
+      "arrow"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "outdoor_grill",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "barbecue",
+      "bbq",
+      "charcoal",
+      "cooking",
+      "grill",
+      "home",
+      "house",
+      "outdoor",
+      "outside"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "outlet",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "connect",
+      "socket",
+      "channel"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "outlined_flag",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "country",
+      "flag",
+      "goal",
+      "mark",
+      "nation",
+      "report",
+      "start"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },
@@ -16781,6 +16897,23 @@
     "type": "static"
   },
   {
+    "name": "pause_presentation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Presentation",
+      "device",
+      "pause",
+      "present",
+      "screen",
+      "share"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "payment",
     "do": "",
     "dont": "",
@@ -16793,6 +16926,87 @@
       "credit",
       "card",
       "info"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "payments",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bill",
+      "card",
+      "cash",
+      "coin",
+      "commerce",
+      "credit",
+      "currency",
+      "dollars",
+      "money",
+      "multiple",
+      "online",
+      "pay",
+      "payment",
+      "symbol"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pedal_bike",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "bicycle",
+      "bike",
+      "car",
+      "cars",
+      "maps",
+      "pedal",
+      "public",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pending",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "waiting",
+      "paused",
+      "awaiting",
+      "dots",
+      "loading",
+      "charging"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pending_actions",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "waiting",
+      "paused",
+      "clock",
+      "list",
+      "items",
+      "tasks",
+      "awaiting"
     ],
     "category": [
       "action"
@@ -16995,6 +17209,30 @@
     "type": "static"
   },
   {
+    "name": "person_add_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "add",
+      "disabled",
+      "enabled",
+      "face",
+      "human",
+      "off",
+      "on",
+      "people",
+      "person",
+      "profile",
+      "slash",
+      "user"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "person_outline",
     "do": "",
     "dont": "",
@@ -17060,6 +17298,49 @@
     "type": "static"
   },
   {
+    "name": "person_remove",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "delete",
+      "face",
+      "human",
+      "minus",
+      "people",
+      "person",
+      "profile",
+      "remove",
+      "unfriend",
+      "user"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "person_search",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "face",
+      "human",
+      "people",
+      "person",
+      "profile",
+      "find",
+      "search",
+      "look for",
+      "user"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "personal_video",
     "do": "",
     "dont": "",
@@ -17070,6 +17351,36 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pest_control",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "menace",
+      "animals",
+      "bugs",
+      "manage"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "pest_control_rodent",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "rodent",
+      "mouse",
+      "rat",
+      "mice"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
@@ -17136,6 +17447,78 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phone_callback",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "back",
+      "call",
+      "cell",
+      "contact",
+      "device",
+      "down",
+      "hardware",
+      "phone",
+      "telephone"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phone_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "call",
+      "chat",
+      "device",
+      "disabled",
+      "enabled",
+      "hardware",
+      "iOS",
+      "mobile",
+      "off",
+      "on",
+      "phone",
+      "slash",
+      "tablet",
+      "text"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "phone_enabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "call",
+      "chat",
+      "device",
+      "enabled",
+      "hardware",
+      "iOS",
+      "mobile",
+      "phone",
+      "tablet",
+      "text"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -17600,6 +17983,27 @@
     "type": "static"
   },
   {
+    "name": "plagiarism",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "doc",
+      "document",
+      "find",
+      "look",
+      "magnifying glass",
+      "page",
+      "paper",
+      "plagiarism",
+      "search",
+      "see"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "play_arrow",
     "do": "",
     "dont": "",
@@ -17722,6 +18126,24 @@
     "type": "static"
   },
   {
+    "name": "plumbing",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wrench",
+      "tool",
+      "plumber",
+      "handy man",
+      "tradesman",
+      "worker",
+      "steam fitter"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "plus_one",
     "do": "",
     "dont": "",
@@ -17733,6 +18155,51 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "point_of_sale",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "register",
+      "till",
+      "cash box",
+      "cashier",
+      "checkout",
+      "sales counter",
+      "pay",
+      "money box",
+      "pay desk",
+      "cashbox",
+      "coin box",
+      "sales register"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "policy",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "certified",
+      "document",
+      "glass",
+      "legal",
+      "magnifying",
+      "policy",
+      "protection",
+      "search",
+      "secure",
+      "security",
+      "shield"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },
@@ -17824,6 +18291,25 @@
     "type": "static"
   },
   {
+    "name": "post_add",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "add",
+      "doc",
+      "document",
+      "plus",
+      "post",
+      "text",
+      "writing"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
     "name": "power",
     "do": "",
     "dont": "",
@@ -17851,6 +18337,28 @@
     ],
     "category": [
       "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "power_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "charge",
+      "cord",
+      "disabled",
+      "electric",
+      "electrical",
+      "enabled",
+      "off",
+      "on",
+      "plug",
+      "power",
+      "slash"
+    ],
+    "category": [
+      "notification"
     ],
     "type": "static"
   },
@@ -17915,6 +18423,22 @@
     "type": "static"
   },
   {
+    "name": "preview",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sample",
+      "sneak",
+      "advance showing",
+      "sneak peek",
+      "premiere"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "print",
     "do": "",
     "dont": "",
@@ -17928,6 +18452,26 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "print_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Print",
+      "disabled",
+      "enabled",
+      "feed",
+      "off",
+      "on",
+      "paper",
+      "printer",
+      "slash"
+    ],
+    "category": [
+      "communication"
     ],
     "type": "static"
   },
@@ -17947,10 +18491,79 @@
     "type": "static"
   },
   {
+    "name": "privacy_tip",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "clue",
+      "suggest",
+      "caution",
+      "advise",
+      "warn",
+      "hint"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "psychology",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "behavior",
+      "body",
+      "brain",
+      "cognitive",
+      "function",
+      "gear",
+      "head",
+      "human",
+      "intellectual",
+      "mental",
+      "mind",
+      "people",
+      "person",
+      "preferences",
+      "psychiatric",
+      "psychology",
+      "science",
+      "settings",
+      "social",
+      "therapy",
+      "thinking",
+      "thoughts"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
     "name": "public",
     "do": "",
     "dont": "",
     "tags": [
+      "transportation",
+      "global",
+      "web",
+      "network",
+      "online",
+      "connection"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "public_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "open",
+      "published",
       "transportation",
       "global",
       "web",
@@ -17978,6 +18591,41 @@
     ],
     "category": [
       "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "published_with_changes",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "renew",
+      "arrow",
+      "check",
+      "ok",
+      "confirmed",
+      "finished",
+      "changed",
+      "refreshed"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "push_pin",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "nail",
+      "badge",
+      "brooch",
+      "placed",
+      "pinned"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },

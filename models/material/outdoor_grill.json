@@ -1,0 +1,20 @@
+{
+  "name": "outdoor_grill",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "barbecue",
+    "bbq",
+    "charcoal",
+    "cooking",
+    "grill",
+    "home",
+    "house",
+    "outdoor",
+    "outside"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

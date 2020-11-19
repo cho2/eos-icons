@@ -1,0 +1,22 @@
+{
+  "name": "power_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "charge",
+    "cord",
+    "disabled",
+    "electric",
+    "electrical",
+    "enabled",
+    "off",
+    "on",
+    "plug",
+    "power",
+    "slash"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
+}
