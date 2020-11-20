@@ -1,0 +1,10 @@
+{
+  "name": "qr_code_scanner",
+  "do": "",
+  "dont": "",
+  "tags": ["scan", "reader", "verify", "barcode"],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "roofing",
+  "do": "",
+  "dont": "",
+  "tags": ["house", "ceiling", "home", "shelter", "housing"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

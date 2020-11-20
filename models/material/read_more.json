@@ -1,0 +1,10 @@
+{
+  "name": "read_more",
+  "do": "",
+  "dont": "",
+  "tags": ["arrow", "right", "list", "more", "information", "expand", "elaborate"],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

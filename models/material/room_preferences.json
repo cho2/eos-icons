@@ -1,0 +1,10 @@
+{
+  "name": "room_preferences",
+  "do": "",
+  "dont": "",
+  "tags": ["setting", "cog", "gear", "door", "room", "entrance", "entry", "exit"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

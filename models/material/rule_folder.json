@@ -1,0 +1,10 @@
+{
+  "name": "rule_folder",
+  "do": "",
+  "dont": "",
+  "tags": ["false", "true", "check", "x", "close", "cancel", "file",  "regulation", "directive", "portfolio"],
+  "category": [
+    "file"
+  ],
+  "type": "static"
+}

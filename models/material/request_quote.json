@@ -1,0 +1,10 @@
+{
+  "name": "request_quote",
+  "do": "",
+  "dont": "",
+  "tags": ["$", "money", "cash"],
+  "category": [
+    "file"
+  ],
+  "type": "static"
+}

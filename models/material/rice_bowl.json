@@ -1,0 +1,10 @@
+{
+  "name": "rice_bowl",
+  "do": "",
+  "dont": "",
+  "tags": ["food", "bowl", "box", "meal"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

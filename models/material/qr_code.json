@@ -1,0 +1,10 @@
+{
+  "name": "qr_code",
+  "do": "",
+  "dont": "",
+  "tags": ["code", "qr", "barcode"],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

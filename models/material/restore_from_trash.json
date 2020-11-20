@@ -1,0 +1,19 @@
+{
+  "name": "restore_from_trash",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrow",
+    "can",
+    "delete",
+    "garbage",
+    "remove",
+    "restore",
+    "trash",
+    "up"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}
