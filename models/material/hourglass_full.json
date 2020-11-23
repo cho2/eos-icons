@@ -13,8 +13,6 @@
     "full",
     "minute"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

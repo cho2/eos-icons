@@ -12,8 +12,6 @@
     "place",
     "room"
   ],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

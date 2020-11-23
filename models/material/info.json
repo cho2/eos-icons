@@ -2,16 +2,7 @@
   "name": "info",
   "do": "",
   "dont": "",
-  "tags": [
-    "alert",
-    "bubble",
-    "i",
-    "information",
-    "announcement",
-    "info"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["alert", "bubble", "i", "information", "announcement", "info"],
+  "category": ["action"],
   "type": "static"
 }

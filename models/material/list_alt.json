@@ -13,8 +13,6 @@
     "stacked",
     "title"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

@@ -12,8 +12,6 @@
     "favorite",
     "heart"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

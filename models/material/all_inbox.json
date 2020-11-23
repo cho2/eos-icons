@@ -12,8 +12,6 @@
     "post",
     "send"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

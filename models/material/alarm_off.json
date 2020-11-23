@@ -17,8 +17,6 @@
     "time",
     "on"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

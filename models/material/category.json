@@ -12,8 +12,6 @@
     "square",
     "triangle"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

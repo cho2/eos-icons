@@ -8,33 +8,25 @@ const combineIconsModels = async (params) => {
   const data = []
 
   try {
-    const filesEos = await fs
-      .readdirSync(targetDirEos, (err, files) => {
-        if (err) console.log(err)
+    fs.readdirSync(targetDirEos, (err, files) => {
+      if (err) console.log(err)
 
-        return files
-      })
-      .map((file) => {
-        if (file.includes('.json')) {
-          data.push(
-            JSON.parse(fs.readFileSync(`${targetDirEos}${file}`, 'utf8'))
-          )
-        }
-      })
+      return files
+    }).map((file) => {
+      if (file.includes('.json')) {
+        data.push(JSON.parse(fs.readFileSync(`${targetDirEos}${file}`, 'utf8')))
+      }
+    })
 
-    const filesMd = await fs
-      .readdirSync(targetDirMd, (err, files) => {
-        if (err) console.log(err)
+    fs.readdirSync(targetDirMd, (err, files) => {
+      if (err) console.log(err)
 
-        return files
-      })
-      .map((file) => {
-        if (file.includes('.json')) {
-          data.push(
-            JSON.parse(fs.readFileSync(`${targetDirMd}${file}`, 'utf8'))
-          )
-        }
-      })
+      return files
+    }).map((file) => {
+      if (file.includes('.json')) {
+        data.push(JSON.parse(fs.readFileSync(`${targetDirMd}${file}`, 'utf8')))
+      }
+    })
 
     return fs.writeFileSync(destDir, JSON.stringify(data, null, 2))
   } catch (error) {

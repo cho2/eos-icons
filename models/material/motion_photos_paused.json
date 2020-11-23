@@ -11,8 +11,6 @@
     "photos",
     "video"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

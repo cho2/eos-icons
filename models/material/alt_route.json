@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["map", "location", "navigation", "direction", "pin"],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

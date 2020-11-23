@@ -3,10 +3,14 @@
   "do": "",
   "dont": "",
   "tags": [
-    "photography", "photo", "image", "expose", "lens", "light", "negative"
+    "photography",
+    "photo",
+    "image",
+    "expose",
+    "lens",
+    "light",
+    "negative"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

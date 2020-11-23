@@ -2,11 +2,7 @@
   "name": "sentiment_dissatisfied",
   "do": "",
   "dont": "",
-  "tags": [
-    "unhappy", "emoji", "feedback", "angry", "sad"
-  ],
-  "category": [
-    "social"
-  ],
+  "tags": ["unhappy", "emoji", "feedback", "angry", "sad"],
+  "category": ["social"],
   "type": "static"
 }

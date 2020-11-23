@@ -16,8 +16,6 @@
     "slash",
     "travel"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

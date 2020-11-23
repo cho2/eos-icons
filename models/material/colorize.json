@@ -3,10 +3,14 @@
   "do": "",
   "dont": "",
   "tags": [
-    "photography", "photo", "image", "album", "palette", "pallet", "picker"
+    "photography",
+    "photo",
+    "image",
+    "album",
+    "palette",
+    "pallet",
+    "picker"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

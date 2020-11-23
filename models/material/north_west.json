@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["up left", "diagonal", "corner"],
-  "category": [
-    "navigation"
-  ],
+  "category": ["navigation"],
   "type": "static"
 }

@@ -15,8 +15,6 @@
     "hardware",
     "stay"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

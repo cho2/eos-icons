@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["covid", "virus", "face mask", "facemask", "chinstrap"],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

@@ -11,8 +11,6 @@
     "notification",
     "speaker"
   ],
-  "category": [
-    "navigation"
-  ],
+  "category": ["navigation"],
   "type": "static"
 }

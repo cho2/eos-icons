@@ -17,8 +17,6 @@
     "statistics",
     "chart"
   ],
-  "category": [
-    "editor"
-  ],
+  "category": ["editor"],
   "type": "static"
 }

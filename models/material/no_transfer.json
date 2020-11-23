@@ -2,9 +2,14 @@
   "name": "no_transfer",
   "do": "",
   "dont": "",
-  "tags": ["van", "commute", "transport", "disabled", "not available", "unavailable"],
-  "category": [
-    "maps"
+  "tags": [
+    "van",
+    "commute",
+    "transport",
+    "disabled",
+    "not available",
+    "unavailable"
   ],
+  "category": ["maps"],
   "type": "static"
 }

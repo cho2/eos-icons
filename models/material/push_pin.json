@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["nail", "badge", "brooch", "placed", "pinned"],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

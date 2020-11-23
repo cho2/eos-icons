@@ -3,10 +3,14 @@
   "do": "",
   "dont": "",
   "tags": [
-    "mobile", "smartphone", "call", "accessory", "audio", "volume", "connectivity"
+    "mobile",
+    "smartphone",
+    "call",
+    "accessory",
+    "audio",
+    "volume",
+    "connectivity"
   ],
-  "category": [
-    "notification"
-  ],
+  "category": ["notification"],
   "type": "static"
 }

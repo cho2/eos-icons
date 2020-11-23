@@ -16,8 +16,6 @@
     "cell",
     "device"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

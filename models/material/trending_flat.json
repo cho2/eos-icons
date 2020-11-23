@@ -14,8 +14,6 @@
     "movement",
     "tracking"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

@@ -2,11 +2,7 @@
   "name": "apps",
   "do": "",
   "dont": "",
-  "tags": [
-    "applications", "function", "program"
-  ],
-  "category": [
-    "navigation"
-  ],
+  "tags": ["applications", "function", "program"],
+  "category": ["navigation"],
   "type": "static"
 }

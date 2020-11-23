@@ -2,17 +2,7 @@
   "name": "stop",
   "do": "",
   "dont": "",
-  "tags": [
-    "play",
-    "controls",
-    "music",
-    "vide",
-    "Stop",
-    "arrow",
-    "control"
-  ],
-  "category": [
-    "av"
-  ],
+  "tags": ["play", "controls", "music", "vide", "Stop", "arrow", "control"],
+  "category": ["av"],
   "type": "static"
 }

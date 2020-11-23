@@ -3,10 +3,14 @@
   "do": "",
   "dont": "",
   "tags": [
-    "phone", "telephone", "disable", "not active", "unreachble", "mobile", "deactivated"
+    "phone",
+    "telephone",
+    "disable",
+    "not active",
+    "unreachble",
+    "mobile",
+    "deactivated"
   ],
-  "category": [
-    "hardware"
-  ],
+  "category": ["hardware"],
   "type": "static"
 }

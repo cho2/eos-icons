@@ -14,8 +14,6 @@
     "opacity",
     "water"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

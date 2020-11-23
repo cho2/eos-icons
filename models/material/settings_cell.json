@@ -13,8 +13,6 @@
     "Android",
     "hardware"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

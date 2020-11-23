@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["caution", "staircase", "stairway"],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

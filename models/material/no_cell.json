@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["mobile", "cellphone", "phone"],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

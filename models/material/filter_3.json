@@ -2,11 +2,7 @@
   "name": "filter_3",
   "do": "",
   "dont": "",
-  "tags": [
-    "photography", "photo", "image", "edit", "three"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["photography", "photo", "image", "edit", "three"],
+  "category": ["image"],
   "type": "static"
 }

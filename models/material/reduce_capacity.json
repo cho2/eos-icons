@@ -2,9 +2,20 @@
   "name": "reduce_capacity",
   "do": "",
   "dont": "",
-  "tags": ["less", "lower", "lessen", "decrease", "people", "groups", "attendance", "customers", "clients", "minimize", "narrow", "shrink"],
-  "category": [
-    "social"
+  "tags": [
+    "less",
+    "lower",
+    "lessen",
+    "decrease",
+    "people",
+    "groups",
+    "attendance",
+    "customers",
+    "clients",
+    "minimize",
+    "narrow",
+    "shrink"
   ],
+  "category": ["social"],
   "type": "static"
 }

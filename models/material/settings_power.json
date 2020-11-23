@@ -12,8 +12,6 @@
     "info",
     "on"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

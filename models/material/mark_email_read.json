@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["viewed", "email", "message"],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

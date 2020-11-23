@@ -2,15 +2,7 @@
   "name": "rss_feed",
   "do": "",
   "dont": "",
-  "tags": [
-    "feed",
-    "website",
-    "Rss",
-    "application",
-    "blog"
-  ],
-  "category": [
-    "communication"
-  ],
+  "tags": ["feed", "website", "Rss", "application", "blog"],
+  "category": ["communication"],
   "type": "static"
 }

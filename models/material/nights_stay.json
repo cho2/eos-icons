@@ -17,8 +17,6 @@
     "time",
     "weather"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

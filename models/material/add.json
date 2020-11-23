@@ -2,15 +2,7 @@
   "name": "add",
   "do": "",
   "dont": "",
-  "tags": [
-    "add",
-    "new",
-    "create",
-    "+",
-    "plus"
-  ],
-  "category": [
-    "content"
-  ],
+  "tags": ["add", "new", "create", "+", "plus"],
+  "category": ["content"],
   "type": "static"
 }

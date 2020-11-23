@@ -15,8 +15,6 @@
     "picture",
     "search"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

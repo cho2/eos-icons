@@ -2,17 +2,7 @@
   "name": "publish",
   "do": "",
   "dont": "",
-  "tags": [
-    "cloud",
-    "file",
-    "import",
-    "arrow",
-    "upload",
-    "publish",
-    "up"
-  ],
-  "category": [
-    "editor"
-  ],
+  "tags": ["cloud", "file", "import", "arrow", "upload", "publish", "up"],
+  "category": ["editor"],
   "type": "static"
 }

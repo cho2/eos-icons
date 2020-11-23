@@ -2,15 +2,7 @@
   "name": "apartment",
   "do": "",
   "dont": "",
-  "tags": [
-    "flat",
-    "building",
-    "condo",
-    "residence",
-    "suite"
-  ],
-  "category": [
-    "places"
-  ],
+  "tags": ["flat", "building", "condo", "residence", "suite"],
+  "category": ["places"],
   "type": "static"
 }

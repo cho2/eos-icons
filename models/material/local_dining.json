@@ -13,8 +13,6 @@
     "food",
     "local"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

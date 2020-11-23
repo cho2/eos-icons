@@ -14,8 +14,6 @@
     "off",
     "on"
   ],
-  "category": [
-    "device"
-  ],
+  "category": ["device"],
   "type": "static"
 }

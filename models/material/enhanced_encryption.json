@@ -2,15 +2,7 @@
   "name": "enhanced_encryption",
   "do": "",
   "dont": "",
-  "tags": [
-    "decrypt",
-    "decipher",
-    "add",
-    "include",
-    "increase"
-  ],
-  "category": [
-    "notification"
-  ],
+  "tags": ["decrypt", "decipher", "add", "include", "increase"],
+  "category": ["notification"],
   "type": "static"
 }

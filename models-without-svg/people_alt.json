@@ -2,11 +2,7 @@
   "name": "people_alt",
   "do": "",
   "dont": "",
-  "tags": [
-    "group", "team", "business", "users"
-  ],
-  "category": [
-    "social"
-  ],
+  "tags": ["group", "team", "business", "users"],
+  "category": ["social"],
   "type": "static"
 }

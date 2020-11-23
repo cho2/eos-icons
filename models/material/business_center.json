@@ -2,14 +2,7 @@
   "name": "business_center",
   "do": "",
   "dont": "",
-  "tags": [
-    "portfolio",
-    "briefcase",
-    "bag",
-    "folder"
-  ],
-  "category": [
-    "places"
-  ],
+  "tags": ["portfolio", "briefcase", "bag", "folder"],
+  "category": ["places"],
   "type": "static"
 }

@@ -12,8 +12,6 @@
     "camper trailer",
     "connection"
   ],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

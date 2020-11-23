@@ -2,11 +2,7 @@
   "name": "filter_center_focus",
   "do": "",
   "dont": "",
-  "tags": [
-    "photography", "photo", "image", "centered", "focused", "alignment"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["photography", "photo", "image", "centered", "focused", "alignment"],
+  "category": ["image"],
   "type": "static"
 }

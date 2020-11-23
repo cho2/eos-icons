@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["chat", "conversation", "on"],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

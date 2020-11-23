@@ -12,8 +12,6 @@
     "secure",
     "card"
   ],
-  "category": [
-    "device"
-  ],
+  "category": ["device"],
   "type": "static"
 }

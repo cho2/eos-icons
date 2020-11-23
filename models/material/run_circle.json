@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["man", "user", "woman", "running", "sprint", "race", "rush", "exit"],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

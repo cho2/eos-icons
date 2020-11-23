@@ -12,8 +12,6 @@
     "clock",
     "time"
   ],
-  "category": [
-    "av"
-  ],
+  "category": ["av"],
   "type": "static"
 }

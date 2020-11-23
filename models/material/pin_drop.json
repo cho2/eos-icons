@@ -13,8 +13,6 @@
     "point",
     "direction"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

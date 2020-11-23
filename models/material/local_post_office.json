@@ -15,8 +15,6 @@
     "send",
     "shpping"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

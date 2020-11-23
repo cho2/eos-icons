@@ -12,8 +12,6 @@
     "plug",
     "points"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

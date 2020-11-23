@@ -2,9 +2,18 @@
   "name": "rule",
   "do": "",
   "dont": "",
-  "tags": ["false", "true", "check", "x", "close", "cancel", "list", "options", "regulation", "directive"],
-  "category": [
-    "action"
+  "tags": [
+    "false",
+    "true",
+    "check",
+    "x",
+    "close",
+    "cancel",
+    "list",
+    "options",
+    "regulation",
+    "directive"
   ],
+  "category": ["action"],
   "type": "static"
 }

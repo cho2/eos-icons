@@ -2,15 +2,7 @@
   "name": "notes",
   "do": "",
   "dont": "",
-  "tags": [
-    "comment",
-    "doc",
-    "document",
-    "note",
-    "text"
-  ],
-  "category": [
-    "editor"
-  ],
+  "tags": ["comment", "doc", "document", "note", "text"],
+  "category": ["editor"],
   "type": "static"
 }

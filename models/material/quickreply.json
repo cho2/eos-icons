@@ -2,9 +2,18 @@
   "name": "quickreply",
   "do": "",
   "dont": "",
-  "tags": ["comment", "ray", "lightning", "bubble", "conversation", "communication", "response", "fast", "flash", "speed"],
-  "category": [
-    "action"
+  "tags": [
+    "comment",
+    "ray",
+    "lightning",
+    "bubble",
+    "conversation",
+    "communication",
+    "response",
+    "fast",
+    "flash",
+    "speed"
   ],
+  "category": ["action"],
   "type": "static"
 }

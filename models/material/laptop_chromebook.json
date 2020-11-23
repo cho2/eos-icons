@@ -3,10 +3,13 @@
   "do": "",
   "dont": "",
   "tags": [
-    "notebook", "computer", "microcomputer", "portable", "android", "google"
+    "notebook",
+    "computer",
+    "microcomputer",
+    "portable",
+    "android",
+    "google"
   ],
-  "category": [
-    "hardware"
-  ],
+  "category": ["hardware"],
   "type": "static"
 }

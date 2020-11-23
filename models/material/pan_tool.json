@@ -14,8 +14,6 @@
     "gesture",
     "hand"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

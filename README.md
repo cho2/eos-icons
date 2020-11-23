@@ -4,8 +4,6 @@
 
 ![EOS icons](https://res.cloudinary.com/eosdesignsystem/image/upload/v1601287831/npm/eos-icons/npm-banner.jpg)
 
-
-
 # EOS icons
 
 Visit the [EOS icons website](https://icons.eosdesignsystem.com)

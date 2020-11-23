@@ -2,15 +2,7 @@
   "name": "business",
   "do": "",
   "dont": "",
-  "tags": [
-    "address",
-    "company",
-    "building",
-    "structure",
-    "Business"
-  ],
-  "category": [
-    "communication"
-  ],
+  "tags": ["address", "company", "building", "structure", "Business"],
+  "category": ["communication"],
   "type": "static"
 }

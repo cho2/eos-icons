@@ -3,10 +3,16 @@
   "do": "",
   "dont": "",
   "tags": [
-    "add", "notification", "alert", "alarm", "countdown", "clock", "time", "bell", "plus"
+    "add",
+    "notification",
+    "alert",
+    "alarm",
+    "countdown",
+    "clock",
+    "time",
+    "bell",
+    "plus"
   ],
-  "category": [
-    "device"
-  ],
+  "category": ["device"],
   "type": "static"
 }

@@ -15,8 +15,6 @@
     "type",
     "font"
   ],
-  "category": [
-    "editor"
-  ],
+  "category": ["editor"],
   "type": "static"
 }

@@ -15,8 +15,6 @@
     "off",
     "on"
   ],
-  "category": [
-    "av"
-  ],
+  "category": ["av"],
   "type": "static"
 }

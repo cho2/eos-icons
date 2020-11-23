@@ -2,14 +2,7 @@
   "name": "delete_sweep",
   "do": "",
   "dont": "",
-  "tags": [
-    "can",
-    "delete",
-    "remove",
-    "trash"
-  ],
-  "category": [
-    "content"
-  ],
+  "tags": ["can", "delete", "remove", "trash"],
+  "category": ["content"],
   "type": "static"
 }

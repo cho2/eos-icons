@@ -13,8 +13,6 @@
     "outdoor",
     "outside"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

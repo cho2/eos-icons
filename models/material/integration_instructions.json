@@ -15,8 +15,6 @@
     "instructions",
     "integration"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }
