@@ -1,0 +1,23 @@
+{
+  "name": "sentiment_satisfied_alt",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "account",
+    "emoji",
+    "face",
+    "happy",
+    "human",
+    "people",
+    "person",
+    "profile",
+    "satisfied",
+    "sentiment",
+    "smile",
+    "user"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static"
+}

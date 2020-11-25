@@ -1,0 +1,21 @@
+{
+  "name": "sports_volleyball",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "athlete",
+    "athletic",
+    "ball",
+    "entertainment",
+    "exercise",
+    "game",
+    "hobby",
+    "social",
+    "sports",
+    "volleyball"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

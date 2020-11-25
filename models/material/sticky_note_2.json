@@ -1,0 +1,14 @@
+{
+  "name": "sticky_note_2",
+  "do": "",
+  "dont": "",
+  "tags": [
+  	"paper",
+  	"post",
+  	"reminder"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

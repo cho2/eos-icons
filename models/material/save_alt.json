@@ -1,0 +1,19 @@
+{
+  "name": "save_alt",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrow",
+    "disk",
+    "document",
+    "down",
+    "file",
+    "floppy",
+    "multimedia",
+    "save"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static"
+}

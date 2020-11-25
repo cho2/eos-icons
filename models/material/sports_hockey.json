@@ -1,0 +1,21 @@
+{
+  "name": "sports_hockey",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "athlete",
+    "athletic",
+    "entertainment",
+    "exercise",
+    "game",
+    "hobby",
+    "hockey",
+    "social",
+    "sports",
+    "sticks"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

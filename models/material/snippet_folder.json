@@ -1,0 +1,18 @@
+{
+  "name": "snippet_folder",
+  "do": "",
+  "dont": "",
+  "tags": [
+  	"brief",
+  	"fraction",
+  	"information",
+  	"particle",
+  	"code",
+  	"logic",
+  	"archive"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static"
+}

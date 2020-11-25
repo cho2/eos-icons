@@ -1,0 +1,26 @@
+{
+  "name": "sports_motorsports",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "athlete",
+    "athletic",
+    "automobile",
+    "bike",
+    "drive",
+    "driving",
+    "entertainment",
+    "helmet",
+    "hobby",
+    "motorcycle",
+    "motorsports",
+    "protect",
+    "social",
+    "sports",
+    "vehicle"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static"
+}

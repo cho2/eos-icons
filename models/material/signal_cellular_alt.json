@@ -1,0 +1,22 @@
+{
+  "name": "signal_cellular_alt",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "cell",
+    "cellular",
+    "data",
+    "internet",
+    "mobile",
+    "network",
+    "phone",
+    "signal",
+    "speed",
+    "wifi",
+    "wireless"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static"
+}

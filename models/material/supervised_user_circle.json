@@ -1,0 +1,26 @@
+{
+  "name": "supervised_user_circle",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "account",
+    "avatar",
+    "circle",
+    "control",
+    "face",
+    "human",
+    "parental",
+    "parental control",
+    "parents",
+    "people",
+    "person",
+    "profile",
+    "supervised",
+    "supervisor",
+    "user"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}
