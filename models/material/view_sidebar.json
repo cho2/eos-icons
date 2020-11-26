@@ -1,0 +1,10 @@
+{
+  "name": "view_sidebar",
+  "do": "",
+  "dont": "",
+  "tags": ["menu", "navigation", "on", "open", "enable"],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}
