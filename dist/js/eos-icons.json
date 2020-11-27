@@ -20359,29 +20359,6 @@
     "type": "static"
   },
   {
-    "name": "sentiment_satisfied_alt",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "account",
-      "emoji",
-      "face",
-      "happy",
-      "human",
-      "people",
-      "person",
-      "profile",
-      "satisfied",
-      "sentiment",
-      "smile",
-      "user"
-    ],
-    "category": [
-      "communication"
-    ],
-    "type": "static"
-  },
-  {
     "name": "sentiment_very_dissatisfied",
     "do": "",
     "dont": "",
@@ -22160,26 +22137,6 @@
     "type": "static"
   },
   {
-    "name": "star_rate",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "favorite",
-      "grade",
-      "likes",
-      "love",
-      "rate",
-      "rated",
-      "rating",
-      "shape",
-      "star"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static"
-  },
-  {
     "name": "stars",
     "do": "",
     "dont": "",
@@ -22242,7 +22199,7 @@
     "type": "static"
   },
   {
-    "name": "sticky_note_2",
+    "name": "sticky_note",
     "do": "",
     "dont": "",
     "tags": [
