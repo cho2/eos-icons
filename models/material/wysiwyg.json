@@ -1,0 +1,10 @@
+{
+  "name": "wysiwyg",
+  "do": "",
+  "dont": "",
+  "tags": ["editor", "text", "design software"],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

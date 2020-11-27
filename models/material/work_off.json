@@ -1,0 +1,21 @@
+{
+  "name": "work_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "briefcase",
+    "disabled",
+    "enabled",
+    "job",
+    "off",
+    "on",
+    "slash",
+    "suit",
+    "suitcase",
+    "work"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

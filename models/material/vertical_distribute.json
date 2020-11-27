@@ -1,0 +1,10 @@
+{
+  "name": "vertical_distribute",
+  "do": "",
+  "dont": "",
+  "tags": ["disperse", "partition", "allot", "scatter"],
+  "category": [
+    "editor"
+  ],
+  "type": "static"
+}
