@@ -189,9 +189,7 @@ module.exports = function (grunt) {
     const done = this.async()
 
     /* Add icons list here */
-    const iconList = [
-      'wb_cloudy',
-    ]
+    const iconList = []
 
     for await (const icon of iconList) {
       await downloadSvgFile(icon).then()

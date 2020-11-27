@@ -1,0 +1,27 @@
+{
+  "name": "toggle_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "active",
+    "component",
+    "configuration",
+    "control",
+    "disable",
+    "inable",
+    "inactive",
+    "off",
+    "on",
+    "selection",
+    "settings",
+    "slider",
+    "switch",
+    "toggle",
+    "ui",
+    "website"
+  ],
+  "category": [
+    "toggle"
+  ],
+  "type": "static"
+}

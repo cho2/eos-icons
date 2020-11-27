@@ -21858,6 +21858,78 @@
     "type": "static"
   },
   {
+    "name": "table_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "statistics",
+      "table",
+      "tracking"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "table_rows",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "statistics",
+      "table",
+      "tracking"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "table_view",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "statistics",
+      "table",
+      "tracking"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "tablet",
     "do": "",
     "dont": "",
@@ -21937,6 +22009,22 @@
     "type": "static"
   },
   {
+    "name": "tapas",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "food",
+      "spanish",
+      "meal",
+      "dinner",
+      "restaurant"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "terrain",
     "do": "",
     "dont": "",
@@ -21991,6 +22079,163 @@
     ],
     "category": [
       "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_rotate_up",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "arrow",
+      "character",
+      "field",
+      "font",
+      "letter",
+      "move",
+      "rotate",
+      "symbol",
+      "text",
+      "type",
+      "up"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_rotate_vertical",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "arrow",
+      "character",
+      "field",
+      "font",
+      "letter",
+      "move",
+      "rotate",
+      "symbol",
+      "text",
+      "type",
+      "vertical"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_rotation_angledown",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "angledown",
+      "arrow",
+      "character",
+      "field",
+      "font",
+      "letter",
+      "move",
+      "rotate",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_rotation_angleup",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "angleup",
+      "arrow",
+      "character",
+      "field",
+      "font",
+      "letter",
+      "move",
+      "rotate",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_rotation_down",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "arrow",
+      "character",
+      "down",
+      "field",
+      "font",
+      "letter",
+      "move",
+      "rotate",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_rotation_none",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "arrow",
+      "character",
+      "field",
+      "font",
+      "letter",
+      "move",
+      "none",
+      "rotate",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_snippet",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "shortcut",
+      "keyboard"
+    ],
+    "category": [
+      "file"
     ],
     "type": "static"
   },
@@ -22301,6 +22546,60 @@
     "type": "static"
   },
   {
+    "name": "toggle_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "active",
+      "component",
+      "configuration",
+      "control",
+      "disable",
+      "inable",
+      "inactive",
+      "off",
+      "on",
+      "selection",
+      "settings",
+      "slider",
+      "switch",
+      "toggle",
+      "ui",
+      "website"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "toggle_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "active",
+      "component",
+      "configuration",
+      "control",
+      "disable",
+      "inable",
+      "inactive",
+      "off",
+      "on",
+      "selection",
+      "settings",
+      "slider",
+      "switch",
+      "toggle",
+      "ui",
+      "website"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
     "name": "toll",
     "do": "",
     "dont": "",
@@ -22345,6 +22644,21 @@
     "type": "static"
   },
   {
+    "name": "topic",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "conversation",
+      "matter",
+      "discourse",
+      "subject"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
     "name": "touch_app",
     "do": "",
     "dont": "",
@@ -22357,6 +22671,23 @@
       "apps",
       "gesture",
       "hand"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tour",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "destination",
+      "flag",
+      "places",
+      "tour",
+      "travel",
+      "visit"
     ],
     "category": [
       "action"
@@ -22501,6 +22832,24 @@
     "type": "static"
   },
   {
+    "name": "transit_enterexit",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "direction",
+      "map",
+      "public",
+      "route",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "translate",
     "do": "",
     "dont": "",
@@ -22581,6 +22930,38 @@
     "type": "static"
   },
   {
+    "name": "trip_origin",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "circle",
+      "departure",
+      "origin",
+      "trip"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tty",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "TeleTYpewriter",
+      "telephone",
+      "keys",
+      "command",
+      "unix",
+      "input"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "tune",
     "do": "",
     "dont": "",
@@ -22642,6 +23023,58 @@
     ],
     "category": [
       "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tv_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "chrome",
+      "desktop",
+      "device",
+      "disabled",
+      "enabled",
+      "hardware",
+      "iOS",
+      "mac",
+      "monitor",
+      "off",
+      "on",
+      "slash",
+      "television",
+      "tv",
+      "web",
+      "window"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "two_wheeler",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "bike",
+      "car",
+      "cars",
+      "direction",
+      "maps",
+      "motorcycle",
+      "public",
+      "scooter",
+      "sport",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
