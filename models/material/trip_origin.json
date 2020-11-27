@@ -1,0 +1,15 @@
+{
+  "name": "trip_origin",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "circle",
+    "departure",
+    "origin",
+    "trip"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}

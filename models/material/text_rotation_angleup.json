@@ -1,0 +1,24 @@
+{
+  "name": "text_rotation_angleup",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "A",
+    "alphabet",
+    "angleup",
+    "arrow",
+    "character",
+    "field",
+    "font",
+    "letter",
+    "move",
+    "rotate",
+    "symbol",
+    "text",
+    "type"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -190,22 +190,21 @@ module.exports = function (grunt) {
 
     /* Add icons list here */
     const iconList = [
-      'qr_code',
-  'qr_code_scanner',
-  'quickreply',
-  'read_more',
-  'receipt_long',
-  'reduce_capacity',
-  'report_off',
-  'request_page',
-  'request_quote',
-  'restore_from_trash',
-  'rice_bowl',
-  'roofing',
-  'room_preferences',
-  'rule',
-  'rule_folder',
-  'run_circle',
+      'table_chart',
+      'text_rotate_up',
+      'text_rotate_vertical',
+      'text_rotation_angledown',
+      'text_rotation_angleup',
+      'text_rotation_down',
+      'text_rotation_none',
+      'thumb_down_alt',
+      'thumb_up_alt',
+      'toggle_off',
+      'toggle_on',
+      'transit_enterexit',
+      'trip_origin',
+      'tv_off',
+      'two_wheeler'
     ]
 
     for await (const icon of iconList) {
