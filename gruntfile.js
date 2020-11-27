@@ -190,21 +190,13 @@ module.exports = function (grunt) {
 
     /* Add icons list here */
     const iconList = [
-      'table_chart',
-      'text_rotate_up',
-      'text_rotate_vertical',
-      'text_rotation_angledown',
-      'text_rotation_angleup',
-      'text_rotation_down',
-      'text_rotation_none',
-      'thumb_down_alt',
-      'thumb_up_alt',
-      'toggle_off',
-      'toggle_on',
-      'transit_enterexit',
-      'trip_origin',
-      'tv_off',
-      'two_wheeler'
+      'table_rows',
+      'table_view',
+      'tapas',
+      'text_snippet',
+      'topic',
+      'tour',
+      'tty',
     ]
 
     for await (const icon of iconList) {

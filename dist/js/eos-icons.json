@@ -21882,6 +21882,54 @@
     "type": "static"
   },
   {
+    "name": "table_rows",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "statistics",
+      "table",
+      "tracking"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "table_view",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "statistics",
+      "table",
+      "tracking"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "tablet",
     "do": "",
     "dont": "",
@@ -21957,6 +22005,22 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tapas",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "food",
+      "spanish",
+      "meal",
+      "dinner",
+      "restaurant"
+    ],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
@@ -22159,6 +22223,19 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_snippet",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "shortcut",
+      "keyboard"
+    ],
+    "category": [
+      "file"
     ],
     "type": "static"
   },
@@ -22567,6 +22644,21 @@
     "type": "static"
   },
   {
+    "name": "topic",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "conversation",
+      "matter",
+      "discourse",
+      "subject"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
     "name": "touch_app",
     "do": "",
     "dont": "",
@@ -22579,6 +22671,23 @@
       "apps",
       "gesture",
       "hand"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tour",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "destination",
+      "flag",
+      "places",
+      "tour",
+      "travel",
+      "visit"
     ],
     "category": [
       "action"
@@ -22832,6 +22941,23 @@
     ],
     "category": [
       "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tty",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "TeleTYpewriter",
+      "telephone",
+      "keys",
+      "command",
+      "unix",
+      "input"
+    ],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
