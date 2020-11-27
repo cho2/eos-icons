@@ -23079,6 +23079,20 @@
     "type": "static"
   },
   {
+    "name": "umbrella",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "parasol",
+      "brolly",
+      "protection"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "unarchive",
     "do": "",
     "dont": "",
@@ -23144,6 +23158,37 @@
     "type": "static"
   },
   {
+    "name": "unpublished",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "unprinted",
+      "not public"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "unsubscribe",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Unsubscribe",
+      "close",
+      "envelop",
+      "mail",
+      "newsletter",
+      "off",
+      "subscribe"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "update",
     "do": "",
     "dont": "",
@@ -23165,6 +23210,39 @@
     "type": "static"
   },
   {
+    "name": "update_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "renew",
+      "refresh",
+      "unavailable",
+      "off"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "upgrade",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "boost",
+      "arrow",
+      "elevate",
+      "promote",
+      "up",
+      "enhance",
+      "increase"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "usb",
     "do": "",
     "dont": "",
@@ -23177,6 +23255,25 @@
     ],
     "category": [
       "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "verified",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "audit",
+      "badge",
+      "certified",
+      "check",
+      "checkmark",
+      "security",
+      "user",
+      "verified"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -23276,6 +23373,38 @@
     "type": "static"
   },
   {
+    "name": "vertical_distribute",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disperse",
+      "partition",
+      "allot",
+      "scatter"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "vertical_split",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "format",
+      "paragraph",
+      "split",
+      "text",
+      "vertical",
+      "website"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "vibration",
     "do": "",
     "dont": "",
@@ -23333,6 +23462,25 @@
       "Video",
       "collection",
       "camera"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "video_settings",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Video",
+      "camera",
+      "collection",
+      "gear",
+      "play",
+      "screen",
+      "setting",
+      "settings"
     ],
     "category": [
       "av"
@@ -23584,6 +23732,22 @@
     "type": "static"
   },
   {
+    "name": "view_sidebar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "menu",
+      "navigation",
+      "on",
+      "open",
+      "enable"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "view_stream",
     "do": "",
     "dont": "",
@@ -23689,6 +23853,35 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "voice_over_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "disabled",
+      "enabled",
+      "face",
+      "human",
+      "off",
+      "on",
+      "people",
+      "person",
+      "profile",
+      "recording",
+      "slash",
+      "speak",
+      "speaking",
+      "speech",
+      "transcript",
+      "user",
+      "voice"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -23858,6 +24051,22 @@
     "type": "static"
   },
   {
+    "name": "wash",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "clean",
+      "hand",
+      "soak",
+      "rinse",
+      "cleanse"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "watch",
     "do": "",
     "dont": "",
@@ -23884,6 +24093,39 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "water_damage",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "leakage",
+      "crack",
+      "leaking"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "waves",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "beach",
+      "ocean",
+      "pool",
+      "sea",
+      "swim",
+      "water",
+      "wave",
+      "waves"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },
@@ -24029,6 +24271,19 @@
     "type": "static"
   },
   {
+    "name": "west",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "left"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
     "name": "whatshot",
     "do": "",
     "dont": "",
@@ -24040,6 +24295,40 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wheelchair_pickup",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "station",
+      "stop",
+      "handicapped",
+      "wounded"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "where_to_vote",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "ballot",
+      "check",
+      "checkmark",
+      "election",
+      "location",
+      "pin",
+      "poll",
+      "vote"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },
@@ -24078,6 +24367,23 @@
     "type": "static"
   },
   {
+    "name": "wifi_calling",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "call",
+      "calling",
+      "device",
+      "mobile",
+      "phone",
+      "wifi"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "wifi_lock",
     "do": "",
     "dont": "",
@@ -24096,6 +24402,46 @@
     ],
     "category": [
       "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wifi_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cell",
+      "cellular",
+      "data",
+      "disabled",
+      "enabled",
+      "internet",
+      "mobile",
+      "network",
+      "off",
+      "on",
+      "phone",
+      "signal",
+      "slash",
+      "speed",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wifi_protected_setup",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "cycle"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -24122,6 +24468,20 @@
     "type": "static"
   },
   {
+    "name": "wine_bar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "glass",
+      "drink",
+      "beverage"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "work",
     "do": "",
     "dont": "",
@@ -24131,6 +24491,43 @@
       "work",
       "suit",
       "job"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "work_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "briefcase",
+      "disabled",
+      "enabled",
+      "job",
+      "off",
+      "on",
+      "slash",
+      "suit",
+      "suitcase",
+      "work"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "work_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "briefcase",
+      "job",
+      "suit",
+      "suitcase",
+      "work"
     ],
     "category": [
       "action"
@@ -24155,6 +24552,42 @@
     ],
     "category": [
       "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wrong_location",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "destination",
+      "direction",
+      "error",
+      "location",
+      "maps",
+      "no",
+      "pin",
+      "place",
+      "stop",
+      "wrong",
+      "x"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wysiwyg",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "text",
+      "design software"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },

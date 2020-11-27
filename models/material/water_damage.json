@@ -1,0 +1,10 @@
+{
+  "name": "water_damage",
+  "do": "",
+  "dont": "",
+  "tags": ["leakage", "crack", "leaking"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

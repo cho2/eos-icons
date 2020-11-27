@@ -1,0 +1,22 @@
+{
+  "name": "wrong_location",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "destination",
+    "direction",
+    "error",
+    "location",
+    "maps",
+    "no",
+    "pin",
+    "place",
+    "stop",
+    "wrong",
+    "x"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static"
+}
