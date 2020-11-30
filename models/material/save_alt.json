@@ -12,8 +12,6 @@
     "multimedia",
     "save"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

@@ -17,8 +17,6 @@
     "subtitles",
     "translate"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

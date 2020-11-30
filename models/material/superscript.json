@@ -2,18 +2,7 @@
   "name": "superscript",
   "do": "",
   "dont": "",
-  "tags": [
-  	"index",
-  	"type",
-  	"format",
-  	"math",
-  	"text",
-  	"figure",
-  	"symbol",
-  	"up"
-  ],
-  "category": [
-    "editor"
-  ],
+  "tags": ["index", "type", "format", "math", "text", "figure", "symbol", "up"],
+  "category": ["editor"],
   "type": "static"
 }

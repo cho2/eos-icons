@@ -3,17 +3,15 @@
   "do": "",
   "dont": "",
   "tags": [
-  	"index",
-  	"type",
-  	"format",
-  	"math",
-  	"text",
-  	"figure",
-  	"symbol",
-  	"down"
+    "index",
+    "type",
+    "format",
+    "math",
+    "text",
+    "figure",
+    "symbol",
+    "down"
   ],
-  "category": [
-    "editor"
-  ],
+  "category": ["editor"],
   "type": "static"
 }

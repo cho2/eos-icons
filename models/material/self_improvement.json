@@ -20,8 +20,6 @@
     "yoga",
     "zen"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

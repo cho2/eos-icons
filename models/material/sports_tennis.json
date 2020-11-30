@@ -16,8 +16,6 @@
     "sports",
     "tennis"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

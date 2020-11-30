@@ -3,16 +3,14 @@
   "do": "",
   "dont": "",
   "tags": [
-  	"brief",
-  	"fraction",
-  	"information",
-  	"particle",
-  	"code",
-  	"logic",
-  	"archive"
+    "brief",
+    "fraction",
+    "information",
+    "particle",
+    "code",
+    "logic",
+    "archive"
   ],
-  "category": [
-    "file"
-  ],
+  "category": ["file"],
   "type": "static"
 }

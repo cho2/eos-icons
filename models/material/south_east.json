@@ -2,15 +2,7 @@
   "name": "south_east",
   "do": "",
   "dont": "",
-  "tags": [
-  	"direction",
-  	"arrow",
-  	"compass",
-  	"sign",
-  	"travel"
-  ],
-  "category": [
-    "navigation"
-  ],
+  "tags": ["direction", "arrow", "compass", "sign", "travel"],
+  "category": ["navigation"],
   "type": "static"
 }

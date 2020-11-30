@@ -13,8 +13,6 @@
     "safety",
     "support"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

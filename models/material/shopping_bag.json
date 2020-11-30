@@ -2,14 +2,7 @@
   "name": "shopping_bag",
   "do": "",
   "dont": "",
-  "tags": [
-  	"bag",
-  	"business",
-  	"tools",
-  	"basket"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["bag", "business", "tools", "basket"],
+  "category": ["action"],
   "type": "static"
 }

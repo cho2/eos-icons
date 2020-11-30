@@ -20,8 +20,6 @@
     "timer",
     "watch"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

@@ -15,8 +15,6 @@
     "search",
     "x"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

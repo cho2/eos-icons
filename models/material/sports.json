@@ -16,8 +16,6 @@
     "warning",
     "whistle"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

@@ -14,8 +14,6 @@
     "science",
     "tube"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

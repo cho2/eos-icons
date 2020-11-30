@@ -14,8 +14,6 @@
     "update",
     "wifi"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

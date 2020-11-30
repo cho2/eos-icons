@@ -2,16 +2,7 @@
   "name": "soap",
   "do": "",
   "dont": "",
-  "tags": [
-  	"bath",
-  	"bubbles",
-  	"shampoo",
-  	"wash",
-  	"hygiene",
-  	"care"
-  ],
-  "category": [
-    "places"
-  ],
+  "tags": ["bath", "bubbles", "shampoo", "wash", "hygiene", "care"],
+  "category": ["places"],
   "type": "static"
 }

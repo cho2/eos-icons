@@ -14,8 +14,6 @@
     "star",
     "toggle"
   ],
-  "category": [
-    "toggle"
-  ],
+  "category": ["toggle"],
   "type": "static"
 }

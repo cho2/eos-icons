@@ -15,8 +15,6 @@
     "social",
     "sports"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

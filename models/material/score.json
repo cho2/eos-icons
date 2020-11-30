@@ -27,8 +27,6 @@
     "tracking",
     "type"
   ],
-  "category": [
-    "editor"
-  ],
+  "category": ["editor"],
   "type": "static"
 }

@@ -14,8 +14,6 @@
     "sports",
     "sticks"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

@@ -14,8 +14,6 @@
     "sports",
     "volleyball"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

@@ -14,8 +14,6 @@
     "set",
     "square"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }
