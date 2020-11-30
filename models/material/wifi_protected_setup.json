@@ -1,0 +1,10 @@
+{
+  "name": "wifi_protected_setup",
+  "do": "",
+  "dont": "",
+  "tags": ["arrow", "cycle"],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

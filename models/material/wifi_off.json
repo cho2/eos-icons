@@ -1,0 +1,27 @@
+{
+  "name": "wifi_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "cell",
+    "cellular",
+    "data",
+    "disabled",
+    "enabled",
+    "internet",
+    "mobile",
+    "network",
+    "off",
+    "on",
+    "phone",
+    "signal",
+    "slash",
+    "speed",
+    "wifi",
+    "wireless"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static"
+}

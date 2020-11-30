@@ -1,0 +1,10 @@
+{
+  "name": "umbrella",
+  "do": "",
+  "dont": "",
+  "tags": ["parasol", "brolly", "protection"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

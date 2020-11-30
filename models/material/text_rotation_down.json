@@ -1,0 +1,24 @@
+{
+  "name": "text_rotation_down",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "A",
+    "alphabet",
+    "arrow",
+    "character",
+    "down",
+    "field",
+    "font",
+    "letter",
+    "move",
+    "rotate",
+    "symbol",
+    "text",
+    "type"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "wheelchair_pickup",
+  "do": "",
+  "dont": "",
+  "tags": ["station", "stop", "handicapped", "wounded"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}

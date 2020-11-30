@@ -1,0 +1,10 @@
+{
+  "name": "upgrade",
+  "do": "",
+  "dont": "",
+  "tags": ["boost", "arrow", "elevate", "promote", "up", "enhance", "increase"],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

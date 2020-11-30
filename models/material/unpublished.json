@@ -1,0 +1,10 @@
+{
+  "name": "unpublished",
+  "do": "",
+  "dont": "",
+  "tags": ["unprinted", "not public"],
+  "category": [
+    "action"
+  ],
+  "type": "static"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "tapas",
+  "do": "",
+  "dont": "",
+  "tags": ["food", "spanish", "meal", "dinner", "restaurant"],
+  "category": [
+    "places"
+  ],
+  "type": "static"
+}
