@@ -1,0 +1,17 @@
+{
+  "name": "video_settings",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Video",
+    "camera",
+    "collection",
+    "gear",
+    "play",
+    "screen",
+    "setting",
+    "settings"
+  ],
+  "category": ["av"],
+  "type": "static"
+}

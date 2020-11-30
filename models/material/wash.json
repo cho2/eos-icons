@@ -1,0 +1,8 @@
+{
+  "name": "wash",
+  "do": "",
+  "dont": "",
+  "tags": ["clean", "hand", "soak", "rinse", "cleanse"],
+  "category": ["places"],
+  "type": "static"
+}

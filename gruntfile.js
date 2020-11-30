@@ -16,11 +16,11 @@ module.exports = function (grunt) {
 
   //Append path to your svg below
   //EOS-set and MD svg path
-  const src_eos_set = ['svg/*.svg', 'svg/material/*.svg']
+  const srcEosSet = ['svg/*.svg', 'svg/material/*.svg']
   grunt.initConfig({
     webfont: {
       icons: {
-        src: src_eos_set,
+        src: srcEosSet,
         dest: 'dist/fonts',
         destCss: 'dist/css',
         destScss: 'dist/css',

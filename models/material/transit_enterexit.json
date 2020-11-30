@@ -1,0 +1,16 @@
+{
+  "name": "transit_enterexit",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrow",
+    "direction",
+    "map",
+    "public",
+    "route",
+    "transportation",
+    "vehicle"
+  ],
+  "category": ["maps"],
+  "type": "static"
+}

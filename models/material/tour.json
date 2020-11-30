@@ -1,0 +1,8 @@
+{
+  "name": "tour",
+  "do": "",
+  "dont": "",
+  "tags": ["destination", "flag", "places", "tour", "travel", "visit"],
+  "category": ["action"],
+  "type": "static"
+}

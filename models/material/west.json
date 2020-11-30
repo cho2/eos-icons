@@ -1,0 +1,8 @@
+{
+  "name": "west",
+  "do": "",
+  "dont": "",
+  "tags": ["arrow", "left"],
+  "category": ["navigation"],
+  "type": "static"
+}
