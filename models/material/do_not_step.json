@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["stop", "forbidden", "prohibited", "banned", "footstep", "walk"],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

@@ -3,10 +3,13 @@
   "do": "",
   "dont": "",
   "tags": [
-    "sport", "fight", "fighter", "martial arts", "wrestling", "activity"
+    "sport",
+    "fight",
+    "fighter",
+    "martial arts",
+    "wrestling",
+    "activity"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

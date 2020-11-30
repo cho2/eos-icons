@@ -2,15 +2,7 @@
   "name": "label",
   "do": "",
   "dont": "",
-  "tags": [
-    "indent",
-    "sticker",
-    "stamp",
-    "label",
-    "tag"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["indent", "sticker", "stamp", "label", "tag"],
+  "category": ["action"],
   "type": "static"
 }

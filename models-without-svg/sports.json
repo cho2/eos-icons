@@ -2,11 +2,7 @@
   "name": "sports",
   "do": "",
   "dont": "",
-  "tags": [
-    "sport", "game", "activity"
-  ],
-  "category": [
-    "social"
-  ],
+  "tags": ["sport", "game", "activity"],
+  "category": ["social"],
   "type": "static"
 }

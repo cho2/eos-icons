@@ -14,8 +14,6 @@
     "window",
     "windows"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

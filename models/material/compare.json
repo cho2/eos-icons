@@ -3,10 +3,14 @@
   "do": "",
   "dont": "",
   "tags": [
-    "photography", "photo", "image", "analyze", "analyise", "contrast", "match"
+    "photography",
+    "photo",
+    "image",
+    "analyze",
+    "analyise",
+    "contrast",
+    "match"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

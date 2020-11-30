@@ -2,11 +2,7 @@
   "name": "burst_mode",
   "do": "",
   "dont": "",
-  "tags": [
-    "photography", "camera"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["photography", "camera"],
+  "category": ["image"],
   "type": "static"
 }

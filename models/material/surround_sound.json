@@ -2,16 +2,7 @@
   "name": "surround_sound",
   "do": "",
   "dont": "",
-  "tags": [
-    "system",
-    "speaker",
-    "volumn",
-    "Sound",
-    "circle",
-    "surround"
-  ],
-  "category": [
-    "av"
-  ],
+  "tags": ["system", "speaker", "volumn", "Sound", "circle", "surround"],
+  "category": ["av"],
   "type": "static"
 }

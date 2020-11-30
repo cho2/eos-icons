@@ -16,8 +16,6 @@
     "write",
     "writing"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

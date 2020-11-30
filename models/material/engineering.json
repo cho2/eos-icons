@@ -19,8 +19,6 @@
     "setting",
     "worker"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

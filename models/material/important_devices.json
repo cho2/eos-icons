@@ -17,8 +17,6 @@
     "device",
     "hardware"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

@@ -14,8 +14,6 @@
     "water",
     "boat"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

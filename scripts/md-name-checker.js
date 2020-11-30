@@ -18,7 +18,11 @@ const readFiles = async (dir) => {
   const regEx = /(.*)24px.svg/gm
 
   try {
-    const icons = await fs.readdirSync(dir, (err, filenames) => filenames)
+    const icons = await fs.readdirSync(dir, (err, filenames) => {
+      if (err) console.error(err)
+
+      return filenames
+    })
 
     /**
      * If the target is node_modules, we match the regex and we rename the icons by removing the ic_ prefix and _24px sufix
@@ -35,7 +39,6 @@ const readFiles = async (dir) => {
     if (error.errno !== -2) {
       console.log('ERROR: readFiles() => : ', error)
     } else {
-      return
     }
   }
 }
@@ -48,7 +51,7 @@ const fetchIcons = async (mainDir) => {
     let arr = []
 
     /* For each directory, we push the matched file_name to the empty array */
-    for await (let ele of arrayOfFolders) {
+    for await (const ele of arrayOfFolders) {
       const data = await readFiles(`${ele}/svg/production`)
       arr.push(data)
     }

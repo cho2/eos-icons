@@ -2,16 +2,7 @@
   "name": "view_headline",
   "do": "",
   "dont": "",
-  "tags": [
-    "paragraph",
-    "view",
-    "website",
-    "format",
-    "text",
-    "headline"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["paragraph", "view", "website", "format", "text", "headline"],
+  "category": ["action"],
   "type": "static"
 }

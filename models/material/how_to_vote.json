@@ -2,14 +2,7 @@
   "name": "how_to_vote",
   "do": "",
   "dont": "",
-  "tags": [
-    "ballot",
-    "election",
-    "poll",
-    "vote"
-  ],
-  "category": [
-    "content"
-  ],
+  "tags": ["ballot", "election", "poll", "vote"],
+  "category": ["content"],
   "type": "static"
 }

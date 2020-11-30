@@ -2,12 +2,7 @@
   "name": "file_upload",
   "do": "",
   "dont": "",
-  "tags": [
-    "store",
-    "load"
-  ],
-  "category": [
-    "content"
-  ],
+  "tags": ["store", "load"],
+  "category": ["content"],
   "type": "static"
 }

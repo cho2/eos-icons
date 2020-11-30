@@ -11,8 +11,6 @@
     "clipboard",
     "article"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

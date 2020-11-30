@@ -5,3 +5,5 @@ dist/
 package-lock.json
 package.json
 .gitlab/
+templates/
+scripts/md-web-data.json

@@ -15,8 +15,6 @@
     "wrong",
     "x"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

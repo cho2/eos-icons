@@ -13,8 +13,6 @@
     "off",
     "target"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

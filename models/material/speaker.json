@@ -2,11 +2,7 @@
   "name": "speaker",
   "do": "",
   "dont": "",
-  "tags": [
-    "volume", "sound", "audio", "hi-fi", "stereo"
-  ],
-  "category": [
-    "hardware"
-  ],
+  "tags": ["volume", "sound", "audio", "hi-fi", "stereo"],
+  "category": ["hardware"],
   "type": "static"
 }

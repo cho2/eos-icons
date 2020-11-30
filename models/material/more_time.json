@@ -2,13 +2,7 @@
   "name": "more_time",
   "do": "",
   "dont": "",
-  "tags": [
-    "More",
-    "time",
-    "extension"
-  ],
-  "category": [
-    "communication"
-  ],
+  "tags": ["More", "time", "extension"],
+  "category": ["communication"],
   "type": "static"
 }

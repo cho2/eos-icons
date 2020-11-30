@@ -12,8 +12,6 @@
     "Brandig",
     "emblem"
   ],
-  "category": [
-    "av"
-  ],
+  "category": ["av"],
   "type": "static"
 }

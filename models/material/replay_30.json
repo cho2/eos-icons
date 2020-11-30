@@ -16,8 +16,6 @@
     "30",
     "digit"
   ],
-  "category": [
-    "av"
-  ],
+  "category": ["av"],
   "type": "static"
 }

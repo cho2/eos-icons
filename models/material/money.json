@@ -21,8 +21,6 @@
     "shopping",
     "symbol"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

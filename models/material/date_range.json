@@ -13,8 +13,6 @@
     "event",
     "day"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

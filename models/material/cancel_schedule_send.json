@@ -2,14 +2,7 @@
   "name": "cancel_schedule_send",
   "do": "",
   "dont": "",
-  "tags": [
-    "cancel",
-    "mail",
-    "schedule",
-    "send"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["cancel", "mail", "schedule", "send"],
+  "category": ["action"],
   "type": "static"
 }

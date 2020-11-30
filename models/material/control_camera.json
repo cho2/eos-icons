@@ -13,8 +13,6 @@
     "move",
     "right"
   ],
-  "category": [
-    "av"
-  ],
+  "category": ["av"],
   "type": "static"
 }

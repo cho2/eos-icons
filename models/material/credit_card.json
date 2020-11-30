@@ -12,8 +12,6 @@
     "card",
     "info"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

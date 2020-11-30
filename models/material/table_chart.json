@@ -17,8 +17,6 @@
     "table",
     "tracking"
   ],
-  "category": [
-    "editor"
-  ],
+  "category": ["editor"],
   "type": "static"
 }

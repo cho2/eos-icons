@@ -2,15 +2,7 @@
   "name": "video_library",
   "do": "",
   "dont": "",
-  "tags": [
-    "play",
-    "libary",
-    "Video",
-    "collection",
-    "camera"
-  ],
-  "category": [
-    "av"
-  ],
+  "tags": ["play", "libary", "Video", "collection", "camera"],
+  "category": ["av"],
   "type": "static"
 }

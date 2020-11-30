@@ -2,11 +2,7 @@
   "name": "arrow_upward",
   "do": "",
   "dont": "",
-  "tags": [
-    "direction", "up", "above", "greater"
-  ],
-  "category": [
-    "navigation"
-  ],
+  "tags": ["direction", "up", "above", "greater"],
+  "category": ["navigation"],
   "type": "static"
 }

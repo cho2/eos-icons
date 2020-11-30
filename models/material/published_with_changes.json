@@ -2,9 +2,16 @@
   "name": "published_with_changes",
   "do": "",
   "dont": "",
-  "tags": ["renew", "arrow", "check", "ok", "confirmed", "finished", "changed", "refreshed"],
-  "category": [
-    "action"
+  "tags": [
+    "renew",
+    "arrow",
+    "check",
+    "ok",
+    "confirmed",
+    "finished",
+    "changed",
+    "refreshed"
   ],
+  "category": ["action"],
   "type": "static"
 }

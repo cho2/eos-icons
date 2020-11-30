@@ -2,7 +2,8 @@
   "name": "motion_photos_pause",
   "do": "",
   "dont": "",
-  "tags": ["animation",
+  "tags": [
+    "animation",
     "circle",
     "disabled",
     "enabled",
@@ -12,9 +13,8 @@
     "photos",
     "play",
     "slash",
-    "video"],
-  "category": [
-    "image"
+    "video"
   ],
+  "category": ["image"],
   "type": "static"
 }

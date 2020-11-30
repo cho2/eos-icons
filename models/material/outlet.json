@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["connect", "socket", "channel"],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

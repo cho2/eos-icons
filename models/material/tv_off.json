@@ -22,8 +22,6 @@
     "web",
     "window"
   ],
-  "category": [
-    "notification"
-  ],
+  "category": ["notification"],
   "type": "static"
 }

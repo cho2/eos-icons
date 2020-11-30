@@ -2,14 +2,7 @@
   "name": "mode_edit",
   "do": "",
   "dont": "",
-  "tags": [
-    "bubble",
-    "speech",
-    "chat",
-    "comment"
-  ],
-  "category": [
-    "editor"
-  ],
+  "tags": ["bubble", "speech", "chat", "comment"],
+  "category": ["editor"],
   "type": "static"
 }

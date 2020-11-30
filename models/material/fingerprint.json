@@ -12,8 +12,6 @@
     "thumbprint",
     "id"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

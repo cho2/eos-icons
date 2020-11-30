@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["bag", "baggage", "belongings"],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

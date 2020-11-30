@@ -13,8 +13,6 @@
     "announcement",
     "info"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

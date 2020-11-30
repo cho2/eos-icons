@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["conversation", "matter", "discourse", "subject"],
-  "category": [
-    "file"
-  ],
+  "category": ["file"],
   "type": "static"
 }

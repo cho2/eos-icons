@@ -12,8 +12,6 @@
     "structure",
     "home"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

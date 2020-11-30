@@ -11,8 +11,6 @@
     "transportation",
     "vehicle"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

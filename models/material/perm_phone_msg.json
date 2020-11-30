@@ -12,8 +12,6 @@
     "recording",
     "message"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

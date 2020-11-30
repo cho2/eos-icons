@@ -11,8 +11,6 @@
     "exclamation",
     "announcement"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

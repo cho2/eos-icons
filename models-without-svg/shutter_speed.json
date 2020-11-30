@@ -3,10 +3,13 @@
   "do": "",
   "dont": "",
   "tags": [
-    "camera", "setting", "speedometer", "performance ", "fast", "photo shoot"
+    "camera",
+    "setting",
+    "speedometer",
+    "performance ",
+    "fast",
+    "photo shoot"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

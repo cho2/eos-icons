@@ -2,11 +2,7 @@
   "name": "emoji_people",
   "do": "",
   "dont": "",
-  "tags": [
-    "emoticon", "avatar", "person", "user"
-  ],
-  "category": [
-    "social"
-  ],
+  "tags": ["emoticon", "avatar", "person", "user"],
+  "category": ["social"],
   "type": "static"
 }

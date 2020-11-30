@@ -11,8 +11,6 @@
     "audio",
     "graphic"
   ],
-  "category": [
-    "device"
-  ],
+  "category": ["device"],
   "type": "static"
 }

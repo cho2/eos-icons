@@ -3,10 +3,16 @@
   "do": "",
   "dont": "",
   "tags": [
-    "writing", "words", "type", "key", "letter", "words", "lock", "capital", "block"
+    "writing",
+    "words",
+    "type",
+    "key",
+    "letter",
+    "words",
+    "lock",
+    "capital",
+    "block"
   ],
-  "category": [
-    "hardware"
-  ],
+  "category": ["hardware"],
   "type": "static"
 }

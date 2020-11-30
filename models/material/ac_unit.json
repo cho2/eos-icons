@@ -11,8 +11,6 @@
     "congelation",
     "snowflake"
   ],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

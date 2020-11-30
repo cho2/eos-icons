@@ -12,8 +12,6 @@
     "signal",
     "off"
   ],
-  "category": [
-    "device"
-  ],
+  "category": ["device"],
   "type": "static"
 }

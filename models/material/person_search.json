@@ -2,7 +2,8 @@
   "name": "person_search",
   "do": "",
   "dont": "",
-  "tags": ["account",
+  "tags": [
+    "account",
     "face",
     "human",
     "people",
@@ -11,9 +12,8 @@
     "find",
     "search",
     "look for",
-    "user"],
-  "category": [
-    "communication"
+    "user"
   ],
+  "category": ["communication"],
   "type": "static"
 }

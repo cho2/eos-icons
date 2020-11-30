@@ -12,8 +12,6 @@
     "comment",
     "plus"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

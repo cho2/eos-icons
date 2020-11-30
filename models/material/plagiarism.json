@@ -14,8 +14,6 @@
     "search",
     "see"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

@@ -2,15 +2,7 @@
   "name": "storefront",
   "do": "",
   "dont": "",
-  "tags": [
-    "shop",
-    "drugstore",
-    "shopping",
-    "market",
-    "grocery"
-  ],
-  "category": [
-    "places"
-  ],
+  "tags": ["shop", "drugstore", "shopping", "market", "grocery"],
+  "category": ["places"],
   "type": "static"
 }

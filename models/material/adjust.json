@@ -3,10 +3,15 @@
   "do": "",
   "dont": "",
   "tags": [
-    "accommodate", "accustom", "adapt", "alter", "conform", "fine-tune", "fix", "modify"
+    "accommodate",
+    "accustom",
+    "adapt",
+    "alter",
+    "conform",
+    "fine-tune",
+    "fix",
+    "modify"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

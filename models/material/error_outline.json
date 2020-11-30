@@ -16,8 +16,6 @@
     "caution",
     "mark"
   ],
-  "category": [
-    "alert"
-  ],
+  "category": ["alert"],
   "type": "static"
 }

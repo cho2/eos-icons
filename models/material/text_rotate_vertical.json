@@ -17,8 +17,6 @@
     "type",
     "vertical"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

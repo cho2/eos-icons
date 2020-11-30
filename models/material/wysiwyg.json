@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["editor", "text", "design software"],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

@@ -15,8 +15,6 @@
     "editing",
     "spreadsheet"
   ],
-  "category": [
-    "editor"
-  ],
+  "category": ["editor"],
   "type": "static"
 }

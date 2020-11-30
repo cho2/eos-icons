@@ -19,8 +19,6 @@
     "social",
     "world"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

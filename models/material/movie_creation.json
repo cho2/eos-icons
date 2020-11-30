@@ -2,11 +2,7 @@
   "name": "movie_creation",
   "do": "",
   "dont": "",
-  "tags": [
-    "video", "photo", "image", "camera", "film"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["video", "photo", "image", "camera", "film"],
+  "category": ["image"],
   "type": "static"
 }

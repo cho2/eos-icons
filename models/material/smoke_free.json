@@ -10,8 +10,6 @@
     "tobacco",
     "cigar"
   ],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

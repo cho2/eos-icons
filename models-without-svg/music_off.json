@@ -2,11 +2,7 @@
   "name": "music_off",
   "do": "",
   "dont": "",
-  "tags": [
-    "musical", "tune", "song"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["musical", "tune", "song"],
+  "category": ["image"],
   "type": "static"
 }

@@ -2,15 +2,7 @@
   "name": "swap_vert",
   "do": "",
   "dont": "",
-  "tags": [
-    "arrow",
-    "arrows",
-    "back",
-    "vertical",
-    "direction"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["arrow", "arrows", "back", "vertical", "direction"],
+  "category": ["action"],
   "type": "static"
 }

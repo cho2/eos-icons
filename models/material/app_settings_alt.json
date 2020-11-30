@@ -18,8 +18,6 @@
     "settings",
     "tablet"
   ],
-  "category": [
-    "navigation"
-  ],
+  "category": ["navigation"],
   "type": "static"
 }

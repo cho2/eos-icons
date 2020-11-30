@@ -16,8 +16,6 @@
     "route",
     "stop"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

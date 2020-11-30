@@ -2,11 +2,7 @@
   "name": "toys",
   "do": "",
   "dont": "",
-  "tags": [
-    "game", "play"
-  ],
-  "category": [
-    "hardware"
-  ],
+  "tags": ["game", "play"],
+  "category": ["hardware"],
   "type": "static"
 }

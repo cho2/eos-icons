@@ -18,7 +18,10 @@ const eosMdIconsDifferences = async (params) => {
 
   try {
     const mdIcons = await fs
-      .readdirSync(targetDirMd, (err, filenames) => filenames)
+      .readdirSync(targetDirMd, (err, filenames) => {
+        if (err) console.error(err)
+        return filenames
+      })
       .map((ele) => ele.replace(/\.[^/.]+$/, ''))
     const webMdIconsData = JSON.parse(
       fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", '')

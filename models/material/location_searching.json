@@ -13,8 +13,6 @@
     "tracking",
     "direction"
   ],
-  "category": [
-    "device"
-  ],
+  "category": ["device"],
   "type": "static"
 }

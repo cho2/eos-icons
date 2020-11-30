@@ -2,11 +2,7 @@
   "name": "photo_library",
   "do": "",
   "dont": "",
-  "tags": [
-    "photography", "image", "collection"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["photography", "image", "collection"],
+  "category": ["image"],
   "type": "static"
 }

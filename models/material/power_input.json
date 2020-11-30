@@ -2,11 +2,7 @@
   "name": "power_input",
   "do": "",
   "dont": "",
-  "tags": [
-    "energy", "industry", "plug"
-  ],
-  "category": [
-    "hardware"
-  ],
+  "tags": ["energy", "industry", "plug"],
+  "category": ["hardware"],
   "type": "static"
 }

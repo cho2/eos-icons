@@ -22,8 +22,6 @@
     "symbol",
     "warning"
   ],
-  "category": [
-    "alert"
-  ],
+  "category": ["alert"],
   "type": "static"
 }

@@ -12,8 +12,6 @@
     "talk",
     "message"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

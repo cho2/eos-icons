@@ -12,8 +12,6 @@
     "user",
     "verified"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

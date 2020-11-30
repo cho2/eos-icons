@@ -2,13 +2,7 @@
   "name": "content_copy",
   "do": "",
   "dont": "",
-  "tags": [
-    "text",
-    "edit",
-    "editor"
-  ],
-  "category": [
-    "editor"
-  ],
+  "tags": ["text", "edit", "editor"],
+  "category": ["editor"],
   "type": "static"
 }

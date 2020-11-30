@@ -13,8 +13,6 @@
     "announcement",
     "info"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

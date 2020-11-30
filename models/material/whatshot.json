@@ -2,11 +2,7 @@
   "name": "whatshot",
   "do": "",
   "dont": "",
-  "tags": [
-    "new", "trend", "latest", "current"
-  ],
-  "category": [
-    "social"
-  ],
+  "tags": ["new", "trend", "latest", "current"],
+  "category": ["social"],
   "type": "static"
 }

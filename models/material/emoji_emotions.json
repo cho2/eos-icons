@@ -20,8 +20,6 @@
     "social",
     "survey"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

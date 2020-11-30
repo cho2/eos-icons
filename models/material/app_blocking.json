@@ -17,8 +17,6 @@
     "stop",
     "tablet"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

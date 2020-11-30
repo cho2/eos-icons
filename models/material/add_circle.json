@@ -2,17 +2,7 @@
   "name": "add_circle",
   "do": "",
   "dont": "",
-  "tags": [
-    "add",
-    "new",
-    "create",
-    "box",
-    "+",
-    "circle",
-    "plus"
-  ],
-  "category": [
-    "content"
-  ],
+  "tags": ["add", "new", "create", "box", "+", "circle", "plus"],
+  "category": ["content"],
   "type": "static"
 }

@@ -66,6 +66,8 @@ const duplicatedIcons = [
   'thumb_down_alt',
   'thumb_up_alt',
   'wb_cloudy',
+  'qr_code_2',
+  'request_page'
 ]
 
 module.exports = {

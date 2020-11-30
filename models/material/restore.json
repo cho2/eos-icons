@@ -14,8 +14,6 @@
     "reverse",
     "backwards"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

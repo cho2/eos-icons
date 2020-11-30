@@ -14,8 +14,6 @@
     "bullseye",
     "target"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

@@ -2,16 +2,7 @@
   "name": "menu_book",
   "do": "",
   "dont": "",
-  "tags": [
-    "book",
-    "dining",
-    "food",
-    "meal",
-    "menu",
-    "restaurant"
-  ],
-  "category": [
-    "maps"
-  ],
+  "tags": ["book", "dining", "food", "meal", "menu", "restaurant"],
+  "category": ["maps"],
   "type": "static"
 }

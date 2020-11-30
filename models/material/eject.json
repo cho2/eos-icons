@@ -2,14 +2,7 @@
   "name": "eject",
   "do": "",
   "dont": "",
-  "tags": [
-    "eject",
-    "remove",
-    "triangle",
-    "player"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["eject", "remove", "triangle", "player"],
+  "category": ["action"],
   "type": "static"
 }

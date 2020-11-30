@@ -3,10 +3,16 @@
   "do": "",
   "dont": "",
   "tags": [
-    "cloud", "server", "storage", "remote", "queue", "line", "progression", "sequence", "awaiting"
+    "cloud",
+    "server",
+    "storage",
+    "remote",
+    "queue",
+    "line",
+    "progression",
+    "sequence",
+    "awaiting"
   ],
-  "category": [
-    "file"
-  ],
+  "category": ["file"],
   "type": "static"
 }

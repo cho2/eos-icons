@@ -2,16 +2,7 @@
   "name": "360",
   "do": "",
   "dont": "",
-  "tags": [
-    "360",
-    "arrow",
-    "av",
-    "camera",
-    "rotation",
-    "vr"
-  ],
-  "category": [
-    "maps"
-  ],
+  "tags": ["360", "arrow", "av", "camera", "rotation", "vr"],
+  "category": ["maps"],
   "type": "static"
 }

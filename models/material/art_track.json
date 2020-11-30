@@ -2,15 +2,7 @@
   "name": "art_track",
   "do": "",
   "dont": "",
-  "tags": [
-    "Art",
-    "display",
-    "format",
-    "insert",
-    "track"
-  ],
-  "category": [
-    "av"
-  ],
+  "tags": ["Art", "display", "format", "insert", "track"],
+  "category": ["av"],
   "type": "static"
 }

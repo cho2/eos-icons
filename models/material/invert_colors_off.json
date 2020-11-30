@@ -19,8 +19,6 @@
     "opacity",
     "on"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

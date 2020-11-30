@@ -16,8 +16,6 @@
     "sound",
     "track"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

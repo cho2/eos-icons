@@ -14,8 +14,6 @@
     "rotate",
     "turn"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

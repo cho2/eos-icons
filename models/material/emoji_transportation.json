@@ -22,8 +22,6 @@
     "travel",
     "vehicle"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

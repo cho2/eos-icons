@@ -3,10 +3,15 @@
   "do": "",
   "dont": "",
   "tags": [
-    "photography", "photo", "image", "style", "custom", "edit", "colors", "colours"
+    "photography",
+    "photo",
+    "image",
+    "style",
+    "custom",
+    "edit",
+    "colors",
+    "colours"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

@@ -2,15 +2,7 @@
   "name": "sort",
   "do": "",
   "dont": "",
-  "tags": [
-    "filter",
-    "organize",
-    "find",
-    "sort",
-    "list"
-  ],
-  "category": [
-    "content"
-  ],
+  "tags": ["filter", "organize", "find", "sort", "list"],
+  "category": ["content"],
   "type": "static"
 }

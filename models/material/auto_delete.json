@@ -12,8 +12,6 @@
     "time",
     "trash"
   ],
-  "category": [
-    "alert"
-  ],
+  "category": ["alert"],
   "type": "static"
 }

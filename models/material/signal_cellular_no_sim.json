@@ -21,8 +21,6 @@
     "internet",
     "on"
   ],
-  "category": [
-    "device"
-  ],
+  "category": ["device"],
   "type": "static"
 }

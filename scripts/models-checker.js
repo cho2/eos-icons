@@ -60,7 +60,11 @@ const readModelKeys = async (params) => {
   const { modelsFolder } = params
 
   /* Get all files inside the models folder */
-  const filesName = await fs.readdirSync(modelsFolder, (err, file) => file)
+  const filesName = await fs.readdirSync(modelsFolder, (err, file) => {
+    if (err) console.error(err)
+
+    return file
+  })
 
   const filterfiles = filesName.filter((ele) => {
     return ele.includes('.json') ? ele : null
@@ -71,7 +75,11 @@ const readModelKeys = async (params) => {
     try {
       const fileData = fs.readFileSync(
         `${modelsFolder}/${ele}`,
-        (err, data) => data
+        (err, data) => {
+          if (err) console.error(err)
+
+          return data
+        }
       )
 
       return {
@@ -79,6 +87,7 @@ const readModelKeys = async (params) => {
         ...JSON.parse(fileData)
       }
     } catch (error) {
+      // eslint-disable-next-line no-throw-literal
       if (error) throw `${ele}: ${error} `
     }
   })
@@ -90,7 +99,7 @@ const checkModelKeys = async () => {
   const modelsMd = await readModelKeys({ modelsFolder: './models/material' })
 
   const modelsAll = [...modelsEos, ...modelsMd]
-  let errors = []
+  const errors = []
 
   modelsAll.forEach((model) => {
     /* Make sure that the filename is eql to the models name */

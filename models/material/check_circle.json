@@ -2,15 +2,7 @@
   "name": "check_circle",
   "do": "",
   "dont": "",
-  "tags": [
-    "finished",
-    "check",
-    "circle",
-    "complete",
-    "done"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["finished", "check", "circle", "complete", "done"],
+  "category": ["action"],
   "type": "static"
 }

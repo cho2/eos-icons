@@ -19,8 +19,6 @@
     "payment",
     "symbol"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

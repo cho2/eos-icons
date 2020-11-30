@@ -13,8 +13,6 @@
     "multiple",
     "past"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

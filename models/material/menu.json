@@ -2,11 +2,7 @@
   "name": "menu",
   "do": "",
   "dont": "",
-  "tags": [
-    "list", "navigate", "index", "panel"
-  ],
-  "category": [
-    "navigation"
-  ],
+  "tags": ["list", "navigate", "index", "panel"],
+  "category": ["navigation"],
   "type": "static"
 }

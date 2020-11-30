@@ -10,8 +10,6 @@
     "look",
     "magnify"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

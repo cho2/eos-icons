@@ -12,8 +12,6 @@
     "reply",
     "send"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

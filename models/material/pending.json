@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["waiting", "paused", "awaiting", "dots", "loading", "charging"],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

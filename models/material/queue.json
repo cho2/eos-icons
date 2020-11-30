@@ -12,8 +12,6 @@
     "list",
     "Queue"
   ],
-  "category": [
-    "av"
-  ],
+  "category": ["av"],
   "type": "static"
 }

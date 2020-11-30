@@ -16,8 +16,6 @@
     "tablet",
     "up"
   ],
-  "category": [
-    "device"
-  ],
+  "category": ["device"],
   "type": "static"
 }

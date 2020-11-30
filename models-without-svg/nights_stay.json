@@ -2,11 +2,7 @@
   "name": "nights_stay",
   "do": "",
   "dont": "",
-  "tags": [
-    "sleep", "hotel", "travel", "service"
-  ],
-  "category": [
-    "social"
-  ],
+  "tags": ["sleep", "hotel", "travel", "service"],
+  "category": ["social"],
   "type": "static"
 }

@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["blow", "towel", "wipe"],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

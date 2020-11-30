@@ -2,11 +2,7 @@
   "name": "switch_video",
   "do": "",
   "dont": "",
-  "tags": [
-    "camera", "setting", "movie", "media", "mode", "play"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["camera", "setting", "movie", "media", "mode", "play"],
+  "category": ["image"],
   "type": "static"
 }

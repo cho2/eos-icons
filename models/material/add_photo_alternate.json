@@ -13,8 +13,6 @@
     "picture",
     "plus"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

@@ -14,8 +14,6 @@
     "wait",
     "waiting"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

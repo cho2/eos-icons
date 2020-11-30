@@ -2,7 +2,8 @@
   "name": "table_rows",
   "do": "",
   "dont": "",
-  "tags": ["analytics",
+  "tags": [
+    "analytics",
     "bar",
     "bars",
     "chart",
@@ -14,9 +15,8 @@
     "metrics",
     "statistics",
     "table",
-    "tracking"],
-  "category": [
-    "editor"
+    "tracking"
   ],
+  "category": ["editor"],
   "type": "static"
 }

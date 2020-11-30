@@ -11,8 +11,6 @@
     "move backward",
     "order"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

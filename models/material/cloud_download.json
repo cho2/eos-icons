@@ -3,10 +3,14 @@
   "do": "",
   "dont": "",
   "tags": [
-    "cloud", "transfer", "excange", "server", "storage", "remote", "download"
+    "cloud",
+    "transfer",
+    "excange",
+    "server",
+    "storage",
+    "remote",
+    "download"
   ],
-  "category": [
-    "file"
-  ],
+  "category": ["file"],
   "type": "static"
 }

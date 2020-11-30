@@ -11,8 +11,6 @@
     "together",
     "group"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

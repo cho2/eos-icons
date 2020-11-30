@@ -2,11 +2,7 @@
   "name": "people",
   "do": "",
   "dont": "",
-  "tags": [
-    "group", "team", "business", "users"
-  ],
-  "category": [
-    "roles"
-  ],
+  "tags": ["group", "team", "business", "users"],
+  "category": ["roles"],
   "type": "static"
 }
