@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["scan", "reader", "verify", "barcode"],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

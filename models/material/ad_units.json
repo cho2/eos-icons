@@ -19,8 +19,6 @@
     "top",
     "units"
   ],
-  "category": [
-    "device"
-  ],
+  "category": ["device"],
   "type": "static"
 }

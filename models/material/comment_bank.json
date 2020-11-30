@@ -12,8 +12,6 @@
     "document",
     "note"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

@@ -2,13 +2,7 @@
   "name": "content_paste",
   "do": "",
   "dont": "",
-  "tags": [
-    "text",
-    "edit",
-    "editor"
-  ],
-  "category": [
-    "editor"
-  ],
+  "tags": ["text", "edit", "editor"],
+  "category": ["editor"],
   "type": "static"
 }

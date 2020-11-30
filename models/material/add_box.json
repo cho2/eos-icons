@@ -2,17 +2,7 @@
   "name": "add_box",
   "do": "",
   "dont": "",
-  "tags": [
-    "add",
-    "new",
-    "square",
-    "create",
-    "box",
-    "+",
-    "plus"
-  ],
-  "category": [
-    "content"
-  ],
+  "tags": ["add", "new", "square", "create", "box", "+", "plus"],
+  "category": ["content"],
   "type": "static"
 }

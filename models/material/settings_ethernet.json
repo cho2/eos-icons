@@ -12,8 +12,6 @@
     "connection",
     "connect"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

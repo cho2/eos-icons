@@ -12,8 +12,6 @@
     "device",
     "ringer"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

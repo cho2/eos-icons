@@ -2,16 +2,7 @@
   "name": "merge_type",
   "do": "",
   "dont": "",
-  "tags": [
-    "margin",
-    "arrow",
-    "format",
-    "text",
-    "type",
-    "combine"
-  ],
-  "category": [
-    "editor"
-  ],
+  "tags": ["margin", "arrow", "format", "text", "type", "combine"],
+  "category": ["editor"],
   "type": "static"
 }

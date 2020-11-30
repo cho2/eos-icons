@@ -2,16 +2,7 @@
   "name": "free_breakfast",
   "do": "",
   "dont": "",
-  "tags": [
-    "coffee",
-    "tee",
-    "mug",
-    "cup",
-    "brunch",
-    "meal"
-  ],
-  "category": [
-    "places"
-  ],
+  "tags": ["coffee", "tee", "mug", "cup", "brunch", "meal"],
+  "category": ["places"],
   "type": "static"
 }

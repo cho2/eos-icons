@@ -3,10 +3,15 @@
   "do": "",
   "dont": "",
   "tags": [
-    "photography", "photo", "image", "style", "custom", "glare", "glow", "automatic"
+    "photography",
+    "photo",
+    "image",
+    "style",
+    "custom",
+    "glare",
+    "glow",
+    "automatic"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

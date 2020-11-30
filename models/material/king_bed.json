@@ -20,8 +20,6 @@
     "size",
     "sleep"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

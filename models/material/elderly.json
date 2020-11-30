@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["old", "retired", "aging"],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

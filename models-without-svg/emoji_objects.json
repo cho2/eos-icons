@@ -2,11 +2,7 @@
   "name": "emoji_objects",
   "do": "",
   "dont": "",
-  "tags": [
-    "tool", "equipment", "idea", "light"
-  ],
-  "category": [
-    "social"
-  ],
+  "tags": ["tool", "equipment", "idea", "light"],
+  "category": ["social"],
   "type": "static"
 }

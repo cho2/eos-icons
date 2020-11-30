@@ -14,8 +14,6 @@
     "suitcase",
     "work"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

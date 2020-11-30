@@ -11,8 +11,6 @@
     "adjustment",
     "Equalizer"
   ],
-  "category": [
-    "av"
-  ],
+  "category": ["av"],
   "type": "static"
 }

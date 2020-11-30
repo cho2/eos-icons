@@ -3,10 +3,15 @@
   "do": "",
   "dont": "",
   "tags": [
-    "volume", "sound", "audio", "hi-fi", "stereo", "satelite", "dolby", "bose"
+    "volume",
+    "sound",
+    "audio",
+    "hi-fi",
+    "stereo",
+    "satelite",
+    "dolby",
+    "bose"
   ],
-  "category": [
-    "hardware"
-  ],
+  "category": ["hardware"],
   "type": "static"
 }

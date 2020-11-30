@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["food", "spanish", "meal", "dinner", "restaurant"],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

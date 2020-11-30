@@ -14,8 +14,6 @@
     "type",
     "font"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

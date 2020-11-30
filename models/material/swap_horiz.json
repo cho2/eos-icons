@@ -2,15 +2,7 @@
   "name": "swap_horiz",
   "do": "",
   "dont": "",
-  "tags": [
-    "horizontal",
-    "arrow",
-    "arrows",
-    "back",
-    "direction"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["horizontal", "arrow", "arrows", "back", "direction"],
+  "category": ["action"],
   "type": "static"
 }

@@ -11,8 +11,6 @@
     "talk",
     "conversation"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

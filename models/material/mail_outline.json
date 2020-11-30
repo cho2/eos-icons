@@ -3,10 +3,14 @@
   "do": "",
   "dont": "",
   "tags": [
-    "communication", "letter", "package", "parcel", "post", "postcard", "mail"
+    "communication",
+    "letter",
+    "package",
+    "parcel",
+    "post",
+    "postcard",
+    "mail"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

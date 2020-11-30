@@ -14,13 +14,13 @@ module.exports = function (grunt) {
   } = require('./scripts/eos-md-icons-log-differences')
   const { downloadSvgFile } = require('./scripts/download-svg')
 
-  //Append path to your svg below
-  //EOS-set and MD svg path
-  const src_eos_set = ['svg/*.svg', 'svg/material/*.svg']
+  // Append path to your svg below
+  // EOS-set and MD svg path
+  const srcEosSet = ['svg/*.svg', 'svg/material/*.svg']
   grunt.initConfig({
     webfont: {
       icons: {
-        src: src_eos_set,
+        src: srcEosSet,
         dest: 'dist/fonts',
         destCss: 'dist/css',
         destScss: 'dist/css',
@@ -225,7 +225,7 @@ module.exports = function (grunt) {
 
       if (eosIconsNew.length || mdIconsMdNew.length) {
         if (eosIconsNew.length) {
-          for await (icon of eosIconsNew) {
+          for await (const icon of eosIconsNew) {
             console.log(
               `⚠️  ${icon}.svg is not matching our naming convention, please rename it below:`
             )
@@ -235,7 +235,7 @@ module.exports = function (grunt) {
         }
 
         if (mdIconsMdNew.length) {
-          for await (icon of mdIconsMdNew) {
+          for await (const icon of mdIconsMdNew) {
             console.log(
               `⚠️  ${icon}.svg is not matching our naming convention, please rename it below:`
             )

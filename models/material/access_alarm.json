@@ -12,8 +12,6 @@
     "time",
     "bell"
   ],
-  "category": [
-    "device"
-  ],
+  "category": ["device"],
   "type": "static"
 }

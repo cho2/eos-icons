@@ -13,8 +13,6 @@
     "assign",
     "sit"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

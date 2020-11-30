@@ -2,14 +2,7 @@
   "name": "kitchen",
   "do": "",
   "dont": "",
-  "tags": [
-    "fridge",
-    "refrigerator",
-    "freezer",
-    "cooler"
-  ],
-  "category": [
-    "social"
-  ],
+  "tags": ["fridge", "refrigerator", "freezer", "cooler"],
+  "category": ["social"],
   "type": "static"
 }

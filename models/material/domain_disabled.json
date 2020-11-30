@@ -14,8 +14,6 @@
     "web",
     "website"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

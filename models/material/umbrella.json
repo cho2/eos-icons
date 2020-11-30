@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["parasol", "brolly", "protection"],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

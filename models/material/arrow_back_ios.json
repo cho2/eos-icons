@@ -12,8 +12,6 @@
     "left",
     "previous"
   ],
-  "category": [
-    "navigation"
-  ],
+  "category": ["navigation"],
   "type": "static"
 }

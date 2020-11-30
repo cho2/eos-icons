@@ -3,10 +3,14 @@
   "do": "",
   "dont": "",
   "tags": [
-    "notebook", "computer", "microcomputer", "portable", "apple", "ios", "macbook"
+    "notebook",
+    "computer",
+    "microcomputer",
+    "portable",
+    "apple",
+    "ios",
+    "macbook"
   ],
-  "category": [
-    "hardware"
-  ],
+  "category": ["hardware"],
   "type": "static"
 }

@@ -22,8 +22,6 @@
     "user",
     "voice"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

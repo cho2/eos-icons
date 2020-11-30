@@ -3,10 +3,13 @@
   "do": "",
   "dont": "",
   "tags": [
-    "celebration", "birthday", "decoration", "camera", "photo", "picture"
+    "celebration",
+    "birthday",
+    "decoration",
+    "camera",
+    "photo",
+    "picture"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

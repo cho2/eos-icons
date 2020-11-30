@@ -20,8 +20,6 @@
     "type",
     "video"
   ],
-  "category": [
-    "av"
-  ],
+  "category": ["av"],
   "type": "static"
 }

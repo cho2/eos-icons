@@ -12,8 +12,6 @@
     "poll",
     "vote"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

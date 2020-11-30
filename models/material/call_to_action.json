@@ -14,8 +14,6 @@
     "message",
     "info"
   ],
-  "category": [
-    "av"
-  ],
+  "category": ["av"],
   "type": "static"
 }

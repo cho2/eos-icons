@@ -15,8 +15,6 @@
     "judge",
     "court"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

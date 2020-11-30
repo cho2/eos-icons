@@ -2,16 +2,7 @@
   "name": "exit_to_app",
   "do": "",
   "dont": "",
-  "tags": [
-    "exit",
-    "arrow",
-    "leave",
-    "back",
-    "pointing",
-    "right"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["exit", "arrow", "leave", "back", "pointing", "right"],
+  "category": ["action"],
   "type": "static"
 }

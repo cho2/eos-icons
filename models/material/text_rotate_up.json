@@ -17,8 +17,6 @@
     "type",
     "up"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

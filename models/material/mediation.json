@@ -10,8 +10,6 @@
     "party",
     "structure"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

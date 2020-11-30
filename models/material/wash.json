@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["clean", "hand", "soak", "rinse", "cleanse"],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

@@ -15,8 +15,6 @@
     "security",
     "shield"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

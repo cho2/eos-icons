@@ -17,8 +17,6 @@
     "text",
     "type"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

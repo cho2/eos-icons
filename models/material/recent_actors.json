@@ -12,8 +12,6 @@
     "user",
     "card"
   ],
-  "category": [
-    "roles"
-  ],
+  "category": ["roles"],
   "type": "static"
 }

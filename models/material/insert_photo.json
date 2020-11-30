@@ -10,8 +10,6 @@
     "photos",
     "photography"
   ],
-  "category": [
-    "editor"
-  ],
+  "category": ["editor"],
   "type": "static"
 }

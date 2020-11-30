@@ -15,8 +15,6 @@
     "magnifying",
     "out"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

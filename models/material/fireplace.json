@@ -16,8 +16,6 @@
     "warm",
     "winter"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

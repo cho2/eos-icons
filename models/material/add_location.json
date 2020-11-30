@@ -13,8 +13,6 @@
     "plus",
     "direction"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

@@ -15,8 +15,6 @@
     "power",
     "slash"
   ],
-  "category": [
-    "notification"
-  ],
+  "category": ["notification"],
   "type": "static"
 }

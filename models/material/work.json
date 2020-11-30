@@ -2,15 +2,7 @@
   "name": "work",
   "do": "",
   "dont": "",
-  "tags": [
-    "suitcase",
-    "briefcase",
-    "work",
-    "suit",
-    "job"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["suitcase", "briefcase", "work", "suit", "job"],
+  "category": ["action"],
   "type": "static"
 }

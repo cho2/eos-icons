@@ -15,8 +15,6 @@
     "url",
     "font"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

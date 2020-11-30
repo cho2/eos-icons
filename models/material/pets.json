@@ -2,15 +2,7 @@
   "name": "pets",
   "do": "",
   "dont": "",
-  "tags": [
-    "paw",
-    "animal",
-    "dog",
-    "pet",
-    "hand"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["paw", "animal", "dog", "pet", "hand"],
+  "category": ["action"],
   "type": "static"
 }

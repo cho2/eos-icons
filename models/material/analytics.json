@@ -18,8 +18,6 @@
     "statistics",
     "tracking"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

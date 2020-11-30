@@ -13,8 +13,6 @@
     "comment",
     "list"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

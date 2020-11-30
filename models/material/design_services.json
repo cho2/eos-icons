@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["graphic", "drawing", "sketch"],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

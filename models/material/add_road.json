@@ -12,8 +12,6 @@
     "stop",
     "street"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

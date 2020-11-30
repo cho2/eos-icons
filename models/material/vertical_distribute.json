@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["disperse", "partition", "allot", "scatter"],
-  "category": [
-    "editor"
-  ],
+  "category": ["editor"],
   "type": "static"
 }

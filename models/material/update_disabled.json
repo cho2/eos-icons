@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["renew", "refresh", "unavailable", "off"],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

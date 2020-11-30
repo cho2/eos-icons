@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["map", "location"],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

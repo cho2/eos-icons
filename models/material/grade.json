@@ -12,8 +12,6 @@
     "favorite",
     "likes"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

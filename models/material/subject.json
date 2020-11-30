@@ -15,8 +15,6 @@
     "email",
     "full"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

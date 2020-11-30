@@ -10,8 +10,6 @@
     "decrypt",
     "decipher"
   ],
-  "category": [
-    "notification"
-  ],
+  "category": ["notification"],
   "type": "static"
 }

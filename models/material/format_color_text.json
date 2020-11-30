@@ -14,8 +14,6 @@
     "type",
     "editing"
   ],
-  "category": [
-    "editor"
-  ],
+  "category": ["editor"],
   "type": "static"
 }

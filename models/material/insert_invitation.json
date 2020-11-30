@@ -15,8 +15,6 @@
     "day",
     "mark"
   ],
-  "category": [
-    "editor"
-  ],
+  "category": ["editor"],
   "type": "static"
 }
