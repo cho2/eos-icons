@@ -1,0 +1,22 @@
+{
+  "name": "subtitles_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "accessibility",
+    "accessible",
+    "caption",
+    "cc",
+    "disabled",
+    "enabled",
+    "language",
+    "off",
+    "on",
+    "slash",
+    "subtitle",
+    "subtitles",
+    "translate"
+  ],
+  "category": ["action"],
+  "type": "static"
+}

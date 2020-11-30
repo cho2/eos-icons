@@ -1,0 +1,19 @@
+{
+  "name": "star_outline",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bookmark",
+    "favorite",
+    "half",
+    "highlight",
+    "ranking",
+    "rate",
+    "rating",
+    "save",
+    "star",
+    "toggle"
+  ],
+  "category": ["toggle"],
+  "type": "static"
+}

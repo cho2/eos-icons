@@ -1,0 +1,21 @@
+{
+  "name": "sports",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "athlete",
+    "athletic",
+    "blowing",
+    "coach",
+    "game",
+    "instrument",
+    "referee",
+    "social",
+    "sound",
+    "sports",
+    "warning",
+    "whistle"
+  ],
+  "category": ["social"],
+  "type": "static"
+}

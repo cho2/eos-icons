@@ -1,0 +1,19 @@
+{
+  "name": "sports_rugby",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "athlete",
+    "athletic",
+    "ball",
+    "entertainment",
+    "exercise",
+    "game",
+    "hobby",
+    "rugby",
+    "social",
+    "sports"
+  ],
+  "category": ["social"],
+  "type": "static"
+}

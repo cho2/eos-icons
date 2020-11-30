@@ -1,0 +1,23 @@
+{
+  "name": "sports_handball",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "athlete",
+    "athletic",
+    "ball",
+    "body",
+    "entertainment",
+    "exercise",
+    "game",
+    "handball",
+    "hobby",
+    "human",
+    "people",
+    "person",
+    "social",
+    "sports"
+  ],
+  "category": ["social"],
+  "type": "static"
+}

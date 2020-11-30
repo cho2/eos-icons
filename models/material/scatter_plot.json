@@ -1,0 +1,23 @@
+{
+  "name": "scatter_plot",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "analytics",
+    "bar",
+    "bars",
+    "chart",
+    "circle",
+    "data",
+    "diagram",
+    "dot",
+    "graph",
+    "infographic",
+    "measure",
+    "metrics",
+    "statistics",
+    "tracking"
+  ],
+  "category": ["editor"],
+  "type": "static"
+}
