@@ -18,8 +18,6 @@
     "send",
     "write"
   ],
-  "category": [
-    "file"
-  ],
+  "category": ["file"],
   "type": "static"
 }

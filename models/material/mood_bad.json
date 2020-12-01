@@ -2,11 +2,7 @@
   "name": "mood_bad",
   "do": "",
   "dont": "",
-  "tags": [
-    "emoticon", "face", "emotion", "expression", "sad"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["emoticon", "face", "emotion", "expression", "sad"],
+  "category": ["image"],
   "type": "static"
 }

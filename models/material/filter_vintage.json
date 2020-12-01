@@ -3,10 +3,14 @@
   "do": "",
   "dont": "",
   "tags": [
-    "photography", "photo", "image", "style", "custom", "old", "classic"
+    "photography",
+    "photo",
+    "image",
+    "style",
+    "custom",
+    "old",
+    "classic"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

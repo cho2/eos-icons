@@ -12,8 +12,6 @@
     "secure",
     "key"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

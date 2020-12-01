@@ -13,8 +13,6 @@
     "travel",
     "transportation"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

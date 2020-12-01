@@ -1,0 +1,25 @@
+{
+  "name": "shutter_speed",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "aperture",
+    "camera",
+    "duration",
+    "image",
+    "lens",
+    "photo",
+    "photography",
+    "photos",
+    "picture",
+    "setting",
+    "shutter",
+    "speed",
+    "stop",
+    "time",
+    "timer",
+    "watch"
+  ],
+  "category": ["image"],
+  "type": "static"
+}

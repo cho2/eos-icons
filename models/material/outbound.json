@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["outward", "arrow"],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

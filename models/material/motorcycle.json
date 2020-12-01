@@ -16,8 +16,6 @@
     "transportation",
     "vehicle"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

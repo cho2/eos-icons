@@ -13,8 +13,6 @@
     "platform",
     "brackets"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

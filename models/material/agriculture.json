@@ -1,4 +1,4 @@
-  {
+{
   "name": "agriculture",
   "do": "",
   "dont": "",
@@ -15,8 +15,6 @@
     "truck",
     "vehicle"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

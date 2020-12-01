@@ -14,8 +14,6 @@
     "editing",
     "speadsheet"
   ],
-  "category": [
-    "editor"
-  ],
+  "category": ["editor"],
   "type": "static"
 }

@@ -1,0 +1,22 @@
+{
+  "name": "text_rotation_angledown",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "A",
+    "alphabet",
+    "angledown",
+    "arrow",
+    "character",
+    "field",
+    "font",
+    "letter",
+    "move",
+    "rotate",
+    "symbol",
+    "text",
+    "type"
+  ],
+  "category": ["action"],
+  "type": "static"
+}

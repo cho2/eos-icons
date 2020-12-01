@@ -13,8 +13,6 @@
     "title",
     "order"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

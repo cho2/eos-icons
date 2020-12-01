@@ -2,15 +2,7 @@
   "name": "airline_seat_flat_angled",
   "do": "",
   "dont": "",
-  "tags": [
-    "plane",
-    "airplane",
-    "inclined",
-    "bed",
-    "sleep"
-  ],
-  "category": [
-    "notification"
-  ],
+  "tags": ["plane", "airplane", "inclined", "bed", "sleep"],
+  "category": ["notification"],
   "type": "static"
 }

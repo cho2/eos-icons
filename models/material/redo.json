@@ -12,8 +12,6 @@
     "backward",
     "redo"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

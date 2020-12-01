@@ -13,8 +13,6 @@
     "device",
     "direction"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

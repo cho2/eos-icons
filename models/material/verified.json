@@ -1,0 +1,17 @@
+{
+  "name": "verified",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "audit",
+    "badge",
+    "certified",
+    "check",
+    "checkmark",
+    "security",
+    "user",
+    "verified"
+  ],
+  "category": ["action"],
+  "type": "static"
+}

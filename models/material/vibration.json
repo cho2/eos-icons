@@ -2,11 +2,7 @@
   "name": "vibration",
   "do": "",
   "dont": "",
-  "tags": [
-    "phone", "mobile", "communication", "vibrate"
-  ],
-  "category": [
-    "notification"
-  ],
+  "tags": ["phone", "mobile", "communication", "vibrate"],
+  "category": ["notification"],
   "type": "static"
 }

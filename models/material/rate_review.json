@@ -12,8 +12,6 @@
     "pencil",
     "write"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

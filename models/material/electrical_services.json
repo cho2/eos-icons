@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["charging", "plug", "electricity"],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

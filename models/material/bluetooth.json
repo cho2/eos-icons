@@ -2,15 +2,7 @@
   "name": "bluetooth",
   "do": "",
   "dont": "",
-  "tags": [
-    "symbol",
-    "bluetooth",
-    "connection",
-    "paring",
-    "device"
-  ],
-  "category": [
-    "device"
-  ],
+  "tags": ["symbol", "bluetooth", "connection", "paring", "device"],
+  "category": ["device"],
   "type": "static"
 }

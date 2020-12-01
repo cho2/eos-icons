@@ -15,8 +15,6 @@
     "day",
     "mark"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

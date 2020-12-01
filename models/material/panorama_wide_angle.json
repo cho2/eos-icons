@@ -2,11 +2,7 @@
   "name": "panorama_wide_angle",
   "do": "",
   "dont": "",
-  "tags": [
-    "image", "perspective", "ratio", "photography", "photo"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["image", "perspective", "ratio", "photography", "photo"],
+  "category": ["image"],
   "type": "static"
 }

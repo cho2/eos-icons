@@ -12,8 +12,6 @@
     "showtimes",
     "film"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

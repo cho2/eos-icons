@@ -3,10 +3,17 @@
   "do": "",
   "dont": "",
   "tags": [
-    "photography", "photo", "image", "cam", "camcorder", "shutter", "album", "glass", "palette", "pallet"
+    "photography",
+    "photo",
+    "image",
+    "cam",
+    "camcorder",
+    "shutter",
+    "album",
+    "glass",
+    "palette",
+    "pallet"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

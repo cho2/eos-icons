@@ -1,0 +1,19 @@
+{
+  "name": "sports_basketball",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "athlete",
+    "athletic",
+    "ball",
+    "basketball",
+    "entertainment",
+    "exercise",
+    "game",
+    "hobby",
+    "social",
+    "sports"
+  ],
+  "category": ["social"],
+  "type": "static"
+}

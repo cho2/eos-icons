@@ -2,16 +2,7 @@
   "name": "tablet_android",
   "do": "",
   "dont": "",
-  "tags": [
-    "pad",
-    "ipad",
-    "memo",
-    "android",
-    "google",
-    "chrome"
-  ],
-  "category": [
-    "hardware"
-  ],
+  "tags": ["pad", "ipad", "memo", "android", "google", "chrome"],
+  "category": ["hardware"],
   "type": "static"
 }

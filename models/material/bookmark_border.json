@@ -2,15 +2,7 @@
   "name": "bookmark_border",
   "do": "",
   "dont": "",
-  "tags": [
-    "bookmarks",
-    "remember",
-    "bookmark",
-    "outline",
-    "save"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["bookmarks", "remember", "bookmark", "outline", "save"],
+  "category": ["action"],
   "type": "static"
 }

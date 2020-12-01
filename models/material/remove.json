@@ -11,8 +11,6 @@
     "substract",
     "trash"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

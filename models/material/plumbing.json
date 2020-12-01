@@ -2,9 +2,15 @@
   "name": "plumbing",
   "do": "",
   "dont": "",
-  "tags": ["wrench", "tool", "plumber", "handy man", "tradesman", "worker", "steam fitter"],
-  "category": [
-    "maps"
+  "tags": [
+    "wrench",
+    "tool",
+    "plumber",
+    "handy man",
+    "tradesman",
+    "worker",
+    "steam fitter"
   ],
+  "category": ["maps"],
   "type": "static"
 }

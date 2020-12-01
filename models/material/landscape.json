@@ -3,10 +3,15 @@
   "do": "",
   "dont": "",
   "tags": [
-    "photography", "photo", "image", "style", "custom", "edit", "perspective", "ratio"
+    "photography",
+    "photo",
+    "image",
+    "style",
+    "custom",
+    "edit",
+    "perspective",
+    "ratio"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

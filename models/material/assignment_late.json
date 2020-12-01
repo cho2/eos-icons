@@ -17,8 +17,6 @@
     "caution",
     "mark"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

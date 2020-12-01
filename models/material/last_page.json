@@ -2,11 +2,7 @@
   "name": "last_page",
   "do": "",
   "dont": "",
-  "tags": [
-    "end", "finale", "move", "later"
-  ],
-  "category": [
-    "navigation"
-  ],
+  "tags": ["end", "finale", "move", "later"],
+  "category": ["navigation"],
   "type": "static"
 }

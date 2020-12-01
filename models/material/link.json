@@ -12,8 +12,6 @@
     "url",
     "linked"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

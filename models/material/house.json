@@ -16,8 +16,6 @@
     "residential",
     "shelter"
   ],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

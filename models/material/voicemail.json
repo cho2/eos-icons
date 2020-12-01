@@ -13,8 +13,6 @@
     "message",
     "device"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

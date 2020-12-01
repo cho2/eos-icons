@@ -2,11 +2,7 @@
   "name": "arrow_right",
   "do": "",
   "dont": "",
-  "tags": [
-    "direction", "right", "indicator", "next", "forward", "caret"
-  ],
-  "category": [
-    "navigation"
-  ],
+  "tags": ["direction", "right", "indicator", "next", "forward", "caret"],
+  "category": ["navigation"],
   "type": "static"
 }

@@ -2,17 +2,7 @@
   "name": "import_export",
   "do": "",
   "dont": "",
-  "tags": [
-    "Import",
-    "arrow",
-    "explort",
-    "arrows",
-    "up",
-    "down",
-    "direction"
-  ],
-  "category": [
-    "communication"
-  ],
+  "tags": ["Import", "arrow", "explort", "arrows", "up", "down", "direction"],
+  "category": ["communication"],
   "type": "static"
 }

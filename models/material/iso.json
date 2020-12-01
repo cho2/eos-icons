@@ -2,11 +2,7 @@
   "name": "iso",
   "do": "",
   "dont": "",
-  "tags": [
-    "photography", "photo", "image", "style", "quality", "format"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["photography", "photo", "image", "style", "quality", "format"],
+  "category": ["image"],
   "type": "static"
 }

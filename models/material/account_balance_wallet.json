@@ -19,8 +19,6 @@
     "card",
     "coin"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

@@ -2,11 +2,7 @@
   "name": "looks_3",
   "do": "",
   "dont": "",
-  "tags": [
-    "photography", "photo", "image", "style", "custom", "glance"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["photography", "photo", "image", "style", "custom", "glance"],
+  "category": ["image"],
   "type": "static"
 }

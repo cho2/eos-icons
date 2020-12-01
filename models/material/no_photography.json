@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["photo", "camera", "selfie", "picture", "forbidden"],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

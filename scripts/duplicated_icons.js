@@ -39,6 +39,8 @@ const duplicatedIcons = [
   'person_add_alt_1',
   'person_remove_alt_1',
   'photo_camera',
+  'qr_code_2',
+  'request_page',
   'settings_input_composite',
   'signal_cellular_0_bar',
   'signal_cellular_1_bar',
@@ -61,9 +63,14 @@ const duplicatedIcons = [
   'signal_wifi_4_bar',
   'stay_primary_landscape',
   'stay_primary_portrait',
+  'thumb_down_alt',
+  'thumb_up_alt',
   'wb_cloudy',
   'qr_code_2',
   'request_page',
+  'star_rate',
+  'sentiment_satisfied_alt',
+  'sticky_note_2'
 ]
 
 module.exports = {

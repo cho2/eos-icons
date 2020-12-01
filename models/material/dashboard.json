@@ -2,15 +2,7 @@
   "name": "dashboard",
   "do": "",
   "dont": "",
-  "tags": [
-    "square",
-    "cards",
-    "shapes",
-    "rectangle",
-    "dashboard"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["square", "cards", "shapes", "rectangle", "dashboard"],
+  "category": ["action"],
   "type": "static"
 }

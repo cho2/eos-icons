@@ -13,8 +13,6 @@
     "set",
     "tea"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

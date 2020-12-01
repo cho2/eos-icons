@@ -1,0 +1,20 @@
+{
+  "name": "sports_cricket",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "athlete",
+    "athletic",
+    "ball",
+    "bat",
+    "cricket",
+    "entertainment",
+    "exercise",
+    "game",
+    "hobby",
+    "social",
+    "sports"
+  ],
+  "category": ["social"],
+  "type": "static"
+}

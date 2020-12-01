@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["clue", "suggest", "caution", "advise", "warn", "hint"],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

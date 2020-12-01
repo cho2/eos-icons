@@ -2,11 +2,7 @@
   "name": "vignette",
   "do": "",
   "dont": "",
-  "tags": [
-    "photography", "photo", "camera", "image", "lightmode", "settings"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["photography", "photo", "camera", "image", "lightmode", "settings"],
+  "category": ["image"],
   "type": "static"
 }

@@ -2,17 +2,7 @@
   "name": "music_video",
   "do": "",
   "dont": "",
-  "tags": [
-    "tv",
-    "watch",
-    "Music",
-    "recording",
-    "screen",
-    "band",
-    "video"
-  ],
-  "category": [
-    "av"
-  ],
+  "tags": ["tv", "watch", "Music", "recording", "screen", "band", "video"],
+  "category": ["av"],
   "type": "static"
 }

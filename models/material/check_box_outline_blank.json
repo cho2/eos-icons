@@ -10,8 +10,6 @@
     "option",
     "unchecked"
   ],
-  "category": [
-    "toggle"
-  ],
+  "category": ["toggle"],
   "type": "static"
 }

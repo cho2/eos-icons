@@ -19816,6 +19816,22 @@
     "type": "static"
   },
   {
+    "name": "sanitizer",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disinfect",
+      "disinfection",
+      "antiseptic",
+      "sanitize",
+      "virus"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
     "name": "satellite",
     "do": "",
     "dont": "",
@@ -19849,6 +19865,25 @@
     "type": "static"
   },
   {
+    "name": "save_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "disk",
+      "document",
+      "down",
+      "file",
+      "floppy",
+      "multimedia",
+      "save"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
     "name": "scanner",
     "do": "",
     "dont": "",
@@ -19858,6 +19893,31 @@
     ],
     "category": [
       "hardware"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "scatter_plot",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "circle",
+      "data",
+      "diagram",
+      "dot",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "statistics",
+      "tracking"
+    ],
+    "category": [
+      "editor"
     ],
     "type": "static"
   },
@@ -19891,6 +19951,61 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "science",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "beaker",
+      "chemical",
+      "chemistry",
+      "experiment",
+      "flask",
+      "glass",
+      "laboratory",
+      "research",
+      "science",
+      "tube"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "score",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "2k",
+      "alphabet",
+      "analytics",
+      "bar",
+      "bars",
+      "character",
+      "chart",
+      "data",
+      "diagram",
+      "digit",
+      "font",
+      "graph",
+      "infographic",
+      "letter",
+      "measure",
+      "metrics",
+      "number",
+      "score",
+      "statistics",
+      "symbol",
+      "text",
+      "tracking",
+      "type"
+    ],
+    "category": [
+      "editor"
     ],
     "type": "static"
   },
@@ -20064,6 +20179,28 @@
     "type": "static"
   },
   {
+    "name": "search_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disabled",
+      "enabled",
+      "filter",
+      "look",
+      "look up",
+      "magnify",
+      "magnifying glass",
+      "off",
+      "on",
+      "search",
+      "x"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "security",
     "do": "",
     "dont": "",
@@ -20095,6 +20232,33 @@
     "type": "static"
   },
   {
+    "name": "self_improvement",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "body",
+      "calm",
+      "care",
+      "chi",
+      "human",
+      "improvement",
+      "meditate",
+      "meditation",
+      "people",
+      "person",
+      "relax",
+      "self",
+      "sitting",
+      "wellbeing",
+      "yoga",
+      "zen"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
     "name": "send",
     "do": "",
     "dont": "",
@@ -20110,6 +20274,40 @@
     ],
     "category": [
       "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sensor_door",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "access",
+      "automatic",
+      "alarm",
+      "guard",
+      "protection",
+      "security"
+    ],
+    "category": [
+      "home"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sensor_window",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "access",
+      "automatic",
+      "alarm",
+      "guard",
+      "protection",
+      "security"
+    ],
+    "category": [
+      "home"
     ],
     "type": "static"
   },
@@ -20188,6 +20386,21 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "set_meal",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "eat",
+      "food",
+      "kitchen",
+      "serve"
+    ],
+    "category": [
+      "maps"
     ],
     "type": "static"
   },
@@ -20560,6 +20773,21 @@
     "type": "static"
   },
   {
+    "name": "shopping_bag",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bag",
+      "business",
+      "tools",
+      "basket"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "shopping_basket",
     "do": "",
     "dont": "",
@@ -20673,6 +20901,70 @@
     ],
     "category": [
       "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "shutter_speed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "aperture",
+      "camera",
+      "duration",
+      "image",
+      "lens",
+      "photo",
+      "photography",
+      "photos",
+      "picture",
+      "setting",
+      "shutter",
+      "speed",
+      "stop",
+      "time",
+      "timer",
+      "watch"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sick",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disease",
+      "fever",
+      "ill",
+      "virus"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "signal_cellular_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cell",
+      "cellular",
+      "data",
+      "internet",
+      "mobile",
+      "network",
+      "phone",
+      "signal",
+      "speed",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "device"
     ],
     "type": "static"
   },
@@ -20808,6 +21100,33 @@
     "type": "static"
   },
   {
+    "name": "single_bed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bed",
+      "bedroom",
+      "double",
+      "full",
+      "furniture",
+      "home",
+      "hotel",
+      "house",
+      "king",
+      "night",
+      "pillows",
+      "queen",
+      "rest",
+      "room",
+      "size",
+      "sleep"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
     "name": "skip_next",
     "do": "",
     "dont": "",
@@ -20879,6 +21198,22 @@
     ],
     "category": [
       "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "smart_button",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "button",
+      "key",
+      "ui",
+      "interface",
+      "keyboard"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -20963,6 +21298,24 @@
     "type": "static"
   },
   {
+    "name": "snippet_folder",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "brief",
+      "fraction",
+      "information",
+      "particle",
+      "code",
+      "logic",
+      "archive"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
     "name": "snooze",
     "do": "",
     "dont": "",
@@ -20977,6 +21330,23 @@
     ],
     "category": [
       "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "soap",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bath",
+      "bubbles",
+      "shampoo",
+      "wash",
+      "hygiene",
+      "care"
+    ],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
@@ -21017,6 +21387,69 @@
     ],
     "category": [
       "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "source",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "script",
+      "resource",
+      "program",
+      "data"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "south",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "arrow",
+      "compass",
+      "map",
+      "travel"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "south_east",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "arrow",
+      "compass",
+      "sign",
+      "travel"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "south_west",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "arrow",
+      "compass",
+      "sign",
+      "travel"
+    ],
+    "category": [
+      "navigation"
     ],
     "type": "static"
   },
@@ -21153,6 +21586,28 @@
     "type": "static"
   },
   {
+    "name": "speed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Slow",
+      "arrow",
+      "control",
+      "controls",
+      "fast",
+      "internet",
+      "motion",
+      "music",
+      "play",
+      "speed",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
     "name": "spellcheck",
     "do": "",
     "dont": "",
@@ -21175,6 +21630,438 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "blowing",
+      "coach",
+      "game",
+      "instrument",
+      "referee",
+      "social",
+      "sound",
+      "sports",
+      "warning",
+      "whistle"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_bar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "drinks",
+      "football"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_baseball",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "ball",
+      "baseball",
+      "entertainment",
+      "exercise",
+      "game",
+      "hobby",
+      "social",
+      "sports"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_basketball",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "ball",
+      "basketball",
+      "entertainment",
+      "exercise",
+      "game",
+      "hobby",
+      "social",
+      "sports"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_cricket",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "ball",
+      "bat",
+      "cricket",
+      "entertainment",
+      "exercise",
+      "game",
+      "hobby",
+      "social",
+      "sports"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_esports",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "controller",
+      "entertainment",
+      "esports",
+      "game",
+      "gamepad",
+      "gaming",
+      "hobby",
+      "online",
+      "social",
+      "sports",
+      "video"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_football",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "ball",
+      "entertainment",
+      "exercise",
+      "football",
+      "game",
+      "hobby",
+      "social",
+      "sports"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_golf",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "ball",
+      "club",
+      "entertainment",
+      "exercise",
+      "game",
+      "golf",
+      "golfer",
+      "golfing",
+      "hobby",
+      "social",
+      "sports"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_handball",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "ball",
+      "body",
+      "entertainment",
+      "exercise",
+      "game",
+      "handball",
+      "hobby",
+      "human",
+      "people",
+      "person",
+      "social",
+      "sports"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_hockey",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "entertainment",
+      "exercise",
+      "game",
+      "hobby",
+      "hockey",
+      "social",
+      "sports",
+      "sticks"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_kabaddi",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "body",
+      "combat",
+      "entertainment",
+      "exercise",
+      "fighting",
+      "game",
+      "hobby",
+      "human",
+      "kabaddi",
+      "people",
+      "person",
+      "social",
+      "sports",
+      "wrestle",
+      "wrestling"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_mma",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arts",
+      "athlete",
+      "athletic",
+      "boxing",
+      "combat",
+      "entertainment",
+      "exercise",
+      "fighting",
+      "game",
+      "glove",
+      "hobby",
+      "martial",
+      "mixed",
+      "mma",
+      "social",
+      "sports"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_motorsports",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "automobile",
+      "bike",
+      "drive",
+      "driving",
+      "entertainment",
+      "helmet",
+      "hobby",
+      "motorcycle",
+      "motorsports",
+      "protect",
+      "social",
+      "sports",
+      "vehicle"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_rugby",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "ball",
+      "entertainment",
+      "exercise",
+      "game",
+      "hobby",
+      "rugby",
+      "social",
+      "sports"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_soccer",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "ball",
+      "entertainment",
+      "exercise",
+      "football",
+      "game",
+      "hobby",
+      "soccer",
+      "social",
+      "sports"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_tennis",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "ball",
+      "bat",
+      "entertainment",
+      "exercise",
+      "game",
+      "hobby",
+      "racket",
+      "social",
+      "sports",
+      "tennis"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sports_volleyball",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "athlete",
+      "athletic",
+      "ball",
+      "entertainment",
+      "exercise",
+      "game",
+      "hobby",
+      "social",
+      "sports",
+      "volleyball"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "square_foot",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "construction",
+      "feet",
+      "foot",
+      "inches",
+      "length",
+      "measurement",
+      "ruler",
+      "school",
+      "set",
+      "square"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "stacked_line_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "2d",
+      "chart",
+      "graph",
+      "data",
+      "analytics"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "stairs",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "steps",
+      "upstairs",
+      "up"
+    ],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
@@ -21222,6 +22109,27 @@
       "appraisal",
       "rank",
       "fifty percent"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "star_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bookmark",
+      "favorite",
+      "half",
+      "highlight",
+      "ranking",
+      "rate",
+      "rating",
+      "save",
+      "star",
+      "toggle"
     ],
     "category": [
       "toggle"
@@ -21291,6 +22199,20 @@
     "type": "static"
   },
   {
+    "name": "sticky_note",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "paper",
+      "post",
+      "reminder"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "stop",
     "do": "",
     "dont": "",
@@ -21302,6 +22224,19 @@
       "Stop",
       "arrow",
       "control"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "stop_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mode",
+      "sign"
     ],
     "category": [
       "av"
@@ -21403,6 +22338,31 @@
     "type": "static"
   },
   {
+    "name": "storefront",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "business",
+      "buy",
+      "cafe",
+      "commerce",
+      "front",
+      "market",
+      "place",
+      "restaurant",
+      "retail",
+      "sell",
+      "shop",
+      "shopping",
+      "store",
+      "storefront"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "straighten",
     "do": "",
     "dont": "",
@@ -21457,6 +22417,22 @@
     ],
     "category": [
       "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "stroller",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "baby",
+      "care",
+      "kid",
+      "pushchair",
+      "child"
+    ],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
@@ -21529,6 +22505,25 @@
     "type": "static"
   },
   {
+    "name": "subscript",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "index",
+      "type",
+      "format",
+      "math",
+      "text",
+      "figure",
+      "symbol",
+      "down"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
     "name": "subscriptions",
     "do": "",
     "dont": "",
@@ -21565,6 +22560,30 @@
     "type": "static"
   },
   {
+    "name": "subtitles_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accessibility",
+      "accessible",
+      "caption",
+      "cc",
+      "disabled",
+      "enabled",
+      "language",
+      "off",
+      "on",
+      "slash",
+      "subtitle",
+      "subtitles",
+      "translate"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "subway",
     "do": "",
     "dont": "",
@@ -21590,6 +22609,51 @@
     "type": "static"
   },
   {
+    "name": "superscript",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "index",
+      "type",
+      "format",
+      "math",
+      "text",
+      "figure",
+      "symbol",
+      "up"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "supervised_user_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "avatar",
+      "circle",
+      "control",
+      "face",
+      "human",
+      "parental",
+      "parental control",
+      "parents",
+      "people",
+      "person",
+      "profile",
+      "supervised",
+      "supervisor",
+      "user"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "supervisor_account",
     "do": "",
     "dont": "",
@@ -21611,6 +22675,43 @@
     ],
     "category": [
       "roles"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "support",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "assist",
+      "buoy",
+      "help",
+      "life",
+      "lifebuoy",
+      "rescue",
+      "safe",
+      "safety",
+      "support"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "support_agent",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "headset",
+      "technical",
+      "consultant",
+      "helpline",
+      "online",
+      "call"
+    ],
+    "category": [
+      "notification"
     ],
     "type": "static"
   },
@@ -21668,6 +22769,23 @@
     "type": "static"
   },
   {
+    "name": "swap_horizontal_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "back",
+      "circle",
+      "direction",
+      "horizontal"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "swap_vert",
     "do": "",
     "dont": "",
@@ -21717,6 +22835,36 @@
     "type": "static"
   },
   {
+    "name": "switch_left",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "control",
+      "setting",
+      "arrow",
+      "shuffle"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "switch_right",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "control",
+      "setting",
+      "arrow",
+      "shuffle"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
     "name": "switch_video",
     "do": "",
     "dont": "",
@@ -21744,6 +22892,27 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "sync_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alt",
+      "arrow",
+      "arrows",
+      "horizontal",
+      "internet",
+      "sync",
+      "technology",
+      "up",
+      "update",
+      "wifi"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -21858,6 +23027,78 @@
     "type": "static"
   },
   {
+    "name": "table_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "statistics",
+      "table",
+      "tracking"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "table_rows",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "statistics",
+      "table",
+      "tracking"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "table_view",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "statistics",
+      "table",
+      "tracking"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "tablet",
     "do": "",
     "dont": "",
@@ -21937,6 +23178,22 @@
     "type": "static"
   },
   {
+    "name": "tapas",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "food",
+      "spanish",
+      "meal",
+      "dinner",
+      "restaurant"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "terrain",
     "do": "",
     "dont": "",
@@ -21991,6 +23248,163 @@
     ],
     "category": [
       "content"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_rotate_up",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "arrow",
+      "character",
+      "field",
+      "font",
+      "letter",
+      "move",
+      "rotate",
+      "symbol",
+      "text",
+      "type",
+      "up"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_rotate_vertical",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "arrow",
+      "character",
+      "field",
+      "font",
+      "letter",
+      "move",
+      "rotate",
+      "symbol",
+      "text",
+      "type",
+      "vertical"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_rotation_angledown",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "angledown",
+      "arrow",
+      "character",
+      "field",
+      "font",
+      "letter",
+      "move",
+      "rotate",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_rotation_angleup",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "angleup",
+      "arrow",
+      "character",
+      "field",
+      "font",
+      "letter",
+      "move",
+      "rotate",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_rotation_down",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "arrow",
+      "character",
+      "down",
+      "field",
+      "font",
+      "letter",
+      "move",
+      "rotate",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_rotation_none",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "arrow",
+      "character",
+      "field",
+      "font",
+      "letter",
+      "move",
+      "none",
+      "rotate",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "text_snippet",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "shortcut",
+      "keyboard"
+    ],
+    "category": [
+      "file"
     ],
     "type": "static"
   },
@@ -22301,6 +23715,60 @@
     "type": "static"
   },
   {
+    "name": "toggle_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "active",
+      "component",
+      "configuration",
+      "control",
+      "disable",
+      "inable",
+      "inactive",
+      "off",
+      "on",
+      "selection",
+      "settings",
+      "slider",
+      "switch",
+      "toggle",
+      "ui",
+      "website"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "toggle_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "active",
+      "component",
+      "configuration",
+      "control",
+      "disable",
+      "inable",
+      "inactive",
+      "off",
+      "on",
+      "selection",
+      "settings",
+      "slider",
+      "switch",
+      "toggle",
+      "ui",
+      "website"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static"
+  },
+  {
     "name": "toll",
     "do": "",
     "dont": "",
@@ -22345,6 +23813,21 @@
     "type": "static"
   },
   {
+    "name": "topic",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "conversation",
+      "matter",
+      "discourse",
+      "subject"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static"
+  },
+  {
     "name": "touch_app",
     "do": "",
     "dont": "",
@@ -22357,6 +23840,23 @@
       "apps",
       "gesture",
       "hand"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tour",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "destination",
+      "flag",
+      "places",
+      "tour",
+      "travel",
+      "visit"
     ],
     "category": [
       "action"
@@ -22501,6 +24001,24 @@
     "type": "static"
   },
   {
+    "name": "transit_enterexit",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "direction",
+      "map",
+      "public",
+      "route",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "translate",
     "do": "",
     "dont": "",
@@ -22581,6 +24099,38 @@
     "type": "static"
   },
   {
+    "name": "trip_origin",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "circle",
+      "departure",
+      "origin",
+      "trip"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tty",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "TeleTYpewriter",
+      "telephone",
+      "keys",
+      "command",
+      "unix",
+      "input"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "tune",
     "do": "",
     "dont": "",
@@ -22642,6 +24192,72 @@
     ],
     "category": [
       "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "tv_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "chrome",
+      "desktop",
+      "device",
+      "disabled",
+      "enabled",
+      "hardware",
+      "iOS",
+      "mac",
+      "monitor",
+      "off",
+      "on",
+      "slash",
+      "television",
+      "tv",
+      "web",
+      "window"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "two_wheeler",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "bike",
+      "car",
+      "cars",
+      "direction",
+      "maps",
+      "motorcycle",
+      "public",
+      "scooter",
+      "sport",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "umbrella",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "parasol",
+      "brolly",
+      "protection"
+    ],
+    "category": [
+      "places"
     ],
     "type": "static"
   },
@@ -22711,6 +24327,37 @@
     "type": "static"
   },
   {
+    "name": "unpublished",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "unprinted",
+      "not public"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "unsubscribe",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Unsubscribe",
+      "close",
+      "envelop",
+      "mail",
+      "newsletter",
+      "off",
+      "subscribe"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "update",
     "do": "",
     "dont": "",
@@ -22732,6 +24379,39 @@
     "type": "static"
   },
   {
+    "name": "update_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "renew",
+      "refresh",
+      "unavailable",
+      "off"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "upgrade",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "boost",
+      "arrow",
+      "elevate",
+      "promote",
+      "up",
+      "enhance",
+      "increase"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "usb",
     "do": "",
     "dont": "",
@@ -22744,6 +24424,25 @@
     ],
     "category": [
       "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "verified",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "audit",
+      "badge",
+      "certified",
+      "check",
+      "checkmark",
+      "security",
+      "user",
+      "verified"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -22843,6 +24542,38 @@
     "type": "static"
   },
   {
+    "name": "vertical_distribute",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disperse",
+      "partition",
+      "allot",
+      "scatter"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "vertical_split",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "format",
+      "paragraph",
+      "split",
+      "text",
+      "vertical",
+      "website"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "vibration",
     "do": "",
     "dont": "",
@@ -22900,6 +24631,25 @@
       "Video",
       "collection",
       "camera"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "video_settings",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Video",
+      "camera",
+      "collection",
+      "gear",
+      "play",
+      "screen",
+      "setting",
+      "settings"
     ],
     "category": [
       "av"
@@ -23151,6 +24901,22 @@
     "type": "static"
   },
   {
+    "name": "view_sidebar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "menu",
+      "navigation",
+      "on",
+      "open",
+      "enable"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
     "name": "view_stream",
     "do": "",
     "dont": "",
@@ -23256,6 +25022,35 @@
     ],
     "category": [
       "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "voice_over_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "disabled",
+      "enabled",
+      "face",
+      "human",
+      "off",
+      "on",
+      "people",
+      "person",
+      "profile",
+      "recording",
+      "slash",
+      "speak",
+      "speaking",
+      "speech",
+      "transcript",
+      "user",
+      "voice"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -23425,6 +25220,22 @@
     "type": "static"
   },
   {
+    "name": "wash",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "clean",
+      "hand",
+      "soak",
+      "rinse",
+      "cleanse"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
     "name": "watch",
     "do": "",
     "dont": "",
@@ -23451,6 +25262,39 @@
     ],
     "category": [
       "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "water_damage",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "leakage",
+      "crack",
+      "leaking"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "waves",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "beach",
+      "ocean",
+      "pool",
+      "sea",
+      "swim",
+      "water",
+      "wave",
+      "waves"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },
@@ -23596,6 +25440,19 @@
     "type": "static"
   },
   {
+    "name": "west",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "left"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static"
+  },
+  {
     "name": "whatshot",
     "do": "",
     "dont": "",
@@ -23607,6 +25464,40 @@
     ],
     "category": [
       "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wheelchair_pickup",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "station",
+      "stop",
+      "handicapped",
+      "wounded"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "where_to_vote",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "ballot",
+      "check",
+      "checkmark",
+      "election",
+      "location",
+      "pin",
+      "poll",
+      "vote"
+    ],
+    "category": [
+      "content"
     ],
     "type": "static"
   },
@@ -23645,6 +25536,23 @@
     "type": "static"
   },
   {
+    "name": "wifi_calling",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "call",
+      "calling",
+      "device",
+      "mobile",
+      "phone",
+      "wifi"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static"
+  },
+  {
     "name": "wifi_lock",
     "do": "",
     "dont": "",
@@ -23663,6 +25571,46 @@
     ],
     "category": [
       "device"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wifi_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cell",
+      "cellular",
+      "data",
+      "disabled",
+      "enabled",
+      "internet",
+      "mobile",
+      "network",
+      "off",
+      "on",
+      "phone",
+      "signal",
+      "slash",
+      "speed",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wifi_protected_setup",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "cycle"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },
@@ -23689,6 +25637,20 @@
     "type": "static"
   },
   {
+    "name": "wine_bar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "glass",
+      "drink",
+      "beverage"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
     "name": "work",
     "do": "",
     "dont": "",
@@ -23698,6 +25660,43 @@
       "work",
       "suit",
       "job"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "work_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "briefcase",
+      "disabled",
+      "enabled",
+      "job",
+      "off",
+      "on",
+      "slash",
+      "suit",
+      "suitcase",
+      "work"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "work_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "briefcase",
+      "job",
+      "suit",
+      "suitcase",
+      "work"
     ],
     "category": [
       "action"
@@ -23722,6 +25721,42 @@
     ],
     "category": [
       "editor"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wrong_location",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "destination",
+      "direction",
+      "error",
+      "location",
+      "maps",
+      "no",
+      "pin",
+      "place",
+      "stop",
+      "wrong",
+      "x"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "wysiwyg",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "text",
+      "design software"
+    ],
+    "category": [
+      "action"
     ],
     "type": "static"
   },

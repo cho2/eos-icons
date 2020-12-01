@@ -2,9 +2,15 @@
   "name": "no_food",
   "do": "",
   "dont": "",
-  "tags": ["meal", "dinner", "breakfast", "lunch", "snack", "disabled", "forbidden"],
-  "category": [
-    "places"
+  "tags": [
+    "meal",
+    "dinner",
+    "breakfast",
+    "lunch",
+    "snack",
+    "disabled",
+    "forbidden"
   ],
+  "category": ["places"],
   "type": "static"
 }

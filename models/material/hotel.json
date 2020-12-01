@@ -13,8 +13,6 @@
     "people",
     "stay"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

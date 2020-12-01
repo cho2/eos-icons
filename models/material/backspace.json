@@ -12,8 +12,6 @@
     "back",
     "delete"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

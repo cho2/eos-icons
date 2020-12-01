@@ -18,8 +18,6 @@
     "slash",
     "on"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

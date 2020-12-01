@@ -23,8 +23,6 @@
     "unknown",
     "unrecognized"
   ],
-  "category": [
-    "hardware"
-  ],
+  "category": ["hardware"],
   "type": "static"
 }

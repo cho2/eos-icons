@@ -15,8 +15,6 @@
     "place",
     "out"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

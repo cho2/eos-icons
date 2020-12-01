@@ -15,8 +15,6 @@
     "couch",
     "room"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

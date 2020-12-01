@@ -2,11 +2,7 @@
   "name": "nature",
   "do": "",
   "dont": "",
-  "tags": [
-    "image", "portrait", "outdoors"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["image", "portrait", "outdoors"],
+  "category": ["image"],
   "type": "static"
 }

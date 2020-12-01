@@ -3,10 +3,15 @@
   "do": "",
   "dont": "",
   "tags": [
-    "writing", "words", "type", "key", "letter", "words", "sound", "tone"
+    "writing",
+    "words",
+    "type",
+    "key",
+    "letter",
+    "words",
+    "sound",
+    "tone"
   ],
-  "category": [
-    "hardware"
-  ],
+  "category": ["hardware"],
   "type": "static"
 }

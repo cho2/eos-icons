@@ -13,8 +13,6 @@
     "info",
     "network"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

@@ -2,11 +2,7 @@
   "name": "straighten",
   "do": "",
   "dont": "",
-  "tags": [
-    "camera", "setting", "image", "photo"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["camera", "setting", "image", "photo"],
+  "category": ["image"],
   "type": "static"
 }

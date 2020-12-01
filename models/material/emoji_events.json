@@ -17,8 +17,6 @@
     "trophy",
     "winner"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

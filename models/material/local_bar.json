@@ -12,8 +12,6 @@
     "food",
     "wine"
   ],
-  "category": [
-    "maps"
-  ],
+  "category": ["maps"],
   "type": "static"
 }

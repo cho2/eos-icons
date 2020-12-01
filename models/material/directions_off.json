@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["turn", "arrow", "steer", "canceled"],
-  "category": [
-    "notification"
-  ],
+  "category": ["notification"],
   "type": "static"
 }

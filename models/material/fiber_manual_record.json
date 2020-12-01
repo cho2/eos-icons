@@ -2,17 +2,7 @@
   "name": "fiber_manual_record",
   "do": "",
   "dont": "",
-  "tags": [
-    "play",
-    "watch",
-    "Fiber",
-    "record",
-    "dot",
-    "circle",
-    "manual"
-  ],
-  "category": [
-    "av"
-  ],
+  "tags": ["play", "watch", "Fiber", "record", "dot", "circle", "manual"],
+  "category": ["av"],
   "type": "static"
 }

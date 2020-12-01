@@ -1,0 +1,8 @@
+{
+  "name": "switch_left",
+  "do": "",
+  "dont": "",
+  "tags": ["control", "setting", "arrow", "shuffle"],
+  "category": ["navigation"],
+  "type": "static"
+}

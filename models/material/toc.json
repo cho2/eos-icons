@@ -14,8 +14,6 @@
     "table",
     "order"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

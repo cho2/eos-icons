@@ -1,0 +1,22 @@
+{
+  "name": "table_chart",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "analytics",
+    "bar",
+    "bars",
+    "chart",
+    "data",
+    "diagram",
+    "graph",
+    "infographic",
+    "measure",
+    "metrics",
+    "statistics",
+    "table",
+    "tracking"
+  ],
+  "category": ["editor"],
+  "type": "static"
+}

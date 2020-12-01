@@ -17,8 +17,6 @@
     "slash",
     "url"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static"
 }

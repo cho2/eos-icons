@@ -2,11 +2,7 @@
   "name": "bathtub",
   "do": "",
   "dont": "",
-  "tags": [
-    "wash"
-  ],
-  "category": [
-    "places"
-  ],
+  "tags": ["wash"],
+  "category": ["places"],
   "type": "static"
 }

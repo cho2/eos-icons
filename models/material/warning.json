@@ -13,8 +13,6 @@
     "mark",
     "triangle"
   ],
-  "category": [
-    "alert"
-  ],
+  "category": ["alert"],
   "type": "static"
 }

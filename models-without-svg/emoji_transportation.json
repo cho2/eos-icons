@@ -2,11 +2,7 @@
   "name": "emoji_transportation",
   "do": "",
   "dont": "",
-  "tags": [
-    "transport", "vehicle", "car"
-  ],
-  "category": [
-    "social"
-  ],
+  "tags": ["transport", "vehicle", "car"],
+  "category": ["social"],
   "type": "static"
 }

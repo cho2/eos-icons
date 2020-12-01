@@ -11,8 +11,6 @@
     "paring",
     "device"
   ],
-  "category": [
-    "device"
-  ],
+  "category": ["device"],
   "type": "static"
 }

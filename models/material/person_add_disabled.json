@@ -17,8 +17,6 @@
     "slash",
     "user"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

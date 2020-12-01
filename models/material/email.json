@@ -12,8 +12,6 @@
     "send",
     "write"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

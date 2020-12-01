@@ -13,8 +13,6 @@
     "printer",
     "slash"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

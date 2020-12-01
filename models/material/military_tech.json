@@ -24,8 +24,6 @@
     "win",
     "winner"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

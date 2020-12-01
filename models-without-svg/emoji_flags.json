@@ -2,11 +2,7 @@
   "name": "emoji_flags",
   "do": "",
   "dont": "",
-  "tags": [
-    "country", "national", "finish", "start", "goal", "milestone"
-  ],
-  "category": [
-    "social"
-  ],
+  "tags": ["country", "national", "finish", "start", "goal", "milestone"],
+  "category": ["social"],
   "type": "static"
 }

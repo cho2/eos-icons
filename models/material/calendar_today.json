@@ -13,8 +13,6 @@
     "today",
     "week"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

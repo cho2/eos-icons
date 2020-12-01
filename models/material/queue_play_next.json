@@ -19,8 +19,6 @@
     "Queue",
     "device"
   ],
-  "category": [
-    "av"
-  ],
+  "category": ["av"],
   "type": "static"
 }

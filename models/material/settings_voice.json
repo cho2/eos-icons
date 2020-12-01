@@ -11,8 +11,6 @@
     "speaker",
     "microphone"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

@@ -14,8 +14,6 @@
     "user",
     "account"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

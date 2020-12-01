@@ -3,10 +3,13 @@
   "do": "",
   "dont": "",
   "tags": [
-    "transportation", "global", "web", "network", "online", "connection"
+    "transportation",
+    "global",
+    "web",
+    "network",
+    "online",
+    "connection"
   ],
-  "category": [
-    "social"
-  ],
+  "category": ["social"],
   "type": "static"
 }

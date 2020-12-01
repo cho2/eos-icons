@@ -22,8 +22,6 @@
     "units",
     "workplace"
   ],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

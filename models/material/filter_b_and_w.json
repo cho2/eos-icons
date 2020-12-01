@@ -3,10 +3,14 @@
   "do": "",
   "dont": "",
   "tags": [
-    "photography", "photo", "image", "black", "white", "b&w", "black & white"
+    "photography",
+    "photo",
+    "image",
+    "black",
+    "white",
+    "b&w",
+    "black & white"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

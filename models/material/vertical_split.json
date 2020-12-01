@@ -1,0 +1,8 @@
+{
+  "name": "vertical_split",
+  "do": "",
+  "dont": "",
+  "tags": ["format", "paragraph", "split", "text", "vertical", "website"],
+  "category": ["action"],
+  "type": "static"
+}

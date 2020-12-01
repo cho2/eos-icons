@@ -16,8 +16,6 @@
     "tablet",
     "text"
   ],
-  "category": [
-    "communication"
-  ],
+  "category": ["communication"],
   "type": "static"
 }

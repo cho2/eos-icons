@@ -1,0 +1,27 @@
+{
+  "name": "voice_over_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "account",
+    "disabled",
+    "enabled",
+    "face",
+    "human",
+    "off",
+    "on",
+    "people",
+    "person",
+    "profile",
+    "recording",
+    "slash",
+    "speak",
+    "speaking",
+    "speech",
+    "transcript",
+    "user",
+    "voice"
+  ],
+  "category": ["action"],
+  "type": "static"
+}

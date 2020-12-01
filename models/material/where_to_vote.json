@@ -1,0 +1,17 @@
+{
+  "name": "where_to_vote",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "ballot",
+    "check",
+    "checkmark",
+    "election",
+    "location",
+    "pin",
+    "poll",
+    "vote"
+  ],
+  "category": ["content"],
+  "type": "static"
+}

@@ -21,8 +21,6 @@
     "coin",
     "shopping"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

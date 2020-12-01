@@ -1,0 +1,20 @@
+{
+  "name": "search_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "disabled",
+    "enabled",
+    "filter",
+    "look",
+    "look up",
+    "magnify",
+    "magnifying glass",
+    "off",
+    "on",
+    "search",
+    "x"
+  ],
+  "category": ["action"],
+  "type": "static"
+}

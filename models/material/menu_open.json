@@ -13,8 +13,6 @@
     "menu",
     "open"
   ],
-  "category": [
-    "navigation"
-  ],
+  "category": ["navigation"],
   "type": "static"
 }

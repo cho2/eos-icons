@@ -2,11 +2,7 @@
   "name": "keyboard_tab",
   "do": "",
   "dont": "",
-  "tags": [
-    "writing", "words", "type", "key", "letter", "words"
-  ],
-  "category": [
-    "hardware"
-  ],
+  "tags": ["writing", "words", "type", "key", "letter", "words"],
+  "category": ["hardware"],
   "type": "static"
 }

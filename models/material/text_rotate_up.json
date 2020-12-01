@@ -1,0 +1,22 @@
+{
+  "name": "text_rotate_up",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "A",
+    "alphabet",
+    "arrow",
+    "character",
+    "field",
+    "font",
+    "letter",
+    "move",
+    "rotate",
+    "symbol",
+    "text",
+    "type",
+    "up"
+  ],
+  "category": ["action"],
+  "type": "static"
+}

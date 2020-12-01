@@ -3,8 +3,6 @@
   "do": "",
   "dont": "",
   "tags": ["house", "ceiling", "home", "shelter", "housing"],
-  "category": [
-    "places"
-  ],
+  "category": ["places"],
   "type": "static"
 }

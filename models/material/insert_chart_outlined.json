@@ -17,8 +17,6 @@
     "statistics",
     "tracking"
   ],
-  "category": [
-    "editor"
-  ],
+  "category": ["editor"],
   "type": "static"
 }

@@ -3,10 +3,14 @@
   "do": "",
   "dont": "",
   "tags": [
-    "folder", "file", "case", "data", "directory", "documents", "repository"
+    "folder",
+    "file",
+    "case",
+    "data",
+    "directory",
+    "documents",
+    "repository"
   ],
-  "category": [
-    "file"
-  ],
+  "category": ["file"],
   "type": "static"
 }

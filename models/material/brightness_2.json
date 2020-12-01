@@ -3,10 +3,15 @@
   "do": "",
   "dont": "",
   "tags": [
-    "brilliance", "illumination", "luminosity", "shine", "luster", "gloss", "glaze", "light"
+    "brilliance",
+    "illumination",
+    "luminosity",
+    "shine",
+    "luster",
+    "gloss",
+    "glaze",
+    "light"
   ],
-  "category": [
-    "image"
-  ],
+  "category": ["image"],
   "type": "static"
 }

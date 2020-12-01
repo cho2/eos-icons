@@ -3,10 +3,15 @@
   "do": "",
   "dont": "",
   "tags": [
-    "cloud", "server", "storage", "remote", "off", "abort", "omit", "remove"
+    "cloud",
+    "server",
+    "storage",
+    "remote",
+    "off",
+    "abort",
+    "omit",
+    "remove"
   ],
-  "category": [
-    "file"
-  ],
+  "category": ["file"],
   "type": "static"
 }

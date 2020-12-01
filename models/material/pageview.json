@@ -11,8 +11,6 @@
     "magnifying glass",
     "page"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }

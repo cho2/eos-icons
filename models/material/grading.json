@@ -11,8 +11,6 @@
     "review",
     "reviewed"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static"
 }
