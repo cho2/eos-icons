@@ -1,5 +1,6 @@
 const fs = require('fs')
 const axios = require('axios')
+const inquirer = require('inquirer')
 const path = require('path')
 
 const downloadFile = async () => {
@@ -32,19 +33,53 @@ const eosMdIconsDifferences = async (params) => {
     const missingIconsInMD = iconsDifferences(mdIcons, webMdIconsCollection)
     const allMissingIconsInEos = iconsDifferences(missingIconsInEos, icons)
 
+
     console.log(
       `======= ${allMissingIconsInEos.length} New icons MD has that EOS doesn't =======`
     )
     console.dir(allMissingIconsInEos, { maxArrayLength: null })
-    console.log(
-      `======= ${missingIconsInMD.length} Old Md icons they have removed and EOS still has =======`
-    )
-    console.dir(missingIconsInMD, { maxArrayLength: null })
-  } catch (error) {
+    // console.log(
+    //   `======= ${missingIconsInMD.length} Old Md icons they have removed and EOS still has =======`
+    // )
+    // console.dir(missingIconsInMD, { maxArrayLength: null })
+
+  
+    let answer
+    if (allMissingIconsInEos.length > 0) {
+      answer = await checkAnswer().then(async (response) => {
+        return response
+      })
+
+      let  data = {
+        answer: answer.answer,
+        iconsList: allMissingIconsInEos
+      }
+      return data
+    } else {
+      return { answer: 'No' }
+    }
+ } catch (error) {
     console.log(error)
     console.log(
       "Please run 'grunt eosMdIconsDifferencesLog' again to see the result."
     )
+  }
+
+}
+
+const checkAnswer = async () => {
+  console.log('test function' )
+  try {
+    return inquirer.prompt([
+      {
+        type: 'list',
+        name: 'answer',
+        message: '✅  Do you want to import them now?: ',
+        choices: ['Yes', 'No']
+      }
+    ])
+  } catch (error) {
+    console.log(error)
   }
 }
 

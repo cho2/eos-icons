@@ -2568,6 +2568,18 @@
     "type": "static"
   },
   {
+    "name": "add_reaction",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "test"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
     "name": "add_road",
     "do": "",
     "dont": "",

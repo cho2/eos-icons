@@ -174,18 +174,29 @@ module.exports = function (grunt) {
   /* compare MD icons in our repo and MD officical website */
   grunt.registerTask('eosMdIconsDifferencesLog', async function () {
     const done = this.async()
+
     await downloadFile()
       .then(
         eosMdIconsDifferences({
           targetDirMd: './svg/material',
           icons: duplicatedIcons
+        }).then( async res => {
+          if (res.answer === 'Yes') {
+            const iconList = [...res.iconsList]
+
+            for await (const icon of iconList) {
+              await downloadSvgFile(icon).then()
+              done()
+            }
+          } else {
+            done()
+          }
         })
-      )
-      .then(done)
+      ).then()
   })
 
   /* Download MD svgs and create models */
-  grunt.registerTask('downloadMdSvgFile', async function () {
+ grunt.registerTask('downloadMdSvgFile', async function () {
     const done = this.async()
 
     /* Add icons list here */
@@ -269,6 +280,7 @@ module.exports = function (grunt) {
     'combineAllIconsModels'
   ])
   grunt.registerTask('test', [
+    'eosMdIconsDifferencesLog',
     'findDuplicates',
     'checkNameConvention',
     'checkModelKeysTask',
