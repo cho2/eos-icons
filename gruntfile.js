@@ -171,7 +171,7 @@ module.exports = function (grunt) {
     }).then(done)
   })
 
-  /* compare MD icons in our repo and MD officical website */
+  /* compare MD icons in our repo and MD officical website Download MD svgs and create models */
   grunt.registerTask('eosMdIconsDifferencesLog', async function () {
     const done = this.async()
 
@@ -183,7 +183,7 @@ module.exports = function (grunt) {
         }).then( async res => {
           if (res.answer === 'Yes') {
             const iconList = [...res.iconsList]
-
+            /* Download MD svgs and create models */
             for await (const icon of iconList) {
               await downloadSvgFile(icon).then()
               done()
@@ -193,20 +193,6 @@ module.exports = function (grunt) {
           }
         })
       ).then()
-  })
-
-  /* Download MD svgs and create models */
- grunt.registerTask('downloadMdSvgFile', async function () {
-    const done = this.async()
-
-    /* Add icons list here */
-    const iconList = []
-
-    for await (const icon of iconList) {
-      await downloadSvgFile(icon).then()
-    }
-
-    done()
   })
 
   /* Checks for each models to make sure it has all the properties we expect. */
