@@ -141,7 +141,7 @@ module.exports = function (grunt) {
   })
 
   /* Find duplictes name between our icons and MD icon set. */
-  grunt.registerTask('findDuplicates', function () {
+  grunt.registerTask('findDuplicateNames', function () {
     const done = this.async()
 
     const mdRepo = './svg/material'
@@ -172,7 +172,7 @@ module.exports = function (grunt) {
   })
 
   /* compare MD icons in our repo and MD officical website Download MD svgs and create models */
-  grunt.registerTask('eosMdIconsDifferencesLog', async function () {
+  grunt.registerTask('importMdIcons', async function () {
     const done = this.async()
 
     await downloadFile()
@@ -266,8 +266,8 @@ module.exports = function (grunt) {
     'combineAllIconsModels'
   ])
   grunt.registerTask('test', [
-    'eosMdIconsDifferencesLog',
-    'findDuplicates',
+    'importMdIcons',
+    'findDuplicateNames',
     'checkNameConvention',
     'checkModelKeysTask',
     'checkMissingModelandSVG'
