@@ -38,11 +38,6 @@ const eosMdIconsDifferences = async (params) => {
       `======= ${allMissingIconsInEos.length} New icons MD has that EOS doesn't =======`
     )
     console.dir(allMissingIconsInEos, { maxArrayLength: null })
-    // console.log(
-    //   `======= ${missingIconsInMD.length} Old Md icons they have removed and EOS still has =======`
-    // )
-    // console.dir(missingIconsInMD, { maxArrayLength: null })
-
   
     if (allMissingIconsInEos.length > 0) {
       let importMdIconsRes = await importMdIcons().then(async (response) => {
