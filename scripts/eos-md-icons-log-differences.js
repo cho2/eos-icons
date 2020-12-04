@@ -44,14 +44,13 @@ const eosMdIconsDifferences = async (params) => {
     // console.dir(missingIconsInMD, { maxArrayLength: null })
 
   
-    let answer
     if (allMissingIconsInEos.length > 0) {
-      answer = await checkAnswer().then(async (response) => {
+      let importMdIconsRes = await importMdIcons().then(async (response) => {
         return response
       })
 
       let  data = {
-        answer: answer.answer,
+        answer: importMdIconsRes.answer,
         iconsList: allMissingIconsInEos
       }
       return data
@@ -67,8 +66,8 @@ const eosMdIconsDifferences = async (params) => {
 
 }
 
-const checkAnswer = async () => {
-  console.log('test function' )
+const importMdIcons = async () => {
+
   try {
     return inquirer.prompt([
       {
