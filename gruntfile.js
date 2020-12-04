@@ -141,7 +141,7 @@ module.exports = function (grunt) {
   })
 
   /* Find duplictes name between our icons and MD icon set. */
-  grunt.registerTask('findDuplicates', function () {
+  grunt.registerTask('findDuplicateNames', function () {
     const done = this.async()
 
     const mdRepo = './svg/material'
@@ -171,31 +171,28 @@ module.exports = function (grunt) {
     }).then(done)
   })
 
-  /* compare MD icons in our repo and MD officical website */
-  grunt.registerTask('eosMdIconsDifferencesLog', async function () {
+  /* compare MD icons in our repo and MD officical website Download MD svgs and create models */
+  grunt.registerTask('importMdIcons', async function () {
     const done = this.async()
+
     await downloadFile()
       .then(
         eosMdIconsDifferences({
           targetDirMd: './svg/material',
           icons: duplicatedIcons
+        }).then( async res => {
+          if (res.answer === 'Yes') {
+            const iconList = [...res.iconsList]
+            /* Download MD svgs and create models */
+            for await (const icon of iconList) {
+              await downloadSvgFile(icon).then()
+              done()
+            }
+          } else {
+            done()
+          }
         })
-      )
-      .then(done)
-  })
-
-  /* Download MD svgs and create models */
-  grunt.registerTask('downloadMdSvgFile', async function () {
-    const done = this.async()
-
-    /* Add icons list here */
-    const iconList = []
-
-    for await (const icon of iconList) {
-      await downloadSvgFile(icon).then()
-    }
-
-    done()
+      ).then()
   })
 
   /* Checks for each models to make sure it has all the properties we expect. */
@@ -269,7 +266,8 @@ module.exports = function (grunt) {
     'combineAllIconsModels'
   ])
   grunt.registerTask('test', [
-    'findDuplicates',
+    'importMdIcons',
+    'findDuplicateNames',
     'checkNameConvention',
     'checkModelKeysTask',
     'checkMissingModelandSVG'

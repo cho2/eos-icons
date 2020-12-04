@@ -70,7 +70,9 @@ const duplicatedIcons = [
   'request_page',
   'star_rate',
   'sentiment_satisfied_alt',
-  'sticky_note_2'
+  'sticky_note_2',
+  'outbond',
+  'api'
 ]
 
 module.exports = {
