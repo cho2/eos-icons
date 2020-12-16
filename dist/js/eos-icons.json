@@ -18614,6 +18614,22 @@
     "type": "static"
   },
   {
+    "name": "push_pin",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "nail",
+      "badge",
+      "brooch",
+      "placed",
+      "pinned"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static"
+  },
+  {
     "name": "qr_code",
     "do": "",
     "dont": "",
@@ -19932,6 +19948,27 @@
       "study",
       "learning",
       "student"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static"
+  },
+  {
+    "name": "science",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "beaker",
+      "chemical",
+      "chemistry",
+      "experiment",
+      "flask",
+      "glass",
+      "laboratory",
+      "research",
+      "science",
+      "tube"
     ],
     "category": [
       "social"

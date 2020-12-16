@@ -33,18 +33,17 @@ const eosMdIconsDifferences = async (params) => {
     const missingIconsInMD = iconsDifferences(mdIcons, webMdIconsCollection)
     const allMissingIconsInEos = iconsDifferences(missingIconsInEos, icons)
 
-
     console.log(
       `======= ${allMissingIconsInEos.length} New icons MD has that EOS doesn't =======`
     )
     console.dir(allMissingIconsInEos, { maxArrayLength: null })
-  
+
     if (allMissingIconsInEos.length > 0) {
-      let importMdIconsRes = await importMdIcons().then(async (response) => {
+      const importMdIconsRes = await importMdIcons().then(async (response) => {
         return response
       })
 
-      let  data = {
+      const data = {
         answer: importMdIconsRes.answer,
         iconsList: allMissingIconsInEos
       }
@@ -52,17 +51,15 @@ const eosMdIconsDifferences = async (params) => {
     } else {
       return { answer: 'No' }
     }
- } catch (error) {
+  } catch (error) {
     console.log(error)
     console.log(
       "Please run 'grunt eosMdIconsDifferencesLog' again to see the result."
     )
   }
-
 }
 
 const importMdIcons = async () => {
-
   try {
     return inquirer.prompt([
       {
