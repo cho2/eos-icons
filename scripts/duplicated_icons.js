@@ -69,6 +69,7 @@ const duplicatedIcons = [
   'qr_code_2',
   'request_page',
   'star_rate',
+  'push_pin',
   'sentiment_satisfied_alt',
   'sticky_note_2',
   'outbond',
