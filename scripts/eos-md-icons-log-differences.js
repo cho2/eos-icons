@@ -28,9 +28,7 @@ const eosMdIconsDifferences = async (params) => {
       fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", '')
     )
     const webMdIconsCollection = webMdIconsData.icons.map((ele) => ele.name)
-
     const missingIconsInEos = iconsDifferences(webMdIconsCollection, mdIcons)
-    const missingIconsInMD = iconsDifferences(mdIcons, webMdIconsCollection)
     const allMissingIconsInEos = iconsDifferences(missingIconsInEos, icons)
 
     console.log(
