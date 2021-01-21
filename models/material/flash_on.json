@@ -10,7 +10,8 @@
     "custom",
     "glare",
     "glow",
-    "automatic"
+    "automatic",
+    "cache"
   ],
   "category": ["image"],
   "type": "static"
