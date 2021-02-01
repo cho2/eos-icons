@@ -56,6 +56,10 @@ const compareTwoArraysOfElements = (array1, array2) =>
 /* ==========================================================================
   Models properties checking
   ========================================================================== */
+/**
+ *
+ * @param {*} params modelFolder
+ */
 const readModelKeys = async (params) => {
   const { modelsFolder } = params
 
@@ -93,6 +97,12 @@ const readModelKeys = async (params) => {
   })
 }
 
+const materialOutlineModel = async (params) => {
+  const icons = await readModelKeys({ modelsFolder: '../models/material' })
+  console.log(icons)
+}
+
+materialOutlineModel()
 /* Maps throught the array of objects checking for  */
 const checkModelKeys = async () => {
   const modelsEos = await readModelKeys({ modelsFolder: './models' })
@@ -139,5 +149,6 @@ const checkForKeys = (model) => {
 module.exports = {
   checkForMissingModelsOrIcons,
   checkModelKeys,
-  readFilesAndCleanNames
+  readFilesAndCleanNames,
+  materialOutlineModel
 }

@@ -17,6 +17,11 @@ module.exports = function (grunt) {
   // Append path to your svg below
   // EOS-set and MD svg path
   const srcEosSet = ['svg/*.svg', 'svg/material/*.svg']
+  const srcEosSetOutlined = [
+    'svg-outlined/*.svg',
+    'svg-outlined/material/*.svg'
+  ]
+
   grunt.initConfig({
     webfont: {
       icons: {
@@ -49,6 +54,32 @@ module.exports = function (grunt) {
               dest: 'dist/js/glyph-list.json'
             }
           ]
+        }
+      },
+      outlined: {
+        src: srcEosSetOutlined,
+        dest: 'dist/outlined/fonts/',
+        destCss: 'dist/outlined/css/',
+        destScss: 'dist/outlined/css/',
+        destLess: 'dist/outlined/css/',
+        options: {
+          font: 'eos-icons-outlined',
+          syntax: 'bootstrap',
+          version: '1.0.0',
+          ligatures: true,
+          normalize: true,
+          types: 'woff2,woff,ttf,svg,eot',
+          metadata: 'something here',
+          templateOptions: {
+            baseClass: 'eos-icons',
+            classPrefix: 'eos-',
+            template: 'templates/css-template.css',
+            iconsStyles: false
+          },
+          stylesheets: ['less', 'scss', 'css'],
+          destHtml: 'dist/outlined',
+          htmlDemoTemplate: 'templates/index-template-outlined.html',
+          htmlDemoFilename: 'index'
         }
       }
     },
@@ -262,7 +293,8 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'clean:all',
     'concat',
-    'webfont',
+    'webfont:icons',
+    'webfont:outlined',
     'replace',
     'combineAllIconsModels'
   ])

@@ -25,7 +25,8 @@
       "non-realistic"
     ],
     "category": "virtualization",
-    "type": "static"
+    "type": "static",
+    "hasOutlined": false
   },
   {
     "name": "abstract_instance",
@@ -10108,7 +10109,8 @@
       "custom",
       "glare",
       "glow",
-      "automatic"
+      "automatic",
+      "cache"
     ],
     "category": [
       "image"
