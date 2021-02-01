@@ -2,7 +2,17 @@
   "name": "play_arrow",
   "do": "",
   "dont": "",
-  "tags": ["Play", "controls", "music", "arrow", "control", "video"],
-  "category": ["av"],
-  "type": "static"
+  "tags": [
+    "Play",
+    "controls",
+    "music",
+    "arrow",
+    "control",
+    "video"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

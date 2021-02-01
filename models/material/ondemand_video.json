@@ -2,7 +2,14 @@
   "name": "ondemand_video",
   "do": "",
   "dont": "",
-  "tags": ["video", "stream", "play"],
-  "category": ["notification"],
-  "type": "static"
+  "tags": [
+    "video",
+    "stream",
+    "play"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

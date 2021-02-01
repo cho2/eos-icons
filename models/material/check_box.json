@@ -11,6 +11,9 @@
     "option",
     "checked"
   ],
-  "category": ["toggle"],
-  "type": "static"
+  "category": [
+    "toggle"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

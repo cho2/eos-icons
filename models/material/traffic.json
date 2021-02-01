@@ -2,7 +2,17 @@
   "name": "traffic",
   "do": "",
   "dont": "",
-  "tags": ["light", "street", "map", "signal", "direction", "traffic"],
-  "category": ["maps"],
-  "type": "static"
+  "tags": [
+    "light",
+    "street",
+    "map",
+    "signal",
+    "direction",
+    "traffic"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

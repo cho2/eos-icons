@@ -2,7 +2,14 @@
   "name": "indeterminate_check_box",
   "do": "",
   "dont": "",
-  "tags": ["undetermined", "undefined", "unspecified"],
-  "category": ["toggle"],
-  "type": "static"
+  "tags": [
+    "undetermined",
+    "undefined",
+    "unspecified"
+  ],
+  "category": [
+    "toggle"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

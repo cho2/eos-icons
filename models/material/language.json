@@ -2,7 +2,17 @@
   "name": "language",
   "do": "",
   "dont": "",
-  "tags": ["website", "globe", "world", "planet", "www", "language"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "website",
+    "globe",
+    "world",
+    "planet",
+    "www",
+    "language"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

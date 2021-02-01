@@ -2,7 +2,12 @@
   "name": "no_backpack",
   "do": "",
   "dont": "",
-  "tags": ["rucksack"],
-  "category": ["places"],
-  "type": "static"
+  "tags": [
+    "rucksack"
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

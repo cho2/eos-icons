@@ -25,6 +25,9 @@
     "tv",
     "wireless"
   ],
-  "category": ["hardware"],
-  "type": "static"
+  "category": [
+    "hardware"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

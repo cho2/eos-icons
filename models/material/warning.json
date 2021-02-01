@@ -13,6 +13,9 @@
     "mark",
     "triangle"
   ],
-  "category": ["alert"],
-  "type": "static"
+  "category": [
+    "alert"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

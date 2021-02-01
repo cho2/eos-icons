@@ -2,7 +2,15 @@
   "name": "network_check",
   "do": "",
   "dont": "",
-  "tags": ["speed test", "speedcheck", "odometer", "odograph"],
-  "category": ["notification"],
-  "type": "static"
+  "tags": [
+    "speed test",
+    "speedcheck",
+    "odometer",
+    "odograph"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

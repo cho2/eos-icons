@@ -2,7 +2,16 @@
   "name": "picture_as_pdf",
   "do": "",
   "dont": "",
-  "tags": ["photo", "image", "camera", "file", "format"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "photo",
+    "image",
+    "camera",
+    "file",
+    "format"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

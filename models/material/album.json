@@ -2,7 +2,18 @@
   "name": "album",
   "do": "",
   "dont": "",
-  "tags": ["play", "cd", "music", "artist", "record", "Album", "track"],
-  "category": ["av"],
-  "type": "static"
+  "tags": [
+    "play",
+    "cd",
+    "music",
+    "artist",
+    "record",
+    "Album",
+    "track"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

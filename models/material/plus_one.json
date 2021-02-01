@@ -2,7 +2,15 @@
   "name": "plus_one",
   "do": "",
   "dont": "",
-  "tags": ["number", "increment", "add", "like"],
-  "category": ["social"],
-  "type": "static"
+  "tags": [
+    "number",
+    "increment",
+    "add",
+    "like"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

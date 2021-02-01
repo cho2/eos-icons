@@ -2,7 +2,15 @@
   "name": "voice_chat",
   "do": "",
   "dont": "",
-  "tags": ["message", "communication", "talk", "conversation"],
-  "category": ["notification"],
-  "type": "static"
+  "tags": [
+    "message",
+    "communication",
+    "talk",
+    "conversation"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

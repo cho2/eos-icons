@@ -2,7 +2,15 @@
   "name": "horizontal_split",
   "do": "",
   "dont": "",
-  "tags": ["bars", "horizontal", "split", "stacked"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "bars",
+    "horizontal",
+    "split",
+    "stacked"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

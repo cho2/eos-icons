@@ -2,7 +2,17 @@
   "name": "get_app",
   "do": "",
   "dont": "",
-  "tags": ["download", "arrow", "get", "retrieve", "pointing", "down"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "download",
+    "arrow",
+    "get",
+    "retrieve",
+    "pointing",
+    "down"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

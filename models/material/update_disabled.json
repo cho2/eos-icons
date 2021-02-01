@@ -2,7 +2,15 @@
   "name": "update_disabled",
   "do": "",
   "dont": "",
-  "tags": ["renew", "refresh", "unavailable", "off"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "renew",
+    "refresh",
+    "unavailable",
+    "off"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

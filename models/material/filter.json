@@ -2,7 +2,17 @@
   "name": "filter",
   "do": "",
   "dont": "",
-  "tags": ["filter", "images", "mountain", "photo", "collection", "media"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "filter",
+    "images",
+    "mountain",
+    "photo",
+    "collection",
+    "media"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

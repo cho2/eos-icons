@@ -2,7 +2,12 @@
   "name": "north",
   "do": "",
   "dont": "",
-  "tags": ["up"],
-  "category": ["navigation"],
-  "type": "static"
+  "tags": [
+    "up"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

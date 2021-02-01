@@ -2,7 +2,18 @@
   "name": "move_to_inbox",
   "do": "",
   "dont": "",
-  "tags": ["incoming", "mail", "arrow", "archive", "message", "inbox", "email"],
-  "category": ["content"],
-  "type": "static"
+  "tags": [
+    "incoming",
+    "mail",
+    "arrow",
+    "archive",
+    "message",
+    "inbox",
+    "email"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

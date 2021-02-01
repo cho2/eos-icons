@@ -2,7 +2,15 @@
   "name": "topic",
   "do": "",
   "dont": "",
-  "tags": ["conversation", "matter", "discourse", "subject"],
-  "category": ["file"],
-  "type": "static"
+  "tags": [
+    "conversation",
+    "matter",
+    "discourse",
+    "subject"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

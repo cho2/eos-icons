@@ -12,6 +12,9 @@
     "comment",
     "plus"
   ],
-  "category": ["action"],
-  "type": "static"
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

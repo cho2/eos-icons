@@ -2,7 +2,15 @@
   "name": "edit",
   "do": "",
   "dont": "",
-  "tags": ["pen", "change", "modify", "publish"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "pen",
+    "change",
+    "modify",
+    "publish"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

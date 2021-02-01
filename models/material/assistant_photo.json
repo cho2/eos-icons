@@ -2,7 +2,13 @@
   "name": "assistant_photo",
   "do": "",
   "dont": "",
-  "tags": ["aide", "help"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "aide",
+    "help"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

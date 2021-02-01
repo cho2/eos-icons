@@ -2,7 +2,16 @@
   "name": "sms_failed",
   "do": "",
   "dont": "",
-  "tags": ["message", "chat", "text", "communication", "error"],
-  "category": ["notification"],
-  "type": "static"
+  "tags": [
+    "message",
+    "chat",
+    "text",
+    "communication",
+    "error"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

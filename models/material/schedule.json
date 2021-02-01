@@ -2,7 +2,18 @@
   "name": "schedule",
   "do": "",
   "dont": "",
-  "tags": ["calendar", "date", "schedule", "save", "clock", "time", "mark"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "calendar",
+    "date",
+    "schedule",
+    "save",
+    "clock",
+    "time",
+    "mark"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

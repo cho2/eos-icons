@@ -2,7 +2,16 @@
   "name": "folder",
   "do": "",
   "dont": "",
-  "tags": ["portfolio", "data", "directory", "documents", "repository"],
-  "category": ["file"],
-  "type": "static"
+  "tags": [
+    "portfolio",
+    "data",
+    "directory",
+    "documents",
+    "repository"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

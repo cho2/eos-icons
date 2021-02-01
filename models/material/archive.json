@@ -2,7 +2,15 @@
   "name": "archive",
   "do": "",
   "dont": "",
-  "tags": ["mail", "archive", "store", "inbox"],
-  "category": ["content"],
-  "type": "static"
+  "tags": [
+    "mail",
+    "archive",
+    "store",
+    "inbox"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

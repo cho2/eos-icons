@@ -2,7 +2,18 @@
   "name": "favorite",
   "do": "",
   "dont": "",
-  "tags": ["love", "remember", "shape", "like", "save", "favorite", "heart"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "love",
+    "remember",
+    "shape",
+    "like",
+    "save",
+    "favorite",
+    "heart"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

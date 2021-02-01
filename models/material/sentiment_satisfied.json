@@ -2,7 +2,15 @@
   "name": "sentiment_satisfied",
   "do": "",
   "dont": "",
-  "tags": ["happy", "emoji", "feedback", "smiley"],
-  "category": ["social"],
-  "type": "static"
+  "tags": [
+    "happy",
+    "emoji",
+    "feedback",
+    "smiley"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -16,6 +16,9 @@
     "vehicle",
     "vespa"
   ],
-  "category": ["maps"],
-  "type": "static"
+  "category": [
+    "maps"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

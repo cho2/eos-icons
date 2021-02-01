@@ -2,7 +2,15 @@
   "name": "view_array",
   "do": "",
   "dont": "",
-  "tags": ["view", "website", "array", "format"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "view",
+    "website",
+    "array",
+    "format"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

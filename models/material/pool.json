@@ -2,7 +2,14 @@
   "name": "pool",
   "do": "",
   "dont": "",
-  "tags": ["swim", "float", "bath"],
-  "category": ["places"],
-  "type": "static"
+  "tags": [
+    "swim",
+    "float",
+    "bath"
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

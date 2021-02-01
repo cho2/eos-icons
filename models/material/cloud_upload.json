@@ -11,6 +11,9 @@
     "storage",
     "remote"
   ],
-  "category": ["file"],
-  "type": "static"
+  "category": [
+    "file"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,15 @@
   "name": "arrow_drop_up",
   "do": "",
   "dont": "",
-  "tags": ["direction", "up", "upward", "caret"],
-  "category": ["navigation"],
-  "type": "static"
+  "tags": [
+    "direction",
+    "up",
+    "upward",
+    "caret"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

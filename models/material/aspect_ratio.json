@@ -2,7 +2,18 @@
   "name": "aspect_ratio",
   "do": "",
   "dont": "",
-  "tags": ["image", "square", "expand", "size", "aspect", "scale", "ratio"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "image",
+    "square",
+    "expand",
+    "size",
+    "aspect",
+    "scale",
+    "ratio"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

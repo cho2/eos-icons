@@ -2,7 +2,13 @@
   "name": "multiple_stop",
   "do": "",
   "dont": "",
-  "tags": ["various", "halt"],
-  "category": ["maps"],
-  "type": "static"
+  "tags": [
+    "various",
+    "halt"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

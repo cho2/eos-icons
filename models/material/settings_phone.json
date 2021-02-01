@@ -2,7 +2,16 @@
   "name": "settings_phone",
   "do": "",
   "dont": "",
-  "tags": ["settings", "phone", "mobile", "cell", "device"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "settings",
+    "phone",
+    "mobile",
+    "cell",
+    "device"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,15 @@
   "name": "5g",
   "do": "",
   "dont": "",
-  "tags": ["network", "internet", "connection", "speed"],
-  "category": ["av"],
-  "type": "static"
+  "tags": [
+    "network",
+    "internet",
+    "connection",
+    "speed"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

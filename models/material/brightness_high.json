@@ -11,6 +11,9 @@
     "control",
     "monitor"
   ],
-  "category": ["device"],
-  "type": "static"
+  "category": [
+    "device"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

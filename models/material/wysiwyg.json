@@ -2,7 +2,14 @@
   "name": "wysiwyg",
   "do": "",
   "dont": "",
-  "tags": ["editor", "text", "design software"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "editor",
+    "text",
+    "design software"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

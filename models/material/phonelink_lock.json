@@ -16,6 +16,9 @@
     "Android",
     "hardware"
   ],
-  "category": ["communication"],
-  "type": "static"
+  "category": [
+    "communication"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

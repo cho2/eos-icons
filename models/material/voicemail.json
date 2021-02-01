@@ -13,6 +13,9 @@
     "message",
     "device"
   ],
-  "category": ["communication"],
-  "type": "static"
+  "category": [
+    "communication"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

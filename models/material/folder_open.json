@@ -2,7 +2,14 @@
   "name": "folder_open",
   "do": "",
   "dont": "",
-  "tags": ["folder", "file", "open"],
-  "category": ["file"],
-  "type": "static"
+  "tags": [
+    "folder",
+    "file",
+    "open"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

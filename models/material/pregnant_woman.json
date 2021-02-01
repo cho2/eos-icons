@@ -17,6 +17,9 @@
     "human",
     "pregnant"
   ],
-  "category": ["roles"],
-  "type": "static"
+  "category": [
+    "roles"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

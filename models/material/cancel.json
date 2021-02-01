@@ -2,7 +2,16 @@
   "name": "cancel",
   "do": "",
   "dont": "",
-  "tags": ["remove", "circle", "abort", "omit", "eliminate"],
-  "category": ["navigation"],
-  "type": "static"
+  "tags": [
+    "remove",
+    "circle",
+    "abort",
+    "omit",
+    "eliminate"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

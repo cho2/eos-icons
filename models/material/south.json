@@ -2,7 +2,16 @@
   "name": "south",
   "do": "",
   "dont": "",
-  "tags": ["direction", "arrow", "compass", "map", "travel"],
-  "category": ["navigation"],
-  "type": "static"
+  "tags": [
+    "direction",
+    "arrow",
+    "compass",
+    "map",
+    "travel"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

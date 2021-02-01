@@ -2,7 +2,15 @@
   "name": "terrain",
   "do": "",
   "dont": "",
-  "tags": ["mountain", "geography", "terrain", "landscape"],
-  "category": ["maps"],
-  "type": "static"
+  "tags": [
+    "mountain",
+    "geography",
+    "terrain",
+    "landscape"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

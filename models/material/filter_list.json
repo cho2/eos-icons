@@ -2,7 +2,16 @@
   "name": "filter_list",
   "do": "",
   "dont": "",
-  "tags": ["filter", "organize", "find", "sort", "list"],
-  "category": ["content"],
-  "type": "static"
+  "tags": [
+    "filter",
+    "organize",
+    "find",
+    "sort",
+    "list"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

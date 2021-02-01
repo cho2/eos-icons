@@ -2,7 +2,17 @@
   "name": "reorder",
   "do": "",
   "dont": "",
-  "tags": ["stacked", "format", "reorder", "lines", "list", "order"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "stacked",
+    "format",
+    "reorder",
+    "lines",
+    "list",
+    "order"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

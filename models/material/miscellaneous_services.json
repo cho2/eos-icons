@@ -2,7 +2,13 @@
   "name": "miscellaneous_services",
   "do": "",
   "dont": "",
-  "tags": ["setting", "configuration"],
-  "category": ["maps"],
-  "type": "static"
+  "tags": [
+    "setting",
+    "configuration"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

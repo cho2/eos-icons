@@ -2,7 +2,15 @@
   "name": "mobile_friendly",
   "do": "",
   "dont": "",
-  "tags": ["check", "device", "friendly", "mobile"],
-  "category": ["device"],
-  "type": "static"
+  "tags": [
+    "check",
+    "device",
+    "friendly",
+    "mobile"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

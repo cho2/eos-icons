@@ -2,7 +2,17 @@
   "name": "clear_all",
   "do": "",
   "dont": "",
-  "tags": ["all", "document", "format", "doc", "list", "Clear"],
-  "category": ["communication"],
-  "type": "static"
+  "tags": [
+    "all",
+    "document",
+    "format",
+    "doc",
+    "list",
+    "Clear"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

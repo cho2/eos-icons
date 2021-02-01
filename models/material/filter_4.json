@@ -2,7 +2,16 @@
   "name": "filter_4",
   "do": "",
   "dont": "",
-  "tags": ["photography", "photo", "image", "edit", "four"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "photography",
+    "photo",
+    "image",
+    "edit",
+    "four"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

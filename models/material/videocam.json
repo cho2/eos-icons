@@ -2,7 +2,16 @@
   "name": "videocam",
   "do": "",
   "dont": "",
-  "tags": ["conference", "Video", "chat", "screen", "camera"],
-  "category": ["av"],
-  "type": "static"
+  "tags": [
+    "conference",
+    "Video",
+    "chat",
+    "screen",
+    "camera"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

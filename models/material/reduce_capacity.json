@@ -16,6 +16,9 @@
     "narrow",
     "shrink"
   ],
-  "category": ["social"],
-  "type": "static"
+  "category": [
+    "social"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

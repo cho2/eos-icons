@@ -98,8 +98,28 @@ const readModelKeys = async (params) => {
 }
 
 const materialOutlineModel = async (params) => {
-  const icons = await readModelKeys({ modelsFolder: '../models/material' })
-  console.log(icons)
+  const models = await readModelKeys({ modelsFolder: '../models/material' })
+
+  models.map((model) => {
+    /* Get the object without the filename */
+    const { fileName, ...newModel } = model
+
+    /* If the object already has the property of hasOutlined, ignore it */
+    if (newModel.hasOutlined) return
+
+    /* Rewrite the material-model to include the hasOutlined property */
+    return fs.writeFileSync(
+      `../models/material/${model.name}.json`,
+      JSON.stringify(
+        {
+          ...newModel,
+          hasOutlined: true
+        },
+        null,
+        2
+      )
+    )
+  })
 }
 
 materialOutlineModel()

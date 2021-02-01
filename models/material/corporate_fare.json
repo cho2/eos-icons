@@ -2,7 +2,14 @@
   "name": "corporate_fare",
   "do": "",
   "dont": "",
-  "tags": ["price", "tariff", "ticket"],
-  "category": ["places"],
-  "type": "static"
+  "tags": [
+    "price",
+    "tariff",
+    "ticket"
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

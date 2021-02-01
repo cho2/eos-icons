@@ -2,7 +2,16 @@
   "name": "local_library",
   "do": "",
   "dont": "",
-  "tags": ["library", "read", "book", "community", "local"],
-  "category": ["maps"],
-  "type": "static"
+  "tags": [
+    "library",
+    "read",
+    "book",
+    "community",
+    "local"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

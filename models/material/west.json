@@ -2,7 +2,13 @@
   "name": "west",
   "do": "",
   "dont": "",
-  "tags": ["arrow", "left"],
-  "category": ["navigation"],
-  "type": "static"
+  "tags": [
+    "arrow",
+    "left"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

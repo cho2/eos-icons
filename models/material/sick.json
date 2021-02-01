@@ -2,7 +2,15 @@
   "name": "sick",
   "do": "",
   "dont": "",
-  "tags": ["disease", "fever", "ill", "virus"],
-  "category": ["social"],
-  "type": "static"
+  "tags": [
+    "disease",
+    "fever",
+    "ill",
+    "virus"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

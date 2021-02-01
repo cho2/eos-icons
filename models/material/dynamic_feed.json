@@ -2,7 +2,15 @@
   "name": "dynamic_feed",
   "do": "",
   "dont": "",
-  "tags": ["dynamic", "feed", "multiple", "post"],
-  "category": ["content"],
-  "type": "static"
+  "tags": [
+    "dynamic",
+    "feed",
+    "multiple",
+    "post"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

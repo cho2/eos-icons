@@ -2,7 +2,17 @@
   "name": "duo",
   "do": "",
   "dont": "",
-  "tags": ["Duo", "call", "chat", "conference", "device", "video"],
-  "category": ["communication"],
-  "type": "static"
+  "tags": [
+    "Duo",
+    "call",
+    "chat",
+    "conference",
+    "device",
+    "video"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

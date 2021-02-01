@@ -11,6 +11,9 @@
     "edit",
     "proportion"
   ],
-  "category": ["image"],
-  "type": "static"
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,17 @@
   "name": "camera_enhance",
   "do": "",
   "dont": "",
-  "tags": ["photo", "camera", "lens", "picture", "enhance", "quality"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "photo",
+    "camera",
+    "lens",
+    "picture",
+    "enhance",
+    "quality"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

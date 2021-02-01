@@ -2,7 +2,16 @@
   "name": "folder_special",
   "do": "",
   "dont": "",
-  "tags": ["portfolio", "star", "exclusive", "primary", "main"],
-  "category": ["file"],
-  "type": "static"
+  "tags": [
+    "portfolio",
+    "star",
+    "exclusive",
+    "primary",
+    "main"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

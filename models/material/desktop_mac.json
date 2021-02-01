@@ -2,7 +2,15 @@
   "name": "desktop_mac",
   "do": "",
   "dont": "",
-  "tags": ["apple", "laptop", "mac", "macbook"],
-  "category": ["hardware"],
-  "type": "static"
+  "tags": [
+    "apple",
+    "laptop",
+    "mac",
+    "macbook"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

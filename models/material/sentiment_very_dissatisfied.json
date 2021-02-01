@@ -2,7 +2,16 @@
   "name": "sentiment_very_dissatisfied",
   "do": "",
   "dont": "",
-  "tags": ["unhappy", "emoji", "feedback", "angry", "disappointed"],
-  "category": ["social"],
-  "type": "static"
+  "tags": [
+    "unhappy",
+    "emoji",
+    "feedback",
+    "angry",
+    "disappointed"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

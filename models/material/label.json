@@ -2,7 +2,16 @@
   "name": "label",
   "do": "",
   "dont": "",
-  "tags": ["indent", "sticker", "stamp", "label", "tag"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "indent",
+    "sticker",
+    "stamp",
+    "label",
+    "tag"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

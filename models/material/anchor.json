@@ -2,7 +2,15 @@
   "name": "anchor",
   "do": "",
   "dont": "",
-  "tags": ["ship", "sea", "boat", "marine"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "ship",
+    "sea",
+    "boat",
+    "marine"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

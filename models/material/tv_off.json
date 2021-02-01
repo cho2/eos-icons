@@ -22,6 +22,9 @@
     "web",
     "window"
   ],
-  "category": ["notification"],
-  "type": "static"
+  "category": [
+    "notification"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

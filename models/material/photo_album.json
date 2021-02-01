@@ -2,7 +2,15 @@
   "name": "photo_album",
   "do": "",
   "dont": "",
-  "tags": ["photography", "image", "cam", "camera"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "photography",
+    "image",
+    "cam",
+    "camera"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

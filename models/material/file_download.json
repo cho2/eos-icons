@@ -2,7 +2,13 @@
   "name": "file_download",
   "do": "",
   "dont": "",
-  "tags": ["get", "load"],
-  "category": ["content"],
-  "type": "static"
+  "tags": [
+    "get",
+    "load"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,15 @@
   "name": "sync_problem",
   "do": "",
   "dont": "",
-  "tags": ["refresh", "update", "reload", "error"],
-  "category": ["notification"],
-  "type": "static"
+  "tags": [
+    "refresh",
+    "update",
+    "reload",
+    "error"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,14 @@
   "name": "watch",
   "do": "",
   "dont": "",
-  "tags": ["device", "time", "clock"],
-  "category": ["hardware"],
-  "type": "static"
+  "tags": [
+    "device",
+    "time",
+    "clock"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

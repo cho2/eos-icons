@@ -2,7 +2,17 @@
   "name": "view_week",
   "do": "",
   "dont": "",
-  "tags": ["view", "week", "columns", "format", "day", "bars"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "view",
+    "week",
+    "columns",
+    "format",
+    "day",
+    "bars"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

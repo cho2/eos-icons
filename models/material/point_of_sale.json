@@ -16,6 +16,9 @@
     "coin box",
     "sales register"
   ],
-  "category": ["hardware"],
-  "type": "static"
+  "category": [
+    "hardware"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

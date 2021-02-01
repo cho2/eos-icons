@@ -2,7 +2,16 @@
   "name": "timelapse",
   "do": "",
   "dont": "",
-  "tags": ["camera", "time", "video", "sport", "setting"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "camera",
+    "time",
+    "video",
+    "sport",
+    "setting"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

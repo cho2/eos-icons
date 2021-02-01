@@ -2,7 +2,18 @@
   "name": "turned_in_not",
   "do": "",
   "dont": "",
-  "tags": ["remember", "bookmark", "not", "outline", "turned", "in", "save"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "remember",
+    "bookmark",
+    "not",
+    "outline",
+    "turned",
+    "in",
+    "save"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

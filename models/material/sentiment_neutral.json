@@ -2,7 +2,16 @@
   "name": "sentiment_neutral",
   "do": "",
   "dont": "",
-  "tags": ["happy", "sad", "emoji", "feedback", "smiley"],
-  "category": ["social"],
-  "type": "static"
+  "tags": [
+    "happy",
+    "sad",
+    "emoji",
+    "feedback",
+    "smiley"
+  ],
+  "category": [
+    "social"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

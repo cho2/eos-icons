@@ -2,7 +2,13 @@
   "name": "system_update",
   "do": "",
   "dont": "",
-  "tags": ["refresh", "sync"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "refresh",
+    "sync"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

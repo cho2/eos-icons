@@ -2,7 +2,16 @@
   "name": "article",
   "do": "",
   "dont": "",
-  "tags": ["article", "doc", "document", "text", "writing"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "article",
+    "doc",
+    "document",
+    "text",
+    "writing"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

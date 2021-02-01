@@ -18,6 +18,9 @@
     "slash",
     "on"
   ],
-  "category": ["action"],
-  "type": "static"
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

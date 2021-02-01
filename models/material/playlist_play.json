@@ -2,7 +2,16 @@
   "name": "playlist_play",
   "do": "",
   "dont": "",
-  "tags": ["play", "Playlist", "music", "collection", "list"],
-  "category": ["av"],
-  "type": "static"
+  "tags": [
+    "play",
+    "Playlist",
+    "music",
+    "collection",
+    "list"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

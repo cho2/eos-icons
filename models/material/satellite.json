@@ -2,7 +2,16 @@
   "name": "satellite",
   "do": "",
   "dont": "",
-  "tags": ["images", "mountain", "maps", "location", "satellite"],
-  "category": ["maps"],
-  "type": "static"
+  "tags": [
+    "images",
+    "mountain",
+    "maps",
+    "location",
+    "satellite"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

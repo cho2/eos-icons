@@ -2,7 +2,16 @@
   "name": "fact_check",
   "do": "",
   "dont": "",
-  "tags": ["list", "verify", "inspect", "scrutinize", "survey"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "list",
+    "verify",
+    "inspect",
+    "scrutinize",
+    "survey"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

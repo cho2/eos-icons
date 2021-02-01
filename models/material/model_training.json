@@ -2,7 +2,13 @@
   "name": "model_training",
   "do": "",
   "dont": "",
-  "tags": ["lightbulb", "cycle"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "lightbulb",
+    "cycle"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

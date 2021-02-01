@@ -2,7 +2,13 @@
   "name": "outbound",
   "do": "",
   "dont": "",
-  "tags": ["outward", "arrow"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "outward",
+    "arrow"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

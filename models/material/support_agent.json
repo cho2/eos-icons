@@ -2,7 +2,17 @@
   "name": "support_agent",
   "do": "",
   "dont": "",
-  "tags": ["headset", "technical", "consultant", "helpline", "online", "call"],
-  "category": ["notification"],
-  "type": "static"
+  "tags": [
+    "headset",
+    "technical",
+    "consultant",
+    "helpline",
+    "online",
+    "call"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

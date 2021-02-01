@@ -2,7 +2,13 @@
   "name": "house_siding",
   "do": "",
   "dont": "",
-  "tags": ["covering", "cladding"],
-  "category": ["places"],
-  "type": "static"
+  "tags": [
+    "covering",
+    "cladding"
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

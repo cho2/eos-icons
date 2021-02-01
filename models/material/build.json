@@ -2,7 +2,14 @@
   "name": "build",
   "do": "",
   "dont": "",
-  "tags": ["build", "tool", "wrench"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "build",
+    "tool",
+    "wrench"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

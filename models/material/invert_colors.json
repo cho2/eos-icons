@@ -13,6 +13,9 @@
     "inverted",
     "water"
   ],
-  "category": ["action"],
-  "type": "static"
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

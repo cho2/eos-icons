@@ -2,7 +2,16 @@
   "name": "class",
   "do": "",
   "dont": "",
-  "tags": ["bookmark", "read", "book", "reading", "class"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "bookmark",
+    "read",
+    "book",
+    "reading",
+    "class"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -17,6 +17,9 @@
     "font",
     "order"
   ],
-  "category": ["av"],
-  "type": "static"
+  "category": [
+    "av"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

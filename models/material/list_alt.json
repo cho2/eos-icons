@@ -13,6 +13,9 @@
     "stacked",
     "title"
   ],
-  "category": ["communication"],
-  "type": "static"
+  "category": [
+    "communication"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

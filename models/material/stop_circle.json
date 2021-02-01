@@ -2,7 +2,13 @@
   "name": "stop_circle",
   "do": "",
   "dont": "",
-  "tags": ["mode", "sign"],
-  "category": ["av"],
-  "type": "static"
+  "tags": [
+    "mode",
+    "sign"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

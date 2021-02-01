@@ -11,6 +11,9 @@
     "notification",
     "speaker"
   ],
-  "category": ["navigation"],
-  "type": "static"
+  "category": [
+    "navigation"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

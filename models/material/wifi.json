@@ -2,7 +2,16 @@
   "name": "wifi",
   "do": "",
   "dont": "",
-  "tags": ["internet", "wireless", "network", "signal", "communication"],
-  "category": ["notification"],
-  "type": "static"
+  "tags": [
+    "internet",
+    "wireless",
+    "network",
+    "signal",
+    "communication"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,18 @@
   "name": "view_day",
   "do": "",
   "dont": "",
-  "tags": ["calendar", "view", "cards", "week", "format", "carousel", "day"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "calendar",
+    "view",
+    "cards",
+    "week",
+    "format",
+    "carousel",
+    "day"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,17 @@
   "name": "wifi_calling",
   "do": "",
   "dont": "",
-  "tags": ["call", "calling", "device", "mobile", "phone", "wifi"],
-  "category": ["communication"],
-  "type": "static"
+  "tags": [
+    "call",
+    "calling",
+    "device",
+    "mobile",
+    "phone",
+    "wifi"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

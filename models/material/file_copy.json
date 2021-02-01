@@ -13,6 +13,9 @@
     "multiple",
     "past"
   ],
-  "category": ["content"],
-  "type": "static"
+  "category": [
+    "content"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -23,6 +23,9 @@
     "font",
     "speadsheet"
   ],
-  "category": ["editor"],
-  "type": "static"
+  "category": [
+    "editor"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -12,6 +12,9 @@
     "left",
     "previous"
   ],
-  "category": ["navigation"],
-  "type": "static"
+  "category": [
+    "navigation"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,17 @@
   "name": "local_fire_department",
   "do": "",
   "dont": "",
-  "tags": ["911", "department", "fire", "firefighter", "flame", "hot"],
-  "category": ["maps"],
-  "type": "static"
+  "tags": [
+    "911",
+    "department",
+    "fire",
+    "firefighter",
+    "flame",
+    "hot"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

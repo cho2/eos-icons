@@ -2,7 +2,17 @@
   "name": "restore_page",
   "do": "",
   "dont": "",
-  "tags": ["rotate", "paper", "restore", "arrow", "refresh", "page"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "rotate",
+    "paper",
+    "restore",
+    "arrow",
+    "refresh",
+    "page"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

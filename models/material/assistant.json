@@ -2,7 +2,13 @@
   "name": "assistant",
   "do": "",
   "dont": "",
-  "tags": ["aide", "help"],
-  "category": ["roles"],
-  "type": "static"
+  "tags": [
+    "aide",
+    "help"
+  ],
+  "category": [
+    "roles"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

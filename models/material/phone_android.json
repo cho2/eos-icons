@@ -2,7 +2,15 @@
   "name": "phone_android",
   "do": "",
   "dont": "",
-  "tags": ["google", "smarthphone", "telephone", "mobile"],
-  "category": ["hardware"],
-  "type": "static"
+  "tags": [
+    "google",
+    "smarthphone",
+    "telephone",
+    "mobile"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

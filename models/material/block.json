@@ -2,7 +2,17 @@
   "name": "block",
   "do": "",
   "dont": "",
-  "tags": ["entry", "no", "stop", "prohibited", "block", "avoid"],
-  "category": ["content"],
-  "type": "static"
+  "tags": [
+    "entry",
+    "no",
+    "stop",
+    "prohibited",
+    "block",
+    "avoid"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -20,6 +20,9 @@
     "size",
     "sleep"
   ],
-  "category": ["social"],
-  "type": "static"
+  "category": [
+    "social"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

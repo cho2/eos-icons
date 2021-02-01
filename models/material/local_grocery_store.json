@@ -2,7 +2,15 @@
   "name": "local_grocery_store",
   "do": "",
   "dont": "",
-  "tags": ["market", "shop", "grocery", "store"],
-  "category": ["maps"],
-  "type": "static"
+  "tags": [
+    "market",
+    "shop",
+    "grocery",
+    "store"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

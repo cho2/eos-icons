@@ -2,7 +2,17 @@
   "name": "picture_in_picture",
   "do": "",
   "dont": "",
-  "tags": ["overlap", "shape", "photo", "cropped", "crop", "picture"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "overlap",
+    "shape",
+    "photo",
+    "cropped",
+    "crop",
+    "picture"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

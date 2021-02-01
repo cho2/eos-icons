@@ -2,7 +2,19 @@
   "name": "waves",
   "do": "",
   "dont": "",
-  "tags": ["beach", "ocean", "pool", "sea", "swim", "water", "wave", "waves"],
-  "category": ["content"],
-  "type": "static"
+  "tags": [
+    "beach",
+    "ocean",
+    "pool",
+    "sea",
+    "swim",
+    "water",
+    "wave",
+    "waves"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

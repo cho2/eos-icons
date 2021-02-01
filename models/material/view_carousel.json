@@ -2,7 +2,17 @@
   "name": "view_carousel",
   "do": "",
   "dont": "",
-  "tags": ["images", "view", "cards", "format", "banner", "carousel"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "images",
+    "view",
+    "cards",
+    "format",
+    "banner",
+    "carousel"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

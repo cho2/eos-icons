@@ -11,6 +11,9 @@
     "worker",
     "steam fitter"
   ],
-  "category": ["maps"],
-  "type": "static"
+  "category": [
+    "maps"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

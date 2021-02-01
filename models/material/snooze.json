@@ -2,7 +2,18 @@
   "name": "snooze",
   "do": "",
   "dont": "",
-  "tags": ["timer", "Snooze", "set", "alarm", "z", "clock", "time"],
-  "category": ["av"],
-  "type": "static"
+  "tags": [
+    "timer",
+    "Snooze",
+    "set",
+    "alarm",
+    "z",
+    "clock",
+    "time"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

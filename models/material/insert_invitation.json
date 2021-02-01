@@ -15,6 +15,9 @@
     "day",
     "mark"
   ],
-  "category": ["editor"],
-  "type": "static"
+  "category": [
+    "editor"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

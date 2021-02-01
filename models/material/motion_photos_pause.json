@@ -15,6 +15,9 @@
     "slash",
     "video"
   ],
-  "category": ["image"],
-  "type": "static"
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -20,6 +20,9 @@
     "coin",
     "shopping"
   ],
-  "category": ["editor"],
-  "type": "static"
+  "category": [
+    "editor"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

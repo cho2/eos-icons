@@ -2,7 +2,17 @@
   "name": "sensor_door",
   "do": "",
   "dont": "",
-  "tags": ["access", "automatic", "alarm", "guard", "protection", "security"],
-  "category": ["home"],
-  "type": "static"
+  "tags": [
+    "access",
+    "automatic",
+    "alarm",
+    "guard",
+    "protection",
+    "security"
+  ],
+  "category": [
+    "home"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

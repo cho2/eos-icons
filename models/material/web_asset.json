@@ -14,6 +14,9 @@
     "asset",
     "internet"
   ],
-  "category": ["av"],
-  "type": "static"
+  "category": [
+    "av"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

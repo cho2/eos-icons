@@ -2,7 +2,16 @@
   "name": "wb_incandescent",
   "do": "",
   "dont": "",
-  "tags": ["photo", "image", "settings", "effects", "camera"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "photo",
+    "image",
+    "settings",
+    "effects",
+    "camera"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

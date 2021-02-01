@@ -2,7 +2,16 @@
   "name": "add",
   "do": "",
   "dont": "",
-  "tags": ["add", "new", "create", "+", "plus"],
-  "category": ["content"],
-  "type": "static"
+  "tags": [
+    "add",
+    "new",
+    "create",
+    "+",
+    "plus"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

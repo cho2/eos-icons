@@ -2,7 +2,15 @@
   "name": "ballot",
   "do": "",
   "dont": "",
-  "tags": ["ballot", "election", "poll", "vote"],
-  "category": ["content"],
-  "type": "static"
+  "tags": [
+    "ballot",
+    "election",
+    "poll",
+    "vote"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

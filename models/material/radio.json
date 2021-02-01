@@ -2,7 +2,18 @@
   "name": "radio",
   "do": "",
   "dont": "",
-  "tags": ["antenna", "music", "Radio", "device", "listen", "tune", "player"],
-  "category": ["av"],
-  "type": "static"
+  "tags": [
+    "antenna",
+    "music",
+    "Radio",
+    "device",
+    "listen",
+    "tune",
+    "player"
+  ],
+  "category": [
+    "av"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

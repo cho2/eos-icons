@@ -2,7 +2,13 @@
   "name": "sim_card_alert",
   "do": "",
   "dont": "",
-  "tags": ["telephone", "communication"],
-  "category": ["hardware"],
-  "type": "static"
+  "tags": [
+    "telephone",
+    "communication"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

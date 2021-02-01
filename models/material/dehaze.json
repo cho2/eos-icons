@@ -2,7 +2,17 @@
   "name": "dehaze",
   "do": "",
   "dont": "",
-  "tags": ["photography", "photo", "image", "clarity", "clear", "clearness"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "photography",
+    "photo",
+    "image",
+    "clarity",
+    "clear",
+    "clearness"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

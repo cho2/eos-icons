@@ -2,7 +2,18 @@
   "name": "local_laundry_service",
   "do": "",
   "dont": "",
-  "tags": ["cleaning", "washer", "laundry", "service", "hotel", "dry", "dryer"],
-  "category": ["maps"],
-  "type": "static"
+  "tags": [
+    "cleaning",
+    "washer",
+    "laundry",
+    "service",
+    "hotel",
+    "dry",
+    "dryer"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,15 @@
   "name": "cloud",
   "do": "",
   "dont": "",
-  "tags": ["cloud", "server", "storage", "remote"],
-  "category": ["file"],
-  "type": "static"
+  "tags": [
+    "cloud",
+    "server",
+    "storage",
+    "remote"
+  ],
+  "category": [
+    "file"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

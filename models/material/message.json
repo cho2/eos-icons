@@ -2,7 +2,17 @@
   "name": "message",
   "do": "",
   "dont": "",
-  "tags": ["Message", "bubble", "speech", "chat", "talk", "text"],
-  "category": ["communication"],
-  "type": "static"
+  "tags": [
+    "Message",
+    "bubble",
+    "speech",
+    "chat",
+    "talk",
+    "text"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

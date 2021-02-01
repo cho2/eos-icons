@@ -2,7 +2,17 @@
   "name": "battery_full",
   "do": "",
   "dont": "",
-  "tags": ["charge", "Battery", "mobile", "power", "cell", "full"],
-  "category": ["device"],
-  "type": "static"
+  "tags": [
+    "charge",
+    "Battery",
+    "mobile",
+    "power",
+    "cell",
+    "full"
+  ],
+  "category": [
+    "device"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,14 @@
   "name": "style",
   "do": "",
   "dont": "",
-  "tags": ["camera", "setting", "pattern"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "camera",
+    "setting",
+    "pattern"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

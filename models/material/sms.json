@@ -2,7 +2,15 @@
   "name": "sms",
   "do": "",
   "dont": "",
-  "tags": ["message", "chat", "text", "communication"],
-  "category": ["notification"],
-  "type": "static"
+  "tags": [
+    "message",
+    "chat",
+    "text",
+    "communication"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,16 @@
   "name": "smart_button",
   "do": "",
   "dont": "",
-  "tags": ["button", "key", "ui", "interface", "keyboard"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "button",
+    "key",
+    "ui",
+    "interface",
+    "keyboard"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

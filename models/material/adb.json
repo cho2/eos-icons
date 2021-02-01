@@ -2,7 +2,12 @@
   "name": "adb",
   "do": "",
   "dont": "",
-  "tags": ["Android Debug Bridge"],
-  "category": ["notification"],
-  "type": "static"
+  "tags": [
+    "Android Debug Bridge"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

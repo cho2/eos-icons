@@ -2,7 +2,16 @@
   "name": "crop_square",
   "do": "",
   "dont": "",
-  "tags": ["photography", "photo", "image", "cut", "reduce"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "photography",
+    "photo",
+    "image",
+    "cut",
+    "reduce"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

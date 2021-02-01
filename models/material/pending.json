@@ -2,7 +2,17 @@
   "name": "pending",
   "do": "",
   "dont": "",
-  "tags": ["waiting", "paused", "awaiting", "dots", "loading", "charging"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "waiting",
+    "paused",
+    "awaiting",
+    "dots",
+    "loading",
+    "charging"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

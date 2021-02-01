@@ -2,7 +2,14 @@
   "name": "more_horiz",
   "do": "",
   "dont": "",
-  "tags": ["more", "horizontal ellipsis", "navigation"],
-  "category": ["navigation"],
-  "type": "static"
+  "tags": [
+    "more",
+    "horizontal ellipsis",
+    "navigation"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

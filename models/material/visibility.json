@@ -2,7 +2,18 @@
   "name": "visibility",
   "do": "",
   "dont": "",
-  "tags": ["eye", "see", "view", "reveal", "show", "visability", "on"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "eye",
+    "see",
+    "view",
+    "reveal",
+    "show",
+    "visability",
+    "on"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

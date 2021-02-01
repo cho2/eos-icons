@@ -2,7 +2,15 @@
   "name": "donut_large",
   "do": "",
   "dont": "",
-  "tags": ["donut", "inprogress", "complete", "graph"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "donut",
+    "inprogress",
+    "complete",
+    "graph"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

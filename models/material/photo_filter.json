@@ -2,7 +2,15 @@
   "name": "photo_filter",
   "do": "",
   "dont": "",
-  "tags": ["photography", "image", "edit", "custom"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "photography",
+    "image",
+    "edit",
+    "custom"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

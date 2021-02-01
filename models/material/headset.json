@@ -2,7 +2,17 @@
   "name": "headset",
   "do": "",
   "dont": "",
-  "tags": ["audio", "music", "sound", "conference", "listen", "input"],
-  "category": ["hardware"],
-  "type": "static"
+  "tags": [
+    "audio",
+    "music",
+    "sound",
+    "conference",
+    "listen",
+    "input"
+  ],
+  "category": [
+    "hardware"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

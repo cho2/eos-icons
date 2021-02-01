@@ -2,7 +2,13 @@
   "name": "not_started",
   "do": "",
   "dont": "",
-  "tags": ["paused", "stopped"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "paused",
+    "stopped"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

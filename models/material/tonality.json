@@ -2,7 +2,16 @@
   "name": "tonality",
   "do": "",
   "dont": "",
-  "tags": ["tool", "tone", "setting", "design", "graphic"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "tool",
+    "tone",
+    "setting",
+    "design",
+    "graphic"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

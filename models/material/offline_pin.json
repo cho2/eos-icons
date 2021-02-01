@@ -2,7 +2,15 @@
   "name": "offline_pin",
   "do": "",
   "dont": "",
-  "tags": ["offline", "pin", "checkmark", "circle"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "offline",
+    "pin",
+    "checkmark",
+    "circle"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

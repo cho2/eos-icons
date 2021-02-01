@@ -2,7 +2,18 @@
   "name": "forward",
   "do": "",
   "dont": "",
-  "tags": ["mail", "arrow", "forward", "playback", "right", "message", "sent"],
-  "category": ["content"],
-  "type": "static"
+  "tags": [
+    "mail",
+    "arrow",
+    "forward",
+    "playback",
+    "right",
+    "message",
+    "sent"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

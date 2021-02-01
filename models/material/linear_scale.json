@@ -2,7 +2,17 @@
   "name": "linear_scale",
   "do": "",
   "dont": "",
-  "tags": ["slider", "linear", "measure", "Ui", "scale", "menu"],
-  "category": ["editor"],
-  "type": "static"
+  "tags": [
+    "slider",
+    "linear",
+    "measure",
+    "Ui",
+    "scale",
+    "menu"
+  ],
+  "category": [
+    "editor"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

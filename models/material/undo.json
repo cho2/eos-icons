@@ -2,7 +2,18 @@
   "name": "undo",
   "do": "",
   "dont": "",
-  "tags": ["rotate", "undo", "previous", "arrow", "repeat", "backward", "redo"],
-  "category": ["content"],
-  "type": "static"
+  "tags": [
+    "rotate",
+    "undo",
+    "previous",
+    "arrow",
+    "repeat",
+    "backward",
+    "redo"
+  ],
+  "category": [
+    "content"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

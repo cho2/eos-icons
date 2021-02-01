@@ -2,7 +2,14 @@
   "name": "charging_station",
   "do": "",
   "dont": "",
-  "tags": ["charge", "electricity", "power"],
-  "category": ["places"],
-  "type": "static"
+  "tags": [
+    "charge",
+    "electricity",
+    "power"
+  ],
+  "category": [
+    "places"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

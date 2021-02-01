@@ -2,7 +2,14 @@
   "name": "north_west",
   "do": "",
   "dont": "",
-  "tags": ["up left", "diagonal", "corner"],
-  "category": ["navigation"],
-  "type": "static"
+  "tags": [
+    "up left",
+    "diagonal",
+    "corner"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,14 @@
   "name": "home_repair_service",
   "do": "",
   "dont": "",
-  "tags": ["tool", "kit", "porfolio"],
-  "category": ["maps"],
-  "type": "static"
+  "tags": [
+    "tool",
+    "kit",
+    "porfolio"
+  ],
+  "category": [
+    "maps"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,14 @@
   "name": "mark_chat_read",
   "do": "",
   "dont": "",
-  "tags": ["chat", "conversation", "on"],
-  "category": ["communication"],
-  "type": "static"
+  "tags": [
+    "chat",
+    "conversation",
+    "on"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,16 @@
   "name": "subdirectory_arrow_right",
   "do": "",
   "dont": "",
-  "tags": ["subdirectory", "down", "below", "right", "arrow"],
-  "category": ["navigation"],
-  "type": "static"
+  "tags": [
+    "subdirectory",
+    "down",
+    "below",
+    "right",
+    "arrow"
+  ],
+  "category": [
+    "navigation"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

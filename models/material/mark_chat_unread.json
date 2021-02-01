@@ -2,7 +2,14 @@
   "name": "mark_chat_unread",
   "do": "",
   "dont": "",
-  "tags": ["conversation", "chat", "waiting"],
-  "category": ["communication"],
-  "type": "static"
+  "tags": [
+    "conversation",
+    "chat",
+    "waiting"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

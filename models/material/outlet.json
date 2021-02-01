@@ -2,7 +2,14 @@
   "name": "outlet",
   "do": "",
   "dont": "",
-  "tags": ["connect", "socket", "channel"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "connect",
+    "socket",
+    "channel"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

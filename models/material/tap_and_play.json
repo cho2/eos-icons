@@ -2,7 +2,16 @@
   "name": "tap_and_play",
   "do": "",
   "dont": "",
-  "tags": ["hold", "game", "press", "click", "control"],
-  "category": ["notification"],
-  "type": "static"
+  "tags": [
+    "hold",
+    "game",
+    "press",
+    "click",
+    "control"
+  ],
+  "category": [
+    "notification"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,16 @@
   "name": "comment",
   "do": "",
   "dont": "",
-  "tags": ["Comment", "note", "bubble", "document", "doc"],
-  "category": ["communication"],
-  "type": "static"
+  "tags": [
+    "Comment",
+    "note",
+    "bubble",
+    "document",
+    "doc"
+  ],
+  "category": [
+    "communication"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

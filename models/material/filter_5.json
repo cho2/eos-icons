@@ -2,7 +2,16 @@
   "name": "filter_5",
   "do": "",
   "dont": "",
-  "tags": ["photography", "photo", "image", "edit", "five"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "photography",
+    "photo",
+    "image",
+    "edit",
+    "five"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

@@ -2,7 +2,18 @@
   "name": "receipt",
   "do": "",
   "dont": "",
-  "tags": ["sale", "paper", "bill", "payment", "receipt", "invoice", "credit"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "sale",
+    "paper",
+    "bill",
+    "payment",
+    "receipt",
+    "invoice",
+    "credit"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

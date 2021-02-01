@@ -2,7 +2,15 @@
   "name": "details",
   "do": "",
   "dont": "",
-  "tags": ["photography", "photo", "image", "specifics"],
-  "category": ["image"],
-  "type": "static"
+  "tags": [
+    "photography",
+    "photo",
+    "image",
+    "specifics"
+  ],
+  "category": [
+    "image"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

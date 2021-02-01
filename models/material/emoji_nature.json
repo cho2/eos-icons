@@ -16,6 +16,9 @@
     "spring",
     "summer"
   ],
-  "category": ["social"],
-  "type": "static"
+  "category": [
+    "social"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }

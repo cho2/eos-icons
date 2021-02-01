@@ -2,7 +2,16 @@
   "name": "eco",
   "do": "",
   "dont": "",
-  "tags": ["eco", "economical", "green", "leaf", "nature"],
-  "category": ["action"],
-  "type": "static"
+  "tags": [
+    "eco",
+    "economical",
+    "green",
+    "leaf",
+    "nature"
+  ],
+  "category": [
+    "action"
+  ],
+  "type": "static",
+  "hasOutlined": true
 }
