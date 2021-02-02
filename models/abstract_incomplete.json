@@ -10,6 +10,5 @@
     "non-realistic"
   ],
   "category": "virtualization",
-  "type": "static",
-  "hasOutlined": true
+  "type": "static"
 }

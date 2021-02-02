@@ -1,6 +1,9 @@
 module.exports = function (grunt) {
   const { compareFolders } = require('./scripts/md-name-checker')
-  const { combineIconsModels } = require('./scripts/combine-eos-icons')
+  const {
+    combineIconsModels,
+    showMissingOutlinedFiles
+  } = require('./scripts/combine-eos-icons')
   const {
     checkForMissingModelsOrIcons,
     checkModelKeys,
@@ -19,10 +22,7 @@ module.exports = function (grunt) {
   // Append path to your svg below
   // EOS-set and MD svg path
   const srcEosSet = ['svg/*.svg', 'svg/material/*.svg']
-  const srcEosSetOutlined = [
-    'svg-outlined/*.svg',
-    'svg-outlined/material/*.svg'
-  ]
+  const srcEosSetOutlined = ['temp/*.svg', 'temp/material/*.svg']
 
   grunt.initConfig({
     webfont: {
@@ -107,7 +107,18 @@ module.exports = function (grunt) {
       files: './scripts/eos-md-icons-log-differences',
       tasks: ['coffee']
     },
+    copy: {
+      outlined: {
+        expand: true,
+        dest: 'temp',
+        cwd: 'svg-outlined/',
+        src: '*'
+      }
+    },
     clean: {
+      tempFolder: {
+        src: './temp'
+      },
       icons: {
         expand: true,
         cwd: './svg/material/',
@@ -261,6 +272,20 @@ module.exports = function (grunt) {
     }).then(done)
   })
 
+  // Temporaty folder mix
+  grunt.registerTask('temp_svg_collection', async function () {
+    const done = this.async()
+
+    showMissingOutlinedFiles({
+      outlineSvgDir: './svg-outlined',
+      normalSvgDir: './svg',
+      tempFolder: './temp'
+    }).then((data) => {
+      console.log(data)
+      done()
+    })
+  })
+
   /* Checks for SVGs names returns the one with a wrong naming convention */
   grunt.registerTask('checkNameConvention', async function () {
     const done = this.async()
@@ -307,15 +332,19 @@ module.exports = function (grunt) {
     'clean:hidden',
     'clean:dist',
     'clean:icons',
-    'clean:models'
+    'clean:models',
+    'clean:tempFolder'
   ])
   grunt.registerTask('build', [
     'clean:all',
     'concat',
+    'copy:outlined',
+    'temp_svg_collection',
     'webfont:icons',
     'webfont:outlined',
     'replace',
-    'combineAllIconsModels'
+    'combineAllIconsModels',
+    'clean:tempFolder'
   ])
   grunt.registerTask('test', [
     'importMdIcons',
