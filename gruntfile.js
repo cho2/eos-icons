@@ -3,7 +3,9 @@ module.exports = function (grunt) {
   const { combineIconsModels } = require('./scripts/combine-eos-icons')
   const {
     checkForMissingModelsOrIcons,
-    checkModelKeys
+    checkModelKeys,
+    materialOutlineModels,
+    eosIconsOutlineModels
   } = require('./scripts/models-checker')
   const { createNewModel } = require('./scripts/models-creation')
   const { checkSvgName, renameSvgTo } = require('./scripts/svg-checker')
@@ -242,6 +244,23 @@ module.exports = function (grunt) {
     })
   })
 
+  // Handle MD Icons Outline model
+  grunt.registerTask('materialOutlineModels', async function () {
+    const done = this.async()
+
+    return materialOutlineModels({ modelsDir: './models/material' }).then(done)
+  })
+
+  // Handle EOS Icons Outline model
+  grunt.registerTask('eosIconsOutlineModels', async function () {
+    const done = this.async()
+
+    return eosIconsOutlineModels({
+      outlineSvgDir: './svg-outlined',
+      modelsFolder: './models'
+    }).then(done)
+  })
+
   /* Checks for SVGs names returns the one with a wrong naming convention */
   grunt.registerTask('checkNameConvention', async function () {
     const done = this.async()
@@ -303,7 +322,9 @@ module.exports = function (grunt) {
     'findDuplicateNames',
     'checkNameConvention',
     'checkModelKeysTask',
-    'checkMissingModelandSVG'
+    'checkMissingModelandSVG',
+    'materialOutlineModels',
+    'eosIconsOutlineModels'
   ])
   grunt.registerTask('default', ['test', 'build'])
 }
