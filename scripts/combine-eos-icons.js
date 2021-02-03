@@ -70,11 +70,6 @@ const showMissingOutlinedFiles = async ({
     })
   })
 
-  // fs.copyFile(`${normalSvgDir}/${icon}`, `${tempFolder}/${icon}`, (err) => {
-  //   if (err) throw err
-  //   console.log('source.txt was copied to destination.txt')
-  // })
-
   return 'Done moving files to complete the missing outlined svg for EOS'
 }
 
