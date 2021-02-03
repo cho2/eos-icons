@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["maps", "google maps", "ar", "road"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

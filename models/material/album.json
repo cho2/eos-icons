@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["play", "cd", "music", "artist", "record", "Album", "track"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

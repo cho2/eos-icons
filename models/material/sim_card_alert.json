@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["telephone", "communication"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

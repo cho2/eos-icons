@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["text", "edit", "editor"],
   "category": ["editor"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

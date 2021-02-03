@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["$", "money", "cash"],
   "category": ["file"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

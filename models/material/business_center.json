@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["portfolio", "briefcase", "bag", "folder"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

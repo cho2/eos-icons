@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["camera", "setting", "image", "photo", "photography", "profile"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

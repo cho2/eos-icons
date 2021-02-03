@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["television", "watch", "tube", "screen"],
   "category": ["device"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

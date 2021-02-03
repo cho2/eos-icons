@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["play", "libary", "Video", "collection", "camera"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["toilet", "bathroom", "restroom", "bath"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

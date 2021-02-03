@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["backup", "cloud", "stack", "table"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["timer", "Snooze", "set", "alarm", "z", "clock", "time"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -13,5 +13,6 @@
     "trash"
   ],
   "category": ["alert"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

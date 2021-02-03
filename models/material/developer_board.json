@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["dashboard", "home", "mosaic"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

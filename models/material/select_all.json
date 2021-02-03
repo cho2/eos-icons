@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["all", "square", "select", "selection", "tool"],
   "category": ["content"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

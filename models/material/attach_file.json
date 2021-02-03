@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["add", "file", "mail", "link", "attach", "media", "clip"],
   "category": ["editor"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

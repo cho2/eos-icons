@@ -12,5 +12,6 @@
     "macbook"
   ],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

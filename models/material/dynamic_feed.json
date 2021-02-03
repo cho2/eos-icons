@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["dynamic", "feed", "multiple", "post"],
   "category": ["content"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

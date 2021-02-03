@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["data", "field", "mobile", "wireless", "near", "communication"],
   "category": ["device"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

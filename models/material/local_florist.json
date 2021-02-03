@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["shop", "florist", "local", "flower"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

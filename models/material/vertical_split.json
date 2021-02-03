@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["format", "paragraph", "split", "text", "vertical", "website"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

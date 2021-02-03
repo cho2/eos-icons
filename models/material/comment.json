@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["Comment", "note", "bubble", "document", "doc"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

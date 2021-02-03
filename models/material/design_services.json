@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["graphic", "drawing", "sketch"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

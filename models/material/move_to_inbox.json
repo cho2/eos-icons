@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["incoming", "mail", "arrow", "archive", "message", "inbox", "email"],
   "category": ["content"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

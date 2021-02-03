@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["forecast", "projection", "prognosis", "prognostic"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

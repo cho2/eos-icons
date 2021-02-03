@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["clue", "suggest", "caution", "advise", "warn", "hint"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

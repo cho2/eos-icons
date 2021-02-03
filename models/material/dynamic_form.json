@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["application", "questionnaire", "sheet", "changing"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

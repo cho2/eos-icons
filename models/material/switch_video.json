@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["camera", "setting", "movie", "media", "mode", "play"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

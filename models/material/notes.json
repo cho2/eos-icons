@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["comment", "doc", "document", "note", "text"],
   "category": ["editor"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

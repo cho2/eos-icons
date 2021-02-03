@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["pen", "change", "modify", "publish"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

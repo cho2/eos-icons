@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["Import", "arrow", "explort", "arrows", "up", "down", "direction"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

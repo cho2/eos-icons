@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["filter", "funnel", "refine", "sift"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

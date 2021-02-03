@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["charge", "Battery", "mobile", "power", "cell", "full"],
   "category": ["device"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

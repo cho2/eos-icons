@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["writing", "words", "type", "key", "letter", "words", "enter"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

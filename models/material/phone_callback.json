@@ -16,5 +16,6 @@
     "telephone"
   ],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

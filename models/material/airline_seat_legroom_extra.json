@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["plane", "airplane", "chair", "big", "large"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["calendar", "appointment", "date", "notice", "observation"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

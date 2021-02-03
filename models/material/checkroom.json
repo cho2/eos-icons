@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["hanger", "changeroom", "changing room"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

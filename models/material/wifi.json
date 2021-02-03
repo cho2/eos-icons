@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["internet", "wireless", "network", "signal", "communication"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

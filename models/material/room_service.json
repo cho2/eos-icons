@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["maid service", "housekeeping", "food", "serve"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

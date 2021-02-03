@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["market", "shop", "grocery", "store"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

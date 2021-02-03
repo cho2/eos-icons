@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["bolt", "circle", "flash", "lightning", "spark", "ray", "electric"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

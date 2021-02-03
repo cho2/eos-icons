@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["image", "perspective", "ratio", "photography", "photo"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

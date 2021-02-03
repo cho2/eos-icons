@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["bin", "can", "delete", "garbage", "remove", "trash"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

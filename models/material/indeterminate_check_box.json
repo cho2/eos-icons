@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["undetermined", "undefined", "unspecified"],
   "category": ["toggle"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

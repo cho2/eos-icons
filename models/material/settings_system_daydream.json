@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["cloud", "system", "daydream", "setting"],
   "category": ["device"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

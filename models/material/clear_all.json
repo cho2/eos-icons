@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["all", "document", "format", "doc", "list", "Clear"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

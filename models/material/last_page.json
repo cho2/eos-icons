@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["end", "finale", "move", "later"],
   "category": ["navigation"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

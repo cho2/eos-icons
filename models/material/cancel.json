@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["remove", "circle", "abort", "omit", "eliminate"],
   "category": ["navigation"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

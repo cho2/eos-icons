@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["call", "phone", "communication", "telecommunication", "booth"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

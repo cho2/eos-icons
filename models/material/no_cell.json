@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["mobile", "cellphone", "phone"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

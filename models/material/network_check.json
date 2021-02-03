@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["speed test", "speedcheck", "odometer", "odograph"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

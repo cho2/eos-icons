@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["energy", "switch", "electricity", "on", "connector", "plug"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

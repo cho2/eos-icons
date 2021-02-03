@@ -12,5 +12,6 @@
     "subscribe"
   ],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

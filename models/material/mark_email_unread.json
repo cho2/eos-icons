@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["message", "not seen", "unseen"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

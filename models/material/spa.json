@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["health", "lotus", "flower", "Nymphaea nelumbo"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

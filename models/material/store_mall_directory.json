@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["shop", "mall", "front", "place", "store", "directory", "shopping"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

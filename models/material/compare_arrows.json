@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["compare", "arrow", "arrows", "facing", "pointing"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

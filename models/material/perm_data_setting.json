@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["settings", "data", "information", "gear", "info"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

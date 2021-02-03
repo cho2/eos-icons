@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["rotate", "paper", "restore", "arrow", "refresh", "page"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

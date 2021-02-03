@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["more", "horizontal ellipsis", "navigation"],
   "category": ["navigation"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

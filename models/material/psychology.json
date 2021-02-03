@@ -27,5 +27,6 @@
     "thoughts"
   ],
   "category": ["social"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

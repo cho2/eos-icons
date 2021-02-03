@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["snoozle", "sleep", "slumbertime", "night"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

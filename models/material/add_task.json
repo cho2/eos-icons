@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["plus", "new", "file", "document"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

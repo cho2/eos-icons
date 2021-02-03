@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["edit", "location", "pen", "pencil", "road", "street", "change"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["no", "dislike", "x", "circle", "Not interested", "off"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["telly", "video", "television", "screen", "real time"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

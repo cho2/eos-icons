@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["destination", "flag", "places", "tour", "travel", "visit"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

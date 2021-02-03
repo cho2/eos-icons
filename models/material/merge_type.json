@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["margin", "arrow", "format", "text", "type", "combine"],
   "category": ["editor"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

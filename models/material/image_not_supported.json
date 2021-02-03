@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["no image", "unsupported", "invalid"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

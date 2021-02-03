@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["bookmarks", "remember", "bookmark", "save"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

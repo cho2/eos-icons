@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["label", "tag", "horizontal ellipsis"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

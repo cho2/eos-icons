@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["plane", "airplane", "inclined", "bed", "sleep"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["keyboard", "bar", "line", "space"],
   "category": ["editor"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

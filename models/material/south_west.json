@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["direction", "arrow", "compass", "sign", "travel"],
   "category": ["navigation"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

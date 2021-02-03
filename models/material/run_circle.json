@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["man", "user", "woman", "running", "sprint", "race", "rush", "exit"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

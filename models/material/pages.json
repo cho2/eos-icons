@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["documents", "files", "document"],
   "category": ["social"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

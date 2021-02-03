@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["extinguish"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

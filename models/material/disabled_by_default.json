@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["off", "unavailable"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

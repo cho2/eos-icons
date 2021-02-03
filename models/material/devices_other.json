@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["watch", "smartwatch", "ipad", "bluetooth", "smarthphone", "iot"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

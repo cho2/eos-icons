@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["view", "week", "columns", "format", "day", "bars"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

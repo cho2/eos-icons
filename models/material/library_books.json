@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["add", "books", "book", "Library", "audio", "collection"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

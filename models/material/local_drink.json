@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["tree", "air", "attr", "fresh", "park"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -14,5 +14,6 @@
     "device"
   ],
   "category": ["device"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

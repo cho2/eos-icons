@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["rotate", "cache", "arrow", "cached", "inprogress", "renew"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

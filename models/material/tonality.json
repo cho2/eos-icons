@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["tool", "tone", "setting", "design", "graphic"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

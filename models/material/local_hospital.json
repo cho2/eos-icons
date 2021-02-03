@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["cross", "911", "emergency", "medicine", "hospital", "aid", "first"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

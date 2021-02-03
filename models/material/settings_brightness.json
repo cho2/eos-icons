@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["mode", "settings", "brightness", "light", "dark"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

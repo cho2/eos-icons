@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["lightbulb", "cycle"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

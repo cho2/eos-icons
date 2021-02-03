@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["spread", "allot", "allocate"],
   "category": ["editor"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

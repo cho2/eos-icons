@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["moving stairway", "moving staircase"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

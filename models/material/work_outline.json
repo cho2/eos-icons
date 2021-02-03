@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["briefcase", "job", "suit", "suitcase", "work"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

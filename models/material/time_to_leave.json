@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["timer", "alarm", "schedule", "exit"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

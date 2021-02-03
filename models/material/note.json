@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["bookmark", "paper", "Note", "message", "mark"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

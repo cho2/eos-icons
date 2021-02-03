@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["address", "company", "building", "structure", "Business"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

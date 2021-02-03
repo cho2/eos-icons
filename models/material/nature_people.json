@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["image", "portrait", "outdoors"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

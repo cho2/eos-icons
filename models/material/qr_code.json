@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["code", "qr", "barcode"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

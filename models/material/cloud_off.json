@@ -13,5 +13,6 @@
     "remove"
   ],
   "category": ["file"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

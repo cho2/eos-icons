@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["amp", "flow", "gallery", "stories", "view"],
   "category": ["content"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

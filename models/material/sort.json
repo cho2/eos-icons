@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["filter", "organize", "find", "sort", "list"],
   "category": ["content"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

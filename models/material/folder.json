@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["portfolio", "data", "directory", "documents", "repository"],
   "category": ["file"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

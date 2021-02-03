@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["arrow", "directions"],
   "category": ["social"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["alert", "notification", "alarm", "ring", "attention"],
   "category": ["social"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

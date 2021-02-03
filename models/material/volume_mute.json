@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["tv", "music", "Volume", "sound", "control", "mute", "audio"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

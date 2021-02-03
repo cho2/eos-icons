@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["wc", "toilet", "washroom"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

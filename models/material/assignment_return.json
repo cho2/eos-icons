@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["arrow", "left", "assignment", "clipboard", "point"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

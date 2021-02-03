@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["eye", "see", "view", "reveal", "show", "visability", "on"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

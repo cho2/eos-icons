@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["play", "Playlist", "music", "collection", "list"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["time", "clock", "alarm", "timeout", "setting", "photo", "camera"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

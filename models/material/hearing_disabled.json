@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["audition", "ear", "off"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

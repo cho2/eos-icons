@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["glass", "drink", "beverage"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

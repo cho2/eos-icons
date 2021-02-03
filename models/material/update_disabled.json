@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["renew", "refresh", "unavailable", "off"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

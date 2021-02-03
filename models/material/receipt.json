@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["sale", "paper", "bill", "payment", "receipt", "invoice", "credit"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

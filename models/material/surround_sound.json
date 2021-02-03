@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["system", "speaker", "volumn", "Sound", "circle", "surround"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["full screen", "full size", "resize"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

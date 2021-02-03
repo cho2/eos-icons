@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["review", "rating", "valuation", "appraisal", "rank"],
   "category": ["toggle"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

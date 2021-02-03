@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["meal", "pizza", "drink", "fastfood", "food"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

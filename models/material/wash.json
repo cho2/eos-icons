@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["clean", "hand", "soak", "rinse", "cleanse"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

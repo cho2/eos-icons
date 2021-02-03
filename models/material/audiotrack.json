@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["audio", "music", "note"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["grid", "layout format", "screen", "photography", "dashboard"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["ocr", "digitalize"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

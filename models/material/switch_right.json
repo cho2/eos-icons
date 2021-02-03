@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["control", "setting", "arrow", "shuffle"],
   "category": ["navigation"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

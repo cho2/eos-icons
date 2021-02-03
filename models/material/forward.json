@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["mail", "arrow", "forward", "playback", "right", "message", "sent"],
   "category": ["content"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

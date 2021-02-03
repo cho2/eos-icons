@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["check", "complete", "done", "finished", "mark", "outline"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

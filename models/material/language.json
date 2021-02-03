@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["website", "globe", "world", "planet", "www", "language"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

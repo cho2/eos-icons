@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["shortcut", "keyboard"],
   "category": ["file"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

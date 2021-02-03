@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["energy", "industry", "plug"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

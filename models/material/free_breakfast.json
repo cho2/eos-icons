@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["coffee", "tee", "mug", "cup", "brunch", "meal"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

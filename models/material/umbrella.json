@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["parasol", "brolly", "protection"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["children", "baby", "face", "babysit"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

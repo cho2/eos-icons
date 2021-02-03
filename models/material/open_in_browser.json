@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["new", "arrow", "browser", "box", "window", "open"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

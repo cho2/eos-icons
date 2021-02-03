@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["slider", "linear", "measure", "Ui", "scale", "menu"],
   "category": ["editor"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

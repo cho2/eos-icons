@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["connection", "core"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

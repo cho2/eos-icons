@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["rotate", "undo", "previous", "arrow", "repeat", "backward", "redo"],
   "category": ["content"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

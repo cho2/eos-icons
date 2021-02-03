@@ -26,5 +26,6 @@
     "speadsheet"
   ],
   "category": ["editor"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

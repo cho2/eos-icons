@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["Heating", "Ventilation", "Air Conditioning", "fan", "ac"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

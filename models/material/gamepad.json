@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["toy", "videogame", "joystick", "stick", "button"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

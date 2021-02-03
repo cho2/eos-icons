@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["sample", "sneak", "advance showing", "sneak peek", "premiere"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

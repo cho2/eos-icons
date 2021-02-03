@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["tub", "bath", "hot tub", "sauna"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

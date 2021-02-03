@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["lower", "lessen", "shrink"],
   "category": ["navigation"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

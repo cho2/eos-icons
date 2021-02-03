@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["mail", "archive", "store", "inbox"],
   "category": ["content"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

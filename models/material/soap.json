@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["bath", "bubbles", "shampoo", "wash", "hygiene", "care"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

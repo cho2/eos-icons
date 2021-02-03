@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["overlap", "shape", "photo", "cropped", "crop", "picture"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

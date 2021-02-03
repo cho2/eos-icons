@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["baby", "pram", "baby carriage", "stroller", "children", "cart"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

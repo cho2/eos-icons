@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["lock", "safe", "precoution", "guard"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

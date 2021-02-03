@@ -20,5 +20,6 @@
     "device"
   ],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

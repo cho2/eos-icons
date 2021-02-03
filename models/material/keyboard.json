@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["writing", "words", "type", "key", "letter", "words"],
   "category": ["toggle"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["chain", "grid", "net"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

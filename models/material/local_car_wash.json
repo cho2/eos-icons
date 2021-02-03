@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["auto", "car", "wash", "local", "vehicle"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

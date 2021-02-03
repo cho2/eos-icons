@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["cloud", "server", "storage", "remote", "circle", "round"],
   "category": ["file"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

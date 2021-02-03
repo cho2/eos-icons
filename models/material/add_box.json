@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["add", "new", "square", "create", "box", "+", "plus"],
   "category": ["content"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

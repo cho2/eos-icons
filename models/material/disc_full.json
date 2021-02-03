@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["space", "disk", "hard drive", "storage"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

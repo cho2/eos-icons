@@ -14,5 +14,6 @@
     "account"
   ],
   "category": ["roles"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["love", "remember", "shape", "like", "save", "favorite", "heart"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -12,5 +12,6 @@
     "Forum"
   ],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

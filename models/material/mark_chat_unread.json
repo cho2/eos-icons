@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["conversation", "chat", "waiting"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

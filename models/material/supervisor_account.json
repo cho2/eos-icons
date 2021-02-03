@@ -19,5 +19,6 @@
     "parents"
   ],
   "category": ["roles"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

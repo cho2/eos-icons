@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["closed", "wifi", "signal"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

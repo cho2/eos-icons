@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["education", "study", "learning", "student"],
   "category": ["social"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

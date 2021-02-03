@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["play", "half", "arrow", "work", "google", "circle", "down"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

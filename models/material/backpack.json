@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["rucksack", "knapsack", "pack", "bag", "hike"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

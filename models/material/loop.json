@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["Loop", "rotate", "music", "arrow", "repeat", "arrows"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

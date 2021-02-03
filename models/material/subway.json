@@ -19,5 +19,6 @@
     "train"
   ],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

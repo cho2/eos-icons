@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["print", "paper", "draft", "ink", "printer", "send"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

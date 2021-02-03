@@ -13,5 +13,6 @@
     "colours"
   ],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

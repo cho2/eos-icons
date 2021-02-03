@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["time", "timeout", "setting", "stopwatch", "photo", "camera"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

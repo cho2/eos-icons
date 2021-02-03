@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["folder", "open", "file", "accessed", "common", "public"],
   "category": ["file"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

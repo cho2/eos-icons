@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["smoke", "cigarette", "tobacco", "cigar"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

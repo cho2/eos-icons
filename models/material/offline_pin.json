@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["offline", "pin", "checkmark", "circle"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

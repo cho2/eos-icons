@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["disk", "multimedia", "file", "floppy", "document", "save"],
   "category": ["content"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

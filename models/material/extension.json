@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["extension", "shape", "piece", "puzzle", "jigsaw", "extended"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

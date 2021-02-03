@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["Duo", "call", "chat", "conference", "device", "video"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

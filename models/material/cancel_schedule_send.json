@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["cancel", "mail", "schedule", "send"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

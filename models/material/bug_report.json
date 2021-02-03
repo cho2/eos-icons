@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["file", "bug", "insect", "report", "animal"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

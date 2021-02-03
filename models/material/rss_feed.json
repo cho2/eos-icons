@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["feed", "website", "Rss", "application", "blog"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

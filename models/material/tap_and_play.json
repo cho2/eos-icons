@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["hold", "game", "press", "click", "control"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

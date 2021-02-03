@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["woodworker", "wood", "saw"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

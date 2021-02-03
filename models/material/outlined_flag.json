@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["country", "flag", "goal", "mark", "nation", "report", "start"],
   "category": ["content"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

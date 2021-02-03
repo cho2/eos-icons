@@ -16,5 +16,6 @@
     "shield"
   ],
   "category": ["content"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["Call", "arrow", "merge", "mobile", "device"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

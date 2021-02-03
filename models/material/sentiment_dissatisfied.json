@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["unhappy", "emoji", "feedback", "angry", "sad"],
   "category": ["social"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

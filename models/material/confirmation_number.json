@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["ticket", "card", "coupon"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

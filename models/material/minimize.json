@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["line", "minimize", "shape"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

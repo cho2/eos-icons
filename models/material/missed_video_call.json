@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["Missed", "arrow", "call", "record", "video"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

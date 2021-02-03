@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["lock", "connection", "https", "locked", "secure", "key"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

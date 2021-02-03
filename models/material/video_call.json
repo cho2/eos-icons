@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["call", "conference", "Video", "chat", "screen", "camera", "plus"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["team", "people", "users"],
   "category": ["roles"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

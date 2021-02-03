@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["sanitizer", "cleaner", "soap", "wash hands"],
   "category": ["social"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

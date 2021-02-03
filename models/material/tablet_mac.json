@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["pad", "ipad", "memo", "apple", "ios"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

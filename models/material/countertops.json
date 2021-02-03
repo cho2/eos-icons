@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["surface", "worktable"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

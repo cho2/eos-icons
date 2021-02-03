@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["teather", "cinema", "movie", "film", "recital", "ticket"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["check", "device", "friendly", "mobile"],
   "category": ["device"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

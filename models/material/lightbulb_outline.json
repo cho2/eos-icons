@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["light", "idea"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

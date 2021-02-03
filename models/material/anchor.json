@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["ship", "sea", "boat", "marine"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["menace", "animals", "bugs", "manage"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

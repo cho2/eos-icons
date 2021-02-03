@@ -13,5 +13,6 @@
     "previous"
   ],
   "category": ["navigation"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

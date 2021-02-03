@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["link", "stapler", "add", "clip", "link"],
   "category": ["file"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

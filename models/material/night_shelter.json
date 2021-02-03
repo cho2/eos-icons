@@ -13,5 +13,6 @@
     "house"
   ],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

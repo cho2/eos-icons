@@ -11,5 +11,6 @@
     "fifty percent"
   ],
   "category": ["toggle"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

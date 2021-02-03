@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["changing table", "infant", "child", "newborn"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

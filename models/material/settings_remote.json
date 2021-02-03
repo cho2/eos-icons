@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["settings", "wifi", "bluetooth", "remote"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

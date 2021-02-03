@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["data", "management", "results", "reports", "usage"],
   "category": ["device"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

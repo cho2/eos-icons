@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["restore", "renew", "regenerate"],
   "category": ["navigation"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

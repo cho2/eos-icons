@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["images", "view", "cards", "format", "banner", "carousel"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

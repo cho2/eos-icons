@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["food", "take out", "home packed"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

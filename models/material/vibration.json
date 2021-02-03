@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["phone", "mobile", "communication", "vibrate"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

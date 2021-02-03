@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["calibration", "compass", "location", "refresh"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

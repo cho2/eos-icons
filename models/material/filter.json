@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["filter", "images", "mountain", "photo", "collection", "media"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

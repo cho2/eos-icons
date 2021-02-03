@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["user", "avatar", "person", "profile"],
   "category": ["roles"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["audio", "music", "sound", "conference", "listen", "input"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

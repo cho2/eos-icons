@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["click", "point"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

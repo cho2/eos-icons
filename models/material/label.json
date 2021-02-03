@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["indent", "sticker", "stamp", "label", "tag"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

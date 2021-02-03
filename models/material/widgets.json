@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["app", "square", "ui", "box", "menu", "widgets", "setting"],
   "category": ["device"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

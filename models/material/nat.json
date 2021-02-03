@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["network", "address", "translation"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

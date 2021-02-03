@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["arrow", "arrows", "back", "vertical", "circle", "direction"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

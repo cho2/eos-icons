@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["video", "photo", "image", "camera", "film"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["buggie", "no buggies", "pushchair"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

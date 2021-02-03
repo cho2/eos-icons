@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["access", "arrow", "enter", "input", "left", "login", "sign in"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

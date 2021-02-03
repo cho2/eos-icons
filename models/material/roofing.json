@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["house", "ceiling", "home", "shelter", "housing"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

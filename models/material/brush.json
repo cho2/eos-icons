@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["pencil", "paintbrush", "watercolor"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["blow", "towel", "wipe"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

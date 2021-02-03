@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["square", "transform", "corner", "shape", "rounded"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

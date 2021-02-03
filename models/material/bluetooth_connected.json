@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["symbol", "bluetooth", "connection", "paring", "device"],
   "category": ["device"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

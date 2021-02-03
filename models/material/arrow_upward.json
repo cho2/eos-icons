@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["direction", "up", "above", "greater"],
   "category": ["navigation"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

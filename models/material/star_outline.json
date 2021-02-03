@@ -15,5 +15,6 @@
     "toggle"
   ],
   "category": ["toggle"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

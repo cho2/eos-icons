@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["stop", "terminate", "end"],
   "category": ["navigation"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

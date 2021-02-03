@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["More", "time", "extension"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

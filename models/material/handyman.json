@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["helper", "man-of-all-work"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

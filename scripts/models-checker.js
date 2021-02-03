@@ -56,6 +56,10 @@ const compareTwoArraysOfElements = (array1, array2) =>
 /* ==========================================================================
   Models properties checking
   ========================================================================== */
+/**
+ *
+ * @param {*} params modelFolder
+ */
 const readModelKeys = async (params) => {
   const { modelsFolder } = params
 
@@ -93,7 +97,75 @@ const readModelKeys = async (params) => {
   })
 }
 
-/* Maps throught the array of objects checking for  */
+/**
+ * Will check the models for material icons and add the propriety of hasOutlined to them.
+ */
+const materialOutlineModels = async ({ modelsDir }) => {
+  const models = await readModelKeys({ modelsFolder: modelsDir })
+
+  return models.map((model) => {
+    /* Get the object without the filename */
+    const { fileName, ...newModel } = model
+
+    /* If the object already has the property of hasOutlined, ignore it */
+    if (newModel.hasOutlined) return
+
+    /* Rewrite the material-model to include the hasOutlined property */
+    return fs.writeFileSync(
+      `${modelsDir}/${model.name}.json`,
+      JSON.stringify(
+        {
+          ...newModel,
+          hasOutlined: true
+        },
+        null,
+        2
+      )
+    )
+  })
+}
+
+/**
+ * It will look for the available outlined_svgs from EOS and modify the models with the property of hasOutlined.
+ */
+const eosIconsOutlineModels = async ({ outlineSvgDir, modelsFolder }) => {
+  const models = await readModelKeys({ modelsFolder: modelsFolder })
+
+  // Gets the outlined SVGs
+  const files = fs
+    .readdirSync(outlineSvgDir, (err, file) => {
+      if (err) console.log(err)
+      return file
+    })
+    .filter((ele) => ele.includes('.svg'))
+
+  const modelsToCreate = models.filter((ele) => {
+    if (files.includes(`${ele.name}.svg`)) return ele
+  })
+
+  return modelsToCreate.map((model) => {
+    /* Get the object without the filename */
+    const { fileName, ...newModel } = model
+
+    /* If the object already has the property of hasOutlined, ignore it */
+    if (newModel.hasOutlined) return
+
+    /* Rewrite the material-model to include the hasOutlined property */
+    return fs.writeFileSync(
+      `./${modelsFolder}/${model.name}.json`,
+      JSON.stringify(
+        {
+          ...newModel,
+          hasOutlined: true
+        },
+        null,
+        2
+      )
+    )
+  })
+}
+
+/* Maps throught the array of objects checking for models to have all listed proprieties */
 const checkModelKeys = async () => {
   const modelsEos = await readModelKeys({ modelsFolder: './models' })
   const modelsMd = await readModelKeys({ modelsFolder: './models/material' })
@@ -139,5 +211,7 @@ const checkForKeys = (model) => {
 module.exports = {
   checkForMissingModelsOrIcons,
   checkModelKeys,
-  readFilesAndCleanNames
+  readFilesAndCleanNames,
+  materialOutlineModels,
+  eosIconsOutlineModels
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["shape", "change", "history", "triangle"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

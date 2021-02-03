@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["360", "arrow", "av", "camera", "rotation", "vr"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

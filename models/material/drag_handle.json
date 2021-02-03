@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["move", "ui", "handle", "drag", "menu"],
   "category": ["editor"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

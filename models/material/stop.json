@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["play", "controls", "music", "vide", "Stop", "arrow", "control"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

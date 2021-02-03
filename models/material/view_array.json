@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["view", "website", "array", "format"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

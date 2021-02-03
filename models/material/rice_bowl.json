@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["food", "bowl", "box", "meal"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

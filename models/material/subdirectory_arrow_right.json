@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["subdirectory", "down", "below", "right", "arrow"],
   "category": ["navigation"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

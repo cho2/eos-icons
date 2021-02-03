@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["access", "automatic", "alarm", "guard", "protection", "security"],
   "category": ["home"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

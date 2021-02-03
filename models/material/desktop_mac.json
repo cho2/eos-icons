@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["apple", "laptop", "mac", "macbook"],
   "category": ["hardware"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

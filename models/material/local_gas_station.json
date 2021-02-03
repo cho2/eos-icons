@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["auto", "oil", "car", "gas", "station", "vehicle"],
   "category": ["maps"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

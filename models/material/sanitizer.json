@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["disinfect", "disinfection", "antiseptic", "sanitize", "virus"],
   "category": ["social"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

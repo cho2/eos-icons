@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["cloud", "file", "import", "arrow", "upload", "publish", "up"],
   "category": ["editor"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

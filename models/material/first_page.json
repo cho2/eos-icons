@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["move", "beginning", "front", "before"],
   "category": ["navigation"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

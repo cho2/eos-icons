@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["structure", "understructure", "basis", "base", "premise"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

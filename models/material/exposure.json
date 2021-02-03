@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["photography", "photo", "image", "expose", "lens", "light"],
   "category": ["image"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

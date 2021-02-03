@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["Dial", "call", "number", "pad", "numbers", "device"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["music", "rewind", "control", "time", "video", "Fast", "speed"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

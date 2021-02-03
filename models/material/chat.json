@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["bubble", "speech", "Chat", "talk", "text", "message"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

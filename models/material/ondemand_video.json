@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["video", "stream", "play"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

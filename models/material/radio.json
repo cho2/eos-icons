@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["antenna", "music", "Radio", "device", "listen", "tune", "player"],
   "category": ["av"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

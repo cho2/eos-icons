@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["chart", "bar", "rank", "scoreboard"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

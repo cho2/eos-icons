@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["2d", "chart", "graph", "data", "analytics"],
   "category": ["editor"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

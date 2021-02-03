@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["decrypt", "decipher", "add", "include", "increase"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

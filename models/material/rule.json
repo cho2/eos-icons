@@ -15,5 +15,6 @@
     "directive"
   ],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["pin", "marker", "spot", "place", "map", "mark", "room"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

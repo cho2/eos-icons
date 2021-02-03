@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["waiting", "paused", "awaiting", "dots", "loading", "charging"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

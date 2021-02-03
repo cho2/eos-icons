@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["leakage", "crack", "leaking"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

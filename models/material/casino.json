@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["dice", "game", "die"],
   "category": ["places"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["entire", "frame", "image", "big screen", "exit", "stop", "disable"],
   "category": ["navigation"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

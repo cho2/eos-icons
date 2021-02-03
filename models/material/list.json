@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["file", "format", "index", "list", "menu"],
   "category": ["action"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

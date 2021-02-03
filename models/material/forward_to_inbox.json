@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["email", "send to"],
   "category": ["communication"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

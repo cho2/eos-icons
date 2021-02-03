@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["screen", "display", "monitor"],
   "category": ["notification"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

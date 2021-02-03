@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["wire", "usb", "connection", "cable", "device"],
   "category": ["device"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }

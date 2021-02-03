@@ -4,5 +4,6 @@
   "dont": "",
   "tags": ["selected", "marked", "confirmed", "chosen", "picked", "option"],
   "category": ["toggle"],
-  "type": "static"
+  "type": "static",
+  "hasOutlined": true
 }
