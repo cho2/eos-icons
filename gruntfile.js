@@ -150,7 +150,8 @@ module.exports = function (grunt) {
       if (difference.length) {
         console.log(
           '\x1b[33m%s\x1b[0m',
-          `⚠️  === WARNING === ⚠️ \n${difference.length
+          `⚠️  === WARNING === ⚠️ \n${
+            difference.length
           } SVG missing: we found the outlined version of # ${difference.map(
             (ele) => ele
           )} # but not the SVG inside /svg. \n Please make sure to generate the non-outlined version before adding the outline version.`
