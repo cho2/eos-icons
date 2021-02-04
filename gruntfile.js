@@ -154,7 +154,7 @@ module.exports = function (grunt) {
             difference.length
           } SVG missing: we found the outlined version of # ${difference.map(
             (ele) => ele
-          )} # but not the SVG inside /svg. \n Please make sure to generate the non-outlined version before adding the outline version.`
+          )} # but not the SVG inside /svg. \n Please make sure to generate the filled version before adding the outlined one.`
         )
         process.exit(1)
       } else {
