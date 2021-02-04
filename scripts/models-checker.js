@@ -32,7 +32,7 @@ const checkForMissingModelsOrIcons = async (params) => {
 /* Get the files(json or svg) from a folder and removes the.extension from them only leaving the names. */
 const readFilesAndCleanNames = async (folder) => {
   try {
-    const files = await fs.readdirSync(folder, (err, file) => {
+    const files = fs.readdirSync(folder, (err, file) => {
       if (err) console.log(err)
       return file
     })
@@ -208,10 +208,27 @@ const checkForKeys = (model) => {
   )
 }
 
+const outlineModelsAndSvgTest = async ({ outlinedSvgs, normalSvgs }) => {
+  try {
+    /* Read both models folders. */
+    const outlined = await readFilesAndCleanNames(outlinedSvgs)
+    const normal = await readFilesAndCleanNames(normalSvgs)
+
+    /* Compare one with the other and extract the missing models and icons  */
+    const difference = compareTwoArraysOfElements([...outlined], [...normal])
+
+    /* Return an object with all the missing SVGs and Models */
+    return { difference }
+  } catch (error) {
+    console.log('ERROR: checkForMissingModelsOrIcons() => : ', error)
+  }
+}
+
 module.exports = {
   checkForMissingModelsOrIcons,
   checkModelKeys,
   readFilesAndCleanNames,
   materialOutlineModels,
-  eosIconsOutlineModels
+  eosIconsOutlineModels,
+  outlineModelsAndSvgTest
 }

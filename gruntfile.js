@@ -8,7 +8,8 @@ module.exports = function (grunt) {
     checkForMissingModelsOrIcons,
     checkModelKeys,
     materialOutlineModels,
-    eosIconsOutlineModels
+    eosIconsOutlineModels,
+    outlineModelsAndSvgTest
   } = require('./scripts/models-checker')
   const { createNewModel } = require('./scripts/models-creation')
   const { checkSvgName, renameSvgTo } = require('./scripts/svg-checker')
@@ -136,6 +137,30 @@ module.exports = function (grunt) {
         src: ['./svg/**/.DS_Store', './models/**/.DS_Store']
       }
     }
+  })
+
+  grunt.registerTask('checkMissingModelsOutlined', async function () {
+    const done = this.async()
+
+    outlineModelsAndSvgTest({
+      normalSvgs: './svg',
+      outlinedSvgs: './svg-outlined'
+    }).then((data) => {
+      const { difference } = data
+      if (difference.length) {
+        console.log(
+          '\x1b[33m%s\x1b[0m',
+          `⚠️  === WARNING === ⚠️ \n${difference.length
+          } SVG missing: we found the outlined version of # ${difference.map(
+            (ele) => ele
+          )} # but not the SVG inside /svg. \n Please make sure to generate the non-outlined version before adding the outline version.`
+        )
+        process.exit(1)
+      } else {
+        console.log('✅  No extra outlined icons were found.')
+        done()
+      }
+    })
   })
 
   /* Looks into the models and svg folders and finds the differences */
@@ -353,7 +378,8 @@ module.exports = function (grunt) {
     'checkModelKeysTask',
     'checkMissingModelandSVG',
     'materialOutlineModels',
-    'eosIconsOutlineModels'
+    'eosIconsOutlineModels',
+    'checkMissingModelsOutlined'
   ])
   grunt.registerTask('default', ['test', 'build'])
 }
