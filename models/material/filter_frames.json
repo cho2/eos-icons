@@ -2,8 +2,18 @@
   "name": "filter_frames",
   "do": "",
   "dont": "",
-  "tags": ["photography", "photo", "image", "style", "custom"],
-  "category": ["image"],
+  "tags": [
+    "photography",
+    "photo",
+    "image",
+    "style",
+    "custom"
+  ],
+  "category": [
+    "image"
+  ],
   "type": "static",
-  "hasOutlined": true
+  "hasOutlined": true,
+  "label": "None",
+  "date": "30/11/2020"
 }

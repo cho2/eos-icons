@@ -13,7 +13,11 @@
     "bell",
     "plus"
   ],
-  "category": ["device"],
+  "category": [
+    "device"
+  ],
   "type": "static",
-  "hasOutlined": true
+  "hasOutlined": true,
+  "label": "None",
+  "date": "30/11/2020"
 }

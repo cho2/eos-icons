@@ -2,8 +2,18 @@
   "name": "notifications",
   "do": "",
   "dont": "",
-  "tags": ["alert", "notification", "alarm", "ring", "attention"],
-  "category": ["social"],
+  "tags": [
+    "alert",
+    "notification",
+    "alarm",
+    "ring",
+    "attention"
+  ],
+  "category": [
+    "social"
+  ],
   "type": "static",
-  "hasOutlined": true
+  "hasOutlined": true,
+  "label": "None",
+  "date": "30/11/2020"
 }

@@ -16,7 +16,11 @@
     "content",
     "font"
   ],
-  "category": ["av"],
+  "category": [
+    "av"
+  ],
   "type": "static",
-  "hasOutlined": true
+  "hasOutlined": true,
+  "label": "None",
+  "date": "30/11/2020"
 }

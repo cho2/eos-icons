@@ -2,8 +2,20 @@
   "name": "flip",
   "do": "",
   "dont": "",
-  "tags": ["photography", "photo", "image", "style", "custom", "edit", "spin"],
-  "category": ["image"],
+  "tags": [
+    "photography",
+    "photo",
+    "image",
+    "style",
+    "custom",
+    "edit",
+    "spin"
+  ],
+  "category": [
+    "image"
+  ],
   "type": "static",
-  "hasOutlined": true
+  "hasOutlined": true,
+  "label": "None",
+  "date": "30/11/2020"
 }

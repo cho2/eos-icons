@@ -2,8 +2,16 @@
   "name": "electrical_services",
   "do": "",
   "dont": "",
-  "tags": ["charging", "plug", "electricity"],
-  "category": ["maps"],
+  "tags": [
+    "charging",
+    "plug",
+    "electricity"
+  ],
+  "category": [
+    "maps"
+  ],
   "type": "static",
-  "hasOutlined": true
+  "hasOutlined": true,
+  "label": "None",
+  "date": "30/11/2020"
 }

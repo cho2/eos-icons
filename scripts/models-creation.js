@@ -105,8 +105,8 @@ const createNewModel = async ({ ModelsMissingSVGs, modelsSrc }) => {
               do: `<ul><li>${[cur.do]}</li></ul>`,
               dont: `<ul><li>${[cur.dont]}</li></ul>`,
               tags: [...arrayOftags],
-              date: today,
-              label: `${[cur.label]}`
+              label: `${[cur.label]}`,
+              date: today
             }
 
             return acc
