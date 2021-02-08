@@ -12,18 +12,37 @@ const checkForMissingModelsOrIcons = async (params) => {
     const existentMdModels = await readFilesAndCleanNames(mdModelsSrc)
     const existentMdIcons = await readFilesAndCleanNames(mdIconsSrc)
 
-    /* Compare one with the other and extract the missing models and icons  */
-    const SVGsMissingModels = compareTwoArraysOfElements(
-      [...existentModels, ...existentMdModels],
-      [...existentIcons, ...existentMdIcons, ...existentAnimatedIcons]
+     /* Compare one with the other and extract the missing models and icons  */
+    // const SVGsMissingModels = compareTwoArraysOfElements(
+    //   [...existentModels, ...existentMdModels],
+    //   [...existentIcons, ...existentMdIcons, ...existentAnimatedIcons]
+    // )
+    // const ModelsMissingSVGs = compareTwoArraysOfElements(
+    //   [...existentMdIcons, ...existentIcons, ...existentAnimatedIcons],
+    //   [...existentModels, ...existentMdModels]
+    // )
+
+    const SVGsMissingModelsEOS = compareTwoArraysOfElements(
+      [...existentModels],
+      [...existentIcons, ...existentAnimatedIcons]
     )
-    const ModelsMissingSVGs = compareTwoArraysOfElements(
-      [...existentMdIcons, ...existentIcons, ...existentAnimatedIcons],
-      [...existentModels, ...existentMdModels]
+
+    const SVGsMissingModelsMd = compareTwoArraysOfElements(
+      [...existentMdModels], [...existentMdIcons]
+    )
+
+    const ModelsMissingSVGsEos = compareTwoArraysOfElements(
+      [ ...existentIcons, ...existentAnimatedIcons],
+      [...existentModels]
+    )
+
+    const ModelsMissingSVGsMd = compareTwoArraysOfElements(
+       [...existentMdIcons], [...existentMdModels]
     )
 
     /* Return an object with all the missing SVGs and Models */
-    return { SVGsMissingModels, ModelsMissingSVGs }
+    // return { SVGsMissingModels, ModelsMissingSVGs }
+    return { SVGsMissingModelsEOS, SVGsMissingModelsMd, ModelsMissingSVGsEos, ModelsMissingSVGsMd }
   } catch (error) {
     console.log('ERROR: checkForMissingModelsOrIcons() => : ', error)
   }
@@ -193,7 +212,7 @@ const checkModelKeys = async () => {
     /* If a key is missing, add the error to the array */
     if (!checkForKeys(Object.keys(model))) {
       errors.push(
-        `\n⛔️ Properties missing in: ${model.fileName}. Make sure it has: name, do, dont, tags, category, and type`
+        `\n⛔️ Properties missing in: ${model.fileName}. Make sure it has: name, do, dont, tags, category, type, and date`
       )
     }
   })

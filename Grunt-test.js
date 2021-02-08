@@ -304,6 +304,14 @@ module.exports = function (grunt) {
     })
   })
 
+  grunt.registerTask('addDateLabel', async function () {
+    const done = this.async()
+
+    addDate().then((result) => {
+        done()
+    })
+  })
+
   // Handle MD Icons Outline model
   grunt.registerTask('materialOutlineModels', async function () {
     const done = this.async()
@@ -407,3 +415,4 @@ module.exports = function (grunt) {
   ])
   grunt.registerTask('default', ['test', 'build'])
 }
+

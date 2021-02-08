@@ -1535,6 +1535,25 @@
     "type": "static"
   },
   {
+    "name": "science",
+    "do": "<ul><li> </li></ul>",
+    "dont": "<ul><li> </li></ul>",
+    "tags": [
+      "beaker",
+      "chemical",
+      "chemistry",
+      "experiment",
+      "flask",
+      "glass",
+      "laboratory",
+      "research",
+      "science",
+      "tube"
+    ],
+    "category": "social",
+    "type": "static"
+  },
+  {
     "name": "scientist",
     "do": "<ul><li>Use it to represent a Scientist role.</li></ul>",
     "dont": "<ul><li>Don't use it as a normal user role.</li></ul>",
@@ -17429,20 +17448,6 @@
       "arrows",
       "open",
       "direction"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true
-  },
-  {
-    "name": "outbound",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "outward",
-      "arrow"
     ],
     "category": [
       "action"
