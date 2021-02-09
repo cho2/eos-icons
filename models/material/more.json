@@ -2,8 +2,16 @@
   "name": "more",
   "do": "",
   "dont": "",
-  "tags": ["label", "tag", "horizontal ellipsis"],
-  "category": ["notification"],
+  "tags": [
+    "label",
+    "tag",
+    "horizontal ellipsis"
+  ],
+  "category": [
+    "notification"
+  ],
   "type": "static",
-  "hasOutlined": true
+  "hasOutlined": true,
+  "label": "None",
+  "date": "30/11/2020"
 }

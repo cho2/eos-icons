@@ -2,8 +2,20 @@
   "name": "timer_off",
   "do": "",
   "dont": "",
-  "tags": ["time", "clock", "alarm", "timeout", "setting", "photo", "camera"],
-  "category": ["image"],
+  "tags": [
+    "time",
+    "clock",
+    "alarm",
+    "timeout",
+    "setting",
+    "photo",
+    "camera"
+  ],
+  "category": [
+    "image"
+  ],
   "type": "static",
-  "hasOutlined": true
+  "hasOutlined": true,
+  "label": "None",
+  "date": "30/11/2020"
 }

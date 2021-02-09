@@ -26,7 +26,11 @@
     "coin",
     "shopping"
   ],
-  "category": ["maps"],
+  "category": [
+    "maps"
+  ],
   "type": "static",
-  "hasOutlined": true
+  "hasOutlined": true,
+  "label": "None",
+  "date": "30/11/2020"
 }

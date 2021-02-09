@@ -2,8 +2,19 @@
   "name": "devices_other",
   "do": "",
   "dont": "",
-  "tags": ["watch", "smartwatch", "ipad", "bluetooth", "smarthphone", "iot"],
-  "category": ["hardware"],
+  "tags": [
+    "watch",
+    "smartwatch",
+    "ipad",
+    "bluetooth",
+    "smarthphone",
+    "iot"
+  ],
+  "category": [
+    "hardware"
+  ],
   "type": "static",
-  "hasOutlined": true
+  "hasOutlined": true,
+  "label": "None",
+  "date": "30/11/2020"
 }

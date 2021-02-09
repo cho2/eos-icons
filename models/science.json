@@ -1,0 +1,21 @@
+{
+  "name": "science",
+  "do": "<ul><li> </li></ul>",
+  "dont": "<ul><li> </li></ul>",
+  "tags": [
+    "beaker",
+    "chemical",
+    "chemistry",
+    "experiment",
+    "flask",
+    "glass",
+    "laboratory",
+    "research",
+    "science",
+    "tube"
+  ],
+  "category": "social",
+  "type": "static",
+  "label": "EOS",
+  "date": "30/11/2020"
+}

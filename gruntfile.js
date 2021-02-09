@@ -175,9 +175,15 @@ module.exports = function (grunt) {
       iconsSrc: './svg',
       animatedSrc: './animated-svg'
     }).then(async (data) => {
-      const { SVGsMissingModels, ModelsMissingSVGs } = data
+      const { SVGsMissingModelsEOS,
+        SVGsMissingModelsMd,
+        ModelsMissingSVGsEos,
+        ModelsMissingSVGsMd } = data
 
-      if (SVGsMissingModels.length || ModelsMissingSVGs.length) {
+      let SVGsMissingModels = [ ...SVGsMissingModelsMd, ...SVGsMissingModelsEOS ]
+      let ModelsMissingSVGs
+
+      if (SVGsMissingModels.length || ModelsMissingSVGsEos.length || ModelsMissingSVGsMd.length ) {
         if (SVGsMissingModels.length) {
           console.log(
             `⚠️ ${
@@ -189,17 +195,34 @@ module.exports = function (grunt) {
           process.exit(1)
         }
 
-        if (ModelsMissingSVGs.length) {
+        if (ModelsMissingSVGsEos.length || ModelsMissingSVGsMd.length) {
+          ModelsMissingSVGs = ModelsMissingSVGsEos
+
           console.log(
             `⚠️ ${
               ModelsMissingSVGs.length
-            } Model missing: we found the SVG # ${ModelsMissingSVGs.map(
+            } EOS model missing: we found the SVG # ${ModelsMissingSVGs.map(
               (ele) => ele
             )} # but not the model inside /models. Please create one below.`
           )
 
           /* If any model is missing, send it to be created. */
-          await createNewModel({ ModelsMissingSVGs }).then(done)
+          await createNewModel({ ModelsMissingSVGs, modelsSrc: './models' }).then(async () => {
+            
+            if (ModelsMissingSVGsMd.length) {
+              ModelsMissingSVGs = ModelsMissingSVGsMd
+              console.log(
+                `⚠️ ${
+                  ModelsMissingSVGs.length
+                } MD Model missing: we found the SVG # ${ModelsMissingSVGs.map(
+                  (ele) => ele
+                )} # but not the model inside ./models/material. Please create one below.`
+              )
+    
+              /* If any model is missing, send it to be created. */
+              await createNewModel({ ModelsMissingSVGs, modelsSrc: './models/material' }).then(done)
+            }
+          })
         }
       } else {
         console.log(

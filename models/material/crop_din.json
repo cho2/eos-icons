@@ -2,8 +2,18 @@
   "name": "crop_din",
   "do": "",
   "dont": "",
-  "tags": ["photography", "photo", "image", "cut", "reduce"],
-  "category": ["image"],
+  "tags": [
+    "photography",
+    "photo",
+    "image",
+    "cut",
+    "reduce"
+  ],
+  "category": [
+    "image"
+  ],
   "type": "static",
-  "hasOutlined": true
+  "hasOutlined": true,
+  "label": "None",
+  "date": "30/11/2020"
 }

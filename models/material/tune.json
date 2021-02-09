@@ -2,8 +2,18 @@
   "name": "tune",
   "do": "",
   "dont": "",
-  "tags": ["music", "sound", "control", "settings", "options"],
-  "category": ["image"],
+  "tags": [
+    "music",
+    "sound",
+    "control",
+    "settings",
+    "options"
+  ],
+  "category": [
+    "image"
+  ],
   "type": "static",
-  "hasOutlined": true
+  "hasOutlined": true,
+  "label": "None",
+  "date": "30/11/2020"
 }
