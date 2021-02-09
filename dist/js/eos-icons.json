@@ -1,17 +1,5 @@
 [
   {
-    "name": "aaa",
-    "do": "<ul><li> </li></ul>",
-    "dont": "<ul><li> </li></ul>",
-    "tags": [
-      "test"
-    ],
-    "category": "action",
-    "type": "static",
-    "label": "EOS",
-    "date": "2/8/2021"
-  },
-  {
     "name": "abstract",
     "do": "<ul><li>Use this icon to represent an abstract resource or tool.</li></ul>",
     "dont": "<ul><li>n/a.</li></ul>",
@@ -2296,19 +2284,6 @@
     "type": "static",
     "label": "EOS",
     "date": "30/11/2020"
-  },
-  {
-    "name": "1k",
-    "do": "<ul><li> </li></ul>",
-    "dont": "<ul><li> </li></ul>",
-    "tags": [
-      "test"
-    ],
-    "category": "action",
-    "type": "static",
-    "label": "None",
-    "date": "2/8/2021",
-    "hasOutlined": true
   },
   {
     "name": "360",

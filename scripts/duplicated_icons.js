@@ -72,7 +72,7 @@ const duplicatedIcons = [
   'sentiment_satisfied_alt',
   'sticky_note_2',
   'outbound',
-  'api',
+  'api'
 ]
 
 module.exports = {
