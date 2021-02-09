@@ -12,16 +12,6 @@ const checkForMissingModelsOrIcons = async (params) => {
     const existentMdModels = await readFilesAndCleanNames(mdModelsSrc)
     const existentMdIcons = await readFilesAndCleanNames(mdIconsSrc)
 
-     /* Compare one with the other and extract the missing models and icons  */
-    // const SVGsMissingModels = compareTwoArraysOfElements(
-    //   [...existentModels, ...existentMdModels],
-    //   [...existentIcons, ...existentMdIcons, ...existentAnimatedIcons]
-    // )
-    // const ModelsMissingSVGs = compareTwoArraysOfElements(
-    //   [...existentMdIcons, ...existentIcons, ...existentAnimatedIcons],
-    //   [...existentModels, ...existentMdModels]
-    // )
-
     const SVGsMissingModelsEOS = compareTwoArraysOfElements(
       [...existentModels],
       [...existentIcons, ...existentAnimatedIcons]
