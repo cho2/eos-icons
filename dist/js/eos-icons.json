@@ -23208,30 +23208,6 @@
     "date": "30/11/2020"
   },
   {
-    "name": "science",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "beaker",
-      "chemical",
-      "chemistry",
-      "experiment",
-      "flask",
-      "glass",
-      "laboratory",
-      "research",
-      "science",
-      "tube"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "label": "None",
-    "date": "30/11/2020"
-  },
-  {
     "name": "score",
     "do": "",
     "dont": "",
