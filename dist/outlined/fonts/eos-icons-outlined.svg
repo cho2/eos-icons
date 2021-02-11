@@ -2,8 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20190801 at Wed Feb 10 16:59:54 2021
- By Cynthia Sanchez
+Created by FontForge 20190801 at Thu Feb 11 09:40:02 2021
+ By Manuele Carlini
 </metadata>
 <defs>
 <font id="eos-icons-outlined" horiz-adv-x="512" >
@@ -44,9 +44,9 @@ v43h43v-43h43q17 0 29.5 -12.5t12.5 -29.5v-43h43v-43q-11 2 -22 2q-34 0 -63 -18v10
     <glyph glyph-name="ai" unicode="ai" horiz-adv-x="384" 
 d="M384 213h-43v-42h43v-43h-43v-43q0 -17 -12.5 -29.5t-29.5 -12.5h-43v-43h-43v43h-42v-43h-43v43h-43q-17 0 -29.5 12.5t-12.5 29.5v43h-43v43h43v42h-43v43h43v43q0 17 12.5 29.5t29.5 12.5h43v43h43v-43h42v43h43v-43h43q17 0 29.5 -12.5t12.5 -29.5v-43h43v-43z
 M299 85v214h-214v-214h214zM178 277l42 -170h-22l-10 40h-49l-10 -40h-22l43 170h28zM141 164h44l-21 93h-1zM240 107v170h21v-170h-21z" />
-    <glyph glyph-name="api" unicode="api" horiz-adv-x="427" 
-d="M240 203v21h43v-21h-43zM384 363q18 0 30.5 -12.5t12.5 -30.5v-256q0 -18 -12.5 -30.5t-30.5 -12.5h-341q-18 0 -30.5 12.5t-12.5 30.5v256q0 18 12.5 30.5t30.5 12.5h341zM137 128h34l-47 128h-34l-47 -128h34l10 26h41zM315 203v21v1q0 13 -9 22t-22 9h-1h-75v-128h32
-v43h43h1q13 0 22 9t9 22v1zM384 128v128h-32v-128h32zM95 176l12 33l12 -33h-24z" />
+    <glyph glyph-name="api" unicode="api" 
+d="M156 256l46 -128h-34l-9 26h-41l-9 -26h-34l46 128h35zM126 175h25l-12 35zM315 256q13 0 22.5 -9t9.5 -22v-1v-21v-1q0 -13 -9.5 -22t-22.5 -9h-43v-43h-32v128h75zM315 203v21h-43v-21h43zM384 128v128h32v-128h-32zM465 316h-418v-248h418v248zM469 363q12 0 22 -6
+t15.5 -15.5t5.5 -21.5v-256q0 -18 -12.5 -30.5t-30.5 -12.5h-426q-18 0 -30.5 12.5t-12.5 30.5v256q0 18 12.5 30.5t30.5 12.5h426z" />
     <glyph glyph-name="application_incomplete" unicode="application_incomplete" horiz-adv-x="469" 
 d="M0 384q0 18 12.5 30.5t30.5 12.5h384q17 0 29.5 -12.5t12.5 -30.5v-43h-469v43zM64 363q9 0 15 6t6 15t-6 15t-15 6t-15 -6t-6 -15t6 -15t15 -6zM128 363q9 0 15 6t6 15t-6 15t-15 6t-15 -6t-6 -15t6 -15t15 -6zM0 320h469v-299q0 -17 -12.5 -29.5t-29.5 -12.5h-384
 q-18 0 -30.5 12.5t-12.5 29.5v299zM235 43q44 0 75 31t31 75h-106v107q-44 0 -75.5 -31.5t-31.5 -75.5t31.5 -75t75.5 -31z" />
