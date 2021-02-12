@@ -2,6 +2,7 @@ const fs = require('fs')
 const axios = require('axios')
 const inquirer = require('inquirer')
 const path = require('path')
+// const { duplicatedIcons } = require('./duplicated_icons')
 
 let nameIcon
 const eosIconsList = './svg'
@@ -41,6 +42,7 @@ const downloadSvgFile = async (mdIcon) => {
   const mdSvg = webMdIconsData.icons.filter((icon) => mdIcon === icon.name)
 
   if (svgCollection.includes(mdSvg[0].name)) {
+    addDuplicateName(mdSvg[0].name)
     console.log(
       `An existing icon with the same name was found: ${mdSvg[0].name}.svg`
     )
@@ -67,6 +69,17 @@ const downloadSvgFile = async (mdIcon) => {
   await downloadFiles(mdSvg).then(() => {
     createSvgModels(mdSvg, nameIcon)
   })
+}
+
+const addDuplicateName = (duplicateIconName) => {
+  const testData = JSON.parse(
+    fs.readFileSync('./scripts/duplicated_icons.json', 'utf8')
+  )
+  testData.push(duplicateIconName)
+  fs.writeFileSync(
+    `./scripts/duplicated_icons.json`,
+    JSON.stringify(testData, null, 2)
+  )
 }
 
 const createSvgModels = async (mdSvg, nameIcon) => {
