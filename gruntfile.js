@@ -267,7 +267,7 @@ module.exports = function (grunt) {
   /* Find duplictes name between our icons and MD icon set. */
   grunt.registerTask('findDuplicateNames', function () {
     const done = this.async()
-
+    // console.log(duplicatedIconsList)
     const mdRepo = './svg/material'
     const eosRepo = './svg'
 
@@ -453,6 +453,7 @@ module.exports = function (grunt) {
     'webfont:icons',
     'webfont:outlined',
     'replace',
+    'findDuplicateNames',
     'combineAllIconsModels',
     'clean:tempFolder',
     'jsFromJSON',
