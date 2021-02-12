@@ -106,6 +106,7 @@ const addDuplicateName = (duplicateIconName) => {
   )
 }
 
+
 const createSvgModels = async (mdSvg, nameIcon) => {
   const today = new Date().toLocaleDateString()
   const newObject = {
