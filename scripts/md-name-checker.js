@@ -47,7 +47,6 @@ const compareFolders = async (params) => {
     const duplicateIconsMd = eosModelsList.filter((value) =>
       duplicateIconsList.includes(value)
     )
-
     return { duplicateIconsEos, duplicateIconsMd, duplicateIconsList }
   } catch (error) {
     console.log('ERROR: compareFolders() => : ', error)
