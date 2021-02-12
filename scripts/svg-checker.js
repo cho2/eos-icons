@@ -23,7 +23,11 @@ const checkSvgName = async (params) => {
   return { eosIconsNew, mdIconsMdNew }
 }
 
-const renameSvgTo = async (originalFile, filePath) => {
+const renameSvgTo = async (originalFile, filePath, otherFilePath) => {
+  const eosSVG = await readFilesAndCleanNames(filePath)
+  const mdSVG = await readFilesAndCleanNames(otherFilePath)
+  const svgCollections = [...eosSVG, ...mdSVG]
+
   try {
     return inquirer
       .prompt([
@@ -39,6 +43,10 @@ const renameSvgTo = async (originalFile, filePath) => {
               : !input.match(namingConventionRegex)
               ? done(
                   `Wrong naming convention, please use: filename or file_name`
+                )
+              : svgCollections.includes(input)
+              ? done(
+                  `This file name already exists. please enter a new unique name`
                 )
               : done(null, true)
           }

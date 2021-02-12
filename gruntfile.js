@@ -13,7 +13,7 @@ module.exports = function (grunt) {
   } = require('./scripts/models-checker')
   const { createNewModel } = require('./scripts/models-creation')
   const { checkSvgName, renameSvgTo } = require('./scripts/svg-checker')
-  const { duplicatedIcons } = require('./scripts/duplicated_icons')
+  const duplicatedIcons = require('./scripts/duplicated_icons.json')
   const {
     eosMdIconsDifferences,
     downloadFile
@@ -247,18 +247,31 @@ module.exports = function (grunt) {
   /* Find duplictes name between our icons and MD icon set. */
   grunt.registerTask('findDuplicateNames', function () {
     const done = this.async()
-
+    // console.log(duplicatedIconsList)
     const mdRepo = './svg/material'
     const eosRepo = './svg'
 
-    compareFolders({ mdRepo, eosRepo }).then((result) => {
-      const { error, message } = result
+    compareFolders({ mdRepo, eosRepo }).then(async (resultss) => {
+      const { duplicateIconsEos, duplicateIconsMd } = resultss
 
-      if (error) {
-        console.log(message)
-        process.exit(1)
+      if (duplicateIconsEos.length) {
+        console.log(duplicateIconsEos)
+
+        for await (const icon of duplicateIconsEos) {
+          console.log(
+            `⚠️  ${icon}.svg name already exits, please rename it below:`
+          )
+          await renameSvgTo(icon, eosRepo, mdRepo).then(done)
+        }
+      } else if (duplicateIconsMd.length) {
+        for await (const icon of duplicateIconsMd) {
+          console.log(
+            `⚠️  ${icon}.svg name already exits, please rename it below:`
+          )
+          await renameSvgTo(icon, mdRepo, eosRepo).then(done)
+        }
       } else {
-        console.log(message)
+        console.log('✅  No duplicate SVG file found in EOS and  MD folder.')
         done()
       }
     })
@@ -362,7 +375,7 @@ module.exports = function (grunt) {
             console.log(
               `⚠️  ${icon}.svg is not matching our naming convention, please rename it below:`
             )
-            await renameSvgTo(icon, eosDir)
+            await renameSvgTo(icon, eosDir, mdDir)
           }
           process.exit(1)
         }
@@ -372,7 +385,7 @@ module.exports = function (grunt) {
             console.log(
               `⚠️  ${icon}.svg is not matching our naming convention, please rename it below:`
             )
-            await renameSvgTo(icon, mdDir).then(done)
+            await renameSvgTo(icon, mdDir, eosDir).then(done)
           }
         }
       } else {
@@ -403,6 +416,7 @@ module.exports = function (grunt) {
     'webfont:icons',
     'webfont:outlined',
     'replace',
+    'findDuplicateNames',
     'combineAllIconsModels',
     'clean:tempFolder'
   ])
