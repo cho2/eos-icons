@@ -448,7 +448,6 @@ module.exports = function (grunt) {
     'webfont:icons',
     'webfont:outlined',
     'replace',
-    'findDuplicateNames',
     'combineAllIconsModels',
     'clean:tempFolder',
     'jsFromJSON',
