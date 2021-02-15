@@ -268,7 +268,11 @@ module.exports = function (grunt) {
     const eosRepo = './svg'
 
     compareFolders({ mdRepo, eosRepo }).then(async (resultss) => {
-      const { duplicateIconsEos, duplicateIconsMd, duplicateIconsList } = resultss
+      const {
+        duplicateIconsEos,
+        duplicateIconsMd,
+        duplicateIconsList
+      } = resultss
       console.log(duplicateIconsList)
       if (duplicateIconsEos.length) {
         console.log(duplicateIconsEos)
