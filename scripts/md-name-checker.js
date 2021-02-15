@@ -49,7 +49,6 @@ const compareFolders = async (params) => {
     )
 
     return { duplicateIconsEos, duplicateIconsMd, duplicateIconsList }
-
   } catch (error) {
     console.log('ERROR: compareFolders() => : ', error)
   }
