@@ -268,23 +268,30 @@ module.exports = function (grunt) {
     const eosRepo = './svg'
 
     compareFolders({ mdRepo, eosRepo }).then(async (resultss) => {
-      const { duplicateIconsEos, duplicateIconsMd } = resultss
-
+      const { duplicateIconsEos, duplicateIconsMd, duplicateIconsList } = resultss
+      console.log(duplicateIconsList)
       if (duplicateIconsEos.length) {
         console.log(duplicateIconsEos)
 
         for await (const icon of duplicateIconsEos) {
           console.log(
-            `⚠️  ${icon}.svg name already exits, please rename it below:`
+            `⚠️  ${icon}.svg name already exits in EOS, please rename it below:`
           )
           await renameSvgTo(icon, eosRepo, mdRepo).then(done)
         }
       } else if (duplicateIconsMd.length) {
         for await (const icon of duplicateIconsMd) {
           console.log(
-            `⚠️  ${icon}.svg name already exits, please rename it below:`
+            `⚠️  ${icon}.svg name already exits MD, please rename it below:`
           )
           await renameSvgTo(icon, mdRepo, eosRepo).then(done)
+        }
+      } else if (duplicateIconsList.length) {
+        for await (const icon of duplicateIconsList) {
+          console.log(
+            `⚠️  ${icon}.svg name already exits in EOS and MD, please rename it below:`
+          )
+          // await renameSvgTo(icon, mdRepo, eosRepo).then(done)
         }
       } else {
         console.log('✅  No duplicate SVG file found in EOS and  MD folder.')
@@ -431,6 +438,7 @@ module.exports = function (grunt) {
     'clean:tempFolder'
   ])
   grunt.registerTask('build', [
+    'findDuplicateNames',
     'clean:all',
     'concat',
     'copy:outlined',
@@ -438,7 +446,6 @@ module.exports = function (grunt) {
     'webfont:icons',
     'webfont:outlined',
     'replace',
-    'findDuplicateNames',
     'combineAllIconsModels',
     'clean:tempFolder',
     'jsFromJSON',
