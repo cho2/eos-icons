@@ -69,7 +69,34 @@ const renameSvgTo = async (originalFile, filePath, otherFilePath) => {
   }
 }
 
+const deleteDuplicateSvg = async (iconName) => {
+  await selectIconFolder().then(async (response) => {
+    if (response.answer === 'EOS') {
+      fs.unlinkSync(`./svg/material/${iconName}.svg`)
+    } else {
+      fs.unlinkSync(`./svg/${iconName}.svg`)
+      console.log('Duplicated file from EOS is deleted!')
+    }
+  })
+}
+
+const selectIconFolder = async () => {
+  try {
+    return inquirer.prompt([
+      {
+        type: 'list',
+        name: 'answer',
+        message: '✅  Please select folder name: ',
+        choices: ['EOS', 'MD']
+      }
+    ])
+  } catch (error) {
+    console.log(error)
+  }
+}
+
 module.exports = {
   checkSvgName,
-  renameSvgTo
+  renameSvgTo,
+  deleteDuplicateSvg
 }
