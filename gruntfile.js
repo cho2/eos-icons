@@ -268,7 +268,7 @@ module.exports = function (grunt) {
   /* Find duplictes name between our icons and MD icon set. */
   grunt.registerTask('findDuplicateNames', function () {
     const done = this.async()
-    // console.log(duplicatedIconsList)
+
     const mdRepo = './svg/material'
     const eosRepo = './svg'
 
@@ -328,6 +328,7 @@ module.exports = function (grunt) {
           if (res.answer === 'Yes') {
             const iconList = [...res.iconsList]
             /* Download MD svgs and create models */
+
             await downloadMDFile(iconList).then()
             done()
           } else {
