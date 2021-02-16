@@ -12,13 +12,17 @@ module.exports = function (grunt) {
     outlineModelsAndSvgTest
   } = require('./scripts/models-checker')
   const { createNewModel } = require('./scripts/models-creation')
-  const { checkSvgName, renameSvgTo } = require('./scripts/svg-checker')
+  const {
+    checkSvgName,
+    renameSvgTo,
+    deleteDuplicateSvg
+  } = require('./scripts/svg-checker')
   const duplicatedIcons = require('./scripts/duplicated_icons.json')
   const {
     eosMdIconsDifferences,
     downloadFile
   } = require('./scripts/eos-md-icons-log-differences')
-  const { downloadSvgFile } = require('./scripts/download-svg')
+  const { downloadMDFile } = require('./scripts/download-svg')
 
   // Append path to your svg below
   // EOS-set and MD svg path
@@ -247,7 +251,7 @@ module.exports = function (grunt) {
   /* Find duplictes name between our icons and MD icon set. */
   grunt.registerTask('findDuplicateNames', function () {
     const done = this.async()
-    // console.log(duplicatedIconsList)
+
     const mdRepo = './svg/material'
     const eosRepo = './svg'
 
@@ -257,7 +261,7 @@ module.exports = function (grunt) {
         duplicateIconsMd,
         duplicateIconsList
       } = resultss
-      console.log(duplicateIconsList)
+
       if (duplicateIconsEos.length) {
         console.log(duplicateIconsEos)
 
@@ -277,10 +281,11 @@ module.exports = function (grunt) {
       } else if (duplicateIconsList.length) {
         for await (const icon of duplicateIconsList) {
           console.log(
-            `⚠️  ${icon}.svg name already exits in EOS and MD, please rename it below:`
+            `Two icons with the same name ${icon}.svg were found, please select which one you want to keep:`
           )
-          // await renameSvgTo(icon, mdRepo, eosRepo).then(done)
+          await deleteDuplicateSvg(icon).then()
         }
+        done()
       } else {
         console.log('✅  No duplicate SVG file found in EOS and  MD folder.')
         done()
@@ -312,10 +317,13 @@ module.exports = function (grunt) {
           if (res.answer === 'Yes') {
             const iconList = [...res.iconsList]
             /* Download MD svgs and create models */
-            for await (const icon of iconList) {
-              await downloadSvgFile(icon).then()
-              done()
-            }
+            // for await (const icon of iconList) {
+            //   await downloadSvgFile(icon).then()
+            //   done()
+            // }
+
+            await downloadMDFile(iconList).then()
+            done()
           } else {
             done()
           }
