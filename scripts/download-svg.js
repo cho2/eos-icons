@@ -35,40 +35,63 @@ const inputForName = async () => {
   }
 }
 
-const downloadSvgFile = async (mdIcon) => {
-  const webMdIconsData = JSON.parse(
-    fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", '')
-  )
-  const mdSvg = webMdIconsData.icons.filter((icon) => mdIcon === icon.name)
-
-  if (svgCollection.includes(mdSvg[0].name)) {
-    addDuplicateName(mdSvg[0].name)
-    console.log(
-      `An existing icon with the same name was found: ${mdSvg[0].name}.svg`
-    )
-    await inputForName().then(async (response) => {
-      nameIcon = response.name
-    })
-  } else {
-    nameIcon = mdSvg[0].name
+const duplicateMDIcon = async () => {
+  try {
+    return inquirer.prompt([
+      {
+        type: 'list',
+        name: 'answer',
+        message: '✅  Do you want to mark this new icon as a duplicate? ',
+        choices: ['Yes', 'No']
+      }
+    ])
+  } catch (error) {
+    console.log(error)
   }
+}
 
-  const downloadFiles = async (mdSvg) => {
-    const filePath = path.resolve(__dirname, `../svg/material/${nameIcon}.svg`)
-    const url = `https://fonts.gstatic.com/s/i/materialicons/${mdSvg[0].name}/v${mdSvg[0].version}/24px.svg`
-    const file = fs.createWriteStream(filePath)
+const downloadSvgFiles = async (mdIconModelData, newName) => {
+  const filePath = path.resolve(__dirname, `../svg/material/${newName}.svg`)
+  const url = `https://fonts.gstatic.com/s/i/materialicons/${mdIconModelData[0].name}/v${mdIconModelData[0].version}/24px.svg`
+  const file = fs.createWriteStream(filePath)
 
-    const response = await axios({
-      url,
-      method: 'GET',
-      responseType: 'stream'
-    })
-    response.data.pipe(file)
-  }
-
-  await downloadFiles(mdSvg).then(() => {
-    createSvgModels(mdSvg, nameIcon)
+  const response = await axios({
+    url,
+    method: 'GET',
+    responseType: 'stream'
   })
+  response.data.pipe(file)
+}
+
+const downloadMDFile = async (mdIconList) => {
+  for (const mdIcon of mdIconList) {
+    const webMdIconsData = JSON.parse(
+      fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", '')
+    )
+    const mdIconModelData = webMdIconsData.icons.filter(
+      (icon) => mdIcon === icon.name
+    )
+
+    if (svgCollection.includes(mdIcon)) {
+      await duplicateMDIcon().then(async (response) => {
+        if (response.answer === 'Yes') {
+          addDuplicateName(mdIcon)
+        } else {
+          await inputForName().then(async (response) => {
+            nameIcon = response.name
+            console.log(response.name)
+            await downloadSvgFiles(mdIconModelData, nameIcon).then(() => {
+              createSvgModels(mdIconModelData, nameIcon)
+            })
+          })
+        }
+      })
+    } else {
+      await downloadSvgFiles(mdIconModelData, mdIcon).then(() => {
+        createSvgModels(mdIconModelData, mdIcon)
+      })
+    }
+  }
 }
 
 const addDuplicateName = (duplicateIconName) => {
@@ -107,5 +130,5 @@ const createSvgModels = async (mdSvg, nameIcon) => {
 }
 
 module.exports = {
-  downloadSvgFile
+  downloadMDFile
 }
