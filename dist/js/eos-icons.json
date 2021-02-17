@@ -1,5 +1,29 @@
 [
   {
+    "name": "10mp",
+    "do": "<ul><li> </li></ul>",
+    "dont": "<ul><li> </li></ul>",
+    "tags": [
+      "tet"
+    ],
+    "category": "action",
+    "type": "static",
+    "label": "EOS",
+    "date": "17/02/2021"
+  },
+  {
+    "name": "12mp",
+    "do": "<ul><li> </li></ul>",
+    "dont": "<ul><li> </li></ul>",
+    "tags": [
+      "testr"
+    ],
+    "category": "action",
+    "type": "static",
+    "label": "EOS",
+    "date": "17/02/2021"
+  },
+  {
     "name": "abstract",
     "do": "<ul><li>Use this icon to represent an abstract resource or tool.</li></ul>",
     "dont": "<ul><li>n/a.</li></ul>",
@@ -2285,6 +2309,36 @@
     "type": "static",
     "label": "EOS",
     "date": "30/11/2020"
+  },
+  {
+    "name": "12mp_new",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "12",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "17/02/2021",
+    "hasOutlined": true
   },
   {
     "name": "360",
@@ -29761,6 +29815,60 @@
     "date": "30/11/2020"
   },
   {
+    "name": "wifi_tethering_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cell",
+      "cellular",
+      "data",
+      "disabled",
+      "enabled",
+      "error",
+      "internet",
+      "mobile",
+      "network",
+      "off",
+      "on",
+      "phone",
+      "slash",
+      "speed",
+      "tethering",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "17/02/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "window",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "close",
+      "glass",
+      "grid",
+      "home",
+      "house",
+      "interior",
+      "layout",
+      "outside",
+      "window"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "17/02/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "wine_bar",
     "do": "",
     "dont": "",
@@ -29840,6 +29948,21 @@
     "date": "30/11/2020"
   },
   {
+    "name": "workspaces",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "test"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "17/02/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "wrap_text",
     "do": "",
     "dont": "",
@@ -29904,6 +30027,29 @@
     "hasOutlined": true,
     "label": "None",
     "date": "30/11/2020"
+  },
+  {
+    "name": "yard",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "backyard",
+      "flower",
+      "garden",
+      "home",
+      "house",
+      "nature",
+      "pettle",
+      "plants",
+      "yard"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "17/02/2021",
+    "hasOutlined": true
   },
   {
     "name": "yard_new",

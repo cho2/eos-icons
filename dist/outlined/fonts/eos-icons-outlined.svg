@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20201107 at Tue Feb 16 16:48:49 2021
+Created by FontForge 20201107 at Wed Feb 17 14:33:18 2021
  By Richa Bisht
 </metadata>
 <defs>
@@ -18,10 +18,16 @@ Created by FontForge 20201107 at Tue Feb 16 16:48:49 2021
     bbox="-0.595506 -64 512 448"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+005F-F189"
+    unicode-range="U+0030-F18B"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
+    <glyph glyph-name="10mp" unicode="&#x31;&#x30;mp" horiz-adv-x="426" 
+d="M421 213q5 -10 5 -21v0q0 -11 -5 -21l-86 -149q-12 -22 -37 -22h-170q-25 0 -37 22l-33 57l-17 29l-35 63q-6 10 -6 21t6 21l35 63l17 29l33 57q12 22 37 22h170q25 0 37 -22zM327 86zM390 192l-88 149h-176l-26 -43q3 1 7 1q44 0 75 -31.5t31 -75.5v-2q1 -44 32 -74.5
+t75 -30.5l7 1z" />
+    <glyph glyph-name="12mp" unicode="&#x31;&#x32;mp" horiz-adv-x="426" 
+d="M421 213q5 -10 5 -21v0q0 -11 -5 -21l-86 -149q-12 -22 -37 -22h-170q-25 0 -37 22l-33 57l-17 29l-35 63q-6 10 -6 21t6 21l35 63l17 29l33 57q12 22 37 22h170q25 0 37 -22zM327 86zM390 192l-88 149h-176l-26 -43q3 1 7 1q44 0 75 -31.5t31 -75.5v-2q1 -44 32 -74.5
+t75 -30.5l7 1z" />
     <glyph glyph-name="abstract_incomplete" unicode="abstract_incomplete" horiz-adv-x="426" 
 d="M421 213q5 -10 5 -21v0q0 -11 -5 -21l-86 -149q-12 -22 -37 -22h-170q-25 0 -37 22l-33 57l-17 29l-35 63q-6 10 -6 21t6 21l35 63l17 29l33 57q12 22 37 22h170q25 0 37 -22zM327 86zM390 192l-88 149h-176l-26 -43q3 1 7 1q44 0 75 -31.5t31 -75.5v-2q1 -44 32 -74.5
 t75 -30.5l7 1z" />
@@ -465,6 +471,12 @@ d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
  />
     <glyph glyph-name="nonmarkingreturn" horiz-adv-x="170" 
  />
+    <glyph glyph-name="0" unicode="0" 
+d="M0 0z" />
+    <glyph glyph-name="1" unicode="1" 
+d="M0 0z" />
+    <glyph glyph-name="2" unicode="2" 
+d="M0 0z" />
     <glyph glyph-name="_" unicode="_" 
 d="M0 0z" />
     <glyph glyph-name="a" unicode="a" 
