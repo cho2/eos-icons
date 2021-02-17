@@ -30,7 +30,7 @@ const compareFolders = async (params) => {
     const eosIcons = await readFiles(eosRepo)
 
     /**
-     * We comparte the two arrays for matching names
+     * We compare the two arrays for matching names
      */
     const duplicateIconsList = mdIcons.filter((element) => {
       return eosIcons.includes(element)

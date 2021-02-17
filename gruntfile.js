@@ -283,27 +283,27 @@ module.exports = function (grunt) {
 
         for await (const icon of duplicateIconsEos) {
           console.log(
-            `⚠️  ${icon}.svg name already exits in EOS, please rename it below:`
+            `⚠️ An icon with the name ${icon}.svg already exits in svg/material. Please rename this new icon below:`
           )
           await renameSvgTo(icon, eosRepo, mdRepo).then(done)
         }
       } else if (duplicateIconsMd.length) {
         for await (const icon of duplicateIconsMd) {
           console.log(
-            `⚠️  ${icon}.svg name already exits MD, please rename it below:`
+            `⚠️ An icon with the name ${icon}.svg already exits svg/. Please rename this new icon below:`
           )
           await renameSvgTo(icon, mdRepo, eosRepo).then(done)
         }
       } else if (duplicateIconsList.length) {
         for await (const icon of duplicateIconsList) {
           console.log(
-            `Two icons with the same name ${icon}.svg were found, please select which one you want to keep:`
+            `Two icons with the same name ${icon}.svg were found. Please select which one you want to keep:`
           )
           await deleteDuplicateSvg(icon).then()
         }
         done()
       } else {
-        console.log('✅  No duplicate SVG file found in EOS and  MD folder.')
+        console.log('✅  No duplicated SVG file found in EOS and MD folder.')
         done()
       }
     })
