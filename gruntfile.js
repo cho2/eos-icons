@@ -19,6 +19,7 @@ module.exports = function (grunt) {
     downloadFile
   } = require('./scripts/eos-md-icons-log-differences')
   const { downloadSvgFile } = require('./scripts/download-svg')
+  const { jsFileFromJSON } = require('./scripts/utilities')
 
   // Append path to your svg below
   // EOS-set and MD svg path
@@ -114,6 +115,18 @@ module.exports = function (grunt) {
         dest: 'temp',
         cwd: 'svg-outlined/',
         src: '*'
+      },
+      newIcons: {
+        dest: 'dist/js/new-icons.js',
+        src: './scripts/demos/new-icons.js'
+      },
+      newIconsOutlined: {
+        dest: 'dist/outlined/js/new-icons.js',
+        src: './scripts/demos/new-icons.js'
+      },
+      jsonWithIcons: {
+        dest: 'dist/outlined/js/eos-icons.js',
+        src: 'dist/js/eos-icons.js'
       }
     },
     clean: {
@@ -182,7 +195,10 @@ module.exports = function (grunt) {
         ModelsMissingSVGsMd
       } = data
 
-      let SVGsMissingModels = [...SVGsMissingModelsMd, ...SVGsMissingModelsEOS]
+      const SVGsMissingModels = [
+        ...SVGsMissingModelsMd,
+        ...SVGsMissingModelsEOS
+      ]
       let ModelsMissingSVGs
 
       if (
@@ -346,6 +362,12 @@ module.exports = function (grunt) {
     })
   })
 
+  grunt.registerTask('jsFromJSON', async function () {
+    const done = this.async()
+
+    jsFileFromJSON().then(done)
+  })
+
   /* Checks for SVGs names returns the one with a wrong naming convention */
   grunt.registerTask('checkNameConvention', async function () {
     const done = this.async()
@@ -404,7 +426,11 @@ module.exports = function (grunt) {
     'webfont:outlined',
     'replace',
     'combineAllIconsModels',
-    'clean:tempFolder'
+    'clean:tempFolder',
+    'jsFromJSON',
+    'copy:newIcons',
+    'copy:newIconsOutlined',
+    'copy:jsonWithIcons'
   ])
   grunt.registerTask('test', [
     'importMdIcons',
