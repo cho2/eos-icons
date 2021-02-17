@@ -34,7 +34,7 @@ const renameSvgTo = async (originalFile, filePath, otherFilePath) => {
         {
           type: 'input',
           name: 'name',
-          message: 'Indiquete a new name (without .svg): ',
+          message: 'Indicate the new name (without .svg): ',
           validate: function (input) {
             const done = this.async()
 
@@ -46,7 +46,7 @@ const renameSvgTo = async (originalFile, filePath, otherFilePath) => {
                 )
               : svgCollections.includes(input)
               ? done(
-                  `This file name already exists. please enter a new unique name`
+                  `This file name already exists. Please enter a new unique name`
                 )
               : done(null, true)
           }
