@@ -76,6 +76,7 @@ const downloadMDFile = async (mdIconList) => {
       console.log(
         `The SVG/ folder already has an icon with ${mdIcon} name. Please review the design before confirming.`
       )
+
       await duplicateMDIcon().then(async (response) => {
         if (response.answer === 'Yes') {
           addDuplicateName(mdIcon)
