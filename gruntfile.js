@@ -328,7 +328,6 @@ module.exports = function (grunt) {
           if (res.answer === 'Yes') {
             const iconList = [...res.iconsList]
             /* Download MD svgs and create models */
-
             await downloadMDFile(iconList).then()
             done()
           } else {
