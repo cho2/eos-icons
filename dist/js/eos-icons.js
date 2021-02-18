@@ -47,8 +47,7 @@ const eosIcons = [
     "type": "static",
     "label": "EOS",
     "date": "30/11/2020",
-    "hasOutlined": true,
-    "dateOutlined": "18/02/2021"
+    "hasOutlined": true
   },
   {
     "name": "action_chains",
