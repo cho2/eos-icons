@@ -18,7 +18,7 @@ const inputForName = async () => {
       {
         type: 'input',
         name: 'name',
-        message: '✅  Enter the new icon name: ',
+        message: '✅  Enter the new icon name (without .svg): ',
         validate: function (input) {
           const done = this.async()
 
@@ -35,13 +35,14 @@ const inputForName = async () => {
   }
 }
 
-const duplicateMDIcon = async () => {
+const duplicateMDIcon = async (mdIcon) => {
   try {
     return inquirer.prompt([
       {
         type: 'list',
         name: 'answer',
-        message: '✅  Do you want to mark this new icon as a duplicate? ',
+        message: `✅ The SVG/ folder already has an icon with ${mdIcon}.svg name, do you want to mark this new icon as a duplicate?
+        Please review the design before confirming.`,
         choices: ['Yes', 'No']
       }
     ])
@@ -73,11 +74,7 @@ const downloadMDFile = async (mdIconList) => {
     )
 
     if (svgCollection.includes(mdIcon)) {
-      console.log(
-        `The SVG/ folder already has an icon with ${mdIcon} name. Please review the design before confirming.`
-      )
-
-      await duplicateMDIcon().then(async (response) => {
+      await duplicateMDIcon(mdIcon).then(async (response) => {
         if (response.answer === 'Yes') {
           addDuplicateName(mdIcon)
         } else {
