@@ -273,26 +273,30 @@ module.exports = function (grunt) {
     const eosRepo = './svg'
 
     compareFolders({ mdRepo, eosRepo }).then(async (result) => {
-      const { duplicateIconsEos, duplicateIconsMd, duplicateIconsList } = result
+      const {
+        duplicatedEOSicon,
+        duplicatedMDicon,
+        duplicatedIconsList
+      } = result
 
-      if (duplicateIconsEos.length) {
-        console.log(duplicateIconsEos)
+      if (duplicatedEOSicon.length) {
+        console.log(duplicatedEOSicon)
 
-        for await (const icon of duplicateIconsEos) {
+        for await (const icon of duplicatedEOSicon) {
           console.log(
             `⚠️ An icon with the name ${icon}.svg already exits in svg/material. Please rename this new icon below:`
           )
           await renameSvgTo(icon, eosRepo, mdRepo).then(done)
         }
-      } else if (duplicateIconsMd.length) {
-        for await (const icon of duplicateIconsMd) {
+      } else if (duplicatedMDicon.length) {
+        for await (const icon of duplicatedMDicon) {
           console.log(
             `⚠️ An icon with the name ${icon}.svg already exits svg/. Please rename this new icon below:`
           )
           await renameSvgTo(icon, mdRepo, eosRepo).then(done)
         }
-      } else if (duplicateIconsList.length) {
-        for await (const icon of duplicateIconsList) {
+      } else if (duplicatedIconsList.length) {
+        for await (const icon of duplicatedIconsList) {
           console.log(`${icon}`)
           await deleteDuplicateSvg(icon).then()
         }

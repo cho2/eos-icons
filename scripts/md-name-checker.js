@@ -32,7 +32,8 @@ const compareFolders = async (params) => {
     /**
      * We compare the two arrays for matching names
      */
-    const duplicateIconsList = mdIcons.filter((element) => {
+
+    const duplicatedIconsList = mdIcons.filter((element) => {
       return eosIcons.includes(element)
     })
 
@@ -49,8 +50,8 @@ const compareFolders = async (params) => {
     const duplicatedMDicon = eosModelsList.filter((value) =>
       duplicatedIconsList.includes(value)
     )
-  
-    return { duplicateIconsEos, duplicateIconsMd, duplicateIconsList }
+
+    return { duplicatedEOSicon, duplicatedMDicon, duplicatedIconsList }
   } catch (error) {
     console.log('ERROR: compareFolders() => : ', error)
   }
