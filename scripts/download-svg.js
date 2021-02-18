@@ -2,7 +2,6 @@ const fs = require('fs')
 const axios = require('axios')
 const inquirer = require('inquirer')
 const path = require('path')
-// const { duplicatedIcons } = require('./duplicated_icons')
 
 let nameIcon
 const eosIconsList = './svg'
