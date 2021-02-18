@@ -15,7 +15,7 @@
     bbox="-0.595506 -64 512 448.379"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F697"
+    unicode-range="U+0030-F695"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -568,9 +568,6 @@ d="M395 192q-37 0 -64 -24.5t-31 -60.5h-67q2 12 2 21q0 49 -33 85h11q18 0 30.5 12.
 t-22 53t22 53t53 22zM394.5 64q13.5 0 23 9.5t9.5 22.5t-9.5 22.5t-23 9.5t-22.5 -9.5t-9 -22.5t9 -22.5t22.5 -9.5zM64 256q-9 0 -15 6.5t-6 15t6 15t15 6.5h64q18 0 30.5 -12.5t12.5 -30.5h-107zM188 153l20 7q5 -17 5 -32q0 -20 -7 -39l-19 9l-5 -10l19 -8
 q-17 -35 -52 -50l-7 20l-10 -4l7 -19q-18 -6 -32 -6q-20 0 -39 8l9 19l-10 4l-9 -19q-34 18 -49 52l20 8l-4 10l-19 -7q-6 17 -6 32q0 20 7 39l20 -9l4 10l-19 8q17 35 52 50l7 -20l10 4l-7 19q18 6 33 6q20 0 38 -8l-8 -19l10 -4l8 19q34 -18 49 -52l-19 -8zM131.5 69
 q24.5 10 34.5 34.5t0 49t-34.5 34.5t-49 0t-35 -34.5t0 -49t35 -34.5t49 0z" />
-    <glyph glyph-name="ai_new" unicode="ai_new" horiz-adv-x="384" 
-d="M384 213h-43v-42h43v-43h-43v-43q0 -17 -12.5 -29.5t-29.5 -12.5h-43v-43h-43v43h-42v-43h-43v43h-43q-17 0 -29.5 12.5t-12.5 29.5v43h-43v43h43v42h-43v43h43v43q0 17 12.5 29.5t29.5 12.5h43v43h43v-43h42v43h43v-43h43q17 0 29.5 -12.5t12.5 -29.5v-43h43v-43z
-M299 85v214h-214v-214h214zM178 277l42 -170h-22l-10 40h-49l-10 -40h-22l43 170h28zM141 164h44l-21 93h-1zM240 107v170h21v-170h-21z" />
     <glyph glyph-name="airline_seat_flat_angled" unicode="airline_seat_flat_angled" horiz-adv-x="448" 
 d="M443 143l-15 -40l-264 95l45 121l182 -66q34 -12 49 -44t3 -66zM0 189l15 40l405 -146l-14 -40l-97 34v-34h-170v96zM124 230.5q-24 -11.5 -49 -3t-36.5 32.5t-3 49t32.5 36.5t49 3t36.5 -32.5t3 -49t-32.5 -36.5z" />
     <glyph glyph-name="airline_seat_flat" unicode="airline_seat_flat" 
@@ -3738,8 +3735,6 @@ d="M213 235h126q2 -15 2 -26q0 -106 -170 -252q-171 146 -171 252q0 77 50.5 126t120
 l-46 46l31 30l45 -46l45 46z" />
     <glyph glyph-name="wysiwyg" unicode="wysiwyg" horiz-adv-x="384" 
 d="M341 384q18 0 30.5 -12.5t12.5 -30.5v-298q0 -18 -12.5 -30.5t-30.5 -12.5h-298q-18 0 -30.5 12.5t-12.5 30.5v298q0 18 12.5 30.5t30.5 12.5h298zM341 43v256h-298v-256h298zM299 192h-214v43h214v-43zM213 107h-128v42h128v-42z" />
-    <glyph glyph-name="yard_new" unicode="yard_new" horiz-adv-x="0" 
- />
     <glyph glyph-name="youtube_searched_for" unicode="youtube_searched_for" 
 d="M320 149l107 -106l-32 -32l-107 107v16l-6 6q-39 -33 -90 -33q-38 0 -70 19l31 31q19 -8 39 -8q40 0 68 28.5t28 68t-28 67.5t-68 28t-68 -28t-28 -68h75l-89 -85l-82 85h54q0 57 40.5 98t97.5 41q58 0 98.5 -40.5t40.5 -98.5q0 -51 -34 -90l6 -6h17z" />
     <glyph glyph-name="zoom_in" unicode="zoom_in" horiz-adv-x="373" 
