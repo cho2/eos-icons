@@ -86,8 +86,8 @@ const selectIconFolder = async () => {
       {
         type: 'list',
         name: 'answer',
-        message: '✅  Please select folder name: ',
-        choices: ['EOS', 'MD']
+        message: '✅ Two icons with the same name were found, please select which one you want to keep: ',
+        choices: ['EOS (svg/)', 'Material (svg/material/)']
       }
     ])
   } catch (error) {

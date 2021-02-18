@@ -15,7 +15,7 @@
     bbox="-0.595506 -64 512 448.379"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F696"
+    unicode-range="U+0030-F695"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -3735,8 +3735,6 @@ d="M213 235h126q2 -15 2 -26q0 -106 -170 -252q-171 146 -171 252q0 77 50.5 126t120
 l-46 46l31 30l45 -46l45 46z" />
     <glyph glyph-name="wysiwyg" unicode="wysiwyg" horiz-adv-x="384" 
 d="M341 384q18 0 30.5 -12.5t12.5 -30.5v-298q0 -18 -12.5 -30.5t-30.5 -12.5h-298q-18 0 -30.5 12.5t-12.5 30.5v298q0 18 12.5 30.5t30.5 12.5h298zM341 43v256h-298v-256h298zM299 192h-214v43h214v-43zM213 107h-128v42h128v-42z" />
-    <glyph glyph-name="yard_new" unicode="yard_new" horiz-adv-x="0" 
- />
     <glyph glyph-name="youtube_searched_for" unicode="youtube_searched_for" 
 d="M320 149l107 -106l-32 -32l-107 107v16l-6 6q-39 -33 -90 -33q-38 0 -70 19l31 31q19 -8 39 -8q40 0 68 28.5t28 68t-28 67.5t-68 28t-68 -28t-28 -68h75l-89 -85l-82 85h54q0 57 40.5 98t97.5 41q58 0 98.5 -40.5t40.5 -98.5q0 -51 -34 -90l6 -6h17z" />
     <glyph glyph-name="zoom_in" unicode="zoom_in" horiz-adv-x="373" 

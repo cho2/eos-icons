@@ -271,12 +271,12 @@ module.exports = function (grunt) {
     const mdRepo = './svg/material'
     const eosRepo = './svg'
 
-    compareFolders({ mdRepo, eosRepo }).then(async (resultss) => {
+    compareFolders({ mdRepo, eosRepo }).then(async (result) => {
       const {
         duplicateIconsEos,
         duplicateIconsMd,
         duplicateIconsList
-      } = resultss
+      } = result
 
       if (duplicateIconsEos.length) {
         console.log(duplicateIconsEos)
@@ -297,7 +297,7 @@ module.exports = function (grunt) {
       } else if (duplicateIconsList.length) {
         for await (const icon of duplicateIconsList) {
           console.log(
-            `Two icons with the same name ${icon}.svg were found. Please select which one you want to keep:`
+            `${icon}`
           )
           await deleteDuplicateSvg(icon).then()
         }
