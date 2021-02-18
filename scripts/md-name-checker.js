@@ -42,12 +42,12 @@ const compareFolders = async (params) => {
 
     /* Identify duplicated icons with an existing model in models/material/ */
     const duplicatedEOSicon = mdModelsList.filter((value) =>
-    duplicatedIconsList.includes(value)
+      duplicatedIconsList.includes(value)
     )
 
     /* Identify duplicated icons with an existing model in models/ */
     const duplicatedMDicon = eosModelsList.filter((value) =>
-    duplicatedIconsList.includes(value)
+      duplicatedIconsList.includes(value)
     )
 
     return { duplicatedEOSicon, duplicatedMDicon, duplicatedIconsList }
