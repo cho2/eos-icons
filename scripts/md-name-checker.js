@@ -40,12 +40,14 @@ const compareFolders = async (params) => {
     const mdModelsList = await readFiles(mdModelsSrc)
     const eosModelsList = await readFiles(eosModelsSrc)
 
-    /* Get duplicate icons list for md and eos */
-    const duplicateIconsEos = mdModelsList.filter((value) =>
-      duplicateIconsList.includes(value)
+    /* Identify duplicated icons with an existing model in models/material/ */
+    const duplicatedEOSicon = mdModelsList.filter((value) =>
+      duplicatedIconsList.includes(value)
     )
-    const duplicateIconsMd = eosModelsList.filter((value) =>
-      duplicateIconsList.includes(value)
+
+    /* Identify duplicated icons with an existing model in models/ */
+    const duplicatedMDicon = eosModelsList.filter((value) =>
+      duplicatedIconsList.includes(value)
     )
   
     return { duplicateIconsEos, duplicateIconsMd, duplicateIconsList }
