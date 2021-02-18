@@ -1,4 +1,4 @@
-[
+const eosIcons = [
   {
     "name": "abstract",
     "do": "<ul><li>Use this icon to represent an abstract resource or tool.</li></ul>",
@@ -13,8 +13,7 @@
     "category": "virtualization",
     "type": "static",
     "label": "EOS",
-    "date": "30/11/2020",
-    "hasOutlined": true
+    "date": "30/11/2020"
   },
   {
     "name": "abstract_incomplete",
