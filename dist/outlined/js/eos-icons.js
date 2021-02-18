@@ -29910,29 +29910,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "yard_new",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "backyard",
-      "flower",
-      "garden",
-      "home",
-      "house",
-      "nature",
-      "pettle",
-      "plants",
-      "yard"
-    ],
-    "category": [
-      "search"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "16/02/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "youtube_searched_for",
     "do": "",
     "dont": "",
