@@ -71,7 +71,7 @@ const renameSvgTo = async (originalFile, filePath, otherFilePath) => {
 
 const deleteDuplicateSvg = async (iconName) => {
   await selectIconFolder().then(async (response) => {
-    if (response.answer === 'EOS') {
+    if (response.answer === 'EOS (svg/)') {
       fs.unlinkSync(`./svg/material/${iconName}.svg`)
     } else {
       fs.unlinkSync(`./svg/${iconName}.svg`)
