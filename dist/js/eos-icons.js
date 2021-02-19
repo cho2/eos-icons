@@ -1,4 +1,4 @@
-[
+const eosIcons = [
   {
     "name": "abstract",
     "do": "<ul><li>Use this icon to represent an abstract resource or tool.</li></ul>",
