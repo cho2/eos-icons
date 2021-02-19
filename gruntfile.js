@@ -23,7 +23,7 @@ module.exports = function (grunt) {
     eosMdIconsDifferences,
     downloadFile
   } = require('./scripts/eos-md-icons-log-differences')
-  const { downloadSvgFile } = require('./scripts/download-svg')
+  const { downloadMDFile } = require('./scripts/download-svg')
   const { jsFileFromJSON } = require('./scripts/utilities')
 
   // Append path to your svg below
