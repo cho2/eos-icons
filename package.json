@@ -42,7 +42,10 @@
     }
   },
   "lint-staged": {
-    "*.js": ["npm run js:fix", "npm run format"],
+    "*.js": [
+      "npm run js:fix",
+      "npm run format"
+    ],
     "*.json": "npm run format"
   },
   "repository": {
