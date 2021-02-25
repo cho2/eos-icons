@@ -3,6 +3,7 @@
   "do": "<ul><li>Use it to represent the act of requesting the consolidation of two branches, states, into one.</li></ul>",
   "dont": "<ul><li>Don't use to represent directions.</li></ul>",
   "tags": [
+    "eos",
     "petition",
     "solicit",
     "review",

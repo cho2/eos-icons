@@ -3,6 +3,7 @@
   "do": "<ul><li>Use this icon to represent a role associated to AI operations.</li></ul>",
   "dont": "<ul><li>Don't use it for a regular user rule.</li></ul>",
   "tags": [
+    "eos",
     "devops",
     "operations",
     "development",

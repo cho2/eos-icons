@@ -3,6 +3,7 @@
   "do": "<ul><li> </li></ul>",
   "dont": "<ul><li> </li></ul>",
   "tags": [
+    "eos",
     "beaker",
     "chemical",
     "chemistry",

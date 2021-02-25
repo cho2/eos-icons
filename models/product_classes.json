@@ -3,6 +3,7 @@
   "do": "<ul><li>To represent product classes.</li></ul>",
   "dont": "",
   "tags": [
+    "eos",
     "subscription",
     "SCC",
     "category",

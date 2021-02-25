@@ -2,7 +2,7 @@
   "name": "activate_subscriptions",
   "do": "<ul><li>For subscription activations.</li></ul>",
   "dont": "<ul><li>To show activated subscriptions. Use product_subscriptions instead.</li></ul>",
-  "tags": ["registration codes", "reg codes"],
+  "tags": ["eos", "registration codes", "reg codes"],
   "category": "services",
   "type": "static",
   "date": "30/11/2020"

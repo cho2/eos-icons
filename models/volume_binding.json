@@ -3,6 +3,7 @@
   "do": "<ul><li>Use it when connecting a volume to a system, container or others</li></ul>",
   "dont": "<ul><li>Don't use it for general links or hyperlink to the volume page</li></ul>",
   "tags": [
+    "eos",
     "volume",
     "disk",
     "storage",
