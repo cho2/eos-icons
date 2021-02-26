@@ -3,6 +3,7 @@
   "do": "<ul><li>Use this icon to represent an application window, like a browser or GUI.</li></ul>",
   "dont": "<ul><li>Don't use it for terminal, for this you should use the terminal icon.</li></ul>",
   "tags": [
+    "eos",
     "browser window",
     "GUI",
     "interface",
@@ -10,6 +11,5 @@
   ],
   "category": "virtualization",
   "type": "static",
-  "label": "EOS",
   "date": "30/11/2020"
 }

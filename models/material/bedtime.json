@@ -2,17 +2,9 @@
   "name": "bedtime",
   "do": "",
   "dont": "",
-  "tags": [
-    "snoozle",
-    "sleep",
-    "slumbertime",
-    "night"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["snoozle", "sleep", "slumbertime", "night"],
+  "category": ["image"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

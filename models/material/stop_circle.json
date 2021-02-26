@@ -2,15 +2,9 @@
   "name": "stop_circle",
   "do": "",
   "dont": "",
-  "tags": [
-    "mode",
-    "sign"
-  ],
-  "category": [
-    "av"
-  ],
+  "tags": ["mode", "sign"],
+  "category": ["av"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

@@ -2,16 +2,9 @@
   "name": "close",
   "do": "",
   "dont": "",
-  "tags": [
-    "stop",
-    "terminate",
-    "end"
-  ],
-  "category": [
-    "navigation"
-  ],
+  "tags": ["stop", "terminate", "end"],
+  "category": ["navigation"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

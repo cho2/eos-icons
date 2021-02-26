@@ -2,17 +2,9 @@
   "name": "details",
   "do": "",
   "dont": "",
-  "tags": [
-    "photography",
-    "photo",
-    "image",
-    "specifics"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["photography", "photo", "image", "specifics"],
+  "category": ["image"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

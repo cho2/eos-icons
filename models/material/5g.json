@@ -2,17 +2,9 @@
   "name": "5g",
   "do": "",
   "dont": "",
-  "tags": [
-    "network",
-    "internet",
-    "connection",
-    "speed"
-  ],
-  "category": [
-    "av"
-  ],
+  "tags": ["network", "internet", "connection", "speed"],
+  "category": ["av"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

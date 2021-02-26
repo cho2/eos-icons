@@ -2,17 +2,9 @@
   "name": "people",
   "do": "",
   "dont": "",
-  "tags": [
-    "group",
-    "team",
-    "business",
-    "users"
-  ],
-  "category": [
-    "roles"
-  ],
+  "tags": ["group", "team", "business", "users"],
+  "category": ["roles"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

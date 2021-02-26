@@ -2,19 +2,9 @@
   "name": "autorenew",
   "do": "",
   "dont": "",
-  "tags": [
-    "rotate",
-    "cache",
-    "arrow",
-    "cached",
-    "inprogress",
-    "renew"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["rotate", "cache", "arrow", "cached", "inprogress", "renew"],
+  "category": ["action"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

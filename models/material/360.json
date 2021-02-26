@@ -2,19 +2,9 @@
   "name": "360",
   "do": "",
   "dont": "",
-  "tags": [
-    "360",
-    "arrow",
-    "av",
-    "camera",
-    "rotation",
-    "vr"
-  ],
-  "category": [
-    "maps"
-  ],
+  "tags": ["360", "arrow", "av", "camera", "rotation", "vr"],
+  "category": ["maps"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

@@ -2,17 +2,9 @@
   "name": "arrow_drop_up",
   "do": "",
   "dont": "",
-  "tags": [
-    "direction",
-    "up",
-    "upward",
-    "caret"
-  ],
-  "category": [
-    "navigation"
-  ],
+  "tags": ["direction", "up", "upward", "caret"],
+  "category": ["navigation"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

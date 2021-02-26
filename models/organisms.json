@@ -3,6 +3,7 @@
   "do": "to represent a system or organization consisting of interdependent parts.",
   "dont": "",
   "tags": [
+    "eos",
     "atomic",
     "module",
     "system",
@@ -12,6 +13,5 @@
   ],
   "category": "design",
   "type": "static",
-  "label": "EOS",
   "date": "30/11/2020"
 }

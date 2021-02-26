@@ -2,16 +2,9 @@
   "name": "elderly",
   "do": "",
   "dont": "",
-  "tags": [
-    "old",
-    "retired",
-    "aging"
-  ],
-  "category": [
-    "social"
-  ],
+  "tags": ["old", "retired", "aging"],
+  "category": ["social"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

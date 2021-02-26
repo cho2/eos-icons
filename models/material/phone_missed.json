@@ -2,17 +2,9 @@
   "name": "phone_missed",
   "do": "",
   "dont": "",
-  "tags": [
-    "mobile",
-    "smartphone",
-    "call",
-    "communication"
-  ],
-  "category": [
-    "notification"
-  ],
+  "tags": ["mobile", "smartphone", "call", "communication"],
+  "category": ["notification"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

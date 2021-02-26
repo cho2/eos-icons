@@ -16,11 +16,8 @@
     "video",
     "digit"
   ],
-  "category": [
-    "av"
-  ],
+  "category": ["av"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

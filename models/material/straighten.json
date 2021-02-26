@@ -2,17 +2,9 @@
   "name": "straighten",
   "do": "",
   "dont": "",
-  "tags": [
-    "camera",
-    "setting",
-    "image",
-    "photo"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["camera", "setting", "image", "photo"],
+  "category": ["image"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

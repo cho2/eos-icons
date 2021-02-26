@@ -2,16 +2,9 @@
   "name": "outlet",
   "do": "",
   "dont": "",
-  "tags": [
-    "connect",
-    "socket",
-    "channel"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["connect", "socket", "channel"],
+  "category": ["action"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

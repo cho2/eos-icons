@@ -2,17 +2,9 @@
   "name": "arrow_left",
   "do": "",
   "dont": "",
-  "tags": [
-    "arrow",
-    "arrows",
-    "direction",
-    "left"
-  ],
-  "category": [
-    "navigation"
-  ],
+  "tags": ["arrow", "arrows", "direction", "left"],
+  "category": ["navigation"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

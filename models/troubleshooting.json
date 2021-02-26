@@ -3,6 +3,7 @@
   "do": "<ul><li>To identify and resolve a problem.</li></ul>",
   "dont": "<ul><li>For settings.</li></ul>",
   "tags": [
+    "eos",
     "problem",
     "analyse",
     "solving",
@@ -11,6 +12,5 @@
   ],
   "category": "action",
   "type": "static",
-  "label": "EOS",
   "date": "30/11/2020"
 }

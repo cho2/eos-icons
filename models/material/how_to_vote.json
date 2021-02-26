@@ -2,17 +2,9 @@
   "name": "how_to_vote",
   "do": "",
   "dont": "",
-  "tags": [
-    "ballot",
-    "election",
-    "poll",
-    "vote"
-  ],
-  "category": [
-    "content"
-  ],
+  "tags": ["ballot", "election", "poll", "vote"],
+  "category": ["content"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

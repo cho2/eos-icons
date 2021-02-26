@@ -2,18 +2,9 @@
   "name": "local_library",
   "do": "",
   "dont": "",
-  "tags": [
-    "library",
-    "read",
-    "book",
-    "community",
-    "local"
-  ],
-  "category": [
-    "maps"
-  ],
+  "tags": ["library", "read", "book", "community", "local"],
+  "category": ["maps"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

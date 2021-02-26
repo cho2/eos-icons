@@ -2,19 +2,9 @@
   "name": "movie",
   "do": "",
   "dont": "",
-  "tags": [
-    "Movie",
-    "cinema",
-    "film",
-    "media",
-    "video",
-    "slate"
-  ],
-  "category": [
-    "av"
-  ],
+  "tags": ["Movie", "cinema", "film", "media", "video", "slate"],
+  "category": ["av"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }
