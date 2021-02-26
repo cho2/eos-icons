@@ -204,6 +204,7 @@ module.exports = function (grunt) {
         ...SVGsMissingModelsMd,
         ...SVGsMissingModelsEOS
       ]
+
       let ModelsMissingSVGs
 
       if (
