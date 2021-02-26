@@ -14,7 +14,8 @@ const eosIcons = [
     "category": "virtualization",
     "type": "static",
     "date": "30/11/2020",
-    "hasOutlined": true
+    "hasOutlined": true,
+    "dateOutlined": "19/02/2021"
   },
   {
     "name": "abstract_incomplete",
@@ -165,7 +166,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "2/26/2021"
   },
   {
     "name": "application_instance",
@@ -193,7 +196,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "19/02/2021"
   },
   {
     "name": "arrow_rotate",
@@ -445,7 +450,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "2/26/2021"
   },
   {
     "name": "constraint",
@@ -623,7 +630,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "2/22/2021"
   },
   {
     "name": "data_mining",
@@ -915,7 +924,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "2/26/2021"
   },
   {
     "name": "installing",
