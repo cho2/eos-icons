@@ -8,12 +8,12 @@ Visit our Iconic font repo: https://gitlab.com/SUSE-UIUX/eos-icons
 
 @font-face {
   font-family: "eos-icons-outlined";
-  src: url("../../fonts/outlined/eos-icons-outlined.eot?425936679ff4ef5c545f1cd9b637fa09");
-  src: url("../../fonts/outlined/eos-icons-outlined.eot?425936679ff4ef5c545f1cd9b637fa09#iefix") format("embedded-opentype"),
-		url("../../fonts/outlined/eos-icons-outlined.woff2?425936679ff4ef5c545f1cd9b637fa09") format("woff2"),
-		url("../../fonts/outlined/eos-icons-outlined.woff?425936679ff4ef5c545f1cd9b637fa09") format("woff"),
-		url("../../fonts/outlined/eos-icons-outlined.ttf?425936679ff4ef5c545f1cd9b637fa09") format("truetype"),
-		url("../../fonts/outlined/eos-icons-outlined.svg?425936679ff4ef5c545f1cd9b637fa09#eos-icons-outlined") format("svg");
+  src: url("../../fonts/outlined/eos-icons-outlined.eot?6c9f5c2dbcb4ec325f57a760ae88caac");
+  src: url("../../fonts/outlined/eos-icons-outlined.eot?6c9f5c2dbcb4ec325f57a760ae88caac#iefix") format("embedded-opentype"),
+		url("../../fonts/outlined/eos-icons-outlined.woff2?6c9f5c2dbcb4ec325f57a760ae88caac") format("woff2"),
+		url("../../fonts/outlined/eos-icons-outlined.woff?6c9f5c2dbcb4ec325f57a760ae88caac") format("woff"),
+		url("../../fonts/outlined/eos-icons-outlined.ttf?6c9f5c2dbcb4ec325f57a760ae88caac") format("truetype"),
+		url("../../fonts/outlined/eos-icons-outlined.svg?6c9f5c2dbcb4ec325f57a760ae88caac#eos-icons-outlined") format("svg");
   font-weight: normal;
   font-style: normal;
 }

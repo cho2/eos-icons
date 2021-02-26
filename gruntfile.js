@@ -85,10 +85,7 @@ module.exports = function (grunt) {
             template: 'templates/css-template.css',
             iconsStyles: false
           },
-          stylesheets: ['less', 'scss', 'css'],
-          destHtml: 'dist/',
-          htmlDemoTemplate: 'templates/index-template-outlined.html',
-          htmlDemoFilename: 'index-outlined'
+          stylesheets: ['less', 'scss', 'css']
         }
       }
     },
