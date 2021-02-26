@@ -26,8 +26,8 @@
         })
 
         // Removes the preview wrap if no new icons are found
-        if (newIconsList.length === 0)
-          return document.querySelector('.latest').remove()
+        // if (newIconsList.length === 0)
+        //   return document.querySelector('.latest').remove()
 
         const target = document.querySelector('.latest-icons')
         // Appends each icon to the preview wrap

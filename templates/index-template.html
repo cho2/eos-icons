@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title><%= fontFamilyName %> demo page</title>
+  <title>
+    <%= fontFamilyName %> demo page
+  </title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
   <style>
     body {
@@ -152,8 +154,70 @@
     #icons-animated img {
       width: 48px;
     }
+
+    /* switch button css  */
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 24px;
+      margin: 0 10px 20px 0;
+    }
+
+    .switch input { 
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 3px;
+      bottom: 3px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    input:checked + .slider {
+      background-color: #2196F3;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 12px;
+    }
+
+    .slider.round:before {
+      border-radius: 50%;
+    }
   </style>
-  <link rel="stylesheet" type="text/css" href="css/eos-icons.css">
+  <link rel="stylesheet" type="text/css" href="css/eos-icons.css" id="css-link">
   <script src='js/eos-icons.js'></script>
   <script src='js/new-icons.js'></script>
 </head>
@@ -173,21 +237,27 @@
       </div>
     </div>
   </header>
-  <div id="eos-icons-preview" class='container icons-container'>
+  <div class='container icons-container'>
+    <label id='switch-outlined-icon' class='switch'>
+      <input type='checkbox' id='switch-checkbox'>
+      <span class='slider round'></span>
+    </label>
+    Outline version
     <div class='latest'>
-      <h3>New icons since last release:</h3>
+      <h3>New icons since last release: Test</h3>
       <div class='latest-icons'></div>
     </div>
 
     <div id="icons">
-      <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) {
-        var glyph = glyphs[glyphIdx] %>
-      <div class="icons__item" data-name="<%= glyph %>">
-        <i class="<%= baseClass %>"><%= glyph %></i>
-        <br>
-        <%= glyph %>
-      </div>
-      <% } %>
+      <% for (var glyphIdx=0; glyphIdx < glyphs.length; glyphIdx++) { var glyph=glyphs[glyphIdx] %>
+        <div class="icons__item" data-name="<%= glyph %>">
+          <i class="<%= baseClass %>">
+            <%= glyph %>
+          </i>
+          <br>
+          <%= glyph %>
+        </div>
+        <% } %>
     </div>
     <div id="icons-animated">
 
@@ -213,8 +283,8 @@
         <small id='close-code-snippet' class='pull-right'>X Close</small>
       </h2>
       <% if (addLigatures) { %>
-      <pre><code>&lt;i class=&quot;<%= baseClass %>&quot;&gt;<span id="name2">icon_name</span>&lt;/i&gt;</code></pre>
-      <% } %>
+        <pre><code>&lt;i class=&quot;<%= baseClass %>&quot;&gt;<span id="name2">icon_name</span>&lt;/i&gt;</code></pre>
+        <% } %>
     </div>
   </div>
 
@@ -298,6 +368,19 @@
         }
       }
 
+      //Switch normal and outline icons
+      document.getElementById('switch-outlined-icon').onclick = function (e) {
+        e.preventDefault()
+        var link = document.getElementById('css-link')
+        if (link.getAttribute('href') === 'css/eos-icons.css') { 
+          link.setAttribute('href', 'css/outlined/eos-icons-outlined.css')
+          document.getElementById("switch-checkbox").checked = true
+        } else {
+          link.setAttribute('href', 'css/eos-icons.css')
+          document.getElementById('switch-checkbox').checked = false
+        }
+      }
+      
     })();
   </script>
 </body>
