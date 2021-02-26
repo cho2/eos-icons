@@ -2,16 +2,9 @@
   "name": "blur_circular",
   "do": "",
   "dont": "",
-  "tags": [
-    "photography",
-    "bokeh",
-    "photo"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["photography", "bokeh", "photo"],
+  "category": ["image"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

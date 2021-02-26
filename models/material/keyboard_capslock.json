@@ -13,11 +13,8 @@
     "capital",
     "block"
   ],
-  "category": [
-    "hardware"
-  ],
+  "category": ["hardware"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

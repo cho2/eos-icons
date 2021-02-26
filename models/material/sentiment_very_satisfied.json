@@ -2,17 +2,9 @@
   "name": "sentiment_very_satisfied",
   "do": "",
   "dont": "",
-  "tags": [
-    "very happy",
-    "emoji",
-    "feedback",
-    "smiley"
-  ],
-  "category": [
-    "social"
-  ],
+  "tags": ["very happy", "emoji", "feedback", "smiley"],
+  "category": ["social"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

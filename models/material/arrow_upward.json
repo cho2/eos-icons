@@ -2,17 +2,9 @@
   "name": "arrow_upward",
   "do": "",
   "dont": "",
-  "tags": [
-    "direction",
-    "up",
-    "above",
-    "greater"
-  ],
-  "category": [
-    "navigation"
-  ],
+  "tags": ["direction", "up", "above", "greater"],
+  "category": ["navigation"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

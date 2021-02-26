@@ -2,19 +2,9 @@
   "name": "looks_5",
   "do": "",
   "dont": "",
-  "tags": [
-    "photography",
-    "photo",
-    "image",
-    "style",
-    "custom",
-    "glance"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["photography", "photo", "image", "style", "custom", "glance"],
+  "category": ["image"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

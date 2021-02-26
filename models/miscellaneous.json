@@ -3,6 +3,7 @@
   "do": "<ul><li>To indicate an additional set of features or actions that might not have been included in other sections.</li></ul>",
   "dont": "<ul><li>To indicate elements that are unrelated to the application.</li></ul>",
   "tags": [
+    "eos",
     "misc",
     "various",
     "varied",
@@ -13,6 +14,5 @@
   ],
   "category": "design",
   "type": "static",
-  "label": "EOS",
   "date": "30/11/2020"
 }

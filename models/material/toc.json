@@ -14,11 +14,8 @@
     "table",
     "order"
   ],
-  "category": [
-    "action"
-  ],
+  "category": ["action"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

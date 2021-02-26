@@ -2,17 +2,9 @@
   "name": "transform",
   "do": "",
   "dont": "",
-  "tags": [
-    "tool",
-    "design",
-    "scale",
-    "shape"
-  ],
-  "category": [
-    "image"
-  ],
+  "tags": ["tool", "design", "scale", "shape"],
+  "category": ["image"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

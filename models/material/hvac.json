@@ -2,18 +2,9 @@
   "name": "hvac",
   "do": "",
   "dont": "",
-  "tags": [
-    "Heating",
-    "Ventilation",
-    "Air Conditioning",
-    "fan",
-    "ac"
-  ],
-  "category": [
-    "maps"
-  ],
+  "tags": ["Heating", "Ventilation", "Air Conditioning", "fan", "ac"],
+  "category": ["maps"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

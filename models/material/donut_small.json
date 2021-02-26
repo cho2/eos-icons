@@ -2,17 +2,9 @@
   "name": "donut_small",
   "do": "",
   "dont": "",
-  "tags": [
-    "donut",
-    "inprogress",
-    "complete",
-    "graph"
-  ],
-  "category": [
-    "action"
-  ],
+  "tags": ["donut", "inprogress", "complete", "graph"],
+  "category": ["action"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

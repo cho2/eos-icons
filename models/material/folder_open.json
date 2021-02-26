@@ -2,16 +2,9 @@
   "name": "folder_open",
   "do": "",
   "dont": "",
-  "tags": [
-    "folder",
-    "file",
-    "open"
-  ],
-  "category": [
-    "file"
-  ],
+  "tags": ["folder", "file", "open"],
+  "category": ["file"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

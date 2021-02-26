@@ -15,11 +15,8 @@
     "couch",
     "room"
   ],
-  "category": [
-    "content"
-  ],
+  "category": ["content"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }

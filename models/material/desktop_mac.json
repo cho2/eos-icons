@@ -2,17 +2,9 @@
   "name": "desktop_mac",
   "do": "",
   "dont": "",
-  "tags": [
-    "apple",
-    "laptop",
-    "mac",
-    "macbook"
-  ],
-  "category": [
-    "hardware"
-  ],
+  "tags": ["apple", "laptop", "mac", "macbook"],
+  "category": ["hardware"],
   "type": "static",
   "hasOutlined": true,
-  "label": "None",
   "date": "30/11/2020"
 }
