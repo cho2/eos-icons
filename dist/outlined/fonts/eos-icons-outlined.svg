@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20201107 at Fri Feb 26 13:51:26 2021
+Created by FontForge 20201107 at Fri Feb 26 14:04:29 2021
  By Jesus Herman Marina
 </metadata>
 <defs>
@@ -27,8 +27,8 @@ d="M421 213q5 -10 5 -21v0q0 -11 -5 -21l-86 -149q-12 -22 -37 -22h-170q-25 0 -37 2
 t75 -30.5l7 1z" />
     <glyph glyph-name="abstract_instance" unicode="abstract_instance" horiz-adv-x="426" 
 d="M420 213q6 -10 6 -22q0 -11 -6 -20l-85 -150q-12 -21 -37 -21h-171q-24 0 -36 21l-85 150q-6 10 -6 21t6 21l85 150q12 21 36 21h171q24 0 36 -21zM212.5 149q17.5 0 30 12.5t12.5 30.5t-12.5 30.5t-30 12.5t-30 -12.5t-12.5 -30.5t12.5 -30.5t30 -12.5z" />
-    <glyph glyph-name="abstract" unicode="abstract" horiz-adv-x="426" 
-d="M421 213q5 -10 5 -21t-5 -21l-86 -150q-12 -21 -37 -21h-170q-25 0 -37 21l-85 150q-6 10 -6 21t6 21l85 150q12 21 37 21h170q25 0 37 -21zM298 43l86 149l-86 149h-170l-86 -149l86 -149h170z" />
+    <glyph glyph-name="abstract" unicode="abstract" horiz-adv-x="427" 
+d="M421 213q6 -10 6 -21t-6 -21l-85 -150q-13 -21 -37 -21h-171q-24 0 -37 21l-85 150q-6 10 -6 21t6 21l85 150q13 21 37 21h171q24 0 37 -21zM299 43l85 149l-85 149h-171l-85 -149l85 -149h171z" />
     <glyph glyph-name="action_chains" unicode="action_chains" horiz-adv-x="470" 
 d="M342 21.5q0 26.5 18.5 45t45 18.5t45.5 -18.5t19 -45t-19 -45.5t-45.5 -19t-45 19t-18.5 45.5zM363 384q44 0 75 -31.5t31 -75.5t-31 -75t-75 -31h-68q-7 -19 -23.5 -30.5t-36.5 -11.5t-36.5 11.5t-23.5 30.5h-68q-27 0 -45.5 -19t-18.5 -45.5t18.5 -45t45.5 -18.5h128
 v64l85 -86l-85 -85v64h-128q-44 0 -75.5 31.5t-31.5 75.5t31.5 75t75.5 31h68q7 19 23 31t36.5 12t37 -12t23.5 -31h68q26 0 45 19t19 45.5t-19 45t-45 18.5h-239q-6 -19 -22.5 -30.5t-37.5 -11.5q-26 0 -45 18.5t-19 45t19 45.5t45 19q21 0 37.5 -12t22.5 -31h239z" />
