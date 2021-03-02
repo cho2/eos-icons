@@ -1,16 +1,32 @@
 ;(function () {
-  // Fetchs the Gitlab API for the latest release tag
-  window
-    .fetch('https://gitlab.com/api/v4/projects/4600360/repository/tags')
-    .then((response) => response.json())
-    .then((tags) => {
+  latestIcon ("date")
+  //Switch normal and outline icons
+  document.getElementById('switch-outlined-icon').onclick = function (e) {
+    e.preventDefault()
+    var link = document.getElementById('css-link')
+
+    if (link.getAttribute('href') === 'css/eos-icons.css') { 
+      link.setAttribute('href', 'css/outlined/eos-icons-outlined.css')
+      document.getElementById("switch-checkbox").checked = true
+      latestIcon ("dateOutlined")
+    } else {
+      link.setAttribute('href', 'css/eos-icons.css')
+      document.getElementById('switch-checkbox').checked = false
+      latestIcon ("date")
+    }
+  }
+
+  function latestIcon (isOutlined) {
+    // Empty latest section
+    document.querySelectorAll('.latest-icons .icons__item').forEach(e => e.remove());
+  
+    window
+      .fetch('https://gitlab.com/api/v4/projects/4600360/repository/tags')
+      .then((response) => response.json())
+      .then((tags) => {
       try {
         const tagRelease = new Date(tags[0].commit.committed_date)
-        // Condition to check for date for both normal and outlined svgs
-        const isOutlined = document.getElementById('eos-icons-preview')
-          ? 'date'
-          : 'dateOutlined'
-
+        
         // Filter out the icons that are newer than the latest release tag.
         // eslint-disable-next-line no-undef
         const newIconsList = eosIcons.filter((ele) => {
@@ -26,8 +42,11 @@
         })
 
         // Removes the preview wrap if no new icons are found
-        // if (newIconsList.length === 0)
-        //   return document.querySelector('.latest').remove()
+        if (newIconsList.length === 0) {
+          document.querySelector('.latest').style.display = 'none'
+        } else {
+          document.querySelector('.latest').style.display = 'block'
+        }
 
         const target = document.querySelector('.latest-icons')
         // Appends each icon to the preview wrap
@@ -49,4 +68,5 @@
         console.log(error)
       }
     })
+  }
 })()
