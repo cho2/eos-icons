@@ -27,6 +27,7 @@
       position: fixed;
       top: 0px;
       width: 100%;
+      z-index: 1;
     }
 
     .icons-container {
@@ -219,7 +220,7 @@
   </style>
   <link rel="stylesheet" type="text/css" href="css/eos-icons.css" id="css-link">
   <script src='js/eos-icons.js'></script>
-  <script src='js/new-icons.js'></script>
+  
 </head>
 
 <body>
@@ -237,14 +238,14 @@
       </div>
     </div>
   </header>
-  <div class='container icons-container'>
+  <div id="eos-icons-preview" class='container icons-container'>
     <label id='switch-outlined-icon' class='switch'>
       <input type='checkbox' id='switch-checkbox'>
       <span class='slider round'></span>
     </label>
     Outline version
     <div class='latest'>
-      <h3>New icons since last release: Test</h3>
+      <h3>New icons since last release:</h3>
       <div class='latest-icons'></div>
     </div>
 
@@ -11767,22 +11768,9 @@
           }
         }
       }
-
-      //Switch normal and outline icons
-      document.getElementById('switch-outlined-icon').onclick = function (e) {
-        e.preventDefault()
-        var link = document.getElementById('css-link')
-        if (link.getAttribute('href') === 'css/eos-icons.css') { 
-          link.setAttribute('href', 'css/outlined/eos-icons-outlined.css')
-          document.getElementById("switch-checkbox").checked = true
-        } else {
-          link.setAttribute('href', 'css/eos-icons.css')
-          document.getElementById('switch-checkbox').checked = false
-        }
-      }
-      
     })();
   </script>
+  <script src='js/new-icons.js'></script>
 </body>
 
 </html>
