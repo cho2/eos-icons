@@ -687,24 +687,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "diff_deleted",
-    "do": "<ul><li>Use it to display when a diff has been deleted.</li></ul>",
-    "dont": "<ul><li>Don't use it to display an operation.</li></ul>",
-    "tags": [
-      "eos",
-      "change",
-      "divergence",
-      "removed",
-      "old",
-      "cleared"
-    ],
-    "category": "editor",
-    "type": "static",
-    "date": "30/11/2020",
-    "hasOutlined": true,
-    "dateOutlined": "02/03/2021"
-  },
-  {
     "name": "diff_modified",
     "do": "<ul><li>Use it to display when a diff has been modified.</li></ul>",
     "dont": "<ul><li>Don't use it to represent a circle.</li></ul>",
@@ -713,24 +695,6 @@ const eosIcons = [
       "change",
       "divergence",
       "altered"
-    ],
-    "category": "editor",
-    "type": "static",
-    "date": "30/11/2020",
-    "hasOutlined": true,
-    "dateOutlined": "02/03/2021"
-  },
-  {
-    "name": "diff_new",
-    "do": "<ul><li>Use it to display when a diff has been created.</li></ul>",
-    "dont": "<ul><li>Don't use it to display an operation.</li></ul>",
-    "tags": [
-      "eos",
-      "change",
-      "divergence",
-      "added",
-      "fresh",
-      "more"
     ],
     "category": "editor",
     "type": "static",
