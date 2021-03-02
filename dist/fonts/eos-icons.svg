@@ -15,7 +15,7 @@
     bbox="-0.595506 -64 512 448.379"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F695"
+    unicode-range="U+0030-F694"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -152,13 +152,11 @@ q0 20 -13 19q-13 0 -13 -19z" />
 d="M512 21v-43h-512v43h85v21q-17 0 -29.5 12.5t-12.5 30.5v213q0 12 5.5 21.5t15.5 15.5t21 6h43v-43h-43v-213h342v213h-43v43h43q17 0 29.5 -12.5t12.5 -30.5v-213q0 -18 -12.5 -30.5t-29.5 -12.5v-21h85zM320 149h-43v-43h-42v43h-43l64 64zM341 319.5
 q0 -35.5 -25 -60.5t-60 -25t-60 25t-25 60.5t25 60.5t60 25t60 -25t25 -60.5zM247 256v12q-7 0 -12 5t-5 12v9l-37 37q-1 -6 -1 -12q0 -23 16 -41.5t39 -21.5zM304 278q16 18 16 42q0 17 -11.5 34t-27.5 24q0 -4 -2.5 -7.5t-6 -6t-8.5 -2.5h-17v-17q0 -8 -8 -8h-17v-18h51
 q8 0 8 -8v-26h9q9 0 14 -7z" />
-    <glyph glyph-name="diff_deleted_outlined" unicode="diff_deleted_outlined" horiz-adv-x="384" 
+    <glyph glyph-name="diff_deleted" unicode="diff_deleted" horiz-adv-x="384" 
 d="M346 384q15 0 26.5 -11.5t11.5 -26.5v-308q0 -15 -11.5 -26.5t-26.5 -11.5h-308q-15 0 -26.5 11.5t-11.5 26.5v308q0 15 11.5 26.5t26.5 11.5h308zM341 43v298h-298v-298h298zM85 171v42h214v-42h-214z" />
-    <glyph glyph-name="diff_modified_outlined" unicode="diff_modified_outlined" horiz-adv-x="384" 
-d="M346 384q15 0 26.5 -11.5t11.5 -26.5v-308q0 -15 -11.5 -26.5t-26.5 -11.5h-308q-15 0 -26.5 11.5t-11.5 26.5v308q0 15 11.5 26.5t26.5 11.5h308zM341 43v298h-298v-298h298zM107 192q0 35 25 60t60 25t60 -25t25 -60t-25 -60t-60 -25t-60 25t-25 60z" />
     <glyph glyph-name="diff_modified" unicode="diff_modified" horiz-adv-x="384" 
 d="M346 384q15 0 26.5 -11.5t11.5 -26.5v-308q0 -15 -11.5 -26.5t-26.5 -11.5h-308q-15 0 -26.5 11.5t-11.5 26.5v308q0 15 11.5 26.5t26.5 11.5h308zM192 107q35 0 60 25t25 60t-25 60t-60 25t-60 -25t-25 -60t25 -60t60 -25z" />
-    <glyph glyph-name="diff_new_outlined" unicode="diff_new_outlined" horiz-adv-x="384" 
+    <glyph glyph-name="diff_new" unicode="diff_new" horiz-adv-x="384" 
 d="M346 384q15 0 26.5 -11.5t11.5 -26.5v-308q0 -15 -11.5 -26.5t-26.5 -11.5h-308q-15 0 -26.5 11.5t-11.5 26.5v308q0 15 11.5 26.5t26.5 11.5h308zM341 43v298h-298v-298h298zM85 171v42h214v-42h-214zM171 299h42v-214h-42v214z" />
     <glyph glyph-name="dns" unicode="dns" horiz-adv-x="469" 
 d="M75 11v64h42v-64h-42zM427 149q17 0 29.5 -12.5t12.5 -29.5v-128q0 -18 -12.5 -30.5t-29.5 -12.5h-384q-18 0 -30.5 12.5t-12.5 30.5v128q0 17 12.5 29.5t30.5 12.5h384zM149 11v64q0 13 -9 22.5t-22 9.5h-1h-74v-128h74h1q13 0 22 9t9 22v1zM288 -21v128h-27v-75l-53 75
