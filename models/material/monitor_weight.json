@@ -1,0 +1,20 @@
+{
+  "name": "monitor_weight",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "body",
+    "device",
+    "diet",
+    "health",
+    "monitor",
+    "scale",
+    "smart",
+    "weight"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

@@ -1,0 +1,20 @@
+{
+  "name": "person_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "user",
+    "avatar",
+    "person",
+    "profile",
+    "ban",
+    "unavailable",
+    "away",
+    "inaccessible"
+  ],
+  "category": ["social"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

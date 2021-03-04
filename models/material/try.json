@@ -1,0 +1,11 @@
+{
+  "name": "try",
+  "do": "",
+  "dont": "",
+  "tags": ["bubble", "comment", "doc", "document", "note", "star", "try"],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

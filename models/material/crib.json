@@ -1,0 +1,23 @@
+{
+  "name": "crib",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "baby",
+    "cot",
+    "crib",
+    "toddler",
+    "bed",
+    "newborn",
+    "furniture",
+    "child",
+    "cradle",
+    "sleep",
+    "room"
+  ],
+  "category": ["places"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

@@ -1,0 +1,20 @@
+{
+  "name": "bloodtype",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Blood",
+    "donate",
+    "emergency",
+    "hospital",
+    "medicine",
+    "negative",
+    "positive",
+    "type"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

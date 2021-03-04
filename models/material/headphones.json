@@ -1,0 +1,22 @@
+{
+  "name": "headphones",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "accessory",
+    "audio",
+    "device",
+    "ear",
+    "earphone",
+    "headphones",
+    "headset",
+    "listen",
+    "music",
+    "sound"
+  ],
+  "category": ["hardware"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

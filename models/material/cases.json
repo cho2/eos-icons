@@ -1,0 +1,20 @@
+{
+  "name": "cases",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bag",
+    "baggage",
+    "briefcase",
+    "business",
+    "case",
+    "cases",
+    "purse",
+    "suitcase"
+  ],
+  "category": ["image"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

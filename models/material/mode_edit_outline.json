@@ -1,0 +1,11 @@
+{
+  "name": "mode_edit_outline",
+  "do": "",
+  "dont": "",
+  "tags": ["bubble", "speech", "chat", "comment", "pen", "writing", "content"],
+  "category": ["editor"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

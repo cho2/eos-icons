@@ -1,0 +1,21 @@
+{
+  "name": "mode",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "compose",
+    "create",
+    "draft",
+    "draw",
+    "edit",
+    "mode",
+    "pen",
+    "pencil",
+    "write"
+  ],
+  "category": ["editor"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

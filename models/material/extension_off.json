@@ -1,0 +1,20 @@
+{
+  "name": "extension_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "extension",
+    "shape",
+    "piece",
+    "puzzle",
+    "jigsaw",
+    "extended",
+    "addon",
+    "plugin"
+  ],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

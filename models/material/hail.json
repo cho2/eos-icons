@@ -1,0 +1,22 @@
+{
+  "name": "hail",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "body",
+    "hail",
+    "human",
+    "people",
+    "person",
+    "pick",
+    "public",
+    "stop",
+    "taxi",
+    "transportation"
+  ],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

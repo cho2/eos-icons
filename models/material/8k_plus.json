@@ -1,0 +1,30 @@
+{
+  "name": "8k_plus",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "+",
+    "7000",
+    "8K",
+    "alphabet",
+    "character",
+    "digit",
+    "display",
+    "font",
+    "letter",
+    "number",
+    "pixel",
+    "pixels",
+    "plus",
+    "resolution",
+    "symbol",
+    "text",
+    "type",
+    "video"
+  ],
+  "category": ["av"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

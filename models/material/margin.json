@@ -1,0 +1,11 @@
+{
+  "name": "margin",
+  "do": "",
+  "dont": "",
+  "tags": ["layout", "margin", "padding", "size", "square"],
+  "category": ["editor"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

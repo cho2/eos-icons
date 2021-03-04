@@ -1,0 +1,27 @@
+{
+  "name": "bedroom_baby",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "babies",
+    "baby",
+    "bedroom",
+    "child",
+    "children",
+    "home",
+    "horse",
+    "house",
+    "infant",
+    "kid",
+    "newborn",
+    "rocking",
+    "room",
+    "toddler",
+    "young"
+  ],
+  "category": ["search"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

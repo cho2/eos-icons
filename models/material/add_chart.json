@@ -1,0 +1,25 @@
+{
+  "name": "add_chart",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "add",
+    "analytics",
+    "bar",
+    "bars",
+    "chart",
+    "data",
+    "diagram",
+    "graph",
+    "infographic",
+    "measure",
+    "metrics",
+    "statistics",
+    "tracking"
+  ],
+  "category": ["editor"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

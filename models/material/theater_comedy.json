@@ -1,0 +1,22 @@
+{
+  "name": "theater_comedy",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "broadway",
+    "comedy",
+    "event",
+    "movie",
+    "musical",
+    "show",
+    "standup",
+    "theater",
+    "tour",
+    "watch"
+  ],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

@@ -1,0 +1,28 @@
+{
+  "name": "precision_manufacturing",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arm",
+    "automatic",
+    "chain",
+    "conveyor",
+    "crane",
+    "factory",
+    "industry",
+    "machinery",
+    "manufacturing",
+    "mechanical",
+    "precision",
+    "production",
+    "repairing",
+    "robot",
+    "supply",
+    "warehouse"
+  ],
+  "category": ["social"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

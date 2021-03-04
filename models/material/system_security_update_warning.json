@@ -1,0 +1,26 @@
+{
+  "name": "system_security_update_warning",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "operating",
+    "pc",
+    "computer",
+    "data",
+    "mobile",
+    "renew",
+    "arrow",
+    "download",
+    "phone",
+    "software",
+    "error",
+    "alert",
+    "!",
+    "decline"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

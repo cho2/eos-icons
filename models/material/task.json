@@ -1,0 +1,21 @@
+{
+  "name": "task",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "check",
+    "checklist",
+    "job",
+    "list",
+    "note",
+    "ok",
+    "task",
+    "tick",
+    "work"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

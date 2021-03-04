@@ -1,0 +1,11 @@
+{
+  "name": "celebration",
+  "do": "",
+  "dont": "",
+  "tags": ["activity", "birthday", "event", "fun", "party"],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}
