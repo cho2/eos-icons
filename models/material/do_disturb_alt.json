@@ -1,0 +1,21 @@
+{
+  "name": "do_disturb_alt",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "cancel",
+    "close",
+    "denied",
+    "deny",
+    "disturb",
+    "do",
+    "remove",
+    "silence",
+    "stop"
+  ],
+  "category": ["notification"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

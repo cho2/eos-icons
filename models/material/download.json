@@ -1,0 +1,20 @@
+{
+  "name": "download",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrow",
+    "arrows",
+    "down",
+    "download",
+    "downloads",
+    "drive",
+    "install",
+    "upload"
+  ],
+  "category": ["file"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

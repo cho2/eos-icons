@@ -1,0 +1,19 @@
+{
+  "name": "usb_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "wire",
+    "usb",
+    "connection",
+    "cable",
+    "device",
+    "mode",
+    "inaccessible"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

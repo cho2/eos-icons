@@ -1,0 +1,26 @@
+{
+  "name": "report_gmailerrorred",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "!",
+    "alert",
+    "attention",
+    "caution",
+    "danger",
+    "error",
+    "exclamation",
+    "gmail",
+    "important",
+    "mark",
+    "notification",
+    "octagon",
+    "symbol",
+    "warning"
+  ],
+  "category": ["content"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

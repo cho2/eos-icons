@@ -1,0 +1,19 @@
+{
+  "name": "gite",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "accommodation",
+    "hostel",
+    "holiday",
+    "home",
+    "cottages",
+    "farmhouse",
+    "lodge"
+  ],
+  "category": ["places"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "copy_all",
+  "do": "",
+  "dont": "",
+  "tags": ["copy", "documents", "files", "content"],
+  "category": ["content"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

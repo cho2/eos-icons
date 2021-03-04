@@ -1,0 +1,11 @@
+{
+  "name": "add_link",
+  "do": "",
+  "dont": "",
+  "tags": ["+", "add", "attach", "clip", "link", "plus"],
+  "category": ["content"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

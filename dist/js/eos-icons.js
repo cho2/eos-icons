@@ -2270,6 +2270,718 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "10k",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "10000",
+      "10K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "10mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "10",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "11mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "11",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "12mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "12",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "13mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "13",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "14mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "14",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "15mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "15",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "16mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "16",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "17mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "17",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "18mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "18",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "19mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "19",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "1k",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "1000",
+      "1K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "1k_plus",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "1000",
+      "1K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "plus",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "1x_mobiledata",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "1x",
+      "alphabet",
+      "cellular",
+      "character",
+      "digit",
+      "font",
+      "letter",
+      "mobile",
+      "mobiledata",
+      "network",
+      "number",
+      "phone",
+      "signal",
+      "speed",
+      "symbol",
+      "text",
+      "type",
+      "wifi"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "20mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "20",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "21mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "21",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "22mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "22",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "23mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "23",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "24mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "24",
+      "camera",
+      "digits",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "numbers",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "2k",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "2000",
+      "2K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "2k_plus",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "character",
+      "digit",
+      "font",
+      "letter",
+      "number",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "2mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "2",
+      "camera",
+      "digit",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "number",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "30fps",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "30fps",
+      "alphabet",
+      "camera",
+      "character",
+      "digit",
+      "font",
+      "fps",
+      "frames",
+      "letter",
+      "number",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "30fps_select",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "30",
+      "camera",
+      "digits",
+      "fps",
+      "frame",
+      "frequency",
+      "numbers",
+      "per",
+      "rate",
+      "second",
+      "seconds",
+      "select",
+      "video"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "360",
     "do": "",
     "dont": "",
@@ -2319,6 +3031,218 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "3g_mobiledata",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "3g",
+      "alphabet",
+      "cellular",
+      "character",
+      "digit",
+      "font",
+      "letter",
+      "mobile",
+      "mobiledata",
+      "network",
+      "number",
+      "phone",
+      "signal",
+      "speed",
+      "symbol",
+      "text",
+      "type",
+      "wifi"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "3k",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "3000",
+      "3K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "3k_plus",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "3000",
+      "3K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "plus",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "3mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "3",
+      "camera",
+      "digit",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "number",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "3p",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "3",
+      "account",
+      "face",
+      "human",
+      "party",
+      "people",
+      "person",
+      "profile",
+      "user"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "4g_mobiledata",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "4g",
+      "alphabet",
+      "cellular",
+      "character",
+      "digit",
+      "font",
+      "letter",
+      "mobile",
+      "mobiledata",
+      "network",
+      "number",
+      "phone",
+      "signal",
+      "speed",
+      "symbol",
+      "text",
+      "type",
+      "wifi"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "4g_plus_mobiledata",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "4g",
+      "alphabet",
+      "cellular",
+      "character",
+      "digit",
+      "font",
+      "letter",
+      "mobile",
+      "mobiledata",
+      "network",
+      "number",
+      "phone",
+      "plus",
+      "signal",
+      "speed",
+      "symbol",
+      "text",
+      "type",
+      "wifi"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "4k",
     "do": "",
     "dont": "",
@@ -2348,6 +3272,68 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "4k_plus",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "4000",
+      "4K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "plus",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "4mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "4",
+      "camera",
+      "digit",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "number",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "5g",
     "do": "",
     "dont": "",
@@ -2365,6 +3351,147 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "5k",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "5000",
+      "5K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "5k_plus",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "5000",
+      "5K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "plus",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "5mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "5",
+      "camera",
+      "digit",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "number",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "60fps",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "60fps",
+      "camera",
+      "digit",
+      "fps",
+      "frames",
+      "number",
+      "symbol",
+      "video"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "60fps_select",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "60",
+      "camera",
+      "digits",
+      "fps",
+      "frame",
+      "frequency",
+      "numbers",
+      "per",
+      "rate",
+      "second",
+      "seconds",
+      "select",
+      "video"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "6_ft_apart",
     "do": "",
     "dont": "",
@@ -2378,6 +3505,374 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "6k",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "6000",
+      "6K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "6k_plus",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "6000",
+      "6K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "plus",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "6mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "6",
+      "camera",
+      "digit",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "number",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "7k",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "7000",
+      "7K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "7k_plus",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "7000",
+      "7K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "plus",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "7mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "7",
+      "camera",
+      "digit",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "number",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "8k",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "8000",
+      "8K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "8k_plus",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "7000",
+      "8K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "plus",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "8mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "8",
+      "camera",
+      "digit",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "number",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "9k",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "9000",
+      "9K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "9k_plus",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "9000",
+      "9K",
+      "alphabet",
+      "character",
+      "digit",
+      "display",
+      "font",
+      "letter",
+      "number",
+      "pixel",
+      "pixels",
+      "plus",
+      "resolution",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "9mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "9",
+      "camera",
+      "digit",
+      "font",
+      "letters",
+      "megapixel",
+      "megapixels",
+      "mp",
+      "number",
+      "pixel",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "ac_unit",
@@ -2437,6 +3932,28 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "access_time_filled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "access",
+      "notification",
+      "alert",
+      "alarm",
+      "countdown",
+      "clock",
+      "time",
+      "bell"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "accessibility",
@@ -2799,6 +4316,33 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "add_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "statistics",
+      "tracking"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "add_circle",
     "do": "",
     "dont": "",
@@ -2879,6 +4423,26 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "add_link",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "add",
+      "attach",
+      "clip",
+      "link",
+      "plus"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "add_location",
     "do": "",
     "dont": "",
@@ -2923,6 +4487,29 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "add_moderator",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "add",
+      "certified",
+      "guard",
+      "moderator",
+      "plus",
+      "protect",
+      "security",
+      "shield"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "add_photo_alternate",
     "do": "",
     "dont": "",
@@ -2943,6 +4530,28 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "add_reaction",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "new",
+      "up",
+      "like",
+      "support",
+      "happy",
+      "expression",
+      "plus"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "add_road",
@@ -3010,6 +4619,33 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "add_to_drive",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "add",
+      "app",
+      "backup",
+      "cloud",
+      "drive",
+      "files",
+      "folders",
+      "gdrive",
+      "google",
+      "plus",
+      "storage",
+      "to"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "add_to_home_screen",
@@ -3175,6 +4811,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "air",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "air",
+      "blowing",
+      "breeze",
+      "flow",
+      "wave",
+      "weather",
+      "wind"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "airline_seat_flat",
     "do": "",
     "dont": "",
@@ -3312,6 +4969,25 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "airplane_ticket",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "airplane",
+      "boarding",
+      "flight",
+      "pass",
+      "ticket"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "airplanemode_active",
@@ -3746,6 +5422,26 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "animation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "animation",
+      "circles",
+      "motion",
+      "movie",
+      "moving",
+      "video"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "announcement",
     "do": "",
     "dont": "",
@@ -3770,6 +5466,33 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "aod",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "always",
+      "aod",
+      "device",
+      "display",
+      "hardware",
+      "homescreen",
+      "iOS",
+      "mobile",
+      "on",
+      "phone",
+      "tablet"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "apartment",
@@ -3846,6 +5569,25 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "app_registration",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "app",
+      "apps",
+      "pencil",
+      "register",
+      "registration"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "app_settings_alt",
     "do": "",
     "dont": "",
@@ -3871,6 +5613,32 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "approval",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "approvals",
+      "approve",
+      "certificate",
+      "certification",
+      "disapproval",
+      "drive",
+      "file",
+      "impression",
+      "ink",
+      "mark",
+      "postage",
+      "stamp"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "apps",
@@ -3964,6 +5732,28 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "arrow_back_ios_new",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "back",
+      "chevron",
+      "direction",
+      "ios",
+      "left",
+      "previous"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "arrow_circle_down",
@@ -4391,6 +6181,31 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "assistant_direction",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "assistant",
+      "destination",
+      "direction",
+      "location",
+      "maps",
+      "navigate",
+      "navigation",
+      "pin",
+      "place",
+      "right",
+      "stop"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "assistant_photo",
     "do": "",
     "dont": "",
@@ -4537,6 +6352,48 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "attractions",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Ferris",
+      "amusement. park",
+      "attraction",
+      "entertainment",
+      "fun",
+      "wheel"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "attribution",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "attribute",
+      "attribution",
+      "body",
+      "copyright",
+      "copywriter",
+      "human",
+      "people",
+      "person"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "audiotrack",
     "do": "",
     "dont": "",
@@ -4551,6 +6408,87 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "auto_awesome",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "auto",
+      "awesome",
+      "edit",
+      "editing",
+      "enhance. photos",
+      "filter",
+      "image",
+      "photography",
+      "setting",
+      "stars"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "auto_awesome_mosaic",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "auto",
+      "awesome",
+      "edit",
+      "editing",
+      "filter",
+      "grid",
+      "image",
+      "layout",
+      "mosaic",
+      "photographs",
+      "photography",
+      "photos",
+      "pictures",
+      "setting"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "auto_awesome_motion",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "animation",
+      "auto",
+      "awesome",
+      "edit",
+      "editing",
+      "filter",
+      "image",
+      "live",
+      "motion",
+      "photographs",
+      "photography",
+      "photos",
+      "pictures",
+      "setting",
+      "video"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "auto_delete",
@@ -4572,6 +6510,153 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "auto_fix_high",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "auto",
+      "edit",
+      "erase",
+      "fix",
+      "high",
+      "magic",
+      "modify",
+      "star",
+      "stars",
+      "wand"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "auto_fix_normal",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "auto",
+      "edit",
+      "erase",
+      "fix",
+      "magic",
+      "modify",
+      "normal",
+      "star",
+      "stars",
+      "wand"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "auto_fix_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "auto",
+      "disabled",
+      "edit",
+      "enabled",
+      "erase",
+      "fix",
+      "magic",
+      "modify",
+      "off",
+      "on",
+      "slash",
+      "star",
+      "stars",
+      "wand"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "auto_graph",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Chart",
+      "computer",
+      "diagnostics",
+      "diagram",
+      "graph"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "auto_stories",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "audiobook",
+      "auto",
+      "book",
+      "page",
+      "reading",
+      "stories",
+      "story"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "autofps_select",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "auto",
+      "character",
+      "font",
+      "fps",
+      "frame",
+      "frequency",
+      "letter",
+      "per",
+      "rate",
+      "second",
+      "seconds",
+      "select",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "autorenew",
@@ -4706,6 +6791,76 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "badge",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "avatar",
+      "badge",
+      "card",
+      "certified",
+      "employee",
+      "face",
+      "human",
+      "identification",
+      "name",
+      "people",
+      "person",
+      "profile",
+      "security",
+      "user",
+      "work"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "bakery_dining",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bakery",
+      "bread",
+      "breakfast",
+      "croissant",
+      "food"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "balcony",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "hotel",
+      "house",
+      "balcony",
+      "balcony view",
+      "window",
+      "outside",
+      "room"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "ballot",
     "do": "",
     "dont": "",
@@ -4763,6 +6918,33 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "bathroom",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bath",
+      "bathroom",
+      "closet",
+      "home",
+      "house",
+      "place",
+      "plumbing",
+      "room",
+      "shower",
+      "sprinkler",
+      "wash",
+      "water",
+      "wc"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "bathtub",
@@ -4840,6 +7022,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "battery_saver",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Battery",
+      "cell",
+      "charge",
+      "mobile",
+      "plus",
+      "power",
+      "saver"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "battery_unknown",
     "do": "",
     "dont": "",
@@ -4875,6 +7078,127 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "bed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bed",
+      "bedroom",
+      "double",
+      "full",
+      "furniture",
+      "home",
+      "hotel",
+      "house",
+      "king",
+      "night",
+      "pillows",
+      "queen",
+      "rest",
+      "room",
+      "size",
+      "sleep"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "bedroom_baby",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "babies",
+      "baby",
+      "bedroom",
+      "child",
+      "children",
+      "home",
+      "horse",
+      "house",
+      "infant",
+      "kid",
+      "newborn",
+      "rocking",
+      "room",
+      "toddler",
+      "young"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "bedroom_child",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bed",
+      "bedroom",
+      "child",
+      "children",
+      "furniture",
+      "home",
+      "hotel",
+      "house",
+      "kid",
+      "night",
+      "pillows",
+      "rest",
+      "room",
+      "size",
+      "sleep",
+      "twin",
+      "young"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "bedroom_parent",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bed",
+      "bedroom",
+      "double",
+      "full",
+      "furniture",
+      "home",
+      "hotel",
+      "house",
+      "king",
+      "night",
+      "parent",
+      "pillows",
+      "queen",
+      "rest",
+      "room",
+      "sizem master",
+      "sleep"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "bedtime",
@@ -4974,6 +7298,28 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "blender",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "appliance",
+      "blender",
+      "cooking",
+      "electric",
+      "juicer",
+      "kitchen",
+      "machine",
+      "vitamix"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "block",
     "do": "",
     "dont": "",
@@ -4991,6 +7337,28 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "bloodtype",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Blood",
+      "donate",
+      "emergency",
+      "hospital",
+      "medicine",
+      "negative",
+      "positive",
+      "type"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "bluetooth",
@@ -5050,6 +7418,32 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "bluetooth_drive",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "bluetooth",
+      "car",
+      "cars",
+      "connection",
+      "device",
+      "direction",
+      "maps",
+      "paring",
+      "symbol",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "bluetooth_searching",
@@ -5136,6 +7530,29 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "bolt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bolt",
+      "electronic",
+      "energy",
+      "flash",
+      "light",
+      "lightenling",
+      "power",
+      "shocking",
+      "thunder"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "book",
     "do": "",
     "dont": "",
@@ -5187,6 +7604,46 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "bookmark_add",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bookmarks",
+      "remember",
+      "bookmark",
+      "new",
+      "save"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "bookmark_added",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bookmarks",
+      "remember",
+      "bookmark",
+      "done",
+      "check",
+      "favorites",
+      "saved"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "bookmark_border",
     "do": "",
     "dont": "",
@@ -5203,6 +7660,25 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "bookmark_remove",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bookmarks",
+      "delete",
+      "cancel",
+      "bookmark",
+      "minus"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "bookmarks",
@@ -5534,6 +8010,26 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "breakfast_dining",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Bakery",
+      "bread",
+      "breakfast",
+      "butter",
+      "croissant",
+      "food"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "brightness_1",
     "do": "",
     "dont": "",
@@ -5728,6 +8224,26 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "brunch_dining",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "breakfast",
+      "champaign",
+      "dinner",
+      "drink. meal",
+      "food",
+      "lunch"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "brush",
     "do": "",
     "dont": "",
@@ -5821,6 +8337,29 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "bungalow",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accommodation",
+      "house",
+      "villa",
+      "place",
+      "farmhouse",
+      "lodge",
+      "home",
+      "building",
+      "vacation"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "burst_mode",
     "do": "",
     "dont": "",
@@ -5834,6 +8373,39 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "bus_alert",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "alert",
+      "attention",
+      "automobile",
+      "bus",
+      "car",
+      "cars",
+      "caution",
+      "danger",
+      "error",
+      "exclamation",
+      "important",
+      "maps",
+      "mark",
+      "notification",
+      "symbol",
+      "transportation",
+      "vehicle",
+      "warning"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "business",
@@ -5869,6 +8441,54 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "cabin",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cottage",
+      "house",
+      "winter",
+      "place",
+      "farmhouse",
+      "lodge",
+      "building",
+      "vacation",
+      "forest",
+      "camp",
+      "hut",
+      "nature",
+      "accommodation"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "cable",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cable",
+      "connect",
+      "connection",
+      "device",
+      "electronics",
+      "usb",
+      "wire"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "cached",
@@ -5972,6 +8592,54 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "calendar_view_month",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "date",
+      "day",
+      "event",
+      "month",
+      "remember",
+      "reminder",
+      "schedule",
+      "today",
+      "week"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "calendar_view_week",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "date",
+      "day",
+      "event",
+      "month",
+      "remember",
+      "reminder",
+      "schedule",
+      "today",
+      "week"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "call",
@@ -6222,6 +8890,76 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "camera_indoor",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "architecture",
+      "building",
+      "camera",
+      "estate",
+      "film",
+      "filming",
+      "home",
+      "house",
+      "image",
+      "indoor",
+      "inside",
+      "motion",
+      "nest",
+      "picture",
+      "place",
+      "real",
+      "residence",
+      "residential",
+      "shelter",
+      "video",
+      "videography"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "camera_outdoor",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "architecture",
+      "building",
+      "camera",
+      "estate",
+      "film",
+      "filming",
+      "home",
+      "house",
+      "image",
+      "motion",
+      "nest",
+      "outdoor",
+      "outside",
+      "picture",
+      "place",
+      "real",
+      "residence",
+      "residential",
+      "shelter",
+      "video",
+      "videography"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "camera_rear",
     "do": "",
     "dont": "",
@@ -6260,6 +8998,27 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "cameraswitch",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "camera",
+      "flip",
+      "rotate",
+      "swap",
+      "switch",
+      "view"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "campaign",
@@ -6336,6 +9095,51 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "car_rental",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "car",
+      "cars",
+      "key",
+      "maps",
+      "pickup",
+      "rental",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "car_repair",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "car",
+      "cars",
+      "maps",
+      "pickup",
+      "repair",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "card_giftcard",
@@ -6448,6 +9252,28 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "cases",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bag",
+      "baggage",
+      "briefcase",
+      "business",
+      "case",
+      "cases",
+      "purse",
+      "suitcase"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "casino",
     "do": "",
     "dont": "",
@@ -6540,6 +9366,26 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "catching_pokemon",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cartoon",
+      "character",
+      "harmoine",
+      "game",
+      "play",
+      "go"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "category",
     "do": "",
     "dont": "",
@@ -6559,6 +9405,46 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "celebration",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "birthday",
+      "event",
+      "fun",
+      "party"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "cell_wifi",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Wifi",
+      "cell",
+      "device",
+      "internet",
+      "network",
+      "phone",
+      "service"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "center_focus_strong",
@@ -6599,6 +9485,99 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "chair",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chair",
+      "comfort",
+      "couch",
+      "decoration",
+      "furniture",
+      "home",
+      "house",
+      "living",
+      "lounging",
+      "loveseat",
+      "room",
+      "seat",
+      "seating",
+      "sofa"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "chair_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cahir",
+      "furniture",
+      "home",
+      "house",
+      "kitchen",
+      "lounging",
+      "seating",
+      "table"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "chalet",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "house",
+      "hut",
+      "resort",
+      "summer",
+      "cabin",
+      "holiday",
+      "building",
+      "wood",
+      "shack",
+      "camp",
+      "accommodation"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "change_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "refresh",
+      "reload",
+      "new",
+      "arrows"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "change_history",
@@ -6854,6 +9833,48 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "circle",
+      "full",
+      "geometry",
+      "moon"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "circle_notifications",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alarm",
+      "alert",
+      "bell",
+      "chime",
+      "circle",
+      "notifications",
+      "notify",
+      "reminder",
+      "ringing",
+      "sound"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "class",
     "do": "",
     "dont": "",
@@ -6995,6 +10016,37 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "closed_caption_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Closed",
+      "accessible",
+      "alphabet",
+      "caption",
+      "cc",
+      "character",
+      "decoder",
+      "disabled",
+      "font",
+      "language",
+      "letter",
+      "off",
+      "subtitle",
+      "subtitles",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "cloud",
@@ -7159,6 +10211,73 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "code_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "css",
+      "code",
+      "developer",
+      "html",
+      "develop",
+      "engineering",
+      "engineer",
+      "platform",
+      "brackets"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "coffee",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "beverage",
+      "coffee",
+      "cup",
+      "drink",
+      "mug",
+      "plate",
+      "set",
+      "tea"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "coffee_maker",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "appliances",
+      "beverage",
+      "coffee",
+      "cup",
+      "drink",
+      "machine",
+      "maker",
+      "mug"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "collections",
@@ -7363,6 +10482,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "compress",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "compress",
+      "facing",
+      "pointing",
+      "push",
+      "together"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "computer",
     "do": "",
     "dont": "",
@@ -7410,6 +10550,40 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "connected_tv",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "airplay",
+      "cast",
+      "chrome",
+      "connect",
+      "connected",
+      "desktop",
+      "device",
+      "hardware",
+      "iOS",
+      "mac",
+      "monitor",
+      "screencast",
+      "stream",
+      "television",
+      "tv",
+      "web",
+      "window",
+      "wireless"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "construction",
@@ -7619,6 +10793,25 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "content_paste_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "text",
+      "edit",
+      "editor",
+      "writing",
+      "clipboard"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "control_camera",
     "do": "",
     "dont": "",
@@ -7681,6 +10874,24 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "copy_all",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "copy",
+      "documents",
+      "files",
+      "content"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "copyright",
     "do": "",
     "dont": "",
@@ -7733,6 +10944,29 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "cottage",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bungalow",
+      "cabin",
+      "house",
+      "camping",
+      "hut",
+      "lodge",
+      "stay",
+      "wood",
+      "accommodation"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "countertops",
@@ -7789,6 +11023,89 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "credit_card_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "declined",
+      "rejected",
+      "debt",
+      "money",
+      "cash",
+      "payment",
+      "cancel"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "credit_score",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bill",
+      "card",
+      "cart",
+      "cash",
+      "check",
+      "coin",
+      "commerce",
+      "credit",
+      "currency",
+      "dollars",
+      "finance",
+      "info",
+      "information",
+      "loan",
+      "mark",
+      "money",
+      "ok",
+      "online",
+      "pay",
+      "payment",
+      "score",
+      "shopping",
+      "tick"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "crib",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "baby",
+      "cot",
+      "crib",
+      "toddler",
+      "bed",
+      "newborn",
+      "furniture",
+      "child",
+      "cradle",
+      "sleep",
+      "room"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "crop",
@@ -8007,6 +11324,52 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "dangerous",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "broken",
+      "danger",
+      "dangerous",
+      "fix",
+      "no",
+      "sign",
+      "stop",
+      "update",
+      "warning",
+      "wrong",
+      "x"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "dark_mode",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "moon",
+      "night",
+      "forecast",
+      "weather",
+      "Brightness",
+      "contrast",
+      "light"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "dashboard",
     "do": "",
     "dont": "",
@@ -8023,6 +11386,88 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "dashboard_customize",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cards",
+      "customize",
+      "dashboard",
+      "rectangle",
+      "shapes",
+      "square"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "data_saver_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "donut",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "off",
+      "on",
+      "ring",
+      "saver",
+      "statistics",
+      "tracking"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "data_saver_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "off",
+      "on",
+      "plus",
+      "ring",
+      "saver",
+      "statistics",
+      "tracking"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "data_usage",
@@ -8183,6 +11628,29 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "delivery_dining",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "delivery",
+      "food",
+      "meal",
+      "restaurant",
+      "scooter",
+      "takeout",
+      "transportation",
+      "vehicle",
+      "vespa"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "departure_board",
     "do": "",
     "dont": "",
@@ -8335,6 +11803,29 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "developer_board_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "block",
+      "code",
+      "development",
+      "diagram",
+      "programmer",
+      "computer",
+      "cancel",
+      "offline",
+      "mode"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "developer_mode",
     "do": "",
     "dont": "",
@@ -8374,6 +11865,24 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "device_thermostat",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "device",
+      "temperature",
+      "thermometer",
+      "thermostat"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "device_unknown",
@@ -8505,6 +12014,51 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "dining",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cafe",
+      "cafeteria",
+      "cutlery",
+      "diner",
+      "dining",
+      "eat",
+      "eating",
+      "fork",
+      "room",
+      "spoon"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "dinner_dining",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "breakfast",
+      "champaign",
+      "dinner",
+      "drink. meal",
+      "food",
+      "lunch",
+      "restaurant"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "directions",
     "do": "",
     "dont": "",
@@ -8574,6 +12128,30 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "directions_boat_filled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "boat",
+      "car",
+      "cars",
+      "direction",
+      "ferry",
+      "maps",
+      "public",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "directions_bus",
     "do": "",
     "dont": "",
@@ -8595,6 +12173,29 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "directions_bus_filled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "bus",
+      "car",
+      "cars",
+      "direction",
+      "maps",
+      "public",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "directions_car",
     "do": "",
     "dont": "",
@@ -8614,6 +12215,28 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "directions_car_filled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "car",
+      "cars",
+      "direction",
+      "maps",
+      "public",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "directions_off",
@@ -8654,6 +12277,30 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "directions_railway_filled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "car",
+      "cars",
+      "direction",
+      "maps",
+      "public",
+      "rail",
+      "train",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "directions_run",
@@ -8702,6 +12349,31 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "directions_subway_filled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "car",
+      "cars",
+      "direction",
+      "maps",
+      "public",
+      "rail",
+      "subway",
+      "train",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "directions_transit",
     "do": "",
     "dont": "",
@@ -8726,6 +12398,31 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "directions_transit_filled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "car",
+      "cars",
+      "direction",
+      "maps",
+      "public",
+      "rail",
+      "subway",
+      "train",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "directions_walk",
     "do": "",
     "dont": "",
@@ -8746,6 +12443,25 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "dirty_lens",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camera",
+      "dirty",
+      "lens",
+      "photography",
+      "splat"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "disabled_by_default",
@@ -8778,6 +12494,108 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "do_disturb",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cancel",
+      "close",
+      "denied",
+      "deny",
+      "disturb",
+      "do",
+      "remove",
+      "silence",
+      "stop"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "do_disturb_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cancel",
+      "close",
+      "denied",
+      "deny",
+      "disturb",
+      "do",
+      "remove",
+      "silence",
+      "stop"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "do_disturb_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cancel",
+      "close",
+      "denied",
+      "deny",
+      "disabled",
+      "disturb",
+      "do",
+      "enabled",
+      "off",
+      "on",
+      "remove",
+      "silence",
+      "slash",
+      "stop"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "do_disturb_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cancel",
+      "close",
+      "denied",
+      "deny",
+      "disabled",
+      "disturb",
+      "do",
+      "enabled",
+      "off",
+      "on",
+      "remove",
+      "silence",
+      "slash",
+      "stop"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "do_not_disturb",
@@ -8844,6 +12662,26 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "do_not_disturb_on_total_silence",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "busy",
+      "disturb",
+      "mute",
+      "no",
+      "quiet",
+      "silence"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "do_not_step",
     "do": "",
     "dont": "",
@@ -8900,6 +12738,29 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "document_scanner",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "capture",
+      "file",
+      "software",
+      "device",
+      "computer",
+      "printing",
+      "paper",
+      "photocopier",
+      "hardware"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "domain",
@@ -9052,6 +12913,99 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "door_back",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "back",
+      "closed",
+      "door",
+      "doorway",
+      "entrance",
+      "exit",
+      "home",
+      "house",
+      "way"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "door_front",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "closed",
+      "door",
+      "doorway",
+      "entrance",
+      "exit",
+      "front",
+      "home",
+      "house",
+      "way"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "door_sliding",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "auto",
+      "automatic",
+      "door",
+      "doorway",
+      "double",
+      "entrance",
+      "exit",
+      "glass",
+      "home",
+      "house",
+      "sliding",
+      "two"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "doorbell",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alarm",
+      "bell",
+      "door",
+      "doorbell",
+      "home",
+      "house",
+      "ringing"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "double_arrow",
     "do": "",
     "dont": "",
@@ -9069,6 +13023,124 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "downhill_skiing",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "snow",
+      "sport",
+      "vacation",
+      "winter",
+      "skier",
+      "mountain",
+      "watchkit",
+      "game"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "download",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "down",
+      "download",
+      "downloads",
+      "drive",
+      "install",
+      "upload"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "download_done",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "check",
+      "down",
+      "download",
+      "downloads",
+      "drive",
+      "install",
+      "installed",
+      "ok",
+      "tick",
+      "upload"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "download_for_offline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "circle",
+      "down",
+      "download",
+      "downloads",
+      "drive",
+      "install",
+      "upload"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "downloading",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "circle",
+      "down",
+      "download",
+      "downloads",
+      "drive",
+      "install",
+      "pending",
+      "progress",
+      "upload"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "drafts",
@@ -9149,6 +13221,85 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "drive_file_move",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "data",
+      "direction",
+      "doc",
+      "document",
+      "drive",
+      "file",
+      "folder",
+      "folders",
+      "move",
+      "right",
+      "sheet",
+      "side",
+      "slide",
+      "storage"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "drive_file_rename_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "drive",
+      "edit",
+      "file",
+      "marker",
+      "pen",
+      "pencil",
+      "rename",
+      "writing"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "drive_folder_upload",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "data",
+      "doc",
+      "document",
+      "drive",
+      "folder",
+      "folders",
+      "sheet",
+      "slide",
+      "storage",
+      "up",
+      "upload"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "dry",
     "do": "",
     "dont": "",
@@ -9163,6 +13314,27 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "dry_cleaning",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cleaning",
+      "dry",
+      "hanger",
+      "hotel",
+      "laundry",
+      "service",
+      "towel"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "duo",
@@ -9240,6 +13412,74 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "e_mobiledata",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Alphabet",
+      "Text",
+      "data",
+      "e",
+      "font",
+      "letter",
+      "mobile",
+      "type"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "earbuds",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accessory",
+      "audio",
+      "earbuds",
+      "earphone",
+      "headphone",
+      "listen",
+      "music",
+      "sound"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "earbuds_battery",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accessory",
+      "audio",
+      "battery",
+      "charing",
+      "earbuds",
+      "earphone",
+      "headphone",
+      "listen",
+      "music",
+      "sound"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "eco",
     "do": "",
     "dont": "",
@@ -9256,6 +13496,48 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "edgesensor_high",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "edge",
+      "high",
+      "mobile",
+      "move",
+      "sensitivity",
+      "sensor",
+      "vibrate"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "edgesensor_low",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "edge",
+      "low",
+      "mobile",
+      "move",
+      "sensitivity",
+      "sensor",
+      "vibrate"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "edit",
@@ -9313,6 +13595,73 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "edit_location_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "edit",
+      "location",
+      "pen",
+      "pencil",
+      "pin"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "edit_notifications",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "attribution",
+      "check",
+      "edit",
+      "change",
+      "bell",
+      "new",
+      "note",
+      "alert",
+      "update"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "edit_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disabled",
+      "draft",
+      "edit",
+      "enabled",
+      "mode",
+      "off",
+      "offline",
+      "on",
+      "pencil",
+      "slash",
+      "writing"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "edit_road",
@@ -9431,6 +13780,27 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "electric_rickshaw",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "car",
+      "cars",
+      "india",
+      "maps",
+      "transportation",
+      "vehicle"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "electric_scooter",
@@ -10068,6 +14438,28 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "expand",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "compress",
+      "expand",
+      "grow",
+      "move",
+      "push",
+      "together"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "explicit",
     "do": "",
     "dont": "",
@@ -10276,6 +14668,28 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "extension_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "extension",
+      "shape",
+      "piece",
+      "puzzle",
+      "jigsaw",
+      "extended",
+      "addon",
+      "plugin"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "face",
     "do": "",
     "dont": "",
@@ -10303,6 +14717,70 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "face_retouching_natural",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "edit",
+      "editing",
+      "effect",
+      "emoji",
+      "emotion",
+      "face",
+      "faces",
+      "image",
+      "natural",
+      "photo",
+      "photography",
+      "retouch",
+      "retouching",
+      "settings",
+      "star",
+      "tag"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "face_retouching_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disabled",
+      "edit",
+      "editing",
+      "effect",
+      "emoji",
+      "emotion",
+      "enabled",
+      "face",
+      "faces",
+      "image",
+      "natural",
+      "off",
+      "on",
+      "photo",
+      "photography",
+      "retouch",
+      "retouching",
+      "settings",
+      "slash",
+      "tag"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "fact_check",
@@ -10477,6 +14955,30 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "feed",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "article",
+      "feed",
+      "headline",
+      "information",
+      "news",
+      "newspaper",
+      "paper",
+      "public",
+      "social",
+      "timeline"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "feedback",
     "do": "",
     "dont": "",
@@ -10497,6 +14999,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "female",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "gender",
+      "girl",
+      "woman",
+      "avatar",
+      "portrait",
+      "young",
+      "people"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "fence",
     "do": "",
     "dont": "",
@@ -10510,6 +15033,29 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "festival",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "burning",
+      "circus",
+      "event",
+      "festival",
+      "local",
+      "man",
+      "tent",
+      "tour",
+      "travel"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "fiber_dvr",
@@ -10659,6 +15205,84 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "file_download_done",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "check",
+      "down",
+      "download",
+      "downloads",
+      "drive",
+      "install",
+      "installed",
+      "tick",
+      "upload"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "file_download_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "content",
+      "arrow down",
+      "folder",
+      "storage",
+      "document",
+      "on",
+      "off",
+      "save"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "file_present",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "clip",
+      "data",
+      "doc",
+      "document",
+      "drive",
+      "file",
+      "folder",
+      "folders",
+      "note",
+      "paper",
+      "paperclip",
+      "present",
+      "reminder",
+      "sheet",
+      "slide",
+      "storage",
+      "writing"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "file_upload",
@@ -11184,6 +15808,26 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "fit_screen",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "enlarge",
+      "fit",
+      "reduce",
+      "scale",
+      "screen",
+      "size"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "fitness_center",
     "do": "",
     "dont": "",
@@ -11320,6 +15964,72 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "flashlight_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disabled",
+      "enabled",
+      "flashlight",
+      "light",
+      "off",
+      "on",
+      "slash"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "flashlight_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disabled",
+      "enabled",
+      "flashlight",
+      "light",
+      "off",
+      "on",
+      "slash"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "flatware",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cafe",
+      "cafeteria",
+      "cutlery",
+      "diner",
+      "dining",
+      "eat",
+      "eating",
+      "fork",
+      "room",
+      "spoon"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "flight_land",
@@ -11474,6 +16184,91 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "flourescent",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bright",
+      "flourescent",
+      "lamp",
+      "light",
+      "lightbulb"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "flutter_dash",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bird",
+      "dash",
+      "flutter"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "fmd_bad",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "alert",
+      "attention",
+      "bad",
+      "caution",
+      "danger",
+      "error",
+      "exclamation",
+      "fmd",
+      "important",
+      "mark",
+      "notification",
+      "symbol",
+      "warning"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "fmd_good",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "destination",
+      "direction",
+      "location",
+      "maps",
+      "pin",
+      "place",
+      "stop"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "folder",
     "do": "",
     "dont": "",
@@ -11582,6 +16377,26 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "font_download_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "format",
+      "message",
+      "text",
+      "document",
+      "on",
+      "off"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "food_bank",
@@ -12482,6 +17297,30 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "g_mobiledata",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "character",
+      "data",
+      "font",
+      "g",
+      "letter",
+      "mobile",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "g_translate",
     "do": "",
     "dont": "",
@@ -12544,6 +17383,30 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "garage",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "automobile",
+      "automotive",
+      "car",
+      "cars",
+      "direction",
+      "garage",
+      "maps",
+      "transportation",
+      "travel",
+      "vehicle"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "gavel",
@@ -12633,6 +17496,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "gite",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accommodation",
+      "hostel",
+      "holiday",
+      "home",
+      "cottages",
+      "farmhouse",
+      "lodge"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "golf_course",
     "do": "",
     "dont": "",
@@ -12648,6 +17532,86 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "gpp_bad",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bad",
+      "certified",
+      "error",
+      "gpp",
+      "security",
+      "shield",
+      "sim",
+      "x"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "gpp_good",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "certified",
+      "check",
+      "good",
+      "gpp",
+      "ok",
+      "pass",
+      "security",
+      "shield",
+      "sim",
+      "tick"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "gpp_maybe",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "alert",
+      "attention",
+      "caution",
+      "certified",
+      "danger",
+      "error",
+      "exclamation",
+      "good",
+      "gpp",
+      "important",
+      "mark",
+      "maybe",
+      "notification",
+      "security",
+      "shield",
+      "sim",
+      "symbol",
+      "unknown",
+      "warning"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "gps_fixed",
@@ -12840,6 +17804,64 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "grid_3x3",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "3",
+      "grid",
+      "layout",
+      "line",
+      "space"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "grid_4x4",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "4",
+      "grid",
+      "layout",
+      "line",
+      "space"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "grid_goldenratio",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "golden",
+      "grid",
+      "layout",
+      "line",
+      "ratio",
+      "space"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "grid_off",
     "do": "",
     "dont": "",
@@ -12878,6 +17900,29 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "grid_view",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "block",
+      "dashboard",
+      "design",
+      "grid",
+      "layout",
+      "square",
+      "tiles",
+      "ui",
+      "view"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "group",
@@ -12950,6 +17995,80 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "h_mobiledata",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "character",
+      "data",
+      "font",
+      "h",
+      "letter",
+      "mobile",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "h_plus_mobiledata",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "alphabet",
+      "character",
+      "data",
+      "font",
+      "h",
+      "letter",
+      "mobile",
+      "plus",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "hail",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "body",
+      "hail",
+      "human",
+      "people",
+      "person",
+      "pick",
+      "public",
+      "stop",
+      "taxi",
+      "transportation"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "handyman",
     "do": "",
     "dont": "",
@@ -12963,6 +18082,27 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "hardware",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "break",
+      "construction",
+      "hammer",
+      "hardware",
+      "nail",
+      "repair",
+      "tool"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "hd",
@@ -12992,6 +18132,96 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "hdr_auto",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "auto",
+      "camera",
+      "character",
+      "circle",
+      "dynamic",
+      "font",
+      "hdr",
+      "high",
+      "letter",
+      "photo",
+      "range",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "hdr_auto_select",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "auto",
+      "camera",
+      "character",
+      "circle",
+      "dynamic",
+      "font",
+      "hdr",
+      "high",
+      "letter",
+      "photo",
+      "range",
+      "select",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "hdr_enhanced_select",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "alphabet",
+      "character",
+      "dynamic",
+      "enhance",
+      "font",
+      "hdr",
+      "high",
+      "letter",
+      "plus",
+      "range",
+      "select",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "hdr_off",
     "do": "",
     "dont": "",
@@ -13011,6 +18241,40 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "hdr_off_select",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "auto",
+      "camera",
+      "character",
+      "circle",
+      "disabled",
+      "dynamic",
+      "enabled",
+      "font",
+      "hdr",
+      "high",
+      "letter",
+      "off",
+      "on",
+      "photo",
+      "range",
+      "slash",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "hdr_on",
     "do": "",
     "dont": "",
@@ -13028,6 +18292,66 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "hdr_on_select",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "auto",
+      "camera",
+      "character",
+      "circle",
+      "dynamic",
+      "font",
+      "hdr",
+      "high",
+      "letter",
+      "photo",
+      "range",
+      "select",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "hdr_plus",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "alphabet",
+      "character",
+      "circle",
+      "dynamic",
+      "enhance",
+      "font",
+      "hdr",
+      "high",
+      "letter",
+      "plus",
+      "range",
+      "select",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "hdr_strong",
@@ -13068,6 +18392,56 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "headphones",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accessory",
+      "audio",
+      "device",
+      "ear",
+      "earphone",
+      "headphones",
+      "headset",
+      "listen",
+      "music",
+      "sound"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "headphones_battery",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accessory",
+      "audio",
+      "battery",
+      "charing",
+      "device",
+      "ear",
+      "earphone",
+      "headphones",
+      "headset",
+      "listen",
+      "music",
+      "sound"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "headset",
     "do": "",
     "dont": "",
@@ -13106,6 +18480,38 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "headset_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accessory",
+      "audio",
+      "chat",
+      "device",
+      "disabled",
+      "ear",
+      "earphone",
+      "enabled",
+      "headphones",
+      "headset",
+      "listen",
+      "mic",
+      "music",
+      "off",
+      "on",
+      "slash",
+      "sound",
+      "talk"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "healing",
     "do": "<ul><li>Use it for fixes or patches.</li></ul>",
     "dont": "<ul><li>Don't use it for help.</li></ul>",
@@ -13122,6 +18528,27 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "health_and_safety",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "medical",
+      "protection",
+      "healthcare",
+      "insurance",
+      "shield",
+      "plus",
+      "security"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "hearing",
@@ -13250,6 +18677,77 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "hevc",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "character",
+      "coding",
+      "efficiency",
+      "font",
+      "hevc",
+      "high",
+      "letter",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "hide_image",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disabled",
+      "enabled",
+      "image",
+      "landscape",
+      "mountain",
+      "mountains",
+      "off",
+      "on",
+      "photo",
+      "photography",
+      "picture",
+      "slash"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "hide_source",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "circle",
+      "disable",
+      "hide",
+      "shape",
+      "source"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "high_quality",
     "do": "",
     "dont": "",
@@ -13349,6 +18847,34 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "hiking",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "recreation",
+      "travel",
+      "trekking",
+      "vacation",
+      "mountain",
+      "camping",
+      "nature",
+      "backpacking",
+      "trail",
+      "outdoor",
+      "hikers",
+      "exercise",
+      "walking"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "history",
     "do": "",
     "dont": "",
@@ -13413,6 +18939,30 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "holiday_village",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "resort",
+      "tourist",
+      "town",
+      "destination",
+      "vacation",
+      "villa",
+      "place",
+      "travel",
+      "house",
+      "nature"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "home",
     "do": "",
     "dont": "",
@@ -13432,6 +18982,52 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "home_max",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "device",
+      "gadget",
+      "hardware",
+      "home",
+      "internet",
+      "iot",
+      "nest",
+      "smart",
+      "things"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "home_mini",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Internet",
+      "device",
+      "gadget",
+      "hardware",
+      "home",
+      "iot",
+      "nest",
+      "smart",
+      "things"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "home_repair_service",
@@ -13708,6 +19304,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "houseboat",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "home",
+      "river",
+      "travel",
+      "water",
+      "property",
+      "transportation",
+      "vacation"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "how_to_reg",
     "do": "",
     "dont": "",
@@ -13813,6 +19430,49 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "ice_skating",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "fitness",
+      "skate",
+      "sports",
+      "shoe",
+      "winter",
+      "olympics",
+      "cold",
+      "snow",
+      "game"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "icecream",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "corn",
+      "cream",
+      "food",
+      "ice",
+      "icecream",
+      "snack"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "image",
     "do": "",
     "dont": "",
@@ -13890,6 +19550,25 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "imagesearch_roller",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "art",
+      "image",
+      "paint",
+      "roller",
+      "search"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "import_contacts",
@@ -14267,6 +19946,54 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "inventory",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "buy",
+      "check",
+      "clipboard",
+      "commerce",
+      "e-commerce",
+      "inventory",
+      "list",
+      "purchase",
+      "shop",
+      "store"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "inventory_2",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "archive",
+      "box",
+      "file",
+      "inventory",
+      "organize",
+      "packages",
+      "product",
+      "stock",
+      "storage",
+      "supply"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "invert_colors",
     "do": "",
     "dont": "",
@@ -14317,6 +20044,61 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "ios_share",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "button",
+      "direction",
+      "internet",
+      "ios",
+      "link",
+      "send",
+      "share",
+      "sharing",
+      "social",
+      "up",
+      "web",
+      "website"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "iron",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "smoothing",
+      "steam",
+      "tailor",
+      "electric",
+      "presser",
+      "board",
+      "laundry",
+      "clothing",
+      "appliances",
+      "gadget",
+      "technology",
+      "household",
+      "housekeeping"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "iso",
     "do": "",
     "dont": "",
@@ -14336,6 +20118,32 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "kayaking",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "adventure",
+      "kayak",
+      "sport",
+      "summer",
+      "vacation",
+      "canoeing",
+      "people",
+      "water",
+      "river",
+      "boat",
+      "game"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "keyboard",
     "do": "",
     "dont": "",
@@ -14353,6 +20161,30 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "keyboard_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "computer",
+      "device",
+      "hardware",
+      "input",
+      "keyboard",
+      "keypad",
+      "letter",
+      "office",
+      "text",
+      "type"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "keyboard_arrow_down",
@@ -14597,6 +20429,31 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "kitesurfing",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "action",
+      "sport",
+      "people",
+      "game",
+      "extreme",
+      "adventure",
+      "surfing",
+      "water",
+      "wakeboard",
+      "parachute"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "label",
@@ -14968,6 +20825,31 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "lens_blur",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "blur",
+      "camera",
+      "dim",
+      "dot",
+      "effect",
+      "foggy",
+      "fuzzy",
+      "image",
+      "lens",
+      "photo",
+      "soften"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "library_add",
     "do": "",
     "dont": "",
@@ -15043,6 +20925,80 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "light",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bulb",
+      "ceiling",
+      "hanging",
+      "inside",
+      "interior",
+      "lamp",
+      "light",
+      "lighting",
+      "pendent",
+      "room"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "light_mode",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "day",
+      "sun",
+      "climate",
+      "forecast",
+      "weather",
+      "brightness",
+      "contrast",
+      "on",
+      "setting",
+      "photography",
+      "computer",
+      "screen",
+      "ui",
+      "app",
+      "interface"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "lightbulb",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alert",
+      "announcement",
+      "idea",
+      "info",
+      "information",
+      "light",
+      "lightbulb"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "lightbulb_outline",
@@ -15184,6 +21140,28 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "liquor",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alcohol",
+      "bottle",
+      "cocktail",
+      "drink",
+      "food",
+      "liquor",
+      "store",
+      "wine"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "list",
     "do": "",
     "dont": "",
@@ -15262,6 +21240,34 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "living",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chair",
+      "comfort",
+      "couch",
+      "decoration",
+      "furniture",
+      "home",
+      "house",
+      "living",
+      "lounging",
+      "loveseat",
+      "room",
+      "seat",
+      "seating",
+      "sofa"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "local_activity",
@@ -16029,6 +22035,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "lock_clock",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "clock",
+      "connection",
+      "key",
+      "lock",
+      "locked",
+      "secure",
+      "time"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "lock_open",
     "do": "",
     "dont": "",
@@ -16088,6 +22115,28 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "logout",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "exit",
+      "input",
+      "leave",
+      "log",
+      "login",
+      "logout",
+      "right"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "looks",
@@ -16305,6 +22354,65 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "lte_mobiledata",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "character",
+      "data",
+      "font",
+      "internet",
+      "letter",
+      "lte",
+      "mobile",
+      "network",
+      "speed",
+      "symbol",
+      "text",
+      "type",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "lte_plus_mobiledata",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "character",
+      "data",
+      "font",
+      "internet",
+      "letter",
+      "lte",
+      "mobile",
+      "network",
+      "plus",
+      "speed",
+      "symbol",
+      "text",
+      "type",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "luggage",
     "do": "",
     "dont": "",
@@ -16318,6 +22426,28 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "lunch_dining",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "breakfast",
+      "dinner",
+      "drink",
+      "fastfood",
+      "food",
+      "hamburger",
+      "lunch",
+      "meal"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "mail_outline",
@@ -16340,6 +22470,69 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "male",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "boy",
+      "gender",
+      "man",
+      "avatar",
+      "portrait"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "manage_accounts",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accounts",
+      "face",
+      "gear",
+      "human",
+      "manage",
+      "people",
+      "person",
+      "profile",
+      "settings",
+      "user"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "manage_search",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "glass",
+      "history",
+      "magnifying",
+      "manage",
+      "search",
+      "text"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "map",
     "do": "",
     "dont": "",
@@ -16359,6 +22552,26 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "maps_home_work",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "building",
+      "home",
+      "house",
+      "maps",
+      "office",
+      "work"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "maps_ugc",
@@ -16384,6 +22597,47 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "margin",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "layout",
+      "margin",
+      "padding",
+      "size",
+      "square"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "mark_as_unread",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "envelop",
+      "letter",
+      "mail",
+      "post",
+      "postal",
+      "receive",
+      "send",
+      "unread"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "mark_chat_read",
@@ -16508,6 +22762,52 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "media_bluetooth_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bluetooth",
+      "connection",
+      "device",
+      "disabled",
+      "media",
+      "music",
+      "note",
+      "off",
+      "paring",
+      "symbol"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "media_bluetooth_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bluetooth",
+      "connection",
+      "device",
+      "media",
+      "music",
+      "note",
+      "paring",
+      "symbol"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "mediation",
     "do": "",
     "dont": "",
@@ -16541,6 +22841,27 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "medication",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "drug",
+      "emergency",
+      "hospital",
+      "medication",
+      "medicine",
+      "pharmacy",
+      "prescription"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "meeting_room",
@@ -16696,6 +23017,56 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "mic_external_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "audio",
+      "disabled",
+      "enabled",
+      "external",
+      "mic",
+      "microphone",
+      "off",
+      "on",
+      "slash",
+      "sound",
+      "voice"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "mic_external_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "audio",
+      "disabled",
+      "enabled",
+      "external",
+      "mic",
+      "microphone",
+      "off",
+      "on",
+      "slash",
+      "sound",
+      "voice"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "mic_none",
@@ -16922,6 +23293,58 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "mobiledata_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "data",
+      "disabled",
+      "down",
+      "enabled",
+      "internet",
+      "mobile",
+      "network",
+      "off",
+      "on",
+      "slash",
+      "speed",
+      "up",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "mode",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "compose",
+      "create",
+      "draft",
+      "draw",
+      "edit",
+      "mode",
+      "pen",
+      "pencil",
+      "write"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "mode_comment",
     "do": "",
     "dont": "",
@@ -16946,7 +23369,10 @@ const eosIcons = [
       "bubble",
       "speech",
       "chat",
-      "comment"
+      "comment",
+      "pen",
+      "writing",
+      "content"
     ],
     "category": [
       "editor"
@@ -16954,6 +23380,67 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "mode_edit_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bubble",
+      "speech",
+      "chat",
+      "comment",
+      "pen",
+      "writing",
+      "content"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "mode_night",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "dark",
+      "disturb",
+      "mode",
+      "moon",
+      "night",
+      "sleep",
+      "weather"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "mode_standby",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disturb",
+      "mode",
+      "power",
+      "sleep",
+      "standby"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "model_training",
@@ -17061,6 +23548,90 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "money_off_csred",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bill",
+      "card",
+      "cart",
+      "cash",
+      "coin",
+      "commerce",
+      "credit",
+      "currency",
+      "disabled",
+      "dollars",
+      "enabled",
+      "money",
+      "off",
+      "on",
+      "online",
+      "pay",
+      "payment",
+      "shopping",
+      "slash",
+      "symbol"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "monitor",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "chrome",
+      "computer",
+      "desktop",
+      "device",
+      "display",
+      "hardware",
+      "iOS",
+      "mac",
+      "monitor",
+      "screen",
+      "web",
+      "window"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "monitor_weight",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "body",
+      "device",
+      "diet",
+      "health",
+      "monitor",
+      "scale",
+      "smart",
+      "weight"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "monochrome_photos",
@@ -17206,6 +23777,58 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "motion_photos_auto",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "A",
+      "alphabet",
+      "animation",
+      "auto",
+      "automatic",
+      "character",
+      "font",
+      "letter",
+      "motion",
+      "photos",
+      "symbol",
+      "text",
+      "type",
+      "video"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "motion_photos_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "animation",
+      "circle",
+      "disabled",
+      "enabled",
+      "motion",
+      "off",
+      "on",
+      "photos",
+      "slash",
+      "video"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "motion_photos_on",
@@ -17389,6 +24012,61 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "moving",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "up",
+      "interface",
+      "top",
+      "pointer",
+      "direction",
+      "business",
+      "growth",
+      "profit",
+      "graph",
+      "startup",
+      "statistic"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "mp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "character",
+      "font",
+      "image",
+      "letter",
+      "megapixel",
+      "mp",
+      "photo",
+      "photography",
+      "pixels",
+      "quality",
+      "resolution",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "multiline_chart",
@@ -17645,6 +24323,53 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "nearby_error",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "alert",
+      "attention",
+      "caution",
+      "danger",
+      "error",
+      "exclamation",
+      "important",
+      "mark",
+      "nearby",
+      "notification",
+      "symbol",
+      "warning"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "nearby_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disabled",
+      "enabled",
+      "nearby",
+      "off",
+      "on",
+      "slash"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "network_cell",
     "do": "",
     "dont": "",
@@ -17808,6 +24533,74 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "nightlife",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alcohol",
+      "bar",
+      "bottle",
+      "club",
+      "cocktail",
+      "dance",
+      "drink",
+      "food",
+      "glass",
+      "liquor",
+      "music",
+      "nightlife",
+      "note",
+      "wine"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "nightlight",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "dark",
+      "disturb",
+      "mode",
+      "moon",
+      "night",
+      "sleep",
+      "weather"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "nightlight_round",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "half",
+      "light",
+      "mode",
+      "moon",
+      "night"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "nights_stay",
     "do": "",
     "dont": "",
@@ -17832,6 +24625,33 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "no_accounts",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "accounts",
+      "face",
+      "human",
+      "no",
+      "people",
+      "person",
+      "profile",
+      "thumbnail",
+      "unavailable",
+      "unidentifiable",
+      "unknown",
+      "user"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "no_backpack",
@@ -17896,6 +24716,31 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "no_encryption_gmailerrorred",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disabled",
+      "enabled",
+      "encryption",
+      "error",
+      "gmail",
+      "lock",
+      "locked",
+      "no",
+      "off",
+      "on",
+      "slash"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "no_flash",
@@ -18070,6 +24915,29 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "nordic_walking",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "sport",
+      "people",
+      "game",
+      "hiking",
+      "stick",
+      "mountain",
+      "trekking",
+      "fitness"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "north",
     "do": "",
     "dont": "",
@@ -18230,6 +25098,28 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "note_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "clipboard",
+      "document",
+      "file",
+      "memo",
+      "note",
+      "page",
+      "paper",
+      "writing"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "notes",
     "do": "",
     "dont": "",
@@ -18246,6 +25136,36 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "notification_add",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "alarm",
+      "alert",
+      "attention",
+      "bell",
+      "caution",
+      "danger",
+      "new",
+      "exclamation",
+      "important",
+      "mark",
+      "notify",
+      "reminder",
+      "sound",
+      "symbol",
+      "warning"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "notification_important",
@@ -18407,6 +25327,38 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "offline_share",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "arrow",
+      "arrows",
+      "cell",
+      "connect",
+      "device",
+      "direction",
+      "hardware",
+      "iOS",
+      "link",
+      "mobile",
+      "multiple",
+      "offline",
+      "phone",
+      "right",
+      "share",
+      "tablet"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "ondemand_video",
     "do": "",
     "dont": "",
@@ -18520,6 +25472,28 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "open_in_new_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "new",
+      "arrow",
+      "box",
+      "window",
+      "open",
+      "browser",
+      "link",
+      "cancel"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "open_with",
     "do": "",
     "dont": "",
@@ -18537,6 +25511,44 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "other_houses",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "architecture",
+      "estate",
+      "home",
+      "real",
+      "residential"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "outbox",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "box",
+      "mail",
+      "outbox",
+      "send",
+      "sent"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "outdoor_grill",
@@ -18597,6 +25609,25 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "padding",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "layout",
+      "margin",
+      "padding",
+      "size",
+      "square"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "pages",
     "do": "",
     "dont": "",
@@ -18631,6 +25662,26 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "paid",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "circle",
+      "currency",
+      "money",
+      "paid",
+      "payment",
+      "transaction"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "palette",
@@ -18731,6 +25782,76 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "panorama_horizontal_select",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "angle",
+      "horizontal",
+      "image",
+      "panorama",
+      "photo",
+      "photography",
+      "picture",
+      "select",
+      "wide"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "panorama_photosphere",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "angle",
+      "horizontal",
+      "image",
+      "panorama",
+      "photo",
+      "photography",
+      "photosphere",
+      "picture",
+      "wide"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "panorama_photosphere_select",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "angle",
+      "horizontal",
+      "image",
+      "panorama",
+      "photo",
+      "photography",
+      "photosphere",
+      "picture",
+      "select",
+      "wide"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "panorama_vertical",
     "do": "",
     "dont": "",
@@ -18749,6 +25870,29 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "panorama_vertical_select",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "angle",
+      "image",
+      "panorama",
+      "photo",
+      "photography",
+      "picture",
+      "select",
+      "vertical",
+      "wide"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "panorama_wide_angle",
     "do": "",
     "dont": "",
@@ -18765,6 +25909,73 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "panorama_wide_angle_select",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "angle",
+      "image",
+      "panorama",
+      "photo",
+      "photography",
+      "picture",
+      "wide"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "paragliding",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "sport",
+      "people",
+      "game",
+      "extreme",
+      "hang",
+      "parachute",
+      "adventure",
+      "paramotor",
+      "flight",
+      "air",
+      "hobby"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "park",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "attraction",
+      "fresh",
+      "local",
+      "park",
+      "plant",
+      "tree"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "party_mode",
@@ -18786,6 +25997,49 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "password",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "key",
+      "login",
+      "password",
+      "pin",
+      "security",
+      "star",
+      "unlock"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "pattern",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "key",
+      "login",
+      "password",
+      "pattern",
+      "pin",
+      "security",
+      "star",
+      "unlock"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "pause",
     "do": "",
     "dont": "",
@@ -18802,6 +26056,25 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "pause_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Pause",
+      "controls",
+      "music",
+      "control",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "pause_circle_filled",
@@ -19186,6 +26459,30 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "person_add_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "+",
+      "account",
+      "add",
+      "face",
+      "human",
+      "people",
+      "person",
+      "plus",
+      "profile",
+      "user"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "person_add_disabled",
     "do": "",
     "dont": "",
@@ -19210,6 +26507,28 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "person_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "user",
+      "avatar",
+      "person",
+      "profile",
+      "ban",
+      "unavailable",
+      "away",
+      "inaccessible"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "person_outline",
@@ -19805,6 +27124,57 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "photo_camera_back",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "back",
+      "camera",
+      "image",
+      "landscape",
+      "mountain",
+      "mountains",
+      "photo",
+      "photography",
+      "picture",
+      "rear"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "photo_camera_front",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "camera",
+      "face",
+      "front",
+      "human",
+      "image",
+      "people",
+      "person",
+      "photo",
+      "photography",
+      "picture",
+      "profile",
+      "user"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "photo_filter",
     "do": "",
     "dont": "",
@@ -19892,6 +27262,60 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "piano",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "grand",
+      "instrument",
+      "music",
+      "play",
+      "classic",
+      "concert",
+      "media",
+      "melody",
+      "audio",
+      "note",
+      "sound",
+      "pianist"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "piano_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "grand",
+      "instrument",
+      "music",
+      "play",
+      "classic",
+      "concert",
+      "media",
+      "melody",
+      "audio",
+      "note",
+      "sound",
+      "pianist",
+      "unavailable",
+      "inaccessible"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "picture_as_pdf",
     "do": "",
     "dont": "",
@@ -19974,6 +27398,33 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "pie_chart_outline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "pie",
+      "statistics",
+      "tracking"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "pie_chart_outlined",
     "do": "",
     "dont": "",
@@ -20020,6 +27471,71 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "pin_number",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "1",
+      "2",
+      "3",
+      "digit",
+      "key",
+      "login",
+      "logout",
+      "number",
+      "password",
+      "pattern",
+      "pin",
+      "security",
+      "star",
+      "symbol",
+      "unlock"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "pivot_table_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "arrow",
+      "arrows",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "direction",
+      "drive",
+      "edit",
+      "editing",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "pivot",
+      "rotate",
+      "sheet",
+      "statistics",
+      "table",
+      "tracking"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "place",
@@ -20086,6 +27602,26 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "play_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Play",
+      "controls",
+      "music",
+      "arrow",
+      "control",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "play_circle_filled",
     "do": "",
     "dont": "",
@@ -20124,6 +27660,31 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "play_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Play",
+      "arrow",
+      "control",
+      "controls",
+      "disabled",
+      "enabled",
+      "music",
+      "off",
+      "on",
+      "slash",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "play_for_work",
     "do": "",
     "dont": "",
@@ -20142,6 +27703,27 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "play_lesson",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "audio",
+      "book",
+      "digital",
+      "ebook",
+      "lesson",
+      "multimedia",
+      "play"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "playlist_add",
@@ -20238,6 +27820,27 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "podcasts",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "broadcast",
+      "casting",
+      "network",
+      "podcasts",
+      "signal",
+      "transmitting",
+      "wireless"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "point_of_sale",
@@ -20487,6 +28090,36 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "precision_manufacturing",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arm",
+      "automatic",
+      "chain",
+      "conveyor",
+      "crane",
+      "factory",
+      "industry",
+      "machinery",
+      "manufacturing",
+      "mechanical",
+      "precision",
+      "production",
+      "repairing",
+      "robot",
+      "supply",
+      "warehouse"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "pregnant_woman",
     "do": "",
     "dont": "",
@@ -20548,6 +28181,70 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "price_change",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "bill",
+      "card",
+      "cart",
+      "cash",
+      "coin",
+      "commerce",
+      "credit",
+      "currency",
+      "dollars",
+      "down",
+      "money",
+      "online",
+      "pay",
+      "payment",
+      "shopping",
+      "symbol",
+      "up"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "price_check",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bill",
+      "card",
+      "cart",
+      "cash",
+      "check",
+      "coin",
+      "commerce",
+      "credit",
+      "currency",
+      "dollars",
+      "money",
+      "ok",
+      "online",
+      "pay",
+      "payment",
+      "shopping",
+      "symbol",
+      "tick"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "print",
@@ -20625,6 +28322,32 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "production_quantity_limits",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "industry",
+      "supply",
+      "full",
+      "max",
+      "cutoff",
+      "cart",
+      "shopping",
+      "checkout",
+      "error",
+      "basket",
+      "orders",
+      "sale"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "psychology",
@@ -20796,6 +28519,31 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "query_stats",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sales",
+      "analytics",
+      "chart",
+      "statistics",
+      "graph",
+      "metrics",
+      "find",
+      "marketing",
+      "result",
+      "search",
+      "seo"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "question_answer",
     "do": "",
     "dont": "",
@@ -20908,6 +28656,72 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "quiz",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "?",
+      "faq",
+      "help",
+      "question",
+      "quiz",
+      "symbol",
+      "test"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "r_mobiledata",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "character",
+      "data",
+      "font",
+      "letter",
+      "mobile",
+      "r",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "radar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "detect",
+      "military",
+      "near",
+      "network",
+      "position",
+      "radar",
+      "scan"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "radio",
     "do": "",
     "dont": "",
@@ -20966,6 +28780,60 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "railway_alert",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "automobile",
+      "bike",
+      "car",
+      "cars",
+      "delay",
+      "direction",
+      "error",
+      "exclamation",
+      "maps",
+      "public",
+      "rail",
+      "scooter",
+      "subway",
+      "train",
+      "transportation",
+      "vehicle",
+      "vespa"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "ramen_dining",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "breakfast",
+      "dinner",
+      "drink. meal",
+      "fastfood",
+      "food",
+      "lunch",
+      "noodle",
+      "ramen"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "rate_review",
     "do": "",
     "dont": "",
@@ -20985,6 +28853,68 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "raw_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "character",
+      "disabled",
+      "enabled",
+      "font",
+      "image",
+      "letter",
+      "off",
+      "on",
+      "original",
+      "photo",
+      "photography",
+      "raw",
+      "slash",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "raw_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "character",
+      "disabled",
+      "enabled",
+      "font",
+      "image",
+      "letter",
+      "off",
+      "on",
+      "original",
+      "photo",
+      "photography",
+      "raw",
+      "slash",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "read_more",
@@ -21069,6 +28999,34 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "recommend",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "approved",
+      "circle",
+      "confirm",
+      "favorite",
+      "gesture",
+      "hand",
+      "like",
+      "reaction",
+      "recommend",
+      "social",
+      "support",
+      "thumbs",
+      "up",
+      "well"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "record_voice_over",
@@ -21191,6 +29149,36 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "remember_me",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "avatar",
+      "device",
+      "hardware",
+      "human",
+      "iOS",
+      "identity",
+      "mobile",
+      "people",
+      "person",
+      "phone",
+      "profile",
+      "remember",
+      "tablet",
+      "user"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "remove",
     "do": "",
     "dont": "",
@@ -21255,6 +29243,37 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "remove_done",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "approve",
+      "check",
+      "complete",
+      "disabled",
+      "done",
+      "enabled",
+      "finished",
+      "mark",
+      "multiple",
+      "off",
+      "ok",
+      "on",
+      "remove",
+      "select",
+      "slash",
+      "tick",
+      "yes"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "remove_from_queue",
     "do": "",
     "dont": "",
@@ -21273,6 +29292,33 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "remove_moderator",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "certified",
+      "disabled",
+      "enabled",
+      "guard",
+      "moderator",
+      "off",
+      "on",
+      "plus",
+      "protect",
+      "remove",
+      "security",
+      "shield",
+      "slash"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "remove_red_eye",
@@ -21352,6 +29398,28 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "repeat_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "1",
+      "Repeat",
+      "arrow",
+      "arrows",
+      "control",
+      "controls",
+      "music",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "repeat_one",
     "do": "",
     "dont": "",
@@ -21374,6 +29442,33 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "repeat_one_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "1",
+      "Repeat",
+      "arrow",
+      "arrows",
+      "control",
+      "controls",
+      "digit",
+      "music",
+      "number",
+      "off",
+      "on",
+      "symbol",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "replay",
@@ -21472,6 +29567,28 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "replay_circle_filled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Replay",
+      "arrow",
+      "arrows",
+      "control",
+      "controls",
+      "music",
+      "repeat",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "reply",
     "do": "",
     "dont": "",
@@ -21539,6 +29656,34 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "report_gmailerrorred",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "alert",
+      "attention",
+      "caution",
+      "danger",
+      "error",
+      "exclamation",
+      "gmail",
+      "important",
+      "mark",
+      "notification",
+      "octagon",
+      "symbol",
+      "warning"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "report_off",
@@ -21614,6 +29759,43 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "reset_tv",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "device",
+      "hardware",
+      "reset",
+      "tv"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "restart_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "reboot",
+      "repeat",
+      "reset",
+      "restart"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "restaurant",
@@ -21723,6 +29905,25 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "reviews",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "comment",
+      "rate",
+      "rating",
+      "recommendation",
+      "review"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "rice_bowl",
@@ -21965,6 +30166,53 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "rsvp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "character",
+      "font",
+      "invitation",
+      "invite",
+      "letter",
+      "plaît",
+      "respond",
+      "rsvp",
+      "répondez",
+      "sil",
+      "symbol",
+      "text",
+      "type",
+      "vous"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "rtt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "call.",
+      "realtime",
+      "rrt",
+      "text"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "rule",
     "do": "",
     "dont": "",
@@ -22032,6 +30280,32 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "running_with_errors",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "running",
+      "sprint",
+      "rush",
+      "exit",
+      "circle",
+      "warning",
+      "alert",
+      "exclamation",
+      "!",
+      "process",
+      "attention",
+      "graph"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "rv_hookup",
     "do": "",
     "dont": "",
@@ -22051,6 +30325,54 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "safety_divider",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "barrie",
+      "separate",
+      "wall",
+      "side",
+      "protection",
+      "security",
+      "care",
+      "zone"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "sailing",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "sport",
+      "ship",
+      "beach",
+      "boat",
+      "sports",
+      "water",
+      "yacht",
+      "travel",
+      "transportation",
+      "luxury",
+      "hobby"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "sanitizer",
@@ -22129,6 +30451,57 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "saved_search",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "find",
+      "glass",
+      "important",
+      "look",
+      "magnify",
+      "magnifying",
+      "marked",
+      "saved",
+      "search",
+      "see",
+      "star"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "savings",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pig",
+      "animal",
+      "bacon",
+      "bank",
+      "farm",
+      "pork",
+      "bankcoin",
+      "business",
+      "finace",
+      "money",
+      "deposit",
+      "coin"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "scanner",
     "do": "",
     "dont": "",
@@ -22189,6 +30562,56 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "schedule_send",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "clock",
+      "date",
+      "email",
+      "letter",
+      "mail",
+      "remember",
+      "schedule",
+      "send",
+      "share",
+      "time"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "schema",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "business",
+      "data",
+      "intelligence",
+      "organization",
+      "relational",
+      "flow chart",
+      "hierarchy",
+      "inheritance",
+      "network",
+      "structure",
+      "infographic"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "school",
@@ -22344,6 +30767,32 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "screen_search_desktop",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "arrow",
+      "desktop",
+      "device",
+      "hardware",
+      "iOS",
+      "lock",
+      "monitor",
+      "rotate",
+      "screen",
+      "web"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "screen_share",
     "do": "",
     "dont": "",
@@ -22370,6 +30819,64 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "screenshot",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "crop",
+      "device",
+      "hardware",
+      "iOS",
+      "mobile",
+      "phone",
+      "screen",
+      "screenshot",
+      "tablet"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "sd",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "camera",
+      "card",
+      "cards",
+      "character",
+      "data",
+      "device",
+      "digital",
+      "flash",
+      "font",
+      "image",
+      "letter",
+      "memory",
+      "photo",
+      "sd",
+      "secure",
+      "symbol",
+      "text",
+      "type"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "sd_card",
     "do": "",
     "dont": "",
@@ -22387,6 +30894,40 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "sd_card_alert",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "alert",
+      "attention",
+      "camera",
+      "card",
+      "caution",
+      "danger",
+      "digital",
+      "error",
+      "exclamation",
+      "important",
+      "mark",
+      "memory",
+      "notification",
+      "photos",
+      "sd",
+      "secure",
+      "storage",
+      "symbol",
+      "warning"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "sd_storage",
@@ -22470,6 +31011,124 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "security_update",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "arrow",
+      "device",
+      "down",
+      "download",
+      "hardware",
+      "iOS",
+      "mobile",
+      "phone",
+      "security",
+      "tablet",
+      "update"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "security_update_good",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "checkmark",
+      "device",
+      "hardware",
+      "iOS",
+      "mobile",
+      "ok",
+      "phone",
+      "security",
+      "tablet",
+      "tick",
+      "update"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "security_update_warning",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "Android",
+      "OS",
+      "alert",
+      "attention",
+      "caution",
+      "danger",
+      "device",
+      "download",
+      "error",
+      "exclamation",
+      "hardware",
+      "iOS",
+      "important",
+      "mark",
+      "mobile",
+      "notification",
+      "phone",
+      "security",
+      "symbol",
+      "tablet",
+      "update",
+      "warning"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "segment",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alignment",
+      "fonts",
+      "format",
+      "lines",
+      "list",
+      "paragraph",
+      "part",
+      "piece",
+      "rule",
+      "rules",
+      "segment",
+      "style",
+      "text"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "select_all",
     "do": "",
     "dont": "",
@@ -22517,6 +31176,37 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "sell",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bill",
+      "card",
+      "cart",
+      "cash",
+      "coin",
+      "commerce",
+      "credit",
+      "currency",
+      "dollars",
+      "money",
+      "online",
+      "pay",
+      "payment",
+      "price",
+      "sell",
+      "shopping",
+      "tag"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "send",
     "do": "",
     "dont": "",
@@ -22536,6 +31226,58 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "send_and_archive",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "archive",
+      "arrow",
+      "down",
+      "download",
+      "email",
+      "letter",
+      "mail",
+      "save",
+      "send",
+      "share"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "send_to_mobile",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Android",
+      "OS",
+      "arrow",
+      "device",
+      "export",
+      "forward",
+      "hardware",
+      "iOS",
+      "mobile",
+      "phone",
+      "right",
+      "send",
+      "share",
+      "tablet"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "sensor_door",
@@ -22574,6 +31316,61 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "sensors",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sense",
+      "signal",
+      "smart",
+      "wireless",
+      "movement",
+      "connectivity",
+      "processors",
+      "technology",
+      "electric",
+      "control",
+      "computer",
+      "network"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "sensors_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sense",
+      "signal",
+      "smart",
+      "wireless",
+      "movement",
+      "connectivity",
+      "processors",
+      "technology",
+      "electric",
+      "control",
+      "computer",
+      "network",
+      "inaccessible",
+      "decline",
+      "reject"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "sentiment_dissatisfied",
@@ -22700,6 +31497,32 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "settings_accessibility",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accessibility",
+      "body",
+      "details",
+      "human",
+      "information",
+      "people",
+      "person",
+      "personal",
+      "preferences",
+      "profile",
+      "settings",
+      "user"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "settings_applications",
@@ -22982,6 +31805,25 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "settings_suggest",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "gear",
+      "recommendation",
+      "setting",
+      "suggestion",
+      "system"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "settings_system_daydream",
     "do": "",
     "dont": "",
@@ -23035,6 +31877,48 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "share_location",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "gps",
+      "location",
+      "maps",
+      "pin",
+      "share",
+      "tracking"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "shield",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "certified",
+      "document",
+      "legal",
+      "policy",
+      "protection",
+      "secure",
+      "security",
+      "shield"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "shop",
     "do": "",
     "dont": "",
@@ -23065,6 +31949,29 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "shop_2",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "play",
+      "shop",
+      "arrow",
+      "buy",
+      "purchase",
+      "google",
+      "cart",
+      "shopping"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "shop_two",
@@ -23186,6 +32093,24 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "shortcut",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "forward",
+      "right",
+      "shortcut"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "show_chart",
     "do": "",
     "dont": "",
@@ -23213,6 +32138,33 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "shower",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bath",
+      "bathroom",
+      "closet",
+      "home",
+      "house",
+      "place",
+      "plumbing",
+      "room",
+      "shower",
+      "sprinkler",
+      "wash",
+      "water",
+      "wc"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "shuffle",
     "do": "",
     "dont": "",
@@ -23231,6 +32183,28 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "shuffle_on",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Shuffle",
+      "arrow",
+      "arrows",
+      "control",
+      "controls",
+      "music",
+      "on",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "shutter_speed",
@@ -23333,6 +32307,33 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "signal_cellular_nodata",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cell",
+      "cellular",
+      "data",
+      "internet",
+      "mobile",
+      "network",
+      "no",
+      "phone",
+      "signal",
+      "speed",
+      "wifi",
+      "wireless",
+      "x"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "signal_cellular_null",
     "do": "",
     "dont": "",
@@ -23387,6 +32388,60 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "signal_wifi_bad",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cell",
+      "cellular",
+      "data",
+      "internet",
+      "mobile",
+      "network",
+      "no",
+      "phone",
+      "signal",
+      "speed",
+      "wifi",
+      "wireless",
+      "x"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "signal_wifi_connected_no_internet_4",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cell",
+      "cellular",
+      "data",
+      "internet",
+      "mobile",
+      "network",
+      "no",
+      "phone",
+      "signal",
+      "speed",
+      "wifi",
+      "wireless",
+      "x"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "signal_wifi_off",
     "do": "",
     "dont": "",
@@ -23414,6 +32469,94 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "signal_wifi_statusbar_4_bar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cell",
+      "cellular",
+      "data",
+      "internet",
+      "mobile",
+      "network",
+      "phone",
+      "signal",
+      "speed",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "signal_wifi_statusbar_connected_no_internet_4",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "alert",
+      "attention",
+      "caution",
+      "cell",
+      "cellular",
+      "danger",
+      "data",
+      "error",
+      "exclamation",
+      "important",
+      "internet",
+      "mark",
+      "mobile",
+      "network",
+      "notification",
+      "phone",
+      "signal",
+      "speed",
+      "symbol",
+      "warning",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "signal_wifi_statusbar_null",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cell",
+      "cellular",
+      "data",
+      "internet",
+      "mobile",
+      "network",
+      "null",
+      "phone",
+      "signal",
+      "speed",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "sim_card",
@@ -23446,6 +32589,26 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "sim_card_download",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "card",
+      "download",
+      "export",
+      "memory",
+      "sim"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "single_bed",
     "do": "",
     "dont": "",
@@ -23473,6 +32636,65 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "sip",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Dialer",
+      "alphabet",
+      "call",
+      "character",
+      "font",
+      "initiation",
+      "internet",
+      "letter",
+      "over",
+      "phone",
+      "protocol",
+      "routing",
+      "session",
+      "sip",
+      "symbol",
+      "text",
+      "type",
+      "voice"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "skateboarding",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "sport",
+      "game",
+      "extreme",
+      "action",
+      "entertainment",
+      "punk",
+      "athletic",
+      "street",
+      "skating",
+      "skater",
+      "outdoor",
+      "play"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "skip_next",
@@ -23517,6 +32739,32 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "sledding",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "sport",
+      "game",
+      "extreme",
+      "action",
+      "bobsled",
+      "tobogganing",
+      "snow",
+      "winter",
+      "tubing",
+      "wooden",
+      "competition"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "slideshow",
@@ -23574,6 +32822,78 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "smart_display",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "airplay",
+      "cast",
+      "chrome",
+      "connect",
+      "device",
+      "display",
+      "play",
+      "screen",
+      "screencast",
+      "smart",
+      "stream",
+      "television",
+      "tv",
+      "video",
+      "wireless"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "smart_screen",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "airplay",
+      "cast",
+      "connect",
+      "device",
+      "display",
+      "mobile",
+      "screen",
+      "screencast",
+      "smart",
+      "stream",
+      "video",
+      "wireless"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "smart_toy",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "robot",
+      "smart",
+      "toy"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "smartphone",
@@ -23706,6 +33026,78 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "snowboarding",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "sport",
+      "game",
+      "extreme",
+      "action",
+      "winter",
+      "Adventure",
+      "surfing"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "snowmobile",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "sport",
+      "game",
+      "extreme",
+      "action",
+      "winter",
+      "Adventure",
+      "transport",
+      "travel",
+      "vehicle",
+      "holiday",
+      "ice"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "snowshoeing",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "sport",
+      "game",
+      "action",
+      "winter",
+      "Adventure",
+      "travel",
+      "holiday",
+      "ice",
+      "mountain"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "soap",
     "do": "",
     "dont": "",
@@ -23723,6 +33115,30 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "social_distance",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "avatar",
+      "avoid",
+      "keep",
+      "safe",
+      "arrow",
+      "direction",
+      "left",
+      "move",
+      "right",
+      "people"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "sort",
@@ -24036,6 +33452,25 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "splitscreen",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "layout",
+      "multitasking",
+      "screen",
+      "split",
+      "two"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "sports",
@@ -24381,6 +33816,25 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "sports_score",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "destination",
+      "flag",
+      "goal",
+      "score",
+      "sports"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "sports_soccer",
     "do": "",
     "dont": "",
@@ -24476,6 +33930,33 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "stacked_bar_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "stacked",
+      "statistics",
+      "tracking"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "stacked_line_chart",
     "do": "",
     "dont": "",
@@ -24547,6 +34028,34 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "star_border_purple500",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "500",
+      "best",
+      "bookmark",
+      "border",
+      "favorite",
+      "highlight",
+      "outline",
+      "purple",
+      "ranking",
+      "rate",
+      "rating",
+      "save",
+      "star",
+      "toggle"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "star_half",
     "do": "",
     "dont": "",
@@ -24587,6 +34096,32 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "star_purple500",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "500",
+      "best",
+      "bookmark",
+      "favorite",
+      "highlight",
+      "purple",
+      "ranking",
+      "rate",
+      "rating",
+      "save",
+      "star",
+      "toggle"
+    ],
+    "category": [
+      "toggle"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "stars",
@@ -24837,6 +34372,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "storm",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "forecast",
+      "hurricane",
+      "storm",
+      "temperature",
+      "twister",
+      "weather",
+      "wind"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "straighten",
     "do": "",
     "dont": "",
@@ -24852,6 +34408,27 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "stream",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "connected",
+      "feed",
+      "live",
+      "network",
+      "signal",
+      "stream",
+      "wireless"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "streetview",
@@ -25109,6 +34686,25 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "summarize",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "list",
+      "menu",
+      "note",
+      "report",
+      "summary"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "superscript",
     "do": "",
     "dont": "",
@@ -25226,6 +34822,32 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "surfing",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "activity",
+      "sport",
+      "game",
+      "extreme",
+      "action",
+      "winter",
+      "Adventure",
+      "surfing",
+      "vacation",
+      "sea",
+      "tide",
+      "beach"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "surround_sound",
     "do": "",
     "dont": "",
@@ -25339,6 +34961,54 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "swipe",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "fingers",
+      "gesture",
+      "hand",
+      "hands",
+      "swipe",
+      "touch"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "switch_account",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "choices",
+      "face",
+      "human",
+      "multiple",
+      "options",
+      "people",
+      "person",
+      "profile",
+      "social",
+      "switch",
+      "user"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "switch_camera",
@@ -25483,6 +35153,88 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "system_security_update",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "operating",
+      "pc",
+      "computer",
+      "data",
+      "mobile",
+      "renew",
+      "arrow",
+      "download",
+      "phone",
+      "software",
+      "done",
+      "check",
+      "success",
+      "complete",
+      "finish"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "system_security_update_good",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "operating",
+      "pc",
+      "computer",
+      "data",
+      "mobile",
+      "renew",
+      "arrow",
+      "download",
+      "phone",
+      "software",
+      "running"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "system_security_update_warning",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "operating",
+      "pc",
+      "computer",
+      "data",
+      "mobile",
+      "renew",
+      "arrow",
+      "download",
+      "phone",
+      "software",
+      "error",
+      "alert",
+      "!",
+      "decline"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "system_update",
@@ -25704,6 +35456,29 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "tag",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "hash",
+      "hashtag",
+      "key",
+      "media",
+      "number",
+      "pound",
+      "social",
+      "tag",
+      "trend"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "tag_faces",
     "do": "",
     "dont": "",
@@ -25720,6 +35495,27 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "takeout_dining",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "box",
+      "container",
+      "delivery",
+      "food",
+      "meal",
+      "restaurant",
+      "takeout"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "tap_and_play",
@@ -25756,6 +35552,95 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "task",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "check",
+      "checklist",
+      "job",
+      "list",
+      "note",
+      "ok",
+      "task",
+      "tick",
+      "work"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "task_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "check",
+      "checklist",
+      "job",
+      "list",
+      "note",
+      "ok",
+      "task",
+      "tick",
+      "work",
+      "circle",
+      "done",
+      "finish"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "taxi_alert",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "alert",
+      "attention",
+      "automobile",
+      "cab",
+      "call",
+      "car",
+      "cars",
+      "caution",
+      "danger",
+      "direction",
+      "error",
+      "exclamation",
+      "important",
+      "lyft",
+      "maps",
+      "mark",
+      "notification",
+      "public",
+      "symbol",
+      "taxi",
+      "transportation",
+      "uber",
+      "vehicle",
+      "warning",
+      "yellow"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "terrain",
@@ -26032,6 +35917,30 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "theater_comedy",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "broadway",
+      "comedy",
+      "event",
+      "movie",
+      "musical",
+      "show",
+      "standup",
+      "theater",
+      "tour",
+      "watch"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "theaters",
     "do": "",
     "dont": "",
@@ -26051,6 +35960,47 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "thermostat",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "forecast",
+      "temperature",
+      "thermostat",
+      "weather"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "thermostat_auto",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "a",
+      "auto",
+      "celsius",
+      "fahrenheit",
+      "meter",
+      "temp",
+      "temperature",
+      "thermometer",
+      "thermostat"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "thumb_down",
@@ -26077,6 +36027,35 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "thumb_down_off_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bad",
+      "decline",
+      "disapprove",
+      "dislike",
+      "down",
+      "feedback",
+      "hate",
+      "negative",
+      "no",
+      "reject",
+      "sad",
+      "social",
+      "thumb",
+      "veto",
+      "vote"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "thumb_up",
     "do": "",
     "dont": "",
@@ -26099,6 +36078,37 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "thumb_up_off_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "agreed",
+      "approved",
+      "confirm",
+      "correct",
+      "favorite",
+      "feedback",
+      "good",
+      "happy",
+      "like",
+      "okay",
+      "positive",
+      "satisfaction",
+      "social",
+      "thumb",
+      "up",
+      "vote",
+      "yes"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "thumbs_up_down",
@@ -26221,6 +36231,32 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "timer_10_select",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "10. second",
+      "alphabet",
+      "camera",
+      "character",
+      "digit",
+      "font",
+      "letter",
+      "number",
+      "symbol",
+      "text",
+      "timer",
+      "type"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "timer_3",
     "do": "",
     "dont": "",
@@ -26238,6 +36274,33 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "timer_3_select",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "3",
+      "alphabet",
+      "camera",
+      "character",
+      "digit",
+      "font",
+      "letter",
+      "number",
+      "second",
+      "symbol",
+      "text",
+      "timer",
+      "type"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "timer_off",
@@ -26645,6 +36708,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "transgender",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "gender",
+      "identity",
+      "glbt",
+      "Sign",
+      "female",
+      "male",
+      "equality"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "transit_enterexit",
     "do": "",
     "dont": "",
@@ -26682,6 +36766,26 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "travel_explore",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "map",
+      "search",
+      "geography",
+      "globe",
+      "view",
+      "earth"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "trending_down",
@@ -26770,6 +36874,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "try",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bubble",
+      "comment",
+      "doc",
+      "document",
+      "note",
+      "star",
+      "try"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "tty",
     "do": "",
     "dont": "",
@@ -26805,6 +36930,27 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "tungsten",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "electricity",
+      "indoor",
+      "lamp",
+      "light",
+      "lightbulb",
+      "setting",
+      "tungsten"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "turned_in",
@@ -27042,6 +37188,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "upcoming",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alarm",
+      "alert",
+      "calendar",
+      "mail",
+      "message",
+      "notification",
+      "upcoming"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "update",
     "do": "",
     "dont": "",
@@ -27102,6 +37269,55 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "upload",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "download",
+      "drive",
+      "up",
+      "upload"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "upload_file",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "data",
+      "doc",
+      "document",
+      "download",
+      "drive",
+      "file",
+      "folder",
+      "folders",
+      "sheet",
+      "slide",
+      "storage",
+      "up",
+      "upload"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "usb",
     "do": "",
     "dont": "",
@@ -27118,6 +37334,27 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "usb_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "wire",
+      "usb",
+      "connection",
+      "cable",
+      "device",
+      "mode",
+      "inaccessible"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "verified",
@@ -27317,6 +37554,57 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "video_camera_back",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "back",
+      "camera",
+      "image",
+      "landscape",
+      "mountain",
+      "mountains",
+      "photo",
+      "photography",
+      "picture",
+      "rear"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "video_camera_front",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "camera",
+      "face",
+      "front",
+      "human",
+      "image",
+      "people",
+      "person",
+      "photo",
+      "photography",
+      "picture",
+      "profile",
+      "user"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "video_label",
     "do": "",
     "dont": "",
@@ -27373,6 +37661,26 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "video_stable",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "film",
+      "filming",
+      "setting",
+      "stability",
+      "stable",
+      "video"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "videocam",
     "do": "",
     "dont": "",
@@ -27427,6 +37735,27 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "videogame_asset_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "device",
+      "game",
+      "console",
+      "controller",
+      "dualshock",
+      "mode",
+      "inaccessible"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "view_agenda",
@@ -27578,6 +37907,30 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "view_in_ar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "3d",
+      "ar",
+      "augmented",
+      "cube",
+      "daydream",
+      "headset",
+      "reality",
+      "square",
+      "view",
+      "vr"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "view_list",
     "do": "",
     "dont": "",
@@ -27721,6 +38074,29 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "villa",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "accommodation",
+      "house",
+      "place",
+      "lodge",
+      "home",
+      "building",
+      "vacation",
+      "family",
+      "residential"
+    ],
+    "category": [
+      "places"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "visibility",
@@ -27921,6 +38297,30 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "volunteer_activism",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "donation",
+      "fingers",
+      "gesture",
+      "giving",
+      "hand",
+      "hands",
+      "heart",
+      "love",
+      "sharing",
+      "volunteer"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "vpn_key",
     "do": "",
     "dont": "",
@@ -27957,6 +38357,24 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "vrpano",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "landscape",
+      "mountain",
+      "mountains",
+      "vrpano"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "wallpaper",
@@ -27996,6 +38414,29 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "warning_amber",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "auto",
+      "can",
+      "clock",
+      "delete",
+      "garbage",
+      "removal bin",
+      "remove",
+      "time",
+      "trash"
+    ],
+    "category": [
+      "alert"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "wash",
@@ -28050,6 +38491,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "water",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "aqua",
+      "beach",
+      "ocean",
+      "river",
+      "water",
+      "waves",
+      "weather"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "water_damage",
     "do": "",
     "dont": "",
@@ -28064,6 +38526,33 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "waterfall_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "statistics",
+      "tracking",
+      "waterfall"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "waves",
@@ -28139,6 +38628,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "wb_shade",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "balance",
+      "house",
+      "light",
+      "lighting",
+      "shade",
+      "wb",
+      "white"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "wb_sunny",
     "do": "",
     "dont": "",
@@ -28157,6 +38667,30 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "wb_twilight",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "night",
+      "weather",
+      "filter",
+      "camera",
+      "setting",
+      "photo",
+      "dusk",
+      "nightfall",
+      "sundown",
+      "sunset"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "wc",
@@ -28218,6 +38752,31 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "web_asset_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "image",
+      "download",
+      "website",
+      "Web",
+      "www",
+      "browser",
+      "screen",
+      "video",
+      "asset",
+      "internet",
+      "mode"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "weekend",
@@ -28371,6 +38930,30 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "wifi_calling_3",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cell",
+      "cellular",
+      "data",
+      "internet",
+      "mobile",
+      "network",
+      "phone",
+      "speed",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "wifi_lock",
     "do": "",
     "dont": "",
@@ -28463,6 +39046,97 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "wifi_tethering_error_rounded",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "!",
+      "alert",
+      "attention",
+      "caution",
+      "cell",
+      "cellular",
+      "danger",
+      "data",
+      "error",
+      "exclamation",
+      "important",
+      "internet",
+      "mark",
+      "mobile",
+      "network",
+      "notification",
+      "phone",
+      "speed",
+      "symbol",
+      "tethering",
+      "warning",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "wifi_tethering_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cell",
+      "cellular",
+      "data",
+      "disabled",
+      "enabled",
+      "error",
+      "internet",
+      "mobile",
+      "network",
+      "off",
+      "on",
+      "phone",
+      "slash",
+      "speed",
+      "tethering",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "window",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "close",
+      "glass",
+      "grid",
+      "home",
+      "house",
+      "interior",
+      "layout",
+      "outside",
+      "window"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "wine_bar",
     "do": "",
     "dont": "",
@@ -28538,6 +39212,26 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "workspaces",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "coworking",
+      "office",
+      "sharing",
+      "together",
+      "circle",
+      "people"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "wrap_text",
     "do": "",
     "dont": "",
@@ -28599,6 +39293,29 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
+  },
+  {
+    "name": "yard",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "backyard",
+      "flower",
+      "garden",
+      "home",
+      "house",
+      "nature",
+      "pettle",
+      "plants",
+      "yard"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "03/03/2021",
+    "hasOutlined": true
   },
   {
     "name": "youtube_searched_for",

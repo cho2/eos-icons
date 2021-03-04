@@ -1,0 +1,11 @@
+{
+  "name": "restart_alt",
+  "do": "",
+  "dont": "",
+  "tags": ["arrow", "reboot", "repeat", "reset", "restart"],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

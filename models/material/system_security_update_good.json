@@ -1,0 +1,23 @@
+{
+  "name": "system_security_update_good",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "operating",
+    "pc",
+    "computer",
+    "data",
+    "mobile",
+    "renew",
+    "arrow",
+    "download",
+    "phone",
+    "software",
+    "running"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

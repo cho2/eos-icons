@@ -1,0 +1,24 @@
+{
+  "name": "smart_screen",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "airplay",
+    "cast",
+    "connect",
+    "device",
+    "display",
+    "mobile",
+    "screen",
+    "screencast",
+    "smart",
+    "stream",
+    "video",
+    "wireless"
+  ],
+  "category": ["hardware"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

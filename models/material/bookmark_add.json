@@ -1,0 +1,11 @@
+{
+  "name": "bookmark_add",
+  "do": "",
+  "dont": "",
+  "tags": ["bookmarks", "remember", "bookmark", "new", "save"],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

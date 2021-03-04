@@ -1,0 +1,24 @@
+{
+  "name": "download_done",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrow",
+    "arrows",
+    "check",
+    "down",
+    "download",
+    "downloads",
+    "drive",
+    "install",
+    "installed",
+    "ok",
+    "tick",
+    "upload"
+  ],
+  "category": ["file"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

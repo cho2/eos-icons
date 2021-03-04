@@ -1,0 +1,19 @@
+{
+  "name": "hardware",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "break",
+    "construction",
+    "hammer",
+    "hardware",
+    "nail",
+    "repair",
+    "tool"
+  ],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

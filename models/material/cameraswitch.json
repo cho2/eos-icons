@@ -1,0 +1,11 @@
+{
+  "name": "cameraswitch",
+  "do": "",
+  "dont": "",
+  "tags": ["arrow", "camera", "flip", "rotate", "swap", "switch", "view"],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

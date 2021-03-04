@@ -1,0 +1,20 @@
+{
+  "name": "mark_as_unread",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "envelop",
+    "letter",
+    "mail",
+    "post",
+    "postal",
+    "receive",
+    "send",
+    "unread"
+  ],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

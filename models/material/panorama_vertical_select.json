@@ -1,0 +1,21 @@
+{
+  "name": "panorama_vertical_select",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "angle",
+    "image",
+    "panorama",
+    "photo",
+    "photography",
+    "picture",
+    "select",
+    "vertical",
+    "wide"
+  ],
+  "category": ["image"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

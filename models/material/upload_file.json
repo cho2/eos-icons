@@ -1,0 +1,27 @@
+{
+  "name": "upload_file",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrow",
+    "arrows",
+    "data",
+    "doc",
+    "document",
+    "download",
+    "drive",
+    "file",
+    "folder",
+    "folders",
+    "sheet",
+    "slide",
+    "storage",
+    "up",
+    "upload"
+  ],
+  "category": ["file"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

@@ -1,0 +1,20 @@
+{
+  "name": "gpp_bad",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bad",
+    "certified",
+    "error",
+    "gpp",
+    "security",
+    "shield",
+    "sim",
+    "x"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

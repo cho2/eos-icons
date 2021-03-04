@@ -1,0 +1,11 @@
+{
+  "name": "auto_graph",
+  "do": "",
+  "dont": "",
+  "tags": ["Chart", "computer", "diagnostics", "diagram", "graph"],
+  "category": ["editor"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}
