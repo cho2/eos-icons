@@ -11386,37 +11386,6 @@ const eosIcons = [
     "hasOutlined": true
   },
   {
-    "name": "data_saver_off",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "analytics",
-      "bar",
-      "bars",
-      "chart",
-      "data",
-      "diagram",
-      "donut",
-      "graph",
-      "infographic",
-      "measure",
-      "metrics",
-      "off",
-      "on",
-      "ring",
-      "saver",
-      "statistics",
-      "tracking"
-    ],
-    "category": [
-      "device"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "data_saver_on",
     "do": "",
     "dont": "",
@@ -12106,30 +12075,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "directions_boat_filled",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "automobile",
-      "boat",
-      "car",
-      "cars",
-      "direction",
-      "ferry",
-      "maps",
-      "public",
-      "transportation",
-      "vehicle"
-    ],
-    "category": [
-      "maps"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "directions_bus",
     "do": "",
     "dont": "",
@@ -12151,29 +12096,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "directions_bus_filled",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "automobile",
-      "bus",
-      "car",
-      "cars",
-      "direction",
-      "maps",
-      "public",
-      "transportation",
-      "vehicle"
-    ],
-    "category": [
-      "maps"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "directions_car",
     "do": "",
     "dont": "",
@@ -12193,28 +12115,6 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
-  },
-  {
-    "name": "directions_car_filled",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "automobile",
-      "car",
-      "cars",
-      "direction",
-      "maps",
-      "public",
-      "transportation",
-      "vehicle"
-    ],
-    "category": [
-      "maps"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
   },
   {
     "name": "directions_off",
@@ -12255,30 +12155,6 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
-  },
-  {
-    "name": "directions_railway_filled",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "automobile",
-      "car",
-      "cars",
-      "direction",
-      "maps",
-      "public",
-      "rail",
-      "train",
-      "transportation",
-      "vehicle"
-    ],
-    "category": [
-      "maps"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
   },
   {
     "name": "directions_run",
@@ -12327,31 +12203,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "directions_subway_filled",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "automobile",
-      "car",
-      "cars",
-      "direction",
-      "maps",
-      "public",
-      "rail",
-      "subway",
-      "train",
-      "transportation",
-      "vehicle"
-    ],
-    "category": [
-      "maps"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "directions_transit",
     "do": "",
     "dont": "",
@@ -12374,31 +12225,6 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
-  },
-  {
-    "name": "directions_transit_filled",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "automobile",
-      "car",
-      "cars",
-      "direction",
-      "maps",
-      "public",
-      "rail",
-      "subway",
-      "train",
-      "transportation",
-      "vehicle"
-    ],
-    "category": [
-      "maps"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
   },
   {
     "name": "directions_walk",
@@ -12474,81 +12300,7 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "do_disturb",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "cancel",
-      "close",
-      "denied",
-      "deny",
-      "disturb",
-      "do",
-      "remove",
-      "silence",
-      "stop"
-    ],
-    "category": [
-      "notification"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
-    "name": "do_disturb_alt",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "cancel",
-      "close",
-      "denied",
-      "deny",
-      "disturb",
-      "do",
-      "remove",
-      "silence",
-      "stop"
-    ],
-    "category": [
-      "notification"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "do_disturb_off",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "cancel",
-      "close",
-      "denied",
-      "deny",
-      "disabled",
-      "disturb",
-      "do",
-      "enabled",
-      "off",
-      "on",
-      "remove",
-      "silence",
-      "slash",
-      "stop"
-    ],
-    "category": [
-      "notification"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
-    "name": "do_disturb_on",
     "do": "",
     "dont": "",
     "tags": [
@@ -18370,30 +18122,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "headphones",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "accessory",
-      "audio",
-      "device",
-      "ear",
-      "earphone",
-      "headphones",
-      "headset",
-      "listen",
-      "music",
-      "sound"
-    ],
-    "category": [
-      "hardware"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "headphones_battery",
     "do": "",
     "dont": "",
@@ -19938,30 +19666,6 @@ const eosIcons = [
       "purchase",
       "shop",
       "store"
-    ],
-    "category": [
-      "content"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
-    "name": "inventory_2",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "archive",
-      "box",
-      "file",
-      "inventory",
-      "organize",
-      "packages",
-      "product",
-      "stock",
-      "storage",
-      "supply"
     ],
     "category": [
       "content"
@@ -21887,33 +21591,6 @@ const eosIcons = [
     ],
     "category": [
       "social"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "location_disabled",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "pointer",
-      "maps",
-      "destination",
-      "tracking",
-      "enabled",
-      "off",
-      "pin",
-      "stop",
-      "disabled",
-      "location",
-      "slash",
-      "place",
-      "direction",
-      "on"
-    ],
-    "category": [
-      "device"
     ],
     "type": "static",
     "hasOutlined": true,
@@ -24122,28 +23799,6 @@ const eosIcons = [
     ],
     "category": [
       "av"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "my_location",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "navigation",
-      "maps",
-      "pin",
-      "stop",
-      "destination",
-      "location",
-      "place",
-      "point",
-      "direction"
-    ],
-    "category": [
-      "maps"
     ],
     "type": "static",
     "hasOutlined": true,
@@ -33888,34 +33543,6 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
-  },
-  {
-    "name": "star_border_purple500",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "500",
-      "best",
-      "bookmark",
-      "border",
-      "favorite",
-      "highlight",
-      "outline",
-      "purple",
-      "ranking",
-      "rate",
-      "rating",
-      "save",
-      "star",
-      "toggle"
-    ],
-    "category": [
-      "toggle"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
   },
   {
     "name": "star_half",
