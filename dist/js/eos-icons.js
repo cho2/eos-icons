@@ -5732,28 +5732,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "arrow_back_ios_new",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "arrow",
-      "arrows",
-      "back",
-      "chevron",
-      "direction",
-      "ios",
-      "left",
-      "previous"
-    ],
-    "category": [
-      "navigation"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "arrow_circle_down",
     "do": "",
     "dont": "",
@@ -23320,29 +23298,6 @@ const eosIcons = [
     "hasOutlined": true
   },
   {
-    "name": "mode",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "compose",
-      "create",
-      "draft",
-      "draw",
-      "edit",
-      "mode",
-      "pen",
-      "pencil",
-      "write"
-    ],
-    "category": [
-      "editor"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "mode_comment",
     "do": "",
     "dont": "",
@@ -23378,27 +23333,6 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
-  },
-  {
-    "name": "mode_edit_outline",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "bubble",
-      "speech",
-      "chat",
-      "comment",
-      "pen",
-      "writing",
-      "content"
-    ],
-    "category": [
-      "editor"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
   },
   {
     "name": "mode_night",
@@ -26079,25 +26013,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "pause_circle",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "Pause",
-      "controls",
-      "music",
-      "control",
-      "video"
-    ],
-    "category": [
-      "av"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "pause_circle_filled",
     "do": "",
     "dont": "",
@@ -27394,59 +27309,6 @@ const eosIcons = [
   },
   {
     "name": "pie_chart",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "data",
-      "infographic",
-      "pie",
-      "tracking",
-      "bars",
-      "graph",
-      "analytics",
-      "diagram",
-      "bar",
-      "measure",
-      "metrics",
-      "statistics",
-      "chart"
-    ],
-    "category": [
-      "editor"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "pie_chart_outline",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "analytics",
-      "bar",
-      "bars",
-      "chart",
-      "data",
-      "diagram",
-      "graph",
-      "infographic",
-      "measure",
-      "metrics",
-      "pie",
-      "statistics",
-      "tracking"
-    ],
-    "category": [
-      "editor"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
-    "name": "pie_chart_outlined",
     "do": "",
     "dont": "",
     "tags": [
@@ -31970,29 +31832,6 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
-  },
-  {
-    "name": "shop_2",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "add",
-      "play",
-      "shop",
-      "arrow",
-      "buy",
-      "purchase",
-      "google",
-      "cart",
-      "shopping"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
   },
   {
     "name": "shop_two",
