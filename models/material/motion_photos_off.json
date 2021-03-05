@@ -1,0 +1,22 @@
+{
+  "name": "motion_photos_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "animation",
+    "circle",
+    "disabled",
+    "enabled",
+    "motion",
+    "off",
+    "on",
+    "photos",
+    "slash",
+    "video"
+  ],
+  "category": ["image"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

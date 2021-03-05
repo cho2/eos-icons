@@ -1,0 +1,19 @@
+{
+  "name": "electric_rickshaw",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "automobile",
+    "car",
+    "cars",
+    "india",
+    "maps",
+    "transportation",
+    "vehicle"
+  ],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

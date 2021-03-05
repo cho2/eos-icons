@@ -1,0 +1,11 @@
+{
+  "name": "summarize",
+  "do": "",
+  "dont": "",
+  "tags": ["list", "menu", "note", "report", "summary"],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

@@ -1,0 +1,20 @@
+{
+  "name": "replay_circle_filled",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Replay",
+    "arrow",
+    "arrows",
+    "control",
+    "controls",
+    "music",
+    "repeat",
+    "video"
+  ],
+  "category": ["av"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

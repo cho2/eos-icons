@@ -1,0 +1,11 @@
+{
+  "name": "reviews",
+  "do": "",
+  "dont": "",
+  "tags": ["comment", "rate", "rating", "recommendation", "review"],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

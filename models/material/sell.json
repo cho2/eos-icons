@@ -1,0 +1,29 @@
+{
+  "name": "sell",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bill",
+    "card",
+    "cart",
+    "cash",
+    "coin",
+    "commerce",
+    "credit",
+    "currency",
+    "dollars",
+    "money",
+    "online",
+    "pay",
+    "payment",
+    "price",
+    "sell",
+    "shopping",
+    "tag"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

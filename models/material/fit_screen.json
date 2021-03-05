@@ -1,0 +1,11 @@
+{
+  "name": "fit_screen",
+  "do": "",
+  "dont": "",
+  "tags": ["enlarge", "fit", "reduce", "scale", "screen", "size"],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

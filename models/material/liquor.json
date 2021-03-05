@@ -1,0 +1,20 @@
+{
+  "name": "liquor",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "alcohol",
+    "bottle",
+    "cocktail",
+    "drink",
+    "food",
+    "liquor",
+    "store",
+    "wine"
+  ],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

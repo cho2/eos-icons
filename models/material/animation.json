@@ -1,0 +1,11 @@
+{
+  "name": "animation",
+  "do": "",
+  "dont": "",
+  "tags": ["animation", "circles", "motion", "movie", "moving", "video"],
+  "category": ["image"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

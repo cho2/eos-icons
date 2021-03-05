@@ -1,0 +1,20 @@
+{
+  "name": "media_bluetooth_on",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bluetooth",
+    "connection",
+    "device",
+    "media",
+    "music",
+    "note",
+    "paring",
+    "symbol"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

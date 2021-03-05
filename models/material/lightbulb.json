@@ -1,0 +1,19 @@
+{
+  "name": "lightbulb",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "alert",
+    "announcement",
+    "idea",
+    "info",
+    "information",
+    "light",
+    "lightbulb"
+  ],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

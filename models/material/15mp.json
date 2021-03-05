@@ -1,0 +1,28 @@
+{
+  "name": "15mp",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "15",
+    "camera",
+    "digits",
+    "font",
+    "letters",
+    "megapixel",
+    "megapixels",
+    "mp",
+    "numbers",
+    "pixel",
+    "pixels",
+    "quality",
+    "resolution",
+    "symbol",
+    "text",
+    "type"
+  ],
+  "category": ["image"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

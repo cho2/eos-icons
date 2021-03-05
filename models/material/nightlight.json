@@ -1,0 +1,11 @@
+{
+  "name": "nightlight",
+  "do": "",
+  "dont": "",
+  "tags": ["dark", "disturb", "mode", "moon", "night", "sleep", "weather"],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

@@ -1,0 +1,23 @@
+{
+  "name": "chalet",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "house",
+    "hut",
+    "resort",
+    "summer",
+    "cabin",
+    "holiday",
+    "building",
+    "wood",
+    "shack",
+    "camp",
+    "accommodation"
+  ],
+  "category": ["places"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

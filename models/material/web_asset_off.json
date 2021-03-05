@@ -1,0 +1,23 @@
+{
+  "name": "web_asset_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "image",
+    "download",
+    "website",
+    "Web",
+    "www",
+    "browser",
+    "screen",
+    "video",
+    "asset",
+    "internet",
+    "mode"
+  ],
+  "category": ["av"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

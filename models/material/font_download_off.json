@@ -1,0 +1,11 @@
+{
+  "name": "font_download_off",
+  "do": "",
+  "dont": "",
+  "tags": ["format", "message", "text", "document", "on", "off"],
+  "category": ["content"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

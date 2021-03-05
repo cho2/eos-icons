@@ -1,0 +1,11 @@
+{
+  "name": "maps_home_work",
+  "do": "",
+  "dont": "",
+  "tags": ["building", "home", "house", "maps", "office", "work"],
+  "category": ["navigation"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

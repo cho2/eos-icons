@@ -1,0 +1,11 @@
+{
+  "name": "nearby_off",
+  "do": "",
+  "dont": "",
+  "tags": ["disabled", "enabled", "nearby", "off", "on", "slash"],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

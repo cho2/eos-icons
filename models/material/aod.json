@@ -1,0 +1,25 @@
+{
+  "name": "aod",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Android",
+    "OS",
+    "always",
+    "aod",
+    "device",
+    "display",
+    "hardware",
+    "homescreen",
+    "iOS",
+    "mobile",
+    "on",
+    "phone",
+    "tablet"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

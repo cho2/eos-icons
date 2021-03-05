@@ -1,0 +1,22 @@
+{
+  "name": "view_in_ar",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "3d",
+    "ar",
+    "augmented",
+    "cube",
+    "daydream",
+    "headset",
+    "reality",
+    "square",
+    "view",
+    "vr"
+  ],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

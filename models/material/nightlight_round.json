@@ -1,0 +1,11 @@
+{
+  "name": "nightlight_round",
+  "do": "",
+  "dont": "",
+  "tags": ["half", "light", "mode", "moon", "night"],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

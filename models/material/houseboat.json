@@ -1,0 +1,19 @@
+{
+  "name": "houseboat",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "home",
+    "river",
+    "travel",
+    "water",
+    "property",
+    "transportation",
+    "vacation"
+  ],
+  "category": ["places"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

@@ -1,0 +1,30 @@
+{
+  "name": "6k_plus",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "+",
+    "6000",
+    "6K",
+    "alphabet",
+    "character",
+    "digit",
+    "display",
+    "font",
+    "letter",
+    "number",
+    "pixel",
+    "pixels",
+    "plus",
+    "resolution",
+    "symbol",
+    "text",
+    "type",
+    "video"
+  ],
+  "category": ["av"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

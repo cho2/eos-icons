@@ -1,0 +1,19 @@
+{
+  "name": "fmd_good",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "destination",
+    "direction",
+    "location",
+    "maps",
+    "pin",
+    "place",
+    "stop"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

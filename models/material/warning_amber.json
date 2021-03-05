@@ -1,0 +1,21 @@
+{
+  "name": "warning_amber",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "auto",
+    "can",
+    "clock",
+    "delete",
+    "garbage",
+    "removal bin",
+    "remove",
+    "time",
+    "trash"
+  ],
+  "category": ["alert"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

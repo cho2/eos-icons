@@ -1,0 +1,22 @@
+{
+  "name": "gpp_good",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "certified",
+    "check",
+    "good",
+    "gpp",
+    "ok",
+    "pass",
+    "security",
+    "shield",
+    "sim",
+    "tick"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

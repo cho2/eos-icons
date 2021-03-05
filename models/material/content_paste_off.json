@@ -1,0 +1,11 @@
+{
+  "name": "content_paste_off",
+  "do": "",
+  "dont": "",
+  "tags": ["text", "edit", "editor", "writing", "clipboard"],
+  "category": ["content"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

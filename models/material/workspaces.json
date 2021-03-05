@@ -1,0 +1,11 @@
+{
+  "name": "workspaces",
+  "do": "",
+  "dont": "",
+  "tags": ["coworking", "office", "sharing", "together", "circle", "people"],
+  "category": ["file"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

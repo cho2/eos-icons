@@ -1,0 +1,11 @@
+{
+  "name": "airplane_ticket",
+  "do": "",
+  "dont": "",
+  "tags": ["airplane", "boarding", "flight", "pass", "ticket"],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

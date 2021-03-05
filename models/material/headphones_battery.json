@@ -1,0 +1,24 @@
+{
+  "name": "headphones_battery",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "accessory",
+    "audio",
+    "battery",
+    "charing",
+    "device",
+    "ear",
+    "earphone",
+    "headphones",
+    "headset",
+    "listen",
+    "music",
+    "sound"
+  ],
+  "category": ["hardware"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

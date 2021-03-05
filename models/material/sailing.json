@@ -1,0 +1,24 @@
+{
+  "name": "sailing",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "activity",
+    "sport",
+    "ship",
+    "beach",
+    "boat",
+    "sports",
+    "water",
+    "yacht",
+    "travel",
+    "transportation",
+    "luxury",
+    "hobby"
+  ],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}
