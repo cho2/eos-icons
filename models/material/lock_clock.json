@@ -1,0 +1,11 @@
+{
+  "name": "lock_clock",
+  "do": "",
+  "dont": "",
+  "tags": ["clock", "connection", "key", "lock", "locked", "secure", "time"],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

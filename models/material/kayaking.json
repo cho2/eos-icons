@@ -1,0 +1,24 @@
+{
+  "name": "kayaking",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "activity",
+    "adventure",
+    "kayak",
+    "sport",
+    "summer",
+    "vacation",
+    "canoeing",
+    "people",
+    "water",
+    "river",
+    "boat",
+    "game"
+  ],
+  "category": ["social"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

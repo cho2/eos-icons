@@ -1,0 +1,11 @@
+{
+  "name": "bakery_dining",
+  "do": "",
+  "dont": "",
+  "tags": ["bakery", "bread", "breakfast", "croissant", "food"],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

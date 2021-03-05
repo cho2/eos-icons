@@ -1,0 +1,21 @@
+{
+  "name": "panorama_photosphere",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "angle",
+    "horizontal",
+    "image",
+    "panorama",
+    "photo",
+    "photography",
+    "photosphere",
+    "picture",
+    "wide"
+  ],
+  "category": ["image"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

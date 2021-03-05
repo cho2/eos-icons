@@ -1,0 +1,20 @@
+{
+  "name": "blender",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "appliance",
+    "blender",
+    "cooking",
+    "electric",
+    "juicer",
+    "kitchen",
+    "machine",
+    "vitamix"
+  ],
+  "category": ["search"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

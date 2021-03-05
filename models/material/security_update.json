@@ -1,0 +1,25 @@
+{
+  "name": "security_update",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Android",
+    "OS",
+    "arrow",
+    "device",
+    "down",
+    "download",
+    "hardware",
+    "iOS",
+    "mobile",
+    "phone",
+    "security",
+    "tablet",
+    "update"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

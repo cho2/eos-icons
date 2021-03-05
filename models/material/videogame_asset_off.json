@@ -1,0 +1,19 @@
+{
+  "name": "videogame_asset_off",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "device",
+    "game",
+    "console",
+    "controller",
+    "dualshock",
+    "mode",
+    "inaccessible"
+  ],
+  "category": ["hardware"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

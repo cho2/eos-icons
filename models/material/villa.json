@@ -1,0 +1,21 @@
+{
+  "name": "villa",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "accommodation",
+    "house",
+    "place",
+    "lodge",
+    "home",
+    "building",
+    "vacation",
+    "family",
+    "residential"
+  ],
+  "category": ["places"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

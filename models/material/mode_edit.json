@@ -2,7 +2,7 @@
   "name": "mode_edit",
   "do": "",
   "dont": "",
-  "tags": ["bubble", "speech", "chat", "comment"],
+  "tags": ["bubble", "speech", "chat", "comment", "pen", "writing", "content"],
   "category": ["editor"],
   "type": "static",
   "hasOutlined": true,

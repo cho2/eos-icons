@@ -1,0 +1,11 @@
+{
+  "name": "other_houses",
+  "do": "",
+  "dont": "",
+  "tags": ["architecture", "estate", "home", "real", "residential"],
+  "category": ["places"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

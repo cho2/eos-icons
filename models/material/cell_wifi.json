@@ -1,0 +1,11 @@
+{
+  "name": "cell_wifi",
+  "do": "",
+  "dont": "",
+  "tags": ["Wifi", "cell", "device", "internet", "network", "phone", "service"],
+  "category": ["communication"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

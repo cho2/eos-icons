@@ -1,0 +1,23 @@
+{
+  "name": "assistant_direction",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "assistant",
+    "destination",
+    "direction",
+    "location",
+    "maps",
+    "navigate",
+    "navigation",
+    "pin",
+    "place",
+    "right",
+    "stop"
+  ],
+  "category": ["navigation"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

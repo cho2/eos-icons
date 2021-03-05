@@ -1,0 +1,32 @@
+{
+  "name": "hdr_off_select",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "alphabet",
+    "auto",
+    "camera",
+    "character",
+    "circle",
+    "disabled",
+    "dynamic",
+    "enabled",
+    "font",
+    "hdr",
+    "high",
+    "letter",
+    "off",
+    "on",
+    "photo",
+    "range",
+    "slash",
+    "symbol",
+    "text",
+    "type"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

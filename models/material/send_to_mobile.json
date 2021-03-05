@@ -1,0 +1,26 @@
+{
+  "name": "send_to_mobile",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Android",
+    "OS",
+    "arrow",
+    "device",
+    "export",
+    "forward",
+    "hardware",
+    "iOS",
+    "mobile",
+    "phone",
+    "right",
+    "send",
+    "share",
+    "tablet"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

@@ -1,0 +1,21 @@
+{
+  "name": "home_mini",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Internet",
+    "device",
+    "gadget",
+    "hardware",
+    "home",
+    "iot",
+    "nest",
+    "smart",
+    "things"
+  ],
+  "category": ["hardware"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

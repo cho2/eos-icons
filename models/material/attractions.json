@@ -1,0 +1,18 @@
+{
+  "name": "attractions",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "Ferris",
+    "amusement. park",
+    "attraction",
+    "entertainment",
+    "fun",
+    "wheel"
+  ],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

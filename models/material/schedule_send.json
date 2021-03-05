@@ -1,0 +1,23 @@
+{
+  "name": "schedule_send",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "calendar",
+    "clock",
+    "date",
+    "email",
+    "letter",
+    "mail",
+    "remember",
+    "schedule",
+    "send",
+    "share",
+    "time"
+  ],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

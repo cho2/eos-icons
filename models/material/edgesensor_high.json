@@ -1,0 +1,19 @@
+{
+  "name": "edgesensor_high",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "edge",
+    "high",
+    "mobile",
+    "move",
+    "sensitivity",
+    "sensor",
+    "vibrate"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

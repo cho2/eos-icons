@@ -1,0 +1,21 @@
+{
+  "name": "2k_plus",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "alphabet",
+    "character",
+    "digit",
+    "font",
+    "letter",
+    "number",
+    "symbol",
+    "text",
+    "type"
+  ],
+  "category": ["av"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

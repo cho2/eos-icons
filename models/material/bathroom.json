@@ -1,0 +1,25 @@
+{
+  "name": "bathroom",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "bath",
+    "bathroom",
+    "closet",
+    "home",
+    "house",
+    "place",
+    "plumbing",
+    "room",
+    "shower",
+    "sprinkler",
+    "wash",
+    "water",
+    "wc"
+  ],
+  "category": ["search"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

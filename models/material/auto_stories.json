@@ -1,0 +1,11 @@
+{
+  "name": "auto_stories",
+  "do": "",
+  "dont": "",
+  "tags": ["audiobook", "auto", "book", "page", "reading", "stories", "story"],
+  "category": ["image"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

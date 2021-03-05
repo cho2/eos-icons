@@ -1,0 +1,11 @@
+{
+  "name": "app_registration",
+  "do": "",
+  "dont": "",
+  "tags": ["app", "apps", "pencil", "register", "registration"],
+  "category": ["communication"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

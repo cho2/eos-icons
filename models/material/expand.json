@@ -1,0 +1,20 @@
+{
+  "name": "expand",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "arrow",
+    "arrows",
+    "compress",
+    "expand",
+    "grow",
+    "move",
+    "push",
+    "together"
+  ],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

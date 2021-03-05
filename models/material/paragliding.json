@@ -1,0 +1,24 @@
+{
+  "name": "paragliding",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "activity",
+    "sport",
+    "people",
+    "game",
+    "extreme",
+    "hang",
+    "parachute",
+    "adventure",
+    "paramotor",
+    "flight",
+    "air",
+    "hobby"
+  ],
+  "category": ["social"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

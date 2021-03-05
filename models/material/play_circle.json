@@ -1,0 +1,11 @@
+{
+  "name": "play_circle",
+  "do": "",
+  "dont": "",
+  "tags": ["Play", "controls", "music", "arrow", "control", "video"],
+  "category": ["av"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

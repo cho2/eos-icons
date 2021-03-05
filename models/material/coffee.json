@@ -1,0 +1,11 @@
+{
+  "name": "coffee",
+  "do": "",
+  "dont": "",
+  "tags": ["beverage", "coffee", "cup", "drink", "mug", "plate", "set", "tea"],
+  "category": ["search"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

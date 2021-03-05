@@ -1,0 +1,23 @@
+{
+  "name": "dangerous",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "broken",
+    "danger",
+    "dangerous",
+    "fix",
+    "no",
+    "sign",
+    "stop",
+    "update",
+    "warning",
+    "wrong",
+    "x"
+  ],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}
