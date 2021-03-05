@@ -67,10 +67,10 @@ module.exports = function (grunt) {
       },
       outlined: {
         src: srcEosSetOutlined,
-        dest: 'dist/outlined/fonts/',
-        destCss: 'dist/outlined/css/',
-        destScss: 'dist/outlined/css/',
-        destLess: 'dist/outlined/css/',
+        dest: 'dist/fonts/outlined',
+        destCss: 'dist/css/outlined',
+        destScss: 'dist/css/outlined',
+        destLess: 'dist/css/outlined',
         options: {
           font: 'eos-icons-outlined',
           syntax: 'bootstrap',
@@ -85,10 +85,7 @@ module.exports = function (grunt) {
             template: 'templates/css-template.css',
             iconsStyles: false
           },
-          stylesheets: ['less', 'scss', 'css'],
-          destHtml: 'dist/outlined',
-          htmlDemoTemplate: 'templates/index-template-outlined.html',
-          htmlDemoFilename: 'index'
+          stylesheets: ['less', 'scss', 'css']
         }
       }
     },
@@ -124,14 +121,6 @@ module.exports = function (grunt) {
       newIcons: {
         dest: 'dist/js/new-icons.js',
         src: './scripts/demos/new-icons.js'
-      },
-      newIconsOutlined: {
-        dest: 'dist/outlined/js/new-icons.js',
-        src: './scripts/demos/new-icons.js'
-      },
-      jsonWithIcons: {
-        dest: 'dist/outlined/js/eos-icons.js',
-        src: 'dist/js/eos-icons.js'
       }
     },
     clean: {
@@ -456,9 +445,7 @@ module.exports = function (grunt) {
     'combineAllIconsModels',
     'clean:tempFolder',
     'jsFromJSON',
-    'copy:newIcons',
-    'copy:newIconsOutlined',
-    'copy:jsonWithIcons'
+    'copy:newIcons'
   ])
   grunt.registerTask('test', [
     'importMdIcons',
