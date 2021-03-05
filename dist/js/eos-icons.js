@@ -922,7 +922,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/4/2021"
   },
   {
     "name": "job",
