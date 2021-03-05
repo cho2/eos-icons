@@ -12,13 +12,18 @@ module.exports = function (grunt) {
     outlineModelsAndSvgTest
   } = require('./scripts/models-checker')
   const { createNewModel } = require('./scripts/models-creation')
-  const { checkSvgName, renameSvgTo } = require('./scripts/svg-checker')
-  const { duplicatedIcons } = require('./scripts/duplicated_icons')
+  const {
+    checkSvgName,
+    renameSvgTo,
+    deleteDuplicateSvg
+  } = require('./scripts/svg-checker')
+
+  const duplicatedIcons = require('./scripts/duplicated_icons.json')
   const {
     eosMdIconsDifferences,
     downloadFile
   } = require('./scripts/eos-md-icons-log-differences')
-  const { downloadSvgFile } = require('./scripts/download-svg')
+  const { downloadMDFile } = require('./scripts/download-svg')
   const { jsFileFromJSON } = require('./scripts/utilities')
 
   // Append path to your svg below
@@ -62,10 +67,10 @@ module.exports = function (grunt) {
       },
       outlined: {
         src: srcEosSetOutlined,
-        dest: 'dist/outlined/fonts/',
-        destCss: 'dist/outlined/css/',
-        destScss: 'dist/outlined/css/',
-        destLess: 'dist/outlined/css/',
+        dest: 'dist/fonts/outlined',
+        destCss: 'dist/css/outlined',
+        destScss: 'dist/css/outlined',
+        destLess: 'dist/css/outlined',
         options: {
           font: 'eos-icons-outlined',
           syntax: 'bootstrap',
@@ -80,10 +85,7 @@ module.exports = function (grunt) {
             template: 'templates/css-template.css',
             iconsStyles: false
           },
-          stylesheets: ['less', 'scss', 'css'],
-          destHtml: 'dist/outlined',
-          htmlDemoTemplate: 'templates/index-template-outlined.html',
-          htmlDemoFilename: 'index'
+          stylesheets: ['less', 'scss', 'css']
         }
       }
     },
@@ -119,14 +121,6 @@ module.exports = function (grunt) {
       newIcons: {
         dest: 'dist/js/new-icons.js',
         src: './scripts/demos/new-icons.js'
-      },
-      newIconsOutlined: {
-        dest: 'dist/outlined/js/new-icons.js',
-        src: './scripts/demos/new-icons.js'
-      },
-      jsonWithIcons: {
-        dest: 'dist/outlined/js/eos-icons.js',
-        src: 'dist/js/eos-icons.js'
       }
     },
     clean: {
@@ -199,6 +193,7 @@ module.exports = function (grunt) {
         ...SVGsMissingModelsMd,
         ...SVGsMissingModelsEOS
       ]
+
       let ModelsMissingSVGs
 
       if (
@@ -267,14 +262,37 @@ module.exports = function (grunt) {
     const mdRepo = './svg/material'
     const eosRepo = './svg'
 
-    compareFolders({ mdRepo, eosRepo }).then((result) => {
-      const { error, message } = result
+    compareFolders({ mdRepo, eosRepo }).then(async (result) => {
+      const {
+        duplicatedEOSicon,
+        duplicatedMDicon,
+        duplicatedIconsList
+      } = result
 
-      if (error) {
-        console.log(message)
-        process.exit(1)
+      if (duplicatedEOSicon.length) {
+        console.log(duplicatedEOSicon)
+
+        for await (const icon of duplicatedEOSicon) {
+          console.log(
+            `⚠️ An icon with the name ${icon}.svg already exits in svg/material. Please rename this new icon below:`
+          )
+          await renameSvgTo(icon, eosRepo, mdRepo).then(done)
+        }
+      } else if (duplicatedMDicon.length) {
+        for await (const icon of duplicatedMDicon) {
+          console.log(
+            `⚠️ An icon with the name ${icon}.svg already exits svg/. Please rename this new icon below:`
+          )
+          await renameSvgTo(icon, mdRepo, eosRepo).then(done)
+        }
+      } else if (duplicatedIconsList.length) {
+        for await (const icon of duplicatedIconsList) {
+          console.log(`${icon}`)
+          await deleteDuplicateSvg(icon).then()
+        }
+        done()
       } else {
-        console.log(message)
+        console.log('✅  No duplicated SVG file found in EOS and MD folder.')
         done()
       }
     })
@@ -304,10 +322,8 @@ module.exports = function (grunt) {
           if (res.answer === 'Yes') {
             const iconList = [...res.iconsList]
             /* Download MD svgs and create models */
-            for await (const icon of iconList) {
-              await downloadSvgFile(icon).then()
-              done()
-            }
+            await downloadMDFile(iconList).then()
+            done()
           } else {
             done()
           }
@@ -384,7 +400,7 @@ module.exports = function (grunt) {
             console.log(
               `⚠️  ${icon}.svg is not matching our naming convention, please rename it below:`
             )
-            await renameSvgTo(icon, eosDir)
+            await renameSvgTo(icon, eosDir, mdDir)
           }
           process.exit(1)
         }
@@ -394,7 +410,7 @@ module.exports = function (grunt) {
             console.log(
               `⚠️  ${icon}.svg is not matching our naming convention, please rename it below:`
             )
-            await renameSvgTo(icon, mdDir).then(done)
+            await renameSvgTo(icon, mdDir, eosDir).then(done)
           }
         }
       } else {
@@ -418,6 +434,7 @@ module.exports = function (grunt) {
     'clean:tempFolder'
   ])
   grunt.registerTask('build', [
+    'findDuplicateNames',
     'clean:all',
     'concat',
     'copy:outlined',
@@ -428,9 +445,7 @@ module.exports = function (grunt) {
     'combineAllIconsModels',
     'clean:tempFolder',
     'jsFromJSON',
-    'copy:newIcons',
-    'copy:newIconsOutlined',
-    'copy:jsonWithIcons'
+    'copy:newIcons'
   ])
   grunt.registerTask('test', [
     'importMdIcons',
