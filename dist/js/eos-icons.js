@@ -484,7 +484,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "05/03/2021"
   },
   {
     "name": "content_deleted",
