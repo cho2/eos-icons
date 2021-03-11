@@ -21,7 +21,8 @@ module.exports = function (grunt) {
   const duplicatedIcons = require('./scripts/duplicated_icons.json')
   const {
     eosMdIconsDifferences,
-    downloadFile
+    downloadFile,
+    confirmDownload
   } = require('./scripts/eos-md-icons-log-differences')
   const { downloadMDFile } = require('./scripts/download-svg')
   const { jsFileFromJSON } = require('./scripts/utilities')
@@ -30,6 +31,7 @@ module.exports = function (grunt) {
   // EOS-set and MD svg path
   const srcEosSet = ['svg/*.svg', 'svg/material/*.svg']
   const srcEosSetOutlined = ['temp/*.svg', 'temp/material/*.svg']
+  let newMdIconsList = []
 
   grunt.initConfig({
     webfont: {
@@ -86,6 +88,96 @@ module.exports = function (grunt) {
             iconsStyles: false
           },
           stylesheets: ['less', 'scss', 'css']
+        }
+      }
+    },
+    svgmin: {
+      options: {
+        plugins: [
+          'removeDoctype',
+          'removeXMLProcInst',
+          'removeComments',
+          'removeMetadata',
+          'removeEditorsNSData',
+          'cleanupAttrs',
+          'inlineStyles',
+          'cleanupIDs',
+          'removeUselessDefs',
+          'removeUnknownsAndDefaults',
+          'removeNonInheritableGroupAttrs',
+          'removeUselessStrokeAndFill',
+          { removeDimensions: true },
+          { removeViewBox: false },
+          'cleanupEnableBackground',
+          'removeHiddenElems',
+          'removeEmptyText',
+          { moveElemsAttrsToGroup: false },
+          { moveGroupAttrsToElems: false },
+          { convertPathData: false },
+          { convertTransform: false },
+          'removeEmptyAttrs',
+          'removeEmptyContainers',
+          'removeUnusedNS',
+          'removeTitle',
+          'removeDesc',
+          'removeScriptElement',
+          'removeStyleElement',
+          'removeOffCanvasPaths',
+          { mergePaths: false },
+          { convertShapeToPath: false },
+          {
+            removeRect: {
+              type: 'perItem',
+              name: 'removeSvgId',
+              description: 'Removes the Rect element',
+              fn: function (item) {
+                return !item.isElem('rect')
+              }
+            }
+          },
+          {
+            removeFill: {
+              type: 'perItem',
+              name: 'removeFill',
+              description:
+                'Removes the Fill attr from the <svg> <path> element',
+              fn: function (item) {
+                if (item.isElem('svg')) {
+                  item.removeAttr('fill')
+                }
+              }
+            }
+          },
+          {
+            removeUnusedPath: {
+              type: 'perItem',
+              name: 'removeUnusedPath',
+              description: 'Removes the removeUnusedPath',
+              fn: function (item) {
+                if (item.isElem('path')) {
+                  const pathValues = ['M0 0h24v24H0z', 'M0 0h24v24H0V0z']
+
+                  for (let i = 0; i < pathValues.length; i++) {
+                    if (item.attrs.d.value === pathValues[i]) {
+                      console.log('item.attrs.d.value')
+                      return !item.isElem('path')
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            removeAttrs: {
+              attrs: ['width', 'height']
+            }
+          }
+        ]
+      },
+      dist: {
+        files: {
+          'output/cancel_schedule_send-black-48dp.svg':
+            'MD-svg/cancel_schedule_send-black-48dp.svg'
         }
       }
     },
@@ -309,6 +401,23 @@ module.exports = function (grunt) {
     }).then(done)
   })
 
+  /* Clean new downloaded MD svgs */
+  grunt.registerTask('cleanMdIcons', async function () {
+    const done = this.async()
+
+    await downloadFile()
+      .then(
+        eosMdIconsDifferences({
+          targetDirMd: './svg/material',
+          icons: duplicatedIcons
+        }).then(async (res) => {
+          newMdIconsList = res
+          console.log(newMdIconsList)
+          done()
+        })
+      )
+      .then()
+  })
   /* compare MD icons in our repo and MD officical website Download MD svgs and create models */
   grunt.registerTask('importMdIcons', async function () {
     const done = this.async()
@@ -318,15 +427,17 @@ module.exports = function (grunt) {
         eosMdIconsDifferences({
           targetDirMd: './svg/material',
           icons: duplicatedIcons
-        }).then(async (res) => {
-          if (res.answer === 'Yes') {
-            const iconList = [...res.iconsList]
-            /* Download MD svgs and create models */
-            await downloadMDFile(iconList).then()
-            done()
-          } else {
-            done()
-          }
+        }).then((list) => {
+          confirmDownload(list).then(async (res) => {
+            if (res.answer === 'Yes') {
+              const iconList = [...res.iconsList]
+              /* Download MD svgs and create models */
+              await downloadMDFile(iconList).then()
+              done()
+            } else {
+              done()
+            }
+          })
         })
       )
       .then()
@@ -421,11 +532,13 @@ module.exports = function (grunt) {
   })
 
   grunt.loadNpmTasks('grunt-webfont')
+  grunt.loadNpmTasks('grunt-svgmin')
   grunt.loadNpmTasks('grunt-contrib-copy')
   grunt.loadNpmTasks('grunt-contrib-concat')
   grunt.loadNpmTasks('grunt-contrib-clean')
   grunt.loadNpmTasks('grunt-text-replace')
 
+  grunt.registerTask('cleanSvg', ['svgmin'])
   grunt.registerTask('clean:all', [
     'clean:hidden',
     'clean:dist',

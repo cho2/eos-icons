@@ -36,24 +36,28 @@ const eosMdIconsDifferences = async (params) => {
     )
     console.dir(allMissingIconsInEos, { maxArrayLength: null })
 
-    if (allMissingIconsInEos.length > 0) {
-      const importMdIconsRes = await importMdIcons().then(async (response) => {
-        return response
-      })
-
-      const data = {
-        answer: importMdIconsRes.answer,
-        iconsList: allMissingIconsInEos
-      }
-      return data
-    } else {
-      return { answer: 'No' }
-    }
+    return allMissingIconsInEos
   } catch (error) {
     console.log(error)
     console.log(
       "Please run 'grunt eosMdIconsDifferencesLog' again to see the result."
     )
+  }
+}
+
+const confirmDownload = async (allMissingIconsInEos) => {
+  if (allMissingIconsInEos.length > 0) {
+    const importMdIconsRes = await importMdIcons().then(async (response) => {
+      return response
+    })
+
+    const data = {
+      answer: importMdIconsRes.answer,
+      iconsList: allMissingIconsInEos
+    }
+    return data
+  } else {
+    return { answer: 'No' }
   }
 }
 
@@ -77,5 +81,6 @@ const iconsDifferences = (array1, array2) =>
 
 module.exports = {
   eosMdIconsDifferences,
-  downloadFile
+  downloadFile,
+  confirmDownload
 }
