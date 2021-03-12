@@ -19,6 +19,7 @@ module.exports = function (grunt) {
   } = require('./scripts/svg-checker')
 
   const duplicatedIcons = require('./scripts/duplicated_icons.json')
+  // const newMDIcons = require('./scripts/new-md-icon.json')
   const {
     eosMdIconsDifferences,
     downloadFile,
@@ -31,7 +32,7 @@ module.exports = function (grunt) {
   // EOS-set and MD svg path
   const srcEosSet = ['svg/*.svg', 'svg/material/*.svg']
   const srcEosSetOutlined = ['temp/*.svg', 'temp/material/*.svg']
-  let newMdIconsList = []
+  let newMdIconsList = ['checklist_rtl', 'personal_injury']
 
   grunt.initConfig({
     webfont: {
@@ -155,11 +156,14 @@ module.exports = function (grunt) {
               description: 'Removes the removeUnusedPath',
               fn: function (item) {
                 if (item.isElem('path')) {
-                  const pathValues = ['M0 0h24v24H0z', 'M0 0h24v24H0V0z']
+                  const pathValues = [
+                    'M0 0h24v24H0z',
+                    'M0 0h24v24H0z',
+                    'M0,0h24v24H0V0z'
+                  ]
 
                   for (let i = 0; i < pathValues.length; i++) {
                     if (item.attrs.d.value === pathValues[i]) {
-                      console.log('item.attrs.d.value')
                       return !item.isElem('path')
                     }
                   }
@@ -175,10 +179,16 @@ module.exports = function (grunt) {
         ]
       },
       dist: {
-        files: {
-          'output/cancel_schedule_send-black-48dp.svg':
-            'MD-svg/cancel_schedule_send-black-48dp.svg'
-        }
+        files: [
+          {
+            expand: true,
+            cwd: 'svg/material/',
+            src: '*.svg',
+            dest: 'svg/material/',
+            ext: '.svg',
+            extDot: 'first'
+          }
+        ]
       }
     },
     concat: {
@@ -404,7 +414,7 @@ module.exports = function (grunt) {
   /* Clean new downloaded MD svgs */
   grunt.registerTask('cleanMdIcons', async function () {
     const done = this.async()
-
+    console.log(newMdIconsList.map((ele) => `${ele}.svg`))
     await downloadFile()
       .then(
         eosMdIconsDifferences({
