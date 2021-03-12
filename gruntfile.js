@@ -19,11 +19,10 @@ module.exports = function (grunt) {
   } = require('./scripts/svg-checker')
 
   const duplicatedIcons = require('./scripts/duplicated_icons.json')
-  // const newMDIcons = require('./scripts/new-md-icon.json')
+  const newMdIconsList = require('./scripts/new-md-icons-list.json')
   const {
     eosMdIconsDifferences,
-    downloadFile,
-    confirmDownload
+    downloadFile
   } = require('./scripts/eos-md-icons-log-differences')
   const { downloadMDFile } = require('./scripts/download-svg')
   const { jsFileFromJSON } = require('./scripts/utilities')
@@ -32,7 +31,6 @@ module.exports = function (grunt) {
   // EOS-set and MD svg path
   const srcEosSet = ['svg/*.svg', 'svg/material/*.svg']
   const srcEosSetOutlined = ['temp/*.svg', 'temp/material/*.svg']
-  let newMdIconsList = ['checklist_rtl', 'personal_injury']
 
   grunt.initConfig({
     webfont: {
@@ -183,7 +181,7 @@ module.exports = function (grunt) {
           {
             expand: true,
             cwd: 'svg/material/',
-            src: '*.svg',
+            src: [newMdIconsList.map((ele) => `${ele}.svg`)],
             dest: 'svg/material/',
             ext: '.svg',
             extDot: 'first'
@@ -411,23 +409,6 @@ module.exports = function (grunt) {
     }).then(done)
   })
 
-  /* Clean new downloaded MD svgs */
-  grunt.registerTask('cleanMdIcons', async function () {
-    const done = this.async()
-    console.log(newMdIconsList.map((ele) => `${ele}.svg`))
-    await downloadFile()
-      .then(
-        eosMdIconsDifferences({
-          targetDirMd: './svg/material',
-          icons: duplicatedIcons
-        }).then(async (res) => {
-          newMdIconsList = res
-          console.log(newMdIconsList)
-          done()
-        })
-      )
-      .then()
-  })
   /* compare MD icons in our repo and MD officical website Download MD svgs and create models */
   grunt.registerTask('importMdIcons', async function () {
     const done = this.async()
@@ -437,17 +418,15 @@ module.exports = function (grunt) {
         eosMdIconsDifferences({
           targetDirMd: './svg/material',
           icons: duplicatedIcons
-        }).then((list) => {
-          confirmDownload(list).then(async (res) => {
-            if (res.answer === 'Yes') {
-              const iconList = [...res.iconsList]
-              /* Download MD svgs and create models */
-              await downloadMDFile(iconList).then()
-              done()
-            } else {
-              done()
-            }
-          })
+        }).then(async (res) => {
+          if (res.answer === 'Yes') {
+            const iconList = [...res.iconsList]
+            /* Download MD svgs and create models */
+            await downloadMDFile(iconList).then()
+            done()
+          } else {
+            done()
+          }
         })
       )
       .then()
@@ -578,7 +557,8 @@ module.exports = function (grunt) {
     'checkMissingModelandSVG',
     'materialOutlineModels',
     'eosIconsOutlineModels',
-    'checkMissingModelsOutlined'
+    'checkMissingModelsOutlined',
+    'cleanSvg'
   ])
   grunt.registerTask('default', ['test', 'build'])
 }

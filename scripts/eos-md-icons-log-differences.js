@@ -35,29 +35,25 @@ const eosMdIconsDifferences = async (params) => {
       `======= ${allMissingIconsInEos.length} New icons MD has that EOS doesn't =======`
     )
     console.dir(allMissingIconsInEos, { maxArrayLength: null })
+    if (allMissingIconsInEos.length > 0) {
+      addNewMdiconsList(allMissingIconsInEos)
+      const importMdIconsRes = await importMdIcons().then(async (response) => {
+        return response
+      })
 
-    return allMissingIconsInEos
+      const data = {
+        answer: importMdIconsRes.answer,
+        iconsList: allMissingIconsInEos
+      }
+      return data
+    } else {
+      return { answer: 'No' }
+    }
   } catch (error) {
     console.log(error)
     console.log(
       "Please run 'grunt eosMdIconsDifferencesLog' again to see the result."
     )
-  }
-}
-
-const confirmDownload = async (allMissingIconsInEos) => {
-  if (allMissingIconsInEos.length > 0) {
-    const importMdIconsRes = await importMdIcons().then(async (response) => {
-      return response
-    })
-
-    const data = {
-      answer: importMdIconsRes.answer,
-      iconsList: allMissingIconsInEos
-    }
-    return data
-  } else {
-    return { answer: 'No' }
   }
 }
 
@@ -76,11 +72,17 @@ const importMdIcons = async () => {
   }
 }
 
+const addNewMdiconsList = (allMissingIconsInEos) => {
+  fs.writeFileSync(
+    `./scripts/new-md-icons-list.json`,
+    JSON.stringify(allMissingIconsInEos, null, 2)
+  )
+}
+
 const iconsDifferences = (array1, array2) =>
   array1.filter((val) => !array2.includes(val))
 
 module.exports = {
   eosMdIconsDifferences,
-  downloadFile,
-  confirmDownload
+  downloadFile
 }

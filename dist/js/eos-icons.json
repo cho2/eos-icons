@@ -9743,6 +9743,36 @@
     "date": "30/11/2020"
   },
   {
+    "name": "checklist",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "test"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "12/03/2021",
+    "hasOutlined": true
+  },
+  {
+    "name": "checklist_rtl",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "test"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "12/03/2021",
+    "hasOutlined": true
+  },
+  {
     "name": "checkroom",
     "do": "",
     "dont": "",
