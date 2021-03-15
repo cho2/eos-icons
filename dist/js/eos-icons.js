@@ -273,7 +273,9 @@ const eosIcons = [
     ],
     "category": "action",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/15/2021"
   },
   {
     "name": "branch",
@@ -9741,36 +9743,6 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
-  },
-  {
-    "name": "checklist",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "test"
-    ],
-    "category": [
-      "editor"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "12/03/2021",
-    "hasOutlined": true
-  },
-  {
-    "name": "checklist_rtl",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "test"
-    ],
-    "category": [
-      "editor"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "12/03/2021",
-    "hasOutlined": true
   },
   {
     "name": "checkroom",
