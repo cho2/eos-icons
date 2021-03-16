@@ -1,0 +1,27 @@
+{
+  "name": "system_security_update",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "operating",
+    "pc",
+    "computer",
+    "data",
+    "mobile",
+    "renew",
+    "arrow",
+    "download",
+    "phone",
+    "software",
+    "done",
+    "check",
+    "success",
+    "complete",
+    "finish"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

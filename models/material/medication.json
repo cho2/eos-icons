@@ -1,0 +1,19 @@
+{
+  "name": "medication",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "drug",
+    "emergency",
+    "hospital",
+    "medication",
+    "medicine",
+    "pharmacy",
+    "prescription"
+  ],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

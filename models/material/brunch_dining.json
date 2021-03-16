@@ -1,0 +1,11 @@
+{
+  "name": "brunch_dining",
+  "do": "",
+  "dont": "",
+  "tags": ["breakfast", "champaign", "dinner", "drink. meal", "food", "lunch"],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

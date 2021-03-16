@@ -1,0 +1,11 @@
+{
+  "name": "thermostat",
+  "do": "",
+  "dont": "",
+  "tags": ["forecast", "temperature", "thermostat", "weather"],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

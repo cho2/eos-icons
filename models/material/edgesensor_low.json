@@ -1,0 +1,11 @@
+{
+  "name": "edgesensor_low",
+  "do": "",
+  "dont": "",
+  "tags": ["edge", "low", "mobile", "move", "sensitivity", "sensor", "vibrate"],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

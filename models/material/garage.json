@@ -1,0 +1,22 @@
+{
+  "name": "garage",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "automobile",
+    "automotive",
+    "car",
+    "cars",
+    "direction",
+    "garage",
+    "maps",
+    "transportation",
+    "travel",
+    "vehicle"
+  ],
+  "category": ["search"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

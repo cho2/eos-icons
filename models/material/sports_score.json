@@ -1,0 +1,11 @@
+{
+  "name": "sports_score",
+  "do": "",
+  "dont": "",
+  "tags": ["destination", "flag", "goal", "score", "sports"],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

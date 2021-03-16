@@ -19,6 +19,7 @@ module.exports = function (grunt) {
   } = require('./scripts/svg-checker')
 
   const duplicatedIcons = require('./scripts/duplicated_icons.json')
+  const newMdIconsList = require('./scripts/new-md-icons-list.json')
   const {
     eosMdIconsDifferences,
     downloadFile
@@ -67,10 +68,10 @@ module.exports = function (grunt) {
       },
       outlined: {
         src: srcEosSetOutlined,
-        dest: 'dist/outlined/fonts/',
-        destCss: 'dist/outlined/css/',
-        destScss: 'dist/outlined/css/',
-        destLess: 'dist/outlined/css/',
+        dest: 'dist/fonts/outlined',
+        destCss: 'dist/css/outlined',
+        destScss: 'dist/css/outlined',
+        destLess: 'dist/css/outlined',
         options: {
           font: 'eos-icons-outlined',
           syntax: 'bootstrap',
@@ -85,11 +86,107 @@ module.exports = function (grunt) {
             template: 'templates/css-template.css',
             iconsStyles: false
           },
-          stylesheets: ['less', 'scss', 'css'],
-          destHtml: 'dist/outlined',
-          htmlDemoTemplate: 'templates/index-template-outlined.html',
-          htmlDemoFilename: 'index'
+          stylesheets: ['less', 'scss', 'css']
         }
+      }
+    },
+    svgmin: {
+      options: {
+        plugins: [
+          'removeDoctype',
+          'removeXMLProcInst',
+          'removeComments',
+          'removeMetadata',
+          'removeEditorsNSData',
+          'cleanupAttrs',
+          'inlineStyles',
+          'cleanupIDs',
+          'removeUselessDefs',
+          'removeUnknownsAndDefaults',
+          'removeNonInheritableGroupAttrs',
+          'removeUselessStrokeAndFill',
+          { removeDimensions: true },
+          { removeViewBox: false },
+          'cleanupEnableBackground',
+          'removeHiddenElems',
+          'removeEmptyText',
+          { moveElemsAttrsToGroup: false },
+          { moveGroupAttrsToElems: false },
+          { convertPathData: false },
+          { convertTransform: false },
+          'removeEmptyAttrs',
+          'removeEmptyContainers',
+          'removeUnusedNS',
+          'removeTitle',
+          'removeDesc',
+          'removeScriptElement',
+          'removeStyleElement',
+          'removeOffCanvasPaths',
+          { mergePaths: false },
+          { convertShapeToPath: false },
+          {
+            removeRect: {
+              type: 'perItem',
+              name: 'removeSvgId',
+              description: 'Removes the Rect element',
+              fn: function (item) {
+                return !item.isElem('rect')
+              }
+            }
+          },
+          {
+            removeFill: {
+              type: 'perItem',
+              name: 'removeFill',
+              description:
+                'Removes the Fill attr from the <svg> <path> element',
+              fn: function (item) {
+                if (item.isElem('svg')) {
+                  item.removeAttr('fill')
+                }
+              }
+            }
+          },
+          {
+            removeUnusedPath: {
+              type: 'perItem',
+              name: 'removeUnusedPath',
+              description: 'Removes the removeUnusedPath',
+              fn: function (item) {
+                if (item.isElem('path')) {
+                  const pathValues = [
+                    'M0 0h24v24H0z',
+                    'M0 0h24v24H0z',
+                    'M0,0h24v24H0V0z'
+                  ]
+
+                  for (let i = 0; i < pathValues.length; i++) {
+                    if (item.attrs.d.value === pathValues[i]) {
+                      return !item.isElem('path')
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            removeAttrs: {
+              attrs: ['width', 'height']
+            }
+          }
+        ]
+      },
+      dist: {
+        files: [
+          {
+            expand: true,
+            cwd: 'svg/material/',
+            src: [newMdIconsList.map((ele) => `${ele}.svg`)],
+            dest: 'svg/material/',
+            ext: '.svg',
+            extDot: 'first'
+          }
+        ]
       }
     },
     concat: {
@@ -124,14 +221,6 @@ module.exports = function (grunt) {
       newIcons: {
         dest: 'dist/js/new-icons.js',
         src: './scripts/demos/new-icons.js'
-      },
-      newIconsOutlined: {
-        dest: 'dist/outlined/js/new-icons.js',
-        src: './scripts/demos/new-icons.js'
-      },
-      jsonWithIcons: {
-        dest: 'dist/outlined/js/eos-icons.js',
-        src: 'dist/js/eos-icons.js'
       }
     },
     clean: {
@@ -432,11 +521,13 @@ module.exports = function (grunt) {
   })
 
   grunt.loadNpmTasks('grunt-webfont')
+  grunt.loadNpmTasks('grunt-svgmin')
   grunt.loadNpmTasks('grunt-contrib-copy')
   grunt.loadNpmTasks('grunt-contrib-concat')
   grunt.loadNpmTasks('grunt-contrib-clean')
   grunt.loadNpmTasks('grunt-text-replace')
 
+  grunt.registerTask('cleanSvg', ['svgmin'])
   grunt.registerTask('clean:all', [
     'clean:hidden',
     'clean:dist',
@@ -456,9 +547,7 @@ module.exports = function (grunt) {
     'combineAllIconsModels',
     'clean:tempFolder',
     'jsFromJSON',
-    'copy:newIcons',
-    'copy:newIconsOutlined',
-    'copy:jsonWithIcons'
+    'copy:newIcons'
   ])
   grunt.registerTask('test', [
     'importMdIcons',
@@ -468,7 +557,8 @@ module.exports = function (grunt) {
     'checkMissingModelandSVG',
     'materialOutlineModels',
     'eosIconsOutlineModels',
-    'checkMissingModelsOutlined'
+    'checkMissingModelsOutlined',
+    'cleanSvg'
   ])
   grunt.registerTask('default', ['test', 'build'])
 }

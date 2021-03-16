@@ -1,0 +1,22 @@
+{
+  "name": "holiday_village",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "resort",
+    "tourist",
+    "town",
+    "destination",
+    "vacation",
+    "villa",
+    "place",
+    "travel",
+    "house",
+    "nature"
+  ],
+  "category": ["places"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

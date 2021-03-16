@@ -1,0 +1,11 @@
+{
+  "name": "icecream",
+  "do": "",
+  "dont": "",
+  "tags": ["corn", "cream", "food", "ice", "icecream", "snack"],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

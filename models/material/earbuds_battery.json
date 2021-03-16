@@ -1,0 +1,22 @@
+{
+  "name": "earbuds_battery",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "accessory",
+    "audio",
+    "battery",
+    "charing",
+    "earbuds",
+    "earphone",
+    "headphone",
+    "listen",
+    "music",
+    "sound"
+  ],
+  "category": ["hardware"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

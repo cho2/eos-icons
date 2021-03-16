@@ -1,0 +1,19 @@
+{
+  "name": "stream",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "connected",
+    "feed",
+    "live",
+    "network",
+    "signal",
+    "stream",
+    "wireless"
+  ],
+  "category": ["content"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

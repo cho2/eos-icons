@@ -1,0 +1,11 @@
+{
+  "name": "edit_location_alt",
+  "do": "",
+  "dont": "",
+  "tags": ["edit", "location", "pen", "pencil", "pin"],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

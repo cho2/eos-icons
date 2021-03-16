@@ -1,0 +1,29 @@
+{
+  "name": "autofps_select",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "A",
+    "alphabet",
+    "auto",
+    "character",
+    "font",
+    "fps",
+    "frame",
+    "frequency",
+    "letter",
+    "per",
+    "rate",
+    "second",
+    "seconds",
+    "select",
+    "symbol",
+    "text",
+    "type"
+  ],
+  "category": ["image"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

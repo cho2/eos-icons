@@ -1,0 +1,24 @@
+{
+  "name": "star_purple500",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "500",
+    "best",
+    "bookmark",
+    "favorite",
+    "highlight",
+    "purple",
+    "ranking",
+    "rate",
+    "rating",
+    "save",
+    "star",
+    "toggle"
+  ],
+  "category": ["toggle"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

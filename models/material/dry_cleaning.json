@@ -1,0 +1,11 @@
+{
+  "name": "dry_cleaning",
+  "do": "",
+  "dont": "",
+  "tags": ["cleaning", "dry", "hanger", "hotel", "laundry", "service", "towel"],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

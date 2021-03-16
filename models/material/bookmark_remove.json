@@ -1,0 +1,11 @@
+{
+  "name": "bookmark_remove",
+  "do": "",
+  "dont": "",
+  "tags": ["bookmarks", "delete", "cancel", "bookmark", "minus"],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

@@ -1,0 +1,25 @@
+{
+  "name": "video_camera_front",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "account",
+    "camera",
+    "face",
+    "front",
+    "human",
+    "image",
+    "people",
+    "person",
+    "photo",
+    "photography",
+    "picture",
+    "profile",
+    "user"
+  ],
+  "category": ["image"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

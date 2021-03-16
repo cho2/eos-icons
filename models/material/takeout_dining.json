@@ -1,0 +1,19 @@
+{
+  "name": "takeout_dining",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "box",
+    "container",
+    "delivery",
+    "food",
+    "meal",
+    "restaurant",
+    "takeout"
+  ],
+  "category": ["maps"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

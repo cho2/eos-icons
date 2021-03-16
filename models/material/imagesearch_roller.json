@@ -1,0 +1,11 @@
+{
+  "name": "imagesearch_roller",
+  "do": "",
+  "dont": "",
+  "tags": ["art", "image", "paint", "roller", "search"],
+  "category": ["notification"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

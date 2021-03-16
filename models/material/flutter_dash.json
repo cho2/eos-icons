@@ -1,0 +1,11 @@
+{
+  "name": "flutter_dash",
+  "do": "",
+  "dont": "",
+  "tags": ["bird", "dash", "flutter"],
+  "category": ["action"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

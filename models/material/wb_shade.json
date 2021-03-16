@@ -1,0 +1,11 @@
+{
+  "name": "wb_shade",
+  "do": "",
+  "dont": "",
+  "tags": ["balance", "house", "light", "lighting", "shade", "wb", "white"],
+  "category": ["image"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

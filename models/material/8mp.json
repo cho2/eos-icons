@@ -1,0 +1,28 @@
+{
+  "name": "8mp",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "8",
+    "camera",
+    "digit",
+    "font",
+    "letters",
+    "megapixel",
+    "megapixels",
+    "mp",
+    "number",
+    "pixel",
+    "pixels",
+    "quality",
+    "resolution",
+    "symbol",
+    "text",
+    "type"
+  ],
+  "category": ["image"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

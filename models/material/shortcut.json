@@ -1,0 +1,11 @@
+{
+  "name": "shortcut",
+  "do": "",
+  "dont": "",
+  "tags": ["arrow", "forward", "right", "shortcut"],
+  "category": ["device"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

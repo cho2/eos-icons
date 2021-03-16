@@ -1,0 +1,24 @@
+{
+  "name": "switch_account",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "account",
+    "choices",
+    "face",
+    "human",
+    "multiple",
+    "options",
+    "people",
+    "person",
+    "profile",
+    "social",
+    "switch",
+    "user"
+  ],
+  "category": ["social"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

@@ -1,0 +1,20 @@
+{
+  "name": "drive_file_rename_outline",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "drive",
+    "edit",
+    "file",
+    "marker",
+    "pen",
+    "pencil",
+    "rename",
+    "writing"
+  ],
+  "category": ["file"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}

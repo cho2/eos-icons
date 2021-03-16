@@ -1,0 +1,11 @@
+{
+  "name": "upload",
+  "do": "",
+  "dont": "",
+  "tags": ["arrow", "arrows", "download", "drive", "up", "upload"],
+  "category": ["file"],
+  "type": "static",
+  "label": "None",
+  "date": "03/03/2021",
+  "hasOutlined": true
+}
