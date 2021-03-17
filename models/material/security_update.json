@@ -15,7 +15,14 @@
     "phone",
     "security",
     "tablet",
-    "update"
+    "update",
+    "operating",
+    "pc",
+    "computer",
+    "data",
+    "arrow",
+    "software",
+    "running"
   ],
   "category": ["device"],
   "type": "static",

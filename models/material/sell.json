@@ -19,7 +19,13 @@
     "price",
     "sell",
     "shopping",
-    "tag"
+    "tag",
+    "offer",
+    "deal",
+    "shop",
+    "discount",
+    "store",
+    "local"
   ],
   "category": ["device"],
   "type": "static",

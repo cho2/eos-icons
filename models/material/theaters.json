@@ -10,7 +10,10 @@
     "theater",
     "show",
     "showtimes",
-    "film"
+    "film",
+    "cinema",
+    "ticket",
+    "local"
   ],
   "category": ["action"],
   "type": "static",

@@ -11,7 +11,13 @@
     "danger",
     "caution",
     "mark",
-    "triangle"
+    "triangle",
+    "!",
+    "symbol",
+    "error",
+    "problem",
+    "alert",
+    "report"
   ],
   "category": ["alert"],
   "type": "static",

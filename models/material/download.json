@@ -10,7 +10,13 @@
     "downloads",
     "drive",
     "install",
-    "upload"
+    "upload",
+    "get",
+    "load",
+    "retrieve",
+    "get",
+    "app",
+    "file"
   ],
   "category": ["file"],
   "type": "static",
