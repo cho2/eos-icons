@@ -798,7 +798,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/17/2021"
   },
   {
     "name": "flask",
@@ -1183,7 +1185,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/17/2021"
   },
   {
     "name": "network_policy",
@@ -1201,7 +1205,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/17/2021"
   },
   {
     "name": "neural_network",
@@ -1219,7 +1225,9 @@ const eosIcons = [
     ],
     "category": "artificial intelligence",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/17/2021"
   },
   {
     "name": "node",
@@ -1233,7 +1241,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/17/2021"
   },
   {
     "name": "organisms",
