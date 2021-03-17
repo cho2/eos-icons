@@ -157,7 +157,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/17/2021"
   },
   {
     "name": "application_incomplete",
@@ -185,7 +187,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/17/2021"
   },
   {
     "name": "application_window",
