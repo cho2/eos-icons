@@ -12,7 +12,12 @@
     "rating",
     "save",
     "star",
-    "toggle"
+    "toggle",
+    "empty",
+    "review",
+    "valuation",
+    "appraisal",
+    "rank"
   ],
   "category": ["toggle"],
   "type": "static",

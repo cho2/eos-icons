@@ -15,7 +15,13 @@
     "measure",
     "metrics",
     "statstics",
-    "chart"
+    "chart",
+    "vote",
+    "election",
+    "survey",
+    "voting",
+    "poll",
+    "assessment"
   ],
   "category": ["editor"],
   "type": "static",

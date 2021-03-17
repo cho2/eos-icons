@@ -2,7 +2,16 @@
   "name": "upload",
   "do": "",
   "dont": "",
-  "tags": ["arrow", "arrows", "download", "drive", "up", "upload"],
+  "tags": [
+    "arrow",
+    "arrows",
+    "download",
+    "drive",
+    "up",
+    "upload",
+    "store",
+    "load"
+  ],
   "category": ["file"],
   "type": "static",
   "label": "None",

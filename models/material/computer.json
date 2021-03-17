@@ -2,7 +2,17 @@
   "name": "computer",
   "do": "",
   "dont": "",
-  "tags": ["pc", "laptop", "desktop", "microsoft", "apple", "macbook"],
+  "tags": [
+    "pc",
+    "laptop",
+    "desktop",
+    "microsoft",
+    "apple",
+    "macbook",
+    "computer",
+    "microcomputer",
+    "portable"
+  ],
   "category": ["device"],
   "type": "static",
   "hasOutlined": true,

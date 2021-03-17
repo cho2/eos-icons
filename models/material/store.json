@@ -22,7 +22,9 @@
     "storefront",
     "card",
     "coin",
-    "shopping"
+    "shopping",
+    "directory",
+    "mall"
   ],
   "category": ["action"],
   "type": "static",

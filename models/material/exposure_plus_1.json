@@ -9,7 +9,13 @@
     "expose",
     "lens",
     "light",
-    "positive"
+    "positive",
+    "number",
+    "increment",
+    "add",
+    "like",
+    "plus",
+    "one"
   ],
   "category": ["image"],
   "type": "static",

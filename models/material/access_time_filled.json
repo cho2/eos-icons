@@ -10,7 +10,10 @@
     "countdown",
     "clock",
     "time",
-    "bell"
+    "bell",
+    "hour",
+    "watch",
+    "minute"
   ],
   "category": ["device"],
   "type": "static",
