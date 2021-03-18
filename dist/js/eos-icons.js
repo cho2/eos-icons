@@ -3934,24 +3934,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "access_time",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "time",
-      "access",
-      "clock",
-      "interval",
-      "hour"
-    ],
-    "category": [
-      "device"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "access_time_filled",
     "do": "",
     "dont": "",
@@ -3963,7 +3945,10 @@ const eosIcons = [
       "countdown",
       "clock",
       "time",
-      "bell"
+      "bell",
+      "hour",
+      "watch",
+      "minute"
     ],
     "category": [
       "device"
@@ -4391,7 +4376,13 @@ const eosIcons = [
       "box",
       "+",
       "circle",
-      "plus"
+      "plus",
+      "photography",
+      "photo",
+      "cam",
+      "shutter",
+      "control",
+      "point"
     ],
     "category": [
       "content"
@@ -4685,25 +4676,6 @@ const eosIcons = [
     ],
     "category": [
       "device"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "add_to_photos",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "image",
-      "picture",
-      "snapshot",
-      "add",
-      "photo",
-      "photography"
-    ],
-    "category": [
-      "image"
     ],
     "type": "static",
     "hasOutlined": true,
@@ -5006,26 +4978,6 @@ const eosIcons = [
     "label": "None",
     "date": "03/03/2021",
     "hasOutlined": true
-  },
-  {
-    "name": "airplanemode_active",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "mode",
-      "airplanemode",
-      "flight",
-      "airplane",
-      "active",
-      "signal",
-      "on"
-    ],
-    "category": [
-      "device"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
   },
   {
     "name": "airplanemode_inactive",
@@ -6018,27 +5970,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "assessment",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "analytics",
-      "assessment",
-      "bar",
-      "measure",
-      "metrics",
-      "tracking",
-      "bars",
-      "graph"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "assignment",
     "do": "",
     "dont": "",
@@ -6745,25 +6676,6 @@ const eosIcons = [
     ],
     "category": [
       "content"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "backup",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "cloud",
-      "backup",
-      "arrow",
-      "upload",
-      "up",
-      "point"
-    ],
-    "category": [
-      "action"
     ],
     "type": "static",
     "hasOutlined": true,
@@ -7556,7 +7468,8 @@ const eosIcons = [
       "bookmark",
       "read",
       "book",
-      "reading"
+      "reading",
+      "class"
     ],
     "category": [
       "action"
@@ -7590,6 +7503,9 @@ const eosIcons = [
       "bookmarks",
       "remember",
       "bookmark",
+      "save",
+      "turned",
+      "in",
       "save"
     ],
     "category": [
@@ -7648,6 +7564,9 @@ const eosIcons = [
       "remember",
       "bookmark",
       "outline",
+      "save",
+      "turned",
+      "in",
       "save"
     ],
     "category": [
@@ -8024,27 +7943,6 @@ const eosIcons = [
     "label": "None",
     "date": "03/03/2021",
     "hasOutlined": true
-  },
-  {
-    "name": "brightness_1",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "brilliance",
-      "illumination",
-      "luminosity",
-      "shine",
-      "luster",
-      "gloss",
-      "glaze",
-      "light"
-    ],
-    "category": [
-      "image"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
   },
   {
     "name": "brightness_2",
@@ -9829,24 +9727,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "circle",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "circle",
-      "full",
-      "geometry",
-      "moon"
-    ],
-    "category": [
-      "image"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "circle_notifications",
     "do": "",
     "dont": "",
@@ -9869,24 +9749,6 @@ const eosIcons = [
     "label": "None",
     "date": "03/03/2021",
     "hasOutlined": true
-  },
-  {
-    "name": "class",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "bookmark",
-      "read",
-      "book",
-      "reading",
-      "class"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
   },
   {
     "name": "clean_hands",
@@ -10177,7 +10039,10 @@ const eosIcons = [
       "send",
       "server",
       "storage",
-      "remote"
+      "remote",
+      "backup",
+      "arrow",
+      "up"
     ],
     "category": [
       "file"
@@ -10508,7 +10373,10 @@ const eosIcons = [
       "desktop",
       "microsoft",
       "apple",
-      "macbook"
+      "macbook",
+      "computer",
+      "microcomputer",
+      "portable"
     ],
     "category": [
       "device"
@@ -10824,26 +10692,6 @@ const eosIcons = [
     ],
     "category": [
       "av"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "control_point",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "photography",
-      "photo",
-      "image",
-      "cam",
-      "camcorder",
-      "shutter",
-      "album"
-    ],
-    "category": [
-      "image"
     ],
     "type": "static",
     "hasOutlined": true,
@@ -12806,7 +12654,13 @@ const eosIcons = [
       "downloads",
       "drive",
       "install",
-      "upload"
+      "upload",
+      "get",
+      "load",
+      "retrieve",
+      "get",
+      "app",
+      "file"
     ],
     "category": [
       "file"
@@ -14347,7 +14201,13 @@ const eosIcons = [
       "expose",
       "lens",
       "light",
-      "positive"
+      "positive",
+      "number",
+      "increment",
+      "add",
+      "like",
+      "plus",
+      "one"
     ],
     "category": [
       "image"
@@ -14940,21 +14800,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "file_download",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "get",
-      "load"
-    ],
-    "category": [
-      "content"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "file_download_done",
     "do": "",
     "dont": "",
@@ -15031,21 +14876,6 @@ const eosIcons = [
     "label": "None",
     "date": "03/03/2021",
     "hasOutlined": true
-  },
-  {
-    "name": "file_upload",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "store",
-      "load"
-    ],
-    "category": [
-      "content"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
   },
   {
     "name": "filter",
@@ -17200,25 +17030,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "get_app",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "download",
-      "arrow",
-      "get",
-      "retrieve",
-      "pointing",
-      "down"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "gif",
     "do": "",
     "dont": "",
@@ -17396,7 +17207,8 @@ const eosIcons = [
       "location",
       "place",
       "tracking",
-      "direction"
+      "direction",
+      "gps"
     ],
     "category": [
       "device"
@@ -17679,6 +17491,8 @@ const eosIcons = [
     "tags": [
       "team",
       "people",
+      "users",
+      "business",
       "users"
     ],
     "category": [
@@ -19468,7 +19282,13 @@ const eosIcons = [
       "measure",
       "metrics",
       "statstics",
-      "chart"
+      "chart",
+      "vote",
+      "election",
+      "survey",
+      "voting",
+      "poll",
+      "assessment"
     ],
     "category": [
       "editor"
@@ -20276,23 +20096,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "laptop",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "notebook",
-      "computer",
-      "microcomputer",
-      "portable"
-    ],
-    "category": [
-      "hardware"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "laptop_chromebook",
     "do": "",
     "dont": "",
@@ -20515,7 +20318,19 @@ const eosIcons = [
       "image",
       "style",
       "custom",
-      "glass"
+      "glass",
+      "circle",
+      "full",
+      "geometry",
+      "moon",
+      "brightness",
+      "illumination",
+      "luminosity",
+      "shine",
+      "luster",
+      "gloss",
+      "glaze",
+      "light"
     ],
     "category": [
       "image"
@@ -20559,7 +20374,9 @@ const eosIcons = [
       "Library",
       "collection",
       "video",
-      "plus"
+      "plus",
+      "queue",
+      "list"
     ],
     "category": [
       "av"
@@ -21210,23 +21027,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "local_grocery_store",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "market",
-      "shop",
-      "grocery",
-      "store"
-    ],
-    "category": [
-      "maps"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "local_hospital",
     "do": "",
     "dont": "",
@@ -21310,46 +21110,6 @@ const eosIcons = [
       "storefront",
       "card",
       "coin",
-      "shopping"
-    ],
-    "category": [
-      "maps"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "local_movies",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "teather",
-      "cinema",
-      "movie",
-      "film",
-      "hollywood",
-      "ticket"
-    ],
-    "category": [
-      "maps"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "local_offer",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "offer",
-      "deal",
-      "shop",
-      "price",
-      "discount",
-      "store.",
-      "tag",
       "shopping"
     ],
     "category": [
@@ -21655,32 +21415,15 @@ const eosIcons = [
       "enabled",
       "off",
       "direction",
-      "on"
+      "on",
+      "navigation",
+      "point",
+      "marker",
+      "spot",
+      "room"
     ],
     "category": [
       "communication"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "location_searching",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "pointer",
-      "maps",
-      "pin",
-      "stop",
-      "destination",
-      "location",
-      "place",
-      "tracking",
-      "direction"
-    ],
-    "category": [
-      "device"
     ],
     "type": "static",
     "hasOutlined": true,
@@ -23179,40 +22922,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "money_off_csred",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "bill",
-      "card",
-      "cart",
-      "cash",
-      "coin",
-      "commerce",
-      "credit",
-      "currency",
-      "disabled",
-      "dollars",
-      "enabled",
-      "money",
-      "off",
-      "on",
-      "online",
-      "pay",
-      "payment",
-      "shopping",
-      "slash",
-      "symbol"
-    ],
-    "category": [
-      "editor"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "monitor",
     "do": "",
     "dont": "",
@@ -23597,28 +23306,15 @@ const eosIcons = [
       "film",
       "media",
       "video",
-      "slate"
-    ],
-    "category": [
-      "av"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "movie_creation",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "video",
+      "slate",
       "photo",
       "image",
       "camera",
-      "film"
+      "film",
+      "create"
     ],
     "category": [
-      "image"
+      "av"
     ],
     "type": "static",
     "hasOutlined": true,
@@ -25376,24 +25072,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "panorama_fish_eye",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "image",
-      "perspective",
-      "ratio",
-      "photography",
-      "photo"
-    ],
-    "category": [
-      "image"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "panorama_horizontal",
     "do": "",
     "dont": "",
@@ -25743,27 +25421,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "payment",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "charge",
-      "money",
-      "pay",
-      "information",
-      "payment",
-      "credit",
-      "card",
-      "info"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "payments",
     "do": "",
     "dont": "",
@@ -25847,23 +25504,6 @@ const eosIcons = [
     ],
     "category": [
       "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "people",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "group",
-      "team",
-      "business",
-      "users"
-    ],
-    "category": [
-      "roles"
     ],
     "type": "static",
     "hasOutlined": true,
@@ -26254,22 +25894,6 @@ const eosIcons = [
     ],
     "category": [
       "communication"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "personal_video",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "screen",
-      "display",
-      "monitor"
-    ],
-    "category": [
-      "notification"
     ],
     "type": "static",
     "hasOutlined": true,
@@ -27096,28 +26720,6 @@ const eosIcons = [
     "hasOutlined": true
   },
   {
-    "name": "place",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "navigation",
-      "maps",
-      "pin",
-      "stop",
-      "destination",
-      "location",
-      "place",
-      "point",
-      "direction"
-    ],
-    "category": [
-      "maps"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "plagiarism",
     "do": "",
     "dont": "",
@@ -27158,26 +26760,6 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
-  },
-  {
-    "name": "play_circle",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "Play",
-      "controls",
-      "music",
-      "arrow",
-      "control",
-      "video"
-    ],
-    "category": [
-      "av"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
   },
   {
     "name": "play_circle_filled",
@@ -27363,23 +26945,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "plus_one",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "number",
-      "increment",
-      "add",
-      "like"
-    ],
-    "category": [
-      "social"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "podcasts",
     "do": "",
     "dont": "",
@@ -27444,25 +27009,6 @@ const eosIcons = [
     ],
     "category": [
       "content"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "poll",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "vote",
-      "election",
-      "survey",
-      "voting",
-      "graph",
-      "bar"
-    ],
-    "category": [
-      "social"
     ],
     "type": "static",
     "hasOutlined": true,
@@ -28057,26 +27603,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "query_builder",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "hour",
-      "query",
-      "builder",
-      "save",
-      "clock",
-      "time",
-      "minute"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "query_stats",
     "do": "",
     "dont": "",
@@ -28116,27 +27642,6 @@ const eosIcons = [
     ],
     "category": [
       "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "queue",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "add",
-      "music",
-      "playlist",
-      "stream",
-      "collection",
-      "video",
-      "list",
-      "Queue"
-    ],
-    "category": [
-      "av"
     ],
     "type": "static",
     "hasOutlined": true,
@@ -28309,7 +27814,13 @@ const eosIcons = [
       "confirmed",
       "chosen",
       "picked",
-      "option"
+      "option",
+      "image",
+      "perspective",
+      "ratio",
+      "photography",
+      "photo",
+      "panorama"
     ],
     "category": [
       "toggle"
@@ -28604,38 +28115,6 @@ const eosIcons = [
       "human",
       "user",
       "account"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "redeem",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "gift",
-      "giftcard",
-      "certificate",
-      "bill",
-      "pay",
-      "dollars",
-      "commerce",
-      "cart",
-      "money",
-      "online",
-      "currency",
-      "payment",
-      "redeem",
-      "credit",
-      "present",
-      "cash",
-      "card",
-      "coin",
-      "shopping"
     ],
     "category": [
       "action"
@@ -29275,34 +28754,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "report_problem",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "!",
-      "symbol",
-      "exclamation",
-      "danger",
-      "error",
-      "triangle",
-      "feedback",
-      "notification",
-      "problem",
-      "alert",
-      "report",
-      "attention",
-      "warning",
-      "caution",
-      "mark"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "request_quote",
     "do": "",
     "dont": "",
@@ -29534,26 +28985,6 @@ const eosIcons = [
     ],
     "category": [
       "places"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "room",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "pin",
-      "marker",
-      "spot",
-      "place",
-      "map",
-      "mark",
-      "room"
-    ],
-    "category": [
-      "action"
     ],
     "type": "static",
     "hasOutlined": true,
@@ -30112,7 +29543,13 @@ const eosIcons = [
       "save",
       "clock",
       "time",
-      "mark"
+      "mark",
+      "query",
+      "builder",
+      "access",
+      "interval",
+      "hour",
+      "minute"
     ],
     "category": [
       "action"
@@ -30454,40 +29891,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "sd_card_alert",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "!",
-      "alert",
-      "attention",
-      "camera",
-      "card",
-      "caution",
-      "danger",
-      "digital",
-      "error",
-      "exclamation",
-      "important",
-      "mark",
-      "memory",
-      "notification",
-      "photos",
-      "sd",
-      "secure",
-      "storage",
-      "symbol",
-      "warning"
-    ],
-    "category": [
-      "notification"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "sd_storage",
     "do": "",
     "dont": "",
@@ -30585,7 +29988,14 @@ const eosIcons = [
       "phone",
       "security",
       "tablet",
-      "update"
+      "update",
+      "operating",
+      "pc",
+      "computer",
+      "data",
+      "arrow",
+      "software",
+      "running"
     ],
     "category": [
       "device"
@@ -30754,7 +30164,13 @@ const eosIcons = [
       "price",
       "sell",
       "shopping",
-      "tag"
+      "tag",
+      "offer",
+      "deal",
+      "shop",
+      "discount",
+      "store",
+      "local"
     ],
     "category": [
       "device"
@@ -31598,7 +31014,12 @@ const eosIcons = [
       "checkout",
       "card",
       "coin",
-      "shopping"
+      "shopping",
+      "market",
+      "shop",
+      "grocery",
+      "store",
+      "local"
     ],
     "category": [
       "action"
@@ -31950,33 +31371,6 @@ const eosIcons = [
     "hasOutlined": true
   },
   {
-    "name": "signal_wifi_connected_no_internet_4",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "cell",
-      "cellular",
-      "data",
-      "internet",
-      "mobile",
-      "network",
-      "no",
-      "phone",
-      "signal",
-      "speed",
-      "wifi",
-      "wireless",
-      "x"
-    ],
-    "category": [
-      "device"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "signal_wifi_off",
     "do": "",
     "dont": "",
@@ -32114,7 +31508,28 @@ const eosIcons = [
     "dont": "",
     "tags": [
       "telephone",
-      "communication"
+      "communication",
+      "!",
+      "alert",
+      "attention",
+      "camera",
+      "card",
+      "caution",
+      "danger",
+      "digital",
+      "error",
+      "exclamation",
+      "important",
+      "mark",
+      "memory",
+      "notification",
+      "photos",
+      "sd",
+      "secure",
+      "storage",
+      "symbol",
+      "warning",
+      "sd"
     ],
     "category": [
       "hardware"
@@ -32727,7 +32142,12 @@ const eosIcons = [
       "script",
       "resource",
       "program",
-      "data"
+      "data",
+      "conversation",
+      "matter",
+      "discourse",
+      "subject",
+      "topic"
     ],
     "category": [
       "action"
@@ -33544,25 +32964,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "star_border",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "empty",
-      "rating",
-      "review",
-      "valuation",
-      "appraisal",
-      "rank"
-    ],
-    "category": [
-      "toggle"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "star_half",
     "do": "",
     "dont": "",
@@ -33595,7 +32996,12 @@ const eosIcons = [
       "rating",
       "save",
       "star",
-      "toggle"
+      "toggle",
+      "empty",
+      "review",
+      "valuation",
+      "appraisal",
+      "rank"
     ],
     "category": [
       "toggle"
@@ -33822,30 +33228,12 @@ const eosIcons = [
       "storefront",
       "card",
       "coin",
-      "shopping"
+      "shopping",
+      "directory",
+      "mall"
     ],
     "category": [
       "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "store_mall_directory",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "shop",
-      "mall",
-      "front",
-      "place",
-      "store",
-      "directory",
-      "shopping"
-    ],
-    "category": [
-      "maps"
     ],
     "type": "static",
     "hasOutlined": true,
@@ -34691,31 +34079,6 @@ const eosIcons = [
     "hasOutlined": true
   },
   {
-    "name": "system_security_update_good",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "operating",
-      "pc",
-      "computer",
-      "data",
-      "mobile",
-      "renew",
-      "arrow",
-      "download",
-      "phone",
-      "software",
-      "running"
-    ],
-    "category": [
-      "device"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
-  },
-  {
     "name": "system_security_update_warning",
     "do": "",
     "dont": "",
@@ -35459,7 +34822,10 @@ const eosIcons = [
       "theater",
       "show",
       "showtimes",
-      "film"
+      "film",
+      "cinema",
+      "ticket",
+      "local"
     ],
     "category": [
       "action"
@@ -36007,23 +35373,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "topic",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "conversation",
-      "matter",
-      "discourse",
-      "subject"
-    ],
-    "category": [
-      "file"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "touch_app",
     "do": "",
     "dont": "",
@@ -36460,44 +35809,6 @@ const eosIcons = [
     "hasOutlined": true
   },
   {
-    "name": "turned_in",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "remember",
-      "bookmark",
-      "turned",
-      "in",
-      "save"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "turned_in_not",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "remember",
-      "bookmark",
-      "not",
-      "outline",
-      "turned",
-      "in",
-      "save"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "tv",
     "do": "",
     "dont": "",
@@ -36505,7 +35816,11 @@ const eosIcons = [
       "television",
       "watch",
       "tube",
-      "screen"
+      "screen",
+      "personal",
+      "display",
+      "monitor",
+      "video"
     ],
     "category": [
       "device"
@@ -36785,7 +36100,9 @@ const eosIcons = [
       "download",
       "drive",
       "up",
-      "upload"
+      "upload",
+      "store",
+      "load"
     ],
     "category": [
       "file"
@@ -37913,7 +37230,13 @@ const eosIcons = [
       "danger",
       "caution",
       "mark",
-      "triangle"
+      "triangle",
+      "!",
+      "symbol",
+      "error",
+      "problem",
+      "alert",
+      "report"
     ],
     "category": [
       "alert"
@@ -37974,24 +37297,6 @@ const eosIcons = [
     ],
     "category": [
       "hardware"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "watch_later",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "hour",
-      "watch",
-      "clock",
-      "time",
-      "minute"
-    ],
-    "category": [
-      "action"
     ],
     "type": "static",
     "hasOutlined": true,

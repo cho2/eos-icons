@@ -2,7 +2,7 @@
   "name": "group",
   "do": "",
   "dont": "",
-  "tags": ["team", "people", "users"],
+  "tags": ["team", "people", "users", "business", "users"],
   "category": ["roles"],
   "type": "static",
   "hasOutlined": true,

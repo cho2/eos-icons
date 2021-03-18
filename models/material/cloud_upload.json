@@ -9,7 +9,10 @@
     "send",
     "server",
     "storage",
-    "remote"
+    "remote",
+    "backup",
+    "arrow",
+    "up"
   ],
   "category": ["file"],
   "type": "static",

@@ -2,7 +2,16 @@
   "name": "library_add",
   "do": "",
   "dont": "",
-  "tags": ["add", "music", "Library", "collection", "video", "plus"],
+  "tags": [
+    "add",
+    "music",
+    "Library",
+    "collection",
+    "video",
+    "plus",
+    "queue",
+    "list"
+  ],
   "category": ["av"],
   "type": "static",
   "hasOutlined": true,

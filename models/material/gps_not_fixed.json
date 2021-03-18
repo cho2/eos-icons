@@ -11,7 +11,8 @@
     "location",
     "place",
     "tracking",
-    "direction"
+    "direction",
+    "gps"
   ],
   "category": ["device"],
   "type": "static",

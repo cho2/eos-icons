@@ -19,7 +19,12 @@
     "checkout",
     "card",
     "coin",
-    "shopping"
+    "shopping",
+    "market",
+    "shop",
+    "grocery",
+    "store",
+    "local"
   ],
   "category": ["action"],
   "type": "static",
