@@ -14,7 +14,12 @@
     "enabled",
     "off",
     "direction",
-    "on"
+    "on",
+    "navigation",
+    "point",
+    "marker",
+    "spot",
+    "room"
   ],
   "category": ["communication"],
   "type": "static",
