@@ -968,7 +968,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/16/2021"
   },
   {
     "name": "loading",
@@ -999,7 +1001,9 @@ const eosIcons = [
     ],
     "category": "artificial intelligence",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/16/2021"
   },
   {
     "name": "master",
@@ -1014,7 +1018,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/16/2021"
   },
   {
     "name": "merge",
@@ -1053,7 +1059,9 @@ const eosIcons = [
     ],
     "category": "design",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/16/2021"
   },
   {
     "name": "modified_date",
@@ -1072,7 +1080,9 @@ const eosIcons = [
     ],
     "category": "action",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "3/16/2021"
   },
   {
     "name": "molecules",
