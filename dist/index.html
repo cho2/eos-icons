@@ -217,6 +217,26 @@
     .slider.round:before {
       border-radius: 50%;
     }
+    /* Rounded sliders */
+    .tabs-container {
+      display: flex;
+    }
+    .tab {
+      width: 25%;
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #b7b7b7;
+      border-bottom: 0;
+    }
+
+    .tab:first-of-type {
+      border-right: 0;
+    }
+
+    .selected {
+      background-color: #b7b7b7;
+    }
+
   </style>
   <link rel="stylesheet" type="text/css" href="css/eos-icons.css" id="css-link">
   <script src='js/eos-icons.js'></script>
@@ -244,6 +264,11 @@
       <span class='slider round'></span>
     </label>
     Outline version
+
+    <div class="tabs-container">
+      <div class="tab eos-tab selected">EOS</div><div class="tab eos-tab">MD</div>
+    </div>
+    
     <div class='latest'>
       <h3>New icons since last release:</h3>
       <div class='latest-icons'></div>
