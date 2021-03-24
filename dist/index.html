@@ -221,20 +221,22 @@
     .tabs-container {
       display: flex;
     }
-    .tab {
+    .icons-tab {
       width: 25%;
       text-align: center;
       padding: 10px;
       border: 1px solid #b7b7b7;
       border-bottom: 0;
+      cursor: pointer;
     }
 
-    .tab:first-of-type {
+    .icons-tab:first-of-type {
       border-right: 0;
     }
 
     .selected {
-      background-color: #b7b7b7;
+      background-color: #333;
+      color: #fff;
     }
 
   </style>
@@ -265,8 +267,10 @@
     </label>
     Outline version
 
-    <div class="tabs-container">
-      <div class="tab eos-tab selected">EOS</div><div class="tab eos-tab">MD</div>
+    <div id='tab' class="tabs-container">
+      <div class='icons-tab selected' data-name='eos-icons'>EOS</div>
+      <div class='icons-tab' data-name='md-icons'>Material Design</div>
+      
     </div>
     
     <div class='latest'>
@@ -14671,6 +14675,7 @@
     (function () {
       var showCodeSnippet = false
       var iconName
+      var tabName
 
       //hide code snippet by default
       document.getElementsByClassName('how-to-use')[0].style.visibility = 'hidden'
