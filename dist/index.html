@@ -217,6 +217,28 @@
     .slider.round:before {
       border-radius: 50%;
     }
+    /* Rounded sliders */
+    .tabs-container {
+      display: flex;
+    }
+    .icons-tab {
+      width: 25%;
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #b7b7b7;
+      border-bottom: 0;
+      cursor: pointer;
+    }
+
+    .icons-tab:first-of-type {
+      border-right: 0;
+    }
+
+    .selected {
+      background-color: #333;
+      color: #fff;
+    }
+
   </style>
   <link rel="stylesheet" type="text/css" href="css/eos-icons.css" id="css-link">
   <script src='js/eos-icons.js'></script>
@@ -244,6 +266,13 @@
       <span class='slider round'></span>
     </label>
     Outline version
+
+    <div id='tab' class="tabs-container">
+      <div class='icons-tab selected' data-name='eos-icons'>EOS</div>
+      <div class='icons-tab' data-name='md-icons'>Material Design</div>
+      
+    </div>
+    
     <div class='latest'>
       <h3>New icons since last release:</h3>
       <div class='latest-icons'></div>
@@ -14646,6 +14675,7 @@
     (function () {
       var showCodeSnippet = false
       var iconName
+      var tabName
 
       //hide code snippet by default
       document.getElementsByClassName('how-to-use')[0].style.visibility = 'hidden'
