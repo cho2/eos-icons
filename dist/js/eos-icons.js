@@ -9648,25 +9648,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "check_circle_outline",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "check",
-      "circle",
-      "complete",
-      "done",
-      "finished",
-      "outline"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "checkroom",
     "do": "",
     "dont": "",
@@ -20048,24 +20029,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "label_outline",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "indent",
-      "sticker",
-      "stamp",
-      "label",
-      "tag"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "landscape",
     "do": "",
     "dont": "",
@@ -20526,21 +20489,6 @@ const eosIcons = [
     "label": "None",
     "date": "03/03/2021",
     "hasOutlined": true
-  },
-  {
-    "name": "lightbulb_outline",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "light",
-      "idea"
-    ],
-    "category": [
-      "hardware"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
   },
   {
     "name": "line_style",
@@ -21502,27 +21450,6 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
-    "name": "lock_outline",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "private",
-      "safe",
-      "lock",
-      "privacy",
-      "connection",
-      "locked",
-      "secure",
-      "key"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
     "name": "login",
     "do": "",
     "dont": "",
@@ -21978,26 +21905,6 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020"
-  },
-  {
-    "name": "maps_home_work",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "building",
-      "home",
-      "house",
-      "maps",
-      "office",
-      "work"
-    ],
-    "category": [
-      "navigation"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true
   },
   {
     "name": "maps_ugc",
@@ -23241,31 +23148,6 @@ const eosIcons = [
     ],
     "category": [
       "image"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020"
-  },
-  {
-    "name": "motorcycle",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "automobile",
-      "motorcycle",
-      "cars",
-      "maps",
-      "public",
-      "car",
-      "scooter",
-      "sport",
-      "bike",
-      "direction",
-      "transportation",
-      "vehicle"
-    ],
-    "category": [
-      "action"
     ],
     "type": "static",
     "hasOutlined": true,

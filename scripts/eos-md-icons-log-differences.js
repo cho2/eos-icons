@@ -15,7 +15,7 @@ const downloadFile = async () => {
 }
 
 const eosMdIconsDifferences = async (params) => {
-  const { targetDirMd, icons } = params
+  const { targetDirMd, duplicatedIconsList } = params
 
   try {
     const mdIcons = await fs
@@ -27,16 +27,19 @@ const eosMdIconsDifferences = async (params) => {
     const webMdIconsData = JSON.parse(
       fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", '')
     )
+
     const webMdIconsCollection = webMdIconsData.icons.map((ele) => ele.name)
     const missingIconsInEos = iconsDifferences(webMdIconsCollection, mdIcons)
-    const allMissingIconsInEos = iconsDifferences(missingIconsInEos, icons)
+    const allMissingIconsInEos = iconsDifferences(
+      missingIconsInEos,
+      duplicatedIconsList
+    )
 
     console.log(
       `======= ${allMissingIconsInEos.length} New icons MD has that EOS doesn't =======`
     )
     console.dir(allMissingIconsInEos, { maxArrayLength: null })
     if (allMissingIconsInEos.length > 0) {
-      addNewMdiconsList(allMissingIconsInEos)
       const importMdIconsRes = await importMdIcons().then(async (response) => {
         return response
       })
@@ -70,13 +73,6 @@ const importMdIcons = async () => {
   } catch (error) {
     console.log(error)
   }
-}
-
-const addNewMdiconsList = (allMissingIconsInEos) => {
-  fs.writeFileSync(
-    `./scripts/new-md-icons-list.json`,
-    JSON.stringify(allMissingIconsInEos, null, 2)
-  )
 }
 
 const iconsDifferences = (array1, array2) =>

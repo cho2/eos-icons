@@ -19,7 +19,8 @@ module.exports = function (grunt) {
   } = require('./scripts/svg-checker')
 
   const duplicatedIcons = require('./scripts/duplicated_icons.json')
-  const newMdIconsList = require('./scripts/new-md-icons-list.json')
+  // const newMdIconsList = require('./scripts/new-md-icons-list.json')
+
   const {
     eosMdIconsDifferences,
     downloadFile
@@ -125,24 +126,16 @@ module.exports = function (grunt) {
           { mergePaths: false },
           { convertShapeToPath: false },
           {
-            removeRect: {
-              type: 'perItem',
-              name: 'removeSvgId',
-              description: 'Removes the Rect element',
-              fn: function (item) {
-                return !item.isElem('rect')
-              }
-            }
-          },
-          {
             removeFill: {
               type: 'perItem',
-              name: 'removeFill',
+              name: 'removeFillHeightWidth',
               description:
-                'Removes the Fill attr from the <svg> <path> element',
+                'Removes the Fill, Height and Width attr from the <svg> <path> element',
               fn: function (item) {
                 if (item.isElem('svg')) {
                   item.removeAttr('fill')
+                  item.removeAttr('height')
+                  item.removeAttr('width')
                 }
               }
             }
@@ -153,25 +146,27 @@ module.exports = function (grunt) {
               name: 'removeUnusedPath',
               description: 'Removes the removeUnusedPath',
               fn: function (item) {
-                if (item.isElem('path')) {
-                  const pathValues = [
-                    'M0 0h24v24H0z',
-                    'M0 0h24v24H0z',
-                    'M0,0h24v24H0V0z'
-                  ]
-
-                  for (let i = 0; i < pathValues.length; i++) {
-                    if (item.attrs.d.value === pathValues[i]) {
-                      return !item.isElem('path')
-                    }
+                if (item.isElem('path') && item.attrs.fill) {
+                  if (item.attrs.fill.value === 'none') {
+                    return !item.isElem('path')
                   }
                 }
               }
             }
           },
           {
-            removeAttrs: {
-              attrs: ['width', 'height']
+            removeRectFillNone: {
+              type: 'perItem',
+              name: 'removeFillHeightWidth',
+              description:
+                'Removes the Fill, Height and Width attr from the <svg> <path> element',
+              fn: function (item) {
+                if (item.isElem('rect') && item.attrs.fill) {
+                  if (item.attrs.fill.value === 'none') {
+                    return !item.isElem('rect')
+                  }
+                }
+              }
             }
           }
         ]
@@ -180,9 +175,17 @@ module.exports = function (grunt) {
         files: [
           {
             expand: true,
-            cwd: 'svg/material/',
-            src: [newMdIconsList.map((ele) => `${ele}.svg`)],
-            dest: 'svg/material/',
+            cwd: 'svg/material',
+            src: '*.svg',
+            dest: 'svg/material',
+            ext: '.svg',
+            extDot: 'first'
+          },
+          {
+            expand: true,
+            cwd: 'svg-outlined/material',
+            src: '*.svg',
+            dest: 'svg-outlined/material',
             ext: '.svg',
             extDot: 'first'
           }
@@ -215,8 +218,8 @@ module.exports = function (grunt) {
       outlined: {
         expand: true,
         dest: 'temp',
-        cwd: 'svg-outlined/',
-        src: '*'
+        cwd: 'svg-outlined',
+        src: '**/*'
       },
       newIcons: {
         dest: 'dist/js/new-icons.js',
@@ -412,17 +415,42 @@ module.exports = function (grunt) {
   /* compare MD icons in our repo and MD officical website Download MD svgs and create models */
   grunt.registerTask('importMdIcons', async function () {
     const done = this.async()
+    const targetDir = './svg/material'
 
     await downloadFile()
       .then(
         eosMdIconsDifferences({
-          targetDirMd: './svg/material',
-          icons: duplicatedIcons
+          targetDirMd: targetDir,
+          duplicatedIconsList: duplicatedIcons
+        }).then(async (res) => {
+          console.log(res)
+          if (res.answer === 'Yes') {
+            const iconList = [...res.iconsList]
+            /* Download MD svgs and create models */
+            await downloadMDFile(iconList, targetDir).then()
+            done()
+          } else {
+            done()
+          }
+        })
+      )
+      .then()
+  })
+
+  /* Import outlined MD icons */
+  grunt.registerTask('importOutlinedMdIcons', async function () {
+    const done = this.async()
+    const targetDir = './svg-outlined/material'
+    await downloadFile()
+      .then(
+        eosMdIconsDifferences({
+          targetDirMd: targetDir,
+          duplicatedIconsList: duplicatedIcons
         }).then(async (res) => {
           if (res.answer === 'Yes') {
             const iconList = [...res.iconsList]
             /* Download MD svgs and create models */
-            await downloadMDFile(iconList).then()
+            await downloadMDFile(iconList, targetDir).then()
             done()
           } else {
             done()
@@ -451,7 +479,10 @@ module.exports = function (grunt) {
   grunt.registerTask('materialOutlineModels', async function () {
     const done = this.async()
 
-    return materialOutlineModels({ modelsDir: './models/material' }).then(done)
+    return materialOutlineModels({
+      outlineSvgDir: './svg-outlined/material',
+      modelsDir: './models/material'
+    }).then(done)
   })
 
   // Handle EOS Icons Outline model
@@ -551,6 +582,7 @@ module.exports = function (grunt) {
   ])
   grunt.registerTask('test', [
     'importMdIcons',
+    'importOutlinedMdIcons',
     'findDuplicateNames',
     'checkNameConvention',
     'checkModelKeysTask',
