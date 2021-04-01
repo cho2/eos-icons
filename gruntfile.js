@@ -481,7 +481,7 @@ module.exports = function (grunt) {
 
     return materialOutlineModels({
       outlineSvgDir: './svg-outlined/material',
-      modelsDir: './models/material'
+      modelsFolder: './models/material'
     }).then(done)
   })
 
