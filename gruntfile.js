@@ -423,7 +423,6 @@ module.exports = function (grunt) {
           targetDirMd: targetDir,
           duplicatedIconsList: duplicatedIcons
         }).then(async (res) => {
-          console.log(res)
           if (res.answer === 'Yes') {
             const iconList = [...res.iconsList]
             /* Download MD svgs and create models */
