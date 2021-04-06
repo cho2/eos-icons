@@ -133,14 +133,13 @@ const materialOutlineModels = async ({ outlineSvgDir, modelsFolder }) => {
     /* Get the object without the filename */
     const { fileName, ...newModel } = model
     /* If the object already has the property of hasOutlined, ignore it */
-    if (newModel.hasOutlined) return
+    if (newModel.dateOutlined) return
     /* Rewrite the material-model to include the hasOutlined property */
     return fs.writeFileSync(
       `./${modelsFolder}/${model.name}.json`,
       JSON.stringify(
         {
           ...newModel,
-          hasOutlined: true,
           dateOutlined: newModel.dateOutlined
             ? newModel.dateOutlined
             : new Date().toLocaleDateString()
