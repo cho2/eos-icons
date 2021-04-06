@@ -2,7 +2,9 @@
   "name": "2k_plus",
   "do": "",
   "dont": "",
-  "tags": ["alphabet", "character",
+  "tags": [
+    "alphabet",
+    "character",
     "digit",
     "font",
     "letter",
