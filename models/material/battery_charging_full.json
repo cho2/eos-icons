@@ -1,5 +1,5 @@
 {
-  "name": "battery_charging_20",
+  "name": "battery_charging_full",
   "do": "",
   "dont": "",
   "tags": ["charge", "mobile", "power", "cell"],
