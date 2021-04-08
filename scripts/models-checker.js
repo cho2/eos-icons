@@ -116,23 +116,34 @@ const readModelKeys = async (params) => {
 /**
  * Will check the models for material icons and add the propriety of hasOutlined to them.
  */
-const materialOutlineModels = async ({ modelsDir }) => {
-  const models = await readModelKeys({ modelsFolder: modelsDir })
+const materialOutlineModels = async ({ outlineSvgDir, modelsFolder }) => {
+  const models = await readModelKeys({ modelsFolder: modelsFolder })
+  // Gets the outlined MD SVGs
+  const filesMd = fs
+    .readdirSync(outlineSvgDir, (err, file) => {
+      if (err) console.log(err)
+      return file
+    })
+    .filter((ele) => ele.includes('.svg'))
+  const modelsToCreate = models.filter((ele) => {
+    if (filesMd.includes(`${ele.name}.svg`)) return ele
+  })
 
-  return models.map((model) => {
+  return modelsToCreate.map((model) => {
     /* Get the object without the filename */
     const { fileName, ...newModel } = model
-
     /* If the object already has the property of hasOutlined, ignore it */
     if (newModel.hasOutlined) return
-
     /* Rewrite the material-model to include the hasOutlined property */
     return fs.writeFileSync(
-      `${modelsDir}/${model.name}.json`,
+      `./${modelsFolder}/${model.name}.json`,
       JSON.stringify(
         {
           ...newModel,
-          hasOutlined: true
+          hasOutlined: true,
+          dateOutlined: newModel.dateOutlined
+            ? newModel.dateOutlined
+            : new Date().toLocaleDateString()
         },
         null,
         2
