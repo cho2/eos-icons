@@ -1,9 +1,9 @@
 {
-  "name": "person_outline",
+  "name": "play_circle",
   "do": "",
   "dont": "",
-  "tags": ["user", "avatar", "person", "profile"],
-  "category": ["roles"],
+  "tags": ["Play", "controls", "music", "arrow", "control", "video"],
+  "category": ["av"],
   "type": "static",
   "hasOutlined": true,
   "date": "30/11/2020",
