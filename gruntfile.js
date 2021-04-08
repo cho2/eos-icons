@@ -157,9 +157,8 @@ module.exports = function (grunt) {
           {
             removeRectFillNone: {
               type: 'perItem',
-              name: 'removeFillHeightWidth',
-              description:
-                'Removes the Fill, Height and Width attr from the <svg> <path> element',
+              name: 'removeRectIfFillNone',
+              description: 'Removes <rect> element if Fill is none',
               fn: function (item) {
                 if (item.isElem('rect') && item.attrs.fill) {
                   if (item.attrs.fill.value === 'none') {
