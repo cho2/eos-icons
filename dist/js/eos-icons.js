@@ -1328,7 +1328,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/9/2021"
   },
   {
     "name": "package_upgrade",
@@ -1352,7 +1354,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/9/2021"
   },
   {
     "name": "packages",
@@ -1373,7 +1377,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/9/2021"
   },
   {
     "name": "patch_fixes",
@@ -1391,7 +1397,9 @@ const eosIcons = [
     ],
     "category": "services",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/9/2021"
   },
   {
     "name": "patterns",
@@ -1417,7 +1425,9 @@ const eosIcons = [
     ],
     "category": "design",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/9/2021"
   },
   {
     "name": "performance",
