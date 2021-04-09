@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20201107 at Thu Apr  8 22:12:25 2021
+Created by FontForge 20201107 at Fri Apr  9 10:39:12 2021
  By Richa Bisht
 </metadata>
 <defs>
@@ -18,7 +18,7 @@ Created by FontForge 20201107 at Thu Apr  8 22:12:25 2021
     bbox="-0.595506 -64.5 512 448.5"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F7FA"
+    unicode-range="U+0030-F7F8"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -1368,7 +1368,7 @@ d="M203 213l-64 -128v86h-43l64 128v-86h43zM256 384h-213v-21h213v21zM256 21h-213v
 d="M384 405q18 0 30.5 -12.5t12.5 -29.5v-256q0 -18 -12.5 -30.5t-30.5 -12.5h-299l-85 -85v384q0 17 12.5 29.5t30.5 12.5h341zM384 107v256h-341v-299l42 43h299z" />
     <glyph glyph-name="chat" unicode="chat" 
 d="M43 363v-281l25 25h316v256h-341zM43 405h341q18 0 30.5 -12.5t12.5 -29.5v-256q0 -18 -12.5 -30.5t-30.5 -12.5h-299l-85 -85v384q0 17 12.5 29.5t30.5 12.5zM85 192h171v-43h-171v43zM85 256h256v-43h-256v43zM85 320h256v-43h-256v43z" />
-    <glyph glyph-name="check_box_outline_blank" unicode="check_box_outline_blank" horiz-adv-x="384" 
+    <glyph glyph-name="check_box_blank" unicode="check_box_blank" horiz-adv-x="384" 
 d="M341 341h-298v-298h298v298zM341 384q18 0 30.5 -12.5t12.5 -30.5v-298q0 -18 -12.5 -30.5t-30.5 -12.5h-298q-18 0 -30.5 12.5t-12.5 30.5v298q0 18 12.5 30.5t30.5 12.5h298z" />
     <glyph glyph-name="check_box" unicode="check_box" horiz-adv-x="384" 
 d="M341 384q18 0 30.5 -12.5t12.5 -30.5v-298q0 -18 -12.5 -30.5t-30.5 -12.5h-298q-18 0 -30.5 12.5t-12.5 30.5v298q0 18 12.5 30.5t30.5 12.5h298zM341 43v298h-298v-298h298zM320 256l-171 -171l-85 85l30 31l55 -55l141 140z" />
@@ -1758,10 +1758,8 @@ d="M213 299h214v-299h-427v384h213v-85zM85 43v42h-42v-42h42zM85 128v43h-42v-43h42
 v-43h-43v-42h171zM341 213v-42h-42v42h42zM341 128v-43h-42v43h42z" />
     <glyph glyph-name="done_all" unicode="done_all" horiz-adv-x="496" 
 d="M375 299l-135 -136l-30 30l135 136zM466 329l30 -30l-256 -256l-119 119l30 30l89 -89zM0 162l30 30l119 -119l-30 -30z" />
-    <glyph glyph-name="done_outline" unicode="done_outline" horiz-adv-x="512" 
+    <glyph glyph-name="done" unicode="done" horiz-adv-x="512" 
 d="M422 343l-242 -242l-90 90l-30 -30l120 -120l272 272zM422 403l90 -90l-332 -332l-180 180l90 90l90 -90z" />
-    <glyph glyph-name="done" unicode="done" horiz-adv-x="375" 
-d="M119 102l227 227l29 -30l-256 -256l-119 119l30 30z" />
     <glyph glyph-name="donut_large" unicode="donut_large" horiz-adv-x="426" 
 d="M235 340v64q75 -7 129 -61t62 -130h-65q-7 49 -42 84.5t-84 42.5zM361 171h65q-8 -76 -62 -130t-129 -61v64q49 7 84 42.5t42 84.5zM192 44v-64q-81 8 -136.5 68.5t-55.5 143.5t55.5 143.5t136.5 68.5v-64q-55 -8 -91.5 -50t-36.5 -98t36.5 -98t91.5 -50z" />
     <glyph glyph-name="donut_small" unicode="donut_small" horiz-adv-x="426" 
@@ -1808,7 +1806,7 @@ zM64 160q0 13 9.5 22.5t22.5 9.5t22.5 -9.5t9.5 -22.5t-9.5 -22.5t-22.5 -9.5t-22.5 
     <glyph glyph-name="drive_file_move" unicode="drive_file_move" 
 d="M384 320q18 0 30.5 -12.5t12.5 -30.5v-213q0 -18 -12.5 -30.5t-30.5 -12.5h-341q-18 0 -30.5 12.5t-12.5 30.5v256q0 18 12.5 30.5t30.5 12.5h128l42 -43h171zM384 64v213h-188l-13 13l-30 30h-110v-256h341zM217 192l-34 34l30 30l86 -86l-86 -85l-30 30l34 34h-89v43
 h89z" />
-    <glyph glyph-name="drive_file_rename_outline" unicode="drive_file_rename_outline" horiz-adv-x="384" 
+    <glyph glyph-name="drive_file_rename" unicode="drive_file_rename" horiz-adv-x="384" 
 d="M256 107h128v-86h-213zM193 295l80 -80l-193 -194h-80v80zM62 64l151 151l-20 19l-150 -150v-20h19zM335 276l-39 -39l-80 80l39 39q6 7 15 7t15 -7l50 -49q6 -7 6 -15.5t-6 -15.5z" />
     <glyph glyph-name="drive_folder_upload" unicode="drive_folder_upload" 
 d="M384 320q18 0 30.5 -12.5t12.5 -30.5v-213q0 -18 -12.5 -30.5t-30.5 -12.5h-341q-18 0 -30.5 12.5t-12.5 30.5v256q0 18 12.5 30.5t30.5 12.5h128l42 -43h171zM384 64v213h-188l-43 43h-110v-256h341zM158 140l-30 30l86 86l85 -86l-30 -30l-34 34v-89h-43v89z" />
@@ -2943,8 +2941,6 @@ q0 18 12.5 30.5t30.5 12.5h42v64q0 9 6.5 15t15.5 6h85q9 0 15 -6t6 -15v-64h43zM117
 d="M0 43v64h427v-64q0 -18 -12.5 -30.5t-30.5 -12.5h-341q-18 0 -30.5 12.5t-12.5 30.5zM43 64v-21h341v21h-341zM355 203q21 0 39.5 -9.5t31.5 -12.5l1 -42q-23 0 -41.5 10.5t-29.5 10.5t-30 -10.5t-41 -10.5t-41 10.5t-30 10.5q-12 0 -30.5 -10.5t-40.5 -10.5
 q-23 0 -42 10.5t-29.5 10.5t-30 -10.5t-41.5 -10.5v42q12 0 30.5 11t40.5 11q23 0 42 -11t29 -11q12 0 30.5 11t40.5 11q23 0 42 -11t29 -11q12 0 30.5 11t40.5 11zM427 256v-21h-427v21q0 62 59 95t154.5 33t154.5 -33t59 -95zM47 277h334q-4 12 -14 22q-43 42 -154 42
 q-60 0 -107 -15.5t-59 -48.5z" />
-    <glyph glyph-name="mail_outline" unicode="mail_outline" 
-d="M384 363q18 0 30.5 -12.5t12.5 -30.5v-256q0 -18 -12.5 -30.5t-30.5 -12.5h-341q-18 0 -30.5 12.5t-12.5 30.5v256q0 18 12.5 30.5t30.5 12.5h341zM384 64v213l-171 -106l-170 106v-213h341zM213 213l171 107h-341z" />
     <glyph glyph-name="male" unicode="male" horiz-adv-x="341" 
 d="M117 213q-31 0 -52.5 -21.5t-21.5 -52.5t21.5 -53t52.5 -22t53 22t22 53t-22 52.5t-53 21.5zM117 256q37 0 67 -21l84 85h-55v43h128v-128h-42v55l-85 -85q21 -30 21 -66q0 -49 -34.5 -83.5t-83 -34.5t-83 34.5t-34.5 83t34.5 83t82.5 34.5z" />
     <glyph glyph-name="manage_accounts" unicode="manage_accounts" horiz-adv-x="423" 
