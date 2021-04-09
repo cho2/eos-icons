@@ -7,6 +7,7 @@
     "@semantic-release/git": "^5.0.0",
     "@semantic-release/gitlab": "^2.1.4",
     "axios": "^0.19.2",
+    "chai": "^4.3.4",
     "conventional-changelog-eslint": "^1.0.9",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^6.15.0",
@@ -28,6 +29,7 @@
     "husky": "^4.3.0",
     "inquirer": "^7.0.4",
     "lint-staged": "^10.5.4",
+    "mocha": "^8.3.2",
     "prettier": "^2.2.0",
     "semantic-release": "^15.14.0",
     "xcode": "^2.1.0"
@@ -35,7 +37,9 @@
   "scripts": {
     "build": "grunt",
     "js:fix": "eslint scripts/ --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "mocha",
+    "test:dev": "nodemon --ignore 'test/**/*.json' --exec 'mocha'"
   },
   "husky": {
     "hooks": {
