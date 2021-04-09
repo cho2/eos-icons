@@ -185,5 +185,10 @@
   "panorama_wide_angle_select",
   "amp_stories",
   "directions_transit",
-  "do_disturb_off"
+  "do_disturb_off",
+  "outlined_flag",
+  "done_outline",
+  "mail_outline",
+  "drive_file_rename_outline",
+  "check_box_outline_blank"
 ]

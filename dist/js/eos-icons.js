@@ -9849,7 +9849,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
-    "name": "check_box_outline_blank",
+    "name": "check_box_blank",
     "do": "",
     "dont": "",
     "tags": [
@@ -12745,26 +12745,6 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
-    "name": "done_outline",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "check",
-      "complete",
-      "done",
-      "finished",
-      "mark",
-      "outline"
-    ],
-    "category": [
-      "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
-  },
-  {
     "name": "donut_large",
     "do": "",
     "dont": "",
@@ -13160,7 +13140,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
-    "name": "drive_file_rename_outline",
+    "name": "drive_file_rename",
     "do": "",
     "dont": "",
     "tags": [
@@ -22360,27 +22340,6 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
-    "name": "mail_outline",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "communication",
-      "letter",
-      "package",
-      "parcel",
-      "post",
-      "postcard",
-      "mail"
-    ],
-    "category": [
-      "communication"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
-  },
-  {
     "name": "male",
     "do": "",
     "dont": "",
@@ -25458,27 +25417,6 @@ const eosIcons = [
     ],
     "category": [
       "action"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
-  },
-  {
-    "name": "outlined_flag",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "country",
-      "flag",
-      "goal",
-      "mark",
-      "nation",
-      "report",
-      "start"
-    ],
-    "category": [
-      "content"
     ],
     "type": "static",
     "hasOutlined": true,
