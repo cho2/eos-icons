@@ -39,7 +39,7 @@
     "js:fix": "eslint scripts/ --fix",
     "format": "prettier --write .",
     "test": "mocha",
-    "test:dev": "nodemon --ignore 'test/**/*.json' --exec 'mocha'"
+    "test:watch": "nodemon --ignore 'test/**/*.json' --exec 'mocha'"
   },
   "husky": {
     "hooks": {

@@ -117,7 +117,7 @@ describe('combine-eos-icons', function () {
   })
 
   describe('readFolderContent()', async function (done) {
-    it('should be able to read a given .json file', async function () {
+    it('should be able to read the single .json file', async function () {
       const data = await readFolderContent(
         path.join(process.cwd() + '/test/dummy-data/model/')
       )

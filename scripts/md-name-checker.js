@@ -1,4 +1,10 @@
 const fs = require('fs')
+
+/**
+ * Retuns a list of filesnames for both svg or png
+ * @param {*} dir
+ * @returns
+ */
 const readFiles = async (dir) => {
   try {
     const icons = await fs.readdirSync(dir, (err, filenames) => {

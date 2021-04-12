@@ -1,28 +1,13 @@
 const fs = require('fs')
-
-/* create array of our current icons and models so we remove them from the MD object */
-const mdIcons = fs
-  .readdirSync('./svg/material', (err, filenames) => {
-    if (err) console.error(err)
-
-    return filenames
-  })
-  .map((ele) => ele.replace(/\.[^/.]+$/, ''))
-const mdModelsCreated = fs
-  .readdirSync('./models/material', (err, filenames) => {
-    if (err) console.error(err)
-
-    return filenames
-  })
-  .map((ele) => ele.replace(/\.[^/.]+$/, ''))
+const { readFilesInFolder } = require('./utilities')
 
 /* The MD object. Let's clean it up. */
 const webMdIconsData = JSON.parse(
   fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", '')
 )
 const webMdIconsCollection = webMdIconsData.icons
-  .filter((icon) => mdIcons.includes(icon.name))
-  .filter((icon) => !mdModelsCreated.includes(icon.name))
+  .filter((icon) => readFilesInFolder('/svg/material').includes(icon.name))
+  .filter((icon) => !readFilesInFolder('/models/material').includes(icon.name))
 
 webMdIconsCollection.forEach((icon) => {
   const newObject = {
