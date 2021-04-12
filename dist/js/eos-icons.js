@@ -1274,7 +1274,9 @@ const eosIcons = [
     ],
     "category": "design",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/12/2021"
   },
   {
     "name": "organization",
