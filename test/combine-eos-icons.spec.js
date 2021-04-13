@@ -43,7 +43,7 @@ const testSettings = {
   destDirModels: './test/__temp__/mix-models.json'
 }
 
-describe('combine-eos-icons', function () {
+describe('# combine-eos-icons', function () {
   const {
     targetDirEosModels,
     targetDirMdModels,

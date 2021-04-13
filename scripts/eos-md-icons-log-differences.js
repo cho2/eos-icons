@@ -5,7 +5,8 @@ const path = require('path')
 
 const downloadFile = async () => {
   const filePath = path.resolve(__dirname, 'md-web-data.json')
-  axios({
+
+  return axios({
     method: 'get',
     url: 'https://fonts.google.com/metadata/icons',
     responseType: 'stream'

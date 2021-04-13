@@ -3,24 +3,18 @@ const axios = require('axios')
 const inquirer = require('inquirer')
 const path = require('path')
 
-let nameIcon, svgCollection
+const { readFilesInFolder } = require('./utilities')
 
 // List of icons in ./svg and ./svg/material folders
-const eosIconsList = './svg'
-const mdIconsList = './svg/material'
-const eosIcons = fs.readdirSync(eosIconsList).map((ele) => ele.split('.')[0])
-const mdIcons = fs.readdirSync(mdIconsList).map((ele) => ele.split('.')[0])
+const eosIcons = readFilesInFolder('/svg/')
+const mdIcons = readFilesInFolder('/svg/material')
+
 const svgFilledCollection = [...eosIcons, ...mdIcons]
 
 // List of icons in ./svg-outlined and ./svg-outlined/material folders
-const eosOutlinedIconsList = './svg-outlined'
-const mdOutlinedIconsList = './svg-outlined/material'
-const eosOutlinedIcons = fs
-  .readdirSync(eosOutlinedIconsList)
-  .map((ele) => ele.split('.')[0])
-const mdOutlinedIcons = fs
-  .readdirSync(mdOutlinedIconsList)
-  .map((ele) => ele.split('.')[0])
+const eosOutlinedIcons = readFilesInFolder('/svg-outlined/')
+const mdOutlinedIcons = readFilesInFolder('/svg-outlined/material')
+
 const svgOutlinedCollection = [...eosOutlinedIcons, ...mdOutlinedIcons]
 
 const inputForName = async () => {
@@ -62,34 +56,40 @@ const duplicateMDIcon = async (mdIcon) => {
   }
 }
 
+/**
+ * Downloads and saves a specif SVG to a given folder
+ * @param {string[]} mdIconModelData documents array
+ * @param {string} newName file name
+ * @param {string} targetDirMd file target directory
+ * @returns {void}
+ */
 const downloadSvgFiles = async (mdIconModelData, newName, targetDirMd) => {
   const filePath = path.resolve(__dirname, `.${targetDirMd}/${newName}.svg`)
-  let svgCollectionPath
-  if (targetDirMd === './svg/material') {
-    svgCollectionPath = 'materialicons'
-  } else {
-    svgCollectionPath = 'materialiconsoutlined'
-  }
-  const url = `https://fonts.gstatic.com/s/i/${svgCollectionPath}/${mdIconModelData[0].name}/v${mdIconModelData[0].version}/24px.svg`
+  const svgCollectionPath = !targetDirMd.includes('svg-outlined')
+    ? 'materialicons'
+    : 'materialiconsoutlined'
 
+  const url = `https://fonts.gstatic.com/s/i/${svgCollectionPath}/${mdIconModelData[0].name}/v${mdIconModelData[0].version}/24px.svg`
   const file = fs.createWriteStream(filePath)
   const response = await axios({
     url,
     method: 'GET',
     responseType: 'stream'
   })
-  response.data.pipe(file)
+
+  return response.data.pipe(file)
 }
 
+let nameIcon, svgCollection
 const downloadMDFile = async (mdIconList, targetDirMd) => {
+  const webMdIconsData = JSON.parse(
+    fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", '')
+  )
+
   for (const mdIcon of mdIconList) {
-    const webMdIconsData = JSON.parse(
-      fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", '')
-    )
     const mdIconModelData = webMdIconsData.icons.filter(
       (icon) => mdIcon === icon.name
     )
-
     if (targetDirMd === './svg/material') {
       svgCollection = svgFilledCollection
     } else {
@@ -160,5 +160,6 @@ const createSvgModels = async (mdSvg, nameIcon) => {
 }
 
 module.exports = {
-  downloadMDFile
+  downloadMDFile,
+  downloadSvgFiles
 }
