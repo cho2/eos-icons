@@ -840,7 +840,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/13/2021"
   },
   {
     "name": "hourglass",
@@ -1041,7 +1043,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/13/2021"
   },
   {
     "name": "miscellaneous",
@@ -1099,7 +1103,9 @@ const eosIcons = [
     ],
     "category": "design",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/13/2021"
   },
   {
     "name": "monitoring",
@@ -1295,7 +1301,9 @@ const eosIcons = [
     ],
     "category": "services",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/13/2021"
   },
   {
     "name": "outbound",
