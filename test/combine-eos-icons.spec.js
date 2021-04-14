@@ -7,68 +7,17 @@ const {
   showMissingOutlinedFiles,
   readFolderContent
 } = require('../scripts/combine-eos-icons.js')
-const { moveFiles } = require('./utils/files.util')
 
-const testSettings = {
-  models: [
-    {
-      src: '/models/abstract.json',
-      dest: '/dummy-data/model/abstract.json'
-    },
-    {
-      src: '/models/material/1k_plus.json',
-      dest: '/dummy-data/model/material/1k_plus.json'
-    }
-  ],
-  svgs: [
-    // {
-    //   src: '/svg-outlined/abstract.svg',
-    //   dest: '/dummy-data/svg-outlined/abstract.svg'
-    // },
-    {
-      src: '/svg/abstract.svg',
-      dest: '/dummy-data/svg/abstract.svg'
-    },
-    {
-      src: '/svg/material/1k_plus.svg',
-      dest: '/dummy-data/svg/material/1k_plus.svg'
-    },
-    {
-      src: '/svg-outlined/material/1k_plus.svg',
-      dest: '/dummy-data/svg-outlined/material/1k_plus.svg'
-    }
-  ],
+const { config } = require('./settings')
+
+const constants = {
   targetDirEosModels: `./test/dummy-data/model/`,
   targetDirMdModels: './test/dummy-data/model/material/',
   destDirModels: './test/__temp__/mix-models.json'
 }
 
 describe('# combine-eos-icons', function () {
-  const {
-    targetDirEosModels,
-    targetDirMdModels,
-    destDirModels,
-    models,
-    svgs
-  } = testSettings
-
-  before(function () {
-    // Move needed models for the test
-    models.map((ele) => {
-      moveFiles(
-        path.join(process.cwd() + ele.src),
-        path.join(__dirname + ele.dest)
-      )
-    })
-
-    // Moves needed svgs for the test
-    svgs.map((ele) => {
-      moveFiles(
-        path.join(process.cwd() + ele.src),
-        path.join(__dirname + ele.dest)
-      )
-    })
-  })
+  const { targetDirEosModels, targetDirMdModels, destDirModels } = constants
 
   describe('combineIconsModels()', function (done) {
     before(function () {
@@ -80,12 +29,8 @@ describe('# combine-eos-icons', function () {
     })
 
     it('should generate a file that exists and, combines both models files in a single one', function () {
-      const file1 = require(path.join(
-        process.cwd() + testSettings.models[0].src
-      ))
-      const file2 = require(path.join(
-        process.cwd() + testSettings.models[1].src
-      ))
+      const file1 = require(path.join(process.cwd() + config.models[0].src))
+      const file2 = require(path.join(process.cwd() + config.models[1].src))
 
       // Get the combine output from the function
       const combineFile = require(path.join(

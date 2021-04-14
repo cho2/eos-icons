@@ -1,6 +1,7 @@
 const { downloadSvgFiles } = require('../scripts/download-svg')
 
-describe.only('# download-svg', () => {
+// TOOD: Fix the rest first
+describe.skip('# download-svg', () => {
   before(() => {
     // downloadSvgFiles({})
   })

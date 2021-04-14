@@ -19,11 +19,10 @@ module.exports = function (grunt) {
   } = require('./scripts/svg-checker')
 
   const duplicatedIcons = require('./scripts/duplicated_icons.json')
-  // const newMdIconsList = require('./scripts/new-md-icons-list.json')
 
   const {
     eosMdIconsDifferences,
-    downloadFile
+    downloadMaterialIconsList
   } = require('./scripts/eos-md-icons-log-differences')
   const { downloadMDFile } = require('./scripts/download-svg')
   const { jsFileFromJSON } = require('./scripts/utilities')
@@ -414,9 +413,9 @@ module.exports = function (grunt) {
   /* compare MD icons in our repo and MD officical website Download MD svgs and create models */
   grunt.registerTask('importMdIcons', async function () {
     const done = this.async()
-    const targetDir = './svg/material'
+    const targetDir = '/svg/material'
 
-    await downloadFile()
+    await downloadMaterialIconsList()
       .then(
         eosMdIconsDifferences({
           targetDirMd: targetDir,
@@ -438,8 +437,8 @@ module.exports = function (grunt) {
   /* Import outlined MD icons */
   grunt.registerTask('importOutlinedMdIcons', async function () {
     const done = this.async()
-    const targetDir = './svg-outlined/material'
-    await downloadFile()
+    const targetDir = '/svg-outlined/material'
+    await downloadMaterialIconsList()
       .then(
         eosMdIconsDifferences({
           targetDirMd: targetDir,

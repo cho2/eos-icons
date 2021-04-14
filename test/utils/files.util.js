@@ -9,9 +9,14 @@ const moveFiles = async (src, dest) => {
   })
 }
 
-// TODO
-const removeFile = async (src) => {}
+const removeFile = async (file) => {
+  fs.unlinkSync(file, (err) => {
+    if (err) console.log(err)
+    console.log(`${file} was deleted`)
+  })
+}
 
 module.exports = {
-  moveFiles
+  moveFiles,
+  removeFile
 }
