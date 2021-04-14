@@ -27275,6 +27275,26 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "play_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Play",
+      "controls",
+      "music",
+      "arrow",
+      "control",
+      "video"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "hasOutlined": true,
+    "date": "30/11/2020",
+    "dateOutlined": "06/04/2021"
+  },
+  {
     "name": "play_disabled",
     "do": "",
     "dont": "",
@@ -33672,33 +33692,6 @@ const eosIcons = [
     "type": "static",
     "hasOutlined": true,
     "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
-  },
-  {
-    "name": "star_purple500",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "500",
-      "best",
-      "bookmark",
-      "favorite",
-      "highlight",
-      "purple",
-      "ranking",
-      "rate",
-      "rating",
-      "save",
-      "star",
-      "toggle"
-    ],
-    "category": [
-      "toggle"
-    ],
-    "type": "static",
-    "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
     "dateOutlined": "06/04/2021"
   },
   {

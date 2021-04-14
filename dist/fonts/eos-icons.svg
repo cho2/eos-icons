@@ -15,7 +15,7 @@
     bbox="-0.595506 -64.1264 512 448.379"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F7D5"
+    unicode-range="U+0030-F7D4"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -4055,8 +4055,6 @@ d="M0 22l160 160l85 -86l152 170l30 -30l-182 -204l-85 86l-128 -128zM32 118l-32 32
 d="M341 384q18 0 30.5 -12.5t12.5 -30.5v-298q0 -18 -12.5 -30.5t-30.5 -12.5h-298q-18 0 -30.5 12.5t-12.5 30.5v298q0 18 12.5 30.5t30.5 12.5h298zM320 277v43h-94v-71h-55v-71h-55v-71h-52v-43h94v71h55v71h55v71h52z" />
     <glyph glyph-name="star_half" unicode="star_half" 
 d="M427 251l-117 -101l35 -150l-132 80l-132 -80l35 150l-116 101l153 13l60 141l60 -141zM213 119l81 -48l-22 91l71 62l-93 8l-37 86v-199z" />
-    <glyph glyph-name="star_purple500" unicode="star_purple&#x35;&#x30;&#x30;" 
-d="M213 258l-20 -66h-60l49 -35l-20 -64l51 39l52 -39l-20 64l49 35h-61zM213 405l52 -170h162l-132 -94l50 -162l-132 100l-131 -100l50 162l-132 94h162z" />
     <glyph glyph-name="star" unicode="star" 
 d="M213 80l-132 -80l35 150l-116 101l153 13l60 141l60 -141l154 -13l-117 -101l35 -150z" />
     <glyph glyph-name="stars" unicode="stars" 
