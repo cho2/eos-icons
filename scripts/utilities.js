@@ -36,7 +36,17 @@ const readFilesInFolder = (dir) => {
   }
 }
 
+/**
+ * Compares two arrays and returns the missing item
+ * @param {*} array1 first array that holds the item
+ * @param {*} array2 second array to be compared against
+ * @returns array with the missing items on array2
+ */
+const compareArrays = (array1, array2) =>
+  array1.filter((val) => !array2.includes(val))
+
 module.exports = {
   jsFileFromJSON,
-  readFilesInFolder
+  readFilesInFolder,
+  compareArrays
 }

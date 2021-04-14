@@ -1,5 +1,11 @@
 const fs = require('fs')
 
+/**
+ * Moves a file from source to destination
+ * @param {string} src source folder
+ * @param {string} dest destination folder
+ * @returns
+ */
 const moveFiles = async (src, dest) => {
   return new Promise((resolve, reject) => {
     return fs.copyFile(src, dest, (err) => {
@@ -9,6 +15,10 @@ const moveFiles = async (src, dest) => {
   })
 }
 
+/**
+ * Removes a file given ab absoulte path
+ * @param {string} file
+ */
 const removeFile = async (file) => {
   fs.unlinkSync(file, (err) => {
     if (err) console.log(err)

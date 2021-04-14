@@ -1,6 +1,6 @@
 // Testing the utils functions
 const expect = require('chai').expect
-const { readFilesInFolder } = require('../scripts/utilities')
+const { readFilesInFolder, compareArrays } = require('../scripts/utilities')
 
 describe('# utils functions', () => {
   context('readFilesInFolder()', () => {
@@ -10,6 +10,25 @@ describe('# utils functions', () => {
 
       expect(svg[0]).to.eql('abstract_incomplete')
       expect(json[0]).to.eql('abstract_incomplete')
+    })
+  })
+
+  context('compareArrays()', () => {
+    const array1 = ['item1', 'item2']
+    const array2 = ['item1', 'item3']
+
+    it('should return item2 as missing item from array2', async () => {
+      const res = compareArrays(array1, array2)
+
+      expect(res).to.be.length(1)
+      expect(res[0]).to.eql('item2')
+    })
+
+    it('should return item3 as missing item from array1', async () => {
+      const res = compareArrays(array2, array1)
+
+      expect(res).to.be.length(1)
+      expect(res[0]).to.eql('item3')
     })
   })
 })

@@ -2,7 +2,7 @@ const fs = require('fs')
 const axios = require('axios')
 const inquirer = require('inquirer')
 const path = require('path')
-const { readFilesInFolder } = require('./utilities')
+const { readFilesInFolder, compareArrays } = require('./utilities')
 
 /**
  * Downloads material icons list
@@ -26,7 +26,7 @@ const downloadMaterialIconsList = async (dest = 'md-web-data.json') => {
 }
 
 /**
- * // TODO: Fill this
+ * // TODO: Revisit for testing
  * @param {string} targetDirMd material svgs src
  * @param {string} duplicatedIconsList duplicated items list
  * @returns {} yes/no response
@@ -42,8 +42,8 @@ const eosMdIconsDifferences = async (params) => {
     )
 
     const webMdIconsCollection = webMdIconsData.icons.map((ele) => ele.name)
-    const missingIconsInEos = iconsDifferences(webMdIconsCollection, mdIcons)
-    const allMissingIconsInEos = iconsDifferences(
+    const missingIconsInEos = compareArrays(webMdIconsCollection, mdIcons)
+    const allMissingIconsInEos = compareArrays(
       missingIconsInEos,
       duplicatedIconsList
     )
@@ -87,9 +87,6 @@ const importMdIcons = async () => {
     console.log(error)
   }
 }
-
-const iconsDifferences = (array1, array2) =>
-  array1.filter((val) => !array2.includes(val))
 
 module.exports = {
   eosMdIconsDifferences,
