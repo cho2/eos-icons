@@ -360,43 +360,47 @@ module.exports = function (grunt) {
   grunt.registerTask('findDuplicateNames', function () {
     const done = this.async()
 
-    const mdRepo = './svg/material'
-    const eosRepo = './svg'
+    const mdRepo = '/svg/material'
+    const eosRepo = '/svg'
+    const eosModelsSrc = '/models'
+    const mdModelsSrc = '/models/material'
 
-    compareFolders({ mdRepo, eosRepo }).then(async (result) => {
-      const {
-        duplicatedEOSicon,
-        duplicatedMDicon,
-        duplicatedIconsList
-      } = result
+    compareFolders({ mdRepo, eosRepo, eosModelsSrc, mdModelsSrc }).then(
+      async (result) => {
+        const {
+          duplicatedEOSicon,
+          duplicatedMDicon,
+          duplicatedIconsList
+        } = result
 
-      if (duplicatedEOSicon.length) {
-        console.log(duplicatedEOSicon)
+        if (duplicatedEOSicon.length) {
+          console.log(duplicatedEOSicon)
 
-        for await (const icon of duplicatedEOSicon) {
-          console.log(
-            `⚠️ An icon with the name ${icon}.svg already exits in svg/material. Please rename this new icon below:`
-          )
-          await renameSvgTo(icon, eosRepo, mdRepo).then(done)
+          for await (const icon of duplicatedEOSicon) {
+            console.log(
+              `⚠️ An icon with the name ${icon}.svg already exits in svg/material. Please rename this new icon below:`
+            )
+            await renameSvgTo(icon, eosRepo, mdRepo).then(done)
+          }
+        } else if (duplicatedMDicon.length) {
+          for await (const icon of duplicatedMDicon) {
+            console.log(
+              `⚠️ An icon with the name ${icon}.svg already exits svg/. Please rename this new icon below:`
+            )
+            await renameSvgTo(icon, mdRepo, eosRepo).then(done)
+          }
+        } else if (duplicatedIconsList.length) {
+          for await (const icon of duplicatedIconsList) {
+            console.log(`${icon}`)
+            await deleteDuplicateSvg(icon).then()
+          }
+          done()
+        } else {
+          console.log('✅  No duplicated SVG file found in EOS and MD folder.')
+          done()
         }
-      } else if (duplicatedMDicon.length) {
-        for await (const icon of duplicatedMDicon) {
-          console.log(
-            `⚠️ An icon with the name ${icon}.svg already exits svg/. Please rename this new icon below:`
-          )
-          await renameSvgTo(icon, mdRepo, eosRepo).then(done)
-        }
-      } else if (duplicatedIconsList.length) {
-        for await (const icon of duplicatedIconsList) {
-          console.log(`${icon}`)
-          await deleteDuplicateSvg(icon).then()
-        }
-        done()
-      } else {
-        console.log('✅  No duplicated SVG file found in EOS and MD folder.')
-        done()
       }
-    })
+    )
   })
 
   /* Combine all the models into a single file */

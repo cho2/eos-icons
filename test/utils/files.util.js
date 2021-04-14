@@ -7,11 +7,16 @@ const fs = require('fs')
  * @returns
  */
 const moveFiles = async (src, dest) => {
-  return new Promise((resolve, reject) => {
-    return fs.copyFile(src, dest, (err) => {
-      if (err) reject(err)
-      resolve()
-    })
+  new Promise((resolve, reject) => {
+    try {
+      fs.copyFile(src, dest, (err) => {
+        if (err) reject(err)
+        resolve()
+      })
+    } catch (error) {
+      console.log('error: ', error)
+      reject(error)
+    }
   })
 }
 

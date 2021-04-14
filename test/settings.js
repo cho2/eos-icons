@@ -42,24 +42,25 @@ const config = {
 
 const { models, svgs } = config
 
-before('', () => {
-  // Move needed models for the test
-  models.map((ele) => {
-    moveFiles(
-      path.join(process.cwd() + ele.src),
-      path.join(process.cwd() + ele.dest)
-    )
-  })
+// before('', () => {
+//   // Move needed models for the test
+//   models.map((ele) => {
+//     moveFiles(
+//       path.join(process.cwd() + ele.src),
+//       path.join(process.cwd() + ele.dest)
+//     )
+//   })
 
-  // Moves needed svgs for the test
-  svgs.map((ele) => {
-    moveFiles(
-      path.join(process.cwd() + ele.src),
-      path.join(process.cwd() + ele.dest)
-    )
-  })
-})
+//   // Moves needed svgs for the test
+//   svgs.map((ele) => {
+//     moveFiles(
+//       path.join(process.cwd() + ele.src),
+//       path.join(process.cwd() + ele.dest)
+//     )
+//   })
+// })
 
+// TODO: Remove all files with extensions
 // after('', () => {
 //   // Removes models
 //   models.map((ele) => {

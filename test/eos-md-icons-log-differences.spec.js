@@ -7,7 +7,7 @@ const {
 
 const { removeFile } = require('./utils/files.util')
 
-describe.only('# eos-md-icons-log-differences', () => {
+describe('# eos-md-icons-log-differences', () => {
   context.skip('downloadMaterialIconsLIst()', () => {
     before(async () => {
       await downloadMaterialIconsList('../test/__temp__/md-icons-list.json')
