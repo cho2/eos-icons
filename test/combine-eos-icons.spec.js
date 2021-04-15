@@ -19,7 +19,7 @@ const constants = {
 describe('# combine-eos-icons', function () {
   const { targetDirEosModels, targetDirMdModels, destDirModels } = constants
 
-  describe('combineIconsModels()', function (done) {
+  describe.skip('combineIconsModels()', function (done) {
     before(function () {
       combineIconsModels({
         targetDirEos: targetDirEosModels,

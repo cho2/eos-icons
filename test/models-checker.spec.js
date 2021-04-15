@@ -1,13 +1,15 @@
 const expect = require('chai').expect
-
+const path = require('path')
 const {
   checkForMissingModelsOrIcons,
   readModelKeys,
-  outlinedModelsChecker
+  outlinedModelsChecker,
+  checkModelKeys,
+  checkForKeys
 } = require('../scripts/models-checker.js')
-const { removeFile, moveFiles } = require('./utils/files.util')
+const { moveFiles } = require('./utils/files.util')
 
-describe.only('# models-checker', () => {
+describe('# models-checker', () => {
   context('checkForMissingModelsOrIcons()', () => {
     it('should find missing models', async () => {
       const result = await checkForMissingModelsOrIcons({
@@ -23,7 +25,7 @@ describe.only('# models-checker', () => {
       expect(result.ModelsMissingSVGsEos[0]).to.eql('loading')
     })
 
-    context('readModelKeys', () => {
+    context('readModelKeys()', () => {
       it('should read the models keys and add add the extra fileName to it', async () => {
         const response = await readModelKeys({
           modelsFolder: '/test/dummy-data/model'
@@ -33,7 +35,7 @@ describe.only('# models-checker', () => {
       })
     })
 
-    context('outlinedModelsChecker', () => {
+    context('outlinedModelsChecker()', () => {
       before(async () => {
         moveFiles(
           'test/dummy-data/persistent/json/abstract_incomplete.json',
@@ -58,6 +60,45 @@ describe.only('# models-checker', () => {
         expect(modifiedFile).to.have.property('dateOutlined')
         expect(modifiedFile2).to.have.property('hasOutlined')
         expect(modifiedFile2).to.have.property('dateOutlined')
+      })
+    })
+
+    context('checkModelKeys()', () => {
+      it('should check and find the missing proprieties in a given json file ', async () => {
+        const [name, tags, props] = await checkModelKeys(
+          '/test/dummy-data/persistent/json/',
+          '/test/dummy-data/persistent/json/'
+        )
+
+        expect(name.includes('Found: not_matching_name instead of keys_check'))
+          .to.be.true
+        expect(tags.includes('Tags missing in: keys_check.')).to.be.true
+        expect(props.includes('Properties missing in')).to.be.true
+      })
+    })
+
+    context('checkForKeys()', () => {
+      it('should check and find the missing proprieties in a given json file ', async () => {
+        const _modelAllProps = [
+          'fileName',
+          'name',
+          'do',
+          'dont',
+          'tags',
+          'category',
+          'type',
+          'hasOutlined',
+          'date',
+          'dateOutlined'
+        ]
+
+        const _modelMissingProps = []
+
+        const hasAll = checkForKeys(_modelAllProps)
+        const hasNotAll = checkForKeys(_modelMissingProps)
+
+        expect(hasAll).to.to.true
+        expect(hasNotAll).to.to.false
       })
     })
   })

@@ -464,7 +464,7 @@ module.exports = function (grunt) {
   grunt.registerTask('checkModelKeysTask', async function () {
     const done = this.async()
 
-    return checkModelKeys().then((result) => {
+    return checkModelKeys('/models', '/models/material').then((result) => {
       result.length
         ? console.log(
             `🚫 The following errors need fixing: \n\n  ${result.map(

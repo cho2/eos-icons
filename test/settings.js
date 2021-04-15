@@ -80,18 +80,18 @@ before('', () => {
 
 // TODO: Remove all files with extensions instead of manually pointing to files
 after('', () => {
-  // // Removes models
-  // models.map((ele) => {
-  //   removeFile(path.join(process.cwd() + ele.dest))
-  // })
-  // // Removes svgs
-  // svgs.map((ele) => {
-  //   removeFile(path.join(process.cwd() + ele.dest))
-  // })
-  // removeFile(path.join(__dirname + '/__temp__/mix-models.json'))
-  // removeFile(path.join(__dirname + '/__temp__/abstract.svg'))
-  // removeFile('test/__temp__/abstract_incomplete.json')
-  // removeFile('test/__temp__/abstract_incomplete.svg')
+  // Removes models
+  models.map((ele) => {
+    removeFile(path.join(process.cwd() + ele.dest))
+  })
+  // Removes svgs
+  svgs.map((ele) => {
+    removeFile(path.join(process.cwd() + ele.dest))
+  })
+  removeFile(path.join(__dirname + '/__temp__/mix-models.json'))
+  removeFile(path.join(__dirname + '/__temp__/abstract.svg'))
+  removeFile('test/__temp__/abstract_incomplete.json')
+  removeFile('test/__temp__/abstract_incomplete.svg')
 })
 
 module.exports = {

@@ -132,9 +132,10 @@ const outlinedModelsChecker = async ({ outlineSvgDir, modelsFolder }) => {
 }
 
 /* Maps throught the array of objects checking for models to have all listed proprieties */
-const checkModelKeys = async () => {
-  const modelsEos = await readModelKeys({ modelsFolder: '/models' })
-  const modelsMd = await readModelKeys({ modelsFolder: '/models/material' })
+const checkModelKeys = async (modelsSrc, materialModelsSrc) => {
+  console.log('modelsSrc, materialModelsSrc: ', modelsSrc, materialModelsSrc)
+  const modelsEos = await readModelKeys({ modelsFolder: modelsSrc })
+  const modelsMd = await readModelKeys({ modelsFolder: materialModelsSrc })
 
   const modelsAll = [...modelsEos, ...modelsMd]
   const errors = []
@@ -201,5 +202,6 @@ module.exports = {
   checkModelKeys,
   outlinedModelsChecker,
   outlineModelsAndSvgTest,
-  readModelKeys
+  readModelKeys,
+  checkForKeys
 }
