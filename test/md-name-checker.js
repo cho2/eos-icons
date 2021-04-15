@@ -4,7 +4,7 @@ const path = require('path')
 const { removeFile, moveFiles } = require('./utils/files.util')
 const { compareFolders } = require('../scripts/md-name-checker.js')
 
-describe.only('# md-name-checker', () => {
+describe('# md-name-checker', () => {
   context('compareFolders()', () => {
     before(async () => {
       await moveFiles(
@@ -39,8 +39,7 @@ describe.only('# md-name-checker', () => {
       })
 
       expect(duplicatedEOSicon).length(0)
-      expect(duplicatedMDicon).length(0)
-
+      expect(duplicatedMDicon).length(1)
       expect(duplicatedIconsList).length(1)
     })
   })

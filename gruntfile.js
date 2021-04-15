@@ -7,8 +7,7 @@ module.exports = function (grunt) {
   const {
     checkForMissingModelsOrIcons,
     checkModelKeys,
-    materialOutlineModels,
-    eosIconsOutlineModels,
+    outlinedModelsChecker,
     outlineModelsAndSvgTest
   } = require('./scripts/models-checker')
   const { createNewModel } = require('./scripts/models-creation')
@@ -251,8 +250,8 @@ module.exports = function (grunt) {
     const done = this.async()
 
     outlineModelsAndSvgTest({
-      normalSvgs: './svg',
-      outlinedSvgs: './svg-outlined'
+      normalSvgs: '/svg',
+      outlinedSvgs: '/svg-outlined'
     }).then((data) => {
       const { difference } = data
       if (difference.length) {
@@ -277,11 +276,11 @@ module.exports = function (grunt) {
     const done = this.async()
 
     checkForMissingModelsOrIcons({
-      modelsSrc: './models',
-      mdModelsSrc: './models/material',
-      mdIconsSrc: './svg/material',
-      iconsSrc: './svg',
-      animatedSrc: './animated-svg'
+      modelsSrc: '/models',
+      mdModelsSrc: '/models/material',
+      mdIconsSrc: '/svg/material',
+      iconsSrc: '/svg',
+      animatedSrc: '/animated-svg'
     }).then(async (data) => {
       const {
         SVGsMissingModelsEOS,
@@ -408,9 +407,9 @@ module.exports = function (grunt) {
     const done = this.async()
 
     return combineIconsModels({
-      targetDirEos: './models/',
-      targetDirMd: './models/material/',
-      destDir: './dist/js/eos-icons.json'
+      targetDirEos: 'models/',
+      targetDirMd: 'models/material/',
+      destDir: 'dist/js/eos-icons.json'
     }).then(done)
   })
 
@@ -477,22 +476,21 @@ module.exports = function (grunt) {
   })
 
   // Handle MD Icons Outline model
-  grunt.registerTask('materialOutlineModels', async function () {
+  grunt.registerTask('outlinedModelsChecker', async function () {
     const done = this.async()
 
-    return materialOutlineModels({
-      outlineSvgDir: './svg-outlined/material',
-      modelsFolder: './models/material'
+    return outlinedModelsChecker({
+      outlineSvgDir: '/svg-outlined/material',
+      modelsFolder: '/models/material'
     }).then(done)
   })
 
   // Handle EOS Icons Outline model
   grunt.registerTask('eosIconsOutlineModels', async function () {
     const done = this.async()
-
-    return eosIconsOutlineModels({
-      outlineSvgDir: './svg-outlined',
-      modelsFolder: './models'
+    return outlinedModelsChecker({
+      outlineSvgDir: '/svg-outlined',
+      modelsFolder: '/models'
     }).then(done)
   })
 
@@ -520,8 +518,8 @@ module.exports = function (grunt) {
   grunt.registerTask('checkNameConvention', async function () {
     const done = this.async()
 
-    const mdDir = './svg/material'
-    const eosDir = './svg'
+    const mdDir = '/svg/material'
+    const eosDir = '/svg'
 
     checkSvgName({ mdDir, eosDir }).then(async (result) => {
       const { eosIconsNew, mdIconsMdNew } = result
@@ -588,7 +586,7 @@ module.exports = function (grunt) {
     'checkNameConvention',
     'checkModelKeysTask',
     'checkMissingModelandSVG',
-    'materialOutlineModels',
+    'outlinedModelsChecker',
     'eosIconsOutlineModels',
     'checkMissingModelsOutlined',
     'cleanSvg'

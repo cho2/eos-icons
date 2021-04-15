@@ -13,6 +13,18 @@ const config = {
       dest: '/test/dummy-data/model/abstract.json'
     },
     {
+      src: '/models/abstract.json',
+      dest: '/test/__temp__/abstract.json'
+    },
+    {
+      src: '/models/ai.json',
+      dest: '/test/dummy-data/model/ai.json'
+    },
+    {
+      src: '/models/commit.json',
+      dest: '/test/dummy-data/model/commit.json'
+    },
+    {
       src: '/models/material/1k_plus.json',
       dest: '/test/dummy-data/model/material/1k_plus.json'
     }
@@ -25,6 +37,10 @@ const config = {
     {
       src: '/svg/abstract.svg',
       dest: '/test/dummy-data/svg/abstract.svg'
+    },
+    {
+      src: '/animated-svg/loading.svg',
+      dest: '/test/dummy-data/animated/loading.svg'
     },
     {
       src: '/svg/material/1k_plus.svg',
@@ -42,40 +58,41 @@ const config = {
 
 const { models, svgs } = config
 
-// before('', () => {
-//   // Move needed models for the test
-//   models.map((ele) => {
-//     moveFiles(
-//       path.join(process.cwd() + ele.src),
-//       path.join(process.cwd() + ele.dest)
-//     )
-//   })
+before('', () => {
+  // console.log('📁  Moving files needed for the unit-testing');
 
-//   // Moves needed svgs for the test
-//   svgs.map((ele) => {
-//     moveFiles(
-//       path.join(process.cwd() + ele.src),
-//       path.join(process.cwd() + ele.dest)
-//     )
-//   })
-// })
+  // Move needed models for the test
+  models.map((ele) => {
+    moveFiles(
+      path.join(process.cwd() + ele.src),
+      path.join(process.cwd() + ele.dest)
+    )
+  })
 
-// TODO: Remove all files with extensions
-// after('', () => {
-//   // Removes models
-//   models.map((ele) => {
-//     removeFile(path.join(process.cwd() + ele.dest))
-//   })
+  // Moves needed svgs for the test
+  svgs.map((ele) => {
+    moveFiles(
+      path.join(process.cwd() + ele.src),
+      path.join(process.cwd() + ele.dest)
+    )
+  })
+})
 
-//   // Removes svgs
-//   svgs.map((ele) => {
-//     removeFile(path.join(process.cwd() + ele.dest))
-//   })
-
-//   removeFile(path.join(__dirname + '/__temp__/mix-models.json'))
-
-//   removeFile(path.join(__dirname + '/__temp__/abstract.svg'))
-// })
+// TODO: Remove all files with extensions instead of manually pointing to files
+after('', () => {
+  // // Removes models
+  // models.map((ele) => {
+  //   removeFile(path.join(process.cwd() + ele.dest))
+  // })
+  // // Removes svgs
+  // svgs.map((ele) => {
+  //   removeFile(path.join(process.cwd() + ele.dest))
+  // })
+  // removeFile(path.join(__dirname + '/__temp__/mix-models.json'))
+  // removeFile(path.join(__dirname + '/__temp__/abstract.svg'))
+  // removeFile('test/__temp__/abstract_incomplete.json')
+  // removeFile('test/__temp__/abstract_incomplete.svg')
+})
 
 module.exports = {
   config
