@@ -1,9 +1,9 @@
 {
-  "name": "group",
+  "name": "pause_circle",
   "do": "",
   "dont": "",
-  "tags": ["team", "people", "users", "business"],
-  "category": ["roles"],
+  "tags": ["Pause", "controls", "music", "control", "video"],
+  "category": ["av"],
   "type": "static",
   "hasOutlined": true,
   "date": "30/11/2020",
