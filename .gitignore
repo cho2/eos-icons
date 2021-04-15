@@ -10,11 +10,3 @@ scripts/md-web-data.json
 TODO
 .todo
 temp/
-
-# Tests
-test/__temp__/**/*.js
-test/__temp__/**/*.svg
-test/__temp__/**/*.json
-test/dummy-data/**/*.json
-test/dummy-data/**/*.svg
-!test/dummy-data/persistent/**
