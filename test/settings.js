@@ -92,6 +92,7 @@ after('', () => {
   removeFile(path.join(__dirname + '/__temp__/abstract.svg'))
   removeFile('test/__temp__/abstract_incomplete.json')
   removeFile('test/__temp__/abstract_incomplete.svg')
+  removeFile('test/__temp__/abstract.js')
 })
 
 module.exports = {

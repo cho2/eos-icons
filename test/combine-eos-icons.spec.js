@@ -19,7 +19,7 @@ const constants = {
 describe('# combine-eos-icons', function () {
   const { targetDirEosModels, targetDirMdModels, destDirModels } = constants
 
-  describe.skip('combineIconsModels()', function (done) {
+  describe('combineIconsModels()', function (done) {
     before(function () {
       combineIconsModels({
         targetDirEos: targetDirEosModels,
@@ -30,9 +30,9 @@ describe('# combine-eos-icons', function () {
 
     it('should generate a file that exists and, combines both models files in a single one', function () {
       const file1 = require(path.join(process.cwd() + config.models[0].src))
-      const file2 = require(path.join(process.cwd() + config.models[1].src))
-      const file3 = require(path.join(process.cwd() + config.models[2].src))
-      const file4 = require(path.join(process.cwd() + config.models[3].src))
+      const file2 = require(path.join(process.cwd() + config.models[2].src))
+      const file3 = require(path.join(process.cwd() + config.models[3].src))
+      const file4 = require(path.join(process.cwd() + config.models[4].src))
 
       // Get the combine output from the function
       const combineFile = require(path.join(
@@ -45,13 +45,13 @@ describe('# combine-eos-icons', function () {
     })
   })
 
-  describe('showMissingOutlinedFiles()', async function (done) {
-    before(function () {
-      showMissingOutlinedFiles({
+  describe('showMissingOutlinedFiles()', function () {
+    before(async function () {
+      await showMissingOutlinedFiles({
         normalSvgDir: './test/dummy-data/svg/',
         outlineSvgDir: './test/dummy-data/svg-outlined/',
         tempFolder: './test/__temp__/'
-      }).then(done)
+      })
     })
 
     it('should move the missing abstract.svg file to the __temp__ folder', async function () {
@@ -63,7 +63,7 @@ describe('# combine-eos-icons', function () {
     })
   })
 
-  describe('readFolderContent()', async function (done) {
+  describe('readFolderContent()', async function () {
     it('should be able to read the single .json file', async function () {
       const data = await readFolderContent(
         path.join(process.cwd() + '/test/dummy-data/model/')

@@ -7,3 +7,4 @@ package.json
 .gitlab/
 templates/
 scripts/md-web-data.json
+/test/**/*.json

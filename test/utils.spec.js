@@ -1,6 +1,12 @@
 // Testing the utils functions
 const expect = require('chai').expect
-const { readFilesInFolder, compareArrays } = require('../scripts/utilities')
+const fs = require('fs')
+const path = require('path')
+const {
+  readFilesInFolder,
+  compareArrays,
+  jsFileFromJSON
+} = require('../scripts/utilities')
 
 describe('# utils functions', () => {
   context('readFilesInFolder()', () => {
@@ -29,6 +35,23 @@ describe('# utils functions', () => {
 
       expect(res).to.be.length(1)
       expect(res[0]).to.eql('item3')
+    })
+  })
+
+  context('jsFileFromJSON()', () => {
+    before(async () => {
+      await jsFileFromJSON(
+        path.join(process.cwd(), '/test/__temp__/abstract.json'),
+        path.join(process.cwd(), '/test/__temp__/abstract.js')
+      )
+    })
+
+    it('should create an JS file from the JSON file.', async () => {
+      const file = fs.existsSync(
+        path.join(process.cwd() + '/test/__temp__/abstract.js')
+      )
+
+      expect(file).to.be.true
     })
   })
 })

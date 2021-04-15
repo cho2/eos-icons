@@ -511,7 +511,9 @@ module.exports = function (grunt) {
   grunt.registerTask('jsFromJSON', async function () {
     const done = this.async()
 
-    jsFileFromJSON().then(done)
+    jsFileFromJSON('./dist/js/eos-icons.json', './dist/js/eos-icons.js').then(
+      done
+    )
   })
 
   /* Checks for SVGs names returns the one with a wrong naming convention */

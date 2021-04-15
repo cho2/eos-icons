@@ -18,7 +18,7 @@ describe('# eos-md-icons-log-differences', () => {
     })
 
     it('should download the material icons list', () => {
-      const file = fs.existsSync('./scripts/md-web-data.json')
+      const file = fs.existsSync('test/__temp__/md-icons-list.json')
 
       expect(file).to.be.true
     })

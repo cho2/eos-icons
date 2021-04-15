@@ -1,11 +1,15 @@
 const fs = require('fs')
 const path = require('path')
 
-// Creates a JS file from JSON
-const jsFileFromJSON = async () => {
-  const icons = fs.readFileSync('./dist/js/eos-icons.json')
+/**
+ * Creates a JS file from JSON
+ * @param {*} src file source
+ * @param {*} dest file destination
+ */
+const jsFileFromJSON = async (src, dest) => {
+  const icons = fs.readFileSync(src)
 
-  return fs.writeFileSync('./dist/js/eos-icons.js', `const eosIcons = ${icons}`)
+  return fs.writeFileSync(dest, `const eosIcons = ${icons}`)
 }
 
 /**
