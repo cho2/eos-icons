@@ -1480,7 +1480,9 @@ const eosIcons = [
     ],
     "category": "action",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/13/2021"
   },
   {
     "name": "pipeline",
@@ -1497,7 +1499,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/13/2021"
   },
   {
     "name": "pod",
@@ -1511,7 +1515,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/13/2021"
   },
   {
     "name": "pod_autoscaler",
@@ -1529,7 +1535,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/13/2021"
   },
   {
     "name": "pod_security",
@@ -1543,7 +1551,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/13/2021"
   },
   {
     "name": "primitive",
