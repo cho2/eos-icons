@@ -9,7 +9,7 @@ const {
 } = require('../scripts/models-checker.js')
 const { moveFiles } = require('./utils/files.util')
 
-describe('# models-checker', () => {
+describe.only('# models-checker', () => {
   context('checkForMissingModelsOrIcons()', () => {
     it('should find missing models', async () => {
       const result = await checkForMissingModelsOrIcons({
@@ -23,6 +23,8 @@ describe('# models-checker', () => {
       expect(result.SVGsMissingModelsEOS[0]).to.eql('ai')
       expect(result.SVGsMissingModelsEOS[1]).to.eql('commit')
       expect(result.ModelsMissingSVGsEos[0]).to.eql('loading')
+      expect(result.SVGsMissingModelsMd.length).to.eql(0)
+      expect(result.ModelsMissingSVGsMd.length).to.eql(0)
     })
 
     context('readModelKeys()', () => {
