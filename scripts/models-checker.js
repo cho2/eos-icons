@@ -112,7 +112,7 @@ const outlinedModelsChecker = async ({ outlineSvgDir, modelsFolder }) => {
     /* Get the object without the filename */
     const { fileName, ...newModel } = model
     /* If the object already has the property of hasOutlined, ignore it */
-    if (newModel.hasOutlined) return
+    if (newModel.hasOutlined && newModel.dateOutlined) return
     /* Rewrite the material-model to include the hasOutlined property */
     return fs.writeFileSync(
       `./${modelsFolder}/${model.name}.json`,
@@ -154,6 +154,12 @@ const checkModelKeys = async (modelsSrc, materialModelsSrc) => {
     /* Make sure there are tags in all models */
     if (model.tags.length < 1) {
       errors.push(`\n⛔️ Tags missing in: ${model.fileName}.`)
+    }
+
+    if (model.hasOutlined && !model.dateOutlined) {
+      errors.push(
+        `\n⛔️ Found hasOutlined property in ${model.fileName}, missing dateOutlined`
+      )
     }
 
     /* If a key is missing, add the error to the array */
