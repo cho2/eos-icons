@@ -13,6 +13,14 @@ test_icons:
   script:
     - grunt test
 
+unit_test:
+  stage: test
+  before_script:
+    - npm install
+    - npm i -g mocha
+  script:
+    - npm run test
+
 npm_publish:
   stage: publish
   script:

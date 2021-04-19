@@ -7,8 +7,7 @@ module.exports = function (grunt) {
   const {
     checkForMissingModelsOrIcons,
     checkModelKeys,
-    materialOutlineModels,
-    eosIconsOutlineModels,
+    outlinedModelsChecker,
     outlineModelsAndSvgTest
   } = require('./scripts/models-checker')
   const { createNewModel } = require('./scripts/models-creation')
@@ -19,11 +18,10 @@ module.exports = function (grunt) {
   } = require('./scripts/svg-checker')
 
   const duplicatedIcons = require('./scripts/duplicated_icons.json')
-  // const newMdIconsList = require('./scripts/new-md-icons-list.json')
 
   const {
     eosMdIconsDifferences,
-    downloadFile
+    downloadMaterialIconsList
   } = require('./scripts/eos-md-icons-log-differences')
   const { downloadMDFile } = require('./scripts/download-svg')
   const { jsFileFromJSON } = require('./scripts/utilities')
@@ -252,8 +250,8 @@ module.exports = function (grunt) {
     const done = this.async()
 
     outlineModelsAndSvgTest({
-      normalSvgs: './svg',
-      outlinedSvgs: './svg-outlined'
+      normalSvgs: '/svg',
+      outlinedSvgs: '/svg-outlined'
     }).then((data) => {
       const { difference } = data
       if (difference.length) {
@@ -278,11 +276,11 @@ module.exports = function (grunt) {
     const done = this.async()
 
     checkForMissingModelsOrIcons({
-      modelsSrc: './models',
-      mdModelsSrc: './models/material',
-      mdIconsSrc: './svg/material',
-      iconsSrc: './svg',
-      animatedSrc: './animated-svg'
+      modelsSrc: '/models',
+      mdModelsSrc: '/models/material',
+      mdIconsSrc: '/svg/material',
+      iconsSrc: '/svg',
+      animatedSrc: '/animated-svg'
     }).then(async (data) => {
       const {
         SVGsMissingModelsEOS,
@@ -361,43 +359,47 @@ module.exports = function (grunt) {
   grunt.registerTask('findDuplicateNames', function () {
     const done = this.async()
 
-    const mdRepo = './svg/material'
-    const eosRepo = './svg'
+    const mdRepo = '/svg/material'
+    const eosRepo = '/svg'
+    const eosModelsSrc = '/models'
+    const mdModelsSrc = '/models/material'
 
-    compareFolders({ mdRepo, eosRepo }).then(async (result) => {
-      const {
-        duplicatedEOSicon,
-        duplicatedMDicon,
-        duplicatedIconsList
-      } = result
+    compareFolders({ mdRepo, eosRepo, eosModelsSrc, mdModelsSrc }).then(
+      async (result) => {
+        const {
+          duplicatedEOSicon,
+          duplicatedMDicon,
+          duplicatedIconsList
+        } = result
 
-      if (duplicatedEOSicon.length) {
-        console.log(duplicatedEOSicon)
+        if (duplicatedEOSicon.length) {
+          console.log(duplicatedEOSicon)
 
-        for await (const icon of duplicatedEOSicon) {
-          console.log(
-            `⚠️ An icon with the name ${icon}.svg already exits in svg/material. Please rename this new icon below:`
-          )
-          await renameSvgTo(icon, eosRepo, mdRepo).then(done)
+          for await (const icon of duplicatedEOSicon) {
+            console.log(
+              `⚠️ An icon with the name ${icon}.svg already exits in svg/material. Please rename this new icon below:`
+            )
+            await renameSvgTo(icon, eosRepo, mdRepo).then(done)
+          }
+        } else if (duplicatedMDicon.length) {
+          for await (const icon of duplicatedMDicon) {
+            console.log(
+              `⚠️ An icon with the name ${icon}.svg already exits svg/. Please rename this new icon below:`
+            )
+            await renameSvgTo(icon, mdRepo, eosRepo).then(done)
+          }
+        } else if (duplicatedIconsList.length) {
+          for await (const icon of duplicatedIconsList) {
+            console.log(`${icon}`)
+            await deleteDuplicateSvg(icon).then()
+          }
+          done()
+        } else {
+          console.log('✅  No duplicated SVG file found in EOS and MD folder.')
+          done()
         }
-      } else if (duplicatedMDicon.length) {
-        for await (const icon of duplicatedMDicon) {
-          console.log(
-            `⚠️ An icon with the name ${icon}.svg already exits svg/. Please rename this new icon below:`
-          )
-          await renameSvgTo(icon, mdRepo, eosRepo).then(done)
-        }
-      } else if (duplicatedIconsList.length) {
-        for await (const icon of duplicatedIconsList) {
-          console.log(`${icon}`)
-          await deleteDuplicateSvg(icon).then()
-        }
-        done()
-      } else {
-        console.log('✅  No duplicated SVG file found in EOS and MD folder.')
-        done()
       }
-    })
+    )
   })
 
   /* Combine all the models into a single file */
@@ -405,18 +407,18 @@ module.exports = function (grunt) {
     const done = this.async()
 
     return combineIconsModels({
-      targetDirEos: './models/',
-      targetDirMd: './models/material/',
-      destDir: './dist/js/eos-icons.json'
+      targetDirEos: 'models/',
+      targetDirMd: 'models/material/',
+      destDir: 'dist/js/eos-icons.json'
     }).then(done)
   })
 
   /* compare MD icons in our repo and MD officical website Download MD svgs and create models */
   grunt.registerTask('importMdIcons', async function () {
     const done = this.async()
-    const targetDir = './svg/material'
+    const targetDir = '/svg/material'
 
-    await downloadFile()
+    await downloadMaterialIconsList()
       .then(
         eosMdIconsDifferences({
           targetDirMd: targetDir,
@@ -438,8 +440,8 @@ module.exports = function (grunt) {
   /* Import outlined MD icons */
   grunt.registerTask('importOutlinedMdIcons', async function () {
     const done = this.async()
-    const targetDir = './svg-outlined/material'
-    await downloadFile()
+    const targetDir = '/svg-outlined/material'
+    await downloadMaterialIconsList()
       .then(
         eosMdIconsDifferences({
           targetDirMd: targetDir,
@@ -462,7 +464,7 @@ module.exports = function (grunt) {
   grunt.registerTask('checkModelKeysTask', async function () {
     const done = this.async()
 
-    return checkModelKeys().then((result) => {
+    return checkModelKeys('/models', '/models/material').then((result) => {
       result.length
         ? console.log(
             `🚫 The following errors need fixing: \n\n  ${result.map(
@@ -474,22 +476,21 @@ module.exports = function (grunt) {
   })
 
   // Handle MD Icons Outline model
-  grunt.registerTask('materialOutlineModels', async function () {
+  grunt.registerTask('outlinedModelsChecker', async function () {
     const done = this.async()
 
-    return materialOutlineModels({
-      outlineSvgDir: './svg-outlined/material',
-      modelsFolder: './models/material'
+    return outlinedModelsChecker({
+      outlineSvgDir: '/svg-outlined/material',
+      modelsFolder: '/models/material'
     }).then(done)
   })
 
   // Handle EOS Icons Outline model
   grunt.registerTask('eosIconsOutlineModels', async function () {
     const done = this.async()
-
-    return eosIconsOutlineModels({
-      outlineSvgDir: './svg-outlined',
-      modelsFolder: './models'
+    return outlinedModelsChecker({
+      outlineSvgDir: '/svg-outlined',
+      modelsFolder: '/models'
     }).then(done)
   })
 
@@ -510,15 +511,17 @@ module.exports = function (grunt) {
   grunt.registerTask('jsFromJSON', async function () {
     const done = this.async()
 
-    jsFileFromJSON().then(done)
+    jsFileFromJSON('./dist/js/eos-icons.json', './dist/js/eos-icons.js').then(
+      done
+    )
   })
 
   /* Checks for SVGs names returns the one with a wrong naming convention */
   grunt.registerTask('checkNameConvention', async function () {
     const done = this.async()
 
-    const mdDir = './svg/material'
-    const eosDir = './svg'
+    const mdDir = '/svg/material'
+    const eosDir = '/svg'
 
     checkSvgName({ mdDir, eosDir }).then(async (result) => {
       const { eosIconsNew, mdIconsMdNew } = result
@@ -585,7 +588,7 @@ module.exports = function (grunt) {
     'checkNameConvention',
     'checkModelKeysTask',
     'checkMissingModelandSVG',
-    'materialOutlineModels',
+    'outlinedModelsChecker',
     'eosIconsOutlineModels',
     'checkMissingModelsOutlined',
     'cleanSvg'
