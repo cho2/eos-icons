@@ -3,17 +3,17 @@ const axios = require('axios')
 const inquirer = require('inquirer')
 const path = require('path')
 
-const { readFilesInFolder } = require('./utilities')
+const { readFilesNameInFolder } = require('./utilities')
 
 // List of icons in ./svg and ./svg/material folders
-const eosIcons = readFilesInFolder('/svg/')
-const mdIcons = readFilesInFolder('/svg/material')
+const eosIcons = readFilesNameInFolder('/svg/')
+const mdIcons = readFilesNameInFolder('/svg/material')
 
 const svgFilledCollection = [...eosIcons, ...mdIcons]
 
 // List of icons in ./svg-outlined and ./svg-outlined/material folders
-const eosOutlinedIcons = readFilesInFolder('/svg-outlined/')
-const mdOutlinedIcons = readFilesInFolder('/svg-outlined/material')
+const eosOutlinedIcons = readFilesNameInFolder('/svg-outlined/')
+const mdOutlinedIcons = readFilesNameInFolder('/svg-outlined/material')
 
 const svgOutlinedCollection = [...eosOutlinedIcons, ...mdOutlinedIcons]
 
