@@ -1,4 +1,4 @@
-const { readFilesInFolder } = require('./utilities')
+const { readFilesNameInFolder } = require('./utilities')
 const fs = require('fs')
 const path = require('path')
 /**
@@ -11,11 +11,11 @@ const checkForMissingModelsOrIcons = async (params) => {
 
   try {
     /* Read both models and icons files names. */
-    const existentModels = readFilesInFolder(modelsSrc)
-    const existentIcons = readFilesInFolder(iconsSrc)
-    const existentAnimatedIcons = readFilesInFolder(animatedSrc)
-    const existentMdModels = readFilesInFolder(mdModelsSrc)
-    const existentMdIcons = readFilesInFolder(mdIconsSrc)
+    const existentModels = readFilesNameInFolder(modelsSrc)
+    const existentIcons = readFilesNameInFolder(iconsSrc)
+    const existentAnimatedIcons = readFilesNameInFolder(animatedSrc)
+    const existentMdModels = readFilesNameInFolder(mdModelsSrc)
+    const existentMdIcons = readFilesNameInFolder(mdIconsSrc)
 
     const SVGsMissingModelsEOS = compareTwoArraysOfElements(
       [...existentModels],
@@ -65,7 +65,7 @@ const readModelKeys = async (params) => {
   const { modelsFolder } = params
 
   /* Get all files inside the models folder */
-  const filesName = readFilesInFolder(modelsFolder)
+  const filesName = readFilesNameInFolder(modelsFolder)
 
   /* For each file, read and parse the data */
   return filesName.map((ele) => {
@@ -189,8 +189,8 @@ const checkForKeys = (model) => {
 const outlineModelsAndSvgTest = async ({ outlinedSvgs, normalSvgs }) => {
   try {
     /* Read both models folders. */
-    const outlined = readFilesInFolder(outlinedSvgs)
-    const normal = readFilesInFolder(normalSvgs)
+    const outlined = readFilesNameInFolder(outlinedSvgs)
+    const normal = readFilesNameInFolder(normalSvgs)
 
     /* Compare one with the other and extract the missing models and icons  */
     const difference = compareTwoArraysOfElements([...outlined], [...normal])
