@@ -80,7 +80,7 @@ module.exports = function (grunt) {
           types: 'woff2,woff,ttf,svg,eot',
           metadata: 'something here',
           templateOptions: {
-            baseClass: 'eos-icons',
+            baseClass: 'eos-icons-outlined',
             classPrefix: 'eos-',
             template: 'templates/css-template.css',
             iconsStyles: false
