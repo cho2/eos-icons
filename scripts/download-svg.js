@@ -64,7 +64,7 @@ const duplicateMDIcon = async (mdIcon) => {
  * @returns {void}
  */
 const downloadSvgFiles = async (mdIconModelData, newName, targetDirMd) => {
-  const filePath = path.resolve(__dirname, `.${targetDirMd}/${newName}.svg`)
+  const filePath = path.resolve(process.cwd(), `.${targetDirMd}/${newName}.svg`)
   const svgCollectionPath = !targetDirMd.includes('svg-outlined')
     ? 'materialicons'
     : 'materialiconsoutlined'
@@ -90,7 +90,7 @@ const downloadMDFile = async (mdIconList, targetDirMd) => {
     const mdIconModelData = webMdIconsData.icons.filter(
       (icon) => mdIcon === icon.name
     )
-    if (targetDirMd === './svg/material') {
+    if (targetDirMd === '/svg/material') {
       svgCollection = svgFilledCollection
     } else {
       svgCollection = svgOutlinedCollection
@@ -105,7 +105,7 @@ const downloadMDFile = async (mdIconList, targetDirMd) => {
             nameIcon = response.name
             await downloadSvgFiles(mdIconModelData, nameIcon, targetDirMd).then(
               () => {
-                if (targetDirMd === './svg/material') {
+                if (targetDirMd === '/svg/material') {
                   createSvgModels(mdIconModelData, nameIcon)
                 }
               }
