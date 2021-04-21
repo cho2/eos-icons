@@ -1,6 +1,6 @@
 const fs = require('fs')
 const inquirer = require('inquirer')
-const { readFilesInFolder } = require('./utilities')
+const { readFilesNameInFolder } = require('./utilities')
 
 const namingConventionRegex = /^[a-z0-9]+(_[a-z0-9]+)*$/g
 
@@ -9,12 +9,12 @@ const checkSvgName = async (params) => {
   const { mdDir, eosDir } = params
 
   /* Reads all the svg files and remove the .svg from the name */
-  const eosIcons = await readFilesInFolder(eosDir)
+  const eosIcons = readFilesNameInFolder(eosDir)
   const eosIconsNew = eosIcons.filter(
     (ele) => ele.match(namingConventionRegex) === null
   )
 
-  const mdIconsMd = await readFilesInFolder(mdDir)
+  const mdIconsMd = readFilesNameInFolder(mdDir)
   const mdIconsMdNew = mdIconsMd.filter(
     (ele) => ele.match(namingConventionRegex) === null
   )
@@ -24,8 +24,8 @@ const checkSvgName = async (params) => {
 }
 
 const renameSvgTo = async (originalFile, filePath, otherFilePath) => {
-  const eosSVG = await readFilesInFolder(filePath)
-  const mdSVG = await readFilesInFolder(otherFilePath)
+  const eosSVG = readFilesNameInFolder(filePath)
+  const mdSVG = readFilesNameInFolder(otherFilePath)
   const svgCollections = [...eosSVG, ...mdSVG]
 
   try {

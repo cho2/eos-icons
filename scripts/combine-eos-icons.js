@@ -1,4 +1,6 @@
 const fs = require('fs-extra')
+const path = require('path')
+const { readFilesContentInFolder } = require('./utilities')
 
 /** Combines both EOS and MD models into a single file
  * @param targetDirEos eos models
@@ -10,11 +12,11 @@ const combineIconsModels = async (params) => {
   const { targetDirEos, targetDirMd, destDir } = params
 
   try {
-    const eosModelsArray = await readFolderContent(targetDirEos)
-    const mdModelsArray = await readFolderContent(targetDirMd)
+    const eosModelsArray = await readFilesContentInFolder(targetDirEos)
+    const mdModelsArray = await readFilesContentInFolder(targetDirMd)
 
     return fs.writeFileSync(
-      destDir,
+      path.join(process.cwd(), destDir),
       JSON.stringify([...eosModelsArray, ...mdModelsArray], null, 2)
     )
   } catch (error) {
@@ -61,23 +63,7 @@ const showMissingOutlinedFiles = async ({
   return 'Done moving files to complete the missing outlined svg for EOS'
 }
 
-const readFolderContent = async (dir) => {
-  const data = []
-  fs.readdirSync(dir, (err, files) => {
-    if (err) console.log(err)
-
-    return files
-  }).map((file) => {
-    if (file.includes('.json')) {
-      data.push(JSON.parse(fs.readFileSync(`${dir}${file}`, 'utf8')))
-    }
-  })
-
-  return data
-}
-
 module.exports = {
   combineIconsModels,
-  showMissingOutlinedFiles,
-  readFolderContent
+  showMissingOutlinedFiles
 }

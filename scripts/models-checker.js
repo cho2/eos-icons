@@ -1,4 +1,4 @@
-const { readFilesInFolder } = require('./utilities')
+const { readFilesNameInFolder } = require('./utilities')
 const fs = require('fs')
 const path = require('path')
 /**
@@ -11,11 +11,11 @@ const checkForMissingModelsOrIcons = async (params) => {
 
   try {
     /* Read both models and icons files names. */
-    const existentModels = readFilesInFolder(modelsSrc)
-    const existentIcons = readFilesInFolder(iconsSrc)
-    const existentAnimatedIcons = readFilesInFolder(animatedSrc)
-    const existentMdModels = readFilesInFolder(mdModelsSrc)
-    const existentMdIcons = readFilesInFolder(mdIconsSrc)
+    const existentModels = readFilesNameInFolder(modelsSrc)
+    const existentIcons = readFilesNameInFolder(iconsSrc)
+    const existentAnimatedIcons = readFilesNameInFolder(animatedSrc)
+    const existentMdModels = readFilesNameInFolder(mdModelsSrc)
+    const existentMdIcons = readFilesNameInFolder(mdIconsSrc)
 
     const SVGsMissingModelsEOS = compareTwoArraysOfElements(
       [...existentModels],
@@ -65,7 +65,7 @@ const readModelKeys = async (params) => {
   const { modelsFolder } = params
 
   /* Get all files inside the models folder */
-  const filesName = readFilesInFolder(modelsFolder)
+  const filesName = readFilesNameInFolder(modelsFolder)
 
   /* For each file, read and parse the data */
   return filesName.map((ele) => {
@@ -112,7 +112,7 @@ const outlinedModelsChecker = async ({ outlineSvgDir, modelsFolder }) => {
     /* Get the object without the filename */
     const { fileName, ...newModel } = model
     /* If the object already has the property of hasOutlined, ignore it */
-    if (newModel.hasOutlined) return
+    if (newModel.hasOutlined && newModel.dateOutlined) return
     /* Rewrite the material-model to include the hasOutlined property */
     return fs.writeFileSync(
       `./${modelsFolder}/${model.name}.json`,
@@ -156,6 +156,12 @@ const checkModelKeys = async (modelsSrc, materialModelsSrc) => {
       errors.push(`\n⛔️ Tags missing in: ${model.fileName}.`)
     }
 
+    if (model.hasOutlined && !model.dateOutlined) {
+      errors.push(
+        `\n⛔️ Found hasOutlined property in ${model.fileName}, missing dateOutlined`
+      )
+    }
+
     /* If a key is missing, add the error to the array */
     if (!checkForKeys(Object.keys(model))) {
       errors.push(
@@ -183,8 +189,8 @@ const checkForKeys = (model) => {
 const outlineModelsAndSvgTest = async ({ outlinedSvgs, normalSvgs }) => {
   try {
     /* Read both models folders. */
-    const outlined = readFilesInFolder(outlinedSvgs)
-    const normal = readFilesInFolder(normalSvgs)
+    const outlined = readFilesNameInFolder(outlinedSvgs)
+    const normal = readFilesNameInFolder(normalSvgs)
 
     /* Compare one with the other and extract the missing models and icons  */
     const difference = compareTwoArraysOfElements([...outlined], [...normal])

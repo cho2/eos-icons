@@ -2,7 +2,7 @@ const fs = require('fs')
 const axios = require('axios')
 const inquirer = require('inquirer')
 const path = require('path')
-const { readFilesInFolder, compareArrays } = require('./utilities')
+const { readFilesContentInFolder, compareArrays } = require('./utilities')
 
 /**
  * Downloads material icons list
@@ -35,7 +35,7 @@ const eosMdIconsDifferences = async (params) => {
   const { targetDirMd, duplicatedIconsList } = params
 
   try {
-    const mdIcons = readFilesInFolder(targetDirMd)
+    const mdIcons = await readFilesContentInFolder(targetDirMd)
 
     const webMdIconsData = JSON.parse(
       fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", '')

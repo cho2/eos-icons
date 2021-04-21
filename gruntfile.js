@@ -465,14 +465,30 @@ module.exports = function (grunt) {
     const done = this.async()
 
     return checkModelKeys('/models', '/models/material').then((result) => {
-      result.length
-        ? console.log(
-            `🚫 The following errors need fixing: \n\n  ${result.map(
-              (ele) => ele
-            )}`
-          )
-        : done()
+      if (!result.length) return done()
+
+      console.log(
+        `🚫 The following errors need fixing: \n\n  ${result.map((ele) => ele)}`
+      )
+
+      // If any of the results includes the missing dateOutlined propriety, add it.
+      if (result.map((ele) => ele.includes('Found hasOutlined'))) {
+        console.log(
+          '\n\n⚠️  To fix the missing dateOutlined property: grunt fixOutlinedProps'
+        )
+      }
     })
+  })
+
+  grunt.registerTask('fixOutlinedProps', async function () {
+    const done = this.async()
+    try {
+      grunt.task.run(['outlinedModelsChecker', 'eosIconsOutlineModels'])
+    } catch (error) {
+      console.error('ERROR: fixOutlinedProps(): ', error)
+    } finally {
+      done()
+    }
   })
 
   // Handle MD Icons Outline model

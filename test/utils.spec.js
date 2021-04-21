@@ -3,19 +3,22 @@ const expect = require('chai').expect
 const fs = require('fs')
 const path = require('path')
 const {
-  readFilesInFolder,
+  readFilesNameInFolder,
+  readFilesContentInFolder,
   compareArrays,
   jsFileFromJSON
 } = require('../scripts/utilities')
 
 describe('# utils functions', () => {
-  context('readFilesInFolder()', () => {
+  context('readFilesNameInFolder()', () => {
     it('should find one single svg and json file', async () => {
-      const svg = readFilesInFolder('/test/dummy-data/persistent/svgs/')
-      const json = readFilesInFolder('/test/dummy-data/persistent/json/')
+      const svg = readFilesNameInFolder('/test/dummy-data/persistent/svgs/')
+      const json = readFilesNameInFolder('/test/dummy-data/persistent/json/')
 
       expect(svg[0]).to.eql('abstract_incomplete')
       expect(json[0]).to.eql('abstract_incomplete')
+      expect(svg.length).to.eql(1)
+      expect(json.length).to.eql(2)
     })
   })
 
@@ -52,6 +55,14 @@ describe('# utils functions', () => {
       )
 
       expect(file).to.be.true
+    })
+  })
+
+  context('readFilesContentInFolder()', () => {
+    it('should be able to read the content of the .json files', async function () {
+      const data = await readFilesContentInFolder('/test/dummy-data/model/')
+
+      expect(data.length > 2).to.be.true
     })
   })
 })

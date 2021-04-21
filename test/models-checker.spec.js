@@ -9,7 +9,7 @@ const {
 } = require('../scripts/models-checker.js')
 const { moveFiles } = require('./utils/files.util')
 
-describe.only('# models-checker', () => {
+describe('# models-checker', () => {
   context('checkForMissingModelsOrIcons()', () => {
     it('should find missing models', async () => {
       const result = await checkForMissingModelsOrIcons({

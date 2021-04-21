@@ -49,7 +49,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "02/03/2021"
+    "dateOutlined": "19/04/2021"
   },
   {
     "name": "action_chains",
@@ -1585,7 +1585,9 @@ const eosIcons = [
     ],
     "category": "services",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/20/2021"
   },
   {
     "name": "product_subscriptions",
@@ -1597,7 +1599,9 @@ const eosIcons = [
     ],
     "category": "services",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/20/2021"
   },
   {
     "name": "products",
@@ -1610,7 +1614,9 @@ const eosIcons = [
     ],
     "category": "services",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/20/2021"
   },
   {
     "name": "project",
@@ -1629,7 +1635,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/20/2021"
   },
   {
     "name": "proxy",
@@ -1643,7 +1651,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/20/2021"
   },
   {
     "name": "pull_request",
@@ -7081,7 +7091,8 @@ const eosIcons = [
     ],
     "type": "static",
     "hasOutlined": true,
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "dateOutlined": "19/04/2021"
   },
   {
     "name": "battery_full",

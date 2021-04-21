@@ -4,16 +4,15 @@ const fs = require('fs')
 
 const {
   combineIconsModels,
-  showMissingOutlinedFiles,
-  readFolderContent
+  showMissingOutlinedFiles
 } = require('../scripts/combine-eos-icons.js')
 
 const { config } = require('./settings')
 
 const constants = {
-  targetDirEosModels: `./test/dummy-data/model/`,
-  targetDirMdModels: './test/dummy-data/model/material/',
-  destDirModels: './test/__temp__/mix-models.json'
+  targetDirEosModels: `/test/dummy-data/model/`,
+  targetDirMdModels: '/test/dummy-data/model/material/',
+  destDirModels: '/test/__temp__/mix-models.json'
 }
 
 describe('# combine-eos-icons', function () {
@@ -60,16 +59,6 @@ describe('# combine-eos-icons', function () {
       )
 
       expect(file).to.be.true
-    })
-  })
-
-  describe('readFolderContent()', async function () {
-    it('should be able to read the single .json file', async function () {
-      const data = await readFolderContent(
-        path.join(process.cwd() + '/test/dummy-data/model/')
-      )
-
-      expect(data.length > 2).to.be.true
     })
   })
 })
