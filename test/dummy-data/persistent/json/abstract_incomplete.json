@@ -1,6 +1,6 @@
 {
-  "name": "abstract_instance",
-  "do": "<ul><li>Use this icon to represent the instance of an abstract resource or tool.</li></ul>",
+  "name": "abstract_incomplete",
+  "do": "<ul><li>Use this icon to represent an incomplete abstract resource or tool.</li></ul>",
   "dont": "<ul><li>n/a.</li></ul>",
   "tags": [
     "eos",
@@ -12,7 +12,5 @@
   ],
   "category": "virtualization",
   "type": "static",
-  "date": "30/11/2020",
-  "hasOutlined": true,
-  "dateOutlined": "19/04/2021"
+  "date": "30/11/2020"
 }

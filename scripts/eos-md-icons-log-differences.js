@@ -2,35 +2,48 @@ const fs = require('fs')
 const axios = require('axios')
 const inquirer = require('inquirer')
 const path = require('path')
+const { readFilesInFolder, compareArrays } = require('./utilities')
 
-const downloadFile = async () => {
-  const filePath = path.resolve(__dirname, 'md-web-data.json')
-  axios({
-    method: 'get',
-    url: 'https://fonts.google.com/metadata/icons',
-    responseType: 'stream'
-  }).then((response) => {
-    response.data.pipe(fs.createWriteStream(filePath))
-  })
+/**
+ * Downloads material icons list
+ * @param {string} path Optional destination path, default set to scripts/md-web-data.json
+ * @returns json file
+ */
+const downloadMaterialIconsList = async (dest = 'md-web-data.json') => {
+  try {
+    const filePath = path.resolve(__dirname, dest)
+
+    return await axios({
+      method: 'get',
+      url: 'https://fonts.google.com/metadata/icons',
+      responseType: 'stream'
+    }).then((response) => {
+      response.data.pipe(fs.createWriteStream(filePath))
+    })
+  } catch (error) {
+    console.log('error: ', error)
+  }
 }
 
+/**
+ * // TODO: Revisit for testing
+ * @param {string} targetDirMd material svgs src
+ * @param {string} duplicatedIconsList duplicated items list
+ * @returns {} yes/no response
+ */
 const eosMdIconsDifferences = async (params) => {
   const { targetDirMd, duplicatedIconsList } = params
 
   try {
-    const mdIcons = await fs
-      .readdirSync(targetDirMd, (err, filenames) => {
-        if (err) console.error(err)
-        return filenames
-      })
-      .map((ele) => ele.replace(/\.[^/.]+$/, ''))
+    const mdIcons = readFilesInFolder(targetDirMd)
+
     const webMdIconsData = JSON.parse(
       fs.readFileSync('./scripts/md-web-data.json', 'utf8').replace(")]}'", '')
     )
 
     const webMdIconsCollection = webMdIconsData.icons.map((ele) => ele.name)
-    const missingIconsInEos = iconsDifferences(webMdIconsCollection, mdIcons)
-    const allMissingIconsInEos = iconsDifferences(
+    const missingIconsInEos = compareArrays(webMdIconsCollection, mdIcons)
+    const allMissingIconsInEos = compareArrays(
       missingIconsInEos,
       duplicatedIconsList
     )
@@ -75,10 +88,7 @@ const importMdIcons = async () => {
   }
 }
 
-const iconsDifferences = (array1, array2) =>
-  array1.filter((val) => !array2.includes(val))
-
 module.exports = {
   eosMdIconsDifferences,
-  downloadFile
+  downloadMaterialIconsList
 }
