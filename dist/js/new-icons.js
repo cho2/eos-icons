@@ -1,25 +1,27 @@
 ;(function () {
   latestIcon('date', 'eos-icons')
   // Switch normal and outline icons
-  document.getElementById('switch-checkbox').addEventListener('change',function() {
-    const selectedTabName = tabSelected()
-    if(this.checked) {
-      console.log('checked');
-      const filled = document.querySelectorAll('.eos-icons')
-      let i
-      for (i = 0; i < filled.length; i++) {
-        filled[i].className = 'eos-icons-outlined';
+  document
+    .getElementById('switch-checkbox')
+    .addEventListener('change', function () {
+      const selectedTabName = tabSelected()
+      if (this.checked) {
+        console.log('checked')
+        const filled = document.querySelectorAll('.eos-icons')
+        let i
+        for (i = 0; i < filled.length; i++) {
+          filled[i].className = 'eos-icons-outlined'
+        }
+        latestIcon('dateOutlined', selectedTabName)
+      } else {
+        const outlined = document.querySelectorAll('.eos-icons-outlined')
+        let i
+        for (i = 0; i < outlined.length; i++) {
+          outlined[i].className = 'eos-icons'
+        }
+        latestIcon('date', selectedTabName)
       }
-      latestIcon('dateOutlined', selectedTabName)
-    } else {
-      const outlined = document.querySelectorAll('.eos-icons-outlined')
-      let i
-      for (i = 0; i < outlined.length; i++) {
-        outlined[i].className = 'eos-icons'
-      }
-      latestIcon('date', selectedTabName)
-    }
-  })
+    })
 
   function tabSelected() {
     const tabSelected = document
