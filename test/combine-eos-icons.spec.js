@@ -30,8 +30,6 @@ describe('# combine-eos-icons', function () {
     it('should generate a file that exists and, combines both models files in a single one', function () {
       const file1 = require(path.join(process.cwd() + config.models[0].src))
       const file2 = require(path.join(process.cwd() + config.models[2].src))
-      const file3 = require(path.join(process.cwd() + config.models[3].src))
-      const file4 = require(path.join(process.cwd() + config.models[4].src))
 
       // Get the combine output from the function
       const combineFile = require(path.join(
@@ -39,8 +37,10 @@ describe('# combine-eos-icons', function () {
       ))
 
       // Manually combine the files for comparation
-      const mixingFiles = [file1, file2, file3, file4]
-      expect(JSON.stringify(mixingFiles)).eql(JSON.stringify(combineFile))
+
+      expect(combineFile[0].name).to.eql('abstract')
+      expect(combineFile[1].name).to.eql('ai')
+      expect(combineFile[0].hasOutlined).to.be.true
     })
   })
 
