@@ -17,7 +17,7 @@ const jsFileFromJSON = async (src, dest) => {
  * @param {*} dir relative (./) path to scan
  * @returns string[] => Array with all the filenames
  */
-const readFilesInFolder = (dir) => {
+const readFilesNameInFolder = (dir) => {
   try {
     const icons = fs.readdirSync(
       path.join(process.cwd() + dir),
@@ -41,6 +41,30 @@ const readFilesInFolder = (dir) => {
 }
 
 /**
+ * Returns an array of a mix of all models
+ * @param {string} dir relative (./) path to scan
+ * @returns string[] => Array with all documents
+ */
+const readFilesContentInFolder = async (dir) => {
+  const data = []
+  fs.readdirSync(path.join(process.cwd(), dir), (err, files) => {
+    if (err) console.log(err)
+
+    return files
+  }).map((file) => {
+    if (file.includes('.json')) {
+      data.push(
+        JSON.parse(
+          fs.readFileSync(`${path.join(process.cwd(), dir)}${file}`, 'utf8')
+        )
+      )
+    }
+  })
+
+  return data
+}
+
+/**
  * Compares two arrays and returns the missing item
  * @param {*} array1 first array that holds the item
  * @param {*} array2 second array to be compared against
@@ -51,6 +75,7 @@ const compareArrays = (array1, array2) =>
 
 module.exports = {
   jsFileFromJSON,
-  readFilesInFolder,
-  compareArrays
+  readFilesNameInFolder: readFilesNameInFolder,
+  compareArrays,
+  readFilesContentInFolder
 }

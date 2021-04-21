@@ -1,4 +1,4 @@
-const { readFilesInFolder } = require('./utilities')
+const { readFilesNameInFolder } = require('./utilities')
 
 /**
  * Compares material and eos folders and returs duplicate filenames if any
@@ -11,8 +11,8 @@ const compareFolders = async (params) => {
 
   try {
     /* Get the two arrays with the icons for md and eos */
-    const mdIcons = readFilesInFolder(mdRepo)
-    const eosIcons = readFilesInFolder(eosRepo)
+    const mdIcons = readFilesNameInFolder(mdRepo)
+    const eosIcons = readFilesNameInFolder(eosRepo)
 
     /**
      * We compare the two arrays for matching names
@@ -22,8 +22,8 @@ const compareFolders = async (params) => {
     })
 
     /* Get the two arrays with the models for md and eos */
-    const mdModelsList = readFilesInFolder(mdModelsSrc)
-    const eosModelsList = readFilesInFolder(eosModelsSrc)
+    const mdModelsList = readFilesNameInFolder(mdModelsSrc)
+    const eosModelsList = readFilesNameInFolder(eosModelsSrc)
 
     /* Identify duplicated icons with an existing model in models/material/ */
     const duplicatedEOSicon = mdModelsList.filter((value) =>
