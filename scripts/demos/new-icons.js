@@ -97,16 +97,18 @@
           // Appends each icon to the preview wrap
           newIcon.forEach((ele) => {
             const div = document.createElement('div')
+            // Detect the icon class in order to inject dinamycally
+            const iconClassQuery = document.querySelectorAll('i')
+            const iconClass = iconClassQuery[0].className
 
             div.classList.add('icons__item')
             div.setAttribute('name', ele.name)
             div.innerHTML = `
-                    <i class="eos-icons">
-                      ${ele.name}
-                    </i>
-                    <br>
-                    ${ele.name}`
-
+                  <i class="${iconClass}">
+                    ${ele.name}
+                  </i>
+                  <br>
+                  ${ele.name}`
             target.append(div)
           })
         } catch (error) {
