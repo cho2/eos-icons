@@ -4,16 +4,15 @@ const fs = require('fs')
 
 const {
   combineIconsModels,
-  showMissingOutlinedFiles,
-  readFolderContent
+  showMissingOutlinedFiles
 } = require('../scripts/combine-eos-icons.js')
 
 const { config } = require('./settings')
 
 const constants = {
-  targetDirEosModels: `./test/dummy-data/model/`,
-  targetDirMdModels: './test/dummy-data/model/material/',
-  destDirModels: './test/__temp__/mix-models.json'
+  targetDirEosModels: `/test/dummy-data/model/`,
+  targetDirMdModels: '/test/dummy-data/model/material/',
+  destDirModels: '/test/__temp__/mix-models.json'
 }
 
 describe('# combine-eos-icons', function () {
@@ -31,8 +30,6 @@ describe('# combine-eos-icons', function () {
     it('should generate a file that exists and, combines both models files in a single one', function () {
       const file1 = require(path.join(process.cwd() + config.models[0].src))
       const file2 = require(path.join(process.cwd() + config.models[2].src))
-      const file3 = require(path.join(process.cwd() + config.models[3].src))
-      const file4 = require(path.join(process.cwd() + config.models[4].src))
 
       // Get the combine output from the function
       const combineFile = require(path.join(
@@ -40,8 +37,10 @@ describe('# combine-eos-icons', function () {
       ))
 
       // Manually combine the files for comparation
-      const mixingFiles = [file1, file2, file3, file4]
-      expect(JSON.stringify(mixingFiles)).eql(JSON.stringify(combineFile))
+
+      expect(combineFile[0].name).to.eql('abstract')
+      expect(combineFile[1].name).to.eql('ai')
+      expect(combineFile[0].hasOutlined).to.be.true
     })
   })
 
@@ -60,16 +59,6 @@ describe('# combine-eos-icons', function () {
       )
 
       expect(file).to.be.true
-    })
-  })
-
-  describe('readFolderContent()', async function () {
-    it('should be able to read the single .json file', async function () {
-      const data = await readFolderContent(
-        path.join(process.cwd() + '/test/dummy-data/model/')
-      )
-
-      expect(data.length > 2).to.be.true
     })
   })
 })

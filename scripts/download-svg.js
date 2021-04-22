@@ -3,17 +3,17 @@ const axios = require('axios')
 const inquirer = require('inquirer')
 const path = require('path')
 
-const { readFilesInFolder } = require('./utilities')
+const { readFilesNameInFolder } = require('./utilities')
 
 // List of icons in ./svg and ./svg/material folders
-const eosIcons = readFilesInFolder('/svg/')
-const mdIcons = readFilesInFolder('/svg/material')
+const eosIcons = readFilesNameInFolder('/svg/')
+const mdIcons = readFilesNameInFolder('/svg/material')
 
 const svgFilledCollection = [...eosIcons, ...mdIcons]
 
 // List of icons in ./svg-outlined and ./svg-outlined/material folders
-const eosOutlinedIcons = readFilesInFolder('/svg-outlined/')
-const mdOutlinedIcons = readFilesInFolder('/svg-outlined/material')
+const eosOutlinedIcons = readFilesNameInFolder('/svg-outlined/')
+const mdOutlinedIcons = readFilesNameInFolder('/svg-outlined/material')
 
 const svgOutlinedCollection = [...eosOutlinedIcons, ...mdOutlinedIcons]
 
@@ -64,7 +64,7 @@ const duplicateMDIcon = async (mdIcon) => {
  * @returns {void}
  */
 const downloadSvgFiles = async (mdIconModelData, newName, targetDirMd) => {
-  const filePath = path.resolve(__dirname, `.${targetDirMd}/${newName}.svg`)
+  const filePath = path.resolve(process.cwd(), `.${targetDirMd}/${newName}.svg`)
   const svgCollectionPath = !targetDirMd.includes('svg-outlined')
     ? 'materialicons'
     : 'materialiconsoutlined'
@@ -90,7 +90,7 @@ const downloadMDFile = async (mdIconList, targetDirMd) => {
     const mdIconModelData = webMdIconsData.icons.filter(
       (icon) => mdIcon === icon.name
     )
-    if (targetDirMd === './svg/material') {
+    if (targetDirMd === '/svg/material') {
       svgCollection = svgFilledCollection
     } else {
       svgCollection = svgOutlinedCollection
@@ -105,7 +105,7 @@ const downloadMDFile = async (mdIconList, targetDirMd) => {
             nameIcon = response.name
             await downloadSvgFiles(mdIconModelData, nameIcon, targetDirMd).then(
               () => {
-                if (targetDirMd === './svg/material') {
+                if (targetDirMd === '/svg/material') {
                   createSvgModels(mdIconModelData, nameIcon)
                 }
               }
