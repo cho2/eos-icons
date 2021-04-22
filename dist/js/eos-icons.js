@@ -1667,7 +1667,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "22/04/2021"
   },
   {
     "name": "push_pin",
@@ -1685,7 +1687,9 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "22/04/2021"
   },
   {
     "name": "quota",
@@ -1700,7 +1704,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "22/04/2021"
   },
   {
     "name": "replica",
@@ -1757,7 +1763,9 @@ const eosIcons = [
     ],
     "category": "roles",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "22/04/2021"
   },
   {
     "name": "rotating_gear",
@@ -1798,7 +1806,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "22/04/2021"
   },
   {
     "name": "science",
