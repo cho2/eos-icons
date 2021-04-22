@@ -250,35 +250,12 @@
   <header class='eos-logo-color-gradients'>
     <div class='container two-columns'>
       <h1>
-        EOS Icons
+        EOS Icons comparison mode
       </h1>
-      <div class='pull-right toolbar'>
-        <span class='text-white'>Try different sizes: </span>
-        <button class='change-size' data-size='18'>18px</button>
-        <button class='change-size' data-size='24'>24px</button>
-        <button class='change-size' data-size='36'>36px</button>
-        <button class='change-size' data-size='48'>48px</button>
-      </div>
+
     </div>
   </header>
   <div id="eos-icons-preview" class='container icons-container'>
-
-    <label id='switch-outlined-icon' class='switch'>
-      <input type='checkbox' id='switch-checkbox'>
-      <span class='slider round'></span>
-    </label>
-    Outline version
-
-    <div id='tab' class="tabs-container">
-      <div class='icons-tab selected' data-name='eos-icons'>EOS</div>
-      <div class='icons-tab' data-name='md-icons'>Material Design</div>
-
-    </div>
-
-    <div class='latest'>
-      <h3>New icons since last release:</h3>
-      <div class='latest-icons'></div>
-    </div>
 
     <div id="icons">
       <% for (var glyphIdx=0; glyphIdx < glyphs.length; glyphIdx++) { var glyph=glyphs[glyphIdx] %>
@@ -294,45 +271,8 @@
         </div>
       <% } %>
     </div>
-    <div id="icons-animated">
-
-      <h3>Animated icons</h3>
-      <div class="icons__item" data-name="loading">
-        <img class='eos-icons eos-icon-animated' src='../animated-svg/loading.svg'>
-        <br />
-        loading
-      </div>
-
-      <div class="icons__item" data-name="installing">
-        <img class='eos-icons eos-icon-animated' src='../animated-svg/installing.svg'>
-        <br>
-        installing
-      </div>
-    </div>
   </div>
 
-  <div id="how-to-use" class='how-to-use'>
-    <div class='container'>
-      <h2 class='text-white'>
-        How to use it:
-        <small id='close-code-snippet' class='pull-right'>X Close</small>
-      </h2>
-      <% if (addLigatures) { %>
-        <pre><code>&lt;i class=&quot;<%= baseClass %>&quot;&gt;<span id="name2">icon_name</span>&lt;/i&gt;</code></pre>
-        <% } %>
-    </div>
-  </div>
-
-  <div id="how-to-use" class='how-to-use-animated'>
-    <div class='container'>
-      <h2 class='text-white'>
-        How to use it:
-        <small id='close-code-snippet-animated' class='pull-right'>X Close</small>
-      </h2>
-
-      <div id='animatedIconDemo'></div>
-    </div>
-  </div>
   <footer>
     <div class='container'>
       Download from gitlab at <a href="https://gitlab.com/SUSE-UIUX/eos-icons">EOS icons</a>.
@@ -340,72 +280,8 @@
     </div>
   </footer>
 
-  <script>
-    (function () {
-      var showCodeSnippet = false
-      var iconName
-      var tabName
 
-      //hide code snippet by default
-      document.getElementsByClassName('how-to-use')[0].style.visibility = 'hidden'
-      document.getElementsByClassName('how-to-use-animated')[0].style.visibility = 'hidden'
-
-      document.getElementById('icons').onclick = function (e) {
-        e = e || window.event;
-        iconName = e.target.getAttribute('data-name') || e.target.parentNode.getAttribute('data-name');
-        document.getElementById('name2').innerHTML = iconName;
-
-        if (iconName) {
-          showCodeSnippet = true
-          console.log('something selected')
-          document.getElementsByClassName('how-to-use')[0].style.visibility = 'visible'
-          document.getElementsByClassName('how-to-use-animated')[0].style.visibility = 'hidden'
-        }
-      }
-
-      document.getElementById('icons-animated').onclick = function (e) {
-        e = e || window.event;
-        iconName = e.target.getAttribute('data-name') || e.target.parentNode.getAttribute('data-name');
-        iconDemo = '<pre><code>&lt;i class=&quoteos-icons eos-icon-' + iconName + '&quot;&gt;' + '&lt;/i&gt;</code></pre>';
-        document.getElementById('animatedIconDemo').innerHTML = iconDemo;
-        if (iconName) {
-          showCodeSnippet = true
-          console.log(iconName)
-          document.getElementsByClassName('how-to-use-animated')[0].style.visibility = 'visible'
-        }
-      }
-
-      document.getElementById('close-code-snippet').onclick = function (e) {
-        showCodeSnippet = false
-        iconName = ''
-        document.getElementsByClassName('how-to-use')[0].style.visibility = 'hidden'
-        document.getElementsByClassName('how-to-use-animated')[0].style.visibility = 'hidden'
-      }
-
-      document.getElementById('close-code-snippet-animated').onclick = function (e) {
-        showCodeSnippet = false
-        iconName = ''
-        document.getElementsByClassName('how-to-use-animated')[0].style.visibility = 'hidden'
-        document.getElementsByClassName('how-to-use')[0].style.visibility = 'hidden'
-      }
-
-      var buttonsSizes = document.getElementsByClassName('change-size')
-      for (i = 0; i < buttonsSizes.length; i++) {
-        buttonsSizes[i].onclick = function (e) {
-          e = e || window.event;
-          iconSize = e.target.getAttribute('data-size')
-
-          for (i = 0; i < document.getElementsByClassName('eos-icons').length; i++) {
-            document.getElementsByClassName('eos-icons')[i].style.fontSize = iconSize + 'px';
-          }
-          for (i = 0; i < document.getElementsByClassName('eos-icon-animated').length; i++) {
-            document.getElementsByClassName('eos-icon-animated')[i].style.width = iconSize + 'px';
-          }
-        }
-      }
-    })();
-  </script>
-  <script src='js/new-icons.js'></script>
+  <script src='js/comparison-mode.js'></script>
 </body>
 
 </html>
