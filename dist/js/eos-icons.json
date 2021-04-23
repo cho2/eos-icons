@@ -1839,7 +1839,9 @@
     ],
     "category": "social",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/23/2021"
   },
   {
     "name": "scientist",
@@ -1854,7 +1856,9 @@
     ],
     "category": "roles",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/23/2021"
   },
   {
     "name": "secret",
@@ -1871,7 +1875,9 @@
     ],
     "category": "roles",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/23/2021"
   },
   {
     "name": "secure_data",
@@ -1885,7 +1891,9 @@
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/23/2021"
   },
   {
     "name": "service",
@@ -1915,7 +1923,9 @@
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/23/2021"
   },
   {
     "name": "service_plan",
