@@ -80,7 +80,7 @@ module.exports = function (grunt) {
           types: 'woff2,woff,ttf,svg,eot',
           metadata: 'something here',
           templateOptions: {
-            baseClass: 'eos-icons',
+            baseClass: 'eos-icons-outlined',
             classPrefix: 'eos-',
             template: 'templates/css-template.css',
             iconsStyles: false
@@ -218,9 +218,17 @@ module.exports = function (grunt) {
         cwd: 'svg-outlined',
         src: '**/*'
       },
-      newIcons: {
-        dest: 'dist/js/new-icons.js',
-        src: './scripts/demos/new-icons.js'
+      demosFilesJS: {
+        expand: true,
+        cwd: 'scripts/demos',
+        src: '*.js',
+        dest: './dist/js/'
+      },
+      demoFilesHTML: {
+        expand: true,
+        cwd: 'scripts/demos',
+        src: '*.html',
+        dest: './dist/'
       }
     },
     clean: {
@@ -595,7 +603,8 @@ module.exports = function (grunt) {
     'combineAllIconsModels',
     'clean:tempFolder',
     'jsFromJSON',
-    'copy:newIcons'
+    'copy:demosFilesJS',
+    'copy:demoFilesHTML'
   ])
   grunt.registerTask('test', [
     'importMdIcons',

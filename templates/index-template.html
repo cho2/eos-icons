@@ -165,7 +165,7 @@
       margin: 0 10px 20px 0;
     }
 
-    .switch input { 
+    .switch input {
       opacity: 0;
       width: 0;
       height: 0;
@@ -239,10 +239,21 @@
       color: #fff;
     }
 
+    .controls {
+      display: flex;
+      position: relative;
+      top: -10px;
+    }
+
+    .controls > div {
+      margin-right: 15px;
+    }
+
   </style>
   <link rel="stylesheet" type="text/css" href="css/eos-icons.css" id="css-link">
+  <link rel="stylesheet" type="text/css" href="css/outlined/eos-icons-outlined.css" id="css-link">
   <script src='js/eos-icons.js'></script>
-  
+
 </head>
 
 <body>
@@ -261,18 +272,26 @@
     </div>
   </header>
   <div id="eos-icons-preview" class='container icons-container'>
-    <label id='switch-outlined-icon' class='switch'>
-      <input type='checkbox' id='switch-checkbox'>
-      <span class='slider round'></span>
-    </label>
-    Outline version
+
+    <div class="controls">
+      <div>
+        <label id='switch-outlined-icon' class='switch'>
+          <input type='checkbox' id='switch-checkbox'>
+          <span class='slider round'></span>
+        </label>
+        Outline version
+      </div>
+
+      <a href="comparison.html">Compare styles</a>
+    </div>
+
 
     <div id='tab' class="tabs-container">
       <div class='icons-tab selected' data-name='eos-icons'>EOS</div>
       <div class='icons-tab' data-name='md-icons'>Material Design</div>
-      
+
     </div>
-    
+
     <div class='latest'>
       <h3>New icons since last release:</h3>
       <div class='latest-icons'></div>
@@ -281,13 +300,14 @@
     <div id="icons">
       <% for (var glyphIdx=0; glyphIdx < glyphs.length; glyphIdx++) { var glyph=glyphs[glyphIdx] %>
         <div class="icons__item" data-name="<%= glyph %>">
-          <i class="<%= baseClass %>">
+          <i class="eos-icons">
             <%= glyph %>
           </i>
           <br>
           <%= glyph %>
         </div>
-        <% } %>
+      <% } %>
+
     </div>
     <div id="icons-animated">
 
