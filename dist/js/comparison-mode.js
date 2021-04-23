@@ -1,9 +1,9 @@
 ;(function () {
   window
     .fetch('../js/glyph-list.json')
-    .then(response => {
+    .then((response) => {
       if (!response.ok) {
-        throw new Error('Run "npm run serve" to see this page correctly');
+        throw new Error('Run "npm run serve" to see this page correctly')
       }
       return response.json()
     })
@@ -34,7 +34,7 @@
         console.error(error)
       }
     })
-    .catch(error => {
+    .catch((error) => {
       const errorDiv = document.querySelector('.CORS-error')
       errorDiv.classList.add('visible')
       console.error('Error:', error)
