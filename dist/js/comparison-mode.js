@@ -1,13 +1,17 @@
 ;(function () {
   window
     .fetch('../js/glyph-list.json')
-    .then((response) => response.json())
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Run "npm run serve" to see this page correctly');
+      }
+      return response.json()
+    })
     .then((data) => {
       try {
         const target = document.querySelector('#icons')
         // Filter EOS and MD icons
         const ligatures = data.glyphs
-        console.log(ligatures)
 
         // Appends each icon to the preview wrap
         ligatures.forEach((glyph) => {
@@ -29,5 +33,10 @@
       } catch (error) {
         console.error(error)
       }
+    })
+    .catch(error => {
+      const errorDiv = document.querySelector('.CORS-error')
+      errorDiv.classList.add('visible')
+      console.error('Error:', error)
     })
 })()

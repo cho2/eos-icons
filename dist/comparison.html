@@ -263,6 +263,30 @@
       .controls > div {
         margin-right: 15px;
       }
+
+      code {
+        background: #f4f4f4;
+        border: 1px solid #ddd;
+        border-left: 3px solid #f36d33;
+        color: #666;
+        page-break-inside: avoid;
+        font-family: monospace;
+        font-size: 15px;
+        margin-bottom: 1.6em;
+        max-width: 100%;
+        overflow: auto;
+        padding: 1em 1.5em;
+        display: block;
+        word-wrap: break-word;
+      }
+
+      .CORS-error {
+        display: none;
+      }
+
+      .visible {
+        display: block;
+      }
     </style>
     <link
       rel="stylesheet"
@@ -289,6 +313,12 @@
     <div id="eos-icons-preview" class="container icons-container">
       <div class="controls">
         <a href="index.html">back to home</a>
+      </div>
+      <div class="CORS-error">
+        Please run ther server to access this page by running on ther terminal:
+        <code>
+          npm run serve
+        </code>
       </div>
 
       <div id="icons"></div>
