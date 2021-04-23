@@ -253,6 +253,16 @@
         background-color: #333;
         color: #fff;
       }
+
+      .controls {
+        display: flex;
+        position: relative;
+        top: -30px;
+      }
+
+      .controls > div {
+        margin-right: 15px;
+      }
     </style>
     <link
       rel="stylesheet"
@@ -277,7 +287,10 @@
     </header>
 
     <div id="eos-icons-preview" class="container icons-container">
-      <a href="index.html">back to home</a><br><br>
+      <div class="controls">
+        <a href="index.html">back to home</a>
+      </div>
+
       <div id="icons"></div>
     </div>
 
