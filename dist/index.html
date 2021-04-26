@@ -165,7 +165,7 @@
       margin: 0 10px 20px 0;
     }
 
-    .switch input { 
+    .switch input {
       opacity: 0;
       width: 0;
       height: 0;
@@ -195,15 +195,15 @@
       transition: .4s;
     }
 
-    input:checked + .slider {
+    input:checked+.slider {
       background-color: #2196F3;
     }
 
-    input:focus + .slider {
+    input:focus+.slider {
       box-shadow: 0 0 1px #2196F3;
     }
 
-    input:checked + .slider:before {
+    input:checked+.slider:before {
       -webkit-transform: translateX(26px);
       -ms-transform: translateX(26px);
       transform: translateX(26px);
@@ -217,10 +217,12 @@
     .slider.round:before {
       border-radius: 50%;
     }
+
     /* Rounded sliders */
     .tabs-container {
       display: flex;
     }
+
     .icons-tab {
       width: 25%;
       text-align: center;
@@ -239,10 +241,20 @@
       color: #fff;
     }
 
+    .controls {
+      display: flex;
+      position: relative;
+      top: -10px;
+    }
+
+    .controls>div {
+      margin-right: 15px;
+    }
   </style>
   <link rel="stylesheet" type="text/css" href="css/eos-icons.css" id="css-link">
+  <link rel="stylesheet" type="text/css" href="css/outlined/eos-icons-outlined.css" id="css-link">
   <script src='js/eos-icons.js'></script>
-  
+
 </head>
 
 <body>
@@ -261,18 +273,26 @@
     </div>
   </header>
   <div id="eos-icons-preview" class='container icons-container'>
-    <label id='switch-outlined-icon' class='switch'>
-      <input type='checkbox' id='switch-checkbox'>
-      <span class='slider round'></span>
-    </label>
-    Outline version
+
+    <div class="controls">
+      <div>
+        <label id='switch-outlined-icon' class='switch'>
+          <input type='checkbox' id='switch-checkbox'>
+          <span class='slider round'></span>
+        </label>
+        Outline version
+      </div>
+
+      <a href="comparison.html">Compare styles</a>
+    </div>
+
 
     <div id='tab' class="tabs-container">
       <div class='icons-tab selected' data-name='eos-icons'>EOS</div>
       <div class='icons-tab' data-name='md-icons'>Material Design</div>
-      
+
     </div>
-    
+
     <div class='latest'>
       <h3>New icons since last release:</h3>
       <div class='latest-icons'></div>
@@ -14264,6 +14284,7 @@
           zoom_out
         </div>
         
+
     </div>
     <div id="icons-animated">
 
@@ -14361,15 +14382,18 @@
       }
 
       var buttonsSizes = document.getElementsByClassName('change-size')
-      for (i = 0; i < buttonsSizes.length; i++) {
+      for (i = 0;i < buttonsSizes.length;i++) {
         buttonsSizes[i].onclick = function (e) {
           e = e || window.event;
           iconSize = e.target.getAttribute('data-size')
 
-          for (i = 0; i < document.getElementsByClassName('eos-icons').length; i++) {
+          for (i = 0;i < document.getElementsByClassName('eos-icons').length;i++) {
             document.getElementsByClassName('eos-icons')[i].style.fontSize = iconSize + 'px';
           }
-          for (i = 0; i < document.getElementsByClassName('eos-icon-animated').length; i++) {
+          for (i = 0;i < document.getElementsByClassName('eos-icons-outlined').length;i++) {
+            document.getElementsByClassName('eos-icons-outlined')[i].style.fontSize = iconSize + 'px';
+          }
+          for (i = 0;i < document.getElementsByClassName('eos-icon-animated').length;i++) {
             document.getElementsByClassName('eos-icon-animated')[i].style.width = iconSize + 'px';
           }
         }

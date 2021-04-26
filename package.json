@@ -38,7 +38,8 @@
     "js:fix": "eslint scripts/ --fix",
     "format": "prettier --write .",
     "test": "mocha",
-    "test:watch": "nodemon --ignore 'test/**/*.json' --ignore 'test/__temp__' --exec 'mocha --file test/settings.js'"
+    "test:watch": "nodemon --ignore 'test/**/*.json' --ignore 'test/__temp__' --exec 'mocha --file test/settings.js'",
+    "serve": "cd dist/ && python -m SimpleHTTPServer"
   },
   "husky": {
     "hooks": {
@@ -97,5 +98,8 @@
   "bugs": {
     "url": "https://gitlab.com/SUSE-UIUX/eos-icons/issues"
   },
-  "homepage": "https://gitlab.com/SUSE-UIUX/eos-icons#README"
+  "homepage": "https://gitlab.com/SUSE-UIUX/eos-icons#README",
+  "dependencies": {
+    "grunt-cli": "^1.4.2"
+  }
 }
