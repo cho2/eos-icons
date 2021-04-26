@@ -195,15 +195,15 @@
       transition: .4s;
     }
 
-    input:checked + .slider {
+    input:checked+.slider {
       background-color: #2196F3;
     }
 
-    input:focus + .slider {
+    input:focus+.slider {
       box-shadow: 0 0 1px #2196F3;
     }
 
-    input:checked + .slider:before {
+    input:checked+.slider:before {
       -webkit-transform: translateX(26px);
       -ms-transform: translateX(26px);
       transform: translateX(26px);
@@ -217,10 +217,12 @@
     .slider.round:before {
       border-radius: 50%;
     }
+
     /* Rounded sliders */
     .tabs-container {
       display: flex;
     }
+
     .icons-tab {
       width: 25%;
       text-align: center;
@@ -245,10 +247,9 @@
       top: -10px;
     }
 
-    .controls > div {
+    .controls>div {
       margin-right: 15px;
     }
-
   </style>
   <link rel="stylesheet" type="text/css" href="css/eos-icons.css" id="css-link">
   <link rel="stylesheet" type="text/css" href="css/outlined/eos-icons-outlined.css" id="css-link">
@@ -306,7 +307,7 @@
           <br>
           <%= glyph %>
         </div>
-      <% } %>
+        <% } %>
 
     </div>
     <div id="icons-animated">
@@ -405,15 +406,18 @@
       }
 
       var buttonsSizes = document.getElementsByClassName('change-size')
-      for (i = 0; i < buttonsSizes.length; i++) {
+      for (i = 0;i < buttonsSizes.length;i++) {
         buttonsSizes[i].onclick = function (e) {
           e = e || window.event;
           iconSize = e.target.getAttribute('data-size')
 
-          for (i = 0; i < document.getElementsByClassName('eos-icons').length; i++) {
+          for (i = 0;i < document.getElementsByClassName('eos-icons').length;i++) {
             document.getElementsByClassName('eos-icons')[i].style.fontSize = iconSize + 'px';
           }
-          for (i = 0; i < document.getElementsByClassName('eos-icon-animated').length; i++) {
+          for (i = 0;i < document.getElementsByClassName('eos-icons-outlined').length;i++) {
+            document.getElementsByClassName('eos-icons-outlined')[i].style.fontSize = iconSize + 'px';
+          }
+          for (i = 0;i < document.getElementsByClassName('eos-icon-animated').length;i++) {
             document.getElementsByClassName('eos-icon-animated')[i].style.width = iconSize + 'px';
           }
         }

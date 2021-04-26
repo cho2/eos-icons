@@ -15,7 +15,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "19/02/2021"
+    "dateOutlined": "4/26/2021"
   },
   {
     "name": "abstract_incomplete",
