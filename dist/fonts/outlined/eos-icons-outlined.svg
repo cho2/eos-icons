@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20201107 at Tue Apr 27 10:39:26 2021
+Created by FontForge 20201107 at Tue Apr 27 11:31:51 2021
  By Manuele Carlini
 </metadata>
 <defs>
@@ -420,7 +420,7 @@ q-41 0 -78 20q-31 13 -34 47zM248 360q-22 -10 -22 -21.5t22 -21.5q28 -12 58 -12h3v
 q-17 -10 -37 -14q-23 -6 -46 -6h-1v0v0h-1q-23 0 -45 6q-20 4 -37 14v-38z" />
     <glyph glyph-name="storage_class" unicode="storage_class" horiz-adv-x="448" 
 d="M448 64l-51 -68q-12 -17 -32 -17h-2h-150q-8 0 -14.5 6t-6.5 15v128q0 9 6.5 15t14.5 6h150q21 0 34 -17zM405 320h-384v85h384v-85zM0 427v-128h427v128h-427zM43 341v43h42v-43h-42zM21 149h128v-21h-149v128h427v-121l-22 29v71h-384v-86zM43 171v42h42v-42h-42zM43 0
-v43h42v-43h-42zM21 -21v85h107v-85h-107zM21 -21h128v-22h-149v128h149v-21h-128v-85z" />
+v43h42v-43h-42zM21 -21h128v-22h-149v128h149v-21h-128v-85z" />
     <glyph glyph-name="subscription_management" unicode="subscription_management" 
 d="M85 43h107v-86l-53 32l-54 -32v86zM384 427q18 0 30.5 -12.5t12.5 -30.5v-341q0 -18 -12.5 -30.5t-30.5 -12.5h-64v-43l-53 32l-54 -32v470h171zM256 341v-42h43v42h-43zM256 235v-43h43v43h-43zM256 128v-43h43v43h-43zM43 427h149v-43h-149v-384q-18 0 -30.5 12.5
 t-12.5 30.5v341q0 18 12.5 30.5t30.5 12.5zM85 299v42h43v-42h-43zM85 192v43h43v-43h-43zM85 85v43h43v-43h-43z" />
