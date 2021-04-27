@@ -15,7 +15,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "4/26/2021"
+    "dateOutlined": "19/02/2021"
   },
   {
     "name": "abstract_incomplete",
@@ -1907,7 +1907,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/26/2021"
   },
   {
     "name": "service_instance",
@@ -1940,7 +1942,9 @@ const eosIcons = [
     ],
     "category": "services",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/26/2021"
   },
   {
     "name": "snapshot_rollback",
@@ -1969,7 +1973,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/26/2021"
   },
   {
     "name": "state",
@@ -2000,7 +2006,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/26/2021"
   },
   {
     "name": "storage_class",
@@ -2016,7 +2024,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "4/26/2021"
   },
   {
     "name": "subscription_management",
