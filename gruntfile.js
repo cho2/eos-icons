@@ -609,6 +609,7 @@ module.exports = function (grunt) {
   grunt.registerTask('test', [
     'importMdIcons',
     'importOutlinedMdIcons',
+    'fixOutlinedProps',
     'findDuplicateNames',
     'checkNameConvention',
     'checkModelKeysTask',

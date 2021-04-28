@@ -116,7 +116,7 @@ const downloadMDFile = async (mdIconList, targetDirMd) => {
       })
     } else {
       await downloadSvgFiles(mdIconModelData, mdIcon, targetDirMd).then(() => {
-        if (targetDirMd === './svg/material') {
+        if (targetDirMd === '/svg/material') {
           createSvgModels(mdIconModelData, mdIcon)
         }
       })
