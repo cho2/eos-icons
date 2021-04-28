@@ -4905,6 +4905,24 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "ads_click",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mouse",
+      "pointer",
+      "circle"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
     "name": "agriculture",
     "do": "",
     "dont": "",
@@ -5818,6 +5836,24 @@ const eosIcons = [
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "area_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "diagram",
+      "analytics",
+      "graph"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
   },
   {
     "name": "arrow_back",
@@ -6842,6 +6878,22 @@ const eosIcons = [
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "back_hand",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "palm"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
   },
   {
     "name": "backpack",
@@ -9939,6 +9991,48 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "checklist",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "listing",
+      "menu",
+      "register",
+      "registry",
+      "check"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
+    "name": "checklist_rtl",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "listing",
+      "menu",
+      "register",
+      "registry",
+      "check",
+      "right",
+      "left"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
     "name": "checkroom",
     "do": "",
     "dont": "",
@@ -10639,6 +10733,25 @@ const eosIcons = [
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "compost",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "fertilizer",
+      "organic",
+      "plant",
+      "recycle"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
   },
   {
     "name": "compress",
@@ -11507,6 +11620,28 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "cruelty_free",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bunny",
+      "animal",
+      "savage",
+      "savagery",
+      "torture",
+      "rabbit",
+      "rodent"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
     "name": "dangerous",
     "do": "",
     "dont": "",
@@ -11593,6 +11728,25 @@ const eosIcons = [
     "date": "03/03/2021",
     "hasOutlined": true,
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "data_exploration",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chart",
+      "diagram",
+      "tag",
+      "label"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
   },
   {
     "name": "data_saver_on",
@@ -12489,6 +12643,25 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "disabled_visible",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "view",
+      "eye",
+      "blocked",
+      "visualize"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
     "name": "disc_full",
     "do": "",
     "dont": "",
@@ -13141,6 +13314,26 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "draw",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pencil",
+      "drawing",
+      "sketch",
+      "illustration",
+      "write"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
     "name": "drive_eta",
     "do": "",
     "dont": "",
@@ -13189,6 +13382,24 @@ const eosIcons = [
     "date": "03/03/2021",
     "hasOutlined": true,
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "drive_file_move_rtl",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "drive",
+      "file",
+      "move"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
   },
   {
     "name": "drive_file_rename",
@@ -13530,6 +13741,28 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "edit_calendar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "pencil",
+      "change",
+      "adapt",
+      "annotate",
+      "alter",
+      "date",
+      "appointment"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
     "name": "edit_location",
     "do": "",
     "dont": "",
@@ -13572,6 +13805,30 @@ const eosIcons = [
     "date": "03/03/2021",
     "hasOutlined": true,
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "edit_note",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "note",
+      "list",
+      "pencil",
+      "write",
+      "modify",
+      "alter",
+      "adapt",
+      "annotate",
+      "compose"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
   },
   {
     "name": "edit_notifications",
@@ -13845,6 +14102,24 @@ const eosIcons = [
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "emergency",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "star",
+      "accident",
+      "urgency"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
   },
   {
     "name": "emoji_emotions",
@@ -17264,6 +17539,42 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "free_cancellation",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "appointment",
+      "calendar",
+      "date",
+      "check",
+      "gratis"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
+    "name": "front_hand",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "palm"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
     "name": "fullscreen",
     "do": "",
     "dont": "",
@@ -17457,6 +17768,27 @@ const eosIcons = [
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "generating_tokens",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "badge",
+      "symbol",
+      "sign",
+      "emblem",
+      "mark",
+      "recognition"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
   },
   {
     "name": "gesture",
@@ -17990,6 +18322,24 @@ const eosIcons = [
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "group_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disabled",
+      "users",
+      "people"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
   },
   {
     "name": "group_work",
@@ -19192,6 +19542,25 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "hotel_class",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "star",
+      "grade",
+      "rating",
+      "rank"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
     "name": "hourglass_bottom",
     "do": "",
     "dont": "",
@@ -19696,6 +20065,26 @@ const eosIcons = [
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "incomplete_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chart",
+      "pie",
+      "graph",
+      "diagram",
+      "pie-gram"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
   },
   {
     "name": "indeterminate_check_box",
@@ -27135,6 +27524,40 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "pin_end",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "dot"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
+    "name": "pin_invoke",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "dot"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
     "name": "pin_number",
     "do": "",
     "dont": "",
@@ -27227,86 +27650,6 @@ const eosIcons = [
   },
   {
     "name": "play_arrow",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "Play",
-      "controls",
-      "music",
-      "arrow",
-      "control",
-      "video"
-    ],
-    "category": [
-      "av"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
-  },
-  {
-    "name": "play_circle",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "Play",
-      "controls",
-      "music",
-      "arrow",
-      "control",
-      "video"
-    ],
-    "category": [
-      "av"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
-  },
-  {
-    "name": "play_circle",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "Play",
-      "controls",
-      "music",
-      "arrow",
-      "control",
-      "video"
-    ],
-    "category": [
-      "av"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
-  },
-  {
-    "name": "play_circle",
-    "do": "",
-    "dont": "",
-    "tags": [
-      "Play",
-      "controls",
-      "music",
-      "arrow",
-      "control",
-      "video"
-    ],
-    "category": [
-      "av"
-    ],
-    "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
-  },
-  {
-    "name": "play_circle",
     "do": "",
     "dont": "",
     "tags": [
@@ -28001,6 +28344,27 @@ const eosIcons = [
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "private_connectivity",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "lock",
+      "personal",
+      "individual",
+      "independent",
+      "exclusive",
+      "integration"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
   },
   {
     "name": "production_quantity_limits",
@@ -28727,6 +29091,25 @@ const eosIcons = [
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "recycling",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrows",
+      "reuse",
+      "reprocess",
+      "recover"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
   },
   {
     "name": "redo",
@@ -35966,6 +36349,26 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "tips_and_updates",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bulb",
+      "light",
+      "star",
+      "ideas",
+      "advice"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
     "name": "title",
     "do": "",
     "dont": "",
@@ -38188,6 +38591,25 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "water_drop",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "droplet",
+      "blob",
+      "tear",
+      "liquid"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
+  },
+  {
     "name": "waterfall_chart",
     "do": "",
     "dont": "",
@@ -38236,6 +38658,26 @@ const eosIcons = [
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "waving_hand",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "palm",
+      "gesture",
+      "gesticulate",
+      "signal",
+      "motion"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "28/04/2021",
+    "hasOutlined": true,
+    "dateOutlined": "28/04/2021"
   },
   {
     "name": "wb_auto",
