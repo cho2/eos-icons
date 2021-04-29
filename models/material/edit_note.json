@@ -1,0 +1,22 @@
+{
+  "name": "edit_note",
+  "do": "",
+  "dont": "",
+  "tags": [
+    "note",
+    "list",
+    "pencil",
+    "write",
+    "modify",
+    "alter",
+    "adapt",
+    "annotate",
+    "compose"
+  ],
+  "category": ["editor"],
+  "type": "static",
+  "label": "None",
+  "date": "28/04/2021",
+  "hasOutlined": true,
+  "dateOutlined": "28/04/2021"
+}

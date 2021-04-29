@@ -1,0 +1,12 @@
+{
+  "name": "checklist_rtl",
+  "do": "",
+  "dont": "",
+  "tags": ["listing", "menu", "register", "registry", "check", "right", "left"],
+  "category": ["editor"],
+  "type": "static",
+  "label": "None",
+  "date": "28/04/2021",
+  "hasOutlined": true,
+  "dateOutlined": "28/04/2021"
+}
