@@ -65,7 +65,9 @@
       "development"
     ],
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/6/2021"
   },
   {
     "name": "activate_subscriptions",
@@ -296,7 +298,9 @@
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/6/2021"
   },
   {
     "name": "bubble_loading",
@@ -400,7 +404,9 @@
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/6/2021"
   },
   {
     "name": "compare_states",
@@ -418,7 +424,9 @@
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/6/2021"
   },
   {
     "name": "compass",
