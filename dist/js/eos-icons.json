@@ -2314,7 +2314,9 @@
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/6/2021"
   },
   {
     "name": "virtual_space",
@@ -2343,7 +2345,9 @@
     ],
     "category": "hardware",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/6/2021"
   },
   {
     "name": "volume_binding",
@@ -2362,7 +2366,9 @@
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/6/2021"
   },
   {
     "name": "workload",
