@@ -5,5 +5,7 @@
   "tags": ["eos", "subscription", "activated"],
   "category": "services",
   "type": "static",
-  "date": "30/11/2020"
+  "date": "30/11/2020",
+  "hasOutlined": true,
+  "dateOutlined": "5/4/2021"
 }

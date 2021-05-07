@@ -2053,7 +2053,9 @@ const eosIcons = [
     ],
     "category": "services",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/4/2021"
   },
   {
     "name": "symlink",
@@ -2067,7 +2069,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/4/2021"
   },
   {
     "name": "system_group",
@@ -2097,7 +2101,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/4/2021"
   },
   {
     "name": "system_ok",
@@ -2113,7 +2119,9 @@ const eosIcons = [
     ],
     "category": "hardware",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/4/2021"
   },
   {
     "name": "system_re_registered",
@@ -2156,7 +2164,9 @@ const eosIcons = [
     ],
     "category": "design",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/4/2021"
   },
   {
     "name": "terminal",
@@ -2170,7 +2180,9 @@ const eosIcons = [
     ],
     "category": "virtualization",
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/4/2021"
   },
   {
     "name": "test_tube",
