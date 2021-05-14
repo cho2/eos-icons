@@ -15,5 +15,7 @@
   ],
   "category": "artificial intelligence",
   "type": "static",
-  "date": "14/05/2021"
+  "date": "14/05/2021",
+  "hasOutlined": true,
+  "dateOutlined": "14/05/2021"
 }
