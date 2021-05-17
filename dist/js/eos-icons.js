@@ -115,6 +115,27 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "ai_healing",
+    "do": "<ul><li>Use it in AI applications when the action will fix/heal an AI module, process, etc.</li></ul>",
+    "dont": "<ul><li>Don't use it as a form of Like or feedback in any shape or form.</li></ul>",
+    "tags": [
+      "artificial",
+      "intelligence",
+      "robot",
+      "heart",
+      "fix",
+      "solve",
+      "resolve",
+      "heal",
+      "eos"
+    ],
+    "category": "artificial intelligence",
+    "type": "static",
+    "date": "14/05/2021",
+    "hasOutlined": true,
+    "dateOutlined": "14/05/2021"
+  },
+  {
     "name": "ai_operator",
     "do": "<ul><li>Use this icon to represent a role associated to AI operations.</li></ul>",
     "dont": "<ul><li>Don't use it for a regular user rule.</li></ul>",
@@ -1900,6 +1921,22 @@ const eosIcons = [
     "date": "30/11/2020",
     "hasOutlined": true,
     "dateOutlined": "4/23/2021"
+  },
+  {
+    "name": "self_healing",
+    "do": "<ul><li>Use it in actions to fix/heal a model, task, operation or other automated job.</li></ul>",
+    "dont": "<ul><li>Do not use it to like, give feedback or similar.</li></ul>",
+    "tags": [
+      "fix",
+      "solve",
+      "heart",
+      "autofix",
+      "selfcare",
+      "eos"
+    ],
+    "category": "artificial intelligence",
+    "type": "static",
+    "date": "14/05/2021"
   },
   {
     "name": "service",
