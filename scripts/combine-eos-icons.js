@@ -15,10 +15,17 @@ const combineIconsModels = async (params) => {
     const eosModelsArray = await readFilesContentInFolder(targetDirEos)
     const mdModelsArray = await readFilesContentInFolder(targetDirMd)
 
-    return fs.writeFileSync(
-      path.join(process.cwd(), destDir),
-      JSON.stringify([...eosModelsArray, ...mdModelsArray], null, 2)
-    )
+    return new Promise((resolve, reject) => {
+      return fs.writeFile(
+        path.join(process.cwd(), destDir),
+        JSON.stringify([...eosModelsArray, ...mdModelsArray], null, 2),
+        (err) => {
+          if (err) reject(err)
+
+          return resolve()
+        }
+      )
+    })
   } catch (error) {
     console.log(error)
   }
