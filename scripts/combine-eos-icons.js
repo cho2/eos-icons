@@ -16,12 +16,15 @@ const combineIconsModels = async (params) => {
     const mdModelsArray = await readFilesContentInFolder(targetDirMd)
 
     return new Promise(async (resolve, reject) => {
-      await fs
-        .writeFile(
-          path.join(process.cwd(), destDir),
-          JSON.stringify([...eosModelsArray, ...mdModelsArray], null, 2)
-        )
-        .then(resolve)
+      fs.writeFile(
+        path.join(process.cwd(), destDir),
+        JSON.stringify([...eosModelsArray, ...mdModelsArray], null, 2),
+        (err) => {
+          if (err) return reject(err)
+          console.log('The file has been saved!')
+          return resolve()
+        }
+      )
     })
   } catch (error) {
     console.log(error)
