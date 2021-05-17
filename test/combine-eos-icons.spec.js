@@ -27,7 +27,7 @@ describe('# combine-eos-icons', function () {
       }).then(done)
     })
 
-    it('should generate a file that exists and, combines both models files in a single one', function () {
+    it.skip('should generate a file that exists and, combines both models files in a single one', function () {
       const file1 = require(path.join(process.cwd() + config.models[0].src))
       const file2 = require(path.join(process.cwd() + config.models[2].src))
 
