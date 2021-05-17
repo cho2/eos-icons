@@ -19,12 +19,12 @@ describe('# combine-eos-icons', function () {
   const { targetDirEosModels, targetDirMdModels, destDirModels } = constants
 
   describe('combineIconsModels()', function () {
-    before(function (done) {
-      combineIconsModels({
+    before(async function () {
+      await combineIconsModels({
         targetDirEos: targetDirEosModels,
         targetDirMd: targetDirMdModels,
         destDir: destDirModels
-      }).then(done)
+      })
     })
 
     it('should generate a file that exists and, combines both models files in a single one', function () {
