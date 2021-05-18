@@ -67,10 +67,10 @@ module.exports = function (grunt) {
       },
       outlined: {
         src: srcEosSetOutlined,
-        dest: 'dist/fonts/outlined',
-        destCss: 'dist/css/outlined',
-        destScss: 'dist/css/outlined',
-        destLess: 'dist/css/outlined',
+        dest: 'dist/fonts/',
+        destCss: 'dist/css/',
+        destScss: 'dist/css/',
+        destLess: 'dist/css/',
         options: {
           font: 'eos-icons-outlined',
           syntax: 'bootstrap',
