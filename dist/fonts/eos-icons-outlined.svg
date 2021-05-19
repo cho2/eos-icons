@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20190801 at Wed May 19 12:46:01 2021
+Created by FontForge 20190801 at Wed May 19 13:22:57 2021
  By Cynthia Sanchez
 </metadata>
 <defs>
@@ -4570,8 +4570,8 @@ t41.5 14q20 -2 34 -18t14 -38v-93h14q5 0 9 -2zM341 116l-90 40h-38v132q0 11 -10.5 
 d="M43 320v-299h298v-42h-298q-18 0 -30.5 12.5t-12.5 29.5v299h43zM256 213q-27 0 -45.5 19t-18.5 45.5t18.5 45t45.5 18.5q17 0 32 -8.5t23.5 -23t8.5 -32.5q0 -26 -18.5 -45t-45.5 -19zM256 299q-9 0 -15 -6.5t-6 -15t6 -15t15 -6.5t15 6.5t6 15t-6 15t-15 6.5zM384 405
 q18 0 30.5 -12.5t12.5 -29.5v-256q0 -18 -12.5 -30.5t-30.5 -12.5h-256q-18 0 -30.5 12.5t-12.5 30.5v256q0 8 3.5 16t9.5 14t13.5 9t16.5 3h256zM185 107h142q-33 21 -71 21t-71 -21zM384 112v251h-256v-251q51 59 128 59t128 -59z" />
     <glyph glyph-name="switch_camera" unicode="switch_camera" 
-d="M384 363q9 0 16.5 -3.5t13.5 -9.5t9.5 -13.5t3.5 -16.5v-256q0 -18 -12.5 -30.5t-30.5 -12.5h-341q-18 0 -30.5 12.5t-12.5 30.5v256q0 18 12.5 30.5t30.5 12.5h67l39 42h128l39 -42h68zM168 363h91l39 -43h86v-256h-341v256h86zM277 213v54l75 -75l-75 -75v54h-128v-54
-l-74 75l74 75v-54h128z" />
+d="M384 363q9 0 16.5 -3.5t13.5 -9.5t9.5 -13.5t3.5 -16.5v-256q0 -18 -12.5 -30.5t-30.5 -12.5h-341q-18 0 -30.5 12.5t-12.5 30.5v256q0 18 12.5 30.5t30.5 12.5h68l38 42h128l39 -42h68zM169 363l-39 -43h-87v-256h341v256h-87l-39 43h-89zM277 213v54l75 -75l-75 -75v54
+h-128v-54l-74 75l74 75v-54h128z" />
     <glyph glyph-name="switch_left" unicode="switch_left" horiz-adv-x="384" 
 d="M117 264l-72 -72l72 -72v144zM149 341v-298l-149 149zM235 341l149 -149l-149 -149v298z" />
     <glyph glyph-name="switch_right" unicode="switch_right" horiz-adv-x="384" 
