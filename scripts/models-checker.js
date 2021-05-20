@@ -1,6 +1,7 @@
 const { readFilesNameInFolder } = require('./utilities')
 const fs = require('fs')
 const path = require('path')
+
 /**
  * Function that takes an object with the models and icons source dir
  * @param {object} object {modelsSrc, mdModelsSrc, mdIconsSrc, iconsSrc, animatedSrc}
@@ -156,20 +157,23 @@ const missingOutlinedModelsChecker = async ({
 
   if (missingOutlinedMdIcons.length > 0) {
     return missingOutlinedMdIcons.map((model) => {
-      /* Get the object without the filename, hasOutlined, dateOutlined */
-      const { fileName, hasOutlined, dateOutlined, ...newModel } = model
-
-      /* If the object already has the property of hasOutlined, ignore it */
-      return fs.writeFileSync(
-        `./${modelsFolder}/${model.name}.json`,
-        JSON.stringify(
-          {
-            ...newModel
-          },
-          null,
-          2
+      /* Get the object without the filename */
+      if (!model.hasOutlined && !model.dateOutlined) {
+      } else {
+        /* Get the object without the hasOutlined and dateOutlined */
+        const { hasOutlined, dateOutlined, ...newModel } = model
+        /* If the object already has the property of hasOutlined, ignore it */
+        return fs.writeFileSync(
+          `./${modelsFolder}/${model.name}.json`,
+          JSON.stringify(
+            {
+              ...newModel
+            },
+            null,
+            2
+          )
         )
-      )
+      }
     })
   }
 }
