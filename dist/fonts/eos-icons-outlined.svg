@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20190801 at Thu May 20 14:03:21 2021
+Created by FontForge 20190801 at Thu May 20 14:23:11 2021
  By Cynthia Sanchez
 </metadata>
 <defs>
@@ -3983,8 +3983,8 @@ l-98 95l98 97v-66z" />
     <glyph glyph-name="rotate_right" unicode="rotate_right" horiz-adv-x="340" 
 d="M246 330l-97 -95v83q-45 -8 -75.5 -43.5t-30.5 -82.5t30.5 -82.5t75.5 -43.5v-43q-63 8 -106 56t-43 113t43 113t106 56v66zM340 213h-43q-5 29 -22 53l30 30q29 -37 35 -83zM192 66q28 5 52 22l31 -31q-37 -28 -83 -34v43zM275 118q17 24 22 53h43q-6 -46 -35 -83z" />
     <glyph glyph-name="rounded_corner" unicode="rounded_corner" horiz-adv-x="384" 
-d="M341 43h43v-43h-43v43zM341 85v43h43v-43h-43zM0 171v42h43v-42h-43zM0 85v43h43v-43h-43zM0 256v43h43v-43h-43zM0 341v43h43v-43h-43zM85 341v43h43v-43h-43zM256 0h43v43h-43v-43zM171 0v43h42v-43h-42zM256 0v43h43v-43h-43zM85 0v43h43v-43h-43zM0 0v43h43v-43h-43z
-M384 277v-106h-43v106q0 27 -18.5 45.5t-45.5 18.5h-106v43h106q44 0 75.5 -31.5t31.5 -75.5z" />
+d="M341 43h43v-43h-43v43zM341 85v43h43v-43h-43zM0 171v42h43v-42h-43zM0 85v43h43v-43h-43zM0 256v43h43v-43h-43zM0 341v43h43v-43h-43zM85 341v43h43v-43h-43zM256 0v43h43v-43h-43zM171 0v43h42v-43h-42zM85 0v43h43v-43h-43zM0 0v43h43v-43h-43zM384 277v-106h-43v106
+q0 27 -19 45.5t-45 18.5h-106v43h106q45 0 76 -31t31 -76z" />
     <glyph glyph-name="router" unicode="router" horiz-adv-x="384" 
 d="M277 358q-50 0 -89 -36l-17 17q44 45 106 45t107 -45l-17 -17q-40 36 -90 36zM207 305q30 30 70.5 30t70.5 -30l-17 -17q-22 21 -54 21t-53 -21zM341 171q18 0 30.5 -12.5t12.5 -30.5v-85q0 -18 -12.5 -30.5t-30.5 -12.5h-298q-18 0 -30.5 12.5t-12.5 30.5v85
 q0 18 12.5 30.5t30.5 12.5h213v85h43v-85h42zM341 43v85h-298v-85h298zM64 107h43v-43h-43v43zM139 107h42v-43h-42v43zM213 107h43v-43h-43v43z" />
