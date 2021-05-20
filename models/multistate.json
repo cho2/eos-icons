@@ -2,7 +2,14 @@
   "name": "multistate",
   "do": "<ul><li>To show multiple states.</li></ul>",
   "dont": "",
-  "tags": ["eos", "various", "several", "resources", "many", "multiple"],
+  "tags": [
+    "eos",
+    "various",
+    "several",
+    "resources",
+    "many",
+    "multiple"
+  ],
   "category": "virtualization",
   "type": "static",
   "date": "30/11/2020"
