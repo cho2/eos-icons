@@ -20198,7 +20198,9 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/20/2021"
   },
   {
     "name": "insert_chart",
@@ -21632,7 +21634,9 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/20/2021"
   },
   {
     "name": "list_alt",
@@ -35020,7 +35024,9 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "date": "30/11/2020"
+    "date": "30/11/2020",
+    "hasOutlined": true,
+    "dateOutlined": "5/20/2021"
   },
   {
     "name": "swap_vertical_circle",
