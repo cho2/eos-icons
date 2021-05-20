@@ -8,7 +8,8 @@ module.exports = function (grunt) {
     checkForMissingModelsOrIcons,
     checkModelKeys,
     outlinedModelsChecker,
-    outlineModelsAndSvgTest
+    outlineModelsAndSvgTest,
+    missingOutlinedModelsChecker
   } = require('./scripts/models-checker')
   const { createNewModel } = require('./scripts/models-creation')
   const {
@@ -517,6 +518,16 @@ module.exports = function (grunt) {
     }).then(done)
   })
 
+  // Handle missing MD Icons Outlined icons model
+  grunt.registerTask('missingOutlinedModelsChecker', async function () {
+    const done = this.async()
+
+    return missingOutlinedModelsChecker({
+      outlineSvgDir: '/svg-outlined/material',
+      modelsFolder: '/models/material'
+    }).then(done)
+  })
+
   // Handle EOS Icons Outline model
   grunt.registerTask('eosIconsOutlineModels', async function () {
     const done = this.async()
@@ -603,6 +614,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'findDuplicateNames',
     'clean:all',
+    'missingOutlinedModelsChecker',
     'concat',
     'copy:outlined',
     'temp_svg_collection',
