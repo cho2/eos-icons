@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20201107 at Wed May 19 17:49:32 2021
+Created by FontForge 20201107 at Thu May 20 13:46:51 2021
  By Richa Bisht
 </metadata>
 <defs>
@@ -18,7 +18,7 @@ Created by FontForge 20201107 at Wed May 19 17:49:32 2021
     bbox="-0.595506 -64.5 512 448.5"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F807"
+    unicode-range="U+0030-F806"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -547,9 +547,6 @@ t6.5 -15.5v-85zM256 277v32h-32v-32h32z" />
     <glyph glyph-name="1k_plus" unicode="&#x31;k_plus" horiz-adv-x="384" 
 d="M341 384q18 0 30.5 -12.5t12.5 -30.5v-298q0 -18 -12.5 -30.5t-30.5 -12.5h-298q-18 0 -30.5 12.5t-12.5 30.5v298q0 18 12.5 30.5t30.5 12.5h298zM341 203v138h-298v-298h298v138h-32v-32h-21v32h-32v22h32v32h21v-32h32zM96 128v96h-32v32h64v-128h-32zM192 176v-48
 h-32v128h32v-48l37 48h38l-48 -64l48 -64h-38z" />
-    <glyph glyph-name="1k" unicode="&#x31;k" horiz-adv-x="384" 
-d="M341 384q18 0 30.5 -12.5t12.5 -30.5v-298q0 -18 -12.5 -30.5t-30.5 -12.5h-298q-18 0 -30.5 12.5t-12.5 30.5v298q0 18 12.5 30.5t30.5 12.5h298zM341 43v298h-298v-298h298zM117 128v96h-32v32h64v-128h-32zM224 176v-48h-32v128h32v-48l37 48h38l-48 -64l48 -64h-38z
-" />
     <glyph glyph-name="1x_mobiledata" unicode="&#x31;x_mobiledata" horiz-adv-x="320" 
 d="M0 299h85v-214h-42v171h-43v43zM252 198l68 -113h-50l-43 72l-42 -72h-50l68 113l-61 101h50l36 -59l35 59h50z" />
     <glyph glyph-name="20mp" unicode="&#x32;&#x30;mp" horiz-adv-x="384" 
