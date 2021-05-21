@@ -2796,7 +2796,9 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021"
+    "date": "03/03/2021",
+    "hasOutlined": true,
+    "dateOutlined": "06/04/2021"
   },
   {
     "name": "1k_plus",
