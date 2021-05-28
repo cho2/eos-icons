@@ -528,7 +528,14 @@ module.exports = function (grunt) {
       tempFolder: './temp'
     }).then((data) => {
       console.log(data)
-      done()
+      showMissingOutlinedFiles({
+        outlineSvgDir: './svg-outlined/material',
+        normalSvgDir: './svg/material',
+        tempFolder: './temp/material'
+      }).then((data) => {
+        console.log(data)
+        done()
+      })
     })
   })
 

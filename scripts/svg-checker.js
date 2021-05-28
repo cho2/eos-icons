@@ -96,8 +96,24 @@ const selectIconFolder = async () => {
   }
 }
 
+const svgThemeComparation = ({ filledSvgPath, outlionedSvgPath }) => {
+  return new Promise((resolve, reject) => {
+    try {
+      const filledContent = fs.readFile(filledSvgPath)
+      const outLinedContent = fs.readFile(outlionedSvgPath)
+
+      return resolve(
+        JSON.stringify(filledContent) === JSON.stringify(outLinedContent)
+      )
+    } catch (error) {
+      reject(error)
+    }
+  })
+}
+
 module.exports = {
   checkSvgName,
   renameSvgTo,
-  deleteDuplicateSvg
+  deleteDuplicateSvg,
+  svgThemeComparation
 }

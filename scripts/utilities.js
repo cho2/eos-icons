@@ -73,9 +73,26 @@ const readFilesContentInFolder = async (dir) => {
 const compareArrays = (array1, array2) =>
   array1.filter((val) => !array2.includes(val))
 
+/**
+ *
+ * @param {string} first string to compare
+ * @param {string} second string to be compare
+ * @returns boolean for the comparation
+ */
+const compareObjects = ({ first, second }) => {
+  return new Promise((resolve, reject) => {
+    try {
+      return resolve(JSON.stringify(first) === JSON.stringify(second))
+    } catch (error) {
+      return reject(error)
+    }
+  })
+}
+
 module.exports = {
   jsFileFromJSON,
   readFilesNameInFolder: readFilesNameInFolder,
   compareArrays,
-  readFilesContentInFolder
+  readFilesContentInFolder,
+  compareObjects
 }

@@ -2,8 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20190801 at Wed May 19 13:22:57 2021
- By Cynthia Sanchez
+Created by FontForge 20190801 at Fri May 28 12:18:25 2021
+ By 
 </metadata>
 <defs>
 <font id="eos-icons-outlined" horiz-adv-x="427" >
@@ -18,7 +18,7 @@ Created by FontForge 20190801 at Wed May 19 13:22:57 2021
     bbox="-0.595506 -65.0333 512 448.5"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F807"
+    unicode-range="U+0030-F80A"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -2733,6 +2733,8 @@ d="M427 192q0 -88 -62.5 -150.5t-151 -62.5t-151 62.5t-62.5 150.5t63 151l150 -151v
 d="M341 384q18 0 30.5 -12.5t12.5 -30.5v-298q0 -18 -12.5 -30.5t-30.5 -12.5h-298q-18 0 -30.5 12.5t-12.5 30.5v298q0 18 12.5 30.5t30.5 12.5h298zM341 43v298h-298v-298h298zM85 213h214v-42h-214v42z" />
     <glyph glyph-name="info" unicode="info" 
 d="M192 299h43v-43h-43v43zM192 213h43v-128h-43v128zM213.5 405q88.5 0 151 -62.5t62.5 -150.5t-62.5 -150.5t-151 -62.5t-151 62.5t-62.5 150.5t62.5 150.5t151 62.5zM213.5 21q70.5 0 120.5 50t50 121t-50 121t-120.5 50t-120.5 -50t-50 -121t50 -121t120.5 -50z" />
+    <glyph glyph-name="input" unicode="input" horiz-adv-x="469" 
+d="M427 384q17 0 29.5 -12.5t12.5 -30.5v-299q0 -17 -12.5 -29.5t-29.5 -12.5h-384q-18 0 -30.5 12.5t-12.5 29.5v86h43v-86h384v300h-384v-86h-43v85q0 18 12.5 30.5t30.5 12.5h384zM213 107v64h-213v42h213v64l86 -85z" />
     <glyph glyph-name="insert_chart_outlined" unicode="insert_chart_outlined" horiz-adv-x="384" 
 d="M128 85h-43v150h43v-150zM213 85h-42v214h42v-214zM299 85h-43v86h43v-86zM341 43v298h-298v-298h298zM341 384q18 0 30.5 -12.5t12.5 -30.5v-298q0 -18 -12.5 -30.5t-30.5 -12.5h-298q-18 0 -30.5 12.5t-12.5 30.5v298q0 18 12.5 30.5t30.5 12.5h298z" />
     <glyph glyph-name="insert_chart" unicode="insert_chart" horiz-adv-x="384" 
@@ -2905,6 +2907,8 @@ q0 -21 -12 -38t-31 -23l-21 -7v-33h150z" />
     <glyph glyph-name="list_alt" unicode="list_alt" horiz-adv-x="384" 
 d="M171 299h128v-43h-128v43zM171 213h128v-42h-128v42zM171 128h128v-43h-128v43zM85 299h43v-43h-43v43zM85 213h43v-42h-43v42zM85 128h43v-43h-43v43zM365 384q7 0 13 -6t6 -13v-346q0 -6 -6.5 -12.5t-12.5 -6.5h-346q-7 0 -13 6t-6 13v346q0 8 5.5 13.5t13.5 5.5h346z
 M341 43v298h-298v-298h298z" />
+    <glyph glyph-name="list" unicode="list" horiz-adv-x="384" 
+d="M0 171v42h43v-42h-43zM0 85v43h43v-43h-43zM0 256v43h43v-43h-43zM85 171v42h299v-42h-299zM85 85v43h299v-43h-299zM85 299h299v-43h-299v43z" />
     <glyph glyph-name="live_help" unicode="live_help" horiz-adv-x="384" 
 d="M341 405q18 0 30.5 -12.5t12.5 -29.5v-299q0 -18 -12.5 -30.5t-30.5 -12.5h-85l-64 -64l-64 64h-85q-18 0 -30.5 12.5t-12.5 30.5v299q0 17 12.5 29.5t30.5 12.5h298zM341 64v299h-298v-299h103l12 -12l34 -34l34 33l12 13h103zM171 128h42v-43h-42v43zM192 299
 q-18 0 -30.5 -12.5t-12.5 -30.5h-42q0 35 25 60t60 25t60 -25t25 -60q0 -18 -10 -32.5t-22 -23t-22 -22t-10 -29.5h-42q0 24 10 40.5t22 23.5t22 18t10 25q0 18 -12.5 30.5t-30.5 12.5z" />
@@ -4560,6 +4564,8 @@ d="M85 213v-64h150v-42h-150v-64l-85 85zM384 256l-85 -85v64h-150v42h150v64z" />
     <glyph glyph-name="swap_horizontal_circle" unicode="swap_horizontal_circle" 
 d="M213.5 405q88.5 0 151 -62.5t62.5 -150.5t-62.5 -150.5t-151 -62.5t-151 62.5t-62.5 150.5t62.5 150.5t151 62.5zM213.5 21q70.5 0 120.5 50t50 121t-50 121t-120.5 50t-120.5 -50t-50 -121t50 -121t120.5 -50zM277 309l75 -74l-75 -75v53h-85v43h85v53zM149 224v-53h86
 v-43h-86v-53l-74 74z" />
+    <glyph glyph-name="swap_vert" unicode="swap_vert" horiz-adv-x="299" 
+d="M235 85h64l-86 -85l-85 85h64v150h43v-150zM85 384l86 -85h-64v-150h-43v150h-64z" />
     <glyph glyph-name="swap_vertical_circle" unicode="swap_vertical_circle" 
 d="M213.5 405q88.5 0 151 -62.5t62.5 -150.5t-62.5 -150.5t-151 -62.5t-151 62.5t-62.5 150.5t62.5 150.5t151 62.5zM213.5 21q70.5 0 120.5 50t50 121t-50 121t-120.5 50t-120.5 -50t-50 -121t50 -121t120.5 -50zM96 256l75 75l74 -75h-53v-85h-43v85h-53zM331 128l-75 -75
 l-75 75h54v85h42v-85h54z" />
