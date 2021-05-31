@@ -1,6 +1,7 @@
 const { readFilesNameInFolder } = require('./utilities')
 const fs = require('fs')
 const path = require('path')
+
 /**
  * Function that takes an object with the models and icons source dir
  * @param {object} object {modelsSrc, mdModelsSrc, mdIconsSrc, iconsSrc, animatedSrc}
@@ -96,7 +97,7 @@ const readModelKeys = async (params) => {
  */
 const outlinedModelsChecker = async ({ outlineSvgDir, modelsFolder }) => {
   const models = await readModelKeys({ modelsFolder })
-  // Gets the outlined MD SVGs
+
   const filesMd = fs
     .readdirSync(path.join(process.cwd(), outlineSvgDir), (err, file) => {
       if (err) console.log(err)
@@ -105,7 +106,7 @@ const outlinedModelsChecker = async ({ outlineSvgDir, modelsFolder }) => {
     .filter((ele) => ele.includes('.svg'))
 
   const modelsToCreate = models.filter((ele) => {
-    if (filesMd.includes(`${ele.name}.svg`)) return ele
+    if (filesMd.includes(`${ele.name}.svg`)) return ele.name
   })
 
   return modelsToCreate.map((model) => {
@@ -113,6 +114,7 @@ const outlinedModelsChecker = async ({ outlineSvgDir, modelsFolder }) => {
     const { fileName, ...newModel } = model
     /* If the object already has the property of hasOutlined, ignore it */
     if (newModel.hasOutlined && newModel.dateOutlined) return
+
     /* Rewrite the material-model to include the hasOutlined property */
     return fs.writeFileSync(
       `./${modelsFolder}/${model.name}.json`,
@@ -129,6 +131,51 @@ const outlinedModelsChecker = async ({ outlineSvgDir, modelsFolder }) => {
       )
     )
   })
+}
+
+/**
+ * Will check the models for material deleted or removed icons and remove the propriety of hasOutlined  dateOutlined.
+ * @param {object} { outlineSvgDir, modelsFolder} outline-svg and models folders
+ */
+const missingOutlinedModelsChecker = async ({
+  outlineSvgDir,
+  modelsFolder
+}) => {
+  const models = await readModelKeys({ modelsFolder })
+
+  const filesMd = fs
+    .readdirSync(path.join(process.cwd(), outlineSvgDir), (err, file) => {
+      if (err) console.log(err)
+      return file
+    })
+    .filter((ele) => ele.includes('.svg'))
+
+  /* Get the list of icons removed deleted from Outlined SVG folder and removed hasOutlined and dateOutlined  properties */
+  const missingOutlinedMdIcons = models.filter((ele) => {
+    if (!filesMd.includes(`${ele.name}.svg`)) return ele
+  })
+
+  if (missingOutlinedMdIcons.length > 0) {
+    return missingOutlinedMdIcons.map((model) => {
+      /* Get the object without the filename */
+      if (!model.hasOutlined && !model.dateOutlined) {
+      } else {
+        /* Get the object without the hasOutlined and dateOutlined */
+        const { hasOutlined, dateOutlined, ...newModel } = model
+        /* If the object already has the property of hasOutlined, ignore it */
+        return fs.writeFileSync(
+          `./${modelsFolder}/${model.name}.json`,
+          JSON.stringify(
+            {
+              ...newModel
+            },
+            null,
+            2
+          )
+        )
+      }
+    })
+  }
 }
 
 /* Maps throught the array of objects checking for models to have all listed proprieties */
@@ -208,5 +255,6 @@ module.exports = {
   outlinedModelsChecker,
   outlineModelsAndSvgTest,
   readModelKeys,
-  checkForKeys
+  checkForKeys,
+  missingOutlinedModelsChecker
 }

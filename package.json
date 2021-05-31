@@ -1,6 +1,6 @@
 {
   "name": "eos-icons",
-  "version": "5.0.0",
+  "version": "5.0.2",
   "description": "The iconic and open source font made for EOS Design System.",
   "devDependencies": {
     "@semantic-release/git": "^5.0.0",

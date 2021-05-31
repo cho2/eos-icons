@@ -40,7 +40,7 @@ const readFilesNameInFolder = (dir) => {
   }
 }
 
-/**
+/** // TODO: Replace with readDirectoryFilesContent()
  * Returns an array of a mix of all models
  * @param {string} dir relative (./) path to scan
  * @returns string[] => Array with all documents
@@ -65,6 +65,55 @@ const readFilesContentInFolder = async (dir) => {
 }
 
 /**
+ * Returns an array of the files content
+ * @param {string} dir relative (./) path to scan
+ * @param {string} type file format we want to read (.svg, .json, .js)
+ * @returns string[] => Array with all documents
+ */
+const readDirectoryFilesContent = async (dir, type) => {
+  console.log('type: ', type)
+  const data = []
+  fs.readdirSync(path.join(process.cwd(), dir), (err, files) => {
+    if (err) console.log(err)
+
+    return files
+  }).map((file) => {
+    // console.log('file.includes(type): ', file.includes(type))
+    if (file.includes(type)) {
+      if (type === '.json') {
+        data.push(
+          JSON.parse(
+            fs.readFileSync(`${path.join(process.cwd(), dir)}${file}`, 'utf8')
+          )
+        )
+      } else {
+        data.push(
+          fs.readFileSync(`${path.join(process.cwd(), dir)}${file}`, 'utf8')
+        )
+      }
+    }
+  })
+
+  return data
+}
+
+/**
+ * Reads a file content
+ * @param {*} path url to the file (relative to /)
+ * @returns file content
+ */
+const readFileContent = async (path) => {
+  return new Promise((resolve, reject) => {
+    try {
+      const content = fs.readFileSync(`${(process.cwd(), path)}`, 'utf8')
+      resolve(content)
+    } catch (error) {
+      reject(error)
+    }
+  })
+}
+
+/**
  * Compares two arrays and returns the missing item
  * @param {*} array1 first array that holds the item
  * @param {*} array2 second array to be compared against
@@ -74,7 +123,7 @@ const compareArrays = (array1, array2) =>
   array1.filter((val) => !array2.includes(val))
 
 /**
- *
+ * Comparte two objects to se if the content matches.
  * @param {string} first string to compare
  * @param {string} second string to be compare
  * @returns boolean for the comparation
@@ -94,5 +143,7 @@ module.exports = {
   readFilesNameInFolder: readFilesNameInFolder,
   compareArrays,
   readFilesContentInFolder,
-  compareObjects
+  compareObjects,
+  readDirectoryFilesContent,
+  readFileContent
 }

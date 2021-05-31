@@ -8,7 +8,8 @@ module.exports = function (grunt) {
     checkForMissingModelsOrIcons,
     checkModelKeys,
     outlinedModelsChecker,
-    outlineModelsAndSvgTest
+    outlineModelsAndSvgTest,
+    missingOutlinedModelsChecker
   } = require('./scripts/models-checker')
   const { createNewModel } = require('./scripts/models-creation')
   const {
@@ -238,12 +239,17 @@ module.exports = function (grunt) {
       icons: {
         expand: true,
         cwd: './svg/material/',
-        src: duplicatedIcons.map((ele) => `${ele}.svg`)
+        src: duplicatedIcons.filled.map((ele) => `${ele}.svg`)
+      },
+      iconsOutlined: {
+        expand: true,
+        cwd: './svg-outlined/material/',
+        src: duplicatedIcons.outlined.map((ele) => `${ele}.svg`)
       },
       models: {
         expand: true,
         cwd: './models/material/',
-        src: duplicatedIcons.map((ele) => `${ele}.json`)
+        src: duplicatedIcons.filled.map((ele) => `${ele}.json`)
       },
       dist: {
         src: './dist/'
@@ -430,7 +436,7 @@ module.exports = function (grunt) {
       .then(
         eosMdIconsDifferences({
           targetDirMd: targetDir,
-          duplicatedIconsList: duplicatedIcons
+          duplicatedIconsList: duplicatedIcons.filled
         }).then(async (res) => {
           if (res.answer === 'Yes') {
             const iconList = [...res.iconsList]
@@ -453,7 +459,10 @@ module.exports = function (grunt) {
       .then(
         eosMdIconsDifferences({
           targetDirMd: targetDir,
-          duplicatedIconsList: duplicatedIcons
+          duplicatedIconsList: [
+            ...duplicatedIcons.filled,
+            ...duplicatedIcons.outlined
+          ]
         }).then(async (res) => {
           if (res.answer === 'Yes') {
             const iconList = [...res.iconsList]
@@ -504,6 +513,16 @@ module.exports = function (grunt) {
     const done = this.async()
 
     return outlinedModelsChecker({
+      outlineSvgDir: '/svg-outlined/material',
+      modelsFolder: '/models/material'
+    }).then(done)
+  })
+
+  // Handle missing MD Icons Outlined icons model
+  grunt.registerTask('missingOutlinedModelsChecker', async function () {
+    const done = this.async()
+
+    return missingOutlinedModelsChecker({
       outlineSvgDir: '/svg-outlined/material',
       modelsFolder: '/models/material'
     }).then(done)
@@ -595,12 +614,14 @@ module.exports = function (grunt) {
     'clean:hidden',
     'clean:dist',
     'clean:icons',
+    'clean:iconsOutlined',
     'clean:models',
     'clean:tempFolder'
   ])
   grunt.registerTask('build', [
     'findDuplicateNames',
     'clean:all',
+    'missingOutlinedModelsChecker',
     'concat',
     'copy:outlined',
     'temp_svg_collection',
