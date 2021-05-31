@@ -1,4 +1,5 @@
 {
+  "fileName": "stay_current_portrait",
   "name": "stay_current_portrait",
   "do": "",
   "dont": "",
@@ -17,7 +18,5 @@
   ],
   "category": ["communication"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

@@ -1,4 +1,5 @@
 {
+  "fileName": "check_box_blank",
   "name": "check_box_blank",
   "do": "",
   "dont": "",
@@ -12,7 +13,5 @@
   ],
   "category": ["toggle"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

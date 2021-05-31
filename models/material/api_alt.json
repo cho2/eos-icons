@@ -1,11 +1,10 @@
 {
+  "fileName": "api_alt",
   "name": "api_alt",
   "do": "",
   "dont": "",
   "tags": ["development", "programming", "interface", "application"],
   "category": ["action"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

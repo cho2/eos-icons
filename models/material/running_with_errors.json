@@ -1,4 +1,5 @@
 {
+  "fileName": "running_with_errors",
   "name": "running_with_errors",
   "do": "",
   "dont": "",
@@ -19,7 +20,5 @@
   "category": ["notification"],
   "type": "static",
   "label": "None",
-  "date": "03/03/2021",
-  "hasOutlined": true,
-  "dateOutlined": "06/04/2021"
+  "date": "03/03/2021"
 }

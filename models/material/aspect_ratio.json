@@ -1,11 +1,10 @@
 {
+  "fileName": "aspect_ratio",
   "name": "aspect_ratio",
   "do": "",
   "dont": "",
   "tags": ["image", "square", "expand", "size", "aspect", "scale", "ratio"],
   "category": ["action"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

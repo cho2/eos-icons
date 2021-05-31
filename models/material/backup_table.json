@@ -1,11 +1,10 @@
 {
+  "fileName": "backup_table",
   "name": "backup_table",
   "do": "",
   "dont": "",
   "tags": ["backup", "cloud", "stack", "table"],
   "category": ["action"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

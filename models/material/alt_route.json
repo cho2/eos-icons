@@ -1,11 +1,10 @@
 {
+  "fileName": "alt_route",
   "name": "alt_route",
   "do": "",
   "dont": "",
   "tags": ["map", "location", "navigation", "direction", "pin"],
   "category": ["maps"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

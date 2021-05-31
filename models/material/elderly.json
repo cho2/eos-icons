@@ -1,11 +1,10 @@
 {
+  "fileName": "elderly",
   "name": "elderly",
   "do": "",
   "dont": "",
   "tags": ["old", "retired", "aging"],
   "category": ["social"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

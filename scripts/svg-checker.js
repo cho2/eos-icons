@@ -168,7 +168,7 @@ const writeDuplicateSvgsTheme = async (filledArray) => {
     `./scripts/duplicated_icons.json`,
     JSON.stringify(
       {
-        fileld: duplicatedIconsList.filled,
+        filled: [...duplicatedIconsList.filled],
         outlined: [...duplicatedIconsList.outlined, ...filterDuplicates]
       },
       null,

@@ -1,11 +1,10 @@
 {
+  "fileName": "radio_button_unchecked",
   "name": "radio_button_unchecked",
   "do": "",
   "dont": "",
   "tags": ["unconfirmed", "unselected", "unmarked", "clean", "option", "blank"],
   "category": ["toggle"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

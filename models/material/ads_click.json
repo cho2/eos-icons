@@ -1,4 +1,5 @@
 {
+  "fileName": "ads_click",
   "name": "ads_click",
   "do": "",
   "dont": "",
@@ -6,7 +7,5 @@
   "category": ["action"],
   "type": "static",
   "label": "None",
-  "date": "28/04/2021",
-  "hasOutlined": true,
-  "dateOutlined": "28/04/2021"
+  "date": "28/04/2021"
 }

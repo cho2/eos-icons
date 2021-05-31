@@ -1,11 +1,10 @@
 {
+  "fileName": "phone_iphone",
   "name": "phone_iphone",
   "do": "",
   "dont": "",
   "tags": ["apple", "ios", "smarthphone", "telephone", "mobile"],
   "category": ["hardware"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

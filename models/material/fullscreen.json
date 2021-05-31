@@ -1,11 +1,10 @@
 {
+  "fileName": "fullscreen",
   "name": "fullscreen",
   "do": "",
   "dont": "",
   "tags": ["entire", "frame", "image", "big screen"],
   "category": ["navigation"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }
