@@ -15,7 +15,8 @@ module.exports = function (grunt) {
   const {
     checkSvgName,
     renameSvgTo,
-    deleteDuplicateSvg
+    deleteDuplicateSvg,
+    writeDuplicateSvgsTheme
   } = require('./scripts/svg-checker')
 
   const duplicatedIcons = require('./scripts/duplicated_icons.json')
@@ -25,7 +26,10 @@ module.exports = function (grunt) {
     downloadMaterialIconsList
   } = require('./scripts/eos-md-icons-log-differences')
   const { downloadMDFile } = require('./scripts/download-svg')
-  const { jsFileFromJSON } = require('./scripts/utilities')
+  const {
+    jsFileFromJSON,
+    readFilesNameInFolder
+  } = require('./scripts/utilities')
 
   // Append path to your svg below
   // EOS-set and MD svg path
@@ -508,6 +512,18 @@ module.exports = function (grunt) {
     }
   })
 
+  grunt.registerTask('clearDuplicatesSVGs', async function () {
+    const done = this.async()
+    try {
+      const mdIcons = readFilesNameInFolder('/svg/material')
+      await writeDuplicateSvgsTheme(mdIcons)
+    } catch (error) {
+      console.error('ERROR: clearDuplicatesSVGs(): ', error)
+    } finally {
+      done()
+    }
+  })
+
   // Handle MD Icons Outline model
   grunt.registerTask('outlinedModelsChecker', async function () {
     const done = this.async()
@@ -645,7 +661,8 @@ module.exports = function (grunt) {
     'outlinedModelsChecker',
     'eosIconsOutlineModels',
     'checkMissingModelsOutlined',
-    'cleanSvg'
+    'cleanSvg',
+    'clearDuplicatesSVGs'
   ])
   grunt.registerTask('default', ['test', 'build'])
 }
