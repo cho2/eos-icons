@@ -109,10 +109,6 @@ const compareMdThemeSvgs = async (filledPath, outlinedPath) => {
     // Comprate the two SVGs as strings
     const comparation = filled === outlined
 
-    if (filledPath.includes('1k_plus')) {
-      console.log('', { filled, outlined, comparation })
-    }
-
     return {
       isSameIcon: comparation,
       fileName: filledPath.replace('svg/material/', ''),
@@ -153,8 +149,6 @@ const writeDuplicateSvgsTheme = async (filledArray) => {
     .map((ele) => {
       return ele.fileName.replace('.svg', '')
     })
-
-  console.log('data', filterDuplicates)
 
   return fs.writeFileSync(
     `./scripts/duplicated_icons.json`,
