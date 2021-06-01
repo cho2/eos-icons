@@ -140,7 +140,7 @@ const compareObjects = ({ first, second }) => {
 
 module.exports = {
   jsFileFromJSON,
-  readFilesNameInFolder: readFilesNameInFolder,
+  readFilesNameInFolder,
   compareArrays,
   readFilesContentInFolder,
   compareObjects,

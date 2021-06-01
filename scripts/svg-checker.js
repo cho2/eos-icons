@@ -96,22 +96,6 @@ const selectIconFolder = async () => {
   }
 }
 
-// TODO: Remove if the other solution is faster
-const svgThemeComparation = ({ filledSvgPath, outlinedSvgPath }) => {
-  return new Promise((resolve, reject) => {
-    try {
-      const filledContent = fs.readFile(filledSvgPath)
-      const outLinedContent = fs.readFile(outlinedSvgPath)
-
-      return resolve(
-        JSON.stringify(filledContent) === JSON.stringify(outLinedContent)
-      )
-    } catch (error) {
-      reject(error)
-    }
-  })
-}
-
 /**
  * Will compare the filled SVG to the outline SVG
  * @param {*} filledPath path to the reference, filled SVG file
@@ -135,12 +119,14 @@ const compareMdThemeSvgs = async (filledPath, outlinedPath) => {
   }
 }
 
+/**
+ * Adds to duplicated_icons.json the name of the SVGs that have the same code for both filled and outlined
+ * @param {*} filledArray Array of MD filled SVG names to compare vs the outlined folder.
+ */
 const writeDuplicateSvgsTheme = async (filledArray) => {
-  // const filledIcons = readFilesNameInFolder('/svg/material/')
   const duplicatedIconsList = JSON.parse(
     fs.readFileSync('./scripts/duplicated_icons.json', 'utf8')
   )
-  // console.log('duplicatedIconsList: ', duplicatedIconsList)
 
   const data = await Promise.all(
     filledArray.map(async (ele) => {
@@ -175,16 +161,12 @@ const writeDuplicateSvgsTheme = async (filledArray) => {
       2
     )
   )
-
-  // TODO: Remove this extra thing.
-  return data.filter((ele) => ele !== undefined)
 }
 
 module.exports = {
   checkSvgName,
   renameSvgTo,
   deleteDuplicateSvg,
-  svgThemeComparation,
   compareMdThemeSvgs,
   writeDuplicateSvgsTheme
 }
