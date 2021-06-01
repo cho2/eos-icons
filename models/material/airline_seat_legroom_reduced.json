@@ -1,11 +1,10 @@
 {
+  "fileName": "airline_seat_legroom_reduced",
   "name": "airline_seat_legroom_reduced",
   "do": "",
   "dont": "",
   "tags": ["plane", "airplane", "chair", "small"],
   "category": ["notification"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

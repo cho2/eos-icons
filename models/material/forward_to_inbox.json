@@ -1,11 +1,10 @@
 {
+  "fileName": "forward_to_inbox",
   "name": "forward_to_inbox",
   "do": "",
   "dont": "",
   "tags": ["email", "send to"],
   "category": ["communication"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

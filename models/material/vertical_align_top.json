@@ -1,4 +1,5 @@
 {
+  "fileName": "vertical_align_top",
   "name": "vertical_align_top",
   "do": "",
   "dont": "",
@@ -20,7 +21,5 @@
   ],
   "category": ["editor"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

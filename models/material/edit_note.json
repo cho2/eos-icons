@@ -1,4 +1,5 @@
 {
+  "fileName": "edit_note",
   "name": "edit_note",
   "do": "",
   "dont": "",
@@ -16,7 +17,5 @@
   "category": ["editor"],
   "type": "static",
   "label": "None",
-  "date": "28/04/2021",
-  "hasOutlined": true,
-  "dateOutlined": "28/04/2021"
+  "date": "28/04/2021"
 }

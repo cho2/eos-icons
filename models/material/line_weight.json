@@ -1,11 +1,10 @@
 {
+  "fileName": "line_weight",
   "name": "line_weight",
   "do": "",
   "dont": "",
   "tags": ["spacing", "thickness", "line", "weight", "style", "height"],
   "category": ["action"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

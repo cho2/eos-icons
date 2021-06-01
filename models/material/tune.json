@@ -1,11 +1,10 @@
 {
+  "fileName": "tune",
   "name": "tune",
   "do": "",
   "dont": "",
   "tags": ["music", "sound", "control", "settings", "options"],
   "category": ["image"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

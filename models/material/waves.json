@@ -1,11 +1,10 @@
 {
+  "fileName": "waves",
   "name": "waves",
   "do": "",
   "dont": "",
   "tags": ["beach", "ocean", "pool", "sea", "swim", "water", "wave", "waves"],
   "category": ["content"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

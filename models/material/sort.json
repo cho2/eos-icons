@@ -1,11 +1,10 @@
 {
+  "fileName": "sort",
   "name": "sort",
   "do": "",
   "dont": "",
   "tags": ["filter", "organize", "find", "sort", "list"],
   "category": ["content"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

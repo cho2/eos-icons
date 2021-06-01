@@ -1,11 +1,10 @@
 {
+  "fileName": "arrow_upward",
   "name": "arrow_upward",
   "do": "",
   "dont": "",
   "tags": ["direction", "up", "above", "greater"],
   "category": ["navigation"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

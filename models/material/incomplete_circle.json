@@ -1,4 +1,5 @@
 {
+  "fileName": "incomplete_circle",
   "name": "incomplete_circle",
   "do": "",
   "dont": "",
@@ -6,7 +7,5 @@
   "category": ["image"],
   "type": "static",
   "label": "None",
-  "date": "28/04/2021",
-  "hasOutlined": true,
-  "dateOutlined": "28/04/2021"
+  "date": "28/04/2021"
 }

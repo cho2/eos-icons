@@ -1,11 +1,10 @@
 {
+  "fileName": "edit_road",
   "name": "edit_road",
   "do": "",
   "dont": "",
   "tags": ["edit", "location", "pen", "pencil", "road", "street", "change"],
   "category": ["maps"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

@@ -1,4 +1,5 @@
 {
+  "fileName": "query_stats",
   "name": "query_stats",
   "do": "",
   "dont": "",
@@ -18,7 +19,5 @@
   "category": ["editor"],
   "type": "static",
   "label": "None",
-  "date": "03/03/2021",
-  "hasOutlined": true,
-  "dateOutlined": "06/04/2021"
+  "date": "03/03/2021"
 }

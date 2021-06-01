@@ -1,11 +1,10 @@
 {
+  "fileName": "import_export",
   "name": "import_export",
   "do": "",
   "dont": "",
   "tags": ["Import", "arrow", "explort", "arrows", "up", "down", "direction"],
   "category": ["communication"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

@@ -1,11 +1,10 @@
 {
+  "fileName": "device_hub",
   "name": "device_hub",
   "do": "",
   "dont": "",
   "tags": ["connection", "core"],
   "category": ["hardware"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

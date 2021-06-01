@@ -1,4 +1,5 @@
 {
+  "fileName": "signal_wifi_statusbar_connected_no_internet_4",
   "name": "signal_wifi_statusbar_connected_no_internet_4",
   "do": "",
   "dont": "",
@@ -30,7 +31,5 @@
   "category": ["device"],
   "type": "static",
   "label": "None",
-  "date": "03/03/2021",
-  "hasOutlined": true,
-  "dateOutlined": "06/04/2021"
+  "date": "03/03/2021"
 }
