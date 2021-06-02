@@ -15937,7 +15937,10 @@ const eosIcons = [
       "move",
       "beginning",
       "front",
-      "before"
+      "before",
+      "arrow",
+      "navigation",
+      "chevron"
     ],
     "category": [
       "navigation"
@@ -20839,7 +20842,10 @@ const eosIcons = [
       "end",
       "finale",
       "move",
-      "later"
+      "later",
+      "arrow",
+      "navigation",
+      "chevron"
     ],
     "category": [
       "navigation"

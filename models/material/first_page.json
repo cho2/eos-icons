@@ -2,7 +2,15 @@
   "name": "first_page",
   "do": "",
   "dont": "",
-  "tags": ["move", "beginning", "front", "before"],
+  "tags": [
+    "move",
+    "beginning",
+    "front",
+    "before",
+    "arrow",
+    "navigation",
+    "chevron"
+  ],
   "category": ["navigation"],
   "type": "static",
   "hasOutlined": true,
