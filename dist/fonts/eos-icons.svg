@@ -15,7 +15,7 @@
     bbox="-0.595506 -64.0769 512 448.379"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F7F1"
+    unicode-range="U+0030-F7F2"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -782,6 +782,8 @@ q0 20 14 34t34 14h1q10 0 20 -5q9 -4 15 -11l30 -33q17 -19 45 -31.5t54 -11.5v-47q-
     <glyph glyph-name="airplane_ticket" unicode="airplane_ticket" 
 d="M388 363q16 0 27.5 -12.5t11.5 -30.5v-256q0 -18 -12.5 -30.5t-30.5 -12.5h-341q-18 0 -30.5 12.5t-12.5 30.5v85q18 0 30.5 12.5t12.5 30.5t-12.5 30.5t-30.5 12.5v85q0 18 12.5 30.5t30.5 12.5h345zM336 164q5 2 9 6t5.5 9t-0.5 11q-2 8 -9.5 12t-15.5 2l-52 -14
 l-85 80l-30 -8l51 -89l-51 -13l-27 21l-20 -6l36 -61z" />
+    <glyph glyph-name="airplanemode_active" unicode="airplanemode_active" horiz-adv-x="405" 
+d="M405 107l-170 53v-117l42 -32v-32l-74 21l-75 -21v32l43 32v117l-171 -53v42l171 107v117q0 14 9 23t22.5 9t23 -9t9.5 -23v-117l170 -107v-42z" />
     <glyph glyph-name="airplanemode_inactive" unicode="airplanemode_inactive" horiz-adv-x="405" 
 d="M235 256l170 -107v-42l-67 21l-167 167v78q0 14 9 23t22.5 9t23 -9t9.5 -23v-117zM21 336l27 27l336 -336l-27 -27l-122 122v-79l42 -32v-32l-74 21l-75 -21v32l43 32v117l-171 -53v42l128 80z" />
     <glyph glyph-name="airplay" unicode="airplay" horiz-adv-x="469" 

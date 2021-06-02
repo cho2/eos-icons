@@ -2,8 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20190801 at Tue Jun  1 09:05:06 2021
- By 
+Created by FontForge 20190801 at Wed Jun  2 12:34:52 2021
+ By Cynthia Sanchez
 </metadata>
 <defs>
 <font id="eos-icons-outlined" horiz-adv-x="427" >
@@ -18,7 +18,7 @@ Created by FontForge 20190801 at Tue Jun  1 09:05:06 2021
     bbox="-0.595506 -65.0333 512 448.5"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F80A"
+    unicode-range="U+0030-F80B"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -840,6 +840,8 @@ q0 20 14 34t34 14h1q10 0 20 -5q9 -4 15 -11l30 -33q17 -19 45 -31.5t54 -11.5v-47q-
     <glyph glyph-name="airplane_ticket" unicode="airplane_ticket" 
 d="M388 363q16 0 27.5 -12.5t11.5 -30.5v-256q0 -18 -12.5 -30.5t-30.5 -12.5h-341q-18 0 -30.5 12.5t-12.5 30.5v85q18 0 30.5 12.5t12.5 30.5t-12.5 30.5t-30.5 12.5v85q0 18 12.5 30.5t30.5 12.5h345zM384 64v256h-341v-54q13 -8 22.5 -19t14.5 -25t5 -30
 q0 -23 -11.5 -43t-30.5 -31v-54h341zM147 114l-36 61l20 6l27 -21l51 13l-51 89l30 8l85 -80l52 14q5 2 10.5 0.5t9.5 -5.5t5 -9q2 -9 -2 -16t-12 -10z" />
+    <glyph glyph-name="airplanemode_active" unicode="airplanemode_active" horiz-adv-x="405" 
+d="M405 107l-170 53v-117l42 -32v-32l-74 21l-75 -21v32l43 32v117l-171 -53v42l171 107v117q0 14 9 23t22.5 9t23 -9t9.5 -23v-117l170 -107v-42z" />
     <glyph glyph-name="airplanemode_inactive" unicode="airplanemode_inactive" horiz-adv-x="440" 
 d="M194 284v89q0 14 9.5 23t23 9t22.5 -9t9 -23v-117l182 -107v-42l-96 28zM392 -34l-134 134v-57l54 -32v-32l-86 21l-85 -21v32l53 32v117l-181 -53v42l123 73l-136 136l30 30l144 -144l84 -84l164 -164z" />
     <glyph glyph-name="airplay" unicode="airplay" horiz-adv-x="469" 

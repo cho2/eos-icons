@@ -5174,6 +5174,25 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "airplanemode_active",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "mode",
+      "airplanemode",
+      "flight",
+      "airplane",
+      "active",
+      "signal",
+      "on"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "date": "31/05/2021"
+  },
+  {
     "name": "airplanemode_inactive",
     "do": "",
     "dont": "",
