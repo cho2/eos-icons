@@ -1,4 +1,5 @@
 {
+  "fileName": "1x_mobiledata",
   "name": "1x_mobiledata",
   "do": "",
   "dont": "",
@@ -25,7 +26,5 @@
   "category": ["device"],
   "type": "static",
   "label": "None",
-  "date": "03/03/2021",
-  "hasOutlined": true,
-  "dateOutlined": "06/04/2021"
+  "date": "03/03/2021"
 }

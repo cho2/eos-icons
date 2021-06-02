@@ -1,11 +1,10 @@
 {
+  "fileName": "desktop_mac",
   "name": "desktop_mac",
   "do": "",
   "dont": "",
   "tags": ["apple", "laptop", "mac", "macbook"],
   "category": ["hardware"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

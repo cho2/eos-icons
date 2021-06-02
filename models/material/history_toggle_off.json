@@ -1,11 +1,10 @@
 {
+  "fileName": "history_toggle_off",
   "name": "history_toggle_off",
   "do": "",
   "dont": "",
   "tags": ["disabled", "log", "story", "document"],
   "category": ["action"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

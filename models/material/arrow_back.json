@@ -1,11 +1,10 @@
 {
+  "fileName": "arrow_back",
   "name": "arrow_back",
   "do": "",
   "dont": "",
   "tags": ["direction", "left", "indicator", "backward"],
   "category": ["navigation"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

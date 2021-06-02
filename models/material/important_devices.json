@@ -1,4 +1,5 @@
 {
+  "fileName": "important_devices",
   "name": "important_devices",
   "do": "",
   "dont": "",
@@ -19,7 +20,5 @@
   ],
   "category": ["action"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

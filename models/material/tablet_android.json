@@ -1,11 +1,10 @@
 {
+  "fileName": "tablet_android",
   "name": "tablet_android",
   "do": "",
   "dont": "",
   "tags": ["pad", "ipad", "memo", "android", "google", "chrome"],
   "category": ["hardware"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

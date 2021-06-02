@@ -36,6 +36,12 @@ const showMissingOutlinedFiles = async ({
   normalSvgDir,
   tempFolder
 }) => {
+  const exits = fs.existsSync(tempFolder)
+
+  if (!exits) {
+    fs.mkdirSync(tempFolder)
+  }
+
   // Get all the outline icons version
   const outlineList = fs
     .readdirSync(outlineSvgDir, (err, file) => {
@@ -55,11 +61,6 @@ const showMissingOutlinedFiles = async ({
     return outlineList.indexOf(x) < 0
   })
 
-  if (!fs.existsSync(tempFolder)) {
-    console.log(true)
-    return fs.mkdirSync(tempFolder)
-  }
-
   // Move the missing files to complete the outline version
   filtered.map((icon) => {
     fs.copyFile(`${normalSvgDir}/${icon}`, `${tempFolder}/${icon}`, (err) => {
@@ -67,7 +68,7 @@ const showMissingOutlinedFiles = async ({
     })
   })
 
-  return 'Done moving files to complete the missing outlined svg for EOS'
+  return `Done moving ${filtered.length} files to complete the missing version`
 }
 
 module.exports = {

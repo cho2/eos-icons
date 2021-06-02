@@ -1,11 +1,10 @@
 {
+  "fileName": "fullscreen_exit",
   "name": "fullscreen_exit",
   "do": "",
   "dont": "",
   "tags": ["entire", "frame", "image", "big screen", "exit", "stop", "disable"],
   "category": ["navigation"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

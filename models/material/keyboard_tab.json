@@ -1,11 +1,10 @@
 {
+  "fileName": "keyboard_tab",
   "name": "keyboard_tab",
   "do": "",
   "dont": "",
   "tags": ["writing", "words", "type", "key", "letter", "words"],
   "category": ["hardware"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

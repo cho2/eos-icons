@@ -1,11 +1,10 @@
 {
+  "fileName": "system_update",
   "name": "system_update",
   "do": "",
   "dont": "",
   "tags": ["refresh", "sync"],
   "category": ["action"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

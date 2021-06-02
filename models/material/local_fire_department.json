@@ -1,11 +1,10 @@
 {
+  "fileName": "local_fire_department",
   "name": "local_fire_department",
   "do": "",
   "dont": "",
   "tags": ["911", "department", "fire", "firefighter", "flame", "hot"],
   "category": ["maps"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

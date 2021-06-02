@@ -2834,6 +2834,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "1x_mobiledata",
     "name": "1x_mobiledata",
     "do": "",
     "dont": "",
@@ -2862,9 +2863,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "20mp",
@@ -3108,6 +3107,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "30fps",
     "name": "30fps",
     "do": "",
     "dont": "",
@@ -3132,11 +3132,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "30fps_select",
     "name": "30fps_select",
     "do": "",
     "dont": "",
@@ -3160,11 +3159,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "360",
     "name": "360",
     "do": "",
     "dont": "",
@@ -3180,9 +3178,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "3d_rotation",
@@ -3216,6 +3212,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "3g_mobiledata",
     "name": "3g_mobiledata",
     "do": "",
     "dont": "",
@@ -3244,9 +3241,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "3k",
@@ -3368,6 +3363,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "4g_mobiledata",
     "name": "4g_mobiledata",
     "do": "",
     "dont": "",
@@ -3396,11 +3392,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "4g_plus_mobiledata",
     "name": "4g_plus_mobiledata",
     "do": "",
     "dont": "",
@@ -3430,9 +3425,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "4k",
@@ -3642,6 +3635,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "60fps",
     "name": "60fps",
     "do": "",
     "dont": "",
@@ -3660,11 +3654,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "60fps_select",
     "name": "60fps_select",
     "do": "",
     "dont": "",
@@ -3688,11 +3681,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "6_ft_apart",
     "name": "6_ft_apart",
     "do": "",
     "dont": "",
@@ -3704,9 +3696,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "6k",
@@ -4110,6 +4100,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "access_alarm",
     "name": "access_alarm",
     "do": "",
     "dont": "",
@@ -4127,11 +4118,10 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "accessibility",
     "name": "accessibility",
     "do": "",
     "dont": "",
@@ -4148,11 +4138,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "accessibility_new",
     "name": "accessibility_new",
     "do": "",
     "dont": "",
@@ -4169,9 +4158,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "accessible",
@@ -4369,6 +4356,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "adb",
     "name": "adb",
     "do": "",
     "dont": "",
@@ -4379,11 +4367,10 @@ const eosIcons = [
       "notification"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "add",
     "name": "add",
     "do": "",
     "dont": "",
@@ -4398,9 +4385,7 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "add_a_photo",
@@ -4423,6 +4408,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "add_alarm",
     "name": "add_alarm",
     "do": "",
     "dont": "",
@@ -4441,9 +4427,7 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "add_alert",
@@ -4743,6 +4727,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "add_road",
     "name": "add_road",
     "do": "",
     "dont": "",
@@ -4760,9 +4745,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "add_shopping_cart",
@@ -4795,6 +4778,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "add_task",
     "name": "add_task",
     "do": "",
     "dont": "",
@@ -4808,9 +4792,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "add_to_drive",
@@ -4917,6 +4899,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "adjust",
     "name": "adjust",
     "do": "",
     "dont": "",
@@ -4934,9 +4917,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "admin_panel_settings",
@@ -4966,6 +4947,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "ads_click",
     "name": "ads_click",
     "do": "",
     "dont": "",
@@ -4979,9 +4961,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "28/04/2021",
-    "hasOutlined": true,
-    "dateOutlined": "28/04/2021"
+    "date": "28/04/2021"
   },
   {
     "name": "agriculture",
@@ -5009,6 +4989,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "air",
     "name": "air",
     "do": "",
     "dont": "",
@@ -5026,9 +5007,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "airline_seat_flat",
@@ -5107,6 +5086,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "airline_seat_legroom_normal",
     "name": "airline_seat_legroom_normal",
     "do": "",
     "dont": "",
@@ -5121,11 +5101,10 @@ const eosIcons = [
       "notification"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "airline_seat_legroom_reduced",
     "name": "airline_seat_legroom_reduced",
     "do": "",
     "dont": "",
@@ -5139,11 +5118,10 @@ const eosIcons = [
       "notification"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "airline_seat_recline_extra",
     "name": "airline_seat_recline_extra",
     "do": "",
     "dont": "",
@@ -5156,9 +5134,7 @@ const eosIcons = [
       "notification"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "airline_seat_recline_normal",
@@ -5370,6 +5346,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "align_horizontal_center",
     "name": "align_horizontal_center",
     "do": "",
     "dont": "",
@@ -5382,11 +5359,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "align_horizontal_left",
     "name": "align_horizontal_left",
     "do": "",
     "dont": "",
@@ -5399,11 +5375,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "align_horizontal_right",
     "name": "align_horizontal_right",
     "do": "",
     "dont": "",
@@ -5416,11 +5391,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "align_vertical_bottom",
     "name": "align_vertical_bottom",
     "do": "",
     "dont": "",
@@ -5433,11 +5407,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "align_vertical_center",
     "name": "align_vertical_center",
     "do": "",
     "dont": "",
@@ -5450,11 +5423,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "align_vertical_top",
     "name": "align_vertical_top",
     "do": "",
     "dont": "",
@@ -5467,9 +5439,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "all_inbox",
@@ -5530,6 +5500,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "alt_route",
     "name": "alt_route",
     "do": "",
     "dont": "",
@@ -5544,9 +5515,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "alternate_email",
@@ -5595,6 +5564,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "anchor",
     "name": "anchor",
     "do": "",
     "dont": "",
@@ -5608,9 +5578,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "android",
@@ -5708,6 +5676,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "apartment",
     "name": "apartment",
     "do": "",
     "dont": "",
@@ -5735,11 +5704,10 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "api_alt",
     "name": "api_alt",
     "do": "",
     "dont": "",
@@ -5753,9 +5721,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "app_blocking",
@@ -5860,6 +5826,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "apps",
     "name": "apps",
     "do": "",
     "dont": "",
@@ -5872,11 +5839,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "architecture",
     "name": "architecture",
     "do": "",
     "dont": "",
@@ -5895,9 +5861,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "archive",
@@ -5936,6 +5900,7 @@ const eosIcons = [
     "dateOutlined": "28/04/2021"
   },
   {
+    "fileName": "arrow_back",
     "name": "arrow_back",
     "do": "",
     "dont": "",
@@ -5949,9 +5914,7 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "arrow_back_ios",
@@ -5976,6 +5939,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "arrow_circle_down",
     "name": "arrow_circle_down",
     "do": "",
     "dont": "",
@@ -5989,11 +5953,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "arrow_circle_up",
     "name": "arrow_circle_up",
     "do": "",
     "dont": "",
@@ -6007,9 +5970,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "arrow_downward",
@@ -6126,6 +6087,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "arrow_left",
     "name": "arrow_left",
     "do": "",
     "dont": "",
@@ -6139,11 +6101,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "arrow_right",
     "name": "arrow_right",
     "do": "",
     "dont": "",
@@ -6157,9 +6118,7 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "arrow_right_alt",
@@ -6180,6 +6139,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "arrow_upward",
     "name": "arrow_upward",
     "do": "",
     "dont": "",
@@ -6193,9 +6153,7 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "art_track",
@@ -6236,6 +6194,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "aspect_ratio",
     "name": "aspect_ratio",
     "do": "",
     "dont": "",
@@ -6252,9 +6211,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "assignment",
@@ -6512,6 +6469,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "attach_file",
     "name": "attach_file",
     "do": "",
     "dont": "",
@@ -6528,11 +6486,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "attach_money",
     "name": "attach_money",
     "do": "",
     "dont": "",
@@ -6556,9 +6513,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "attachment",
@@ -6826,6 +6781,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "auto_graph",
     "name": "auto_graph",
     "do": "",
     "dont": "",
@@ -6841,9 +6797,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "auto_stories",
@@ -6868,6 +6822,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "autofps_select",
     "name": "autofps_select",
     "do": "",
     "dont": "",
@@ -6895,11 +6850,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "autorenew",
     "name": "autorenew",
     "do": "",
     "dont": "",
@@ -6915,11 +6869,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "av_timer",
     "name": "av_timer",
     "do": "",
     "dont": "",
@@ -6937,11 +6890,10 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "baby_changing_station",
     "name": "baby_changing_station",
     "do": "",
     "dont": "",
@@ -6955,9 +6907,7 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "back_hand",
@@ -7017,6 +6967,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "backup_table",
     "name": "backup_table",
     "do": "",
     "dont": "",
@@ -7030,9 +6981,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "badge",
@@ -7086,6 +7035,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "balcony",
     "name": "balcony",
     "do": "",
     "dont": "",
@@ -7103,9 +7053,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "ballot",
@@ -7152,6 +7100,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "batch_prediction",
     "name": "batch_prediction",
     "do": "",
     "dont": "",
@@ -7165,9 +7114,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "bathroom",
@@ -7216,6 +7163,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "battery_alert",
     "name": "battery_alert",
     "do": "",
     "dont": "",
@@ -7234,11 +7182,10 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "battery_charging_full",
     "name": "battery_charging_full",
     "do": "",
     "dont": "",
@@ -7252,11 +7199,10 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "19/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "battery_full",
     "name": "battery_full",
     "do": "",
     "dont": "",
@@ -7272,11 +7218,10 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "battery_saver",
     "name": "battery_saver",
     "do": "",
     "dont": "",
@@ -7294,9 +7239,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "battery_unknown",
@@ -7338,6 +7281,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "bed",
     "name": "bed",
     "do": "",
     "dont": "",
@@ -7364,9 +7308,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "bedroom_baby",
@@ -7521,6 +7463,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "bike_scooter",
     "name": "bike_scooter",
     "do": "",
     "dont": "",
@@ -7539,9 +7482,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "biotech",
@@ -7588,6 +7529,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "block",
     "name": "block",
     "do": "",
     "dont": "",
@@ -7603,9 +7545,7 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "bloodtype",
@@ -7631,6 +7571,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "bluetooth",
     "name": "bluetooth",
     "do": "",
     "dont": "",
@@ -7645,11 +7586,10 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "bluetooth_connected",
     "name": "bluetooth_connected",
     "do": "",
     "dont": "",
@@ -7664,11 +7604,10 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "bluetooth_disabled",
     "name": "bluetooth_disabled",
     "do": "",
     "dont": "",
@@ -7688,9 +7627,7 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "bluetooth_drive",
@@ -7741,6 +7678,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "blur_circular",
     "name": "blur_circular",
     "do": "",
     "dont": "",
@@ -7753,11 +7691,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "blur_linear",
     "name": "blur_linear",
     "do": "",
     "dont": "",
@@ -7770,9 +7707,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "blur_off",
@@ -7792,6 +7727,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "blur_on",
     "name": "blur_on",
     "do": "",
     "dont": "",
@@ -7804,9 +7740,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "bolt",
@@ -7972,6 +7906,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "border_all",
     "name": "border_all",
     "do": "",
     "dont": "",
@@ -7992,11 +7927,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "border_bottom",
     "name": "border_bottom",
     "do": "",
     "dont": "",
@@ -8017,11 +7951,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "border_clear",
     "name": "border_clear",
     "do": "",
     "dont": "",
@@ -8042,9 +7975,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "border_color",
@@ -8072,6 +8003,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "border_horizontal",
     "name": "border_horizontal",
     "do": "",
     "dont": "",
@@ -8092,11 +8024,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "border_inner",
     "name": "border_inner",
     "do": "",
     "dont": "",
@@ -8117,11 +8048,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "border_left",
     "name": "border_left",
     "do": "",
     "dont": "",
@@ -8142,11 +8072,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "border_outer",
     "name": "border_outer",
     "do": "",
     "dont": "",
@@ -8167,11 +8096,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "border_right",
     "name": "border_right",
     "do": "",
     "dont": "",
@@ -8192,11 +8120,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "border_style",
     "name": "border_style",
     "do": "",
     "dont": "",
@@ -8219,11 +8146,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "border_top",
     "name": "border_top",
     "do": "",
     "dont": "",
@@ -8244,11 +8170,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "border_vertical",
     "name": "border_vertical",
     "do": "",
     "dont": "",
@@ -8269,9 +8194,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "branding_watermark",
@@ -8484,6 +8407,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "browser_not_supported",
     "name": "browser_not_supported",
     "do": "",
     "dont": "",
@@ -8494,9 +8418,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "brunch_dining",
@@ -8692,6 +8614,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "business",
     "name": "business",
     "do": "",
     "dont": "",
@@ -8706,9 +8629,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "business_center",
@@ -8729,6 +8650,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "cabin",
     "name": "cabin",
     "do": "",
     "dont": "",
@@ -8752,11 +8674,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "cable",
     "name": "cable",
     "do": "",
     "dont": "",
@@ -8774,11 +8695,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "cached",
     "name": "cached",
     "do": "",
     "dont": "",
@@ -8794,9 +8714,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "cake",
@@ -8887,6 +8805,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "calendar_view_month",
     "name": "calendar_view_month",
     "do": "",
     "dont": "",
@@ -8907,11 +8826,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "calendar_view_week",
     "name": "calendar_view_week",
     "do": "",
     "dont": "",
@@ -8932,9 +8850,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "call",
@@ -8995,6 +8911,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "call_merge",
     "name": "call_merge",
     "do": "",
     "dont": "",
@@ -9009,9 +8926,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "call_missed",
@@ -9033,6 +8948,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "call_missed_outgoing",
     "name": "call_missed_outgoing",
     "do": "",
     "dont": "",
@@ -9048,9 +8964,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "call_received",
@@ -9234,6 +9148,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "camera_outdoor",
     "name": "camera_outdoor",
     "do": "",
     "dont": "",
@@ -9265,9 +9180,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "camera_rear",
@@ -9495,6 +9408,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "card_membership",
     "name": "card_membership",
     "do": "",
     "dont": "",
@@ -9521,11 +9435,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "card_travel",
     "name": "card_travel",
     "do": "",
     "dont": "",
@@ -9553,9 +9466,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "carpenter",
@@ -9615,6 +9526,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "cast",
     "name": "cast",
     "do": "",
     "dont": "",
@@ -9632,9 +9544,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "cast_connected",
@@ -9694,6 +9604,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "catching_pokemon",
     "name": "catching_pokemon",
     "do": "",
     "dont": "",
@@ -9710,9 +9621,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "category",
@@ -9850,6 +9759,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "chair_alt",
     "name": "chair_alt",
     "do": "",
     "dont": "",
@@ -9868,9 +9778,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "chalet",
@@ -9918,6 +9826,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "change_history",
     "name": "change_history",
     "do": "",
     "dont": "",
@@ -9931,9 +9840,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "charging_station",
@@ -10032,6 +9939,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "check_box_blank",
     "name": "check_box_blank",
     "do": "",
     "dont": "",
@@ -10047,9 +9955,7 @@ const eosIcons = [
       "toggle"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "check_circle",
@@ -10071,6 +9977,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "checklist",
     "name": "checklist",
     "do": "",
     "dont": "",
@@ -10086,11 +9993,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "28/04/2021",
-    "hasOutlined": true,
-    "dateOutlined": "28/04/2021"
+    "date": "28/04/2021"
   },
   {
+    "fileName": "checklist_rtl",
     "name": "checklist_rtl",
     "do": "",
     "dont": "",
@@ -10108,11 +10014,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "28/04/2021",
-    "hasOutlined": true,
-    "dateOutlined": "28/04/2021"
+    "date": "28/04/2021"
   },
   {
+    "fileName": "checkroom",
     "name": "checkroom",
     "do": "",
     "dont": "",
@@ -10125,9 +10030,7 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "child_care",
@@ -10246,6 +10149,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "clear_all",
     "name": "clear_all",
     "do": "",
     "dont": "",
@@ -10261,9 +10165,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "close",
@@ -10283,6 +10185,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "close_fullscreen",
     "name": "close_fullscreen",
     "do": "",
     "dont": "",
@@ -10293,9 +10196,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "closed_caption",
@@ -10510,6 +10411,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "code",
     "name": "code",
     "do": "",
     "dont": "",
@@ -10528,11 +10430,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "code_off",
     "name": "code_off",
     "do": "",
     "dont": "",
@@ -10552,9 +10453,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "coffee",
@@ -10757,6 +10656,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "compare",
     "name": "compare",
     "do": "",
     "dont": "",
@@ -10773,11 +10673,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "compare_arrows",
     "name": "compare_arrows",
     "do": "",
     "dont": "",
@@ -10792,9 +10691,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "compass_calibration",
@@ -10815,6 +10712,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "compost",
     "name": "compost",
     "do": "",
     "dont": "",
@@ -10829,9 +10727,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "28/04/2021",
-    "hasOutlined": true,
-    "dateOutlined": "28/04/2021"
+    "date": "28/04/2021"
   },
   {
     "name": "compress",
@@ -10856,6 +10752,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "computer",
     "name": "computer",
     "do": "",
     "dont": "",
@@ -10874,9 +10771,7 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "confirmation_number",
@@ -10896,6 +10791,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "connect_without_contact",
     "name": "connect_without_contact",
     "do": "",
     "dont": "",
@@ -10906,9 +10802,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "connected_tv",
@@ -10946,6 +10840,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "construction",
     "name": "construction",
     "do": "",
     "dont": "",
@@ -10966,9 +10861,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "contact_mail",
@@ -11112,6 +11005,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "content_copy",
     "name": "content_copy",
     "do": "",
     "dont": "",
@@ -11124,9 +11018,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "content_cut",
@@ -11163,6 +11055,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "content_paste_off",
     "name": "content_paste_off",
     "do": "",
     "dont": "",
@@ -11178,9 +11071,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "control_camera",
@@ -11227,6 +11118,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "copy_all",
     "name": "copy_all",
     "do": "",
     "dont": "",
@@ -11241,9 +11133,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "copyright",
@@ -11286,6 +11176,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "corporate_fare",
     "name": "corporate_fare",
     "do": "",
     "dont": "",
@@ -11298,9 +11189,7 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "cottage",
@@ -11364,6 +11253,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "credit_card",
     "name": "credit_card",
     "do": "",
     "dont": "",
@@ -11381,9 +11271,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "credit_card_off",
@@ -11408,6 +11296,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "credit_score",
     "name": "credit_score",
     "do": "",
     "dont": "",
@@ -11441,9 +11330,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "crib",
@@ -11472,6 +11359,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "crop",
     "name": "crop",
     "do": "",
     "dont": "",
@@ -11486,11 +11374,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "crop_16_9",
     "name": "crop_16_9",
     "do": "",
     "dont": "",
@@ -11505,11 +11392,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "crop_3_2",
     "name": "crop_3_2",
     "do": "",
     "dont": "",
@@ -11524,11 +11410,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "crop_5_4",
     "name": "crop_5_4",
     "do": "",
     "dont": "",
@@ -11543,11 +11428,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "crop_7_5",
     "name": "crop_7_5",
     "do": "",
     "dont": "",
@@ -11562,11 +11446,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "crop_din",
     "name": "crop_din",
     "do": "",
     "dont": "",
@@ -11581,11 +11464,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "crop_free",
     "name": "crop_free",
     "do": "",
     "dont": "",
@@ -11600,11 +11482,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "crop_landscape",
     "name": "crop_landscape",
     "do": "",
     "dont": "",
@@ -11619,11 +11500,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "crop_original",
     "name": "crop_original",
     "do": "",
     "dont": "",
@@ -11638,11 +11518,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "crop_portrait",
     "name": "crop_portrait",
     "do": "",
     "dont": "",
@@ -11657,11 +11536,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "crop_rotate",
     "name": "crop_rotate",
     "do": "",
     "dont": "",
@@ -11676,11 +11554,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "crop_square",
     "name": "crop_square",
     "do": "",
     "dont": "",
@@ -11695,9 +11572,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "cruelty_free",
@@ -11829,6 +11704,7 @@ const eosIcons = [
     "dateOutlined": "28/04/2021"
   },
   {
+    "fileName": "data_saver_on",
     "name": "data_saver_on",
     "do": "",
     "dont": "",
@@ -11856,11 +11732,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "data_usage",
     "name": "data_usage",
     "do": "",
     "dont": "",
@@ -11875,9 +11750,7 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "date_range",
@@ -12121,6 +11994,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "desktop_mac",
     "name": "desktop_mac",
     "do": "",
     "dont": "",
@@ -12134,11 +12008,10 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "desktop_windows",
     "name": "desktop_windows",
     "do": "",
     "dont": "",
@@ -12151,9 +12024,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "details",
@@ -12191,6 +12062,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "developer_board_off",
     "name": "developer_board_off",
     "do": "",
     "dont": "",
@@ -12210,11 +12082,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "developer_mode",
     "name": "developer_mode",
     "do": "",
     "dont": "",
@@ -12237,11 +12108,10 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "device_hub",
     "name": "device_hub",
     "do": "",
     "dont": "",
@@ -12253,9 +12123,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "device_thermostat",
@@ -12310,6 +12178,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "devices",
     "name": "devices",
     "do": "",
     "dont": "",
@@ -12334,9 +12203,7 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "devices_other",
@@ -12391,6 +12258,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "dialpad",
     "name": "dialpad",
     "do": "",
     "dont": "",
@@ -12406,9 +12274,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "dining",
@@ -12479,6 +12345,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "directions_bike",
     "name": "directions_bike",
     "do": "",
     "dont": "",
@@ -12501,9 +12368,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "directions_boat",
@@ -12616,6 +12481,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "directions_run",
     "name": "directions_run",
     "do": "",
     "dont": "",
@@ -12634,9 +12500,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "directions_subway",
@@ -12841,6 +12705,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "do_not_disturb_on_total_silence",
     "name": "do_not_disturb_on_total_silence",
     "do": "",
     "dont": "",
@@ -12857,9 +12722,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "do_not_step",
@@ -12903,6 +12766,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "dock",
     "name": "dock",
     "do": "",
     "dont": "",
@@ -12918,9 +12782,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "document_scanner",
@@ -12947,6 +12809,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "domain",
     "name": "domain",
     "do": "",
     "dont": "",
@@ -12960,9 +12823,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "domain_disabled",
@@ -12989,6 +12850,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "domain_verification",
     "name": "domain_verification",
     "do": "",
     "dont": "",
@@ -13005,9 +12867,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "done",
@@ -13029,6 +12889,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "done_all",
     "name": "done_all",
     "do": "",
     "dont": "",
@@ -13044,9 +12905,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "donut_large",
@@ -13182,6 +13041,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "double_arrow",
     "name": "double_arrow",
     "do": "",
     "dont": "",
@@ -13197,11 +13057,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "downhill_skiing",
     "name": "downhill_skiing",
     "do": "",
     "dont": "",
@@ -13220,9 +13079,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "download",
@@ -13353,6 +13210,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "drag_handle",
     "name": "drag_handle",
     "do": "",
     "dont": "",
@@ -13367,11 +13225,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "drag_indicator",
     "name": "drag_indicator",
     "do": "",
     "dont": "",
@@ -13389,9 +13246,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "draw",
@@ -13572,6 +13427,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "duo",
     "name": "duo",
     "do": "",
     "dont": "",
@@ -13587,9 +13443,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "dvr",
@@ -13651,6 +13505,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "e_mobiledata",
     "name": "e_mobiledata",
     "do": "",
     "dont": "",
@@ -13669,9 +13524,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "earbuds",
@@ -13887,6 +13740,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "edit_note",
     "name": "edit_note",
     "do": "",
     "dont": "",
@@ -13906,9 +13760,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "28/04/2021",
-    "hasOutlined": true,
-    "dateOutlined": "28/04/2021"
+    "date": "28/04/2021"
   },
   {
     "name": "edit_notifications",
@@ -13961,6 +13813,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "edit_road",
     "name": "edit_road",
     "do": "",
     "dont": "",
@@ -13977,9 +13830,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "eject",
@@ -14000,6 +13851,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "elderly",
     "name": "elderly",
     "do": "",
     "dont": "",
@@ -14012,11 +13864,10 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "electric_bike",
     "name": "electric_bike",
     "do": "",
     "dont": "",
@@ -14035,9 +13886,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "electric_car",
@@ -14107,6 +13956,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "electric_scooter",
     "name": "electric_scooter",
     "do": "",
     "dont": "",
@@ -14125,11 +13975,10 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "electrical_services",
     "name": "electrical_services",
     "do": "",
     "dont": "",
@@ -14142,9 +13991,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "elevator",
@@ -14259,6 +14106,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "emoji_flags",
     "name": "emoji_flags",
     "do": "",
     "dont": "",
@@ -14283,9 +14131,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "emoji_food_beverage",
@@ -14359,6 +14205,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "emoji_people",
     "name": "emoji_people",
     "do": "",
     "dont": "",
@@ -14377,11 +14224,10 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "emoji_symbols",
     "name": "emoji_symbols",
     "do": "",
     "dont": "",
@@ -14400,11 +14246,10 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "emoji_transportation",
     "name": "emoji_transportation",
     "do": "",
     "dont": "",
@@ -14432,9 +14277,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "engineering",
@@ -14485,6 +14328,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "equalizer",
     "name": "equalizer",
     "do": "",
     "dont": "",
@@ -14501,9 +14345,7 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "error",
@@ -14548,6 +14390,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "escalator_warning",
     "name": "escalator_warning",
     "do": "",
     "dont": "",
@@ -14560,11 +14403,10 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "euro",
     "name": "euro",
     "do": "",
     "dont": "",
@@ -14589,9 +14431,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "ev_station",
@@ -14724,6 +14564,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "exit_to_app",
     "name": "exit_to_app",
     "do": "",
     "dont": "",
@@ -14739,9 +14580,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "expand",
@@ -14860,6 +14699,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "exposure_neg_1",
     "name": "exposure_neg_1",
     "do": "",
     "dont": "",
@@ -14876,9 +14716,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "exposure_neg_2",
@@ -14902,6 +14740,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "exposure_plus_1",
     "name": "exposure_plus_1",
     "do": "",
     "dont": "",
@@ -14924,9 +14763,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "exposure_plus_2",
@@ -15129,6 +14966,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "family_restroom",
     "name": "family_restroom",
     "do": "",
     "dont": "",
@@ -15141,9 +14979,7 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "fast_forward",
@@ -15315,6 +15151,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "female",
     "name": "female",
     "do": "",
     "dont": "",
@@ -15332,11 +15169,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "fence",
     "name": "fence",
     "do": "",
     "dont": "",
@@ -15348,9 +15184,7 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "festival",
@@ -15598,6 +15432,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "filter",
     "name": "filter",
     "do": "",
     "dont": "",
@@ -15613,11 +15448,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_1",
     "name": "filter_1",
     "do": "",
     "dont": "",
@@ -15632,11 +15466,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_2",
     "name": "filter_2",
     "do": "",
     "dont": "",
@@ -15651,11 +15484,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_3",
     "name": "filter_3",
     "do": "",
     "dont": "",
@@ -15670,11 +15502,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_4",
     "name": "filter_4",
     "do": "",
     "dont": "",
@@ -15689,11 +15520,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_5",
     "name": "filter_5",
     "do": "",
     "dont": "",
@@ -15708,11 +15538,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_6",
     "name": "filter_6",
     "do": "",
     "dont": "",
@@ -15727,11 +15556,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_7",
     "name": "filter_7",
     "do": "",
     "dont": "",
@@ -15746,11 +15574,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_8",
     "name": "filter_8",
     "do": "",
     "dont": "",
@@ -15765,11 +15592,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_9",
     "name": "filter_9",
     "do": "",
     "dont": "",
@@ -15784,11 +15610,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_9_plus",
     "name": "filter_9_plus",
     "do": "",
     "dont": "",
@@ -15803,9 +15628,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "filter_alt",
@@ -15826,6 +15649,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "filter_b_and_w",
     "name": "filter_b_and_w",
     "do": "",
     "dont": "",
@@ -15842,11 +15666,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_center_focus",
     "name": "filter_center_focus",
     "do": "",
     "dont": "",
@@ -15862,11 +15685,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_drama",
     "name": "filter_drama",
     "do": "",
     "dont": "",
@@ -15881,9 +15703,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "filter_frames",
@@ -15924,6 +15744,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "filter_list",
     "name": "filter_list",
     "do": "",
     "dont": "",
@@ -15938,11 +15759,10 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_none",
     "name": "filter_none",
     "do": "",
     "dont": "",
@@ -15958,11 +15778,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "filter_tilt_shift",
     "name": "filter_tilt_shift",
     "do": "",
     "dont": "",
@@ -15978,9 +15797,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "filter_vintage",
@@ -16027,6 +15844,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "find_replace",
     "name": "find_replace",
     "do": "",
     "dont": "",
@@ -16047,9 +15865,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "fingerprint",
@@ -16074,6 +15890,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "fire_extinguisher",
     "name": "fire_extinguisher",
     "do": "",
     "dont": "",
@@ -16084,9 +15901,7 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "fireplace",
@@ -16212,6 +16027,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "flare",
     "name": "flare",
     "do": "",
     "dont": "",
@@ -16228,11 +16044,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "flash_auto",
     "name": "flash_auto",
     "do": "",
     "dont": "",
@@ -16250,9 +16065,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "flash_off",
@@ -16343,6 +16156,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "flatware",
     "name": "flatware",
     "do": "",
     "dont": "",
@@ -16363,9 +16177,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "flight_land",
@@ -16414,6 +16226,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "flip",
     "name": "flip",
     "do": "",
     "dont": "",
@@ -16430,9 +16243,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "flip_camera_android",
@@ -16483,6 +16294,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "flip_to_back",
     "name": "flip_to_back",
     "do": "",
     "dont": "",
@@ -16500,11 +16312,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "flip_to_front",
     "name": "flip_to_front",
     "do": "",
     "dont": "",
@@ -16522,9 +16333,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "flourescent",
@@ -16547,6 +16356,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "flutter_dash",
     "name": "flutter_dash",
     "do": "",
     "dont": "",
@@ -16560,9 +16370,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "fmd_bad",
@@ -16635,6 +16443,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "folder_open",
     "name": "folder_open",
     "do": "",
     "dont": "",
@@ -16647,9 +16456,7 @@ const eosIcons = [
       "file"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "folder_shared",
@@ -16691,6 +16498,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "follow_the_signs",
     "name": "follow_the_signs",
     "do": "",
     "dont": "",
@@ -16702,9 +16510,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "font_download",
@@ -16769,6 +16575,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "format_align_center",
     "name": "format_align_center",
     "do": "",
     "dont": "",
@@ -16789,11 +16596,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "format_align_justify",
     "name": "format_align_justify",
     "do": "",
     "dont": "",
@@ -16814,11 +16620,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "format_align_left",
     "name": "format_align_left",
     "do": "",
     "dont": "",
@@ -16839,11 +16644,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "format_align_right",
     "name": "format_align_right",
     "do": "",
     "dont": "",
@@ -16864,11 +16668,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "format_bold",
     "name": "format_bold",
     "do": "",
     "dont": "",
@@ -16893,9 +16696,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "format_clear",
@@ -17015,6 +16816,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "format_indent_decrease",
     "name": "format_indent_decrease",
     "do": "",
     "dont": "",
@@ -17038,11 +16840,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "format_indent_increase",
     "name": "format_indent_increase",
     "do": "",
     "dont": "",
@@ -17066,9 +16867,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "format_italic",
@@ -17100,6 +16899,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "format_line_spacing",
     "name": "format_line_spacing",
     "do": "",
     "dont": "",
@@ -17120,11 +16920,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "format_list_bulleted",
     "name": "format_list_bulleted",
     "do": "",
     "dont": "",
@@ -17147,11 +16946,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "format_list_numbered",
     "name": "format_list_numbered",
     "do": "",
     "dont": "",
@@ -17176,9 +16974,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "format_list_numbered_rtl",
@@ -17263,6 +17059,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "format_shapes",
     "name": "format_shapes",
     "do": "",
     "dont": "",
@@ -17291,11 +17088,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "format_size",
     "name": "format_size",
     "do": "",
     "dont": "",
@@ -17324,11 +17120,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "format_strikethrough",
     "name": "format_strikethrough",
     "do": "",
     "dont": "",
@@ -17356,9 +17151,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "format_textdirection_l_to_r",
@@ -17411,6 +17204,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "format_underlined",
     "name": "format_underlined",
     "do": "",
     "dont": "",
@@ -17437,9 +17231,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "forum",
@@ -17564,6 +17356,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "forward_to_inbox",
     "name": "forward_to_inbox",
     "do": "",
     "dont": "",
@@ -17575,11 +17368,10 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "foundation",
     "name": "foundation",
     "do": "",
     "dont": "",
@@ -17594,9 +17386,7 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "free_breakfast",
@@ -17655,6 +17445,7 @@ const eosIcons = [
     "dateOutlined": "28/04/2021"
   },
   {
+    "fileName": "fullscreen",
     "name": "fullscreen",
     "do": "",
     "dont": "",
@@ -17668,11 +17459,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "fullscreen_exit",
     "name": "fullscreen_exit",
     "do": "",
     "dont": "",
@@ -17689,9 +17479,7 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "functions",
@@ -17723,6 +17511,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "g_mobiledata",
     "name": "g_mobiledata",
     "do": "",
     "dont": "",
@@ -17743,11 +17532,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "g_translate",
     "name": "g_translate",
     "do": "",
     "dont": "",
@@ -17767,9 +17555,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "games",
@@ -17871,6 +17657,7 @@ const eosIcons = [
     "dateOutlined": "28/04/2021"
   },
   {
+    "fileName": "gesture",
     "name": "gesture",
     "do": "",
     "dont": "",
@@ -17886,9 +17673,7 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "gif",
@@ -17917,6 +17702,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "gite",
     "name": "gite",
     "do": "",
     "dont": "",
@@ -17934,11 +17720,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "golf_course",
     "name": "golf_course",
     "do": "",
     "dont": "",
@@ -17952,9 +17737,7 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "gpp_bad",
@@ -18040,6 +17823,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "gps_fixed",
     "name": "gps_fixed",
     "do": "",
     "dont": "",
@@ -18058,11 +17842,10 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "gps_not_fixed",
     "name": "gps_not_fixed",
     "do": "",
     "dont": "",
@@ -18082,9 +17865,7 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "gps_off",
@@ -18158,6 +17939,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "grading",
     "name": "grading",
     "do": "",
     "dont": "",
@@ -18174,11 +17956,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "grain",
     "name": "grain",
     "do": "",
     "dont": "",
@@ -18196,11 +17977,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "graphic_eq",
     "name": "graphic_eq",
     "do": "",
     "dont": "",
@@ -18217,11 +17997,10 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "grass",
     "name": "grass",
     "do": "",
     "dont": "",
@@ -18235,11 +18014,10 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "grid_3x3",
     "name": "grid_3x3",
     "do": "",
     "dont": "",
@@ -18255,11 +18033,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "grid_4x4",
     "name": "grid_4x4",
     "do": "",
     "dont": "",
@@ -18275,11 +18052,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "grid_goldenratio",
     "name": "grid_goldenratio",
     "do": "",
     "dont": "",
@@ -18296,9 +18072,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "grid_off",
@@ -18322,6 +18096,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "grid_on",
     "name": "grid_on",
     "do": "",
     "dont": "",
@@ -18338,9 +18113,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "grid_view",
@@ -18460,6 +18233,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "h_mobiledata",
     "name": "h_mobiledata",
     "do": "",
     "dont": "",
@@ -18480,11 +18254,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "h_plus_mobiledata",
     "name": "h_plus_mobiledata",
     "do": "",
     "dont": "",
@@ -18507,9 +18280,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "hail",
@@ -18716,6 +18487,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "hdr_off_select",
     "name": "hdr_off_select",
     "do": "",
     "dont": "",
@@ -18746,11 +18518,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "hdr_on",
     "name": "hdr_on",
     "do": "",
     "dont": "",
@@ -18766,11 +18537,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "hdr_on_select",
     "name": "hdr_on_select",
     "do": "",
     "dont": "",
@@ -18797,9 +18567,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "hdr_plus",
@@ -18833,6 +18601,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "hdr_strong",
     "name": "hdr_strong",
     "do": "",
     "dont": "",
@@ -18848,11 +18617,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "hdr_weak",
     "name": "hdr_weak",
     "do": "",
     "dont": "",
@@ -18868,9 +18636,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "headphones_battery",
@@ -18973,6 +18739,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "healing",
     "name": "healing",
     "do": "<ul><li>Use it for fixes or patches.</li></ul>",
     "dont": "<ul><li>Don't use it for help.</li></ul>",
@@ -18987,9 +18754,7 @@ const eosIcons = [
       "development"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "health_and_safety",
@@ -19014,6 +18779,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "hearing",
     "name": "hearing",
     "do": "",
     "dont": "",
@@ -19033,11 +18799,10 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "hearing_disabled",
     "name": "hearing_disabled",
     "do": "",
     "dont": "",
@@ -19050,11 +18815,10 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "height",
     "name": "height",
     "do": "",
     "dont": "",
@@ -19078,9 +18842,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "help",
@@ -19122,6 +18884,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "hevc",
     "name": "hevc",
     "do": "",
     "dont": "",
@@ -19144,9 +18907,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "hide_image",
@@ -19176,6 +18937,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "hide_source",
     "name": "hide_source",
     "do": "",
     "dont": "",
@@ -19191,9 +18953,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "high_quality",
@@ -19276,6 +19036,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "highlight_off",
     "name": "highlight_off",
     "do": "",
     "dont": "",
@@ -19294,11 +19055,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "hiking",
     "name": "hiking",
     "do": "",
     "dont": "",
@@ -19323,9 +19083,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "history",
@@ -19351,6 +19109,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "history_edu",
     "name": "history_edu",
     "do": "",
     "dont": "",
@@ -19372,11 +19131,10 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "history_toggle_off",
     "name": "history_toggle_off",
     "do": "",
     "dont": "",
@@ -19390,9 +19148,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "holiday_village",
@@ -19442,6 +19198,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "home_max",
     "name": "home_max",
     "do": "",
     "dont": "",
@@ -19461,11 +19218,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "home_mini",
     "name": "home_mini",
     "do": "",
     "dont": "",
@@ -19485,9 +19241,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "home_repair_service",
@@ -19531,6 +19285,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "horizontal_distribute",
     "name": "horizontal_distribute",
     "do": "",
     "dont": "",
@@ -19543,9 +19298,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "horizontal_rule",
@@ -19641,6 +19394,7 @@ const eosIcons = [
     "dateOutlined": "28/04/2021"
   },
   {
+    "fileName": "hourglass_bottom",
     "name": "hourglass_bottom",
     "do": "",
     "dont": "",
@@ -19660,11 +19414,10 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "hourglass_disabled",
     "name": "hourglass_disabled",
     "do": "",
     "dont": "",
@@ -19680,11 +19433,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "hourglass_empty",
     "name": "hourglass_empty",
     "do": "",
     "dont": "",
@@ -19703,11 +19455,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "hourglass_full",
     "name": "hourglass_full",
     "do": "",
     "dont": "",
@@ -19726,11 +19477,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "hourglass_top",
     "name": "hourglass_top",
     "do": "",
     "dont": "",
@@ -19750,9 +19500,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "house",
@@ -19781,6 +19529,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "house_siding",
     "name": "house_siding",
     "do": "",
     "dont": "",
@@ -19792,9 +19541,7 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "houseboat",
@@ -19865,6 +19612,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "http",
     "name": "http",
     "do": "",
     "dont": "",
@@ -19885,9 +19633,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "hvac",
@@ -19974,6 +19720,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "image_aspect_ratio",
     "name": "image_aspect_ratio",
     "do": "",
     "dont": "",
@@ -19990,9 +19737,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "image_not_supported",
@@ -20057,6 +19802,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "import_contacts",
     "name": "import_contacts",
     "do": "",
     "dont": "",
@@ -20074,11 +19820,10 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "import_export",
     "name": "import_export",
     "do": "",
     "dont": "",
@@ -20095,11 +19840,10 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "important_devices",
     "name": "important_devices",
     "do": "",
     "dont": "",
@@ -20122,9 +19866,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "inbox",
@@ -20147,6 +19889,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "incomplete_circle",
     "name": "incomplete_circle",
     "do": "",
     "dont": "",
@@ -20162,9 +19905,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "28/04/2021",
-    "hasOutlined": true,
-    "dateOutlined": "28/04/2021"
+    "date": "28/04/2021"
   },
   {
     "name": "indeterminate_check_box",
@@ -20294,6 +20035,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "insert_emoticon",
     "name": "insert_emoticon",
     "do": "",
     "dont": "",
@@ -20315,9 +20057,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "insert_invitation",
@@ -20345,6 +20085,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "insert_link",
     "name": "insert_link",
     "do": "",
     "dont": "",
@@ -20361,9 +20102,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "insert_photo",
@@ -20386,6 +20125,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "insights",
     "name": "insights",
     "do": "",
     "dont": "",
@@ -20397,9 +20137,7 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "integration_instructions",
@@ -20561,6 +20299,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "iso",
     "name": "iso",
     "do": "",
     "dont": "",
@@ -20576,11 +20315,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "kayaking",
     "name": "kayaking",
     "do": "",
     "dont": "",
@@ -20603,9 +20341,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "keyboard",
@@ -20753,6 +20489,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "keyboard_capslock",
     "name": "keyboard_capslock",
     "do": "",
     "dont": "",
@@ -20771,9 +20508,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "keyboard_hide",
@@ -20819,6 +20554,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "keyboard_tab",
     "name": "keyboard_tab",
     "do": "",
     "dont": "",
@@ -20834,9 +20570,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "keyboard_voice",
@@ -20909,6 +20643,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "kitesurfing",
     "name": "kitesurfing",
     "do": "",
     "dont": "",
@@ -20930,9 +20665,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "label",
@@ -21042,6 +20775,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "laptop_chromebook",
     "name": "laptop_chromebook",
     "do": "",
     "dont": "",
@@ -21057,11 +20791,10 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "laptop_mac",
     "name": "laptop_mac",
     "do": "",
     "dont": "",
@@ -21078,11 +20811,10 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "laptop_windows",
     "name": "laptop_windows",
     "do": "",
     "dont": "",
@@ -21097,9 +20829,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "last_page",
@@ -21120,6 +20850,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "launch",
     "name": "launch",
     "do": "",
     "dont": "",
@@ -21135,9 +20866,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "layers",
@@ -21210,6 +20939,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "leak_add",
     "name": "leak_add",
     "do": "",
     "dont": "",
@@ -21225,9 +20955,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "leak_remove",
@@ -21250,6 +20978,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "legend_toggle",
     "name": "legend_toggle",
     "do": "",
     "dont": "",
@@ -21261,9 +20990,7 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "lens",
@@ -21298,6 +21025,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "lens_blur",
     "name": "lens_blur",
     "do": "",
     "dont": "",
@@ -21319,9 +21047,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "library_add",
@@ -21484,6 +21210,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "line_style",
     "name": "line_style",
     "do": "",
     "dont": "",
@@ -21499,11 +21226,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "line_weight",
     "name": "line_weight",
     "do": "",
     "dont": "",
@@ -21519,11 +21245,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "linear_scale",
     "name": "linear_scale",
     "do": "",
     "dont": "",
@@ -21539,9 +21264,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "link",
@@ -21768,6 +21491,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "local_atm",
     "name": "local_atm",
     "do": "",
     "dont": "",
@@ -21793,9 +21517,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "local_bar",
@@ -21899,6 +21621,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "local_dining",
     "name": "local_dining",
     "do": "",
     "dont": "",
@@ -21917,9 +21640,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "local_drink",
@@ -21941,6 +21662,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "local_fire_department",
     "name": "local_fire_department",
     "do": "",
     "dont": "",
@@ -21956,9 +21678,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "local_florist",
@@ -22096,6 +21816,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "local_parking",
     "name": "local_parking",
     "do": "",
     "dont": "",
@@ -22117,9 +21838,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "local_pharmacy",
@@ -22345,6 +22064,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "location_city",
     "name": "location_city",
     "do": "",
     "dont": "",
@@ -22358,9 +22078,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "location_off",
@@ -22486,6 +22204,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "login",
     "name": "login",
     "do": "",
     "dont": "",
@@ -22502,9 +22221,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "logout",
@@ -22530,6 +22247,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "looks",
     "name": "looks",
     "do": "",
     "dont": "",
@@ -22545,9 +22263,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "looks_3",
@@ -22670,6 +22386,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "loop",
     "name": "loop",
     "do": "",
     "dont": "",
@@ -22685,11 +22402,10 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "loupe",
     "name": "loupe",
     "do": "",
     "dont": "",
@@ -22705,9 +22421,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "low_priority",
@@ -22756,6 +22470,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "lte_mobiledata",
     "name": "lte_mobiledata",
     "do": "",
     "dont": "",
@@ -22781,11 +22496,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "lte_plus_mobiledata",
     "name": "lte_plus_mobiledata",
     "do": "",
     "dont": "",
@@ -22812,9 +22526,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "luggage",
@@ -22856,6 +22568,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "male",
     "name": "male",
     "do": "",
     "dont": "",
@@ -22871,9 +22584,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "manage_accounts",
@@ -22901,6 +22612,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "manage_search",
     "name": "manage_search",
     "do": "",
     "dont": "",
@@ -22917,9 +22629,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "map",
@@ -23142,6 +22852,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "media_bluetooth_off",
     "name": "media_bluetooth_off",
     "do": "",
     "dont": "",
@@ -23162,11 +22873,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "media_bluetooth_on",
     "name": "media_bluetooth_on",
     "do": "",
     "dont": "",
@@ -23185,9 +22895,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "mediation",
@@ -23271,6 +22979,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "memory",
     "name": "memory",
     "do": "",
     "dont": "",
@@ -23284,11 +22993,10 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "menu",
     "name": "menu",
     "do": "",
     "dont": "",
@@ -23302,11 +23010,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "menu_book",
     "name": "menu_book",
     "do": "",
     "dont": "",
@@ -23322,9 +23029,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "menu_open",
@@ -23350,6 +23055,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "merge_type",
     "name": "merge_type",
     "do": "",
     "dont": "",
@@ -23365,9 +23071,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "message",
@@ -23580,6 +23284,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "miscellaneous_services",
     "name": "miscellaneous_services",
     "do": "",
     "dont": "",
@@ -23591,9 +23296,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "missed_video_call",
@@ -23790,6 +23493,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "mode_standby",
     "name": "mode_standby",
     "do": "",
     "dont": "",
@@ -23805,11 +23509,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "model_training",
     "name": "model_training",
     "do": "",
     "dont": "",
@@ -23821,9 +23524,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "monetization_on",
@@ -23973,6 +23674,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "monochrome_photos",
     "name": "monochrome_photos",
     "do": "",
     "dont": "",
@@ -23988,11 +23690,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "mood",
     "name": "mood",
     "do": "",
     "dont": "",
@@ -24008,9 +23709,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "mood_bad",
@@ -24075,6 +23774,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "more_horiz",
     "name": "more_horiz",
     "do": "",
     "dont": "",
@@ -24087,11 +23787,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "more_time",
     "name": "more_time",
     "do": "",
     "dont": "",
@@ -24104,11 +23803,10 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "more_vert",
     "name": "more_vert",
     "do": "",
     "dont": "",
@@ -24121,9 +23819,7 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "motion_photos_auto",
@@ -24368,6 +24064,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "multiline_chart",
     "name": "multiline_chart",
     "do": "",
     "dont": "",
@@ -24390,11 +24087,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "multiple_stop",
     "name": "multiple_stop",
     "do": "",
     "dont": "",
@@ -24406,9 +24102,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "museum",
@@ -24478,6 +24172,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "music_video",
     "name": "music_video",
     "do": "",
     "dont": "",
@@ -24494,11 +24189,10 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "nat",
     "name": "nat",
     "do": "",
     "dont": "",
@@ -24511,9 +24205,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "nature",
@@ -24612,6 +24304,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "nearby_error",
     "name": "nearby_error",
     "do": "",
     "dont": "",
@@ -24635,11 +24328,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "nearby_off",
     "name": "nearby_off",
     "do": "",
     "dont": "",
@@ -24656,9 +24348,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "network_cell",
@@ -24815,6 +24505,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "nfc",
     "name": "nfc",
     "do": "",
     "dont": "",
@@ -24830,9 +24521,7 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "night_shelter",
@@ -25104,6 +24793,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "no_meals",
     "name": "no_meals",
     "do": "",
     "dont": "",
@@ -25120,9 +24810,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "no_meeting_room",
@@ -25232,6 +24920,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "nordic_walking",
     "name": "nordic_walking",
     "do": "",
     "dont": "",
@@ -25251,11 +24940,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "north",
     "name": "north",
     "do": "",
     "dont": "",
@@ -25266,11 +24954,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "north_east",
     "name": "north_east",
     "do": "",
     "dont": "",
@@ -25283,11 +24970,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "north_west",
     "name": "north_west",
     "do": "",
     "dont": "",
@@ -25300,9 +24986,7 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "not_accessible",
@@ -25321,6 +25005,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "not_interested",
     "name": "not_interested",
     "do": "",
     "dont": "",
@@ -25336,9 +25021,7 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "not_listed_location",
@@ -25715,6 +25398,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "online_prediction",
     "name": "online_prediction",
     "do": "",
     "dont": "",
@@ -25732,11 +25416,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "opacity",
     "name": "opacity",
     "do": "",
     "dont": "",
@@ -25756,11 +25439,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "open_in_browser",
     "name": "open_in_browser",
     "do": "",
     "dont": "",
@@ -25776,11 +25458,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "open_in_full",
     "name": "open_in_full",
     "do": "",
     "dont": "",
@@ -25793,11 +25474,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "open_in_new",
     "name": "open_in_new",
     "do": "",
     "dont": "",
@@ -25812,11 +25492,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "open_in_new_off",
     "name": "open_in_new_off",
     "do": "",
     "dont": "",
@@ -25835,11 +25514,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "open_with",
     "name": "open_with",
     "do": "",
     "dont": "",
@@ -25855,9 +25533,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "other_houses",
@@ -26240,6 +25916,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "password",
     "name": "password",
     "do": "",
     "dont": "",
@@ -26257,11 +25934,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "pattern",
     "name": "pattern",
     "do": "",
     "dont": "",
@@ -26280,11 +25956,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "pause",
     "name": "pause",
     "do": "",
     "dont": "",
@@ -26299,9 +25974,7 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "pause_circle",
@@ -26371,6 +26044,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "pedal_bike",
     "name": "pedal_bike",
     "do": "",
     "dont": "",
@@ -26390,9 +26064,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "pending",
@@ -26415,6 +26087,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "pending_actions",
     "name": "pending_actions",
     "do": "",
     "dont": "",
@@ -26431,9 +26104,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "perm_camera_mic",
@@ -26844,6 +26515,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "pets",
     "name": "pets",
     "do": "",
     "dont": "",
@@ -26858,9 +26530,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "phone",
@@ -27039,6 +26709,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "phone_iphone",
     "name": "phone_iphone",
     "do": "",
     "dont": "",
@@ -27053,9 +26724,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "phone_locked",
@@ -27112,6 +26781,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "phonelink",
     "name": "phonelink",
     "do": "",
     "dont": "",
@@ -27123,11 +26793,10 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "phonelink_erase",
     "name": "phonelink_erase",
     "do": "",
     "dont": "",
@@ -27149,11 +26818,10 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "phonelink_lock",
     "name": "phonelink_lock",
     "do": "",
     "dont": "",
@@ -27175,9 +26843,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "phonelink_off",
@@ -27201,6 +26867,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "phonelink_ring",
     "name": "phonelink_ring",
     "do": "",
     "dont": "",
@@ -27222,9 +26889,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "phonelink_setup",
@@ -27397,6 +27062,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "photo_size_select_large",
     "name": "photo_size_select_large",
     "do": "",
     "dont": "",
@@ -27411,11 +27077,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "photo_size_select_small",
     "name": "photo_size_select_small",
     "do": "",
     "dont": "",
@@ -27430,11 +27095,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "piano",
     "name": "piano",
     "do": "",
     "dont": "",
@@ -27457,11 +27121,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "piano_off",
     "name": "piano_off",
     "do": "",
     "dont": "",
@@ -27486,9 +27149,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "picture_as_pdf",
@@ -27791,6 +27452,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "play_for_work",
     "name": "play_for_work",
     "do": "",
     "dont": "",
@@ -27807,9 +27469,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "play_lesson",
@@ -27896,6 +27556,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "plumbing",
     "name": "plumbing",
     "do": "",
     "dont": "",
@@ -27912,11 +27573,10 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "podcasts",
     "name": "podcasts",
     "do": "",
     "dont": "",
@@ -27934,11 +27594,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "point_of_sale",
     "name": "point_of_sale",
     "do": "",
     "dont": "",
@@ -27960,9 +27619,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "policy",
@@ -28072,6 +27729,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "post_add",
     "name": "post_add",
     "do": "",
     "dont": "",
@@ -28089,9 +27747,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "power",
@@ -28114,6 +27770,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "power_input",
     "name": "power_input",
     "do": "",
     "dont": "",
@@ -28126,9 +27783,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "power_off",
@@ -28156,6 +27811,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "power_settings_new",
     "name": "power_settings_new",
     "do": "",
     "dont": "",
@@ -28173,9 +27829,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "precision_manufacturing",
@@ -28209,6 +27863,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "pregnant_woman",
     "name": "pregnant_woman",
     "do": "",
     "dont": "",
@@ -28231,11 +27886,10 @@ const eosIcons = [
       "roles"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "present_to_all",
     "name": "present_to_all",
     "do": "",
     "dont": "",
@@ -28251,9 +27905,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "preview",
@@ -28384,6 +28036,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "priority_high",
     "name": "priority_high",
     "do": "",
     "dont": "",
@@ -28397,9 +28050,7 @@ const eosIcons = [
       "notification"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "privacy_tip",
@@ -28443,6 +28094,7 @@ const eosIcons = [
     "dateOutlined": "28/04/2021"
   },
   {
+    "fileName": "production_quantity_limits",
     "name": "production_quantity_limits",
     "do": "",
     "dont": "",
@@ -28465,9 +28117,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "psychology",
@@ -28526,6 +28176,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "public_off",
     "name": "public_off",
     "do": "",
     "dont": "",
@@ -28543,9 +28194,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "publish",
@@ -28591,6 +28240,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "qr_code",
     "name": "qr_code",
     "do": "",
     "dont": "",
@@ -28603,11 +28253,10 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "qr_code_scanner",
     "name": "qr_code_scanner",
     "do": "",
     "dont": "",
@@ -28621,11 +28270,10 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "query_stats",
     "name": "query_stats",
     "do": "",
     "dont": "",
@@ -28647,9 +28295,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "question_answer",
@@ -28694,6 +28340,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "queue_play_next",
     "name": "queue_play_next",
     "do": "",
     "dont": "",
@@ -28718,9 +28365,7 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "quickreply",
@@ -28769,6 +28414,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "r_mobiledata",
     "name": "r_mobiledata",
     "do": "",
     "dont": "",
@@ -28789,11 +28435,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "radar",
     "name": "radar",
     "do": "",
     "dont": "",
@@ -28811,9 +28456,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "radio",
@@ -28863,6 +28506,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "radio_button_unchecked",
     "name": "radio_button_unchecked",
     "do": "",
     "dont": "",
@@ -28878,9 +28522,7 @@ const eosIcons = [
       "toggle"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "railway_alert",
@@ -28961,6 +28603,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "raw_off",
     "name": "raw_off",
     "do": "",
     "dont": "",
@@ -28988,11 +28631,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "raw_on",
     "name": "raw_on",
     "do": "",
     "dont": "",
@@ -29020,11 +28662,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "read_more",
     "name": "read_more",
     "do": "",
     "dont": "",
@@ -29041,9 +28682,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "receipt",
@@ -29169,6 +28808,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "recycling",
     "name": "recycling",
     "do": "",
     "dont": "",
@@ -29183,11 +28823,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "28/04/2021",
-    "hasOutlined": true,
-    "dateOutlined": "28/04/2021"
+    "date": "28/04/2021"
   },
   {
+    "fileName": "redo",
     "name": "redo",
     "do": "",
     "dont": "",
@@ -29205,11 +28844,10 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "reduce_capacity",
     "name": "reduce_capacity",
     "do": "",
     "dont": "",
@@ -29231,11 +28869,10 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "refresh",
     "name": "refresh",
     "do": "",
     "dont": "",
@@ -29248,9 +28885,7 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "remember_me",
@@ -29284,6 +28919,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "remove",
     "name": "remove",
     "do": "",
     "dont": "",
@@ -29300,9 +28936,7 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "remove_circle",
@@ -29449,6 +29083,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "reorder",
     "name": "reorder",
     "do": "",
     "dont": "",
@@ -29464,11 +29099,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "repeat",
     "name": "repeat",
     "do": "",
     "dont": "",
@@ -29485,9 +29119,7 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "repeat_on",
@@ -29513,6 +29145,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "repeat_one",
     "name": "repeat_one",
     "do": "",
     "dont": "",
@@ -29533,9 +29166,7 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "repeat_one_on",
@@ -29689,6 +29320,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "reply",
     "name": "reply",
     "do": "",
     "dont": "",
@@ -29706,11 +29338,10 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "reply_all",
     "name": "reply_all",
     "do": "",
     "dont": "",
@@ -29730,9 +29361,7 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "report",
@@ -29872,6 +29501,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "restaurant_menu",
     "name": "restaurant_menu",
     "do": "",
     "dont": "",
@@ -29892,9 +29522,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "restore",
@@ -30023,6 +29651,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "roofing",
     "name": "roofing",
     "do": "",
     "dont": "",
@@ -30037,9 +29666,7 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "room_preferences",
@@ -30082,6 +29709,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "rotate_90_degrees_ccw",
     "name": "rotate_90_degrees_ccw",
     "do": "",
     "dont": "",
@@ -30094,11 +29722,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "rotate_left",
     "name": "rotate_left",
     "do": "",
     "dont": "",
@@ -30112,11 +29739,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "rotate_right",
     "name": "rotate_right",
     "do": "",
     "dont": "",
@@ -30130,11 +29756,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "rounded_corner",
     "name": "rounded_corner",
     "do": "",
     "dont": "",
@@ -30149,9 +29774,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "router",
@@ -30172,6 +29795,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "rowing",
     "name": "rowing",
     "do": "",
     "dont": "",
@@ -30191,11 +29815,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "rss_feed",
     "name": "rss_feed",
     "do": "",
     "dont": "",
@@ -30210,11 +29833,10 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "rsvp",
     "name": "rsvp",
     "do": "",
     "dont": "",
@@ -30240,9 +29862,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "rtt",
@@ -30264,6 +29884,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "rule",
     "name": "rule",
     "do": "",
     "dont": "",
@@ -30283,9 +29904,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "rule_folder",
@@ -30334,6 +29953,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "running_with_errors",
     "name": "running_with_errors",
     "do": "",
     "dont": "",
@@ -30356,9 +29976,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "rv_hookup",
@@ -30383,6 +30001,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "safety_divider",
     "name": "safety_divider",
     "do": "",
     "dont": "",
@@ -30401,9 +30020,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "sailing",
@@ -30828,6 +30445,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "screen_rotation",
     "name": "screen_rotation",
     "do": "",
     "dont": "",
@@ -30849,9 +30467,7 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "screen_search_desktop",
@@ -30991,6 +30607,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "search",
     "name": "search",
     "do": "",
     "dont": "",
@@ -31006,11 +30623,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "search_off",
     "name": "search_off",
     "do": "",
     "dont": "",
@@ -31031,11 +30647,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "security",
     "name": "security",
     "do": "",
     "dont": "",
@@ -31049,9 +30664,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "security_update",
@@ -31183,6 +30796,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "select_all",
     "name": "select_all",
     "do": "",
     "dont": "",
@@ -31197,11 +30811,10 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "self_improvement",
     "name": "self_improvement",
     "do": "",
     "dont": "",
@@ -31227,9 +30840,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "sell",
@@ -31386,6 +30997,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "sensors",
     "name": "sensors",
     "do": "",
     "dont": "",
@@ -31408,11 +31020,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "sensors_off",
     "name": "sensors_off",
     "do": "",
     "dont": "",
@@ -31438,9 +31049,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "sentiment_dissatisfied",
@@ -31576,6 +31185,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "settings_accessibility",
     "name": "settings_accessibility",
     "do": "",
     "dont": "",
@@ -31598,9 +31208,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "settings_applications",
@@ -31625,6 +31233,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "settings_backup_restore",
     "name": "settings_backup_restore",
     "do": "",
     "dont": "",
@@ -31643,11 +31252,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "settings_bluetooth",
     "name": "settings_bluetooth",
     "do": "",
     "dont": "",
@@ -31663,11 +31271,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "settings_brightness",
     "name": "settings_brightness",
     "do": "",
     "dont": "",
@@ -31682,9 +31289,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "settings_cell",
@@ -31710,6 +31315,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "settings_ethernet",
     "name": "settings_ethernet",
     "do": "",
     "dont": "",
@@ -31727,11 +31333,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "settings_input_antenna",
     "name": "settings_input_antenna",
     "do": "",
     "dont": "",
@@ -31747,9 +31352,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "settings_input_component",
@@ -31795,6 +31398,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "settings_input_svideo",
     "name": "settings_input_svideo",
     "do": "",
     "dont": "",
@@ -31812,11 +31416,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "settings_overscan",
     "name": "settings_overscan",
     "do": "",
     "dont": "",
@@ -31833,9 +31436,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "settings_phone",
@@ -31857,6 +31458,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "settings_power",
     "name": "settings_power",
     "do": "",
     "dont": "",
@@ -31874,9 +31476,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "settings_remote",
@@ -31973,6 +31573,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "share_location",
     "name": "share_location",
     "do": "",
     "dont": "",
@@ -31989,9 +31590,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "shield",
@@ -32254,6 +31853,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "shuffle",
     "name": "shuffle",
     "do": "",
     "dont": "",
@@ -32270,9 +31870,7 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "shuffle_on",
@@ -32298,6 +31896,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "shutter_speed",
     "name": "shutter_speed",
     "do": "",
     "dont": "",
@@ -32323,9 +31922,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "sick",
@@ -32402,6 +31999,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "signal_cellular_nodata",
     "name": "signal_cellular_nodata",
     "do": "",
     "dont": "",
@@ -32425,11 +32023,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "signal_cellular_null",
     "name": "signal_cellular_null",
     "do": "",
     "dont": "",
@@ -32451,9 +32048,7 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "signal_cellular_off",
@@ -32544,6 +32139,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "signal_wifi_statusbar_4_bar",
     "name": "signal_wifi_statusbar_4_bar",
     "do": "",
     "dont": "",
@@ -32565,11 +32161,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "signal_wifi_statusbar_connected_no_internet_4",
     "name": "signal_wifi_statusbar_connected_no_internet_4",
     "do": "",
     "dont": "",
@@ -32603,11 +32198,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "signal_wifi_statusbar_null",
     "name": "signal_wifi_statusbar_null",
     "do": "",
     "dont": "",
@@ -32630,9 +32224,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "sim_card",
@@ -32709,6 +32301,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "single_bed",
     "name": "single_bed",
     "do": "",
     "dont": "",
@@ -32734,9 +32327,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "sip",
@@ -32772,6 +32363,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "skateboarding",
     "name": "skateboarding",
     "do": "",
     "dont": "",
@@ -32795,9 +32387,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "skip_next",
@@ -32846,6 +32436,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "sledding",
     "name": "sledding",
     "do": "",
     "dont": "",
@@ -32868,11 +32459,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "slideshow",
     "name": "slideshow",
     "do": "",
     "dont": "",
@@ -32887,9 +32477,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "slow_motion_video",
@@ -32914,6 +32502,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "smart_button",
     "name": "smart_button",
     "do": "",
     "dont": "",
@@ -32928,9 +32517,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "smart_display",
@@ -33008,6 +32595,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "smartphone",
     "name": "smartphone",
     "do": "",
     "dont": "",
@@ -33023,9 +32611,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "smoke_free",
@@ -33145,6 +32731,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "snowboarding",
     "name": "snowboarding",
     "do": "",
     "dont": "",
@@ -33163,9 +32750,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "snowmobile",
@@ -33195,6 +32780,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "snowshoeing",
     "name": "snowshoeing",
     "do": "",
     "dont": "",
@@ -33215,9 +32801,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "soap",
@@ -33265,6 +32849,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "sort",
     "name": "sort",
     "do": "",
     "dont": "",
@@ -33279,9 +32864,7 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "sort_by_alpha",
@@ -33334,6 +32917,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "south",
     "name": "south",
     "do": "",
     "dont": "",
@@ -33348,11 +32932,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "south_east",
     "name": "south_east",
     "do": "",
     "dont": "",
@@ -33367,11 +32950,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "south_west",
     "name": "south_west",
     "do": "",
     "dont": "",
@@ -33386,9 +32968,7 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "spa",
@@ -33519,6 +33099,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "speaker_phone",
     "name": "speaker_phone",
     "do": "",
     "dont": "",
@@ -33539,9 +33120,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "speed",
@@ -33569,6 +33148,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "spellcheck",
     "name": "spellcheck",
     "do": "",
     "dont": "",
@@ -33593,11 +33173,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "splitscreen",
     "name": "splitscreen",
     "do": "",
     "dont": "",
@@ -33613,11 +33192,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "sports",
     "name": "sports",
     "do": "",
     "dont": "",
@@ -33639,9 +33217,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "sports_bar",
@@ -33809,6 +33385,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "sports_handball",
     "name": "sports_handball",
     "do": "",
     "dont": "",
@@ -33832,11 +33409,10 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "sports_hockey",
     "name": "sports_hockey",
     "do": "",
     "dont": "",
@@ -33856,11 +33432,10 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "sports_kabaddi",
     "name": "sports_kabaddi",
     "do": "",
     "dont": "",
@@ -33887,9 +33462,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "sports_mma",
@@ -33975,6 +33548,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "sports_score",
     "name": "sports_score",
     "do": "",
     "dont": "",
@@ -33990,11 +33564,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "sports_soccer",
     "name": "sports_soccer",
     "do": "",
     "dont": "",
@@ -34015,11 +33588,10 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "sports_tennis",
     "name": "sports_tennis",
     "do": "",
     "dont": "",
@@ -34041,9 +33613,7 @@ const eosIcons = [
       "social"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "sports_volleyball",
@@ -34070,6 +33640,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "square_foot",
     "name": "square_foot",
     "do": "",
     "dont": "",
@@ -34089,9 +33660,7 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "stacked_bar_chart",
@@ -34122,6 +33691,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "stacked_line_chart",
     "name": "stacked_line_chart",
     "do": "",
     "dont": "",
@@ -34136,9 +33706,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "stairs",
@@ -34185,6 +33753,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "star_half",
     "name": "star_half",
     "do": "",
     "dont": "",
@@ -34200,9 +33769,7 @@ const eosIcons = [
       "toggle"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "stars",
@@ -34226,6 +33793,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "stay_current_landscape",
     "name": "stay_current_landscape",
     "do": "",
     "dont": "",
@@ -34246,11 +33814,10 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "stay_current_portrait",
     "name": "stay_current_portrait",
     "do": "",
     "dont": "",
@@ -34271,9 +33838,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "sticky_note",
@@ -34362,6 +33927,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "storage",
     "name": "storage",
     "do": "",
     "dont": "",
@@ -34376,9 +33942,7 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "store",
@@ -34417,6 +33981,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "storefront",
     "name": "storefront",
     "do": "",
     "dont": "",
@@ -34440,11 +34005,10 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "storm",
     "name": "storm",
     "do": "",
     "dont": "",
@@ -34462,11 +34026,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "straighten",
     "name": "straighten",
     "do": "",
     "dont": "",
@@ -34480,9 +34043,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "stream",
@@ -34507,6 +34068,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "streetview",
     "name": "streetview",
     "do": "",
     "dont": "",
@@ -34520,9 +34082,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "strikethrough_s",
@@ -34592,6 +34152,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "subdirectory_arrow_left",
     "name": "subdirectory_arrow_left",
     "do": "",
     "dont": "",
@@ -34606,11 +34167,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "subdirectory_arrow_right",
     "name": "subdirectory_arrow_right",
     "do": "",
     "dont": "",
@@ -34625,11 +34185,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "subject",
     "name": "subject",
     "do": "",
     "dont": "",
@@ -34650,11 +34209,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "subscript",
     "name": "subscript",
     "do": "",
     "dont": "",
@@ -34672,9 +34230,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "subscriptions",
@@ -34794,6 +34350,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "superscript",
     "name": "superscript",
     "do": "",
     "dont": "",
@@ -34811,9 +34368,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "supervised_user_circle",
@@ -34873,6 +34428,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "support",
     "name": "support",
     "do": "",
     "dont": "",
@@ -34891,11 +34447,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "support_agent",
     "name": "support_agent",
     "do": "",
     "dont": "",
@@ -34911,11 +34466,10 @@ const eosIcons = [
       "notification"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "surfing",
     "name": "surfing",
     "do": "",
     "dont": "",
@@ -34938,9 +34492,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "surround_sound",
@@ -34963,6 +34515,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "swap_calls",
     "name": "swap_calls",
     "do": "",
     "dont": "",
@@ -34981,11 +34534,10 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "swap_horiz",
     "name": "swap_horiz",
     "do": "",
     "dont": "",
@@ -35000,9 +34552,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "swap_horizontal_circle",
@@ -35131,6 +34681,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "switch_left",
     "name": "switch_left",
     "do": "",
     "dont": "",
@@ -35144,11 +34695,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "switch_right",
     "name": "switch_right",
     "do": "",
     "dont": "",
@@ -35162,9 +34712,7 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "switch_video",
@@ -35187,6 +34735,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "sync",
     "name": "sync",
     "do": "",
     "dont": "",
@@ -35199,11 +34748,10 @@ const eosIcons = [
       "notification"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "sync_alt",
     "name": "sync_alt",
     "do": "",
     "dont": "",
@@ -35223,9 +34771,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "sync_disabled",
@@ -35246,6 +34792,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "sync_problem",
     "name": "sync_problem",
     "do": "",
     "dont": "",
@@ -35259,9 +34806,7 @@ const eosIcons = [
       "notification"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "system_security_update",
@@ -35323,6 +34868,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "system_update",
     "name": "system_update",
     "do": "",
     "dont": "",
@@ -35334,11 +34880,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "system_update_alt",
     "name": "system_update_alt",
     "do": "",
     "dont": "",
@@ -35360,11 +34905,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "date": "30/11/2020",
-    "hasOutlined": true,
-    "dateOutlined": "5/19/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "tab",
     "name": "tab",
     "do": "",
     "dont": "",
@@ -35384,11 +34928,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "tab_unselected",
     "name": "tab_unselected",
     "do": "",
     "dont": "",
@@ -35410,9 +34953,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "table_chart",
@@ -35469,6 +35010,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "table_view",
     "name": "table_view",
     "do": "",
     "dont": "",
@@ -35491,11 +35033,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "tablet",
     "name": "tablet",
     "do": "",
     "dont": "",
@@ -35508,11 +35049,10 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "tablet_android",
     "name": "tablet_android",
     "do": "",
     "dont": "",
@@ -35528,11 +35068,10 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "tablet_mac",
     "name": "tablet_mac",
     "do": "",
     "dont": "",
@@ -35547,9 +35086,7 @@ const eosIcons = [
       "hardware"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "tag",
@@ -35576,6 +35113,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "tag_faces",
     "name": "tag_faces",
     "do": "",
     "dont": "",
@@ -35590,9 +35128,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "takeout_dining",
@@ -35617,6 +35153,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "tap_and_play",
     "name": "tap_and_play",
     "do": "",
     "dont": "",
@@ -35631,9 +35168,7 @@ const eosIcons = [
       "notification"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "tapas",
@@ -35679,6 +35214,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "task_alt",
     "name": "task_alt",
     "do": "",
     "dont": "",
@@ -35701,9 +35237,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "taxi_alert",
@@ -35765,6 +35299,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "text_fields",
     "name": "text_fields",
     "do": "",
     "dont": "",
@@ -35785,11 +35320,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "text_format",
     "name": "text_format",
     "do": "",
     "dont": "",
@@ -35809,9 +35343,7 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "text_rotate_up",
@@ -36014,6 +35546,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "texture",
     "name": "texture",
     "do": "",
     "dont": "",
@@ -36028,9 +35561,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "theater_comedy",
@@ -36102,6 +35633,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "thermostat_auto",
     "name": "thermostat_auto",
     "do": "",
     "dont": "",
@@ -36121,9 +35653,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "thumb_down",
@@ -36327,6 +35857,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "timer_10_select",
     "name": "timer_10_select",
     "do": "",
     "dont": "",
@@ -36349,9 +35880,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "timer_3",
@@ -36374,6 +35903,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "timer_3_select",
     "name": "timer_3_select",
     "do": "",
     "dont": "",
@@ -36397,9 +35927,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "timer_off",
@@ -36468,6 +35996,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "toc",
     "name": "toc",
     "do": "",
     "dont": "",
@@ -36487,9 +36016,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "today",
@@ -36577,6 +36104,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "toll",
     "name": "toll",
     "do": "",
     "dont": "",
@@ -36603,11 +36131,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "tonality",
     "name": "tonality",
     "do": "",
     "dont": "",
@@ -36622,9 +36149,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "touch_app",
@@ -36685,6 +36210,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "track_changes",
     "name": "track_changes",
     "do": "",
     "dont": "",
@@ -36704,9 +36230,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "traffic",
@@ -36809,6 +36333,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "transform",
     "name": "transform",
     "do": "",
     "dont": "",
@@ -36822,11 +36347,10 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "transgender",
     "name": "transgender",
     "do": "",
     "dont": "",
@@ -36844,11 +36368,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "transit_enterexit",
     "name": "transit_enterexit",
     "do": "",
     "dont": "",
@@ -36865,11 +36388,10 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "translate",
     "name": "translate",
     "do": "",
     "dont": "",
@@ -36885,11 +36407,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "travel_explore",
     "name": "travel_explore",
     "do": "",
     "dont": "",
@@ -36906,9 +36427,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "trending_down",
@@ -36983,6 +36502,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "trip_origin",
     "name": "trip_origin",
     "do": "",
     "dont": "",
@@ -36996,9 +36516,7 @@ const eosIcons = [
       "maps"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "try",
@@ -37043,6 +36561,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "tune",
     "name": "tune",
     "do": "",
     "dont": "",
@@ -37057,9 +36576,7 @@ const eosIcons = [
       "image"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "tungsten",
@@ -37084,6 +36601,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "tv",
     "name": "tv",
     "do": "",
     "dont": "",
@@ -37101,9 +36619,7 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "tv_off",
@@ -37164,6 +36680,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "umbrella",
     "name": "umbrella",
     "do": "",
     "dont": "",
@@ -37176,9 +36693,7 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "unarchive",
@@ -37202,6 +36717,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "undo",
     "name": "undo",
     "do": "",
     "dont": "",
@@ -37218,11 +36734,10 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "unfold_less",
     "name": "unfold_less",
     "do": "",
     "dont": "",
@@ -37235,11 +36750,10 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "unfold_more",
     "name": "unfold_more",
     "do": "",
     "dont": "",
@@ -37253,9 +36767,7 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "unpublished",
@@ -37359,6 +36871,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "upgrade",
     "name": "upgrade",
     "do": "",
     "dont": "",
@@ -37375,9 +36888,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "upload",
@@ -37452,6 +36963,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "usb_off",
     "name": "usb_off",
     "do": "",
     "dont": "",
@@ -37469,9 +36981,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "verified",
@@ -37518,6 +37028,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "vertical_align_bottom",
     "name": "vertical_align_bottom",
     "do": "",
     "dont": "",
@@ -37541,11 +37052,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "vertical_align_center",
     "name": "vertical_align_center",
     "do": "",
     "dont": "",
@@ -37570,11 +37080,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "vertical_align_top",
     "name": "vertical_align_top",
     "do": "",
     "dont": "",
@@ -37598,11 +37107,10 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "vertical_distribute",
     "name": "vertical_distribute",
     "do": "",
     "dont": "",
@@ -37616,9 +37124,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "vertical_split",
@@ -37641,6 +37147,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "vibration",
     "name": "vibration",
     "do": "",
     "dont": "",
@@ -37654,9 +37161,7 @@ const eosIcons = [
       "notification"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "video_call",
@@ -37733,6 +37238,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "video_label",
     "name": "video_label",
     "do": "",
     "dont": "",
@@ -37746,9 +37252,7 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "video_library",
@@ -37770,6 +37274,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "video_settings",
     "name": "video_settings",
     "do": "",
     "dont": "",
@@ -37787,9 +37292,7 @@ const eosIcons = [
       "av"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "video_stable",
@@ -38031,6 +37534,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "view_headline",
     "name": "view_headline",
     "do": "",
     "dont": "",
@@ -38046,9 +37550,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "view_in_ar",
@@ -38348,6 +37850,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "voicemail",
     "name": "voicemail",
     "do": "",
     "dont": "",
@@ -38366,9 +37869,7 @@ const eosIcons = [
       "communication"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "volume_down",
@@ -38543,6 +38044,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "wallpaper",
     "name": "wallpaper",
     "do": "",
     "dont": "",
@@ -38556,9 +38058,7 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "warning",
@@ -38626,6 +38126,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "water",
     "name": "water",
     "do": "",
     "dont": "",
@@ -38643,9 +38144,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "water_damage",
@@ -38712,6 +38211,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "waves",
     "name": "waves",
     "do": "",
     "dont": "",
@@ -38729,9 +38229,7 @@ const eosIcons = [
       "content"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "waving_hand",
@@ -38852,6 +38350,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "wb_twilight",
     "name": "wb_twilight",
     "do": "",
     "dont": "",
@@ -38872,11 +38371,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "wc",
     "name": "wc",
     "do": "",
     "dont": "",
@@ -38890,9 +38388,7 @@ const eosIcons = [
       "notification"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "web",
@@ -38941,6 +38437,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "web_asset_off",
     "name": "web_asset_off",
     "do": "",
     "dont": "",
@@ -38962,9 +38459,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "weekend",
@@ -38992,6 +38487,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "west",
     "name": "west",
     "do": "",
     "dont": "",
@@ -39003,9 +38499,7 @@ const eosIcons = [
       "navigation"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "whatshot",
@@ -39026,6 +38520,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "wheelchair_pickup",
     "name": "wheelchair_pickup",
     "do": "",
     "dont": "",
@@ -39039,9 +38534,7 @@ const eosIcons = [
       "places"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "where_to_vote",
@@ -39087,6 +38580,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "wifi",
     "name": "wifi",
     "do": "",
     "dont": "",
@@ -39101,9 +38595,7 @@ const eosIcons = [
       "notification"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "wifi_calling",
@@ -39206,6 +38698,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "wifi_protected_setup",
     "name": "wifi_protected_setup",
     "do": "",
     "dont": "",
@@ -39217,11 +38710,10 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "wifi_tethering",
     "name": "wifi_tethering",
     "do": "",
     "dont": "",
@@ -39242,11 +38734,10 @@ const eosIcons = [
       "device"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
+    "fileName": "wifi_tethering_error_rounded",
     "name": "wifi_tethering_error_rounded",
     "do": "",
     "dont": "",
@@ -39280,11 +38771,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "wifi_tethering_off",
     "name": "wifi_tethering_off",
     "do": "",
     "dont": "",
@@ -39312,11 +38802,10 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
+    "fileName": "window",
     "name": "window",
     "do": "",
     "dont": "",
@@ -39336,9 +38825,7 @@ const eosIcons = [
     ],
     "type": "static",
     "label": "None",
-    "date": "03/03/2021",
-    "hasOutlined": true,
-    "dateOutlined": "06/04/2021"
+    "date": "03/03/2021"
   },
   {
     "name": "wine_bar",
@@ -39422,6 +38909,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "wrap_text",
     "name": "wrap_text",
     "do": "",
     "dont": "",
@@ -39441,9 +38929,7 @@ const eosIcons = [
       "editor"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "wrong_location",
@@ -39471,6 +38957,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "wysiwyg",
     "name": "wysiwyg",
     "do": "",
     "dont": "",
@@ -39483,9 +38970,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "yard",
@@ -39512,6 +38997,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "youtube_searched_for",
     "name": "youtube_searched_for",
     "do": "",
     "dont": "",
@@ -39531,9 +39017,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "zoom_in",
@@ -39561,6 +39045,7 @@ const eosIcons = [
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "zoom_out",
     "name": "zoom_out",
     "do": "",
     "dont": "",
@@ -39581,9 +39066,7 @@ const eosIcons = [
       "action"
     ],
     "type": "static",
-    "hasOutlined": true,
-    "date": "30/11/2020",
-    "dateOutlined": "06/04/2021"
+    "date": "30/11/2020"
   },
   {
     "name": "zoom_out_map",

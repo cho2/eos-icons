@@ -1,11 +1,10 @@
 {
+  "fileName": "dialpad",
   "name": "dialpad",
   "do": "",
   "dont": "",
   "tags": ["Dial", "call", "number", "pad", "numbers", "device"],
   "category": ["communication"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }
