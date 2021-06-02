@@ -15937,7 +15937,11 @@
       "move",
       "beginning",
       "front",
-      "before"
+      "before",
+      "arrow",
+      "navigation",
+      "chevron",
+      "left"
     ],
     "category": [
       "navigation"
@@ -20839,7 +20843,11 @@
       "end",
       "finale",
       "move",
-      "later"
+      "later",
+      "arrow",
+      "navigation",
+      "chevron",
+      "right"
     ],
     "category": [
       "navigation"
