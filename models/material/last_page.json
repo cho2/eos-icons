@@ -2,7 +2,16 @@
   "name": "last_page",
   "do": "",
   "dont": "",
-  "tags": ["end", "finale", "move", "later", "arrow", "navigation", "chevron"],
+  "tags": [
+    "end",
+    "finale",
+    "move",
+    "later",
+    "arrow",
+    "navigation",
+    "chevron",
+    "right"
+  ],
   "category": ["navigation"],
   "type": "static",
   "hasOutlined": true,

@@ -9,7 +9,8 @@
     "before",
     "arrow",
     "navigation",
-    "chevron"
+    "chevron",
+    "left"
   ],
   "category": ["navigation"],
   "type": "static",
