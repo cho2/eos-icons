@@ -15940,7 +15940,8 @@ const eosIcons = [
       "before",
       "arrow",
       "navigation",
-      "chevron"
+      "chevron",
+      "left"
     ],
     "category": [
       "navigation"
@@ -20845,7 +20846,8 @@ const eosIcons = [
       "later",
       "arrow",
       "navigation",
-      "chevron"
+      "chevron",
+      "right"
     ],
     "category": [
       "navigation"
