@@ -765,6 +765,24 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "edge_computing",
+    "do": "<ul><li>Use to represent edge computing.</li></ul>",
+    "dont": "<ul><li>Don't use to represent physical devices such as hard drives.</li></ul>",
+    "tags": [
+      "cloud",
+      "node",
+      "infrastructure",
+      "iot",
+      "storage",
+      "eos"
+    ],
+    "category": "development",
+    "type": "static",
+    "date": "6/4/2021",
+    "hasOutlined": true,
+    "dateOutlined": "6/4/2021"
+  },
+  {
     "name": "endpoints",
     "do": "<ul><li>To represent endpoints. E.g.: you have a table of information and you need to differentiate endpoint URIs.</li></ul>",
     "dont": "<ul><li>To represent an endpoints status.</li></ul>",
