@@ -1,6 +1,6 @@
 const fs = require('fs')
 const inquirer = require('inquirer')
-const { readFilesNameInFolder } = require('./utilities')
+const { readFilesNameInFolder, readFileContent } = require('./utilities')
 
 const namingConventionRegex = /^[a-z0-9]+(_[a-z0-9]+)*$/g
 
@@ -96,8 +96,77 @@ const selectIconFolder = async () => {
   }
 }
 
+/**
+ * Will compare the filled SVG to the outline SVG
+ * @param {*} filledPath path to the reference, filled SVG file
+ * @param {*} outlinedPath path to the outlined version of the SVG
+ */
+const compareMdThemeSvgs = async (filledPath, outlinedPath) => {
+  try {
+    const filled = await readFileContent(filledPath)
+    const outlined = await readFileContent(outlinedPath)
+
+    // Comprate the two SVGs as strings
+    const comparation = filled === outlined
+
+    return {
+      isSameIcon: comparation,
+      fileName: filledPath.replace('svg/material/', ''),
+      msg: comparation ? 'The Outlined version is the same as the filled' : ''
+    }
+  } catch (error) {
+    console.error('error: ', error)
+  }
+}
+
+/**
+ * Adds to duplicated_icons.json the name of the SVGs that have the same code for both filled and outlined
+ * @param {*} filledArray Array of MD filled SVG names to compare vs the outlined folder.
+ */
+const writeDuplicateSvgsTheme = async (filledArray) => {
+  const duplicatedIconsList = JSON.parse(
+    fs.readFileSync('./scripts/duplicated_icons.json', 'utf8')
+  )
+
+  const data = await Promise.all(
+    filledArray.map(async (ele) => {
+      // Dont compare the files if the element is already on the duplicate_icons.json
+      if (duplicatedIconsList.outlined.includes(ele)) return
+
+      const comparationResult = await compareMdThemeSvgs(
+        `svg/material/${ele}.svg`,
+        `svg-outlined/material/${ele}.svg`
+      )
+
+      if (comparationResult && comparationResult.isSameIcon)
+        return comparationResult
+    })
+  )
+
+  // Filter out out the files that are not the same.
+  const filterDuplicates = data
+    .filter((ele) => ele !== undefined)
+    .map((ele) => {
+      return ele.fileName.replace('.svg', '')
+    })
+
+  return fs.writeFileSync(
+    `./scripts/duplicated_icons.json`,
+    JSON.stringify(
+      {
+        filled: [...duplicatedIconsList.filled],
+        outlined: [...duplicatedIconsList.outlined, ...filterDuplicates]
+      },
+      null,
+      2
+    )
+  )
+}
+
 module.exports = {
   checkSvgName,
   renameSvgTo,
-  deleteDuplicateSvg
+  deleteDuplicateSvg,
+  compareMdThemeSvgs,
+  writeDuplicateSvgsTheme
 }

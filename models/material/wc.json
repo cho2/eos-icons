@@ -1,11 +1,10 @@
 {
+  "fileName": "wc",
   "name": "wc",
   "do": "",
   "dont": "",
   "tags": ["toilet", "bathroom", "restroom", "bath"],
   "category": ["notification"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

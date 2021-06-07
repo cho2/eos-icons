@@ -6,7 +6,8 @@ const {
   readFilesNameInFolder,
   readFilesContentInFolder,
   compareArrays,
-  jsFileFromJSON
+  jsFileFromJSON,
+  compareObjects
 } = require('../scripts/utilities')
 
 describe('# utils functions', () => {
@@ -63,6 +64,52 @@ describe('# utils functions', () => {
       const data = await readFilesContentInFolder('/test/dummy-data/model/')
 
       expect(data.length > 2).to.be.true
+    })
+  })
+
+  context('compareObjects()', () => {
+    it('should compare svgs files', async function () {
+      const filled = fs.readFileSync(
+        path.join(process.cwd(), 'test/__temp__/abstract_incomplete.json'),
+        async (err, data) => {
+          if (err) return err
+
+          return data
+        }
+      )
+
+      const outlined = fs.readFileSync(
+        path.join(
+          process.cwd(),
+          '/test/dummy-data/svg-outlined/material/1k_plus.svg'
+        ),
+        async (err, data) => {
+          if (err) return err
+
+          return data
+        }
+      )
+
+      const response = await compareObjects({
+        first: filled.toString(),
+        second: outlined.toString()
+      })
+
+      expect(response).false
+    })
+
+    it('should compare both objects', async function () {
+      const objects = await compareObjects({
+        first: { a: true },
+        second: { a: true }
+      })
+      const objects2 = await compareObjects({
+        first: { a: false },
+        second: { a: true }
+      })
+
+      expect(objects).true
+      expect(objects2).false
     })
   })
 })

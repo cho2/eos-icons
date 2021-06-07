@@ -1,11 +1,10 @@
 {
+  "fileName": "north_west",
   "name": "north_west",
   "do": "",
   "dont": "",
   "tags": ["up left", "diagonal", "corner"],
   "category": ["navigation"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

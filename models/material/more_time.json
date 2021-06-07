@@ -1,11 +1,10 @@
 {
+  "fileName": "more_time",
   "name": "more_time",
   "do": "",
   "dont": "",
   "tags": ["More", "time", "extension"],
   "category": ["communication"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

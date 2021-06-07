@@ -1,4 +1,5 @@
 {
+  "fileName": "gps_fixed",
   "name": "gps_fixed",
   "do": "",
   "dont": "",
@@ -15,7 +16,5 @@
   ],
   "category": ["device"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }

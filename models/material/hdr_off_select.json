@@ -1,4 +1,5 @@
 {
+  "fileName": "hdr_off_select",
   "name": "hdr_off_select",
   "do": "",
   "dont": "",
@@ -27,7 +28,5 @@
   "category": ["device"],
   "type": "static",
   "label": "None",
-  "date": "03/03/2021",
-  "hasOutlined": true,
-  "dateOutlined": "06/04/2021"
+  "date": "03/03/2021"
 }

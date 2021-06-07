@@ -1,11 +1,10 @@
 {
+  "fileName": "more_horiz",
   "name": "more_horiz",
   "do": "",
   "dont": "",
   "tags": ["more", "horizontal ellipsis", "navigation"],
   "category": ["navigation"],
   "type": "static",
-  "hasOutlined": true,
-  "date": "30/11/2020",
-  "dateOutlined": "06/04/2021"
+  "date": "30/11/2020"
 }
