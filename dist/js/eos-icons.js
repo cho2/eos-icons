@@ -713,6 +713,24 @@ const eosIcons = [
     "dateOutlined": "01/03/2021"
   },
   {
+    "name": "database",
+    "do": "<ul><li>Use this icon to represent a database</li></ul>",
+    "dont": "<ul><li>Do not use this icon to represent hardware such as a hard drive</li></ul>",
+    "tags": [
+      "db",
+      "storage",
+      "table",
+      "index",
+      "directory",
+      "eos"
+    ],
+    "category": "development",
+    "type": "static",
+    "date": "6/4/2021",
+    "hasOutlined": true,
+    "dateOutlined": "6/4/2021"
+  },
+  {
     "name": "deploy",
     "do": "<ul><li>For deploying code/software to a server, container, etc.</li>></ul>",
     "dont": "<ul><li>For uploading.</li></ul>",
