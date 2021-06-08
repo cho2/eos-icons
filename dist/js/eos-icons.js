@@ -940,6 +940,20 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "infinity",
+    "do": "<ul><li>Use to represent the idea of infinity.</li></ul>",
+    "dont": "<ul><li>Dont use for finite loops, tracks etc...</li></ul>",
+    "tags": [
+      "eos",
+      "resources",
+      "symbolic",
+      "eos"
+    ],
+    "category": "virtualization",
+    "type": "static",
+    "date": "6/8/2021"
+  },
+  {
     "name": "ingress",
     "do": "<ul><li>Use it for when allowing a resource entering and exiting access, for example, exposing HTTP routes to a service.</li></ul>",
     "dont": "<ul><li>Dont use it for login or logout</li></ul>",
