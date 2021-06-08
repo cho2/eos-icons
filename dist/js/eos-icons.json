@@ -2057,6 +2057,21 @@
     "dateOutlined": "4/26/2021"
   },
   {
+    "name": "spinner",
+    "do": "<ul><li> </li></ul>",
+    "dont": "<ul><li> </li></ul>",
+    "tags": [
+      "loading",
+      "progress",
+      "wait",
+      "circle",
+      "eos"
+    ],
+    "category": "action",
+    "type": "static",
+    "date": "08/06/2021"
+  },
+  {
     "name": "state",
     "do": "<ul><li>To represent states. Normally booleans true/false, on/off.</li></ul>",
     "dont": "",
