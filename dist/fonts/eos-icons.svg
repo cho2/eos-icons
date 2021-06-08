@@ -15,7 +15,7 @@
     bbox="-0.595506 -64.1264 512 448.379"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F7F4"
+    unicode-range="U+0030-F7F5"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -398,6 +398,8 @@ t46 -62l-30 -10q-9 29 -34 47t-56 18q-43 0 -72 -33l43 -42h-107v106l43 -41q38 41 9
     <glyph glyph-name="software" unicode="software" horiz-adv-x="469" 
 d="M277 57v-36h43v-42h-171v42h43v43h-149q-18 0 -30.5 12.5t-12.5 30.5v256q0 17 12.5 29.5t30.5 12.5h384q17 0 29.5 -12.5t12.5 -29.5v-94q-16 27 -42 45v49h-384v-256h176q23 -33 58 -50zM341 320q53 0 90.5 -37.5t37.5 -90.5t-37.5 -90.5t-90.5 -37.5t-90.5 37.5
 t-37.5 90.5t37.5 90.5t90.5 37.5zM341.5 160q13.5 0 22.5 9.5t9 22.5t-9 22.5t-22.5 9.5t-23 -9.5t-9.5 -22.5t9.5 -22.5t23 -9.5z" />
+    <glyph glyph-name="spinner" unicode="spinner" 
+d="M192 299v106h43v-106h-43zM192 -21v106h43v-106h-43zM320 213h107v-42h-107v42zM0 213h107v-42h-107v42zM274 283l75 75l30 -30l-75 -76zM47 56l76 76l30 -31l-75 -75zM304 132l75 -76l-30 -30l-75 75zM78 358l75 -75l-30 -31l-76 76z" />
     <glyph glyph-name="state" unicode="state" horiz-adv-x="363" 
 d="M128 320h107v-256h-107v256zM213 171v128h-64v-128h64zM320 427q18 0 30.5 -12.5t12.5 -30.5v-384q0 -18 -12.5 -30.5t-30.5 -12.5h-277q-18 0 -30.5 12.5t-12.5 30.5v384q0 18 12.5 30.5t30.5 12.5h277zM320 0v384h-277v-384h277z" />
     <glyph glyph-name="stateful_set" unicode="stateful_set" horiz-adv-x="490" 
