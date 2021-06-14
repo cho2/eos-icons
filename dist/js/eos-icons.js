@@ -1008,7 +1008,8 @@ const eosIcons = [
       "interconnected",
       "interrelated",
       "devices",
-      "computing"
+      "computing",
+      "eos"
     ],
     "category": "hardware",
     "type": "static",
