@@ -2,7 +2,7 @@
   "name": "locked_env",
   "do": "<ul><li>Use it to represent a locked development environment.</li></ul>",
   "dont": "<ul><li>To represent an unlocked development environment.</li></ul>",
-  "tags": ["dev", "environment", "code", "ide"],
+  "tags": ["dev", "environment", "code", "ide", "eos"],
   "category": "development",
   "type": "static",
   "date": "6/14/2021",
