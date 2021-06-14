@@ -863,7 +863,8 @@
       "dev",
       "environment",
       "code",
-      "ide"
+      "ide",
+      "eos"
     ],
     "category": "development",
     "type": "static",
@@ -1089,7 +1090,8 @@
       "dev",
       "environment",
       "code",
-      "ide"
+      "ide",
+      "eos"
     ],
     "category": "development",
     "type": "static",
