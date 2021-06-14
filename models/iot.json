@@ -2,7 +2,7 @@
   "name": "iot",
   "do": "<ul><li>To represent a system of interrelated computing devices.</li></ul>",
   "dont": "<ul><li>Don't use it to represent edge computing, since there is another icon for it.</li></ul>",
-  "tags": ["interconnected", "interrelated", "devices", "computing"],
+  "tags": ["interconnected", "interrelated", "devices", "computing", "eos"],
   "category": "hardware",
   "type": "static",
   "date": "6/14/2021"
