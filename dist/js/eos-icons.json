@@ -856,6 +856,20 @@
     "date": "30/11/2020"
   },
   {
+    "name": "env",
+    "do": "<ul><li>Use it to represent an unlocked development environment.</li></ul>",
+    "dont": "<ul><li>To represent a locked development environment.</li></ul>",
+    "tags": [
+      "dev",
+      "environment",
+      "code",
+      "ide"
+    ],
+    "category": "development",
+    "type": "static",
+    "date": "6/14/2021"
+  },
+  {
     "name": "file_system",
     "do": "<ul><li>To manage files on a server.</li><li>To control how data is stored and retrieved.</li></ul>",
     "dont": "",
@@ -1066,6 +1080,22 @@
     "category": "virtualization",
     "type": "animated",
     "date": "30/11/2020"
+  },
+  {
+    "name": "locked_env",
+    "do": "<ul><li>Use it to represent a locked development environment.</li></ul>",
+    "dont": "<ul><li>To represent an unlocked development environment.</li></ul>",
+    "tags": [
+      "dev",
+      "environment",
+      "code",
+      "ide"
+    ],
+    "category": "development",
+    "type": "static",
+    "date": "6/14/2021",
+    "hasOutlined": true,
+    "dateOutlined": "6/14/2021"
   },
   {
     "name": "machine_learning",
