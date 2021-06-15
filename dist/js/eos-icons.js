@@ -368,6 +368,24 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "cluster",
+    "do": "<ul><li>Use it to represent a cluster of systems.</li></ul>",
+    "dont": "<ul><li>Don't use it to represent a single system.</li></ul>",
+    "tags": [
+      "kubernetes",
+      "pods",
+      "node",
+      "healthz",
+      "cluster",
+      "eos"
+    ],
+    "category": "hardware",
+    "type": "static",
+    "date": "6/14/2021",
+    "hasOutlined": true,
+    "dateOutlined": "6/15/2021"
+  },
+  {
     "name": "cluster_role",
     "do": "<ul><li>Indicates a cluster-scoped resources.</li><li>Indicates a non-resource endpoints.</li></ul>",
     "dont": "",
