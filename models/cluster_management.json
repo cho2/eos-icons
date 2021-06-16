@@ -5,5 +5,7 @@
   "tags": ["kubernetes", "pods", "node", "healthz", "cluster", "eos"],
   "category": "hardware",
   "type": "static",
-  "date": "6/16/2021"
+  "date": "6/16/2021",
+  "hasOutlined": true,
+  "dateOutlined": "6/16/2021"
 }
