@@ -15,7 +15,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "19/02/2021"
+    "dateOutlined": "25/02/2021"
   },
   {
     "name": "abstract_incomplete",
@@ -49,7 +49,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "19/04/2021"
+    "dateOutlined": "05/03/2021"
   },
   {
     "name": "action_chains",
@@ -67,7 +67,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "06/05/2021"
+    "dateOutlined": "05/05/2021"
   },
   {
     "name": "activate_subscriptions",
@@ -82,7 +82,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "26/02/2021"
+    "dateOutlined": "25/02/2021"
   },
   {
     "name": "admin",
@@ -168,7 +168,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "15/02/2021"
+    "dateOutlined": "25/02/2021"
   },
   {
     "name": "application",
@@ -197,7 +197,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "26/02/2021"
+    "dateOutlined": "25/02/2021"
   },
   {
     "name": "application_instance",
@@ -229,7 +229,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "19/02/2021"
+    "dateOutlined": "25/02/2021"
   },
   {
     "name": "arrow_rotate",
@@ -302,7 +302,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "15/03/2021"
+    "dateOutlined": "06/05/2021"
   },
   {
     "name": "branch",
@@ -381,9 +381,9 @@ const eosIcons = [
     ],
     "category": "hardware",
     "type": "static",
-    "date": "6/14/2021",
+    "date": "14/06/2021",
     "hasOutlined": true,
-    "dateOutlined": "15/06/2021"
+    "dateOutlined": "14/06/2021"
   },
   {
     "name": "cluster_management",
@@ -399,9 +399,9 @@ const eosIcons = [
     ],
     "category": "hardware",
     "type": "static",
-    "date": "6/16/2021",
+    "date": "15/06/2021",
     "hasOutlined": true,
-    "dateOutlined": "16/06/2021"
+    "dateOutlined": "15/06/2021"
   },
   {
     "name": "cluster_role",
@@ -463,7 +463,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "06/05/2021"
+    "dateOutlined": "05/05/2021"
   },
   {
     "name": "compare_states",
@@ -483,7 +483,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "06/05/2021"
+    "dateOutlined": "05/05/2021"
   },
   {
     "name": "compass",
@@ -557,7 +557,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "05/03/2021"
+    "dateOutlined": "04/03/2021"
   },
   {
     "name": "content_deleted",
@@ -695,7 +695,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "04/03/2021"
+    "dateOutlined": "25/02/2021"
   },
   {
     "name": "daemon_set",
@@ -713,7 +713,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "22/02/2021"
+    "dateOutlined": "25/02/2021"
   },
   {
     "name": "data_mining",
@@ -746,7 +746,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "01/03/2021"
+    "dateOutlined": "25/02/2021"
   },
   {
     "name": "database",
@@ -762,9 +762,9 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "6/4/2021",
+    "date": "02/06/2021",
     "hasOutlined": true,
-    "dateOutlined": "04/06/2021"
+    "dateOutlined": "02/06/2021"
   },
   {
     "name": "deploy",
@@ -832,7 +832,7 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "6/4/2021",
+    "date": "04/06/2021",
     "hasOutlined": true,
     "dateOutlined": "04/06/2021"
   },
@@ -904,7 +904,7 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "14/06/2021"
+    "date": "15/06/2021"
   },
   {
     "name": "file_system",
@@ -920,7 +920,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "17/03/2021"
+    "dateOutlined": "12/05/2021"
   },
   {
     "name": "flask",
@@ -958,7 +958,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "13/04/2021"
+    "dateOutlined": "14/04/2021"
   },
   {
     "name": "hourglass",
@@ -1034,7 +1034,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "26/02/2021"
+    "dateOutlined": "25/02/2021"
   },
   {
     "name": "installing",
@@ -1064,7 +1064,7 @@ const eosIcons = [
     ],
     "category": "hardware",
     "type": "static",
-    "date": "14/06/2021"
+    "date": "15/06/2021"
   },
   {
     "name": "ip",
@@ -1117,7 +1117,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "16/03/2021"
+    "dateOutlined": "14/04/2021"
   },
   {
     "name": "loading",
@@ -1146,7 +1146,7 @@ const eosIcons = [
     ],
     "category": "development",
     "type": "static",
-    "date": "6/14/2021",
+    "date": "14/06/2021",
     "hasOutlined": true,
     "dateOutlined": "14/06/2021"
   },
@@ -1167,7 +1167,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "16/03/2021"
+    "dateOutlined": "12/05/2021"
   },
   {
     "name": "master",
@@ -1184,7 +1184,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "16/03/2021"
+    "dateOutlined": "04/03/2021"
   },
   {
     "name": "merge",
@@ -1207,7 +1207,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "13/04/2021"
+    "dateOutlined": "14/04/2021"
   },
   {
     "name": "miscellaneous",
@@ -1227,7 +1227,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "16/03/2021"
+    "dateOutlined": "12/05/2021"
   },
   {
     "name": "modified_date",
@@ -1248,7 +1248,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "16/03/2021"
+    "dateOutlined": "04/03/2021"
   },
   {
     "name": "molecules",
@@ -1267,7 +1267,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "13/04/2021"
+    "dateOutlined": "14/04/2021"
   },
   {
     "name": "monitoring",
@@ -1369,7 +1369,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "17/03/2021"
+    "dateOutlined": "18/03/2021"
   },
   {
     "name": "network_policy",
@@ -1389,7 +1389,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "17/03/2021"
+    "dateOutlined": "18/03/2021"
   },
   {
     "name": "neural_network",
@@ -1423,7 +1423,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "17/03/2021"
+    "dateOutlined": "12/05/2021"
   },
   {
     "name": "organisms",
@@ -1442,7 +1442,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "12/04/2021"
+    "dateOutlined": "14/04/2021"
   },
   {
     "name": "organization",
@@ -1463,7 +1463,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "13/04/2021"
+    "dateOutlined": "14/04/2021"
   },
   {
     "name": "outbound",
@@ -1642,7 +1642,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "13/04/2021"
+    "dateOutlined": "14/04/2021"
   },
   {
     "name": "pipeline",
@@ -1661,7 +1661,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "13/04/2021"
+    "dateOutlined": "14/04/2021"
   },
   {
     "name": "pod",
@@ -1677,7 +1677,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "13/04/2021"
+    "dateOutlined": "21/04/2021"
   },
   {
     "name": "pod_autoscaler",
@@ -1697,7 +1697,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "13/04/2021"
+    "dateOutlined": "21/04/2021"
   },
   {
     "name": "pod_security",
@@ -1713,7 +1713,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "13/04/2021"
+    "dateOutlined": "21/04/2021"
   },
   {
     "name": "primitive",
@@ -1839,7 +1839,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "22/04/2021"
+    "dateOutlined": "20/04/2021"
   },
   {
     "name": "push_pin",
@@ -1859,7 +1859,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "22/04/2021"
+    "dateOutlined": "20/04/2021"
   },
   {
     "name": "quota",
@@ -1876,7 +1876,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "22/04/2021"
+    "dateOutlined": "20/04/2021"
   },
   {
     "name": "replica",
@@ -1935,7 +1935,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "22/04/2021"
+    "dateOutlined": "20/04/2021"
   },
   {
     "name": "rotating_gear",
@@ -1978,7 +1978,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "22/04/2021"
+    "dateOutlined": "20/04/2021"
   },
   {
     "name": "science",
@@ -2001,7 +2001,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "23/04/2021"
+    "dateOutlined": "22/04/2021"
   },
   {
     "name": "scientist",
@@ -2018,7 +2018,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "23/04/2021"
+    "dateOutlined": "22/04/2021"
   },
   {
     "name": "secret",
@@ -2037,7 +2037,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "23/04/2021"
+    "dateOutlined": "22/04/2021"
   },
   {
     "name": "secure_data",
@@ -2053,7 +2053,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "23/04/2021"
+    "dateOutlined": "15/05/2021"
   },
   {
     "name": "self_healing",
@@ -2085,7 +2085,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "26/04/2021"
+    "dateOutlined": "23/04/2021"
   },
   {
     "name": "service_instance",
@@ -2103,7 +2103,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "23/04/2021"
+    "dateOutlined": "22/04/2021"
   },
   {
     "name": "service_plan",
@@ -2120,7 +2120,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "26/04/2021"
+    "dateOutlined": "23/04/2021"
   },
   {
     "name": "snapshot_rollback",
@@ -2151,7 +2151,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "26/04/2021"
+    "dateOutlined": "23/04/2021"
   },
   {
     "name": "spinner",
@@ -2199,7 +2199,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "26/04/2021"
+    "dateOutlined": "23/04/2021"
   },
   {
     "name": "storage_class",
@@ -2217,7 +2217,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "26/04/2021"
+    "dateOutlined": "27/04/2021"
   },
   {
     "name": "subscription_management",
@@ -2246,7 +2246,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "04/05/2021"
+    "dateOutlined": "05/05/2021"
   },
   {
     "name": "symlink",
@@ -2262,7 +2262,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "04/05/2021"
+    "dateOutlined": "05/05/2021"
   },
   {
     "name": "system_group",
@@ -2294,7 +2294,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "04/05/2021"
+    "dateOutlined": "05/05/2021"
   },
   {
     "name": "system_ok",
@@ -2312,7 +2312,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "04/05/2021"
+    "dateOutlined": "05/05/2021"
   },
   {
     "name": "system_re_registered",
@@ -2507,7 +2507,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "06/05/2021"
+    "dateOutlined": "05/05/2021"
   },
   {
     "name": "virtual_space",
@@ -2559,7 +2559,7 @@ const eosIcons = [
     "type": "static",
     "date": "30/11/2020",
     "hasOutlined": true,
-    "dateOutlined": "06/05/2021"
+    "dateOutlined": "05/05/2021"
   },
   {
     "name": "workload",
