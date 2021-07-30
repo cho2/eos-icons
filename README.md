@@ -1,5 +1,5 @@
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://gitlab.com/SUSE-UIUX/eos-icons)
-[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://gitlab.com/SUSE-UIUX/eos-icons/-/blob/master/LICENSE)
+[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://gitlab.com/SUSE-UIUX/eos-icons/-/blob/master/LICENSE)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://www.eos-icons.com)
 
 ![EOS icons](https://res.cloudinary.com/eosdesignsystem/image/upload/v1601287831/npm/eos-icons/npm-banner.jpg)
