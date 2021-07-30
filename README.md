@@ -1,19 +1,28 @@
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://icons.eosdesignsystem.com)
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://gitlab.com/SUSE-UIUX/eos-icons)
+[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://gitlab.com/SUSE-UIUX/eos-icons/-/blob/master/LICENSE)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://www.eos-icons.com)
 
 ![EOS icons](https://res.cloudinary.com/eosdesignsystem/image/upload/v1601287831/npm/eos-icons/npm-banner.jpg)
 
 # EOS icons
 
-Visit the [EOS icons website](https://icons.eosdesignsystem.com)
+Visit the [EOS icons website](https://www.eos-icons.com)
 
-### An iconic font created for hi-tech open source software.
+Visit our [Storybook](https://storybook.eos-icons.com/) to use the [react library](https://www.npmjs.com/package/eos-icons-react) in your react project.
 
-From version 4.0.0, EOS icons also includes all of Material Icons (\*) in a unified font.
-We made this desicion based on the several issues encountered in the repository that for the last 3 years has not been maintained. EOS icons v4 solves dozens of conflicting and duplicated icons from MD. If you find any issue let us know by [opening an issue.](https://gitlab.com/SUSE-UIUX/eos-icons/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=)
+## An iconic font created for hi-tech open source software.
+
+EOS icons comprises a set of free and open source icons. Handmade, using strict and consistent guidelines and processes, our icons set is an exceptionally scalable and cohesive solution that will boost the user experience in your applications and websites.
+
+Additionally, EOS icons includes all of Material Design icons (*) and solves dozens of conflicting and duplicated icons from it.
+
+If you find any issue let us know by [opening an issue.](https://gitlab.com/SUSE-UIUX/eos-icons/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=)
 
 (\*) https://github.com/google/material-design-icons
+
+## Migrating from v4 to v5
+
+Go to the [migration guidelines](https://gitlab.com/SUSE-UIUX/eos-icons/-/wikis/Migrating-to-EOS-V5-from-v4) to see what changed in V5 and to get a comprehensive list of all icons removed or renamed, together with their new replacement.
 
 # Installation guide
 
@@ -39,11 +48,11 @@ or just add CDN and import icons easily :
 <i class="eos-icons"> LIGATURE_OF_THE_ICON</i>
 ```
 
-Where the LIGATURE_OF_THE_ICON is the name of the icon. Use our online tool to see the icon's name: https://icons.eosdesignsystem.com/.
+Where the LIGATURE_OF_THE_ICON is the name of the icon. Use our online tool to see the icon's name: https://www.eos-icons.com/.
 
 ## Using animated icons
 
-1- Download the animated icon of your choice from [https://icons.eosdesignsystem.com/](https://icons.eosdesignsystem.com/) and add them into your project.
+1- Download the animated icon of your choice from [https://www.eos-icons.com/](https://www.eos-icons.com/) and add them into your project.
 
 2- To use them you need to add the `img` tag in your html.
 
@@ -53,7 +62,7 @@ For example:
 <img src="icon.svg" />
 ```
 
-See the other animated icons classes in our [demo page](https://icons.eosdesignsystem.com/). Click on the icon you want to use to see the code snippet.
+See the other animated icons classes in our [demo page](https://www.eos-icons.com/). Click on the icon you want to use to see the code snippet.
 
 # Development of EOS icons
 
