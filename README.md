@@ -14,7 +14,7 @@ Visit our [Storybook](https://storybook.eos-icons.com/) to use the [react librar
 
 EOS icons comprises a set of free and open source icons. Handmade, using strict and consistent guidelines and processes, our icons set is an exceptionally scalable and cohesive solution that will boost the user experience in your applications and websites.
 
-Additionally, EOS icons includes all of Material Design icons (*) and solves dozens of conflicting and duplicated icons from it.
+Additionally, EOS icons includes all of Material Design icons (\*) and solves dozens of conflicting and duplicated icons from it.
 
 If you find any issue let us know by [opening an issue.](https://gitlab.com/SUSE-UIUX/eos-icons/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=)
 
