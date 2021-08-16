@@ -778,6 +778,7 @@ const eosIcons = [
       "relocatting",
       "moving",
       "arrow",
+      "storage",
       "eos"
     ],
     "category": "development",
