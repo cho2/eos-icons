@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20190801 at Mon Aug 16 10:08:34 2021
+Created by FontForge 20190801 at Mon Aug 16 13:24:18 2021
  By Cynthia Sanchez
 </metadata>
 <defs>
@@ -18,7 +18,7 @@ Created by FontForge 20190801 at Mon Aug 16 10:08:34 2021
     bbox="-0.595506 -65.0333 512 448.5"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F815"
+    unicode-range="U+0030-F816"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -103,6 +103,10 @@ M213 85q0 9 6.5 15.5t15.5 6.5t15 -6.5t6 -15.5t-6 -15t-15 -6t-15.5 6t-6.5 15zM277
     <glyph glyph-name="cluster" unicode="cluster" horiz-adv-x="469" 
 d="M469 213h-469v214h469v-214zM43 256h384v128h-384v-128zM469 -43h-469v214h469v-214zM43 0h384v128h-384v-128zM64 299v42h192v-42h-192zM299 320q0 9 6 15t15 6t15 -6t6 -15t-6 -15t-15 -6t-15 6t-6 15zM363 320q0 9 6 15t15 6t15 -6t6 -15t-6 -15t-15 -6t-15 6t-6 15z
 M64 43v42h192v-42h-192zM299 64q0 9 6 15t15 6t15 -6t6 -15t-6 -15t-15 -6t-15 6t-6 15zM363 64q0 9 6 15t15 6t15 -6t6 -15t-6 -15t-15 -6t-15 6t-6 15z" />
+    <glyph glyph-name="code_deploy" unicode="code_deploy" horiz-adv-x="425" 
+d="M425 256h-6l-89 -128l-17 12l80 116h-50q0 11 -8 19t-19 8t-18.5 -8t-7.5 -19h-9l-27 -85l-20 6l24 79h-19q0 11 -8 19t-19 8t-18.5 -8t-7.5 -19h-20l25 -79l-20 -6l-27 85h-9q0 11 -8 19t-19 8t-18.5 -8t-7.5 -19h-51l81 -116l-18 -12l-89 128h-5q8 79 70 135.5
+t142 56.5t142.5 -56.5t70.5 -135.5zM316 325q14 0 29.5 -7.5t24.5 -18.5q-18 44 -64 75t-93.5 31t-94 -31t-64.5 -75q9 11 25 18.5t29 7.5t28.5 -7t23.5 -17q9 10 24 17t28 7t28.5 -7t23.5 -17q9 10 24 17t28 7zM191 119l-77 -76l77 -77l-30 -30l-108 107l31 30l77 76z
+M234 -34l77 77l-77 76l30 30l108 -106l-31 -30l-77 -77z" />
     <glyph glyph-name="collocation" unicode="collocation" 
 d="M384 405q18 0 30.5 -12.5t12.5 -29.5v-342q0 -17 -12.5 -29.5t-30.5 -12.5h-341q-18 0 -30.5 12.5t-12.5 29.5v342q0 17 12.5 29.5t30.5 12.5h341zM384 21v342h-341v-342h341zM118 64h1q-22 0 -38 15.5t-16 37.5t16 38t38 16l50 87q-9 14 -9 30q0 22 15.5 37.5t38 15.5
 t38 -15.5t15.5 -37.5q0 -16 -9 -30l51 -87h1q22 0 38 -16t16 -38t-16 -37.5t-38 -15.5q-11 0 -22.5 5.5t-19.5 15.5t-10 22h-87q-4 -18 -19.5 -30.5t-33.5 -12.5zM185 243l-44 -78q10 -4 18.5 -15t11.5 -22h86q3 11 11.5 22t18.5 15l-45 78q-13 -8 -28.5 -8t-28.5 8z" />
