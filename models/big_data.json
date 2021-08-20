@@ -13,5 +13,7 @@
   ],
   "category": "virtualization",
   "type": "static",
-  "date": "8/20/2021"
+  "date": "8/20/2021",
+  "hasOutlined": true,
+  "dateOutlined": "8/20/2021"
 }
