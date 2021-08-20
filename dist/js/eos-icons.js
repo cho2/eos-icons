@@ -288,6 +288,25 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "big_data",
+    "do": "<ul><li>Use it to represent concepts of big data or database as a service</li></ul>",
+    "dont": "<ul><li>don't use it for plain database or database migration representations</li></ul>",
+    "tags": [
+      "database",
+      "cloud",
+      "big data",
+      "dbaas",
+      "database as a service",
+      "large",
+      "eos"
+    ],
+    "category": "virtualization",
+    "type": "static",
+    "date": "8/20/2021",
+    "hasOutlined": true,
+    "dateOutlined": "8/20/2021"
+  },
+  {
     "name": "bootstrapping",
     "do": "<ul><li>When bootstraping a new element into a system.</li></ul>",
     "dont": "",
