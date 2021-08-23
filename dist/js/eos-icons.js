@@ -288,6 +288,42 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "big_data",
+    "do": "<ul><li>Use it to represent concepts of big data or database as a service</li></ul>",
+    "dont": "<ul><li>don't use it for plain database or database migration representations</li></ul>",
+    "tags": [
+      "database",
+      "cloud",
+      "big data",
+      "dbaas",
+      "database as a service",
+      "large",
+      "eos"
+    ],
+    "category": "virtualization",
+    "type": "static",
+    "date": "8/20/2021",
+    "hasOutlined": true,
+    "dateOutlined": "8/20/2021"
+  },
+  {
+    "name": "blockchain",
+    "do": "<ul><li>use it to represent a blockchain or associated action</li></ul>",
+    "dont": "<ul><li>dont use it for network, containers, or clusters</li></ul>",
+    "tags": [
+      "blockchain",
+      "cryptocurrency",
+      "chain",
+      "blocks",
+      "decentralized",
+      "distributed",
+      "eos"
+    ],
+    "category": "development",
+    "type": "static",
+    "date": "8/20/2021"
+  },
+  {
     "name": "bootstrapping",
     "do": "<ul><li>When bootstraping a new element into a system.</li></ul>",
     "dont": "",
@@ -352,7 +388,7 @@ const eosIcons = [
   },
   {
     "name": "cloud_computing",
-    "do": "<ul><li>Use it to indicate cloud computing services or status. Specifically, use it to inditate on-demand computer service resources in a high level fashion.</li></ul>",
+    "do": "<ul><li>Use it to indicate cloud computing services or status. Specifically, use it to inditate on-demand online services in a high level fashion.</li></ul>",
     "dont": "<ul><li>Don't use it for big data, storage, edge computing.</li></ul>",
     "tags": [
       "on-demand",
@@ -459,6 +495,28 @@ const eosIcons = [
     "category": "roles",
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "name": "code_deploy",
+    "do": "<ul><li>Use it to deploy code to your server/container.</li></ul>",
+    "dont": "<ul><li>Don't use it code coding or terminal.</li></ul>",
+    "tags": [
+      "establish",
+      "distribute",
+      "employ",
+      "code",
+      "software",
+      "application",
+      "install",
+      "parachute",
+      "release",
+      "eos"
+    ],
+    "category": "virtualization",
+    "type": "static",
+    "date": "16/08/2021",
+    "hasOutlined": true,
+    "dateOutlined": "16/08/2021"
   },
   {
     "name": "collocation",
