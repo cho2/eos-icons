@@ -351,6 +351,30 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "cloud_computing",
+    "do": "<ul><li>Use it to indicate cloud computing services or status. Specifically, use it to inditate on-demand computer service resources in a high level fashion.</li></ul>",
+    "dont": "<ul><li>Don't use it for big data, storage, edge computing.</li></ul>",
+    "tags": [
+      "on-demand",
+      "computer resource",
+      "cloud resource",
+      "computing power",
+      "cloud service",
+      "computing services",
+      "services",
+      "computing",
+      "servers",
+      "the cloud",
+      "infrastructure",
+      "eos"
+    ],
+    "category": "virtualization",
+    "type": "static",
+    "date": "23/08/2021",
+    "hasOutlined": true,
+    "dateOutlined": "23/08/2021"
+  },
+  {
     "name": "cloud_controller_manager",
     "do": "<ul><li>Use this icon to configure or control any type of cloud integration.</li></ul>",
     "dont": "<ul><li>Don't use it for other type of configuration.</li></ul>",
