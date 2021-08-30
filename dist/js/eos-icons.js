@@ -1064,23 +1064,6 @@ const eosIcons = [
     "dateOutlined": "14/04/2021"
   },
   {
-    "name": "hardware_circuit",
-    "do": "<ul><li>Use it to refer to boards or electric circuits.</li></ul>",
-    "dont": "<ul><li>Don't use it for CPU.</li></ul>",
-    "tags": [
-      "board",
-      "electric",
-      "electrical system",
-      "circuit board",
-      "integrated circuit",
-      "electrical structure",
-      "eos"
-    ],
-    "category": "hardware",
-    "type": "static",
-    "date": "8/24/2021"
-  },
-  {
     "name": "hourglass",
     "do": "<ul><li>Use it to indicate a process that is awaiting a response or action.</li></ul>",
     "dont": "<ul><li>Don't use it for loading as this icon may frustrate users who need the page to load quickly.</li></ul>",
