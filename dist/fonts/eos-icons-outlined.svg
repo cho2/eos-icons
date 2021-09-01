@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20190801 at Mon Aug 30 17:24:57 2021
+Created by FontForge 20190801 at Tue Aug 31 17:13:19 2021
  By Cynthia Sanchez
 </metadata>
 <defs>
@@ -18,7 +18,7 @@ Created by FontForge 20190801 at Mon Aug 30 17:24:57 2021
     bbox="-0.595506 -65.0333 512 448.5"
     underline-thickness="25"
     underline-position="-50"
-    unicode-range="U+0030-F81A"
+    unicode-range="U+0030-F81B"
   />
 <missing-glyph horiz-adv-x="187" 
 d="M17 0v341h136v-341h-136zM34 17h102v307h-102v-307z" />
@@ -466,6 +466,10 @@ t30 12.5t12.5 29.5v1v20v192v19v5q2 43 33 73t74 30q33 0 63 -22.5t39 -54.5q4 -14 5
 d="M118 256q0 9 6.5 15.5t15 6.5t15 -6.5t6.5 -15.5t-6.5 -15t-15 -6t-15 6t-6.5 15zM107 214q9 -1 15.5 -7t6.5 -15t-6.5 -15t-15.5 -6q-6 0 -11 3q-10 6 -10 18q0 6 3 11t8 8t10 3zM0 43v298q0 18 12.5 30.5t30.5 12.5h251l-43 -43h-209l1 -213h85q0 -26 19 -45t45 -19
 t45 19t19 45h85v123l43 42v-250q0 -18 -12.5 -30.5t-30.5 -12.5h-298q-18 0 -30.5 12.5t-12.5 30.5zM43 43h85q-22 17 -34 42h-51v-42zM341 43v42h-51q-12 -25 -34 -42h85zM233 297l17 -16l113 112l30 -30l-113 -113l18 -18q6 -6 3.5 -12.5t-10.5 -11.5l-18 -11l-8 -5h-1
 q0 10 -5 18t-13 13t-17 5h-1q-6 0 -12 -3q-4 9 -13.5 16t-18.5 9l25 41q4 8 11 10t13 -4zM150 192q0 9 6.5 15.5t14.5 6.5q6 0 11 -3t8 -8t3 -11q0 -9 -6.5 -15t-15 -6t-15 6t-6.5 15z" />
+    <glyph glyph-name="satellite_alt" unicode="satellite_alt" horiz-adv-x="463" 
+d="M453 182q10 -10 10 -25t-10 -25l-81 -80q-10 -11 -25 -11t-25 11l-63 62l-3 -3q-12 -12 -29.5 -12t-29.5 12l-16 16q16 -16 27 -42.5t11 -48t-11 -48.5t-27 -42l-80 80q-2 -4 -5 -7.5t-7 -5.5t-9 -3q-9 0 -15 6.5t-6 15.5q0 7 4.5 12.5t11.5 7.5l-75 75q16 16 42.5 26.5
+t48 10.5t48 -10.5t42.5 -26.5l-16 16q-12 12 -12 29.5t12 29.5l3 3l-62 63q-11 10 -11 25t11 25l80 81q10 10 25 10t25 -10l63 -63l18 18q13 12 30 12t29 -12l32 -32q12 -12 12 -29t-12 -30l-18 -18zM173 14q3 11 3 22q0 36 -25 61t-61 25q-11 0 -22 -3zM131 293l63 -63
+l80 80l-63 63zM226 143l2 2l25 25l81 81l25 25l18 17l-31 31l-17 -18l-25 -25l-81 -80l-25 -26l-2 -2zM347 77l80 80l-62 63l-81 -80z" />
     <glyph glyph-name="science" unicode="science" horiz-adv-x="384" 
 d="M213 235v149h-42v-149l-127 -203q-1 -2 -1 -4q0 -7 6 -7h285q7 0 7 7q0 2 -1 4zM85 427h214v-43h-43v-138l120 -192q8 -12 8 -26q0 -20 -14.5 -34.5t-35.5 -14.5h-285q-20 0 -34.5 14.5t-14.5 34.5q0 14 8 26l120 192v138h-43v43z" />
     <glyph glyph-name="scientist" unicode="scientist" horiz-adv-x="491" 

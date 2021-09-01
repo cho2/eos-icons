@@ -2101,6 +2101,23 @@ const eosIcons = [
     "dateOutlined": "20/04/2021"
   },
   {
+    "name": "satellite_alt",
+    "do": "<ul><li>n/a</li></ul>",
+    "dont": "<ul><li>n/a</li></ul>",
+    "tags": [
+      "communication",
+      "space station",
+      "space capsule",
+      "space",
+      "eos"
+    ],
+    "category": "maps",
+    "type": "static",
+    "date": "8/27/2021",
+    "hasOutlined": true,
+    "dateOutlined": "8/27/2021"
+  },
+  {
     "name": "science",
     "do": "<ul><li> </li></ul>",
     "dont": "<ul><li> </li></ul>",
