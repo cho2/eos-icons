@@ -34,6 +34,7 @@
     "xcode": "^2.1.0"
   },
   "scripts": {
+    "postinstall": "npx husky install",
     "build": "grunt",
     "js:fix": "eslint scripts/ --fix",
     "format": "prettier --write .",
