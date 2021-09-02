@@ -6,11 +6,11 @@ module.exports.main = (subject) => {
   if (elementIncludedInArray(subject, GIT_COMMIT_PREFIXES).length === 1) {
     // If it's a majo release, ask for confirmation
     if (
-      elementIncludedInArray(subject, GIT_COMMIT_PREFIXES)[0] === 'Breaking'
+      elementIncludedInArray(subject, GIT_COMMIT_PREFIXES)[0] === 'Breaking:'
     ) {
       return process.stdout.write(`isBreaking`)
     } else if (
-      elementIncludedInArray(subject, GIT_COMMIT_PREFIXES)[0] === 'New'
+      elementIncludedInArray(subject, GIT_COMMIT_PREFIXES)[0] === 'New:'
     ) {
       return process.stdout.write(`isNew`)
     } else {
