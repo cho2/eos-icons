@@ -138,6 +138,25 @@ const compareObjects = ({ first, second }) => {
   })
 }
 
+/**
+ * Takes an string as KEY and an ARRAY to checked with and returns the list of matches
+ * @param {string} key string as the key to scan for.
+ * @param {array} array array with values, ex: ['ux', 'a11y', 'ops']
+ * @returns {array} array with matches elements
+ */
+const elementIncludedInArray = (key, array) => {
+  if (!key || !array || array.length === 0)
+    throw Error('Key or Array was not provided')
+
+  return array
+    .map((ele) => {
+      if (ele === '') throw Error('Element in array is empty')
+      if (`${key.toLocaleLowerCase()}`.startsWith(ele.toLocaleLowerCase()))
+        return ele
+    })
+    .filter((ele) => ele !== undefined)
+}
+
 module.exports = {
   jsFileFromJSON,
   readFilesNameInFolder,
@@ -145,5 +164,6 @@ module.exports = {
   readFilesContentInFolder,
   compareObjects,
   readDirectoryFilesContent,
-  readFileContent
+  readFileContent,
+  elementIncludedInArray
 }
