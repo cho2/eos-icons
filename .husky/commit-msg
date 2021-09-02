@@ -31,7 +31,7 @@ then
     y|Y) echo "✅ ${GREEN} Thanks for the confirmation. Moving on with your commit\n"
     exit 0 ;;
   esac
-elif ["$testResult" = "isNew" ]
+elif [ "$testResult" = "isNew" ]
 then
  # If the condition it's true, we requiere the user to specify the next action (move on or abort)
   printf "${RED}***=== YOU'RE ABOUT TO COMMIT A MINOR RELEASE ${NC} ===***\n"

@@ -10,7 +10,8 @@ module.exports.main = (subject) => {
     ) {
       return process.stdout.write(`isBreaking`)
     } else if (
-      elementIncludedInArray(subject, GIT_COMMIT_PREFIXES)[0] === 'New:'
+      (elementIncludedInArray(subject, GIT_COMMIT_PREFIXES)[0] === 'New:') |
+      'Update:'
     ) {
       return process.stdout.write(`isNew`)
     } else {
