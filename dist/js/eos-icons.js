@@ -262,6 +262,22 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "augmented_reality",
+    "do": "<ul><li>Use this icon for augmented reality applications or software</li></ul>",
+    "dont": "<ul><li>Don't use it for virtual reality</li></ul>",
+    "tags": [
+      "ar",
+      "real world",
+      "interactive",
+      "real life",
+      "experience",
+      "eos"
+    ],
+    "category": "augmented reality",
+    "type": "static",
+    "date": "9/2/2021"
+  },
+  {
     "name": "autoinstallation",
     "do": "<ul><li>To represent an autoinstallation process.</li></ul>",
     "dont": "<ul><li>To represent a downloading processs.</li></ul>",
