@@ -1,20 +1,15 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-# Test for breaking
-filename=$1
-testResult=""
-
 # Colors for terminal output
 RED='\033[0;31m'
 GREEN='\033[1;32m'
 YELLOW='\033[0;33m'
 
-# Open and read the pre-commit message from Git Hooks
-while read line; do
-  val=$(node -e "require('./test/git-commit-checker.js').main('${line}')")
-  testResult="$val"
-done < $filename
+# Read first line of the file
+fileContent=$(head -n 1 $1)
+# Evaluate the first line of the file
+testResult=$(node -e "require('./test/git-commit-checker.js').main('${fileContent}')")
 
 # Test if the result if matches the condition
 if [ "$testResult" = "isBreaking" ]
