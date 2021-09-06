@@ -36,7 +36,7 @@
     const tabName = document.getElementsByClassName('icons-tab')
     const targetName =
       e.target.getAttribute('data-name') ||
-      e.target.parentNode.getAttribute('data-name')
+      e.target.nextSibling.getAttribute('data-name')
     for (let i = 0; i < tabName.length; i++) {
       tabName[i].className = 'icons-tab'
     }
