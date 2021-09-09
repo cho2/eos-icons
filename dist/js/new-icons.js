@@ -72,9 +72,9 @@
             date[2],
             date[1],
             date[0]
-          ).toLocaleDateString()
+          )
 
-          if (itemDate < tagRelease.toLocaleDateString()) return ele
+          if (itemDate > tagRelease) return ele
         })
 
         // Removes the preview wrap if no new icons are found
