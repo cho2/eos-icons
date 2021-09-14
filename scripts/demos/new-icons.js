@@ -36,7 +36,7 @@
     const tabName = document.getElementsByClassName('icons-tab')
     const targetName =
       e.target.getAttribute('data-name') ||
-      e.target.parentNode.getAttribute('data-name')
+      e.target.nextSibling.getAttribute('data-name')
     for (let i = 0; i < tabName.length; i++) {
       tabName[i].className = 'icons-tab'
     }
@@ -68,13 +68,9 @@
         const newIconsList = eosIcons.filter((ele) => {
           if (!ele[isOutlined]) return
           const date = ele[isOutlined].split('/')
-          const itemDate = new Date(
-            date[2],
-            date[1],
-            date[0]
-          ).toLocaleDateString()
+          const itemDate = new Date(date[2], date[1], date[0])
 
-          if (itemDate < tagRelease.toLocaleDateString()) return ele
+          if (itemDate > tagRelease) return ele
         })
 
         // Removes the preview wrap if no new icons are found

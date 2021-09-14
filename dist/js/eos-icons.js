@@ -262,6 +262,22 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "augmented_reality",
+    "do": "<ul><li>Use this icon for augmented reality applications or software</li></ul>",
+    "dont": "<ul><li>Don't use it for virtual reality</li></ul>",
+    "tags": [
+      "ar",
+      "real world",
+      "interactive",
+      "real life",
+      "experience",
+      "eos"
+    ],
+    "category": "augmented reality",
+    "type": "static",
+    "date": "9/2/2021"
+  },
+  {
     "name": "autoinstallation",
     "do": "<ul><li>To represent an autoinstallation process.</li></ul>",
     "dont": "<ul><li>To represent a downloading processs.</li></ul>",
@@ -922,6 +938,21 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "drone",
+    "do": "<ul><li>Use it for aerial remote controlled vehicles or aircrafts.</li></ul>",
+    "dont": "<ul><li>na</li></ul>",
+    "tags": [
+      "aircraft",
+      "UAV",
+      "fly",
+      "remote controlled",
+      "eos"
+    ],
+    "category": "hardware",
+    "type": "static",
+    "date": "9/14/2021"
+  },
+  {
     "name": "edge_computing",
     "do": "<ul><li>Use to represent edge computing.</li></ul>",
     "dont": "<ul><li>Don't use to represent physical devices such as hard drives.</li></ul>",
@@ -1062,6 +1093,23 @@ const eosIcons = [
     "date": "30/11/2020",
     "hasOutlined": true,
     "dateOutlined": "14/04/2021"
+  },
+  {
+    "name": "hardware_circuit",
+    "do": "<ul><li>Use it to refer to boards or electric circuits.</li></ul>",
+    "dont": "<ul><li>Don't use it for CPU.</li></ul>",
+    "tags": [
+      "board",
+      "electric",
+      "electrical system",
+      "circuit board",
+      "integrated circuit",
+      "electrical structure",
+      "eos"
+    ],
+    "category": "hardware",
+    "type": "static",
+    "date": "8/24/2021"
   },
   {
     "name": "hourglass",
@@ -2082,6 +2130,23 @@ const eosIcons = [
     "date": "30/11/2020",
     "hasOutlined": true,
     "dateOutlined": "20/04/2021"
+  },
+  {
+    "name": "satellite_alt",
+    "do": "<ul><li>n/a</li></ul>",
+    "dont": "<ul><li>n/a</li></ul>",
+    "tags": [
+      "communication",
+      "space station",
+      "space capsule",
+      "space",
+      "eos"
+    ],
+    "category": "maps",
+    "type": "static",
+    "date": "8/27/2021",
+    "hasOutlined": true,
+    "dateOutlined": "8/27/2021"
   },
   {
     "name": "science",
