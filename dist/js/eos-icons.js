@@ -938,6 +938,22 @@ const eosIcons = [
     "date": "30/11/2020"
   },
   {
+    "name": "drone",
+    "do": "<ul><li>Use it for aerial remote controlled vehicles or aircrafts.</li></ul>",
+    "dont": "<ul><li>n/a</li></ul>",
+    "tags": [
+      "aircraft",
+      "UAV",
+      "fly",
+      "remote controlled",
+      "RC",
+      "eos"
+    ],
+    "category": "hardware",
+    "type": "static",
+    "date": "9/14/2021"
+  },
+  {
     "name": "edge_computing",
     "do": "<ul><li>Use to represent edge computing.</li></ul>",
     "dont": "<ul><li>Don't use to represent physical devices such as hard drives.</li></ul>",

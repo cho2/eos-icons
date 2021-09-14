@@ -68,11 +68,7 @@
         const newIconsList = eosIcons.filter((ele) => {
           if (!ele[isOutlined]) return
           const date = ele[isOutlined].split('/')
-          const itemDate = new Date(
-            date[2],
-            date[1],
-            date[0]
-          )
+          const itemDate = new Date(date[2], date[1], date[0])
 
           if (itemDate > tagRelease) return ele
         })
