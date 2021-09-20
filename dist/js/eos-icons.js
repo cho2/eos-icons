@@ -1080,6 +1080,24 @@ const eosIcons = [
     "dateOutlined": "14/04/2021"
   },
   {
+    "name": "genomic",
+    "do": "<ul><li>Use it to indicate any process, tool, or action/topic related to the study of genetics.</li></ul>",
+    "dont": "<ul><li>n/a</li></ul>",
+    "tags": [
+      "genetic",
+      "genome",
+      "DNA",
+      "structure",
+      "function",
+      "mappings",
+      "genes",
+      "eos"
+    ],
+    "category": "social",
+    "type": "static",
+    "date": "14/09/2021"
+  },
+  {
     "name": "hardware_circuit",
     "do": "<ul><li>Use it to refer to boards or electric circuits.</li></ul>",
     "dont": "<ul><li>Don't use it for CPU.</li></ul>",
