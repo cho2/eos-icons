@@ -38,21 +38,3 @@ update:rubygem:
     strategy: depend
   only:
     - master
-
-update:iconspage:
-  stage: publish_external
-  needs: ['npm_publish']
-  trigger:
-    project: SUSE-UIUX/eos-icons-landing
-    strategy: depend
-  only:
-    - master
-
-update:iconpicker:
-  stage: publish_external
-  needs: ['npm_publish']
-  trigger:
-    project: SUSE-UIUX/eos-icon-picker
-    strategy: depend
-  only:
-    - master
