@@ -2873,6 +2873,25 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "123",
+    "name": "123",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "digits",
+      "numbers",
+      "one",
+      "two",
+      "three"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
+  },
+  {
     "name": "12mp",
     "do": "",
     "dont": "",
@@ -4430,6 +4449,23 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "abc",
+    "name": "abc",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alphabet",
+      "letters",
+      "text"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
+  },
+  {
     "name": "ac_unit",
     "do": "",
     "dont": "",
@@ -4844,6 +4880,28 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "add_card",
+    "name": "add_card",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "charge",
+      "money",
+      "pay",
+      "information",
+      "payment",
+      "credit",
+      "card",
+      "info"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
+  },
+  {
     "name": "add_chart",
     "do": "",
     "dont": "",
@@ -5250,6 +5308,29 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "adf_scanner",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "digital",
+      "electronic",
+      "image",
+      "printers",
+      "fax",
+      "photocopiers",
+      "automatic",
+      "document"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "fileName": "adjust",
     "name": "adjust",
     "do": "",
@@ -5503,6 +5584,50 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "airline_stops",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direct",
+      "flight",
+      "fly",
+      "plane",
+      "international",
+      "global"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "airlines",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direct",
+      "flight",
+      "fly",
+      "plane",
+      "international",
+      "global",
+      "Airplane",
+      "transports"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "airplane_ticket",
@@ -6150,6 +6275,25 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "app_shortcut",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "application",
+      "communicate",
+      "development",
+      "mobile"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "approval",
     "do": "",
     "dont": "",
@@ -6191,6 +6335,26 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "fileName": "apps_outage",
+    "name": "apps_outage",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "server",
+      "down",
+      "services",
+      "interface",
+      "application",
+      "cancel"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "fileName": "architecture",
@@ -6305,6 +6469,44 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "name": "arrow_circle_left",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "left",
+      "right",
+      "arrows"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "arrow_circle_right",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "direction",
+      "up",
+      "right",
+      "arrows"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "fileName": "arrow_circle_up",
@@ -6752,6 +6954,26 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "assured_workload",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "sure",
+      "approval",
+      "completed",
+      "confirm",
+      "positive"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "atm",
     "do": "",
     "dont": "",
@@ -6928,6 +7150,27 @@
     "date": "03/03/2021",
     "hasOutlined": true,
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "audio_file",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "audio",
+      "music",
+      "note",
+      "document",
+      "format",
+      "mp3"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "08/11/2021"
   },
   {
     "name": "audiotrack",
@@ -7386,6 +7629,24 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "balance",
+    "name": "balance",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "justice",
+      "law",
+      "scale",
+      "weight"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
     "fileName": "balcony",
     "name": "balcony",
     "do": "",
@@ -7772,6 +8033,25 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "bedtime_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "snoozle",
+      "sleep",
+      "slumbertime",
+      "night"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "beenhere",
@@ -8548,6 +8828,24 @@
     "date": "30/11/2020"
   },
   {
+    "fileName": "boy",
+    "name": "boy",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "avatar",
+      "son",
+      "people",
+      "person"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
     "name": "branding_watermark",
     "do": "",
     "dont": "",
@@ -8770,6 +9068,23 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "name": "browser_updated",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "laptop",
+      "website"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "brunch_dining",
@@ -9678,6 +9993,29 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "candlestick_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "brokerage",
+      "candle",
+      "forex",
+      "business",
+      "finance",
+      "graph",
+      "investment",
+      "stocks"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "car_rental",
     "do": "",
     "dont": "",
@@ -9953,6 +10291,29 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "castle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "architecture",
+      "building",
+      "fort",
+      "fortification",
+      "history",
+      "medieval",
+      "place",
+      "fantasy"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "fileName": "catching_pokemon",
@@ -10441,6 +10802,33 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "church",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "engagement",
+      "mariage",
+      "wedding",
+      "ctholic",
+      "celebration",
+      "easter",
+      "bible",
+      "god",
+      "pray",
+      "prayer",
+      "religion",
+      "temple"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "circle_notifications",
     "do": "",
     "dont": "",
@@ -10738,6 +11126,29 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "cloud_sync",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cloud",
+      "server",
+      "storage",
+      "remote",
+      "off",
+      "abort",
+      "omit",
+      "remove"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "cloud_upload",
     "do": "",
     "dont": "",
@@ -10760,6 +11171,47 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "co2",
+    "name": "co2",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "carbon",
+      "cloud",
+      "co2",
+      "dioxide",
+      "environment",
+      "ecology",
+      "pollution"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "name": "co_present",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "teaching",
+      "operation",
+      "work",
+      "coordinate",
+      "coordination"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "fileName": "code",
@@ -10981,6 +11433,26 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "comments_disabled",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Comment",
+      "note",
+      "bubble",
+      "document",
+      "doc"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "commute",
     "do": "",
     "dont": "",
@@ -11189,6 +11661,27 @@
     "date": "03/03/2021",
     "hasOutlined": true,
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "connecting_airports",
+    "name": "connecting_airports",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "connection",
+      "global",
+      "transportation",
+      "plan",
+      "flight",
+      "link",
+      "networking"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "fileName": "construction",
@@ -11406,6 +11899,25 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "content_paste_go",
+    "name": "content_paste_go",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "text",
+      "edit",
+      "editor",
+      "writing",
+      "clipboard"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
     "fileName": "content_paste_off",
     "name": "content_paste_off",
     "do": "",
@@ -11423,6 +11935,44 @@
     "type": "static",
     "label": "None",
     "date": "03/03/2021"
+  },
+  {
+    "fileName": "content_paste_search",
+    "name": "content_paste_search",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "text",
+      "edit",
+      "editor",
+      "find"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "contrast",
+    "name": "contrast",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "light",
+      "dark",
+      "shadow",
+      "Control",
+      "adjust",
+      "camera"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "name": "control_camera",
@@ -11467,6 +12017,31 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "cookie",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "biscuits",
+      "treat",
+      "privacy",
+      "compliance",
+      "data",
+      "security",
+      "web",
+      "cached",
+      "internet",
+      "policy"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "fileName": "copy_all",
@@ -11948,6 +12523,187 @@
     "dateOutlined": "28/04/2021"
   },
   {
+    "fileName": "css",
+    "name": "css",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "digital",
+      "extension",
+      "file",
+      "format",
+      "cascading style sheet",
+      "document"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
+  },
+  {
+    "fileName": "currency_exchange",
+    "name": "currency_exchange",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cash",
+      "finance",
+      "money",
+      "coin",
+      "billing",
+      "payment",
+      "trading"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "currency_franc",
+    "name": "currency_franc",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cash",
+      "finance",
+      "money",
+      "coin",
+      "payment",
+      "bills"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "currency_lira",
+    "name": "currency_lira",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cash",
+      "finance",
+      "money",
+      "coin",
+      "payment",
+      "bills"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "currency_pound",
+    "name": "currency_pound",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cash",
+      "finance",
+      "money",
+      "coin",
+      "payment",
+      "bills"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "currency_ruble",
+    "name": "currency_ruble",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cash",
+      "finance",
+      "money",
+      "coin",
+      "payment",
+      "bills"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "currency_rupee",
+    "name": "currency_rupee",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cash",
+      "finance",
+      "money",
+      "coin",
+      "payment",
+      "bills"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "currency_yen",
+    "name": "currency_yen",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cash",
+      "finance",
+      "money",
+      "coin",
+      "payment",
+      "bills"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "currency_yuan",
+    "name": "currency_yuan",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cash",
+      "finance",
+      "money",
+      "coin",
+      "payment",
+      "bills"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
     "name": "dangerous",
     "do": "",
     "dont": "",
@@ -12036,6 +12792,30 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "data_array",
+    "name": "data_array",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "file",
+      "javascript",
+      "json",
+      "brakets",
+      "code",
+      "coding",
+      "computer",
+      "application",
+      "development",
+      "programming"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
     "name": "data_exploration",
     "do": "",
     "dont": "",
@@ -12053,6 +12833,31 @@
     "date": "28/04/2021",
     "hasOutlined": true,
     "dateOutlined": "28/04/2021"
+  },
+  {
+    "fileName": "data_object",
+    "name": "data_object",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "file",
+      "javascript",
+      "json",
+      "curly",
+      "braces",
+      "code",
+      "coding",
+      "computer",
+      "application",
+      "development",
+      "programming"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "fileName": "data_saver_on",
@@ -12125,6 +12930,24 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "deblur",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photography",
+      "photo",
+      "bokeh"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "deck",
@@ -12626,6 +13449,50 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "name": "diamond",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "gift",
+      "present",
+      "jewel",
+      "precious",
+      "rare",
+      "treasure",
+      "engagement",
+      "stone",
+      "wedding"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "difference",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "contrast",
+      "graphic",
+      "split",
+      "merge",
+      "separated"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "08/11/2021"
   },
   {
     "name": "dining",
@@ -13175,6 +14042,30 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "fileName": "domain_add",
+    "name": "domain_add",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Domain",
+      "building",
+      "disabled",
+      "enabled",
+      "internet",
+      "off",
+      "on",
+      "slash",
+      "web",
+      "website"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "name": "domain_disabled",
@@ -14184,6 +15075,50 @@
     "date": "30/11/2020"
   },
   {
+    "name": "egg",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "food",
+      "kitchen",
+      "breakfast",
+      "meal",
+      "omelet",
+      "fried",
+      "cooking"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "egg_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "food",
+      "kitchen",
+      "breakfast",
+      "meal",
+      "omelet",
+      "fried",
+      "cooking"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "eject",
     "do": "",
     "dont": "",
@@ -14216,6 +15151,23 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "fileName": "elderly_woman",
+    "name": "elderly_woman",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "old",
+      "retired",
+      "aging"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "fileName": "electric_bike",
@@ -14892,6 +15844,31 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "event_repeat",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "seat",
+      "chair",
+      "reservation",
+      "assigned",
+      "section",
+      "row",
+      "event",
+      "assign",
+      "recurring",
+      "agenda"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "08/11/2021"
+  },
+  {
     "name": "event_seat",
     "do": "",
     "dont": "",
@@ -14955,6 +15932,28 @@
     "date": "03/03/2021",
     "hasOutlined": true,
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "expand_circle_down",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "compress",
+      "expand",
+      "grow",
+      "move",
+      "push"
+    ],
+    "category": [
+      "navigation"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "explicit",
@@ -15415,6 +16414,32 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "fax",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "paper",
+      "print",
+      "printer",
+      "printing",
+      "office",
+      "phone",
+      "documents",
+      "connection",
+      "contact",
+      "machine",
+      "device"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "featured_play_list",
     "do": "",
     "dont": "",
@@ -15751,6 +16776,29 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "file_open",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "content",
+      "arrow down",
+      "folder",
+      "storage",
+      "document",
+      "on",
+      "off",
+      "save"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "file_present",
     "do": "",
     "dont": "",
@@ -16000,6 +17048,25 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "filter_alt_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "filter",
+      "funnel",
+      "refine",
+      "sift"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "fileName": "filter_b_and_w",
     "name": "filter_b_and_w",
     "do": "",
@@ -16111,6 +17178,25 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "fileName": "filter_list_off",
+    "name": "filter_list_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "filter",
+      "organize",
+      "find",
+      "sort",
+      "list"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "fileName": "filter_none",
@@ -16324,6 +17410,28 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "fitbit",
+    "name": "fitbit",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "technology",
+      "clock",
+      "watch",
+      "fitness",
+      "gadget",
+      "sport",
+      "health",
+      "weight"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
     "name": "fitness_center",
     "do": "",
     "dont": "",
@@ -16363,6 +17471,28 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "flag_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "country",
+      "flag",
+      "goal",
+      "nation",
+      "report",
+      "start",
+      "mark"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "flaky",
@@ -16533,6 +17663,33 @@
     "type": "static",
     "label": "None",
     "date": "03/03/2021"
+  },
+  {
+    "name": "flight_class",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "plane",
+      "flight",
+      "fly",
+      "landing",
+      "arrival",
+      "land",
+      "arriving",
+      "travel",
+      "transportation",
+      "first",
+      "economy",
+      "business"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "flight_land",
@@ -16798,6 +17955,48 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "folder_delete",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "folder",
+      "file",
+      "open",
+      "cancel",
+      "remove",
+      "storage"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "folder_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "folder",
+      "file",
+      "open",
+      "cancel",
+      "remove",
+      "storage"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "08/11/2021"
+  },
+  {
     "fileName": "folder_open",
     "name": "folder_open",
     "do": "",
@@ -16851,6 +18050,28 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "folder_zip",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "portfolio",
+      "data",
+      "directory",
+      "documents",
+      "repository",
+      "compact",
+      "compressed"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "fileName": "follow_the_signs",
@@ -16928,6 +18149,26 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "forest",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "nature",
+      "place",
+      "tree",
+      "landscape",
+      "ecology"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "fileName": "format_align_center",
@@ -17362,6 +18603,33 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "format_overline",
+    "name": "format_overline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "editor",
+      "color",
+      "edit",
+      "paint",
+      "fill",
+      "type",
+      "editing",
+      "writing",
+      "doc",
+      "sheet",
+      "style",
+      "text",
+      "speadsheet"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
     "name": "format_paint",
     "do": "",
     "dont": "",
@@ -17587,6 +18855,25 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "name": "fort",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "castle",
+      "fortress",
+      "medieval",
+      "palace"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "forum",
@@ -18055,6 +19342,52 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "gif_box",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "symbol",
+      "character",
+      "gif",
+      "bitmap",
+      "letter",
+      "animated",
+      "graphics interchange format",
+      "alphabet",
+      "text",
+      "type",
+      "animation",
+      "font"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "fileName": "girl",
+    "name": "girl",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "female",
+      "gender",
+      "woman",
+      "avatar",
+      "person"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "fileName": "gite",
@@ -18548,6 +19881,25 @@
     "date": "28/04/2021",
     "hasOutlined": true,
     "dateOutlined": "28/04/2021"
+  },
+  {
+    "name": "group_remove",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disabled",
+      "users",
+      "people",
+      "cancel"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "group_work",
@@ -19173,6 +20525,28 @@
     "date": "30/11/2020"
   },
   {
+    "name": "heart_broken",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "break",
+      "heartache",
+      "heartbreak",
+      "lover",
+      "reject",
+      "cry",
+      "relationship"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "fileName": "height",
     "name": "height",
     "do": "",
@@ -19263,6 +20637,26 @@
     "type": "static",
     "label": "None",
     "date": "03/03/2021"
+  },
+  {
+    "name": "hexagon",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "shape",
+      "geometrical",
+      "polygon",
+      "sided",
+      "Cell"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "hide_image",
@@ -19504,6 +20898,70 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "name": "hive",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bee",
+      "farm",
+      "abstract",
+      "flower",
+      "nature",
+      "beekeeper",
+      "honeycomb",
+      "insect",
+      "honey",
+      "sting",
+      "bumblebee"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "fileName": "hls",
+    "name": "hls",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "live",
+      "streaming",
+      "protocol",
+      "communications"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
+  },
+  {
+    "fileName": "hls_off",
+    "name": "hls_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "live",
+      "streaming",
+      "protocol",
+      "communications",
+      "disabled",
+      "cancel"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
   },
   {
     "name": "holiday_village",
@@ -19967,6 +21425,30 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "html",
+    "name": "html",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "website",
+      "coding",
+      "html",
+      "programming",
+      "tag",
+      "web",
+      "browser",
+      "source",
+      "technology",
+      "design"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
+  },
+  {
     "fileName": "http",
     "name": "http",
     "do": "",
@@ -19989,6 +21471,30 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "name": "hub",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "central",
+      "connection",
+      "server",
+      "spoke",
+      "node",
+      "network",
+      "visualisation",
+      "correlation",
+      "data"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "hvac",
@@ -20460,6 +21966,28 @@
     "date": "30/11/2020"
   },
   {
+    "name": "insert_page_break",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "images",
+      "mountain",
+      "collection",
+      "media",
+      "photos",
+      "photography",
+      "document"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "insert_photo",
     "do": "",
     "dont": "",
@@ -20495,6 +22023,46 @@
     "date": "30/11/2020"
   },
   {
+    "fileName": "install_desktop",
+    "name": "install_desktop",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "download",
+      "import",
+      "repair",
+      "software",
+      "computer"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "name": "install_mobile",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "download",
+      "import",
+      "repair",
+      "software"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "integration_instructions",
     "do": "",
     "dont": "",
@@ -20518,6 +22086,46 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "interests",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "hobbies",
+      "skill",
+      "love",
+      "favourite"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "interpreter_mode",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "translator",
+      "languages",
+      "expert",
+      "professional",
+      "bilingual",
+      "speak"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "inventory",
@@ -20673,6 +22281,126 @@
     "date": "30/11/2020"
   },
   {
+    "fileName": "javascript",
+    "name": "javascript",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "website",
+      "coding",
+      "html",
+      "programming",
+      "tag",
+      "web",
+      "browser",
+      "source",
+      "technology",
+      "design"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
+  },
+  {
+    "fileName": "join_full",
+    "name": "join_full",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "complementary",
+      "include",
+      "circle",
+      "add",
+      "combine",
+      "interface",
+      "merge",
+      "puzzle",
+      "supplement"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "join_inner",
+    "name": "join_inner",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "complementary",
+      "include",
+      "circle",
+      "add",
+      "combine",
+      "interface",
+      "merge",
+      "puzzle",
+      "supplement"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "join_left",
+    "name": "join_left",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "complementary",
+      "include",
+      "circle",
+      "add",
+      "combine",
+      "interface",
+      "merge",
+      "puzzle",
+      "supplement",
+      "side",
+      "right"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "join_right",
+    "name": "join_right",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "complementary",
+      "include",
+      "circle",
+      "add",
+      "combine",
+      "interface",
+      "merge",
+      "puzzle",
+      "supplement",
+      "side",
+      "left"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
     "fileName": "kayaking",
     "name": "kayaking",
     "do": "",
@@ -20697,6 +22425,66 @@
     "type": "static",
     "label": "None",
     "date": "03/03/2021"
+  },
+  {
+    "name": "kebab_dining",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "chicken",
+      "shish",
+      "kebab",
+      "minced",
+      "grilled",
+      "meat",
+      "food"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "fileName": "key",
+    "name": "key",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "blackout",
+      "restricted",
+      "secret",
+      "unlock"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "name": "key_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "blackout",
+      "restricted",
+      "secret",
+      "unlock",
+      "cancel"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "08/11/2021"
   },
   {
     "name": "keyboard",
@@ -20866,6 +22654,122 @@
     "date": "30/11/2020"
   },
   {
+    "fileName": "keyboard_command_key",
+    "name": "keyboard_command_key",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "apple",
+      "access",
+      "cmd",
+      "computer",
+      "control",
+      "interface"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "keyboard_control_key",
+    "name": "keyboard_control_key",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "ctrl",
+      "access",
+      "cmd",
+      "computer",
+      "control",
+      "interface"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "keyboard_double_arrow_down",
+    "name": "keyboard_double_arrow_down",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cmd",
+      "computer",
+      "control",
+      "interface",
+      "directions"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "keyboard_double_arrow_left",
+    "name": "keyboard_double_arrow_left",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cmd",
+      "computer",
+      "control",
+      "interface",
+      "directions"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "keyboard_double_arrow_right",
+    "name": "keyboard_double_arrow_right",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cmd",
+      "computer",
+      "control",
+      "interface",
+      "directions"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "fileName": "keyboard_double_arrow_up",
+    "name": "keyboard_double_arrow_up",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cmd",
+      "computer",
+      "control",
+      "interface",
+      "directions"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
     "name": "keyboard_hide",
     "do": "",
     "dont": "",
@@ -20886,6 +22790,25 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "keyboard_option_key",
+    "name": "keyboard_option_key",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alt",
+      "computer",
+      "control",
+      "interface",
+      "directions"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "name": "keyboard_return",
@@ -21086,6 +23009,27 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "lan",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "computer",
+      "network",
+      "ethernet",
+      "connection",
+      "local",
+      "device"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "landscape",
@@ -21567,6 +23511,24 @@
     "date": "03/03/2021",
     "hasOutlined": true,
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "line_axis",
+    "name": "line_axis",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "chart",
+      "finance"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "fileName": "line_style",
@@ -22563,6 +24525,30 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "lock_reset",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "private",
+      "safe",
+      "lock",
+      "privacy",
+      "connection",
+      "locked",
+      "secure",
+      "key",
+      "https"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "fileName": "login",
     "name": "login",
     "do": "",
@@ -22581,6 +24567,23 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "fileName": "logo_dev",
+    "name": "logo_dev",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "code",
+      "development",
+      "programming"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "name": "logout",
@@ -22944,6 +24947,25 @@
     "type": "static",
     "label": "None",
     "date": "03/03/2021"
+  },
+  {
+    "fileName": "man",
+    "name": "man",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "boy",
+      "gender",
+      "male",
+      "avatar",
+      "portrait"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "name": "manage_accounts",
@@ -23314,6 +25336,28 @@
     "date": "03/03/2021",
     "hasOutlined": true,
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "medication_liquid",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "drug",
+      "emergency",
+      "hospital",
+      "medication",
+      "medicine",
+      "pharmacy",
+      "prescription"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "meeting_room",
@@ -23852,6 +25896,29 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "mode_of_travel",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "airplane",
+      "flight",
+      "fly",
+      "transportation",
+      "plane",
+      "transport",
+      "travel",
+      "destination"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "fileName": "mode_standby",
     "name": "mode_standby",
     "do": "",
@@ -24008,6 +26075,28 @@
     "date": "03/03/2021",
     "hasOutlined": true,
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "monitor_heart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "body",
+      "device",
+      "diet",
+      "health",
+      "monitor",
+      "scale",
+      "smart"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "monitor_weight",
@@ -24181,6 +26270,29 @@
     "date": "30/11/2020"
   },
   {
+    "name": "mosque",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "religion",
+      "belief",
+      "cultures",
+      "muslim",
+      "ramadan",
+      "architecture",
+      "prayer",
+      "god"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "motion_photos_auto",
     "do": "",
     "dont": "",
@@ -24301,6 +26413,25 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "move_down",
+    "name": "move_down",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "cube",
+      "up",
+      "direction",
+      "navigation"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
     "name": "move_to_inbox",
     "do": "",
     "dont": "",
@@ -24320,6 +26451,25 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "move_up",
+    "name": "move_up",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "cube",
+      "down",
+      "direction",
+      "navigation"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "name": "movie",
@@ -24825,6 +26975,30 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "newspaper",
+    "name": "newspaper",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "articles",
+      "press",
+      "news",
+      "journalism",
+      "release",
+      "promotion",
+      "publication",
+      "content",
+      "media",
+      "print"
+    ],
+    "category": [
+      "file"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
   },
   {
     "name": "next_plan",
@@ -25668,6 +27842,26 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "numbers",
+    "name": "numbers",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "dial",
+      "keypad",
+      "digit",
+      "hash",
+      "format",
+      "formatting"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
     "name": "offline_bolt",
     "do": "",
     "dont": "",
@@ -26466,6 +28660,47 @@
     "date": "30/11/2020"
   },
   {
+    "name": "pentagon",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "shape",
+      "figure",
+      "form",
+      "geometry"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "percent",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "discount",
+      "percentage",
+      "sale",
+      "shopping",
+      "credit",
+      "money",
+      "interest rate"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "perm_camera_mic",
     "do": "",
     "dont": "",
@@ -26890,6 +29125,29 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "name": "phishing",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "password",
+      "scam",
+      "crime",
+      "cyber",
+      "email",
+      "hack",
+      "internet",
+      "malware"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "phone",
@@ -27457,6 +29715,30 @@
     "date": "30/11/2020"
   },
   {
+    "fileName": "php",
+    "name": "php",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "website",
+      "coding",
+      "html",
+      "programming",
+      "tag",
+      "web",
+      "browser",
+      "source",
+      "technology",
+      "design"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
+  },
+  {
     "fileName": "piano",
     "name": "piano",
     "do": "",
@@ -27684,6 +29966,26 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "pinch",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "gesture",
+      "hand",
+      "swipe",
+      "touch",
+      "zoom"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "pivot_table_chart",
     "do": "",
     "dont": "",
@@ -27719,6 +30021,24 @@
     "date": "03/03/2021",
     "hasOutlined": true,
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "pix",
+    "name": "pix",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "photos",
+      "pictures",
+      "images",
+      "photography"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "name": "plagiarism",
@@ -27896,6 +30216,52 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "playlist_add_check_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "play",
+      "Playlist",
+      "music",
+      "checkmark",
+      "check",
+      "collection",
+      "list"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "playlist_add_circle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "play",
+      "Playlist",
+      "music",
+      "checkmark",
+      "check",
+      "collection",
+      "list"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "playlist_play",
     "do": "",
     "dont": "",
@@ -27913,6 +30279,27 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "playlist_remove",
+    "name": "playlist_remove",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "play",
+      "Playlist",
+      "music",
+      "collection",
+      "list",
+      "cancel",
+      "delete"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
   },
   {
     "fileName": "plumbing",
@@ -28599,6 +30986,24 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "punch_clock",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "alarm",
+      "timer",
+      "watch"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "fileName": "qr_code",
     "name": "qr_code",
     "do": "",
@@ -28676,6 +31081,27 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "question_mark",
+    "name": "question_mark",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "answer",
+      "question",
+      "bubble",
+      "speech",
+      "converse",
+      "talk",
+      "conversation"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
   },
   {
     "name": "queue_music",
@@ -29165,6 +31591,27 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "rectangle",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "block",
+      "layout",
+      "rectangle",
+      "square",
+      "shape",
+      "geometry"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "fileName": "recycling",
@@ -30084,6 +32531,24 @@
     "date": "30/11/2020"
   },
   {
+    "name": "rotate_90_degrees_cw",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "camera",
+      "setting",
+      "image"
+    ],
+    "category": [
+      "image"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "fileName": "rotate_left",
     "name": "rotate_left",
     "do": "",
@@ -30489,6 +32954,28 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "save_as",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "disk",
+      "multimedia",
+      "file",
+      "floppy",
+      "document",
+      "save",
+      "edit"
+    ],
+    "category": [
+      "content"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "saved_search",
     "do": "",
     "dont": "",
@@ -30540,6 +33027,26 @@
     "date": "03/03/2021",
     "hasOutlined": true,
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "scale",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "equipment",
+      "kitchen",
+      "weight",
+      "shipping",
+      "kilogram"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "scanner",
@@ -31287,6 +33794,26 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "send_time_extension",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "addon",
+      "calendar",
+      "date",
+      "extension",
+      "schedule"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "send_to_mobile",
     "do": "",
     "dont": "",
@@ -31975,6 +34502,29 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "shield_moon",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "certified",
+      "document",
+      "legal",
+      "policy",
+      "protection",
+      "secure",
+      "security",
+      "shield"
+    ],
+    "category": [
+      "home"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "shop",
     "do": "",
     "dont": "",
@@ -32114,6 +34664,42 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "shopping_cart_checkout",
+    "name": "shopping_cart_checkout",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "buy",
+      "bill",
+      "pay",
+      "dollars",
+      "commerce",
+      "cart",
+      "money",
+      "online",
+      "currency",
+      "payment",
+      "credit",
+      "cash",
+      "checkout",
+      "card",
+      "coin",
+      "shopping",
+      "market",
+      "shop",
+      "grocery",
+      "store",
+      "local"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
   },
   {
     "name": "short_text",
@@ -32584,6 +35170,26 @@
     "type": "static",
     "label": "None",
     "date": "03/03/2021"
+  },
+  {
+    "name": "signpost",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrows",
+      "country",
+      "direction",
+      "navigation",
+      "pointer"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "08/11/2021"
   },
   {
     "name": "sim_card",
@@ -33253,6 +35859,27 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "soup_kitchen",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "utensil",
+      "bowl",
+      "chinese",
+      "food",
+      "ladle",
+      "spoon"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "source",
     "do": "",
     "dont": "",
@@ -33292,6 +35919,23 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "fileName": "south_america",
+    "name": "south_america",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "capital",
+      "country",
+      "place"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "fileName": "south_east",
@@ -33552,6 +36196,26 @@
     "type": "static",
     "label": "None",
     "date": "03/03/2021"
+  },
+  {
+    "name": "spoke",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "central",
+      "connection",
+      "hub",
+      "server",
+      "network"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "fileName": "sports",
@@ -33824,6 +36488,28 @@
     "date": "30/11/2020"
   },
   {
+    "fileName": "sports_martial_arts",
+    "name": "sports_martial_arts",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "uniform",
+      "hobby",
+      "exercise",
+      "self defense",
+      "black belt",
+      "karate",
+      "training",
+      "kungfu"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
     "name": "sports_mma",
     "do": "",
     "dont": "",
@@ -33999,6 +36685,27 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "square",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "block",
+      "layout",
+      "rectangle",
+      "square",
+      "shape",
+      "geometry"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "fileName": "square_foot",
     "name": "square_foot",
     "do": "",
@@ -34020,6 +36727,33 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "fileName": "ssid_chart",
+    "name": "ssid_chart",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "analytics",
+      "bar",
+      "bars",
+      "chart",
+      "data",
+      "diagram",
+      "graph",
+      "infographic",
+      "measure",
+      "metrics",
+      "stacked",
+      "statistics",
+      "tracking"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "name": "stacked_bar_chart",
@@ -34066,6 +36800,28 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "name": "stadium",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arena",
+      "concert",
+      "sporting",
+      "sports",
+      "stade",
+      "building",
+      "game"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "08/11/2021"
   },
   {
     "name": "stairs",
@@ -34150,6 +36906,25 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "start",
+    "name": "start",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "control",
+      "play",
+      "arrow",
+      "control",
+      "play"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "fileName": "stay_current_landscape",
@@ -34994,6 +37769,263 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "swipe_down",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "gesture",
+      "scroll",
+      "slide",
+      "vertical",
+      "direction",
+      "touch",
+      "hand"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "swipe_down_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "back",
+      "vertical",
+      "circle",
+      "direction"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "swipe_left",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "gesture",
+      "scroll",
+      "slide",
+      "vertical",
+      "direction",
+      "touch",
+      "hand"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "swipe_left_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "right",
+      "vertical",
+      "circle",
+      "direction"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "swipe_right",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "gesture",
+      "scroll",
+      "slide",
+      "vertical",
+      "direction",
+      "touch",
+      "hand"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "swipe_right_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "arrows",
+      "right",
+      "vertical",
+      "circle",
+      "direction"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "swipe_up",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "gesture",
+      "scroll",
+      "slide",
+      "vertical",
+      "direction",
+      "touch",
+      "hand"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "swipe_up_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "gesture",
+      "scroll",
+      "slide",
+      "vertical",
+      "direction",
+      "touch",
+      "circle"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "swipe_vertical",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "arrow",
+      "gesture",
+      "scroll",
+      "slide",
+      "vertical",
+      "direction",
+      "touch",
+      "hand",
+      "up"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "switch_access_shortcut",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "choices",
+      "face",
+      "human",
+      "multiple",
+      "options",
+      "people",
+      "person",
+      "profile",
+      "social",
+      "switch",
+      "user"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "switch_access_shortcut_add",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "account",
+      "choices",
+      "face",
+      "human",
+      "multiple",
+      "options",
+      "people",
+      "person",
+      "profile",
+      "social",
+      "switch",
+      "user",
+      "new"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "switch_account",
     "do": "",
     "dont": "",
@@ -35094,6 +38126,26 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "synagogue",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cathedral",
+      "chapel",
+      "church",
+      "religious",
+      "building"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "fileName": "sync",
     "name": "sync",
     "do": "",
@@ -35149,6 +38201,27 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "sync_lock",
+    "name": "sync_lock",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "refresh",
+      "reload",
+      "update",
+      "off",
+      "arrow",
+      "padlock",
+      "secure"
+    ],
+    "category": [
+      "notification"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "fileName": "sync_problem",
@@ -35315,6 +38388,30 @@
     "date": "30/11/2020"
   },
   {
+    "name": "table_bar",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bar",
+      "design",
+      "furniture",
+      "household",
+      "out side",
+      "interior",
+      "catering",
+      "food",
+      "meal"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "table_chart",
     "do": "",
     "dont": "",
@@ -35340,6 +38437,29 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "table_restaurant",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "dinner",
+      "furniture",
+      "counter",
+      "drink",
+      "interior",
+      "catering",
+      "food",
+      "meal"
+    ],
+    "category": [
+      "search"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "table_rows",
@@ -35640,6 +38760,50 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "temple_buddhist",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "temple",
+      "travel",
+      "pagoda",
+      "asia",
+      "religious",
+      "monk",
+      "religion",
+      "stupa"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "temple_hindu",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "building",
+      "religion",
+      "god",
+      "worship",
+      "belief",
+      "indian"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "terrain",
     "do": "",
     "dont": "",
@@ -35656,6 +38820,32 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "text_decrease",
+    "name": "text_decrease",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "input",
+      "symbol",
+      "character",
+      "field",
+      "letter",
+      "alphabet",
+      "text",
+      "type",
+      "font",
+      "remove",
+      "small"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "fileName": "text_fields",
@@ -35703,6 +38893,31 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "fileName": "text_increase",
+    "name": "text_increase",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "add",
+      "input",
+      "symbol",
+      "character",
+      "field",
+      "letter",
+      "alphabet",
+      "text",
+      "type",
+      "font",
+      "big"
+    ],
+    "category": [
+      "editor"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "name": "text_rotate_up",
@@ -36461,6 +39676,27 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "token",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "digital",
+      "coin",
+      "crypto",
+      "cryptocurrency",
+      "admission",
+      "ticket"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "fileName": "toll",
@@ -37343,6 +40579,28 @@
     "date": "03/03/2021"
   },
   {
+    "name": "vaccines",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "injection",
+      "syringe",
+      "treatment",
+      "vaccination",
+      "Medicine",
+      "antivirus",
+      "serum"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "verified",
     "do": "",
     "dont": "",
@@ -37595,6 +40853,32 @@
     "date": "03/03/2021",
     "hasOutlined": true,
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "video_file",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Video",
+      "screen",
+      "label",
+      "device",
+      "film",
+      "media",
+      "movie",
+      "play",
+      "cam",
+      "camera",
+      "document"
+    ],
+    "category": [
+      "av"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "08/11/2021"
   },
   {
     "fileName": "video_label",
@@ -37853,6 +41137,26 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "view_comfy_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "grid",
+      "ratio",
+      "layout format",
+      "screen",
+      "zoom"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "view_compact",
     "do": "",
     "dont": "",
@@ -37870,6 +41174,48 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "view_compact_alt",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "grid",
+      "layout format",
+      "screen",
+      "photography",
+      "dashboard"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
+    "name": "view_cozy",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "calendar",
+      "view",
+      "cards",
+      "week",
+      "format",
+      "carousel",
+      "day"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "view_day",
@@ -37935,6 +41281,29 @@
     "date": "03/03/2021",
     "hasOutlined": true,
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "view_kanban",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Card",
+      "layout",
+      "stack",
+      "trello",
+      "agile",
+      "development",
+      "lean",
+      "product management"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "08/11/2021"
   },
   {
     "name": "view_list",
@@ -38047,6 +41416,26 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "view_timeline",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "eye",
+      "search",
+      "find",
+      "Magnifier",
+      "Zoom"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "08/11/2021"
   },
   {
     "name": "view_week",
@@ -38365,6 +41754,30 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "vpn_key_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "password",
+      "code",
+      "unlock",
+      "Vpn",
+      "lock",
+      "key",
+      "passcode",
+      "delete",
+      "cancel"
+    ],
+    "category": [
+      "communication"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "08/11/2021"
+  },
+  {
     "name": "vpn_lock",
     "do": "",
     "dont": "",
@@ -38483,6 +41896,25 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "watch_off",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "device",
+      "time",
+      "clock",
+      "cancel"
+    ],
+    "category": [
+      "hardware"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "fileName": "water",
@@ -38821,6 +42253,24 @@
     "date": "03/03/2021"
   },
   {
+    "fileName": "webhook",
+    "name": "webhook",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "Web hacking",
+      "web phishing",
+      "account phishing",
+      "web steal"
+    ],
+    "category": [
+      "action"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "08/11/2021"
+  },
+  {
     "name": "weekend",
     "do": "",
     "dont": "",
@@ -38859,6 +42309,26 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "fileName": "whatsapp",
+    "name": "whatsapp",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "bubble",
+      "chat",
+      "mobile",
+      "application",
+      "media",
+      "social"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "name": "whatshot",
@@ -39002,6 +42472,46 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "wifi_channel",
+    "name": "wifi_channel",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "communication",
+      "router",
+      "multiply",
+      "digital",
+      "information",
+      "internet",
+      "media"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
+    "name": "wifi_find",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "internet",
+      "link",
+      "network",
+      "search"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "name": "wifi_lock",
     "do": "",
     "dont": "",
@@ -39057,6 +42567,32 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "name": "wifi_password",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "lock",
+      "internet",
+      "secure",
+      "passkey",
+      "Key",
+      "security",
+      "cyber",
+      "encryption",
+      "network",
+      "protection",
+      "padlock"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
+  },
+  {
     "fileName": "wifi_protected_setup",
     "name": "wifi_protected_setup",
     "do": "",
@@ -39094,6 +42630,37 @@
     ],
     "type": "static",
     "date": "30/11/2020"
+  },
+  {
+    "fileName": "wifi_tethering_error",
+    "name": "wifi_tethering_error",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "cell",
+      "cellular",
+      "data",
+      "disabled",
+      "enabled",
+      "error",
+      "internet",
+      "mobile",
+      "network",
+      "off",
+      "on",
+      "phone",
+      "slash",
+      "speed",
+      "tethering",
+      "wifi",
+      "wireless"
+    ],
+    "category": [
+      "device"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "fileName": "wifi_tethering_error_rounded",
@@ -39204,6 +42771,25 @@
     "dateOutlined": "06/04/2021"
   },
   {
+    "fileName": "woman",
+    "name": "woman",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "female",
+      "gender",
+      "girl",
+      "avatar",
+      "person"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
+  },
+  {
     "name": "work",
     "do": "",
     "dont": "",
@@ -39245,6 +42831,27 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "name": "workspace_premium",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "coworking",
+      "office",
+      "sharing",
+      "together",
+      "circle",
+      "people"
+    ],
+    "category": [
+      "social"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021",
+    "hasOutlined": true,
+    "dateOutlined": "01/11/2021"
   },
   {
     "name": "workspaces",
@@ -39402,6 +43009,31 @@
     "hasOutlined": true,
     "date": "30/11/2020",
     "dateOutlined": "06/04/2021"
+  },
+  {
+    "fileName": "zoom_in_map",
+    "name": "zoom_in_map",
+    "do": "",
+    "dont": "",
+    "tags": [
+      "big",
+      "glass",
+      "grow",
+      "size",
+      "in",
+      "bigger",
+      "scale",
+      "zoom",
+      "magnify",
+      "magnifying",
+      "plus"
+    ],
+    "category": [
+      "maps"
+    ],
+    "type": "static",
+    "label": "None",
+    "date": "01/11/2021"
   },
   {
     "fileName": "zoom_out",
