@@ -54,8 +54,8 @@ const renameSvgTo = async (originalFile, filePath, otherFilePath) => {
       ])
       .then((data) => {
         return fs.rename(
-          `${filePath}/${originalFile}.svg`,
-          `${filePath}/${data.name}.svg`,
+          `.${filePath}/${originalFile}.svg`,
+          `.${filePath}/${data.name}.svg`,
           function (err) {
             if (err) console.log(`ERROR: ${err}`)
             console.log(

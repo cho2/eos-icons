@@ -42259,9 +42259,10 @@ const eosIcons = [
     "dont": "",
     "tags": [
       "Web hacking",
-      "web phishing",
-      "account phishing",
-      "web steal"
+      "web",
+      "account",
+      "web steal",
+      "phishing"
     ],
     "category": [
       "action"

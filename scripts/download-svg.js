@@ -128,7 +128,7 @@ const addDuplicateName = (duplicateIconName) => {
   const testData = JSON.parse(
     fs.readFileSync('./scripts/duplicated_icons.json', 'utf8')
   )
-  testData.push(duplicateIconName)
+  testData.filled.push(duplicateIconName)
   fs.writeFileSync(
     `./scripts/duplicated_icons.json`,
     JSON.stringify(testData, null, 2)
